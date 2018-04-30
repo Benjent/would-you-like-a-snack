@@ -1,0 +1,152 @@
+// Reset
+
+body {
+    border: 0;
+    margin: 0;
+}
+
+button {
+    background: none;
+    border: 0;
+    color: inherit;
+    /* cursor: default; */
+    font: inherit;
+    line-height: normal;
+    overflow: visible;
+    padding: 0;
+}
+
+// Fonts
+
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow');
+
+// Values
+
+$cream: #d7e4da;
+$brown: #674e47;
+$dark: #402e2c;
+$black: #030504;
+$gold: #a18a54;
+// $navHeight: 30vh;
+
+// Main
+
+body {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 2rem;
+    color: $gold;
+
+    // background: $cream;
+    // background-image: url("../img/cardump.png");
+    // background-position: bottom;
+    // background-repeat: no-repeat;
+    // background-size: 100%;
+
+    // background: linear-gradient($brown, $cream);
+
+    background: $black;
+    overflow: hidden;
+
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    // background-image: url("../img/airplane.png");
+    background-position: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    background: $black;
+
+    h1 {
+        display: block;
+        width: 100%;
+    }
+
+    #goldenBar {
+        height: 10px;
+        width: 100%;
+        background: $gold;
+    }
+}
+
+// Vinyl
+
+@keyframes spinning {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+.spinning {
+    animation: spinning 30s linear infinite;
+}
+
+.spinning-vinyl {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: -100px;
+    bottom: 0;
+    z-index: -1;
+    filter: grayscale(20%);
+}
+
+// Content
+
+#albumVue {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    #randomButton {
+        width: 200px;
+        border: solid 3px $gold;
+        margin: auto 0;
+        padding: 5px;
+
+        &:hover {
+            cursor: pointer;
+            background: $gold;
+            color: $black; 
+        }
+    }
+
+    .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+        .album-metadata {
+            text-align: right;
+            width: 50%;
+        }
+    
+        img {
+            width: 300px;
+            height: 300px;
+            margin: 50px;
+            // box-shadow: 0px 0px 0px 10px $gold;
+            border: solid 5px $gold;
+        }
+    
+        .album-criteria {
+            width: 50%;
+        }
+    }
+}
+
+#player {
+    display: block;
+    margin: 0 auto;
+    border: solid 5px $gold;
+}

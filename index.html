@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Would you like a snack</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="todo" />
+        <!-- <link rel="icon" type="image/ico" href="assets/public/img/code.ico">  -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <link rel="stylesheet" href="style/style.css">
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    </head>
+    <!-- <body onload="handleBodyLoad()"> -->
+    <body>
+
+        <header>
+            <h1>Would you like a snack</h1>
+            <div id="goldenBar"></div>
+        </header>
+
+        <img class="spinning-vinyl spinning" src="img/vinyle gold.png" alt="">
+
+        <section id="albumVue">
+
+            <button id="randomButton" v-on:click="randomizeAlbum">Surprise me</button>
+
+            <div class="content">
+                <div class="album-metadata">
+                    <div class="album-title">{{album.title}}</div>
+                    <div class="album-year">{{album.year}}</div>
+                    <div class="album-country">{{album.country}}</div>
+                    <div class="album-selected-track">Selected track: {{album.selectedTrackTitle}}</div>
+                </div>
+                <img v-bind:src=album.cover alt="">
+                <div class="album-criteria">
+                    <div class="album-criterium" v-for="criterium in computedCriteria">{{criterium}}</div>
+                </div>
+            </div>
+        </section>
+
+        <div id="player"></div>
+
+        <!-- <footer></footer> -->
+
+        <script type="text/javascript" src="js/albums.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+    
+</html>
