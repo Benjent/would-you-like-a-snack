@@ -28,13 +28,15 @@ var albumVue = new Vue({
       },
       randomizeAlbum: function() {
         let min = Math.ceil(0);
-        let max = Math.floor(albums.length -1);
+        let max = Math.floor(albums.length);
         let albumId = selectedAlbumId; // Default
         while(albumId == selectedAlbumId) {
           albumId = Math.floor(Math.random() * (max - min)) + min; // Randomize id
         }
         this.album = albums[albumId];
         selectedAlbumId = albumId;
+        player.loadVideoById(this.album.selectedTrackYtId);
+        player.stopVideo()
       }
     }
 })
@@ -78,10 +80,4 @@ function onPlayerStateChange(event) {
 }
 function stopVideo() {
   player.stopVideo()
-}
-
-function randomize() {
-  // albumVue.computed.setAlbum(0);
-  // console.log(albumVue.setAlbum(0));
-  // albumVue.album.set(albums[0]);
 }

@@ -23,15 +23,17 @@
 
             <button id="randomButton" v-on:click="randomizeAlbum">Surprise me</button>
 
-            <div class="album-metadata">
-                <div class="album-title">{{album.title}}</div>
-                <div class="album-year">{{album.year}}</div>
-                <div class="album-country">{{album.country}}</div>
-                <div class="album-selected-track">Selected track: {{album.selectedTrackTitle}}</div>
-            </div>
-            <img v-bind:src=album.cover alt="">
-            <div class="album-criteria">
-                <div class="album-criterium" v-for="criterium in computedCriteria">{{criterium}}</div>
+            <div class="content">
+                <div class="album-metadata">
+                    <div class="album-title">{{album.title}}</div>
+                    <div class="album-year">{{album.year}}</div>
+                    <div class="album-country">{{album.country}}</div>
+                    <div class="album-selected-track">Selected track: {{album.selectedTrackTitle}}</div>
+                </div>
+                <img v-bind:src=album.cover alt="">
+                <div class="album-criteria">
+                    <div class="album-criterium" v-for="criterium in computedCriteria">{{criterium}}</div>
+                </div>
             </div>
         </section>
 

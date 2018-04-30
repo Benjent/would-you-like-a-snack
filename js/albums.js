@@ -43,14 +43,5 @@ const albums = [
         "criteria": [2, 5, 10, 17, 18],
         "selectedTrackTitle": "Fountain",
         "selectedTrackYtId": "To2NXcCRC58"
-    },
-    {
-        "title": "Meddle",
-        "year": 1973,
-        "country": "England",
-        "cover": "img/covers/Badger One Live Badger.jpg",
-        "criteria": [2, 5, 10, 17, 18],
-        "selectedTrackTitle": "Fountain",
-        "selectedTrackYtId": "To2NXcCRC58"
     }
 ]
