@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css?family=Archivo+Narrow");
+body {
+  border: 0;
+  margin: 0;
+}
+
+button {
+  background: none;
+  border: 0;
+  color: inherit;
+  /* cursor: default; */
+  font: inherit;
+  line-height: normal;
+  overflow: visible;
+  padding: 0;
+}
+
+body {
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 2rem;
+  color: #a18a54;
+  background: #030504;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+}
+
+header {
+  background-position: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  background: #030504;
+}
+
+header h1 {
+  display: block;
+  width: 100%;
+}
+
+header #goldenBar {
+  height: 10px;
+  width: 100%;
+  background: #a18a54;
+}
+
+@keyframes spinning {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spinning {
+  animation: spinning 30s linear infinite;
+}
+
+.spinning-vinyl {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: -100px;
+  bottom: 0;
+  z-index: -1;
+  filter: grayscale(20%);
+}
+
+#albumVue {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#albumVue #randomButton {
+  width: 200px;
+  position: relative;
+  border: solid 3px #a18a54;
+  top: 0px;
+  padding: 5px;
+}
+
+#albumVue #randomButton:hover {
+  cursor: pointer;
+  background: #a18a54;
+  color: #030504;
+}
+
+#albumVue .album-metadata {
+  text-align: right;
+  width: 50%;
+}
+
+#albumVue img {
+  width: 300px;
+  height: 300px;
+  margin: 50px;
+  border: solid 5px #a18a54;
+}
+
+#albumVue .album-criteria {
+  width: 50%;
+}
+
+#player {
+  display: block;
+  margin: 0 auto;
+  border: solid 5px #a18a54;
+}
