@@ -1,5 +1,8 @@
 
-let selectedAlbumId = 1;
+// Randomize default album
+let min = Math.ceil(0);
+let max = Math.floor(albums.length);
+let selectedAlbumId = Math.floor(Math.random() * (max - min)) + min; // Randomize id
 
 // Album vue
 

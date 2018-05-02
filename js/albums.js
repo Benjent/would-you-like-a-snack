@@ -19,7 +19,7 @@ const albums = [
         "year": 1973,
         "country": "England",
         "cover": "img/covers/badger_one_live_badger.jpg",
-        "criteria": [2, 6, 11, 18, 21, 29],
+        "criteria": [0, 3, 7, 12, 22, 26],
         "selectedTrackTitle": "Fountain",
         "selectedTrackYtId": "To2NXcCRC58"
     },
