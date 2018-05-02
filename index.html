@@ -14,7 +14,7 @@
 
         <header>
             <h1>Would you like a snack</h1>
-            <div id="goldenBar"></div>
+            <!-- <div id="goldenBar"></div> -->
         </header>
 
         <img class="spinning-vinyl spinning" src="img/vinyle gold.png" alt="">
@@ -26,9 +26,11 @@
             <div class="content">
                 <div class="album-metadata">
                     <div class="album-title">{{album.title}}</div>
+                    <div class="album-artist">{{album.artist}}</div>
                     <div class="album-year">{{album.year}}</div>
                     <div class="album-country">{{album.country}}</div>
                     <div class="album-selected-track">Selected track: {{album.selectedTrackTitle}}</div>
+                    <div id="player"></div>
                 </div>
                 <img v-bind:src=album.cover alt="">
                 <div class="album-criteria">
@@ -37,10 +39,11 @@
             </div>
         </section>
 
-        <div id="player"></div>
+        <footer id="timelineVue">
+            <img v-for="album in albums" v-bind:id="album.id" v-bind:src=album.cover v-on:click="randomizeAlbum($event)" alt="">
+        </footer>
 
-        <!-- <footer></footer> -->
-
+        <script type="text/javascript" src="js/criteria.js"></script>
         <script type="text/javascript" src="js/albums.js"></script>
         <script src="js/main.js"></script>
     </body>

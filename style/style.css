@@ -4,6 +4,10 @@ body {
   margin: 0;
 }
 
+h1 {
+  margin: 0;
+}
+
 button {
   background: none;
   border: 0;
@@ -26,16 +30,17 @@ body {
 }
 
 header {
+  height: 15vh;
   background-position: 50%;
   text-align: center;
   display: flex;
   flex-direction: column;
-  margin-bottom: 50px;
+  justify-content: center;
   background: #030504;
+  border-bottom: solid 10px #a18a54;
 }
 
 header h1 {
-  display: block;
   width: 100%;
 }
 
@@ -71,17 +76,17 @@ header #goldenBar {
 
 #albumVue {
   width: 100vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  height: 50vh;
 }
 
 #albumVue #randomButton {
   width: 200px;
   border: solid 3px #a18a54;
-  margin: auto 0;
+  margin: 0 auto;
   padding: 5px;
+  background: #030504;
+  display: block;
+  margin-top: 50px;
 }
 
 #albumVue #randomButton:hover {
@@ -100,6 +105,9 @@ header #goldenBar {
 #albumVue .content .album-metadata {
   text-align: right;
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: right;
 }
 
 #albumVue .content img {
@@ -115,6 +123,17 @@ header #goldenBar {
 
 #player {
   display: block;
-  margin: 0 auto;
   border: solid 5px #a18a54;
+  margin-top: 10px;
+}
+
+#timelineVue {
+  display: flex;
+  overflow-x: scroll;
+  border-top: solid 10px #a18a54;
+}
+
+#timelineVue img {
+  height: 150px;
+  width: 150px;
 }

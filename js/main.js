@@ -1,11 +1,10 @@
-// var app = new Vue({
-//     el: '#app',
-//     data: {
-//         message: 'Hello Vue!'
-//     }
-// })
 
-let selectedAlbumId = 1;
+// Randomize default album
+let min = Math.ceil(0);
+let max = Math.floor(albums.length);
+let selectedAlbumId = Math.floor(Math.random() * (max - min)) + min; // Randomize id
+
+// Album vue
 
 var albumVue = new Vue({
     el: '#albumVue',
@@ -41,19 +40,19 @@ var albumVue = new Vue({
     }
 })
 
-// 2. This code loads the IFrame Player API code asynchronously.
-var tag = document.createElement('script');
+// Youtube Player
 
+// Load the IFrame Player API code asynchronously
+var tag = document.createElement('script');
 tag.src = "https://www.youtube.com/iframe_api";
 var firstScriptTag = document.getElementsByTagName('script')[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
-// 3. This function creates an <iframe> (and YouTube player)
-//    after the API code downloads.
+// Create <iframe> (and YouTube player) after the API code downloads
 var player;
 function onYouTubeIframeAPIReady() {
   player = new YT.Player('player', {
-    height: '170',
+    height: '70',
     width: '300',
     videoId: albumVue.album.selectedTrackYtId,
     events: {
@@ -63,21 +62,38 @@ function onYouTubeIframeAPIReady() {
   });
 }
 
-// 4. The API will call this function when the video player is ready.
 function onPlayerReady(event) {
 //   event.target.playVideo();
 }
 
-// 5. The API calls this function when the player's state changes.
-//    The function indicates that when playing a video (state=1),
-//    the player should play for six seconds and then stop.
+// Video is being played <=> state=1
 var done = false;
 function onPlayerStateChange(event) {
   if (event.data == YT.PlayerState.PLAYING && !done) {
-    // setTimeout(stopVideo, 6000);
     done = true;
   }
 }
 function stopVideo() {
   player.stopVideo()
 }
+
+// Timeline vue
+
+var timelineVue = new Vue({
+  el: '#timelineVue',
+  data: {
+      albums: albums
+  },
+  methods: {
+    randomizeAlbum: function(event) {
+      let clickedId = event.target.id
+      albumVue.album = getAlbumById(clickedId);
+      player.loadVideoById(albumVue.album.selectedTrackYtId);
+      player.stopVideo()
+    }
+  }
+})
+
+// TODO on each albumTimeline click -> randomize a set of n albums, display them
+// So not really a timeline but rather random albums
+// Create another page for the timeline
