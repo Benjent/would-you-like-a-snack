@@ -52,7 +52,7 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 var player;
 function onYouTubeIframeAPIReady() {
   player = new YT.Player('player', {
-    height: '44',
+    height: '70',
     width: '300',
     videoId: albumVue.album.selectedTrackYtId,
     events: {
@@ -88,8 +88,12 @@ var timelineVue = new Vue({
     randomizeAlbum: function(event) {
       let clickedId = event.target.id
       albumVue.album = getAlbumById(clickedId);
-      player.loadVideoById(this.album.selectedTrackYtId);
+      player.loadVideoById(albumVue.album.selectedTrackYtId);
       player.stopVideo()
     }
   }
 })
+
+// TODO on each albumTimeline click -> randomize a set of n albums, display them
+// So not really a timeline but rather random albums
+// Create another page for the timeline

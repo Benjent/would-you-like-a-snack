@@ -76,7 +76,7 @@ header #goldenBar {
 
 #albumVue {
   width: 100vw;
-  height: 60vh;
+  height: 50vh;
 }
 
 #albumVue #randomButton {
@@ -130,6 +130,7 @@ header #goldenBar {
 #timelineVue {
   display: flex;
   overflow-x: scroll;
+  border-top: solid 10px #a18a54;
 }
 
 #timelineVue img {
