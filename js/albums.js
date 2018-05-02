@@ -1,56 +1,5 @@
-const criteria = [
-    
-    "Concept album",                                // 0
-    "Storyline",                                    // 1
-
-    "Odd rhythm signatures",                        // 2
-    "Technical",                                    // 3
-    "Experimental",                                 // 4
-    "Mainly instrumental",                          // 5
-    "Jam-oriented",                                 // 6
-    "Lengthy tracks",                               // 7
-    "Tracks have transitions",                      // 8
-    "Symphonic",                                    // 9
-    "Rather soft",                                  // 10
-    "Live album",                                   // 11
-    "Oriental",                                   // 11
-    "Ambient",                                   // 11
-    "Uncommon instruments",                                   // 11
-
-    "Uses sound collages",                          // 12
-    "Blends many music genres",                     // 13
-    "Contains psychedelic elements",                // 14
-    "Contains jazz elements",                       // 15
-    "Contains electronic elements",                 // 16
-    "Contains folk elements",                       // 17
-    "Rock-based with a Prog touch",                 // 18
-    "Jazz-based with a Prog touch",                 // 19
-
-    "Old-school",                                   // 20
-    "Sound of the late 60's",                       // 20
-    "Sound of the early 70's",                      // 21
-    "Sound of the late 70's",                       // 22
-    "Sound of the 80's",                            // 23
-    "Modern",                                       // 24
-
-    "Spectacular",                                  // 25
-    "Humble",                                       // 26
-
-    "Sci-fi",                                       // 27
-    "Medieval",                                     // 28
-    "Fantasy",                                      // 
-    "Funny",                                      // 
-
-    "Italian sung",                                      // 
-    "French sung",                                      // 
-    "Spanish sung",                                      // 
-    "Zeuhl",                                      // 
-
-    "Easy to grasp musically"                       // 29
-]
 
 // TODO penser à faire une Map ?
-
 const albums = [
     {
         "id": "pink_floyd_dark_side_of_the_moon",
@@ -59,7 +8,7 @@ const albums = [
         "year": 1973,
         "country": "England",
         "cover": "img/covers/pink_floyd_dark_side_of_the_moon.jpg",
-        "criteria": [0, 2, 10, 12, 16, 21],
+        "criteria": [1, 3, 9, 11, 16, 20, 26, 30],
         "selectedTrackTitle": "Time",
         "selectedTrackYtId": "rL3AgkwbYgo"
     },

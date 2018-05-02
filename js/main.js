@@ -1,6 +1,8 @@
 
 let selectedAlbumId = 1;
 
+// Album vue
+
 var albumVue = new Vue({
     el: '#albumVue',
     data: {
@@ -35,19 +37,19 @@ var albumVue = new Vue({
     }
 })
 
-// 2. This code loads the IFrame Player API code asynchronously.
-var tag = document.createElement('script');
+// Youtube Player
 
+// Load the IFrame Player API code asynchronously
+var tag = document.createElement('script');
 tag.src = "https://www.youtube.com/iframe_api";
 var firstScriptTag = document.getElementsByTagName('script')[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
-// 3. This function creates an <iframe> (and YouTube player)
-//    after the API code downloads.
+// Create <iframe> (and YouTube player) after the API code downloads
 var player;
 function onYouTubeIframeAPIReady() {
   player = new YT.Player('player', {
-    height: '170',
+    height: '44',
     width: '300',
     videoId: albumVue.album.selectedTrackYtId,
     events: {
@@ -57,18 +59,14 @@ function onYouTubeIframeAPIReady() {
   });
 }
 
-// 4. The API will call this function when the video player is ready.
 function onPlayerReady(event) {
 //   event.target.playVideo();
 }
 
-// 5. The API calls this function when the player's state changes.
-//    The function indicates that when playing a video (state=1),
-//    the player should play for six seconds and then stop.
+// Video is being played <=> state=1
 var done = false;
 function onPlayerStateChange(event) {
   if (event.data == YT.PlayerState.PLAYING && !done) {
-    // setTimeout(stopVideo, 6000);
     done = true;
   }
 }
@@ -76,21 +74,19 @@ function stopVideo() {
   player.stopVideo()
 }
 
+// Timeline vue
+
 var timelineVue = new Vue({
   el: '#timelineVue',
   data: {
       albums: albums
   },
   methods: {
-    setAlbum: function(albumId) {
-      // console.log(albumId);
-      // this.album = albums[albumId];
-    },
     randomizeAlbum: function(event) {
       let clickedId = event.target.id
-      console.log(clickedId);
-      // console.log(getAlbumById(clickedId).selectedTrackTitle);
       albumVue.album = getAlbumById(clickedId);
+      player.loadVideoById(this.album.selectedTrackYtId);
+      player.stopVideo()
     }
   }
 })
