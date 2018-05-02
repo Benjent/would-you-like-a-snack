@@ -1,9 +1,3 @@
-// var app = new Vue({
-//     el: '#app',
-//     data: {
-//         message: 'Hello Vue!'
-//     }
-// })
 
 let selectedAlbumId = 1;
 
@@ -81,3 +75,22 @@ function onPlayerStateChange(event) {
 function stopVideo() {
   player.stopVideo()
 }
+
+var timelineVue = new Vue({
+  el: '#timelineVue',
+  data: {
+      albums: albums
+  },
+  methods: {
+    setAlbum: function(albumId) {
+      // console.log(albumId);
+      // this.album = albums[albumId];
+    },
+    randomizeAlbum: function(event) {
+      let clickedId = event.target.id
+      console.log(clickedId);
+      // console.log(getAlbumById(clickedId).selectedTrackTitle);
+      albumVue.album = getAlbumById(clickedId);
+    }
+  }
+})

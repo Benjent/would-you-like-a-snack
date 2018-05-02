@@ -26,6 +26,7 @@
             <div class="content">
                 <div class="album-metadata">
                     <div class="album-title">{{album.title}}</div>
+                    <div class="album-artist">{{album.artist}}</div>
                     <div class="album-year">{{album.year}}</div>
                     <div class="album-country">{{album.country}}</div>
                     <div class="album-selected-track">Selected track: {{album.selectedTrackTitle}}</div>
@@ -39,7 +40,9 @@
 
         <div id="player"></div>
 
-        <!-- <footer></footer> -->
+        <footer id="timelineVue">
+            <img v-for="album in albums" v-bind:id="album.id" v-bind:src=album.cover v-on:click="randomizeAlbum($event)" alt="">
+        </footer>
 
         <script type="text/javascript" src="js/albums.js"></script>
         <script src="js/main.js"></script>
