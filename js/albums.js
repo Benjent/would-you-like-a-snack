@@ -53,8 +53,8 @@ const albums = [
         "country": "England",
         "cover": "img/covers/camel_mirage.jpg",
         "criteria": [3, 8, 11],
-        "selectedTrackTitle": "Fountain",
-        "selectedTrackYtId": "To2NXcCRC58"
+        "selectedTrackTitle": "Freefall",
+        "selectedTrackYtId": "Gcagz8epRN8"
     },
     {
         "id": "jade_warrior_waves",
