@@ -179,13 +179,14 @@ function getAlbumById(id) {
     }
 }
 
-function getRandomAlbumsByLength(numberOfAlbumsInRandomVue) {
+function getRandomAlbumsByLength(numberOfAlbumsInRandomVue, idToAvoid) {
 
     let randomAlbumIds = [];
+
     // Make sure that the databse is big enough... Otherwise infinite loop
     while (randomAlbumIds.length <= numberOfAlbumsInRandomVue) {
         let randomId = randomize();
-        if(!randomAlbumIds.includes(randomId)) {
+        if(!randomAlbumIds.includes(randomId) && albums[randomId].id != idToAvoid) {
             randomAlbumIds.push(randomId);
         }
     }

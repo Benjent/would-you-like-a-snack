@@ -114,7 +114,7 @@ var randomVue = new Vue({
       player.loadVideoById(albumVue.album.selectedTrackYtId);
       player.stopVideo()
       // Randomize
-      this.albums = getRandomAlbumsByLength(numberOfAlbumsInRandomVue).slice(0);
+      this.albums = getRandomAlbumsByLength(numberOfAlbumsInRandomVue, clickedId).slice(0);
     }
   }
 })
