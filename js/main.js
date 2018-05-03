@@ -1,8 +1,13 @@
 
+
+function randomize() {
+  let min = Math.ceil(0);
+  let max = Math.floor(albums.length);
+  return Math.floor(Math.random() * (max - min)) + min; // Randomize id
+}
+
 // Randomize default album
-let min = Math.ceil(0);
-let max = Math.floor(albums.length);
-let selectedAlbumId = Math.floor(Math.random() * (max - min)) + min; // Randomize id
+let selectedAlbumId = randomize();
 
 // Album vue
 
@@ -26,11 +31,9 @@ var albumVue = new Vue({
         this.album = albums[albumId];
       },
       randomizeAlbum: function() {
-        let min = Math.ceil(0);
-        let max = Math.floor(albums.length);
         let albumId = selectedAlbumId; // Default
         while(albumId == selectedAlbumId) {
-          albumId = Math.floor(Math.random() * (max - min)) + min; // Randomize id
+          albumId = randomize(); // Randomize id
         }
         this.album = albums[albumId];
         selectedAlbumId = albumId;
@@ -77,19 +80,41 @@ function stopVideo() {
   player.stopVideo()
 }
 
-// Timeline vue
+// // Timeline vue
 
-var timelineVue = new Vue({
-  el: '#timelineVue',
+// var timelineVue = new Vue({
+//   el: '#timelineVue',
+//   data: {
+//       albums: albums
+//   },
+//   methods: {
+//     randomizeAlbum: function(event) {
+//       let clickedId = event.target.id
+//       albumVue.album = getAlbumById(clickedId);
+//       player.loadVideoById(albumVue.album.selectedTrackYtId);
+//       player.stopVideo()
+//     }
+//   }
+// })
+
+let numberOfAlbumsInRandomVue = 11;
+let randomAlbums = getRandomAlbumsByLength(numberOfAlbumsInRandomVue).slice(0);
+
+// Random albums
+var randomVue = new Vue({
+  el: '#randomVue',
   data: {
-      albums: albums
+      albums: randomAlbums
   },
   methods: {
-    randomizeAlbum: function(event) {
+    selectAlbumAndRandomize: function(event) {
+      // Select
       let clickedId = event.target.id
       albumVue.album = getAlbumById(clickedId);
       player.loadVideoById(albumVue.album.selectedTrackYtId);
       player.stopVideo()
+      // Randomize
+      this.albums = getRandomAlbumsByLength(numberOfAlbumsInRandomVue).slice(0);
     }
   }
 })

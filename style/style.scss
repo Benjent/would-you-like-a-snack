@@ -45,6 +45,10 @@ body {
 
     height: 100vh;
     width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 header {
@@ -100,7 +104,7 @@ header {
 #albumVue {
     width: 100vw;
     // height: 100vh - 2 * 15vh;
-    height: 50vh;
+    height: 55vh;
     // display: flex;
     // flex-direction: column;
     // align-items: center;
@@ -152,17 +156,37 @@ header {
 
 #player {
     display: block;
-    border: solid 5px $gold;
-    margin-top: 10px;
+    border: solid 3px $gold;
+    margin-top: 14px;
 }
 
-#timelineVue {
+// #timelineVue {
+//     display: flex;
+//     overflow-x: scroll;
+//     // height: 15vh;
+//     border-top: solid 10px $gold;
+//     img {
+//         height: 150px;
+//         width: 150px;
+
+//         &:hover {
+//             cursor: pointer;
+//         }
+//     }
+// }
+
+$numberOfAlbumsInRandomVue: 11;
+
+#randomVue {
     display: flex;
-    overflow-x: scroll;
     // height: 15vh;
     border-top: solid 10px $gold;
     img {
-        height: 150px;
-        width: 150px;
+        height: 100vw / $numberOfAlbumsInRandomVue;
+        width: 100vw / $numberOfAlbumsInRandomVue;
+
+        &:hover {
+            cursor: pointer;
+        }
     }
 }

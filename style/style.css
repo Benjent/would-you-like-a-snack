@@ -27,6 +27,9 @@ body {
   overflow: hidden;
   height: 100vh;
   width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 header {
@@ -76,7 +79,7 @@ header #goldenBar {
 
 #albumVue {
   width: 100vw;
-  height: 50vh;
+  height: 55vh;
 }
 
 #albumVue #randomButton {
@@ -123,17 +126,20 @@ header #goldenBar {
 
 #player {
   display: block;
-  border: solid 5px #a18a54;
-  margin-top: 10px;
+  border: solid 3px #a18a54;
+  margin-top: 14px;
 }
 
-#timelineVue {
+#randomVue {
   display: flex;
-  overflow-x: scroll;
   border-top: solid 10px #a18a54;
 }
 
-#timelineVue img {
-  height: 150px;
-  width: 150px;
+#randomVue img {
+  height: 9.09091vw;
+  width: 9.09091vw;
+}
+
+#randomVue img:hover {
+  cursor: pointer;
 }
