@@ -178,3 +178,21 @@ function getAlbumById(id) {
         }
     }
 }
+
+function getRandomAlbumsByLength(numberOfAlbumsInRandomVue) {
+
+    let randomAlbumIds = [];
+    // Make sure that the databse is big enough... Otherwise infinite loop
+    while (randomAlbumIds.length <= numberOfAlbumsInRandomVue) {
+        let randomId = randomize();
+        if(!randomAlbumIds.includes(randomId)) {
+            randomAlbumIds.push(randomId);
+        }
+    }
+
+    let randomAlbums = [];
+    for (let i = 0; i < randomAlbumIds.length; i++) {
+        randomAlbums.push(albums[randomAlbumIds[i]]);
+    }
+    return randomAlbums;
+}

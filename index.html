@@ -43,7 +43,7 @@
             <img v-for="album in albums" v-bind:id="album.id" v-bind:src=album.cover v-on:click="randomizeAlbum($event)" alt="">
         </footer> -->
         <footer id="randomVue">
-            <img v-for="album in albums" v-bind:id="album.id" v-bind:src=album.cover v-on:click="randomizeAlbum($event)" alt="">
+            <img v-for="album in albums" v-bind:id="album.id" v-bind:src=album.cover v-on:click="selectAlbumAndRandomize($event)" alt="">
         </footer>
 
         <script type="text/javascript" src="js/criteria.js"></script>
