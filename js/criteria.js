@@ -46,4 +46,9 @@ const criteria = [
     "French sung",                                  // 37
     "Spanish sung",                                 // 38
     "Zeuhl",                                        // 39
+
+    "Rather heavy",                                 // 40
+    "Patchwork of tracks",                          // 41
+    "Jazzy groovy",                                 // 42
+    
 ]

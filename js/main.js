@@ -77,10 +77,26 @@ function stopVideo() {
   player.stopVideo()
 }
 
-// Timeline vue
+// // Timeline vue
 
-var timelineVue = new Vue({
-  el: '#timelineVue',
+// var timelineVue = new Vue({
+//   el: '#timelineVue',
+//   data: {
+//       albums: albums
+//   },
+//   methods: {
+//     randomizeAlbum: function(event) {
+//       let clickedId = event.target.id
+//       albumVue.album = getAlbumById(clickedId);
+//       player.loadVideoById(albumVue.album.selectedTrackYtId);
+//       player.stopVideo()
+//     }
+//   }
+// })
+
+// Random albums
+var randomVue = new Vue({
+  el: '#randomVue',
   data: {
       albums: albums
   },

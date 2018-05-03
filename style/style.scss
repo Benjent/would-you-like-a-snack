@@ -152,17 +152,37 @@ header {
 
 #player {
     display: block;
-    border: solid 5px $gold;
-    margin-top: 10px;
+    border: solid 3px $gold;
+    margin-top: 14px;
 }
 
-#timelineVue {
+// #timelineVue {
+//     display: flex;
+//     overflow-x: scroll;
+//     // height: 15vh;
+//     border-top: solid 10px $gold;
+//     img {
+//         height: 150px;
+//         width: 150px;
+
+//         &:hover {
+//             cursor: pointer;
+//         }
+//     }
+// }
+
+$numberOfAlbumsInRandomVue: 11;
+
+#randomVue {
     display: flex;
-    overflow-x: scroll;
     // height: 15vh;
     border-top: solid 10px $gold;
     img {
-        height: 150px;
-        width: 150px;
+        height: 100vw / $numberOfAlbumsInRandomVue;
+        width: 100vw / $numberOfAlbumsInRandomVue;
+
+        &:hover {
+            cursor: pointer;
+        }
     }
 }
