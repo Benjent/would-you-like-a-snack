@@ -123,6 +123,17 @@ const albums = [
         "selectedTrackYtId": "rL3AgkwbYgo"
     },
     {
+        "id": "pink_floyd_the_wall",
+        "title": "The Wall",
+        "artist": "Pink Floyd",
+        "year": 1979,
+        "country": "England",
+        "cover": "img/covers/pink_floyd_the_wall.jpg",
+        "criteria": [1, 9, 16, 17, 30, 43],
+        "selectedTrackTitle": "The Trial",
+        "selectedTrackYtId": "4fa7AtI1msk"
+    },
+    {
         "id": "shakti_natural_elements",
         "title": "Natural Elements",
         "artist": "Shakti",
@@ -146,18 +157,6 @@ const albums = [
     }
 
     // {
-    //     "id": "pink_floyd_the_wall",
-    //     "title": "The Wall",
-    //     "artist": "Pink Floyd",
-    //     "year": 1979,
-    //     "country": "England",
-    //     "cover": "img/covers/pink_floyd_the_wall.jpg",
-    //     "criteria": [2, 6, 11, 18, 21, 29],
-    //     "selectedTrackTitle": "Fountain",
-    //     "selectedTrackYtId": "To2NXcCRC58"
-    // },
-    // 
-    // {
     //     "id": "frank_zappa_one_size_fits_all",
     //     "title": "One Size Fits All",
     //     "artist": "Frank Zappa",
@@ -171,6 +170,14 @@ const albums = [
     // 
 ]
 
+let artists = [];
+
+for (let i = 0; i < albums.length; i++) {
+    if (!artists.includes(albums[i].artist)) {
+        artists.push(albums[i].artist);
+    }
+}
+
 function getAlbumById(id) {
     for (let i = 0; i < albums.length; i++) {
         if(albums[i].id == id) {
@@ -179,13 +186,14 @@ function getAlbumById(id) {
     }
 }
 
-function getRandomAlbumsByLength(numberOfAlbumsInRandomVue) {
+function getRandomAlbumsByLength(numberOfAlbumsInRandomVue, idToAvoid) {
 
     let randomAlbumIds = [];
+
     // Make sure that the databse is big enough... Otherwise infinite loop
-    while (randomAlbumIds.length <= numberOfAlbumsInRandomVue) {
+    while (randomAlbumIds.length < numberOfAlbumsInRandomVue) {
         let randomId = randomize();
-        if(!randomAlbumIds.includes(randomId)) {
+        if(!randomAlbumIds.includes(randomId) && albums[randomId].id != idToAvoid) {
             randomAlbumIds.push(randomId);
         }
     }

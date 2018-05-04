@@ -1,39 +1,19 @@
-// Reset
-
-body {
-    border: 0;
-    margin: 0;
-}
-
-h1 {
-    margin: 0;
-}
-
-button {
-    background: none;
-    border: 0;
-    color: inherit;
-    /* cursor: default; */
-    font: inherit;
-    line-height: normal;
-    overflow: visible;
-    padding: 0;
-}
+// Imports
+@import 'reset';
 
 // Fonts
-
 @import url('https://fonts.googleapis.com/css?family=Archivo+Narrow');
 
+// Colors
+@import 'colors';
+
 // Values
+@import 'values';
 
-$cream: #d7e4da;
-$brown: #674e47;
-$dark: #402e2c;
-$black: #030504;
-$gold: #a18a54;
-// $navHeight: 30vh;
+// Components
+@import 'components';
 
-// Main
+// Style
 
 body {
     font-family: 'Archivo Narrow', sans-serif;
@@ -41,7 +21,7 @@ body {
     color: $gold;
 
     background: $black;
-    overflow: hidden;
+    overflow-x: hidden;
 
     height: 100vh;
     width: 100vw;
@@ -52,7 +32,7 @@ body {
 }
 
 header {
-    height: 15vh;
+    height: $headerHeight;
     background-position: 50%;
     text-align: center;
     display: flex;
@@ -62,68 +42,34 @@ header {
     background: $black;
     border-bottom: solid 10px $gold;
 
+    button {
+        position: absolute;
+        left: 20px;
+        top: 40px;
+        width: 300px;
+    }
+
     h1 {
         width: 100%;
     }
-
-    #goldenBar {
-        height: 10px;
-        width: 100%;
-        background: $gold;
-    }
 }
 
-// Vinyl
-
-@keyframes spinning {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-}
-
-.spinning {
-    animation: spinning 30s linear infinite;
-}
-
-.spinning-vinyl {
-    position: absolute;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    top: -100px;
-    bottom: 0;
-    z-index: -1;
-    filter: grayscale(20%);
-}
-
-// Content
+// albumVue
 
 #albumVue {
     width: 100vw;
+    overflow: hidden;
+    // height: 100vh - $headerHeight;
+    
     // height: 100vh - 2 * 15vh;
-    height: 55vh;
+    // height: 55vh;
     // display: flex;
     // flex-direction: column;
     // align-items: center;
     // justify-content: center;
-    
-    #randomButton {
-        width: 200px;
-        border: solid 3px $gold;
-        margin: 0 auto;
-        padding: 5px;
-        background: $black;
-        display: block;
-        margin-top: 50px;
 
-        &:hover {
-            cursor: pointer;
-            background: $gold;
-            color: $black; 
-        }
+    #randomButton {
+        margin-top: 50px;
     }
 
     .content {
@@ -138,6 +84,12 @@ header {
             display: flex;
             flex-direction: column;
             align-items: right;
+
+            #player {
+                display: block;
+                border: solid 3px $gold;
+                margin-top: 14px;
+            }
         }
     
         img {
@@ -152,41 +104,60 @@ header {
             width: 50%;
         }
     }
-}
 
-#player {
-    display: block;
-    border: solid 3px $gold;
-    margin-top: 14px;
-}
-
-// #timelineVue {
-//     display: flex;
-//     overflow-x: scroll;
-//     // height: 15vh;
-//     border-top: solid 10px $gold;
-//     img {
-//         height: 150px;
-//         width: 150px;
-
-//         &:hover {
-//             cursor: pointer;
-//         }
-//     }
-// }
-
-$numberOfAlbumsInRandomVue: 11;
-
-#randomVue {
-    display: flex;
-    // height: 15vh;
-    border-top: solid 10px $gold;
-    img {
-        height: 100vw / $numberOfAlbumsInRandomVue;
-        width: 100vw / $numberOfAlbumsInRandomVue;
-
-        &:hover {
-            cursor: pointer;
+    footer {
+        $numberOfAlbumsInRandomVue: 11;
+        display: flex;
+        // height: 15vh;
+        border-top: solid 10px $gold;
+        img {
+            height: 100vw / $numberOfAlbumsInRandomVue;
+            width: 100vw / $numberOfAlbumsInRandomVue;
+    
+            &:hover {
+                cursor: pointer;
+            }
         }
     }
+}
+
+// atticVue
+
+#atticVue {
+    display: flex;
+    flex-wrap: wrap;
+    // height: 100vh - $headerHeight;
+    padding: 50px 20px;
+
+    // Dirty hack
+    #player {
+        display: none;
+    }
+
+    .artist {
+        margin-right: 50px;
+        margin-bottom: 50px;
+
+        &:last-of-type {
+            margin-right: 0;
+        }
+
+        .artist-discography {
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            .album-wrapper {
+                display: flex;
+                flex-direction: column;
+                .album-year {
+                    font-size: 1.2rem;
+                }
+                img {
+                    height: 100px;
+                    width: 100px;
+                }
+            }
+        }
+    }
+
 }
