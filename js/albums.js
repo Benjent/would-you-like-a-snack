@@ -171,6 +171,14 @@ const albums = [
     // 
 ]
 
+let artists = [];
+
+for (let i = 0; i < albums.length; i++) {
+    if (!artists.includes(albums[i].artist)) {
+        artists.push(albums[i].artist);
+    }
+}
+
 function getAlbumById(id) {
     for (let i = 0; i < albums.length; i++) {
         if(albums[i].id == id) {
@@ -184,7 +192,7 @@ function getRandomAlbumsByLength(numberOfAlbumsInRandomVue, idToAvoid) {
     let randomAlbumIds = [];
 
     // Make sure that the databse is big enough... Otherwise infinite loop
-    while (randomAlbumIds.length <= numberOfAlbumsInRandomVue) {
+    while (randomAlbumIds.length < numberOfAlbumsInRandomVue) {
         let randomId = randomize();
         if(!randomAlbumIds.includes(randomId) && albums[randomId].id != idToAvoid) {
             randomAlbumIds.push(randomId);

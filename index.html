@@ -11,38 +11,50 @@
     </head>
     <body>
 
-        <header>
-            <h1>Would you like a snack</h1>
-        </header>
+        <div id="indexVue">
 
-        <img class="spinning-vinyl spinning" src="img/vinyle gold.png" alt="">
+            <header>
+                <button id="atticButton" v-if="currentVue == 'albumVue'" v-on:click="setCurrentVue('atticVue')">What's in the attic</button>
+                <button id="randomButton" v-if="currentVue == 'atticVue'" v-on:click="setCurrentVue('albumVue')">Surprise me</button>
+                <h1>Would you like a snack</h1>
+            </header>
 
-        <section id="albumVue">
-
-            <button id="randomButton" v-on:click="randomizeAlbum">Surprise me</button>
-
-            <div class="content">
-                <div class="album-metadata">
-                    <div class="album-title">{{album.title}}</div>
-                    <div class="album-artist">{{album.artist}}</div>
-                    <div class="album-year">{{album.year}}</div>
-                    <div class="album-country">{{album.country}}</div>
-                    <div class="album-selected-track">Selected track: {{album.selectedTrackTitle}}</div>
-                    <div id="player"></div>
-                </div>
-                <img v-bind:src=album.cover alt="">
-                <div class="album-criteria">
-                    <div class="album-criterium" v-for="criterium in computedCriteria">{{criterium}}</div>
-                </div>
+            <div id="spinningVinylWrapper">
+                <img class="spinning-vinyl spinning" src="img/vinyle gold.png" alt="">
             </div>
-        </section>
 
-        <!-- <footer id="timelineVue">
-            <img v-for="album in albums" v-bind:id="album.id" v-bind:src=album.cover v-on:click="randomizeAlbum($event)" alt="">
-        </footer> -->
-        <footer id="randomVue">
-            <img v-for="album in albums" v-bind:id="album.id" v-bind:src=album.cover v-on:click="selectAlbumAndRandomize($event)" alt="">
-        </footer>
+            <section id="albumVue" v-if="currentVue == 'albumVue'">
+
+                <button id="randomButton" v-on:click="randomizeAlbum">Surprise me</button>
+
+                <div class="content">
+                    <div class="album-metadata">
+                        <div class="album-title">{{selectedAlbum.title}}</div>
+                        <div class="album-artist">{{selectedAlbum.artist}}</div>
+                        <div class="album-year">{{selectedAlbum.year}}</div>
+                        <div class="album-country">{{selectedAlbum.country}}</div>
+                        <div class="album-selected-track">Selected track: {{selectedAlbum.selectedTrackTitle}}</div>
+                        <div id="player" v-if="currentVue == 'albumVue'"></div>
+                    </div>
+                    <img v-bind:src=selectedAlbum.cover alt="">
+                    <div class="album-criteria">
+                        <div class="album-criterium" v-for="criterium in computedCriteria">{{criterium}}</div>
+                    </div>
+                </div>
+
+                <footer id="randomVue">
+                    <img v-for="album in randomAlbums" v-bind:id="album.id" v-bind:src=album.cover v-on:click="selectAlbumAndRandomize($event)" alt="">
+                </footer>
+            </section>
+
+            <section id="atticVue" v-if="currentVue == 'atticVue'">
+                <div class="artist" v-for="artist in artists">
+                    <div class="artist">{{artist}}</div>
+                    <img class="album" v-for="album in albums" v-if="album.artist == artist" v-bind:id="album.id" v-bind:src=album.cover v-on:click="selectAlbumAndRandomize($event)" alt="">
+                </div>
+            </section>
+
+        </div>
 
         <script type="text/javascript" src="js/criteria.js"></script>
         <script type="text/javascript" src="js/albums.js"></script>

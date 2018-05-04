@@ -1,47 +1,76 @@
 
+// ********** DEFAULT ********** //
+
+// Set default vue
+let currentVue = "albumVue";
+
+// Randomize default album
+let selectedAlbumId = randomize();
+let selectedAlbum = albums[selectedAlbumId];
+
+// Set default random albums
+let numberOfAlbumsInRandomVue = 11;
+let randomAlbums = getRandomAlbumsByLength(numberOfAlbumsInRandomVue, selectedAlbum.id).slice(0);
+
+// ********** VIEW ********** //
+
+// Main view
+var indexVue = new Vue({
+  el: '#indexVue',
+  data: {
+    currentVue: currentVue,
+    selectedAlbum: selectedAlbum,
+    albums: albums,
+    randomAlbums: randomAlbums,
+    artists: artists,
+  },
+  methods: {
+    setCurrentVue: function(vue) {
+      this.currentVue = vue;
+      console.log(vue)
+      document.body.style.overflowY = vue == "albumVue" ? "hidden" : "auto";
+    },
+    selectAlbumAndRandomize: function(event) {
+      // Select
+      let clickedId = event.target.id
+      this.selectedAlbum = getAlbumById(clickedId);
+      player.loadVideoById(this.selectedAlbum.selectedTrackYtId);
+      player.stopVideo()
+      // Randomize
+      this.randomAlbums = getRandomAlbumsByLength(numberOfAlbumsInRandomVue, clickedId).slice(0);
+    },
+    randomizeAlbum: function() {
+      let albumId = selectedAlbumId; // Default
+      while(albumId == selectedAlbumId) {
+        albumId = randomize(); // Randomize id
+      }
+      this.selectedAlbum = albums[albumId];
+      selectedAlbumId = albumId;
+      player.loadVideoById(this.selectedAlbum.selectedTrackYtId);
+      player.stopVideo()
+    }
+  },
+  computed: {
+    computedCriteria() {
+      let computedCriteria = []
+      for (i = 0; i < this.selectedAlbum.criteria.length; i++) {
+          computedCriteria.push(criteria[this.selectedAlbum.criteria[i]]);
+      }
+      return computedCriteria;
+    }
+  },
+})
+
+
+// ********** UTILS ********** //
+
+// Random in-range number generator
 
 function randomize() {
   let min = Math.ceil(0);
   let max = Math.floor(albums.length);
   return Math.floor(Math.random() * (max - min)) + min; // Randomize id
 }
-
-// Randomize default album
-let selectedAlbumId = randomize();
-
-// Album vue
-
-var albumVue = new Vue({
-    el: '#albumVue',
-    data: {
-        album: albums[selectedAlbumId]
-    },
-    computed: {
-        computedCriteria() {
-            let computedCriteria = []
-            for (i = 0; i < this.album.criteria.length; i++) {
-                computedCriteria.push(criteria[this.album.criteria[i]]);
-            }
-            return computedCriteria;
-        },
-    },
-    methods: {
-      setAlbum: function(albumId) {
-        console.log(albumId);
-        this.album = albums[albumId];
-      },
-      randomizeAlbum: function() {
-        let albumId = selectedAlbumId; // Default
-        while(albumId == selectedAlbumId) {
-          albumId = randomize(); // Randomize id
-        }
-        this.album = albums[albumId];
-        selectedAlbumId = albumId;
-        player.loadVideoById(this.album.selectedTrackYtId);
-        player.stopVideo()
-      }
-    }
-})
 
 // Youtube Player
 
@@ -57,7 +86,7 @@ function onYouTubeIframeAPIReady() {
   player = new YT.Player('player', {
     height: '70',
     width: '300',
-    videoId: albumVue.album.selectedTrackYtId,
+    videoId: indexVue.selectedAlbum.selectedTrackYtId,
     events: {
       'onReady': onPlayerReady,
       'onStateChange': onPlayerStateChange
@@ -79,46 +108,3 @@ function onPlayerStateChange(event) {
 function stopVideo() {
   player.stopVideo()
 }
-
-// // Timeline vue
-
-// var timelineVue = new Vue({
-//   el: '#timelineVue',
-//   data: {
-//       albums: albums
-//   },
-//   methods: {
-//     randomizeAlbum: function(event) {
-//       let clickedId = event.target.id
-//       albumVue.album = getAlbumById(clickedId);
-//       player.loadVideoById(albumVue.album.selectedTrackYtId);
-//       player.stopVideo()
-//     }
-//   }
-// })
-
-let numberOfAlbumsInRandomVue = 11;
-let randomAlbums = getRandomAlbumsByLength(numberOfAlbumsInRandomVue).slice(0);
-
-// Random albums
-var randomVue = new Vue({
-  el: '#randomVue',
-  data: {
-      albums: randomAlbums
-  },
-  methods: {
-    selectAlbumAndRandomize: function(event) {
-      // Select
-      let clickedId = event.target.id
-      albumVue.album = getAlbumById(clickedId);
-      player.loadVideoById(albumVue.album.selectedTrackYtId);
-      player.stopVideo()
-      // Randomize
-      this.albums = getRandomAlbumsByLength(numberOfAlbumsInRandomVue, clickedId).slice(0);
-    }
-  }
-})
-
-// TODO on each albumTimeline click -> randomize a set of n albums, display them
-// So not really a timeline but rather random albums
-// Create another page for the timeline

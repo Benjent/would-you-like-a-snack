@@ -1,0 +1,46 @@
+// Button
+
+button {
+    width: 200px;
+    border: solid 3px $gold;
+    margin: 0 auto;
+    padding: 5px;
+    background: $black;
+    display: block;
+
+    &:hover {
+        cursor: pointer;
+        background: $gold;
+        color: $black; 
+    }
+}
+
+// Vinyl
+
+@keyframes spinning {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+#spinningVinylWrapper {
+    overflow: hidden;
+
+    .spinning {
+        animation: spinning 30s linear infinite;
+    }
+    
+    .spinning-vinyl {
+        position: absolute;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: -100px;
+        bottom: 0;
+        z-index: -1;
+        filter: grayscale(20%);
+    }
+}

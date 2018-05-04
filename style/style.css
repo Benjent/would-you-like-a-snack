@@ -19,12 +19,55 @@ button {
   padding: 0;
 }
 
+button {
+  width: 200px;
+  border: solid 3px #a18a54;
+  margin: 0 auto;
+  padding: 5px;
+  background: #030504;
+  display: block;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #a18a54;
+  color: #030504;
+}
+
+@keyframes spinning {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#spinningVinylWrapper {
+  overflow: hidden;
+}
+
+#spinningVinylWrapper .spinning {
+  animation: spinning 30s linear infinite;
+}
+
+#spinningVinylWrapper .spinning-vinyl {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: -100px;
+  bottom: 0;
+  z-index: -1;
+  filter: grayscale(20%);
+}
+
 body {
   font-family: 'Archivo Narrow', sans-serif;
   font-size: 2rem;
   color: #a18a54;
   background: #030504;
-  overflow: hidden;
+  overflow-x: hidden;
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -43,59 +86,24 @@ header {
   border-bottom: solid 10px #a18a54;
 }
 
+header button {
+  position: absolute;
+  left: 20px;
+  top: 40px;
+  width: 300px;
+}
+
 header h1 {
   width: 100%;
 }
 
-header #goldenBar {
-  height: 10px;
-  width: 100%;
-  background: #a18a54;
-}
-
-@keyframes spinning {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.spinning {
-  animation: spinning 30s linear infinite;
-}
-
-.spinning-vinyl {
-  position: absolute;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-  top: -100px;
-  bottom: 0;
-  z-index: -1;
-  filter: grayscale(20%);
-}
-
 #albumVue {
   width: 100vw;
-  height: 55vh;
+  overflow: hidden;
 }
 
 #albumVue #randomButton {
-  width: 200px;
-  border: solid 3px #a18a54;
-  margin: 0 auto;
-  padding: 5px;
-  background: #030504;
-  display: block;
   margin-top: 50px;
-}
-
-#albumVue #randomButton:hover {
-  cursor: pointer;
-  background: #a18a54;
-  color: #030504;
 }
 
 #albumVue .content {
@@ -142,4 +150,13 @@ header #goldenBar {
 
 #randomVue img:hover {
   cursor: pointer;
+}
+
+#atticVue #player {
+  display: none;
+}
+
+#atticVue img {
+  height: 100px;
+  width: 100px;
 }
