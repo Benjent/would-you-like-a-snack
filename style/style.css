@@ -34,6 +34,14 @@ button:hover {
   color: #030504;
 }
 
+a {
+  color: #d7e4da;
+}
+
+a:hover, a:focus {
+  color: #d7e4da;
+}
+
 @keyframes spinning {
   from {
     transform: rotate(0deg);
@@ -140,6 +148,8 @@ header h1 {
 
 #albumVue footer {
   display: flex;
+  position: absolute;
+  bottom: 0;
   border-top: solid 10px #a18a54;
 }
 
