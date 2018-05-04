@@ -59,14 +59,6 @@ header {
 #albumVue {
     width: 100vw;
     overflow: hidden;
-    // height: 100vh - $headerHeight;
-    
-    // height: 100vh - 2 * 15vh;
-    // height: 55vh;
-    // display: flex;
-    // flex-direction: column;
-    // align-items: center;
-    // justify-content: center;
 
     #randomButton {
         margin-top: 50px;
@@ -127,7 +119,6 @@ header {
 #atticVue {
     display: flex;
     flex-wrap: wrap;
-    // height: 100vh - $headerHeight;
     padding: 50px 20px;
 
     // Dirty hack
@@ -156,6 +147,9 @@ header {
                 img {
                     height: 100px;
                     width: 100px;
+                    &:hover {
+                        cursor: pointer;
+                    }
                 }
             }
         }

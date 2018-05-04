@@ -200,3 +200,7 @@ header h1 {
   height: 100px;
   width: 100px;
 }
+
+#atticVue .artist .artist-discography .album-wrapper img:hover {
+  cursor: pointer;
+}
