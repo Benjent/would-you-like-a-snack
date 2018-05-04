@@ -53,5 +53,7 @@ const criteria = [
     "Patchwork of tracks",                          // 41
     "Jazzy groovy",                                 // 42
     "Rock opera",                                   // 43
+    "Electro-based with a Prog touch",              // 44
+    "Fanfare",                                      // 45
     
 ]
