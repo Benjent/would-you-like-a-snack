@@ -121,6 +121,12 @@ header h1 {
   align-items: right;
 }
 
+#albumVue .content .album-metadata #player {
+  display: block;
+  border: solid 3px #a18a54;
+  margin-top: 14px;
+}
+
 #albumVue .content img {
   width: 300px;
   height: 300px;
@@ -132,24 +138,22 @@ header h1 {
   width: 50%;
 }
 
-#player {
-  display: block;
-  border: solid 3px #a18a54;
-  margin-top: 14px;
-}
-
-#randomVue {
+#albumVue footer {
   display: flex;
   border-top: solid 10px #a18a54;
 }
 
-#randomVue img {
+#albumVue footer img {
   height: 9.09091vw;
   width: 9.09091vw;
 }
 
-#randomVue img:hover {
+#albumVue footer img:hover {
   cursor: pointer;
+}
+
+#atticVue {
+  padding: 50px 20px;
 }
 
 #atticVue #player {

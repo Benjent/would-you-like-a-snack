@@ -3,6 +3,7 @@
 
 // Set default vue
 let currentVue = "albumVue";
+document.body.style.overflowY = currentVue == "albumVue" ? "hidden" : "auto";
 
 // Randomize default album
 let selectedAlbumId = randomize();
@@ -27,7 +28,6 @@ var indexVue = new Vue({
   methods: {
     setCurrentVue: function(vue) {
       this.currentVue = vue;
-      console.log(vue)
       document.body.style.overflowY = vue == "albumVue" ? "hidden" : "auto";
     },
     selectAlbumAndRandomize: function(event) {
