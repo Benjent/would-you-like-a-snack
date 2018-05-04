@@ -90,6 +90,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=zprYyWMcUGY"
     },
     {
+        "id": "frank_zappa_waka_jawaka",
+        "title": "Waka/Jawaka",
+        "artist": "Frank Zappa",
+        "year": 1972,
+        "country": "USA",
+        "cover": "img/covers/frank_zappa_waka_jawaka.jpg",
+        "criteria": [3, 4, 6, 7, 8, 15, 23, 35, 42],
+        "selectedTrackTitle": "It Just Might Be A One-Shot Deal",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=3expVNVi6Gw"
+    },
+    {
         "id": "frank_zappa_apostrophe",
         "title": "Apostrophe (')",
         "artist": "Frank Zappa",
@@ -101,6 +112,28 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=2XO7xSwYVZI"
     },
     {
+        "id": "frank_zappa_one_size_fits_all",
+        "title": "One Size Fits All",
+        "artist": "Frank Zappa",
+        "year": 1975,
+        "country": "USA",
+        "cover": "img/covers/frank_zappa_one_size_fits_all.jpg",
+        "criteria": [3, 15, 17, 35],
+        "selectedTrackTitle": "Andy",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=3hAUvgZmjlg"
+    },
+    {
+        "id": "frank_zappa_zoot_allures",
+        "title": "Zoot Allures",
+        "artist": "Frank Zappa",
+        "year": 1976,
+        "country": "USA",
+        "cover": "img/covers/frank_zappa_zoot_allures.jpg",
+        "criteria": [18, 22, 35],
+        "selectedTrackTitle": "Zoot Allures",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=fdQmhhi5cLI"
+    },
+    {
         "id": "jade_warrior_waves",
         "title": "Waves",
         "artist": "Jade Warrior",
@@ -110,6 +143,17 @@ const albums = [
         "criteria": [1, 6, 8, 9, 11, 13, 14, 19],
         "selectedTrackTitle": "Waves (Part II)",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=uGYpyLxDzlk"
+    },
+    {
+        "id": "museo_rosenbach_zarathustra",
+        "title": "Zarathustra",
+        "artist": "Museo Rosenbach",
+        "year": 1973,
+        "country": "Italy",
+        "cover": "img/covers/museo_rosenbach_zarathustra.jpg",
+        "criteria": [1, 9, 10, 30, 36],
+        "selectedTrackTitle": "Zarathustra I: L'ultimo Uomo",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=uC9hegZIC2g"
     },
     {
         "id": "pink_floyd_dark_side_of_the_moon",
@@ -156,18 +200,6 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=gxW3s_Qk1dk"
     }
 
-    // {
-    //     "id": "frank_zappa_one_size_fits_all",
-    //     "title": "One Size Fits All",
-    //     "artist": "Frank Zappa",
-    //     "year": 1975,
-    //     "country": "USA",
-    //     "cover": "img/covers/frank_zappa_one_size_fits_all.jpg",
-    //     "criteria": [2, 6, 11, 18, 21, 29],
-    //     "selectedTrackTitle": "Fountain",
-    //     "selectedTrackYtId": "https://www.youtube.com/watch?v=To2NXcCRC58"
-    // },
-    // 
 ]
 
 let artists = [];

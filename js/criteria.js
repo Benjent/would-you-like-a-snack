@@ -1,3 +1,5 @@
+// TODO faire une ENUM
+
 const criteria = [
     
     "Easy to grasp musically",                      // 0
