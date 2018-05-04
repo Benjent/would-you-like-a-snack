@@ -24,6 +24,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=To2NXcCRC58"
     },
     {
+        "id": "camel_camel",
+        "title": "Camel",
+        "artist": "Camel",
+        "year": 1973,
+        "country": "England",
+        "cover": "img/covers/camel_camel.jpg",
+        "criteria": [7, 22, 42],
+        "selectedTrackTitle": "Slow Yourself Down",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=8wN89VZGz8s"
+    },
+    {
         "id": "camel_mirage",
         "title": "Mirage",
         "artist": "Camel",
@@ -35,6 +46,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=Gcagz8epRN8"
     },
     {
+        "id": "camel_the_snow_goose",
+        "title": "The Snow Goose",
+        "artist": "Camel",
+        "year": 1975,
+        "country": "England",
+        "cover": "img/covers/camel_the_snow_goose.jpg",
+        "criteria": [2, 6, 9, 11, 41],
+        "selectedTrackTitle": "La Princesse Perdue",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=dhkWnxNzHig"
+    },
+    {
         "id": "camel_moonmadness",
         "title": "Moonmadness",
         "artist": "Camel",
@@ -42,6 +64,17 @@ const albums = [
         "country": "England",
         "cover": "img/covers/camel_moonmadness.jpg",
         "criteria": [3, 11, 19],
+        "selectedTrackTitle": "Air Born",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=JR4aCz-JZrY"
+    },
+    {
+        "id": "camel_rain_dances",
+        "title": "Rain Dances",
+        "artist": "Camel",
+        "year": 1977,
+        "country": "England",
+        "cover": "img/covers/camel_rain_dances.jpg",
+        "criteria": [3, 11, 20],
         "selectedTrackTitle": "Air Born",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=JR4aCz-JZrY"
     },
@@ -134,6 +167,28 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=fdQmhhi5cLI"
     },
     {
+        "id": "fuzzy_duck_fuzzy_duck",
+        "title": "Fuzzy Duck",
+        "artist": "Fuzzy Duck",
+        "year": 1971,
+        "country": "England",
+        "cover": "img/covers/fuzzy_duck_fuzzy_duck.jpg",
+        "criteria": [3, 22],
+        "selectedTrackTitle": "Country Boy",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=odP44_gNdNU"
+    },
+    {
+        "id": "genesis_selling_england_by_the_pound",
+        "title": "Selling England By The Pound",
+        "artist": "Genesis",
+        "year": 1973,
+        "country": "England",
+        "cover": "img/covers/genesis_selling_england_by_the_pound.jpg",
+        "criteria": [8, 10, 30, 43],
+        "selectedTrackTitle": "Firth Of Fifth",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=SD5engyVXe0"
+    },
+    {
         "id": "jade_warrior_waves",
         "title": "Waves",
         "artist": "Jade Warrior",
@@ -143,6 +198,28 @@ const albums = [
         "criteria": [1, 6, 8, 9, 11, 13, 14, 19],
         "selectedTrackTitle": "Waves (Part II)",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=uGYpyLxDzlk"
+    },
+    {
+        "id": "jade_warrior_way_of_the_sun",
+        "title": "Way Of The Sun",
+        "artist": "Jade Warrior",
+        "year": 1978,
+        "country": "England",
+        "cover": "img/covers/jade_warrior_way_of_the_sun.jpg",
+        "criteria": [1, 6, 9, 11, 13, 14, 15, 19],
+        "selectedTrackTitle": "Heaven Stone",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=e0-VIz5MINU"
+    },
+    {
+        "id": "magma_mekanik_destruktiw_kommandoh",
+        "title": "Mëkanïk Dëstruktïẁ Kömmandöh",
+        "artist": "Magma",
+        "year": 1973,
+        "country": "France",
+        "cover": "img/covers/magma_mekanik_destruktiw_kommandoh.jpg",
+        "criteria": [2, 5, 10, 19, 30, 39, 43],
+        "selectedTrackTitle": "Da Zeuhl Ẁortz Mëkanïk",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=B5UZVtUC3V0"
     },
     {
         "id": "museo_rosenbach_zarathustra",
@@ -156,6 +233,28 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=uC9hegZIC2g"
     },
     {
+        "id": "pink_floyd_atom_heart_mother",
+        "title": "Atom Heart Mother",
+        "artist": "Pink Floyd",
+        "year": 1970,
+        "country": "England",
+        "cover": "img/covers/pink_floyd_atom_heart_mother.jpg",
+        "criteria": [1, 5, 8, 16, 17, 18, 21],
+        "selectedTrackTitle": "Atom Heart Mother",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=yusGUGTVAyw"
+    },
+    {
+        "id": "pink_floyd_meddle",
+        "title": "Meddle",
+        "artist": "Pink Floyd",
+        "year": 1971,
+        "country": "England",
+        "cover": "img/covers/pink_floyd_meddle.jpg",
+        "criteria": [5, 8, 16, 18, 20, 21],
+        "selectedTrackTitle": "A Pillow Of Winds",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=uThZ1uuLLWM"
+    },
+    {
         "id": "pink_floyd_dark_side_of_the_moon",
         "title": "Dark Side Of The Moon",
         "artist": "Pink Floyd",
@@ -167,6 +266,28 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=rL3AgkwbYgo"
     },
     {
+        "id": "pink_floyd_wish_you_were_here",
+        "title": "Wish You Were Here",
+        "artist": "Pink Floyd",
+        "year": 1975,
+        "country": "England",
+        "cover": "img/covers/pink_floyd_wish_you_were_here.jpg",
+        "criteria": [7, 8, 16, 20],
+        "selectedTrackTitle": "Welcome To The Machine",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=lt-udg9zQSE"
+    },
+    {
+        "id": "pink_floyd_animals",
+        "title": "Animals",
+        "artist": "Pink Floyd",
+        "year": 1977,
+        "country": "England",
+        "cover": "img/covers/pink_floyd_animals.jpg",
+        "criteria": [1, 7, 8, 16, 21],
+        "selectedTrackTitle": "Sheep",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=UqlsVZ1zxMk"
+    },
+    {
         "id": "pink_floyd_the_wall",
         "title": "The Wall",
         "artist": "Pink Floyd",
@@ -176,6 +297,28 @@ const albums = [
         "criteria": [1, 9, 16, 17, 30, 43],
         "selectedTrackTitle": "The Trial",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=4fa7AtI1msk"
+    },
+    {
+        "id": "queen_queen_II",
+        "title": "Queen II",
+        "artist": "Queen",
+        "year": 1974,
+        "country": "England",
+        "cover": "img/covers/queen_queen_II.jpg",
+        "criteria": [2, 9, 10, 17, 43, 45],
+        "selectedTrackTitle": "The March Of The Black Queen",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=SoBMhx_ap_g"
+    },
+    {
+        "id": "roger_glover_the_butterfly_ball_and_the_grasshoppers_feast",
+        "title": "The Butterfly Ball And The Grasshopper's Feast",
+        "artist": "Roger Glover",
+        "year": 1974,
+        "country": "England",
+        "cover": "img/covers/roger_glover_the_butterfly_ball_and_the_grasshoppers_feast.jpg",
+        "criteria": [2, 3, 9, 17, 41, 43, 45],
+        "selectedTrackTitle": "Love Is All",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=YK2Pltm8ZsQ"
     },
     {
         "id": "shakti_natural_elements",
@@ -195,11 +338,32 @@ const albums = [
         "year": 1974,
         "country": "England",
         "cover": "img/covers/supertramp_crime_of_the_century.jpg",
-        "criteria": [1, 2, 11, 17, 19],
+        "criteria": [1, 11, 17, 19, 43],
         "selectedTrackTitle": "Rudy",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=gxW3s_Qk1dk"
+    },
+    {
+        "id": "sweet_smoke_just_a_poke",
+        "title": "Just A Poke",
+        "artist": "Sweet Smoke",
+        "year": 1970,
+        "country": "USA",
+        "cover": "img/covers/sweet_smoke_just_a_poke.jpg",
+        "criteria": [7, 8, 11, 18, 19, 42],
+        "selectedTrackTitle": "Baby Night",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=s6L8ZCAt3DA"
+    },
+    {
+        "id": "sweet_smoke_darkness_to_light",
+        "title": "Darkness To Light",
+        "artist": "Sweet Smoke",
+        "year": 1973,
+        "country": "USA",
+        "cover": "img/covers/sweet_smoke_darkness_to_light.jpg",
+        "criteria": [8, 13, 16, 18, 21],
+        "selectedTrackTitle": "Baby Night",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=s6L8ZCAt3DA"
     }
-
 ]
 
 let artists = [];
