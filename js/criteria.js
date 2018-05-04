@@ -50,5 +50,6 @@ const criteria = [
     "Rather heavy",                                 // 40
     "Patchwork of tracks",                          // 41
     "Jazzy groovy",                                 // 42
+    "Rock opera",                                   // 43
     
 ]

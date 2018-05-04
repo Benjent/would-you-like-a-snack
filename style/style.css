@@ -76,7 +76,7 @@ body {
 }
 
 header {
-  height: 15vh;
+  height: 150px;
   background-position: 50%;
   text-align: center;
   display: flex;
@@ -153,6 +153,8 @@ header h1 {
 }
 
 #atticVue {
+  display: flex;
+  flex-wrap: wrap;
   padding: 50px 20px;
 }
 
@@ -160,7 +162,31 @@ header h1 {
   display: none;
 }
 
-#atticVue img {
+#atticVue .artist {
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+#atticVue .artist:last-of-type {
+  margin-right: 0;
+}
+
+#atticVue .artist .artist-discography {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#atticVue .artist .artist-discography .album-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+#atticVue .artist .artist-discography .album-wrapper .album-year {
+  font-size: 1.2rem;
+}
+
+#atticVue .artist .artist-discography .album-wrapper img {
   height: 100px;
   width: 100px;
 }
