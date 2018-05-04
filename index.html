@@ -54,9 +54,9 @@
                 <div class="artist" v-for="artist in artists">
                     <div class="artist-name">{{artist}}</div>
                     <div class="artist-discography">
-                        <div class="album-wrapper" v-for="album in albums" v-if="album.artist == artist" v-bind:id="album.id">
+                        <div class="album-wrapper" v-for="album in albums" v-if="album.artist == artist">
                             <span class="album-year">{{album.year}}</span>
-                            <img class="album" v-bind:src=album.cover v-on:click="selectAlbumAndRandomize($event)" alt="">
+                            <img class="album" v-bind:id="album.id" v-bind:src=album.cover v-on:click="setAlbumVueAndselectAlbum($event)" alt="">
                         </div>
                     </div>
                 </div>

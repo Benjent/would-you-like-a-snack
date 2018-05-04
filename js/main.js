@@ -48,7 +48,11 @@ var indexVue = new Vue({
       selectedAlbumId = albumId;
       // player.loadVideoById(this.selectedAlbum.selectedTrackYtId);
       // player.stopVideo()
-    }
+    },
+    setAlbumVueAndselectAlbum: function(event) {
+      this.setCurrentVue("albumVue");
+      this.selectAlbumAndRandomize(event);
+    },
   },
   computed: {
     computedCriteria() {
