@@ -61,11 +61,12 @@ header {
 
 #albumVue {
     width: 100vw;
-    height: 95vh;
-    overflow: hidden;
+    // height: 95vh;
+    // overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: $headerHeight;
 
     #randomButton {
         margin-top: 50px;
@@ -107,7 +108,7 @@ header {
     footer {
         $numberOfAlbumsInRandomVue: 11;
         display: flex;
-        position: absolute;
+        position: fixed;
         bottom: 0;
         border-top: solid 10px $gold;
         img {
@@ -135,7 +136,7 @@ header {
 
     .artist {
         margin-right: 50px;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
 
         &:last-of-type {
             margin-right: 0;

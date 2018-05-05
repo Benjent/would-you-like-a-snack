@@ -90,6 +90,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=wm61ROOZ5ek"
     },
     {
+        "id": "electric_light_orchestra_time",
+        "title": "Time",
+        "artist": "Electric Light Orchestra",
+        "year": 1981,
+        "country": "England",
+        "cover": "img/covers/electric_light_orchestra_time.jpg",
+        "criteria": [2, 9, 20, 22, 43],
+        "selectedTrackTitle": "Ticket To The Moon",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=CJdZTNLkpuA"
+    },
+    {
         "id": "focus_moving_waves",
         "title": "Moving Waves",
         "artist": "Focus",
@@ -189,6 +200,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=SD5engyVXe0"
     },
     {
+        "id": "gong_gazeuse",
+        "title": "Gazeuse !",
+        "artist": "Gong",
+        "year": 1976,
+        "country": "France",
+        "cover": "img/covers/gong_gazeuse.jpg",
+        "criteria": [3, 6, 11, 15, 23, 42],
+        "selectedTrackTitle": "Percolations",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=G0tsWMzmr-c"
+    },
+    {
         "id": "jade_warrior_waves",
         "title": "Waves",
         "artist": "Jade Warrior",
@@ -220,6 +242,17 @@ const albums = [
         "criteria": [2, 5, 10, 19, 30, 39, 43],
         "selectedTrackTitle": "Da Zeuhl Ẁortz Mëkanïk",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=B5UZVtUC3V0"
+    },
+    {
+        "id": "man_be_good_to_yourself_at_least_once_a_day",
+        "title": "Be Good To Yourself At Least Once A Day",
+        "artist": "Man",
+        "year": 1972,
+        "country": "Wales",
+        "cover": "img/covers/man_be_good_to_yourself_at_least_once_a_day.jpg",
+        "criteria": [0, 7, 22, 42],
+        "selectedTrackTitle": "C'mon",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=pZIg-fJU7vI"
     },
     {
         "id": "museo_rosenbach_zarathustra",
@@ -299,6 +332,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=4fa7AtI1msk"
     },
     {
+        "id": "pink_floyd_the_final_cut",
+        "title": "The Final Cut",
+        "artist": "Pink Floyd",
+        "year": 1983,
+        "country": "England",
+        "cover": "img/covers/pink_floyd_the_final_cut.jpg",
+        "criteria": [2, 9, 16, 43],
+        "selectedTrackTitle": "Your Possible Pasts",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=E-ve_sgdgZs"
+    },
+    {
         "id": "queen_queen_II",
         "title": "Queen II",
         "artist": "Queen",
@@ -308,6 +352,17 @@ const albums = [
         "criteria": [2, 9, 10, 17, 43, 45],
         "selectedTrackTitle": "The March Of The Black Queen",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=SoBMhx_ap_g"
+    },
+    {
+        "id": "return_to_forever_romantic_warrior",
+        "title": "Romantic Warrior",
+        "artist": "Return To Forever",
+        "year": 1976,
+        "country": "USA",
+        "cover": "img/covers/return_to_forever_romantic_warrior.png",
+        "criteria": [1, 3, 4, 6, 7, 8, 11, 23, 42],
+        "selectedTrackTitle": "Duel Of The Jester And The Tyrant",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=sa21WPH4_U4"
     },
     {
         "id": "roger_glover_the_butterfly_ball_and_the_grasshoppers_feast",
@@ -363,6 +418,72 @@ const albums = [
         "criteria": [8, 13, 16, 18, 21],
         "selectedTrackTitle": "Baby Night",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=s6L8ZCAt3DA"
+    },
+    {
+        "id": "trapeze_trapeze",
+        "title": "Trapeze",
+        "artist": "Trapeze",
+        "year": 1970,
+        "country": "England",
+        "cover": "img/covers/trapeze_trapeze.jpg",
+        "criteria": [11, 46],
+        "selectedTrackTitle": "The Giant's Dead Hoorah!",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=zqekc2zaw9A"
+    },
+    {
+        "id": "winterhawk_revival",
+        "title": "Revival",
+        "artist": "Winterhawk",
+        "year": 1982,
+        "country": "USA",
+        "cover": "img/covers/winterhawk_revival.jpg",
+        "criteria": [7, 22, 40],
+        "selectedTrackTitle": "Period Of Change",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=zDW3m-LaaRc"
+    },
+    {
+        "id": "yes_fragile",
+        "title": "Fragile",
+        "artist": "Yes",
+        "year": 1971,
+        "country": "England",
+        "cover": "img/covers/yes_fragile.jpg",
+        "criteria": [3, 4, 5, 10, 16, 17, 30, 41],
+        "selectedTrackTitle": "Roundabout",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=-Tdu4uKSZ3M"
+    },
+    {
+        "id": "yes_close_to_the_edge",
+        "title": "Close To The Edge",
+        "artist": "Yes",
+        "year": 1972,
+        "country": "England",
+        "cover": "img/covers/yes_close_to_the_edge.jpg",
+        "criteria": [3, 4, 8, 10, 17, 30],
+        "selectedTrackTitle": "Siberian Khatru",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=r0HnIr6jYWU"
+    },
+    {
+        "id": "yes_relayer",
+        "title": "Relayer",
+        "artist": "Yes",
+        "year": 1974,
+        "country": "England",
+        "cover": "img/covers/yes_relayer.jpg",
+        "criteria": [3, 4, 8, 10, 17, 30],
+        "selectedTrackTitle": "The Gates Of Delirium",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=EdmUAsU2eXI"
+    },
+    {
+        "id": "yes_going_for_the_one",
+        "title": "Going For The One",
+        "artist": "Yes",
+        "year": 1977,
+        "country": "England",
+        "cover": "img/covers/yes_going_for_the_one.jpg",
+        "criteria": [10, 17, 30],
+        "selectedTrackTitle": "Going For The One",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=f9GAkA7W5Qg"
     }
 ]
 

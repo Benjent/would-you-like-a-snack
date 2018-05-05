@@ -53,6 +53,11 @@ a:hover, a:focus {
 
 #spinningVinylWrapper {
   overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
 }
 
 #spinningVinylWrapper .spinning {
@@ -110,11 +115,10 @@ header h1 {
 
 #albumVue {
   width: 100vw;
-  height: 95vh;
-  overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: 150px;
 }
 
 #albumVue #randomButton {
@@ -155,7 +159,7 @@ header h1 {
 
 #albumVue footer {
   display: flex;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   border-top: solid 10px #a18a54;
 }
@@ -181,7 +185,7 @@ header h1 {
 
 #atticVue .artist {
   margin-right: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 #atticVue .artist:last-of-type {

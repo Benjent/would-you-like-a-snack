@@ -29,6 +29,7 @@ var indexVue = new Vue({
     setCurrentVue: function(vue) {
       this.currentVue = vue;
       document.body.style.overflowY = vue == "albumVue" ? "hidden" : "auto";
+      document.scrollTop = 0;
     },
     selectAlbumAndRandomize: function(event) {
       // Select
