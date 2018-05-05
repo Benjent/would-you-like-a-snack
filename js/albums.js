@@ -2,6 +2,28 @@
 // TODO penser à faire une Map ?
 const albums = [
     {
+        "id": "agora_live_in_montreux",
+        "title": "Live In Montreux",
+        "artist": "Agorà",
+        "year": 1975,
+        "country": "Italy",
+        "cover": "img/covers/agora_live_in_montreux.jpg",
+        "criteria": [6, 7, 11, 12, 14, 23],
+        "selectedTrackTitle": "L'Orto Di Ovidio",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=IoBMXLfGAuo"
+    },
+    {
+        "id": "agora_agora_2",
+        "title": "Agorà 2",
+        "artist": "Agorà",
+        "year": 1976,
+        "country": "Italy",
+        "cover": "img/covers/agora_agora_2.jpg",
+        "criteria": [6, 7, 11, 14, 15, 23],
+        "selectedTrackTitle": "Tall El Zaatar",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=9AvuK3lwNuM"
+    },
+    {
         "id": "alpha_ralpha_alpha_ralpha",
         "title": "Alpha Ralpha",
         "artist": "Alpha Ralpha",
@@ -508,6 +530,28 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=zqekc2zaw9A"
     },
     {
+        "id": "titus_groan_titus_groan",
+        "title": "Titus Groan",
+        "artist": "Titus Groan",
+        "year": 1970,
+        "country": "England",
+        "cover": "img/covers/titus_groan_titus_groan.jpg",
+        "criteria": [22],
+        "selectedTrackTitle": "It Wasn't For You",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=7QC1hQyn8-0"
+    },
+    {
+        "id": "warhorse_warhorse",
+        "title": "Warhorse",
+        "artist": "Warhorse",
+        "year": 1970,
+        "country": "England",
+        "cover": "img/covers/warhorse_warhorse.jpg",
+        "criteria": [22, 40],
+        "selectedTrackTitle": "Woman Of The Devil",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=zgWyveaejwI"
+    },
+    {
         "id": "winterhawk_revival",
         "title": "Revival",
         "artist": "Winterhawk",
@@ -569,7 +613,6 @@ const albums = [
 /*
 Acid Mothers XXX
 Acqua Fragile
-Agorà
 Alan Parsons Project
 Albatross
 Amon Düül
@@ -663,13 +706,11 @@ Starcastle
 Strawbs
 Tangerine Dream
 Tea & Sympfony 
-Titus Groan
 Trèfle
 Triumvirat
 Ultimate Spinach
 Uriah Heep
 Van der Graaf
-Warhorse
 Weidorje
 Wishbone Ash
 Wizzard
