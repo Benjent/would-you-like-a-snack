@@ -178,6 +178,28 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=fdQmhhi5cLI"
     },
     {
+        "id": "frank_zappa_joes_garage",
+        "title": "Joe's Garage",
+        "artist": "Frank Zappa",
+        "year": 1979,
+        "country": "USA",
+        "cover": "img/covers/frank_zappa_joes_garage.jpg",
+        "criteria": [2, 3, 9, 17, 35, 43],
+        "selectedTrackTitle": "A Token Of My Extreme",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=tnSF36PBxbk"
+    },
+    {
+        "id": "frank_zappa_broadway_the_hard_way",
+        "title": "Broadway The Hard Way",
+        "artist": "Frank Zappa",
+        "year": 1988,
+        "country": "USA",
+        "cover": "img/covers/frank_zappa_broadway_the_hard_way.jpg",
+        "criteria": [12, 17, 35],
+        "selectedTrackTitle": "Why Don't You Like Me",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=emEOePwK0ok"
+    },
+    {
         "id": "fuzzy_duck_fuzzy_duck",
         "title": "Fuzzy Duck",
         "artist": "Fuzzy Duck",
@@ -189,13 +211,46 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=odP44_gNdNU"
     },
     {
+        "id": "genesis_trespass",
+        "title": "Trespass",
+        "artist": "Genesis",
+        "year": 1970,
+        "country": "England",
+        "cover": "img/covers/genesis_trespass.jpg",
+        "criteria": [3, 10, 30, 43],
+        "selectedTrackTitle": "Dusk",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=R8fq7djQAnQ"
+    },
+    {
+        "id": "genesis_nursery_cryme",
+        "title": "Nursery Cryme",
+        "artist": "Genesis",
+        "year": 1971,
+        "country": "England",
+        "cover": "img/covers/genesis_nursery_cryme.jpg",
+        "criteria": [3, 10, 30, 43],
+        "selectedTrackTitle": "Harold The Barrel",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=qT7k7keej0k"
+    },
+    {
+        "id": "genesis_foxtrot",
+        "title": "Foxtrot",
+        "artist": "Genesis",
+        "year": 1972,
+        "country": "England",
+        "cover": "img/covers/genesis_foxtrot.jpg",
+        "criteria": [3, 8, 10, 30, 43],
+        "selectedTrackTitle": "Get 'Em Out By Friday",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=Kp-TwWnn0dk"
+    },
+    {
         "id": "genesis_selling_england_by_the_pound",
         "title": "Selling England By The Pound",
         "artist": "Genesis",
         "year": 1973,
         "country": "England",
         "cover": "img/covers/genesis_selling_england_by_the_pound.jpg",
-        "criteria": [8, 10, 30, 43],
+        "criteria": [3, 8, 10, 30, 43],
         "selectedTrackTitle": "Firth Of Fifth",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=SD5engyVXe0"
     },
@@ -341,6 +396,28 @@ const albums = [
         "criteria": [2, 9, 16, 43],
         "selectedTrackTitle": "Your Possible Pasts",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=E-ve_sgdgZs"
+    },
+    {
+        "id": "pulsar_pollen",
+        "title": "Pollen",
+        "artist": "Pulsar",
+        "year": 1975,
+        "country": "France",
+        "cover": "img/covers/pulsar_pollen.jpg",
+        "criteria": [3, 6, 8, 11, 18, 20, 31, 37],
+        "selectedTrackTitle": "Apaisement",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=21D_sVa_-p8"
+    },
+    {
+        "id": "pulsar_the_strands_of_the_future",
+        "title": "The Strands Of The Future",
+        "artist": "Pulsar",
+        "year": 1976,
+        "country": "France",
+        "cover": "img/covers/pulsar_the_strands_of_the_future.jpg",
+        "criteria": [3, 6, 8, 11, 18, 20, 31, 37],
+        "selectedTrackTitle": "The Strands Of The Future",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=KpL5htneI-c"
     },
     {
         "id": "queen_queen_II",
