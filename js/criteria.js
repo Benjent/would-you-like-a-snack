@@ -55,5 +55,6 @@ const criteria = [
     "Rock opera",                                   // 43
     "Electro-based with a Prog touch",              // 44
     "Fanfare",                                      // 45
+    "Folk-based with a Prog touch",                 // 46
     
 ]
