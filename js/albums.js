@@ -564,6 +564,122 @@ const albums = [
     }
 ]
 
+// TODO
+// Below is the list of prog artists that I listened and should be part of this project
+/*
+Acid Mothers XXX
+Acqua Fragile
+Agorà
+Alan Parsons Project
+Albatross
+Amon Düül
+Ange 
+Anna Själv Tredje
+Anthony Philips
+Aphrodite's Child
+Arachnoïd 
+Arthur Brown 
+Atoll 
+Area 
+Alphataurus 
+Artcane 
+Arti & Mestieri
+Asia 
+Atomic Rooster
+Bachdenkel
+Banco Del Mutuo Soccorso
+Bakerloo 
+Barclay James Harvest
+Black Widow
+Bloodrock
+Brave New World
+Bubu 
+Bùsqueda
+Burning Candle
+Can
+Canamii
+Caravan
+Carmen 
+Coma 
+Coven
+Crucis
+Curved Air 
+Delirium
+Dominique Guiot
+Dr. Dopo Jam
+Earthrise 
+Egg 
+Elder Kindred 
+ELP
+Eloy 
+Eskaton 
+FM 
+Führs & Fröhling
+Fruupp 
+Gentle Giant
+Goblin
+Gnidrolog
+Gryphon
+Guns & Butter
+Harmonium
+Hatfield & The North
+Happy The Man
+Hawkwind 
+Henry Cow
+Ikarus 
+Jane 
+Jean Michel Jarre
+Jethro Tull
+King Crimson
+Led Zeppelin
+Locanda Dell Fante
+Los Grillos
+Mahavishnu Orchestra
+Matching Mole
+Michel Madore
+M.L. Bongers Project
+Mike Oldfield
+Miklagård 
+Moodies Blues
+Necktar 
+Nightwinds 
+Ozric Tentacles
+Pangée 
+Plat Du Jour
+Premiata Forneria Marconi
+Quatermass
+Ralph Lundsten
+Ramses 
+Robert Connolly
+Schicke, Führs & Fröhling
+Serg Ramses 
+Semiramis 
+Sir Lord Baltimore
+Sloche
+Soft Machine
+Spirogyra 
+Sunhouse 
+Starcastle
+Strawbs
+Tangerine Dream
+Tea & Sympfony 
+Titus Groan
+Trèfle
+Triumvirat
+Ultimate Spinach
+Uriah Heep
+Van der Graaf
+Warhorse
+Weidorje
+Wishbone Ash
+Wizzard
+Zanov
+Zoo 
+*/
+
+
+
+
 let artists = [];
 
 for (let i = 0; i < albums.length; i++) {
