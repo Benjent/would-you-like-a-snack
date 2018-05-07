@@ -41,9 +41,31 @@ const albums = [
         "year": 1973,
         "country": "England",
         "cover": "img/covers/badger_one_live_badger.jpg",
-        "criteria": [0, 3, 7, 12, 22],
+        "criteria": [0, 3, 7, 12, 22, 47],
         "selectedTrackTitle": "Fountain",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=To2NXcCRC58"
+    },
+    {
+        "id": "bachdenkel_cталинград",
+        "title": "Сталинград",
+        "artist": "Bachdenkel",
+        "year": 1977,
+        "country": "England",
+        "cover": "img/covers/bachdenkel_cталинград.jpg",
+        "criteria": [11, 18],
+        "selectedTrackTitle": "The Whole World",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=qZQ4WaJe90g"
+    },
+    {
+        "id": "the_beatles_abbey_road",
+        "title": "Abbey Road",
+        "artist": "The Beatles",
+        "year": 1969,
+        "country": "England",
+        "cover": "img/covers/the_beatles_abbey_road.jpg",
+        "criteria": [9, 18, 35, 41],
+        "selectedTrackTitle": "She Came In Through The Bathroom Window",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=o14wVjw3HfQ"
     },
     {
         "id": "camel_camel",
@@ -110,6 +132,39 @@ const albums = [
         "criteria": [2, 3, 9, 40, 41],
         "selectedTrackTitle": "As The Moon Speaks (Part I)",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=wm61ROOZ5ek"
+    },
+    {
+        "id": "caravan_in_the_land_of_grey_and_pink",
+        "title": "In The Land Of Grey And Pink",
+        "artist": "Caravan",
+        "year": 1971,
+        "country": "England",
+        "cover": "img/covers/caravan_in_the_land_of_grey_and_pink.jpg",
+        "criteria": [7, 8, 11, 21],
+        "selectedTrackTitle": "Winter Wine",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=l2ZrJdmnHIw"
+    },
+    {
+        "id": "cat_stevens_foreigner",
+        "title": "Foreigner",
+        "artist": "Cat Stevens",
+        "year": 1973,
+        "country": "England",
+        "cover": "img/covers/cat_stevens_foreigner.jpg",
+        "criteria": [8, 19, 21, 47],
+        "selectedTrackTitle": "Foreigner Suite",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=KOC_LkgNAHU"
+    },
+    {
+        "id": "curved_air_air_cut",
+        "title": "Air Cut",
+        "artist": "Curved Air",
+        "year": 1973,
+        "country": "England",
+        "cover": "img/covers/curved_air_air_cut.jpg",
+        "criteria": [21],
+        "selectedTrackTitle": "Metamorphosis",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=uZAImsmFGhk"
     },
     {
         "id": "electric_light_orchestra_time",
@@ -239,7 +294,7 @@ const albums = [
         "year": 1970,
         "country": "England",
         "cover": "img/covers/genesis_trespass.jpg",
-        "criteria": [3, 10, 30, 43],
+        "criteria": [3, 10, 30, 43, 47],
         "selectedTrackTitle": "Dusk",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=R8fq7djQAnQ"
     },
@@ -250,7 +305,7 @@ const albums = [
         "year": 1971,
         "country": "England",
         "cover": "img/covers/genesis_nursery_cryme.jpg",
-        "criteria": [3, 10, 30, 43],
+        "criteria": [3, 10, 30, 43, 47],
         "selectedTrackTitle": "Harold The Barrel",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=qT7k7keej0k"
     },
@@ -261,7 +316,7 @@ const albums = [
         "year": 1972,
         "country": "England",
         "cover": "img/covers/genesis_foxtrot.jpg",
-        "criteria": [3, 8, 10, 30, 43],
+        "criteria": [3, 8, 10, 30, 43, 47],
         "selectedTrackTitle": "Get 'Em Out By Friday",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=Kp-TwWnn0dk"
     },
@@ -272,7 +327,7 @@ const albums = [
         "year": 1973,
         "country": "England",
         "cover": "img/covers/genesis_selling_england_by_the_pound.jpg",
-        "criteria": [3, 8, 10, 30, 43],
+        "criteria": [3, 8, 10, 30, 43, 47],
         "selectedTrackTitle": "Firth Of Fifth",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=SD5engyVXe0"
     },
@@ -310,6 +365,39 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=e0-VIz5MINU"
     },
     {
+        "id": "king_crimson_in_the_court_of_the_crimson_king",
+        "title": "In The Court Of The Crimson King",
+        "artist": "King Crimson",
+        "year": 1969,
+        "country": "England",
+        "cover": "img/covers/king_crimson_in_the_court_of_the_crimson_king.jpg",
+        "criteria": [3, 8, 11, 15, 18, 19, 47],
+        "selectedTrackTitle": "The Court Of The Crimson King",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=gvCmtHDDuu0"
+    },
+    {
+        "id": "king_crimson_in_the_wake_of_poseidon",
+        "title": "In The Wake Of Poseidon",
+        "artist": "King Crimson",
+        "year": 1970,
+        "country": "England",
+        "cover": "img/covers/king_crimson_in_the_wake_of_poseidon.jpg",
+        "criteria": [3, 8, 11, 15, 18, 19, 47],
+        "selectedTrackTitle": "In The Wake Of Poseidon",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=J1JjOpXsJ7A"
+    },
+    {
+        "id": "king_crimson_red",
+        "title": "Red",
+        "artist": "King Crimson",
+        "year": 1974,
+        "country": "England",
+        "cover": "img/covers/king_crimson_red.jpg",
+        "criteria": [1, 3, 8, 11, 18, 19, 47],
+        "selectedTrackTitle": "Starless",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=OfR6_V91fG8"
+    },
+    {
         "id": "magma_mekanik_destruktiw_kommandoh",
         "title": "Mëkanïk Dëstruktïẁ Kömmandöh",
         "artist": "Magma",
@@ -338,7 +426,7 @@ const albums = [
         "year": 1973,
         "country": "Italy",
         "cover": "img/covers/museo_rosenbach_zarathustra.jpg",
-        "criteria": [1, 9, 10, 30, 36],
+        "criteria": [1, 9, 10, 30, 36, 47],
         "selectedTrackTitle": "Zarathustra I: L'ultimo Uomo",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=uC9hegZIC2g"
     },
@@ -382,7 +470,7 @@ const albums = [
         "year": 1975,
         "country": "England",
         "cover": "img/covers/pink_floyd_wish_you_were_here.jpg",
-        "criteria": [7, 8, 16, 20],
+        "criteria": [7, 8, 16, 20, 47],
         "selectedTrackTitle": "Welcome To The Machine",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=lt-udg9zQSE"
     },
@@ -404,7 +492,7 @@ const albums = [
         "year": 1979,
         "country": "England",
         "cover": "img/covers/pink_floyd_the_wall.jpg",
-        "criteria": [1, 9, 16, 17, 30, 43],
+        "criteria": [1, 9, 16, 17, 30, 43, 47],
         "selectedTrackTitle": "The Trial",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=4fa7AtI1msk"
     },
@@ -415,7 +503,7 @@ const albums = [
         "year": 1983,
         "country": "England",
         "cover": "img/covers/pink_floyd_the_final_cut.jpg",
-        "criteria": [2, 9, 16, 43],
+        "criteria": [2, 9, 16, 43, 47],
         "selectedTrackTitle": "Your Possible Pasts",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=E-ve_sgdgZs"
     },
@@ -486,13 +574,24 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=d_DajSHROJA"
     },
     {
+        "id": "soft_machine_third",
+        "title": "Third",
+        "artist": "Soft Machine",
+        "year": 1970,
+        "country": "England",
+        "cover": "img/covers/soft_machine_third.jpg",
+        "criteria": [5, 6, 8, 18, 20, 23],
+        "selectedTrackTitle": "Slightly All The Time",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=4RwLgA9U_3I"
+    },
+    {
         "id": "supertramp_crime_of_the_century",
         "title": "Crime Of The Century",
         "artist": "Supertramp",
         "year": 1974,
         "country": "England",
         "cover": "img/covers/supertramp_crime_of_the_century.jpg",
-        "criteria": [1, 11, 17, 19, 43],
+        "criteria": [1, 11, 17, 19, 43, 47],
         "selectedTrackTitle": "Rudy",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=gxW3s_Qk1dk"
     },
@@ -547,7 +646,7 @@ const albums = [
         "year": 1970,
         "country": "England",
         "cover": "img/covers/warhorse_warhorse.jpg",
-        "criteria": [22, 40],
+        "criteria": [0, 22, 40],
         "selectedTrackTitle": "Woman Of The Devil",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=zgWyveaejwI"
     },
@@ -561,6 +660,17 @@ const albums = [
         "criteria": [7, 22, 40],
         "selectedTrackTitle": "Period Of Change",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=zDW3m-LaaRc"
+    },
+    {
+        "id": "wishbone_ash_argus",
+        "title": "Argus",
+        "artist": "Wishbone Ash",
+        "year": 1972,
+        "country": "England",
+        "cover": "img/covers/wishbone_ash_argus.jpg",
+        "criteria": [7, 22],
+        "selectedTrackTitle": "Sometime World",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=kvLVSPPLZZY"
     },
     {
         "id": "yes_fragile",
@@ -629,7 +739,6 @@ Artcane
 Arti & Mestieri
 Asia 
 Atomic Rooster
-Bachdenkel
 Banco Del Mutuo Soccorso
 Bakerloo 
 Barclay James Harvest
@@ -641,12 +750,10 @@ Bùsqueda
 Burning Candle
 Can
 Canamii
-Caravan
 Carmen 
 Coma 
 Coven
 Crucis
-Curved Air 
 Delirium
 Dominique Guiot
 Dr. Dopo Jam
@@ -673,7 +780,6 @@ Ikarus
 Jane 
 Jean Michel Jarre
 Jethro Tull
-King Crimson
 Led Zeppelin
 Locanda Dell Fante
 Los Grillos
@@ -699,7 +805,6 @@ Serg Ramses
 Semiramis 
 Sir Lord Baltimore
 Sloche
-Soft Machine
 Spirogyra 
 Sunhouse 
 Starcastle
@@ -712,7 +817,6 @@ Ultimate Spinach
 Uriah Heep
 Van der Graaf
 Weidorje
-Wishbone Ash
 Wizzard
 Zanov
 Zoo 
