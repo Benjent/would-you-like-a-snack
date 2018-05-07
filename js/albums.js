@@ -2,6 +2,50 @@
 // TODO penser à faire une Map ?
 const albums = [
     {
+        "id": "agora_live_in_montreux",
+        "title": "Live In Montreux",
+        "artist": "Agorà",
+        "year": 1975,
+        "country": "Italy",
+        "cover": "img/covers/agora_live_in_montreux.jpg",
+        "criteria": [6, 7, 11, 12, 14, 23],
+        "selectedTrackTitle": "L'Orto Di Ovidio",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=IoBMXLfGAuo"
+    },
+    {
+        "id": "agora_agora_2",
+        "title": "Agorà 2",
+        "artist": "Agorà",
+        "year": 1976,
+        "country": "Italy",
+        "cover": "img/covers/agora_agora_2.jpg",
+        "criteria": [6, 7, 11, 14, 15, 23],
+        "selectedTrackTitle": "Tall El Zaatar",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=9AvuK3lwNuM"
+    },
+    {
+        "id": "the_alan_parsons_project_i_robot",
+        "title": "I Robot",
+        "artist": "The Alan Parsons Project",
+        "year": 1977,
+        "country": "England",
+        "cover": "img/covers/the_alan_parsons_project_i_robot.jpg",
+        "criteria": [9, 15, 18, 20, 42, 48],
+        "selectedTrackTitle": "I Robot",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=u7oAuba3Ekg"
+    },
+    {
+        "id": "the_alan_parsons_project_pyramid",
+        "title": "Pyramid",
+        "artist": "The Alan Parsons Project",
+        "year": 1978,
+        "country": "England",
+        "cover": "img/covers/the_alan_parsons_project_pyramid.jpg",
+        "criteria": [20, 42, 48],
+        "selectedTrackTitle": "Hyper-Gamma-Spaces",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=Am5Rloqqk0U"
+    },
+    {
         "id": "alpha_ralpha_alpha_ralpha",
         "title": "Alpha Ralpha",
         "artist": "Alpha Ralpha",
@@ -19,9 +63,31 @@ const albums = [
         "year": 1973,
         "country": "England",
         "cover": "img/covers/badger_one_live_badger.jpg",
-        "criteria": [0, 3, 7, 12, 22],
+        "criteria": [0, 3, 7, 12, 22, 47],
         "selectedTrackTitle": "Fountain",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=To2NXcCRC58"
+    },
+    {
+        "id": "bachdenkel_cталинград",
+        "title": "Сталинград",
+        "artist": "Bachdenkel",
+        "year": 1977,
+        "country": "England",
+        "cover": "img/covers/bachdenkel_cталинград.jpg",
+        "criteria": [11, 18],
+        "selectedTrackTitle": "The Whole World",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=qZQ4WaJe90g"
+    },
+    {
+        "id": "the_beatles_abbey_road",
+        "title": "Abbey Road",
+        "artist": "The Beatles",
+        "year": 1969,
+        "country": "England",
+        "cover": "img/covers/the_beatles_abbey_road.jpg",
+        "criteria": [9, 18, 35, 41],
+        "selectedTrackTitle": "She Came In Through The Bathroom Window",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=o14wVjw3HfQ"
     },
     {
         "id": "camel_camel",
@@ -88,6 +154,39 @@ const albums = [
         "criteria": [2, 3, 9, 40, 41],
         "selectedTrackTitle": "As The Moon Speaks (Part I)",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=wm61ROOZ5ek"
+    },
+    {
+        "id": "caravan_in_the_land_of_grey_and_pink",
+        "title": "In The Land Of Grey And Pink",
+        "artist": "Caravan",
+        "year": 1971,
+        "country": "England",
+        "cover": "img/covers/caravan_in_the_land_of_grey_and_pink.jpg",
+        "criteria": [7, 8, 11, 21],
+        "selectedTrackTitle": "Winter Wine",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=l2ZrJdmnHIw"
+    },
+    {
+        "id": "cat_stevens_foreigner",
+        "title": "Foreigner",
+        "artist": "Cat Stevens",
+        "year": 1973,
+        "country": "England",
+        "cover": "img/covers/cat_stevens_foreigner.jpg",
+        "criteria": [8, 19, 21, 47],
+        "selectedTrackTitle": "Foreigner Suite",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=KOC_LkgNAHU"
+    },
+    {
+        "id": "curved_air_air_cut",
+        "title": "Air Cut",
+        "artist": "Curved Air",
+        "year": 1973,
+        "country": "England",
+        "cover": "img/covers/curved_air_air_cut.jpg",
+        "criteria": [21],
+        "selectedTrackTitle": "Metamorphosis",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=uZAImsmFGhk"
     },
     {
         "id": "electric_light_orchestra_time",
@@ -217,7 +316,7 @@ const albums = [
         "year": 1970,
         "country": "England",
         "cover": "img/covers/genesis_trespass.jpg",
-        "criteria": [3, 10, 30, 43],
+        "criteria": [3, 10, 30, 43, 47],
         "selectedTrackTitle": "Dusk",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=R8fq7djQAnQ"
     },
@@ -228,7 +327,7 @@ const albums = [
         "year": 1971,
         "country": "England",
         "cover": "img/covers/genesis_nursery_cryme.jpg",
-        "criteria": [3, 10, 30, 43],
+        "criteria": [3, 10, 30, 43, 47],
         "selectedTrackTitle": "Harold The Barrel",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=qT7k7keej0k"
     },
@@ -239,7 +338,7 @@ const albums = [
         "year": 1972,
         "country": "England",
         "cover": "img/covers/genesis_foxtrot.jpg",
-        "criteria": [3, 8, 10, 30, 43],
+        "criteria": [3, 8, 10, 30, 43, 47],
         "selectedTrackTitle": "Get 'Em Out By Friday",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=Kp-TwWnn0dk"
     },
@@ -250,7 +349,7 @@ const albums = [
         "year": 1973,
         "country": "England",
         "cover": "img/covers/genesis_selling_england_by_the_pound.jpg",
-        "criteria": [3, 8, 10, 30, 43],
+        "criteria": [3, 8, 10, 30, 43, 47],
         "selectedTrackTitle": "Firth Of Fifth",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=SD5engyVXe0"
     },
@@ -264,6 +363,50 @@ const albums = [
         "criteria": [3, 6, 11, 15, 23, 42],
         "selectedTrackTitle": "Percolations",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=G0tsWMzmr-c"
+    },
+    {
+        "id": "hawkwind_in_search_of_space",
+        "title": "In Search Of Space",
+        "artist": "Hawkwind",
+        "year": 1971,
+        "country": "England",
+        "cover": "img/covers/hawkwind_in_search_of_space.jpg",
+        "criteria": [7, 8, 18, 20, 40],
+        "selectedTrackTitle": "Masters Of The Universe",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=X3W7ch0oLeA"
+    },
+    {
+        "id": "hawkwind_doremi_fasol_latido",
+        "title": "Doremi Fasol Latido",
+        "artist": "Hawkwind",
+        "year": 1972,
+        "country": "England",
+        "cover": "img/covers/hawkwind_doremi_fasol_latido.jpg",
+        "criteria": [7, 18, 20, 40],
+        "selectedTrackTitle": "Time We Left This World Today",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=X5SRYtPLDLI"
+    },
+    {
+        "id": "hawkwind_hall_of_the_mountain_grill",
+        "title": "Hall Of The Mountain Grill",
+        "artist": "Hawkwind",
+        "year": 1974,
+        "country": "England",
+        "cover": "img/covers/hawkwind_hall_of_the_mountain_grill.jpg",
+        "criteria": [7, 18, 20, 40],
+        "selectedTrackTitle": "The Psychedelic Warlords",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=MvHtfoqcDss"
+    },
+    {
+        "id": "hawkwind_warriors_on_the_edge_of_time",
+        "title": "Warriors On The Edge Of Itme",
+        "artist": "Hawkwind",
+        "year": 1975,
+        "country": "England",
+        "cover": "img/covers/hawkwind_warriors_on_the_edge_of_time.jpg",
+        "criteria": [7, 18, 20, 40],
+        "selectedTrackTitle": "Assault And Battery / The Golden Void",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=1UIYMxZRLf0"
     },
     {
         "id": "jade_warrior_waves",
@@ -286,6 +429,61 @@ const albums = [
         "criteria": [1, 6, 9, 11, 13, 14, 15, 19],
         "selectedTrackTitle": "Heaven Stone",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=e0-VIz5MINU"
+    },
+    {
+        "id": "jethro_tull_thick_as_a_brick",
+        "title": "Thick As A Brick",
+        "artist": "Jethro Tull",
+        "year": 1972,
+        "country": "England",
+        "cover": "img/covers/jethro_tull_thick_as_a_brick.jpg",
+        "criteria": [1, 3, 8, 43, 46],
+        "selectedTrackTitle": "Thick As A Brick (Part I)",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=l21p4Id40cU"
+    },
+    {
+        "id": "jethro_tull_a_passion_play",
+        "title": "A Passion Play",
+        "artist": "Jethro Tull",
+        "year": 1973,
+        "country": "England",
+        "cover": "img/covers/jethro_tull_a_passion_play.jpg",
+        "criteria": [1, 3, 8, 43, 46],
+        "selectedTrackTitle": "A Passion Play (Part I)",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=gB_Ago8wDb8"
+    },
+    {
+        "id": "king_crimson_in_the_court_of_the_crimson_king",
+        "title": "In The Court Of The Crimson King",
+        "artist": "King Crimson",
+        "year": 1969,
+        "country": "England",
+        "cover": "img/covers/king_crimson_in_the_court_of_the_crimson_king.jpg",
+        "criteria": [3, 8, 11, 15, 18, 19, 47],
+        "selectedTrackTitle": "The Court Of The Crimson King",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=gvCmtHDDuu0"
+    },
+    {
+        "id": "king_crimson_in_the_wake_of_poseidon",
+        "title": "In The Wake Of Poseidon",
+        "artist": "King Crimson",
+        "year": 1970,
+        "country": "England",
+        "cover": "img/covers/king_crimson_in_the_wake_of_poseidon.jpg",
+        "criteria": [3, 8, 11, 15, 18, 19, 47],
+        "selectedTrackTitle": "In The Wake Of Poseidon",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=J1JjOpXsJ7A"
+    },
+    {
+        "id": "king_crimson_red",
+        "title": "Red",
+        "artist": "King Crimson",
+        "year": 1974,
+        "country": "England",
+        "cover": "img/covers/king_crimson_red.jpg",
+        "criteria": [1, 3, 8, 11, 18, 19, 47],
+        "selectedTrackTitle": "Starless",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=OfR6_V91fG8"
     },
     {
         "id": "magma_mekanik_destruktiw_kommandoh",
@@ -316,9 +514,31 @@ const albums = [
         "year": 1973,
         "country": "Italy",
         "cover": "img/covers/museo_rosenbach_zarathustra.jpg",
-        "criteria": [1, 9, 10, 30, 36],
+        "criteria": [1, 9, 10, 30, 36, 47],
         "selectedTrackTitle": "Zarathustra I: L'ultimo Uomo",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=uC9hegZIC2g"
+    },
+    {
+        "id": "pink_floyd_a_saucerful_of_secrets",
+        "title": "A Saucerful Of Secrets",
+        "artist": "Pink Floyd",
+        "year": 1968,
+        "country": "England",
+        "cover": "img/covers/pink_floyd_a_saucerful_of_secrets.jpg",
+        "criteria": [18],
+        "selectedTrackTitle": "Set The Controls For The Heart Of The Sun",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=bbWOmh_rRq0"
+    },
+    {
+        "id": "pink_floyd_more",
+        "title": "More",
+        "artist": "Pink Floyd",
+        "year": 1969,
+        "country": "England",
+        "cover": "img/covers/pink_floyd_more.jpg",
+        "criteria": [18, 21, 41, 49],
+        "selectedTrackTitle": "Cymbaline",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=ZM5iopSs_rI"
     },
     {
         "id": "pink_floyd_atom_heart_mother",
@@ -343,6 +563,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=uThZ1uuLLWM"
     },
     {
+        "id": "pink_floyd_obscured_by_clouds",
+        "title": "Obscured By Clouds",
+        "artist": "Pink Floyd",
+        "year": 1972,
+        "country": "England",
+        "cover": "img/covers/pink_floyd_obscured_by_clouds.jpg",
+        "criteria": [22, 49],
+        "selectedTrackTitle": "When You're In",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=6vr07uuBjg4"
+    },
+    {
         "id": "pink_floyd_dark_side_of_the_moon",
         "title": "Dark Side Of The Moon",
         "artist": "Pink Floyd",
@@ -360,7 +591,7 @@ const albums = [
         "year": 1975,
         "country": "England",
         "cover": "img/covers/pink_floyd_wish_you_were_here.jpg",
-        "criteria": [7, 8, 16, 20],
+        "criteria": [7, 8, 16, 20, 47],
         "selectedTrackTitle": "Welcome To The Machine",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=lt-udg9zQSE"
     },
@@ -382,7 +613,7 @@ const albums = [
         "year": 1979,
         "country": "England",
         "cover": "img/covers/pink_floyd_the_wall.jpg",
-        "criteria": [1, 9, 16, 17, 30, 43],
+        "criteria": [1, 9, 16, 17, 30, 43, 47],
         "selectedTrackTitle": "The Trial",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=4fa7AtI1msk"
     },
@@ -393,7 +624,7 @@ const albums = [
         "year": 1983,
         "country": "England",
         "cover": "img/covers/pink_floyd_the_final_cut.jpg",
-        "criteria": [2, 9, 16, 43],
+        "criteria": [2, 9, 16, 43, 47],
         "selectedTrackTitle": "Your Possible Pasts",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=E-ve_sgdgZs"
     },
@@ -464,13 +695,24 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=d_DajSHROJA"
     },
     {
+        "id": "soft_machine_third",
+        "title": "Third",
+        "artist": "Soft Machine",
+        "year": 1970,
+        "country": "England",
+        "cover": "img/covers/soft_machine_third.jpg",
+        "criteria": [5, 6, 8, 18, 20, 23],
+        "selectedTrackTitle": "Slightly All The Time",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=4RwLgA9U_3I"
+    },
+    {
         "id": "supertramp_crime_of_the_century",
         "title": "Crime Of The Century",
         "artist": "Supertramp",
         "year": 1974,
         "country": "England",
         "cover": "img/covers/supertramp_crime_of_the_century.jpg",
-        "criteria": [1, 11, 17, 19, 43],
+        "criteria": [1, 11, 17, 19, 43, 47, 48],
         "selectedTrackTitle": "Rudy",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=gxW3s_Qk1dk"
     },
@@ -508,6 +750,28 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=zqekc2zaw9A"
     },
     {
+        "id": "titus_groan_titus_groan",
+        "title": "Titus Groan",
+        "artist": "Titus Groan",
+        "year": 1970,
+        "country": "England",
+        "cover": "img/covers/titus_groan_titus_groan.jpg",
+        "criteria": [22],
+        "selectedTrackTitle": "It Wasn't For You",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=7QC1hQyn8-0"
+    },
+    {
+        "id": "warhorse_warhorse",
+        "title": "Warhorse",
+        "artist": "Warhorse",
+        "year": 1970,
+        "country": "England",
+        "cover": "img/covers/warhorse_warhorse.jpg",
+        "criteria": [0, 22, 40],
+        "selectedTrackTitle": "Woman Of The Devil",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=zgWyveaejwI"
+    },
+    {
         "id": "winterhawk_revival",
         "title": "Revival",
         "artist": "Winterhawk",
@@ -517,6 +781,17 @@ const albums = [
         "criteria": [7, 22, 40],
         "selectedTrackTitle": "Period Of Change",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=zDW3m-LaaRc"
+    },
+    {
+        "id": "wishbone_ash_argus",
+        "title": "Argus",
+        "artist": "Wishbone Ash",
+        "year": 1972,
+        "country": "England",
+        "cover": "img/covers/wishbone_ash_argus.jpg",
+        "criteria": [7, 22],
+        "selectedTrackTitle": "Sometime World",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=kvLVSPPLZZY"
     },
     {
         "id": "yes_fragile",
@@ -563,6 +838,111 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=f9GAkA7W5Qg"
     }
 ]
+
+// TODO
+// Below is the list of prog artists that I listened and should be part of this project
+/*
+Acid Mothers XXX
+Acqua Fragile
+Albatross
+Amon Düül
+Ange 
+Anna Själv Tredje
+Anthony Philips
+Aphrodite's Child
+Arachnoïd 
+Arthur Brown 
+Atoll 
+Area 
+Alphataurus 
+Artcane 
+Arti & Mestieri
+Asia 
+Atomic Rooster
+Banco Del Mutuo Soccorso
+Bakerloo 
+Barclay James Harvest
+Black Widow
+Bloodrock
+Brave New World
+Bubu 
+Bùsqueda
+Burning Candle
+Can
+Canamii
+Carmen 
+Coma 
+Coven
+Crucis
+Delirium
+Dominique Guiot
+Dr. Dopo Jam
+Earthrise 
+Egg 
+Elder Kindred 
+ELP
+Eloy 
+Eskaton 
+FM 
+Führs & Fröhling
+Fruupp 
+Gentle Giant
+Goblin
+Gnidrolog
+Gryphon
+Guns & Butter
+Harmonium
+Hatfield & The North
+Happy The Man
+Hawkwind 
+Henry Cow
+Ikarus 
+Jane 
+Jean Michel Jarre
+Led Zeppelin
+Locanda Dell Fante
+Los Grillos
+Mahavishnu Orchestra
+Matching Mole
+Michel Madore
+M.L. Bongers Project
+Mike Oldfield
+Miklagård 
+Moodies Blues
+Necktar 
+Nightwinds 
+Ozric Tentacles
+Pangée 
+Plat Du Jour
+Premiata Forneria Marconi
+Quatermass
+Ralph Lundsten
+Ramses 
+Robert Connolly
+Schicke, Führs & Fröhling
+Serg Ramses 
+Semiramis 
+Sir Lord Baltimore
+Sloche
+Spirogyra 
+Sunhouse 
+Starcastle
+Strawbs
+Tangerine Dream
+Tea & Sympfony 
+Trèfle
+Triumvirat
+Ultimate Spinach
+Uriah Heep
+Van der Graaf
+Weidorje
+Wizzard
+Zanov
+Zoo 
+*/
+
+
+
 
 let artists = [];
 
