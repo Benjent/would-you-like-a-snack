@@ -24,6 +24,28 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=9AvuK3lwNuM"
     },
     {
+        "id": "the_alan_parsons_project_i_robot",
+        "title": "I Robot",
+        "artist": "The Alan Parsons Project",
+        "year": 1977,
+        "country": "England",
+        "cover": "img/covers/the_alan_parsons_project_i_robot.jpg",
+        "criteria": [9, 15, 18, 20, 42, 48],
+        "selectedTrackTitle": "I Robot",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=u7oAuba3Ekg"
+    },
+    {
+        "id": "the_alan_parsons_project_pyramid",
+        "title": "Pyramid",
+        "artist": "The Alan Parsons Project",
+        "year": 1978,
+        "country": "England",
+        "cover": "img/covers/the_alan_parsons_project_pyramid.jpg",
+        "criteria": [20, 42, 48],
+        "selectedTrackTitle": "Hyper-Gamma-Spaces",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=Am5Rloqqk0U"
+    },
+    {
         "id": "alpha_ralpha_alpha_ralpha",
         "title": "Alpha Ralpha",
         "artist": "Alpha Ralpha",
@@ -343,6 +365,50 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=G0tsWMzmr-c"
     },
     {
+        "id": "hawkwind_in_search_of_space",
+        "title": "In Search Of Space",
+        "artist": "Hawkwind",
+        "year": 1971,
+        "country": "England",
+        "cover": "img/covers/hawkwind_in_search_of_space.jpg",
+        "criteria": [7, 8, 18, 20, 40],
+        "selectedTrackTitle": "Masters Of The Universe",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=X3W7ch0oLeA"
+    },
+    {
+        "id": "hawkwind_doremi_fasol_latido",
+        "title": "Doremi Fasol Latido",
+        "artist": "Hawkwind",
+        "year": 1972,
+        "country": "England",
+        "cover": "img/covers/hawkwind_doremi_fasol_latido.jpg",
+        "criteria": [7, 18, 20, 40],
+        "selectedTrackTitle": "Time We Left This World Today",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=X5SRYtPLDLI"
+    },
+    {
+        "id": "hawkwind_hall_of_the_mountain_grill",
+        "title": "Hall Of The Mountain Grill",
+        "artist": "Hawkwind",
+        "year": 1974,
+        "country": "England",
+        "cover": "img/covers/hawkwind_hall_of_the_mountain_grill.jpg",
+        "criteria": [7, 18, 20, 40],
+        "selectedTrackTitle": "The Psychedelic Warlords",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=MvHtfoqcDss"
+    },
+    {
+        "id": "hawkwind_warriors_on_the_edge_of_time",
+        "title": "Warriors On The Edge Of Itme",
+        "artist": "Hawkwind",
+        "year": 1975,
+        "country": "England",
+        "cover": "img/covers/hawkwind_warriors_on_the_edge_of_time.jpg",
+        "criteria": [7, 18, 20, 40],
+        "selectedTrackTitle": "Assault And Battery / The Golden Void",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=1UIYMxZRLf0"
+    },
+    {
         "id": "jade_warrior_waves",
         "title": "Waves",
         "artist": "Jade Warrior",
@@ -363,6 +429,28 @@ const albums = [
         "criteria": [1, 6, 9, 11, 13, 14, 15, 19],
         "selectedTrackTitle": "Heaven Stone",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=e0-VIz5MINU"
+    },
+    {
+        "id": "jethro_tull_thick_as_a_brick",
+        "title": "Thick As A Brick",
+        "artist": "Jethro Tull",
+        "year": 1972,
+        "country": "England",
+        "cover": "img/covers/jethro_tull_thick_as_a_brick.jpg",
+        "criteria": [1, 3, 8, 43, 46],
+        "selectedTrackTitle": "Thick As A Brick (Part I)",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=l21p4Id40cU"
+    },
+    {
+        "id": "jethro_tull_a_passion_play",
+        "title": "A Passion Play",
+        "artist": "Jethro Tull",
+        "year": 1973,
+        "country": "England",
+        "cover": "img/covers/jethro_tull_a_passion_play.jpg",
+        "criteria": [1, 3, 8, 43, 46],
+        "selectedTrackTitle": "A Passion Play (Part I)",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=gB_Ago8wDb8"
     },
     {
         "id": "king_crimson_in_the_court_of_the_crimson_king",
@@ -431,6 +519,28 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=uC9hegZIC2g"
     },
     {
+        "id": "pink_floyd_a_saucerful_of_secrets",
+        "title": "A Saucerful Of Secrets",
+        "artist": "Pink Floyd",
+        "year": 1968,
+        "country": "England",
+        "cover": "img/covers/pink_floyd_a_saucerful_of_secrets.jpg",
+        "criteria": [18],
+        "selectedTrackTitle": "Set The Controls For The Heart Of The Sun",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=bbWOmh_rRq0"
+    },
+    {
+        "id": "pink_floyd_more",
+        "title": "More",
+        "artist": "Pink Floyd",
+        "year": 1969,
+        "country": "England",
+        "cover": "img/covers/pink_floyd_more.jpg",
+        "criteria": [18, 21, 41, 49],
+        "selectedTrackTitle": "Cymbaline",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=ZM5iopSs_rI"
+    },
+    {
         "id": "pink_floyd_atom_heart_mother",
         "title": "Atom Heart Mother",
         "artist": "Pink Floyd",
@@ -451,6 +561,17 @@ const albums = [
         "criteria": [5, 8, 16, 18, 20, 21],
         "selectedTrackTitle": "A Pillow Of Winds",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=uThZ1uuLLWM"
+    },
+    {
+        "id": "pink_floyd_obscured_by_clouds",
+        "title": "Obscured By Clouds",
+        "artist": "Pink Floyd",
+        "year": 1972,
+        "country": "England",
+        "cover": "img/covers/pink_floyd_obscured_by_clouds.jpg",
+        "criteria": [22, 49],
+        "selectedTrackTitle": "When You're In",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=6vr07uuBjg4"
     },
     {
         "id": "pink_floyd_dark_side_of_the_moon",
@@ -591,7 +712,7 @@ const albums = [
         "year": 1974,
         "country": "England",
         "cover": "img/covers/supertramp_crime_of_the_century.jpg",
-        "criteria": [1, 11, 17, 19, 43, 47],
+        "criteria": [1, 11, 17, 19, 43, 47, 48],
         "selectedTrackTitle": "Rudy",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=gxW3s_Qk1dk"
     },
@@ -723,7 +844,6 @@ const albums = [
 /*
 Acid Mothers XXX
 Acqua Fragile
-Alan Parsons Project
 Albatross
 Amon Düül
 Ange 
@@ -779,7 +899,6 @@ Henry Cow
 Ikarus 
 Jane 
 Jean Michel Jarre
-Jethro Tull
 Led Zeppelin
 Locanda Dell Fante
 Los Grillos
