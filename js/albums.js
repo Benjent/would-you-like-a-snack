@@ -888,7 +888,7 @@ const albums = [
         "year": 1977,
         "country": "Belgium",
         "cover": "img/covers/sunhouse_sunhouse.jpg",
-        "criteria": [6, 7, 11, 19, 31, 42],
+        "criteria": [6, 7, 11, 19, 42],
         "selectedTrackTitle": "Don't Skimp With Us",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=1ABQLe-KfEo"
     },
