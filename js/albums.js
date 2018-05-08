@@ -882,6 +882,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=4RwLgA9U_3I"
     },
     {
+        "id": "sunhouse_sunhouse",
+        "title": "Sunhouse",
+        "artist": "Sunhouse",
+        "year": 1977,
+        "country": "Belgium",
+        "cover": "img/covers/sunhouse_sunhouse.jpg",
+        "criteria": [6, 7, 11, 19, 31, 42],
+        "selectedTrackTitle": "Don't Skimp With Us",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=1ABQLe-KfEo"
+    },
+    {
         "id": "supertramp_crime_of_the_century",
         "title": "Crime Of The Century",
         "artist": "Supertramp",
@@ -1023,6 +1034,17 @@ const albums = [
         "criteria": [10, 17, 30],
         "selectedTrackTitle": "Going For The One",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=f9GAkA7W5Qg"
+    },
+    {
+        "id": "zoo_zoo",
+        "title": "Zoo",
+        "artist": "Zoo",
+        "year": 1973,
+        "country": "Netherlands",
+        "cover": "img/covers/zoo_zoo.jpg",
+        "criteria": [7, 22, 42],
+        "selectedTrackTitle": "Cold Night",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=2gI_mUCPHO0"
     }
 ]
 
@@ -1108,8 +1130,7 @@ Serg Ramses
 Semiramis 
 Sir Lord Baltimore
 Sloche
-Spirogyra 
-Sunhouse 
+Spirogyra  
 Starcastle
 Strawbs
 Tangerine Dream
@@ -1121,7 +1142,6 @@ Van der Graaf
 Weidorje
 Wizzard
 Zanov
-Zoo 
 */
 
 
