@@ -46,6 +46,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=Am5Rloqqk0U"
     },
     {
+        "id": "alice_cooper_from_the_inside",
+        "title": "From The Inside",
+        "artist": "Alice Cooper",
+        "year": 1978,
+        "country": "USA",
+        "cover": "img/covers/alice_cooper_from_the_inside.jpg",
+        "criteria": [2, 43, 48],
+        "selectedTrackTitle": "Nurse Rozetta",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=R-h13lDzGNo"
+    },
+    {
         "id": "alpha_ralpha_alpha_ralpha",
         "title": "Alpha Ralpha",
         "artist": "Alpha Ralpha",
@@ -55,6 +66,28 @@ const albums = [
         "criteria": [6, 11, 14, 19],
         "selectedTrackTitle": "Genèse",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=jTS5f1nSurQ"
+    },
+    {
+        "id": "arti_mestieri_tilt",
+        "title": "Tilt",
+        "artist": "Arti & Mestieri",
+        "year": 1974,
+        "country": "Italy",
+        "cover": "img/covers/arti_mestieri_tilt.jpg",
+        "criteria": [3, 4, 6, 7, 9, 15, 19, 36, 42],
+        "selectedTrackTitle": "Positivo/Negativo",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=DC_K3w6gi2Q"
+    },
+    {
+        "id": "arti_mestieri_giro_di_valzer_per_domani",
+        "title": "Giro Di Valzer Per Domani",
+        "artist": "Arti & Mestieri",
+        "year": 1975,
+        "country": "Italy",
+        "cover": "img/covers/arti_mestieri_giro_di_valzer_per_domani.jpg",
+        "criteria": [3, 4, 6, 7, 15, 19, 30, 36, 41, 42],
+        "selectedTrackTitle": "Valzer Per Domani",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=NDBj39DGVRw"
     },
     {
         "id": "badger_one_live_badger",
@@ -68,6 +101,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=To2NXcCRC58"
     },
     {
+        "id": "bachdenkel_lemmings",
+        "title": "Lemmings",
+        "artist": "Bachdenkel",
+        "year": 1973,
+        "country": "England",
+        "cover": "img/covers/bachdenkel_lemmings.jpg",
+        "criteria": [11, 18],
+        "selectedTrackTitle": "Translation",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=FSaajW7QHwk"
+    },
+    {
         "id": "bachdenkel_cталинград",
         "title": "Сталинград",
         "artist": "Bachdenkel",
@@ -79,6 +123,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=qZQ4WaJe90g"
     },
     {
+        "id": "the_beatles_sgt_peppers_lonely_hearts_club_band",
+        "title": "Sgt. Pepper's Lonely Hearts Club Band",
+        "artist": "The Beatles",
+        "year": 1967,
+        "country": "England",
+        "cover": "img/covers/the_beatles_sgt_peppers_lonely_hearts_club_band.jpg",
+        "criteria": [1, 9, 15, 16, 17, 41, 45],
+        "selectedTrackTitle": "A Day In The Life",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=usNsCeOV4GM"
+    },
+    {
         "id": "the_beatles_abbey_road",
         "title": "Abbey Road",
         "artist": "The Beatles",
@@ -88,6 +143,39 @@ const albums = [
         "criteria": [9, 18, 35, 41],
         "selectedTrackTitle": "She Came In Through The Bathroom Window",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=o14wVjw3HfQ"
+    },
+    {
+        "id": "black_sabbath_sabotage",
+        "title": "Sabotage",
+        "artist": "Black Sabbath",
+        "year": 1975,
+        "country": "England",
+        "cover": "img/covers/black_sabbath_sabotage.jpg",
+        "criteria": [9, 40],
+        "selectedTrackTitle": "The Writ",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=iyXqWzZ_8sM"
+    },
+    {
+        "id": "black_widow_sacrifice",
+        "title": "Sacrifice",
+        "artist": "Black Widow",
+        "year": 1970,
+        "country": "England",
+        "cover": "img/covers/black_widow_sacrifice.jpg",
+        "criteria": [1, 15, 18, 42],
+        "selectedTrackTitle": "In Ancient Days",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=yGKt65hTItU"
+    },
+    {
+        "id": "black_widow_black_widow",
+        "title": "Black Widow",
+        "artist": "Black Widow",
+        "year": 1971,
+        "country": "England",
+        "cover": "img/covers/black_widow_black_widow.jpg",
+        "criteria": [18],
+        "selectedTrackTitle": "Tears And Wine",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=bDk2hX1hsUc"
     },
     {
         "id": "camel_camel",
@@ -178,6 +266,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=KOC_LkgNAHU"
     },
     {
+        "id": "the_crazy_world_of_arthur_brown_the_crazy_world_of_arthur_brown",
+        "title": "The Crazy World Of Arthur Brown",
+        "artist": "The Crazy World Of Arthur Brown",
+        "year": 1968,
+        "country": "England",
+        "cover": "img/covers/the_crazy_world_of_arthur_brown_the_crazy_world_of_arthur_brown.png",
+        "criteria": [1, 9, 18, 35, 41, 45],
+        "selectedTrackTitle": "Fire",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=FaHEusBG20c"
+    },
+    {
         "id": "curved_air_air_cut",
         "title": "Air Cut",
         "artist": "Curved Air",
@@ -187,6 +286,17 @@ const albums = [
         "criteria": [21],
         "selectedTrackTitle": "Metamorphosis",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=uZAImsmFGhk"
+    },
+    {
+        "id": "deep_purple_machine_head",
+        "title": "Machine Head",
+        "artist": "Deep Purple",
+        "year": 1972,
+        "country": "England",
+        "cover": "img/covers/deep_purple_machine_head.jpg",
+        "criteria": [3, 7, 22, 40],
+        "selectedTrackTitle": "Lazy",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=STFWapwyqMo"
     },
     {
         "id": "electric_light_orchestra_time",
@@ -200,13 +310,24 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=CJdZTNLkpuA"
     },
     {
+        "id": "focus_in_and_out_of_focus",
+        "title": "In And Out Of Focus",
+        "artist": "Focus",
+        "year": 1970,
+        "country": "Netherlands",
+        "cover": "img/covers/focus_in_and_out_of_focus.jpg",
+        "criteria": [6, 11, 19, 22, 31, 42],
+        "selectedTrackTitle": "House Of The King",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=vx-g0C4iHTEJ9o"
+    },
+    {
         "id": "focus_moving_waves",
         "title": "Moving Waves",
         "artist": "Focus",
         "year": 1971,
         "country": "Netherlands",
         "cover": "img/covers/focus_moving_waves.jpg",
-        "criteria": [6, 8, 10, , 11, 19, 35],
+        "criteria": [6, 8, 10, 11, 19, 35],
         "selectedTrackTitle": "Janis",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=vx-JzRzsCss"
     },
@@ -220,6 +341,17 @@ const albums = [
         "criteria": [3, 4, 6, 7, 8, 19, 35, 42],
         "selectedTrackTitle": "Sylvia",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=aig4mWJUpLw"
+    },
+    {
+        "id": "focus_hamburger_concerto",
+        "title": "Hamburger Concerto",
+        "artist": "Focus",
+        "year": 1974,
+        "country": "Netherlands",
+        "cover": "img/covers/focus_hamburger_concerto.jpg",
+        "criteria": [6, 8, 10, 19],
+        "selectedTrackTitle": "La Cathédrale De Strasbourg",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=HowIDiFOHwY"
     },
     {
         "id": "frank_zappa_hot_rats",
@@ -242,6 +374,28 @@ const albums = [
         "criteria": [3, 4, 6, 7, 8, 15, 23, 35, 42],
         "selectedTrackTitle": "It Just Might Be A One-Shot Deal",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=3expVNVi6Gw"
+    },
+    {
+        "id": "frank_zappa_the_grand_wazoo",
+        "title": "The Grand Wazoo",
+        "artist": "Frank Zappa",
+        "year": 1972,
+        "country": "USA",
+        "cover": "img/covers/frank_zappa_the_grand_wazoo.jpg",
+        "criteria": [3, 6, 7, 8, 15, 23, 35, 42, 45],
+        "selectedTrackTitle": "Cletus Awreetus-Awrightus",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=cu_kJ4jEJ9A"
+    },
+    {
+        "id": "frank_zappa_over_nite_sensation",
+        "title": "Over-Nite Sensation",
+        "artist": "Frank Zappa",
+        "year": 1973,
+        "country": "USA",
+        "cover": "img/covers/frank_zappa_over_nite_sensation.jpg",
+        "criteria": [3, 18, 19, 22, 35, 40, 42],
+        "selectedTrackTitle": "Zomby Woof",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=ksnwEsPKO5s"
     },
     {
         "id": "frank_zappa_apostrophe",
@@ -277,13 +431,24 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=fdQmhhi5cLI"
     },
     {
+        "id": "frank_zappa_sheik_yerbouti",
+        "title": "Sheik Yerbouti",
+        "artist": "Frank Zappa",
+        "year": 1979,
+        "country": "USA",
+        "cover": "img/covers/frank_zappa_sheik_yerbouti.jpg",
+        "criteria": [7, 12, 16, 18, 22, 35, 40, 41],
+        "selectedTrackTitle": "City Of Tiny Lites",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=cMe7ZFMBGdo"
+    },
+    {
         "id": "frank_zappa_joes_garage",
         "title": "Joe's Garage",
         "artist": "Frank Zappa",
         "year": 1979,
         "country": "USA",
         "cover": "img/covers/frank_zappa_joes_garage.jpg",
-        "criteria": [2, 3, 9, 17, 35, 43],
+        "criteria": [2, 3, 9, 17, 35, 42, 43],
         "selectedTrackTitle": "A Token Of My Extreme",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=tnSF36PBxbk"
     },
@@ -473,6 +638,17 @@ const albums = [
         "criteria": [3, 8, 11, 15, 18, 19, 47],
         "selectedTrackTitle": "In The Wake Of Poseidon",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=J1JjOpXsJ7A"
+    },
+    {
+        "id": "king_crimson_lizard",
+        "title": "Lizard",
+        "artist": "King Crimson",
+        "year": 1970,
+        "country": "England",
+        "cover": "img/covers/king_crimson_lizard.jpg",
+        "criteria": [3, 8, 18, 19],
+        "selectedTrackTitle": "Cirkus",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=IYHjPE9ByS4"
     },
     {
         "id": "king_crimson_red",
@@ -706,6 +882,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=4RwLgA9U_3I"
     },
     {
+        "id": "sunhouse_sunhouse",
+        "title": "Sunhouse",
+        "artist": "Sunhouse",
+        "year": 1977,
+        "country": "Belgium",
+        "cover": "img/covers/sunhouse_sunhouse.jpg",
+        "criteria": [6, 7, 11, 19, 42],
+        "selectedTrackTitle": "Don't Skimp With Us",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=1ABQLe-KfEo"
+    },
+    {
         "id": "supertramp_crime_of_the_century",
         "title": "Crime Of The Century",
         "artist": "Supertramp",
@@ -739,6 +926,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=s6L8ZCAt3DA"
     },
     {
+        "id": "titus_groan_titus_groan",
+        "title": "Titus Groan",
+        "artist": "Titus Groan",
+        "year": 1970,
+        "country": "England",
+        "cover": "img/covers/titus_groan_titus_groan.jpg",
+        "criteria": [22],
+        "selectedTrackTitle": "It Wasn't For You",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=7QC1hQyn8-0"
+    },
+    {
         "id": "trapeze_trapeze",
         "title": "Trapeze",
         "artist": "Trapeze",
@@ -750,15 +948,15 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=zqekc2zaw9A"
     },
     {
-        "id": "titus_groan_titus_groan",
-        "title": "Titus Groan",
-        "artist": "Titus Groan",
-        "year": 1970,
-        "country": "England",
-        "cover": "img/covers/titus_groan_titus_groan.jpg",
-        "criteria": [22],
-        "selectedTrackTitle": "It Wasn't For You",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=7QC1hQyn8-0"
+        "id": "trefle_reflet",
+        "title": "Reflet",
+        "artist": "Trèfle",
+        "year": 1978,
+        "country": "France",
+        "cover": "img/covers/trefle_reflet.jpg",
+        "criteria": [2, 37, 43, 47],
+        "selectedTrackTitle": "L'appel Du Temps",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=sGMIO4h7XMY"
     },
     {
         "id": "warhorse_warhorse",
@@ -836,6 +1034,17 @@ const albums = [
         "criteria": [10, 17, 30],
         "selectedTrackTitle": "Going For The One",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=f9GAkA7W5Qg"
+    },
+    {
+        "id": "zoo_zoo",
+        "title": "Zoo",
+        "artist": "Zoo",
+        "year": 1973,
+        "country": "Netherlands",
+        "cover": "img/covers/zoo_zoo.jpg",
+        "criteria": [7, 22, 42],
+        "selectedTrackTitle": "Cold Night",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=2gI_mUCPHO0"
     }
 ]
 
@@ -851,7 +1060,6 @@ Anna Själv Tredje
 Anthony Philips
 Aphrodite's Child
 Arachnoïd 
-Arthur Brown 
 Atoll 
 Area 
 Alphataurus 
@@ -862,7 +1070,6 @@ Atomic Rooster
 Banco Del Mutuo Soccorso
 Bakerloo 
 Barclay James Harvest
-Black Widow
 Bloodrock
 Brave New World
 Bubu 
@@ -894,7 +1101,6 @@ Guns & Butter
 Harmonium
 Hatfield & The North
 Happy The Man
-Hawkwind 
 Henry Cow
 Ikarus 
 Jane 
@@ -924,13 +1130,11 @@ Serg Ramses
 Semiramis 
 Sir Lord Baltimore
 Sloche
-Spirogyra 
-Sunhouse 
+Spirogyra  
 Starcastle
 Strawbs
 Tangerine Dream
 Tea & Sympfony 
-Trèfle
 Triumvirat
 Ultimate Spinach
 Uriah Heep
@@ -938,7 +1142,6 @@ Van der Graaf
 Weidorje
 Wizzard
 Zanov
-Zoo 
 */
 
 
