@@ -415,7 +415,7 @@ const albums = [
         "year": 1977,
         "country": "Germany",
         "cover": "img/covers/eloy_ocean.jpg",
-        "criteria": [1, 8, 10, 20, 43],
+        "criteria": [1, 7, 8, 10, 20, 43],
         "selectedTrackTitle": "Poseidon's Creation",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=NIeO4IAhpGM"
     },
