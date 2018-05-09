@@ -1050,7 +1050,7 @@ const albums = [
         "year": 1976,
         "country": "England",
         "cover": "img/covers/jade_warrior_floating_world.jpg",
-        "criteria": [1, 6, 8, 9, 11, 13, 14, 15, 19],
+        "criteria": [1, 3, 6, 8, 9, 11, 13, 14, 15, 19],
         "selectedTrackTitle": "Mountain Of Fruit And Flowers",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=P02f9snizbE"
     },
