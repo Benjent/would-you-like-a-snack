@@ -68,6 +68,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=jTS5f1nSurQ"
     },
     {
+        "id": "arachnoid_arachnoid",
+        "title": "Arachnoïd",
+        "artist": "Arachnoïd",
+        "year": 1979,
+        "country": "France",
+        "cover": "img/covers/arachnoid_arachnoid.jpg",
+        "criteria": [1, 18, 19, 37],
+        "selectedTrackTitle": "Le Chamadère",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=6v5NjAeKNE0"
+    },
+    {
         "id": "arti_mestieri_tilt",
         "title": "Tilt",
         "artist": "Arti & Mestieri",
@@ -88,6 +99,17 @@ const albums = [
         "criteria": [3, 4, 6, 7, 15, 19, 30, 36, 41, 42],
         "selectedTrackTitle": "Valzer Per Domani",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=NDBj39DGVRw"
+    },
+    {
+        "id": "atomic_rooster_in_hearing_of_atomic_rooster",
+        "title": "In Hearing Of Atomic Rooster",
+        "artist": "Atomic Rooster",
+        "year": 1971,
+        "country": "England",
+        "cover": "img/covers/atomic_rooster_in_hearing_of_atomic_rooster.jpg",
+        "criteria": [7, 22],
+        "selectedTrackTitle": "Breakthrough",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=lgqFPcKpfEg"
     },
     {
         "id": "badger_one_live_badger",
@@ -178,6 +200,50 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=bDk2hX1hsUc"
     },
     {
+        "id": "bloodrock_passage",
+        "title": "Passage",
+        "artist": "Bloodrock",
+        "year": 1972,
+        "country": "USA",
+        "cover": "img/covers/bloodrock_passage.jpg",
+        "criteria": [3, 18, 21, 22],
+        "selectedTrackTitle": "Lost Fame",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=5n_a4wR972M"
+    },
+    {
+        "id": "bloodrock_whirlwind_tongues",
+        "title": "Whirlwind",
+        "artist": "Bloodrock",
+        "year": 1974,
+        "country": "USA",
+        "cover": "img/covers/bloodrock_whirlwind_tongues.jpg",
+        "criteria": [3, 18, 21, 22],
+        "selectedTrackTitle": "Stilled By Whirlwind Tongues",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=CfwD6SCQtjE"
+    },
+    {
+        "id": "brave_new_world_impressions_on_reading_aldous_huxley",
+        "title": "Impressions On Reading Aldous Huxley",
+        "artist": "Brave New World",
+        "year": 1972,
+        "country": "Germany",
+        "cover": "img/covers/brave_new_world_impressions_on_reading_aldous_huxley.jpg",
+        "criteria": [1, 6, 7, 8, 9, 15, 18, 19, 20],
+        "selectedTrackTitle": "Lenina",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=3eHj2-iltEg"
+    },
+    {
+        "id": "budgie_budgie",
+        "title": "Budgie",
+        "artist": "Budgie",
+        "year": 1971,
+        "country": "Wales",
+        "cover": "img/covers/budgie_budgie.jpg",
+        "criteria": [7, 22, 40],
+        "selectedTrackTitle": "The Author",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=lrQd56l4adE"
+    },
+    {
         "id": "camel_camel",
         "title": "Camel",
         "artist": "Camel",
@@ -233,6 +299,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=JR4aCz-JZrY"
     },
     {
+        "id": "can_future_days",
+        "title": "Future Days",
+        "artist": "Can",
+        "year": 1973,
+        "country": "Germany",
+        "cover": "img/covers/can_future_days.jpg",
+        "criteria": [6, 7, 8, 11, 14, 15, 19, 42],
+        "selectedTrackTitle": "Future Days",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=-JKb5xbYkYg"
+    },
+    {
         "id": "captain_beyond_captain_beyond",
         "title": "Captain Beyond",
         "artist": "Captain Beyond",
@@ -266,6 +343,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=KOC_LkgNAHU"
     },
     {
+        "id": "coma_financial_tycoon",
+        "title": "Financial Tycoon",
+        "artist": "Coma",
+        "year": 1977,
+        "country": "Denmark",
+        "cover": "img/covers/coma_financial_tycoon.jpg",
+        "criteria": [1, 3, 6, 7, 15, 18, 19, 35, 42],
+        "selectedTrackTitle": "Foreigner Suite",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=QOJXZbwHPNI"
+    },
+    {
         "id": "the_crazy_world_of_arthur_brown_the_crazy_world_of_arthur_brown",
         "title": "The Crazy World Of Arthur Brown",
         "artist": "The Crazy World Of Arthur Brown",
@@ -288,6 +376,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=uZAImsmFGhk"
     },
     {
+        "id": "david_bowie_the_rise_and_fall_of_ziggy_stardust_and_the_spiders_from_mars",
+        "title": "The Rise And Fall Of Ziggy Stardust And The Spiders From Mars",
+        "artist": "David Bowie",
+        "year": 1972,
+        "country": "England",
+        "cover": "img/covers/david_bowie_the_rise_and_fall_of_ziggy_stardust_and_the_spiders_from_mars.jpg",
+        "criteria": [1, 43, 48],
+        "selectedTrackTitle": "Starman",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=EYQTGF1hXVI"
+    },
+    {
         "id": "deep_purple_machine_head",
         "title": "Machine Head",
         "artist": "Deep Purple",
@@ -308,6 +407,17 @@ const albums = [
         "criteria": [2, 9, 20, 22, 43],
         "selectedTrackTitle": "Ticket To The Moon",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=CJdZTNLkpuA"
+    },
+    {
+        "id": "eloy_ocean",
+        "title": "Ocean",
+        "artist": "Eloy",
+        "year": 1977,
+        "country": "Germany",
+        "cover": "img/covers/eloy_ocean.jpg",
+        "criteria": [1, 8, 10, 20, 43],
+        "selectedTrackTitle": "Poseidon's Creation",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=NIeO4IAhpGM"
     },
     {
         "id": "focus_in_and_out_of_focus",
