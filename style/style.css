@@ -22,7 +22,6 @@ button {
 button {
   width: 200px;
   border: solid 3px #a18a54;
-  margin: 0 auto;
   padding: 5px;
   background: #030504;
   display: block;
@@ -93,24 +92,23 @@ header {
   background-position: 50%;
   text-align: center;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
   position: fixed;
   top: 0;
   width: 100vw;
   background: #030504;
   border-bottom: solid 10px #a18a54;
+  padding: 0 20px;
+  box-sizing: border-box;
 }
 
 header button {
-  position: absolute;
-  left: 20px;
-  top: 40px;
   width: 300px;
 }
 
-header h1 {
-  width: 100%;
+header #collectionSize {
+  width: 300px;
 }
 
 #albumVue {
@@ -122,6 +120,7 @@ header h1 {
 }
 
 #albumVue #randomButton {
+  margin: 0 auto;
   margin-top: 50px;
 }
 
