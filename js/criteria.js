@@ -59,5 +59,6 @@ const criteria = [
     "Touching vocals",                              // 47
     "Art Pop",                                      // 48
     "Soundtrack album",                             // 49
+    "Spacy",                                        // 50
     
 ]

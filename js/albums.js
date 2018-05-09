@@ -239,6 +239,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=usNsCeOV4GM"
     },
     {
+        "id": "the_beatles_yellow_submarine",
+        "title": "Yellow Submarine",
+        "artist": "The Beatles",
+        "year": 1969,
+        "country": "England",
+        "cover": "img/covers/the_beatles_yellow_submarine.jpg",
+        "criteria": [1, 10, 15, 16, 18, 45],
+        "selectedTrackTitle": "Yellow Submarine",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=m2uTFF_3MaA"
+    },
+    {
         "id": "the_beatles_abbey_road",
         "title": "Abbey Road",
         "artist": "The Beatles",
@@ -498,13 +509,46 @@ const albums = [
     // **************************************** D **************************************** //
     // ********************************************************************************** //
     {
+        "id": "david_bowie_space_oddity",
+        "title": "Space Oddity",
+        "artist": "David Bowie",
+        "year": 1969,
+        "country": "England",
+        "cover": "img/covers/david_bowie_space_oddity.jpg",
+        "criteria": [21, 48],
+        "selectedTrackTitle": "Space Oddity",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=iYYRH4apXDo"
+    },
+    {
+        "id": "david_bowie_the_man_who_sold_the_world",
+        "title": "The Man Who Sold The World",
+        "artist": "David Bowie",
+        "year": 1970,
+        "country": "England",
+        "cover": "img/covers/david_bowie_the_man_who_sold_the_world.jpg",
+        "criteria": [21, 48],
+        "selectedTrackTitle": "The Width Of A Circle",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=s2L4hL2IvUk"
+    },
+    {
+        "id": "david_bowie_hunky_dory",
+        "title": "Hunky Dory",
+        "artist": "David Bowie",
+        "year": 1971,
+        "country": "England",
+        "cover": "img/covers/david_bowie_hunky_dory.jpg",
+        "criteria": [3, 21, 48],
+        "selectedTrackTitle": "Life On Mars?",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=v--IqqusnNQ"
+    },
+    {
         "id": "david_bowie_the_rise_and_fall_of_ziggy_stardust_and_the_spiders_from_mars",
         "title": "The Rise And Fall Of Ziggy Stardust And The Spiders From Mars",
         "artist": "David Bowie",
         "year": 1972,
         "country": "England",
         "cover": "img/covers/david_bowie_the_rise_and_fall_of_ziggy_stardust_and_the_spiders_from_mars.jpg",
-        "criteria": [1, 43, 48],
+        "criteria": [1, 21, 43, 48],
         "selectedTrackTitle": "Starman",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=EYQTGF1hXVI"
     },
@@ -865,9 +909,42 @@ const albums = [
         "year": 1973,
         "country": "France",
         "cover": "img/covers/gong_flying_teapot.jpg",
-        "criteria": [2, 3, 7, 18, 19, 20, 35, 42],
+        "criteria": [2, 3, 7, 9, 18, 19, 20, 35, 42, 50],
         "selectedTrackTitle": "Flying Teapot",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=SIgzP4Rj0Ns"
+    },
+    {
+        "id": "gong_angels_egg",
+        "title": "Angels Egg",
+        "artist": "Gong",
+        "year": 1973,
+        "country": "France",
+        "cover": "img/covers/gong_angels_egg.jpg",
+        "criteria": [2, 3, 9, 18, 20, 41, 50],
+        "selectedTrackTitle": "Oily Way",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=xZWW1ClYxYo"
+    },
+    {
+        "id": "gong_you",
+        "title": "You",
+        "artist": "Gong",
+        "year": 1974,
+        "country": "France",
+        "cover": "img/covers/gong_you.jpg",
+        "criteria": [2, 9, 15, 18, 19, 20, 50],
+        "selectedTrackTitle": "Master Builder",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=CKfTKNp_yUI"
+    },
+    {
+        "id": "gong_shamal",
+        "title": "Shamal",
+        "artist": "Gong",
+        "year": 1975,
+        "country": "France",
+        "cover": "img/covers/gong_shamal.jpg",
+        "criteria": [3, 6, 11, 15, 23, 42],
+        "selectedTrackTitle": "Mandrake",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=Ks9YscGny8g"
     },
     {
         "id": "gong_gazeuse",
@@ -912,7 +989,7 @@ const albums = [
         "year": 1971,
         "country": "England",
         "cover": "img/covers/hawkwind_in_search_of_space.jpg",
-        "criteria": [7, 8, 18, 20, 40],
+        "criteria": [7, 8, 18, 20, 40, 50],
         "selectedTrackTitle": "Masters Of The Universe",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=X3W7ch0oLeA"
     },
@@ -923,7 +1000,7 @@ const albums = [
         "year": 1972,
         "country": "England",
         "cover": "img/covers/hawkwind_doremi_fasol_latido.jpg",
-        "criteria": [7, 18, 20, 40],
+        "criteria": [7, 18, 20, 40, 50],
         "selectedTrackTitle": "Time We Left This World Today",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=X5SRYtPLDLI"
     },
@@ -934,7 +1011,7 @@ const albums = [
         "year": 1974,
         "country": "England",
         "cover": "img/covers/hawkwind_hall_of_the_mountain_grill.jpg",
-        "criteria": [7, 18, 20, 40],
+        "criteria": [7, 18, 20, 40, 50],
         "selectedTrackTitle": "The Psychedelic Warlords",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=MvHtfoqcDss"
     },
@@ -945,7 +1022,7 @@ const albums = [
         "year": 1975,
         "country": "England",
         "cover": "img/covers/hawkwind_warriors_on_the_edge_of_time.jpg",
-        "criteria": [7, 18, 20, 40],
+        "criteria": [7, 18, 20, 40, 50],
         "selectedTrackTitle": "Assault And Battery / The Golden Void",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=1UIYMxZRLf0"
     },
@@ -967,13 +1044,24 @@ const albums = [
     // **************************************** J **************************************** //
     // ********************************************************************************** //
     {
-        "id": "jade_warrior_waves",
-        "title": "Waves",
+        "id": "jade_warrior_floating_world",
+        "title": "Floating World",
         "artist": "Jade Warrior",
         "year": 1976,
         "country": "England",
-        "cover": "img/covers/jade_warrior_waves.jpg",
-        "criteria": [1, 6, 8, 9, 11, 13, 14, 19],
+        "cover": "img/covers/jade_warrior_floating_world.jpg",
+        "criteria": [1, 6, 8, 9, 11, 13, 14, 15, 19],
+        "selectedTrackTitle": "Mountain Of Fruit And Flowers",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=P02f9snizbE"
+    },
+    {
+        "id": "jade_warrior_floating_world",
+        "title": "Waves",
+        "artist": "Jade Warrior",
+        "year": 1974,
+        "country": "England",
+        "cover": "img/covers/jade_warrior_floating_world.jpg",
+        "criteria": [1, 6, 9, 11, 13, 14, 15, 19],
         "selectedTrackTitle": "Waves (Part II)",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=uGYpyLxDzlk"
     },
@@ -1313,6 +1401,17 @@ const albums = [
     // **************************************** S **************************************** //
     // ********************************************************************************** //
     {
+        "id": "santana_caravanserai",
+        "title": "Caravanserai",
+        "artist": "Santana",
+        "year": 1972,
+        "country": "USA",
+        "cover": "img/covers/santana_caravanserai.jpg",
+        "criteria": [1, 3, 6, 7, 9, 14, 18, 19, 42],
+        "selectedTrackTitle": "Waves Within",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=VGbSw8dHR3w"
+    },
+    {
         "id": "shakti_natural_elements",
         "title": "Natural Elements",
         "artist": "Shakti",
@@ -1488,6 +1587,17 @@ const albums = [
         "criteria": [7, 22, 40],
         "selectedTrackTitle": "Period Of Change",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=zDW3m-LaaRc"
+    },
+    {
+        "id": "wishbone_ash_pilgrimage",
+        "title": "Pilgrimage",
+        "artist": "Wishbone Ash",
+        "year": 1971,
+        "country": "England",
+        "cover": "img/covers/wishbone_ash_pilgrimage.jpg",
+        "criteria": [3, 7, 22],
+        "selectedTrackTitle": "Valediction",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=PILotugu-s4"
     },
     {
         "id": "wishbone_ash_argus",
