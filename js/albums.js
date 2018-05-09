@@ -1077,6 +1077,28 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=e0-VIz5MINU"
     },
     {
+        "id": "jean_michel_jarre_oxygene",
+        "title": "Oxygène",
+        "artist": "Jean Michel Jarre",
+        "year": 1976,
+        "country": "France",
+        "cover": "img/covers/jean_michel_jarre_oxygene.jpg",
+        "criteria": [1, 6, 14, 44],
+        "selectedTrackTitle": "Oxygène (Part IV)",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=P_I2ch8_TXc"
+    },
+    {
+        "id": "jean_michel_jarre_equinoxe",
+        "title": "Équinoxe",
+        "artist": "Jean Michel Jarre",
+        "year": 1978,
+        "country": "France",
+        "cover": "img/covers/jean_michel_jarre_equinoxe.jpg",
+        "criteria": [1, 6, 14, 44],
+        "selectedTrackTitle": "Équinoxe (Part IV)",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=fpWNimba344"
+    },
+    {
         "id": "jefferson_airplane_crown_of_creation",
         "title": "Crown Of Creation",
         "artist": "Jefferson Airplane",
@@ -1086,6 +1108,17 @@ const albums = [
         "criteria": [18, 46],
         "selectedTrackTitle": "Lather",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=e0-9WF4FF8QrQE"
+    },
+    {
+        "id": "jethro_tull_stand_up",
+        "title": "Stand Up",
+        "artist": "Jethro Tull",
+        "year": 1969,
+        "country": "England",
+        "cover": "img/covers/jethro_tull_stand_up.jpg",
+        "criteria": [7, 46],
+        "selectedTrackTitle": "Bourée",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=N2RNe2jwHE0"
     },
     {
         "id": "jethro_tull_thick_as_a_brick",
@@ -1112,6 +1145,28 @@ const albums = [
     // ************************************************************************************ //
     // **************************************** K **************************************** //
     // ********************************************************************************** //
+    {
+        "id": "keef_hartley_band_the_time_is_near",
+        "title": "The Time Is Near...",
+        "artist": "Keef Hartley Band",
+        "year": 1971,
+        "country": "England",
+        "cover": "img/covers/keef_hartley_band_the_time_is_near.jpg",
+        "criteria": [7, 21, 22, 42],
+        "selectedTrackTitle": "The Time Is Near",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=SIm_uYzdcsA"
+    },
+    {
+        "id": "keef_hartley_band_overdog",
+        "title": "Overdog",
+        "artist": "Keef Hartley Band",
+        "year": 1971,
+        "country": "England",
+        "cover": "img/covers/keef_hartley_band_overdog.jpg",
+        "criteria": [7, 21, 22, 42],
+        "selectedTrackTitle": "Theme Song / En Route",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=76upSLEWHL8"
+    },
     {
         "id": "king_crimson_in_the_court_of_the_crimson_king",
         "title": "In The Court Of The Crimson King",
@@ -1196,6 +1251,28 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=pZIg-fJU7vI"
     },
     {
+        "id": "mike_oldfield_hergest_ridge",
+        "title": "Hergest Ridge",
+        "artist": "Mike Oldfield",
+        "year": 1974,
+        "country": "England",
+        "cover": "img/covers/mike_oldfield_hergest_ridge.jpg",
+        "criteria": [6, 8, 10, 15, 20, 21, 45],
+        "selectedTrackTitle": "Hergest Ridge (Part I)",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=DPQPYwWgxTY"
+    },
+    {
+        "id": "mike_oldfield_ommadawn",
+        "title": "Ommadawn",
+        "artist": "Mike Oldfield",
+        "year": 1975,
+        "country": "England",
+        "cover": "img/covers/mike_oldfield_ommadawn.jpg",
+        "criteria": [6, 8, 10, 15, 20, 21, 45],
+        "selectedTrackTitle": "Ommadawn (Part I)",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=vShVl_Xd_Tc"
+    },
+    {
         "id": "the_moody_blues_days_of_future_passed",
         "title": "Days Of Future Passed",
         "artist": "The Moody Blues",
@@ -1203,7 +1280,7 @@ const albums = [
         "country": "England",
         "cover": "img/covers/the_moody_blues_days_of_future_passed.png",
         "criteria": [1, 6, 10, 15, 18, 43],
-        "selectedTrackTitle": " Evening: The Sunset / Twilight Time",
+        "selectedTrackTitle": "Evening: The Sunset / Twilight Time",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=C012iKu9s-8"
     },
     {
@@ -1509,6 +1586,17 @@ const albums = [
         "criteria": [8, 13, 16, 18, 21],
         "selectedTrackTitle": "Baby Night",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=s6L8ZCAt3DA"
+    },
+    {
+        "id": "sweetwater_just_for_you",
+        "title": "Just For You",
+        "artist": "Sweetwater",
+        "year": 1970,
+        "country": "USA",
+        "cover": "img/covers/sweetwater_just_for_you.jpg",
+        "criteria": [11, 42, 46],
+        "selectedTrackTitle": "Song Of Romeo",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=_LXdlWNrItQ"
     },
     // ************************************************************************************ //
     // **************************************** T **************************************** //
