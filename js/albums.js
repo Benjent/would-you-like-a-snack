@@ -82,6 +82,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=oUNxXhzF0fw"
     },
     {
+        "id": "aphrodites_child_666",
+        "title": "666",
+        "artist": "Aphrodite's Child",
+        "year": 1972,
+        "country": "Greece",
+        "cover": "img/covers/aphrodites_child_666.png",
+        "criteria": [1, 5, 6, 8, 9, 10, 15, 18, 20, 41],
+        "selectedTrackTitle": "The Lamb",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=hbTHgL4pu_A"
+    },
+    {
         "id": "arachnoid_arachnoid",
         "title": "Arachnoïd",
         "artist": "Arachnoïd",
@@ -260,6 +271,17 @@ const albums = [
         "selectedTrackTitle": "The Author",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=lrQd56l4adE"
     },
+    {
+        "id": "busqueda_busqueda",
+        "title": "Búsqueda",
+        "artist": "Búsqueda",
+        "year": 1978,
+        "country": "Argentina",
+        "cover": "img/covers/busqueda_busqueda.jpg",
+        "criteria": [11, 31, 38, 46],
+        "selectedTrackTitle": "La Forma De Tu Vita",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=npJ--wejC6c"
+    },
     // ************************************************************************************ //
     // **************************************** C **************************************** //
     // ********************************************************************************** //
@@ -374,6 +396,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=QOJXZbwHPNI"
     },
     {
+        "id": "coven_witchcraft_destroys_minds_and_reaps_souls",
+        "title": "Witchcraft Destroys Minds & Reaps Souls",
+        "artist": "Coven",
+        "year": 1969,
+        "country": "USA",
+        "cover": "img/covers/coven_witchcraft_destroys_minds_and_reaps_souls.jpg",
+        "criteria": [1, 18, 22, 40, 42],
+        "selectedTrackTitle": "The White Witch Of Rose Hall",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=TSKJ9C_QX18"
+    },
+    {
         "id": "the_crazy_world_of_arthur_brown_the_crazy_world_of_arthur_brown",
         "title": "The Crazy World Of Arthur Brown",
         "artist": "The Crazy World Of Arthur Brown",
@@ -410,6 +443,28 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=EYQTGF1hXVI"
     },
     {
+        "id": "deep_purple_the_book_of_taliesyn",
+        "title": "The Book Of Taliesyn",
+        "artist": "Deep Purple",
+        "year": 1968,
+        "country": "England",
+        "cover": "img/covers/deep_purple_the_book_of_taliesyn.jpg",
+        "criteria": [7, 18, 20],
+        "selectedTrackTitle": "Listen, Learn, Read On",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=uYZaXo4jOu0"
+    },
+    {
+        "id": "deep_purple_deep_purple",
+        "title": "Deep Purple",
+        "artist": "Deep Purple",
+        "year": 1969,
+        "country": "England",
+        "cover": "img/covers/deep_purple_deep_purple.jpg",
+        "criteria": [7, 18, 20],
+        "selectedTrackTitle": "April",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=2eRTQnSzoUI"
+    },
+    {
         "id": "deep_purple_machine_head",
         "title": "Machine Head",
         "artist": "Deep Purple",
@@ -420,9 +475,31 @@ const albums = [
         "selectedTrackTitle": "Lazy",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=STFWapwyqMo"
     },
+    {
+        "id": "dr_dopo_jam_entree",
+        "title": "Entrée",
+        "artist": "Dr. Dopo Jam",
+        "year": 1973,
+        "country": "Denmark",
+        "cover": "img/covers/dr_dopo_jam_entree.jpg",
+        "criteria": [3, 7, 8, 15, 18, 19, 35, 42],
+        "selectedTrackTitle": "Opening",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=ymeBpnDr4Lw"
+    },
     // ************************************************************************************ //
     // **************************************** E **************************************** //
     // ********************************************************************************** //
+    {
+        "id": "earthrise_earthrise",
+        "title": "Earthrise",
+        "artist": "Earthrise",
+        "year": 1978,
+        "country": "USA",
+        "cover": "img/covers/earthrise_earthrise.jpg",
+        "criteria": [1, 3, 6, 7, 11, 19, 20, 42],
+        "selectedTrackTitle": "Arcturus",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=4YDGiubWxvw"
+    },
     {
         "id": "electric_light_orchestra_time",
         "title": "Time",
@@ -430,7 +507,7 @@ const albums = [
         "year": 1981,
         "country": "England",
         "cover": "img/covers/electric_light_orchestra_time.jpg",
-        "criteria": [2, 9, 20, 22, 43],
+        "criteria": [2, 9, 43, 44],
         "selectedTrackTitle": "Ticket To The Moon",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=CJdZTNLkpuA"
     },
@@ -470,6 +547,17 @@ const albums = [
     // ************************************************************************************ //
     // **************************************** F **************************************** //
     // ********************************************************************************** //
+    {
+        "id": "fm_black_noise",
+        "title": "Black Noise",
+        "artist": "FM",
+        "year": 1978,
+        "country": "Canada",
+        "cover": "img/covers/fm_black_noise.jpg",
+        "criteria": [2, 7, 43, 44],
+        "selectedTrackTitle": "Slaughter In Robot Village",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=vx-8oTLXkIvu7M"
+    },
     {
         "id": "focus_in_and_out_of_focus",
         "title": "In And Out Of Focus",
@@ -625,6 +713,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=emEOePwK0ok"
     },
     {
+        "id": "fuhrs_and_frohling_strings",
+        "title": "Strings",
+        "artist": "Führs & Fröhling",
+        "year": 1979,
+        "country": "Germany",
+        "cover": "img/covers/fuhrs_and_frohling_strings.jpg",
+        "criteria": [6, 7, 21, 44],
+        "selectedTrackTitle": "Morning Bird",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=RV0RD6SthNI"
+    },
+    {
         "id": "fuzzy_duck_fuzzy_duck",
         "title": "Fuzzy Duck",
         "artist": "Fuzzy Duck",
@@ -775,7 +874,7 @@ const albums = [
     },
     {
         "id": "hawkwind_warriors_on_the_edge_of_time",
-        "title": "Warriors On The Edge Of Itme",
+        "title": "Warriors On The Edge Of Time",
         "artist": "Hawkwind",
         "year": 1975,
         "country": "England",
@@ -787,6 +886,17 @@ const albums = [
     // ************************************************************************************ //
     // **************************************** I **************************************** //
     // ********************************************************************************** //
+    {
+        "id": "ikarus_ikarus",
+        "title": "Ikarus",
+        "artist": "Ikarus",
+        "year": 1971,
+        "country": "Germany",
+        "cover": "img/covers/ikarus_ikarus.jpg",
+        "criteria": [3, 6, 7, 8, 19],
+        "selectedTrackTitle": "The Raven",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=Q09vwl1A9CY"
+    },
     // ************************************************************************************ //
     // **************************************** J **************************************** //
     // ********************************************************************************** //
@@ -895,6 +1005,17 @@ const albums = [
     // ************************************************************************************ //
     // **************************************** L **************************************** //
     // ********************************************************************************** //
+    {
+        "id": "los_grillos_vibraciones_latinoamericanas",
+        "title": "Vibraciones Latinoamericanas",
+        "artist": "Los Grillos",
+        "year": 1975,
+        "country": "Bolivia",
+        "cover": "img/covers/los_grillos_vibraciones_latinoamericanas.jpg",
+        "criteria": [3, 6, 7, 11, 20, 38, 42],
+        "selectedTrackTitle": "Pueblito",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=z8rtBgxvAfw"
+    },
     // ************************************************************************************ //
     // **************************************** M **************************************** //
     // ********************************************************************************** //
@@ -919,6 +1040,17 @@ const albums = [
         "criteria": [0, 7, 22, 42],
         "selectedTrackTitle": "C'mon",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=pZIg-fJU7vI"
+    },
+    {
+        "id": "the_moody_blues_days_of_future_passed",
+        "title": "Days Of Future Passed",
+        "artist": "The Moody Blues",
+        "year": 1967,
+        "country": "England",
+        "cover": "img/covers/the_moody_blues_days_of_future_passed.png",
+        "criteria": [1, 6, 10, 15, 18, 43],
+        "selectedTrackTitle": " Evening: The Sunset / Twilight Time",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=C012iKu9s-8"
     },
     {
         "id": "museo_rosenbach_zarathustra",
@@ -1135,6 +1267,17 @@ const albums = [
         "criteria": [5, 6, 8, 18, 20, 23],
         "selectedTrackTitle": "Slightly All The Time",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=4RwLgA9U_3I"
+    },
+    {
+        "id": "spirogyra_bells_boots_and_shambles",
+        "title": "Bells, Boots And Shambles",
+        "artist": "Spirogyra",
+        "year": 1973,
+        "country": "England",
+        "cover": "img/covers/spirogyra_bells_boots_and_shambles.jpg",
+        "criteria": [8, 46],
+        "selectedTrackTitle": "In The Western World",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=KBW2sheX8NI"
     },
     {
         "id": "sunhouse_sunhouse",
@@ -1355,7 +1498,6 @@ Albatross
 Ange 
 Anna Själv Tredje
 Anthony Philips
-Aphrodite's Child
 Atoll 
 Area 
 Alphataurus 
@@ -1365,44 +1507,33 @@ Banco Del Mutuo Soccorso
 Bakerloo 
 Barclay James Harvest
 Bubu 
-Bùsqueda
 Burning Candle
 Canamii
 Carmen 
-Coven
 Crucis
 Delirium
-Dominique Guiot
-Dr. Dopo Jam
-Earthrise 
+Dominique Guiot 
 Egg 
 Elder Kindred 
 ELP
-Eskaton 
-FM 
-Führs & Fröhling
+Eskaton  
 Fruupp 
 Gentle Giant
 Goblin
-Gryphon
 Guns & Butter
-Harmonium
 Hatfield & The North
 Happy The Man
-Henry Cow
-Ikarus 
+Henry Cow 
 Jane 
 Jean Michel Jarre
 Led Zeppelin
 Locanda Dell Fante
-Los Grillos
 Mahavishnu Orchestra
 Matching Mole
 Michel Madore
 M.L. Bongers Project
 Mike Oldfield
 Miklagård 
-Moodies Blues
 Necktar 
 Nightwinds 
 Ozric Tentacles
@@ -1417,8 +1548,7 @@ Schicke, Führs & Fröhling
 Serg Ramses 
 Semiramis 
 Sir Lord Baltimore
-Sloche
-Spirogyra  
+Sloche  
 Starcastle
 Strawbs
 Tangerine Dream
