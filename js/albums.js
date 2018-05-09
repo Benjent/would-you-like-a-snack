@@ -126,6 +126,39 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=NDBj39DGVRw"
     },
     {
+        "id": "asia_asia",
+        "title": "Asia",
+        "artist": "Asia",
+        "year": 1982,
+        "country": "England",
+        "cover": "img/covers/asia_asia.jpg",
+        "criteria": [7, 20, 22],
+        "selectedTrackTitle": "Time Again",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=YCWNYKRtRFs"
+    },
+    {
+        "id": "asia_alpha",
+        "title": "Alpha",
+        "artist": "Asia",
+        "year": 1983,
+        "country": "England",
+        "cover": "img/covers/asia_alpha.jpg",
+        "criteria": [7, 20, 22],
+        "selectedTrackTitle": "The Heat Goes On",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=Hbw3HA3lMMU"
+    },
+    {
+        "id": "asia_astra",
+        "title": "Astra",
+        "artist": "Asia",
+        "year": 1985,
+        "country": "England",
+        "cover": "img/covers/asia_astra.jpg",
+        "criteria": [7, 20, 22],
+        "selectedTrackTitle": "Go",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=9TiGDuI9d6Y"
+    },
+    {
         "id": "atomic_rooster_in_hearing_of_atomic_rooster",
         "title": "In Hearing Of Atomic Rooster",
         "artist": "Atomic Rooster",
@@ -135,6 +168,28 @@ const albums = [
         "criteria": [7, 22],
         "selectedTrackTitle": "Breakthrough",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=lgqFPcKpfEg"
+    },
+    {
+        "id": "atoll_musiciens_magiciens",
+        "title": "Musiciens-Magiciens",
+        "artist": "Atoll",
+        "year": 1974,
+        "country": "France",
+        "cover": "img/covers/atoll_musiciens_magiciens.jpg",
+        "criteria": [9, 19, 37, 42],
+        "selectedTrackTitle": "Au-Delà Des Écrans De Cristal",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=7FqCY8N06HU"
+    },
+    {
+        "id": "atoll_laraignee_mal",
+        "title": "L'araignée-Mal",
+        "artist": "Atoll",
+        "year": 1975,
+        "country": "France",
+        "cover": "img/covers/atoll_laraignee_mal.jpg",
+        "criteria": [9, 19, 37, 42],
+        "selectedTrackTitle": "L'araignée-Mal",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=Wm6vFufqm6s"
     },
     // ************************************************************************************ //
     // **************************************** B **************************************** //
@@ -259,6 +314,17 @@ const albums = [
         "criteria": [1, 6, 7, 8, 9, 15, 18, 19, 20],
         "selectedTrackTitle": "Lenina",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=3eHj2-iltEg"
+    },
+    {
+        "id": "bubu_anabelas",
+        "title": "Anabelas",
+        "artist": "Bubu",
+        "year": 1978,
+        "country": "Argentina",
+        "cover": "img/covers/bubu_anabelas.jpg",
+        "criteria": [6, 8, 18, 19, 38, 42],
+        "selectedTrackTitle": "El Viaje De Anabelas",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=-5pmx5tZ-80"
     },
     {
         "id": "budgie_budgie",
@@ -1381,6 +1447,17 @@ const albums = [
         "selectedTrackTitle": "L'appel Du Temps",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=sGMIO4h7XMY"
     },
+    {
+        "id": "triumvirat_spartacus",
+        "title": "Spartacus",
+        "artist": "Triumvirat",
+        "year": 1975,
+        "country": "Germany",
+        "cover": "img/covers/triumvirat_spartacus.jpg",
+        "criteria": [1, 44, 48],
+        "selectedTrackTitle": "The March To The Eternal City",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=TmTZpQYMzN8"
+    },
     // ************************************************************************************ //
     // **************************************** U **************************************** //
     // ********************************************************************************** //
@@ -1497,16 +1574,13 @@ Acqua Fragile
 Albatross
 Ange 
 Anna Själv Tredje
-Anthony Philips
-Atoll 
+Anthony Philips 
 Area 
 Alphataurus 
-Artcane 
-Asia 
+Artcane  
 Banco Del Mutuo Soccorso
 Bakerloo 
-Barclay James Harvest
-Bubu 
+Barclay James Harvest 
 Burning Candle
 Canamii
 Carmen 

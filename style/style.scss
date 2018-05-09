@@ -36,24 +36,30 @@ header {
     background-position: 50%;
     text-align: center;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     position: fixed;
     top: 0;
     width: 100vw;
     // margin-bottom: 50px;
     background: $black;
     border-bottom: solid 10px $gold;
+    padding: 0 20px;
+    box-sizing: border-box;
 
     button {
-        position: absolute;
-        left: 20px;
-        top: 40px;
+        // position: absolute;
+        // left: 20px;
+        // top: 40px;
         width: 300px;
     }
 
-    h1 {
-        width: 100%;
+    // h1 {
+    //     width: 100%;
+    // }
+
+    #collectionSize {
+        width: 300px;
     }
 }
 
@@ -69,6 +75,7 @@ header {
     margin-top: $headerHeight;
 
     #randomButton {
+        margin: 0 auto;
         margin-top: 50px;
     }
 
