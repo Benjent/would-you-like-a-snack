@@ -1,6 +1,9 @@
 
 // TODO penser à faire une Map ?
 const albums = [
+    // ************************************************************************************ //
+    // **************************************** A **************************************** //
+    // ********************************************************************************** //
     {
         "id": "agora_live_in_montreux",
         "title": "Live In Montreux",
@@ -68,6 +71,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=jTS5f1nSurQ"
     },
     {
+        "id": "amon_duul_paradieswarts_duul",
+        "title": "Paradieswärts Düül",
+        "artist": "Amon Düül",
+        "year": 1970,
+        "country": "Germany",
+        "cover": "img/covers/amon_duul_paradieswarts_duul.jpg",
+        "criteria": [6, 7, 8, 11, 18, 46],
+        "selectedTrackTitle": "Love Is Peace",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=oUNxXhzF0fw"
+    },
+    {
         "id": "arachnoid_arachnoid",
         "title": "Arachnoïd",
         "artist": "Arachnoïd",
@@ -111,6 +125,9 @@ const albums = [
         "selectedTrackTitle": "Breakthrough",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=lgqFPcKpfEg"
     },
+    // ************************************************************************************ //
+    // **************************************** B **************************************** //
+    // ********************************************************************************** //
     {
         "id": "badger_one_live_badger",
         "title": "One Live Badger",
@@ -243,6 +260,9 @@ const albums = [
         "selectedTrackTitle": "The Author",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=lrQd56l4adE"
     },
+    // ************************************************************************************ //
+    // **************************************** C **************************************** //
+    // ********************************************************************************** //
     {
         "id": "camel_camel",
         "title": "Camel",
@@ -375,6 +395,9 @@ const albums = [
         "selectedTrackTitle": "Metamorphosis",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=uZAImsmFGhk"
     },
+    // ************************************************************************************ //
+    // **************************************** D **************************************** //
+    // ********************************************************************************** //
     {
         "id": "david_bowie_the_rise_and_fall_of_ziggy_stardust_and_the_spiders_from_mars",
         "title": "The Rise And Fall Of Ziggy Stardust And The Spiders From Mars",
@@ -397,6 +420,9 @@ const albums = [
         "selectedTrackTitle": "Lazy",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=STFWapwyqMo"
     },
+    // ************************************************************************************ //
+    // **************************************** E **************************************** //
+    // ********************************************************************************** //
     {
         "id": "electric_light_orchestra_time",
         "title": "Time",
@@ -419,6 +445,31 @@ const albums = [
         "selectedTrackTitle": "Poseidon's Creation",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=NIeO4IAhpGM"
     },
+    {
+        "id": "eloy_silent_cries_and_mighty_echoes",
+        "title": "Silent Cries And Mighty Echoes",
+        "artist": "Eloy",
+        "year": 1979,
+        "country": "Germany",
+        "cover": "img/covers/eloy_silent_cries_and_mighty_echoes.jpg",
+        "criteria": [7, 8, 10, 20],
+        "selectedTrackTitle": "Master Of Sensation",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=GzJ8a29jvMU"
+    },
+    {
+        "id": "eloy_colours",
+        "title": "Colours",
+        "artist": "Eloy",
+        "year": 1980,
+        "country": "Germany",
+        "cover": "img/covers/eloy_colours.jpg",
+        "criteria": [7, 10, 20],
+        "selectedTrackTitle": "Giant",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=E1X0euUgYgA"
+    },
+    // ************************************************************************************ //
+    // **************************************** F **************************************** //
+    // ********************************************************************************** //
     {
         "id": "focus_in_and_out_of_focus",
         "title": "In And Out Of Focus",
@@ -448,7 +499,7 @@ const albums = [
         "year": 1972,
         "country": "Netherlands",
         "cover": "img/covers/focus_focus_3.jpg",
-        "criteria": [3, 4, 6, 7, 8, 19, 35, 42],
+        "criteria": [3, 4, 6, 7, 8, 19, 33, 35, 42],
         "selectedTrackTitle": "Sylvia",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=aig4mWJUpLw"
     },
@@ -459,7 +510,7 @@ const albums = [
         "year": 1974,
         "country": "Netherlands",
         "cover": "img/covers/focus_hamburger_concerto.jpg",
-        "criteria": [6, 8, 10, 19],
+        "criteria": [6, 8, 10, 19, 33],
         "selectedTrackTitle": "La Cathédrale De Strasbourg",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=HowIDiFOHwY"
     },
@@ -584,6 +635,9 @@ const albums = [
         "selectedTrackTitle": "Country Boy",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=odP44_gNdNU"
     },
+    // ************************************************************************************ //
+    // **************************************** G **************************************** //
+    // ********************************************************************************** //
     {
         "id": "genesis_trespass",
         "title": "Trespass",
@@ -629,6 +683,28 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=SD5engyVXe0"
     },
     {
+        "id": "gnidrolog_lady_lake",
+        "title": "Lady Lake",
+        "artist": "Gnidrolog",
+        "year": 1972,
+        "country": "England",
+        "cover": "img/covers/gnidrolog_lady_lake.jpeg",
+        "criteria": [19, 21],
+        "selectedTrackTitle": "Lady Lake",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=3LdNEFRkbGk"
+    },
+    {
+        "id": "gong_flying_teapot",
+        "title": "Flying Teapot",
+        "artist": "Gong",
+        "year": 1973,
+        "country": "France",
+        "cover": "img/covers/gong_flying_teapot.jpg",
+        "criteria": [2, 3, 7, 18, 19, 20, 35, 42],
+        "selectedTrackTitle": "Flying Teapot",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=SIgzP4Rj0Ns"
+    },
+    {
         "id": "gong_gazeuse",
         "title": "Gazeuse !",
         "artist": "Gong",
@@ -638,6 +714,31 @@ const albums = [
         "criteria": [3, 6, 11, 15, 23, 42],
         "selectedTrackTitle": "Percolations",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=G0tsWMzmr-c"
+    },
+    {
+        "id": "gryphon_red_queen_to_gryphon_three",
+        "title": "Red Queen To Gryphon Three",
+        "artist": "Gryphon",
+        "year": 1974,
+        "country": "England",
+        "cover": "img/covers/gryphon_red_queen_to_gryphon_three.jpg",
+        "criteria": [1, 3, 6, 8, 15, 21, 33, 42],
+        "selectedTrackTitle": "Second Spasm",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=EcBm-GbbEyI"
+    },
+    // ************************************************************************************ //
+    // **************************************** H **************************************** //
+    // ********************************************************************************** //
+    {
+        "id": "harmonium_si_on_avait_besoin_dune_cinquieme_saison",
+        "title": "Si On Avait Besoin D'une Cinquième Saison",
+        "artist": "Harmonium",
+        "year": 1975,
+        "country": "Quebec",
+        "cover": "img/covers/harmonium_si_on_avait_besoin_dune_cinquieme_saison.jpg",
+        "criteria": [8, 11, 19, 21, 42],
+        "selectedTrackTitle": "Depuis L'automne",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=sCkkxr7tS7c"
     },
     {
         "id": "hawkwind_in_search_of_space",
@@ -683,6 +784,12 @@ const albums = [
         "selectedTrackTitle": "Assault And Battery / The Golden Void",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=1UIYMxZRLf0"
     },
+    // ************************************************************************************ //
+    // **************************************** I **************************************** //
+    // ********************************************************************************** //
+    // ************************************************************************************ //
+    // **************************************** J **************************************** //
+    // ********************************************************************************** //
     {
         "id": "jade_warrior_waves",
         "title": "Waves",
@@ -706,6 +813,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=e0-VIz5MINU"
     },
     {
+        "id": "jefferson_airplane_crown_of_creation",
+        "title": "Crown Of Creation",
+        "artist": "Jefferson Airplane",
+        "year": 1968,
+        "country": "England",
+        "cover": "img/covers/jefferson_airplane_crown_of_creation.jpg",
+        "criteria": [18, 46],
+        "selectedTrackTitle": "Lather",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=e0-9WF4FF8QrQE"
+    },
+    {
         "id": "jethro_tull_thick_as_a_brick",
         "title": "Thick As A Brick",
         "artist": "Jethro Tull",
@@ -727,6 +845,9 @@ const albums = [
         "selectedTrackTitle": "A Passion Play (Part I)",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=gB_Ago8wDb8"
     },
+    // ************************************************************************************ //
+    // **************************************** K **************************************** //
+    // ********************************************************************************** //
     {
         "id": "king_crimson_in_the_court_of_the_crimson_king",
         "title": "In The Court Of The Crimson King",
@@ -771,6 +892,12 @@ const albums = [
         "selectedTrackTitle": "Starless",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=OfR6_V91fG8"
     },
+    // ************************************************************************************ //
+    // **************************************** L **************************************** //
+    // ********************************************************************************** //
+    // ************************************************************************************ //
+    // **************************************** M **************************************** //
+    // ********************************************************************************** //
     {
         "id": "magma_mekanik_destruktiw_kommandoh",
         "title": "Mëkanïk Dëstruktïẁ Kömmandöh",
@@ -804,6 +931,15 @@ const albums = [
         "selectedTrackTitle": "Zarathustra I: L'ultimo Uomo",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=uC9hegZIC2g"
     },
+    // ************************************************************************************ //
+    // **************************************** N **************************************** //
+    // ********************************************************************************** //
+    // ************************************************************************************ //
+    // **************************************** O **************************************** //
+    // ********************************************************************************** //
+    // ************************************************************************************ //
+    // **************************************** P **************************************** //
+    // ********************************************************************************** //
     {
         "id": "pink_floyd_a_saucerful_of_secrets",
         "title": "A Saucerful Of Secrets",
@@ -936,6 +1072,9 @@ const albums = [
         "selectedTrackTitle": "The Strands Of The Future",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=KpL5htneI-c"
     },
+    // ************************************************************************************ //
+    // **************************************** Q **************************************** //
+    // ********************************************************************************** //
     {
         "id": "queen_queen_II",
         "title": "Queen II",
@@ -947,6 +1086,9 @@ const albums = [
         "selectedTrackTitle": "The March Of The Black Queen",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=SoBMhx_ap_g"
     },
+    // ************************************************************************************ //
+    // **************************************** R **************************************** //
+    // ********************************************************************************** //
     {
         "id": "return_to_forever_romantic_warrior",
         "title": "Romantic Warrior",
@@ -954,7 +1096,7 @@ const albums = [
         "year": 1976,
         "country": "USA",
         "cover": "img/covers/return_to_forever_romantic_warrior.png",
-        "criteria": [1, 3, 4, 6, 7, 8, 11, 23, 42],
+        "criteria": [1, 3, 4, 6, 7, 8, 11, 23, 33, 42],
         "selectedTrackTitle": "Duel Of The Jester And The Tyrant",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=sa21WPH4_U4"
     },
@@ -969,6 +1111,9 @@ const albums = [
         "selectedTrackTitle": "Love Is All",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=YK2Pltm8ZsQ"
     },
+    // ************************************************************************************ //
+    // **************************************** S **************************************** //
+    // ********************************************************************************** //
     {
         "id": "shakti_natural_elements",
         "title": "Natural Elements",
@@ -1014,6 +1159,28 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=gxW3s_Qk1dk"
     },
     {
+        "id": "supertramp_crisis_what_crisis",
+        "title": "Crisis? What Crisis?",
+        "artist": "Supertramp",
+        "year": 1975,
+        "country": "England",
+        "cover": "img/covers/supertramp_crisis_what_crisis.jpg",
+        "criteria": [11, 47, 48],
+        "selectedTrackTitle": "Another Man's Woman",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=MUPwN0MtY1Y"
+    },
+    {
+        "id": "supertramp_even_in_the_quietest_moments",
+        "title": "Even In The Quietest Moments",
+        "artist": "Supertramp",
+        "year": 1977,
+        "country": "England",
+        "cover": "img/covers/supertramp_even_in_the_quietest_moments.jpg",
+        "criteria": [11, 47, 48],
+        "selectedTrackTitle": "Even In The Quietest Moments",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=7CXcMPdVXp4"
+    },
+    {
         "id": "sweet_smoke_just_a_poke",
         "title": "Just A Poke",
         "artist": "Sweet Smoke",
@@ -1035,6 +1202,9 @@ const albums = [
         "selectedTrackTitle": "Baby Night",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=s6L8ZCAt3DA"
     },
+    // ************************************************************************************ //
+    // **************************************** T **************************************** //
+    // ********************************************************************************** //
     {
         "id": "titus_groan_titus_groan",
         "title": "Titus Groan",
@@ -1068,6 +1238,15 @@ const albums = [
         "selectedTrackTitle": "L'appel Du Temps",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=sGMIO4h7XMY"
     },
+    // ************************************************************************************ //
+    // **************************************** U **************************************** //
+    // ********************************************************************************** //
+    // ************************************************************************************ //
+    // **************************************** V **************************************** //
+    // ********************************************************************************** //
+    // ************************************************************************************ //
+    // **************************************** W **************************************** //
+    // ********************************************************************************** //
     {
         "id": "warhorse_warhorse",
         "title": "Warhorse",
@@ -1101,6 +1280,12 @@ const albums = [
         "selectedTrackTitle": "Sometime World",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=kvLVSPPLZZY"
     },
+    // ************************************************************************************ //
+    // **************************************** X **************************************** //
+    // ********************************************************************************** //
+    // ************************************************************************************ //
+    // **************************************** Y **************************************** //
+    // ********************************************************************************** //
     {
         "id": "yes_fragile",
         "title": "Fragile",
@@ -1145,6 +1330,9 @@ const albums = [
         "selectedTrackTitle": "Going For The One",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=f9GAkA7W5Qg"
     },
+    // ************************************************************************************ //
+    // **************************************** Z **************************************** //
+    // ********************************************************************************** //
     {
         "id": "zoo_zoo",
         "title": "Zoo",
@@ -1164,31 +1352,23 @@ const albums = [
 Acid Mothers XXX
 Acqua Fragile
 Albatross
-Amon Düül
 Ange 
 Anna Själv Tredje
 Anthony Philips
 Aphrodite's Child
-Arachnoïd 
 Atoll 
 Area 
 Alphataurus 
 Artcane 
-Arti & Mestieri
 Asia 
-Atomic Rooster
 Banco Del Mutuo Soccorso
 Bakerloo 
 Barclay James Harvest
-Bloodrock
-Brave New World
 Bubu 
 Bùsqueda
 Burning Candle
-Can
 Canamii
 Carmen 
-Coma 
 Coven
 Crucis
 Delirium
@@ -1198,14 +1378,12 @@ Earthrise
 Egg 
 Elder Kindred 
 ELP
-Eloy 
 Eskaton 
 FM 
 Führs & Fröhling
 Fruupp 
 Gentle Giant
 Goblin
-Gnidrolog
 Gryphon
 Guns & Butter
 Harmonium

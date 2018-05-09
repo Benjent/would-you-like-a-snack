@@ -40,7 +40,7 @@ const criteria = [
     "Humble",                                       // 31
 
     "Sci-fi",                                       // 32
-    "Medieval",                                     // 33
+    "Medieval touch",                               // 33
     "Fantasy",                                      // 34
     "Funny",                                        // 35
 
