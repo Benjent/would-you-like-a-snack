@@ -27,6 +27,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=9AvuK3lwNuM"
     },
     {
+        "id": "the_alan_parsons_project_tales_of_mystery_and_imagination",
+        "title": "Tales Of Mystery And Imagination",
+        "artist": "The Alan Parsons Project",
+        "year": 1976,
+        "country": "England",
+        "cover": "img/covers/the_alan_parsons_project_tales_of_mystery_and_imagination.jpg",
+        "criteria": [1, 9, 18, 20, 42, 48],
+        "selectedTrackTitle": "The Raven",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=YAE1XTvKLXA"
+    },
+    {
         "id": "the_alan_parsons_project_i_robot",
         "title": "I Robot",
         "artist": "The Alan Parsons Project",
@@ -1286,6 +1297,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=N2RNe2jwHE0"
     },
     {
+        "id": "jethro_tull_aqualung",
+        "title": "Aqualung",
+        "artist": "Jethro Tull",
+        "year": 1971,
+        "country": "England",
+        "cover": "img/covers/jethro_tull_aqualung.jpg",
+        "criteria": [3, 7, 46],
+        "selectedTrackTitle": "Aqualung",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=B0jMPI_pUec"
+    },
+    {
         "id": "jethro_tull_thick_as_a_brick",
         "title": "Thick As A Brick",
         "artist": "Jethro Tull",
@@ -1306,6 +1328,28 @@ const albums = [
         "criteria": [1, 3, 8, 43, 46],
         "selectedTrackTitle": "A Passion Play (Part I)",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=gB_Ago8wDb8"
+    },
+    {
+        "id": "jethro_tull_minstrel_in_the_gallery",
+        "title": "Minstrel In The Gallery",
+        "artist": "Jethro Tull",
+        "year": 1975,
+        "country": "England",
+        "cover": "img/covers/jethro_tull_minstrel_in_the_gallery.jpg",
+        "criteria": [3, 8, 46],
+        "selectedTrackTitle": "Baker St. Muse",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=B-7yVIJ7wE4"
+    },
+    {
+        "id": "jethro_tull_songs_from_the_wood",
+        "title": "Songs From The Wood",
+        "artist": "Jethro Tull",
+        "year": 1977,
+        "country": "England",
+        "cover": "img/covers/jethro_tull_songs_from_the_wood.jpg",
+        "criteria": [3, 46],
+        "selectedTrackTitle": "Velvet Green",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=JG77YHX5yYE"
     },
     // ************************************************************************************ //
     // **************************************** K **************************************** //
@@ -1513,6 +1557,28 @@ const albums = [
         "criteria": [0, 7, 22, 42],
         "selectedTrackTitle": "C'mon",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=pZIg-fJU7vI"
+    },
+    {
+        "id": "may_blitz_may_blitz",
+        "title": "May Blitz",
+        "artist": "May Blitz",
+        "year": 1970,
+        "country": "England",
+        "cover": "img/covers/may_blitz_may_blitz.jpg",
+        "criteria": [11, 18],
+        "selectedTrackTitle": "Tomorrow May Come",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=-JKaFlLHcQ8"
+    },
+    {
+        "id": "may_blitz_the_2nd_of_may",
+        "title": "The 2nd Of May",
+        "artist": "May Blitz",
+        "year": 1971,
+        "country": "England",
+        "cover": "img/covers/may_blitz_the_2nd_of_may.jpg",
+        "criteria": [7, 18, 42],
+        "selectedTrackTitle": "Snakes And Ladders",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=OKy6SGSGQbw"
     },
     {
         "id": "mike_oldfield_hergest_ridge",
@@ -2022,6 +2088,28 @@ const albums = [
     // ************************************************************************************ //
     // **************************************** U **************************************** //
     // ********************************************************************************** //
+    {
+        "id": "uriah_heep_demons_and_wizards",
+        "title": "Demons And Wizards",
+        "artist": "Uriah Heep",
+        "year": 1972,
+        "country": "England",
+        "cover": "img/covers/uriah_heep_demons_and_wizards.jpg",
+        "criteria": [22, 40],
+        "selectedTrackTitle": "The Spell",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=w5L-AOGt7qw"
+    },
+    {
+        "id": "uriah_heep_the_magicians_birthday",
+        "title": "The Magician's Birthday",
+        "artist": "Uriah Heep",
+        "year": 1972,
+        "country": "England",
+        "cover": "img/covers/uriah_heep_the_magicians_birthday.jpg",
+        "criteria": [22, 40],
+        "selectedTrackTitle": "The Magician's Birthday",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=apWKh3D9oVw"
+    },
     // ************************************************************************************ //
     // **************************************** V **************************************** //
     // ********************************************************************************** //
@@ -2183,7 +2271,6 @@ Strawbs
 Tangerine Dream
 Tea & Sympfony 
 Ultimate Spinach
-Uriah Heep
 Van der Graaf
 Weidorje
 Wizzard
