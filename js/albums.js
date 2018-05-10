@@ -49,6 +49,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=Am5Rloqqk0U"
     },
     {
+        "id": "albatross_albatross",
+        "title": "Albatross",
+        "artist": "Albatross",
+        "year": 1976,
+        "country": "USA",
+        "cover": "img/covers/albatross_albatross.jpg",
+        "criteria": [3, 8, 16, 18, 20],
+        "selectedTrackTitle": "Four Horsemen Of The Apocalypse",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=g_RT7NV74Tk"
+    },
+    {
         "id": "alice_cooper_from_the_inside",
         "title": "From The Inside",
         "artist": "Alice Cooper",
@@ -69,6 +80,17 @@ const albums = [
         "criteria": [6, 11, 14, 19],
         "selectedTrackTitle": "Genèse",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=jTS5f1nSurQ"
+    },
+    {
+        "id": "alphataurus_alphataurus",
+        "title": "Alphataurus",
+        "artist": "Alphataurus",
+        "year": 1973,
+        "country": "Italy",
+        "cover": "img/covers/alphataurus_alphataurus.jpg",
+        "criteria": [6, 7, 8, 15, 19, 36],
+        "selectedTrackTitle": "La Mente Vola",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=W3_5gl9DHfs"
     },
     {
         "id": "amon_duul_paradieswarts_duul",
@@ -102,6 +124,28 @@ const albums = [
         "criteria": [1, 18, 19, 37],
         "selectedTrackTitle": "Le Chamadère",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=6v5NjAeKNE0"
+    },
+    {
+        "id": "area_crac",
+        "title": "Crac!",
+        "artist": "Area",
+        "year": 1975,
+        "country": "Italy",
+        "cover": "img/covers/area_crac.jpg",
+        "criteria": [3, 5, 6, 7, 18, 23],
+        "selectedTrackTitle": "Megalopoli",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=VVugC2gOMFs"
+    },
+    {
+        "id": "artcane_odyssee",
+        "title": "Odyssée",
+        "artist": "Artcane",
+        "year": 1977,
+        "country": "France",
+        "cover": "img/covers/artcane_odyssee.jpg",
+        "criteria": [6, 19, 20, 37],
+        "selectedTrackTitle": "Le Chant D'Orphée",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=vzmYFSSPfeQ"
     },
     {
         "id": "arti_mestieri_tilt",
@@ -611,6 +655,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=4YDGiubWxvw"
     },
     {
+        "id": "electric_light_orchestra_out_of_the_blue",
+        "title": "Out Of The Blue",
+        "artist": "Electric Light Orchestra",
+        "year": 1977,
+        "country": "England",
+        "cover": "img/covers/electric_light_orchestra_out_of_the_blue.jpg",
+        "criteria": [1, 9, 20, 43, 45],
+        "selectedTrackTitle": "Mr. Blue Sky",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=aQUlA8Hcv4s"
+    },
+    {
         "id": "electric_light_orchestra_time",
         "title": "Time",
         "artist": "Electric Light Orchestra",
@@ -983,6 +1038,28 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=sCkkxr7tS7c"
     },
     {
+        "id": "hatfield_and_the_north_hatfield_and_the_north",
+        "title": "Hatfield And The North",
+        "artist": "Hatfield And The North",
+        "year": 1974,
+        "country": "England",
+        "cover": "img/covers/hatfield_and_the_north_hatfield_and_the_north.jpg",
+        "criteria": [3, 6, 7, 11, 19, 35, 41],
+        "selectedTrackTitle": "Son Of \"There's No Place Like Homerton\"",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=Qk04cGkff44"
+    },
+    {
+        "id": "hatfield_and_the_north_the_rotters_club",
+        "title": "The Rotter's Club",
+        "artist": "Hatfield And The North",
+        "year": 1975,
+        "country": "England",
+        "cover": "img/covers/hatfield_and_the_north_the_rotters_club.jpg",
+        "criteria": [3, 6, 7, 8, 11, 19, 35],
+        "selectedTrackTitle": "Mumps",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=h_MUajIs9Vs"
+    },
+    {
         "id": "hawkwind_in_search_of_space",
         "title": "In Search Of Space",
         "artist": "Hawkwind",
@@ -1215,6 +1292,50 @@ const albums = [
     // **************************************** L **************************************** //
     // ********************************************************************************** //
     {
+        "id": "led_zeppelin_led_zeppelin_iv",
+        "title": "Led Zeppelin IV",
+        "artist": "Led Zeppelin",
+        "year": 1971,
+        "country": "England",
+        "cover": "img/covers/led_zeppelin_led_zeppelin_iv.jpg",
+        "criteria": [3, 15, 21, 22],
+        "selectedTrackTitle": "Four Sticks",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=T8GP2j7NdSo"
+    },
+    {
+        "id": "led_zeppelin_houses_of_the_holy",
+        "title": "Houses Of The Holy",
+        "artist": "Led Zeppelin",
+        "year": 1973,
+        "country": "England",
+        "cover": "img/covers/led_zeppelin_houses_of_the_holy.jpg",
+        "criteria": [3, 17, 22],
+        "selectedTrackTitle": "No Quarter",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=Pu94mWlgzMY"
+    },
+    {
+        "id": "led_zeppelin_physical_graffiti",
+        "title": "Physical Graffiti",
+        "artist": "Led Zeppelin",
+        "year": 1975,
+        "country": "England",
+        "cover": "img/covers/led_zeppelin_physical_graffiti.jpg",
+        "criteria": [3, 7, 22, 42],
+        "selectedTrackTitle": "Ten Years Gone",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=kWbO9a1_Z3U"
+    },
+    {
+        "id": "led_zeppelin_presence",
+        "title": "Presence",
+        "artist": "Led Zeppelin",
+        "year": 1976,
+        "country": "England",
+        "cover": "img/covers/led_zeppelin_presence.jpg",
+        "criteria": [3, 7, 22, 42],
+        "selectedTrackTitle": "Achilles Last Stand",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=Rf1I9htJk"
+    },
+    {
         "id": "los_grillos_vibraciones_latinoamericanas",
         "title": "Vibraciones Latinoamericanas",
         "artist": "Los Grillos",
@@ -1414,6 +1535,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=E-ve_sgdgZs"
     },
     {
+        "id": "plat_du_jour_plat_du_jour",
+        "title": "Plat Du Jour",
+        "artist": "Plat Du Jour",
+        "year": 1977,
+        "country": "France",
+        "cover": "img/covers/plat_du_jour_plat_du_jour.jpg",
+        "criteria": [3, 18, 19, 37, 40, 42],
+        "selectedTrackTitle": "Zilbra",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=NnSnwsz9aXs"
+    },
+    {
         "id": "pulsar_pollen",
         "title": "Pollen",
         "artist": "Pulsar",
@@ -1452,6 +1584,72 @@ const albums = [
     // ************************************************************************************ //
     // **************************************** R **************************************** //
     // ********************************************************************************** //
+    {
+        "id": "ralph_lundsten_shangri_la",
+        "title": "Shangri-La",
+        "artist": "Ralph Lundsten",
+        "year": 1975,
+        "country": "Sweden",
+        "cover": "img/covers/ralph_lundsten_shangri_la.jpg",
+        "criteria": [1, 6, 9, 11, 14, 18, 44],
+        "selectedTrackTitle": "Shangri-La",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=Gg0dopo1q4U"
+    },
+    {
+        "id": "ralph_lundsten_ralph_lundstens_universe",
+        "title": "Ralph Lundsten's Universe",
+        "artist": "Ralph Lundsten",
+        "year": 1976,
+        "country": "Sweden",
+        "cover": "img/covers/ralph_lundsten_ralph_lundstens_universe.jpg",
+        "criteria": [1, 6, 9, 11, 14, 18, 44],
+        "selectedTrackTitle": "The Blue Planet",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=nc207RhZQDQ"
+    },
+    {
+        "id": "ralph_lundsten_discophrenia",
+        "title": "Discophrenia",
+        "artist": "Ralph Lundsten",
+        "year": 1978,
+        "country": "Sweden",
+        "cover": "img/covers/ralph_lundsten_discophrenia.jpg",
+        "criteria": [1, 6, 11, 14, 18, 42, 44],
+        "selectedTrackTitle": "Discophrenia",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=wgWUJBJ4Tt8"
+    },
+    {
+        "id": "ralph_lundsten_alpha_ralpha_boulevard",
+        "title": "Alpha Ralpha Boulevard",
+        "artist": "Ralph Lundsten",
+        "year": 1979,
+        "country": "Sweden",
+        "cover": "img/covers/ralph_lundsten_alpha_ralpha_boulevard.jpg",
+        "criteria": [1, 6, 11, 14, 18, 44],
+        "selectedTrackTitle": "Alpha Ralpha Boulevard",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=uKL5tj0FHDk"
+    },
+    {
+        "id": "ralph_lundsten_paradissymfonin",
+        "title": " Paradissymfonin",
+        "artist": "Ralph Lundsten",
+        "year": 1980,
+        "country": "Sweden",
+        "cover": "img/covers/ralph_lundsten_paradissymfonin.jpg",
+        "criteria": [1, 6, 10, 11, 14, 44],
+        "selectedTrackTitle": "Himmelens Port",
+        "selectedTrackYtId": ""
+    },
+    {
+        "id": "ralph_lundsten_the_new_age",
+        "title": " The New Age",
+        "artist": "Ralph Lundsten",
+        "year": 1982,
+        "country": "Sweden",
+        "cover": "img/covers/ralph_lundsten_the_new_age.jpg",
+        "criteria": [1, 6, 11, 14, 18, 42, 44],
+        "selectedTrackTitle": "Time Storm",
+        "selectedTrackYtId": ""
+    },
     {
         "id": "return_to_forever_romantic_warrior",
         "title": "Romantic Warrior",
@@ -1520,6 +1718,39 @@ const albums = [
         "criteria": [8, 46],
         "selectedTrackTitle": "In The Western World",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=KBW2sheX8NI"
+    },
+    {
+        "id": "starcastle_starcastle",
+        "title": "Starcastle",
+        "artist": "Starcastle",
+        "year": 1976,
+        "country": "USA",
+        "cover": "img/covers/starcastle_starcastle.jpg",
+        "criteria": [1, 3, 10, 20, 30],
+        "selectedTrackTitle": "Elliptical Seasons",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=sSZepYc219Y"
+    },
+    {
+        "id": "starcastle_fountains_of_light",
+        "title": "Fountains Of Light",
+        "artist": "Starcastle",
+        "year": 1977,
+        "country": "USA",
+        "cover": "img/covers/starcastle_fountains_of_light.jpg",
+        "criteria": [1, 3, 10, 20, 30],
+        "selectedTrackTitle": "Silver Winds",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=0tmM4X3HnDk"
+    },
+    {
+        "id": "starcastle_citadel",
+        "title": "Citadel",
+        "artist": "Starcastle",
+        "year": 1977,
+        "country": "USA",
+        "cover": "img/covers/starcastle_citadel.jpg",
+        "criteria": [1, 3, 10, 20, 30],
+        "selectedTrackTitle": "Wings Of White",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=Z8qyuL_wpXQ"
     },
     {
         "id": "sunhouse_sunhouse",
@@ -1769,13 +2000,9 @@ const albums = [
 /*
 Acid Mothers XXX
 Acqua Fragile
-Albatross
 Ange 
 Anna Själv Tredje
-Anthony Philips 
-Area 
-Alphataurus 
-Artcane  
+Anthony Philips     
 Banco Del Mutuo Soccorso
 Bakerloo 
 Barclay James Harvest 
@@ -1793,27 +2020,21 @@ Fruupp
 Gentle Giant
 Goblin
 Guns & Butter
-Hatfield & The North
 Happy The Man
 Henry Cow 
 Jane 
-Jean Michel Jarre
-Led Zeppelin
 Locanda Dell Fante
 Mahavishnu Orchestra
 Matching Mole
 Michel Madore
 M.L. Bongers Project
-Mike Oldfield
 Miklagård 
 Necktar 
 Nightwinds 
 Ozric Tentacles
 Pangée 
-Plat Du Jour
 Premiata Forneria Marconi
 Quatermass
-Ralph Lundsten
 Ramses 
 Robert Connolly
 Schicke, Führs & Fröhling
@@ -1821,11 +2042,9 @@ Serg Ramses
 Semiramis 
 Sir Lord Baltimore
 Sloche  
-Starcastle
 Strawbs
 Tangerine Dream
 Tea & Sympfony 
-Triumvirat
 Ultimate Spinach
 Uriah Heep
 Van der Graaf

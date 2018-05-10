@@ -35,7 +35,7 @@
                         <div class="album-year">{{selectedAlbum.year}}</div>
                         <div class="album-country">{{selectedAlbum.country}}</div>
                         <div class="album-selected-track">Selected track: {{selectedAlbum.selectedTrackTitle}}</div>
-                        <a v-bind:href=selectedAlbum.selectedTrackYtId target="_blank">
+                        <a v-if="selectedAlbum.selectedTrackYtId" v-bind:href=selectedAlbum.selectedTrackYtId target="_blank">
                             <div class="album-selected-track-url">Listen on YouTube</div>
                         </a>
                         <!-- <div id="player" v-if="currentVue == 'albumVue'"></div> -->
