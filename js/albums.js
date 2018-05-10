@@ -137,6 +137,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=VVugC2gOMFs"
     },
     {
+        "id": "area_maledetti",
+        "title": "Maledetti",
+        "artist": "Area",
+        "year": 1976,
+        "country": "Italy",
+        "cover": "img/covers/area_maledetti.jpg",
+        "criteria": [1, 3, 5, 6, 7, 18, 23, 42],
+        "selectedTrackTitle": "Diforisma Urbano",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=zrX2WtAMPLU"
+    },
+    {
         "id": "artcane_odyssee",
         "title": "Odyssée",
         "artist": "Artcane",
@@ -272,6 +283,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=qZQ4WaJe90g"
     },
     {
+        "id": "bakerloo_bakerloo",
+        "title": "Bakerloo",
+        "artist": "Bakerloo",
+        "year": 1969,
+        "country": "England",
+        "cover": "img/covers/bakerloo_bakerloo.jpg",
+        "criteria": [6, 7, 22],
+        "selectedTrackTitle": "Drivin' Bachwards",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=uWrdCYBMh0E"
+    },
+    {
         "id": "the_beatles_sgt_peppers_lonely_hearts_club_band",
         "title": "Sgt. Pepper's Lonely Hearts Club Band",
         "artist": "The Beatles",
@@ -393,6 +415,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=lrQd56l4adE"
     },
     {
+        "id": "burning_candle_burning_candle",
+        "title": "Burning Candle",
+        "artist": "Burning Candle",
+        "year": 1981,
+        "country": "Germany",
+        "cover": "img/covers/burning_candle_burning_candle.jpg",
+        "criteria": [3, 8, 20, 42],
+        "selectedTrackTitle": "Expedition To The Sun",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=c2N8B1nC3R4"
+    },
+    {
         "id": "busqueda_busqueda",
         "title": "Búsqueda",
         "artist": "Búsqueda",
@@ -495,6 +528,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=l2ZrJdmnHIw"
     },
     {
+        "id": "carmen_fandagos_in_space",
+        "title": "Fandagos In Space",
+        "artist": "Carmen",
+        "year": 1973,
+        "country": "USA",
+        "cover": "img/covers/carmen_fandagos_in_space.jpg",
+        "criteria": [1, 3, 38],
+        "selectedTrackTitle": "Bulerias",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=gjFs0Iy6yAc"
+    },
+    {
         "id": "cat_stevens_foreigner",
         "title": "Foreigner",
         "artist": "Cat Stevens",
@@ -537,6 +581,28 @@ const albums = [
         "criteria": [1, 9, 18, 35, 41, 45],
         "selectedTrackTitle": "Fire",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=FaHEusBG20c"
+    },
+    {
+        "id": "crucis_crucis",
+        "title": "Crucis",
+        "artist": "Crucis",
+        "year": 1976,
+        "country": "Argentina",
+        "cover": "img/covers/crucis_crucis.jpg",
+        "criteria": [3, 10, 20, 38],
+        "selectedTrackTitle": "Mes",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=oeVNf_Ugpb8"
+    },
+    {
+        "id": "crucis_los_delirios_del_mariscal",
+        "title": "Los Delirios Del Mariscal",
+        "artist": "Crucis",
+        "year": 1976,
+        "country": "Argentina",
+        "cover": "img/covers/crucis_los_delirios_del_mariscal.jpg",
+        "criteria": [3, 10, 20, 38],
+        "selectedTrackTitle": "No Me Separen De Mí",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=XvdxYyYbc84"
     },
     {
         "id": "curved_air_air_cut",
@@ -639,6 +705,17 @@ const albums = [
         "criteria": [3, 7, 8, 15, 18, 19, 35, 42],
         "selectedTrackTitle": "Opening",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=ymeBpnDr4Lw"
+    },
+    {
+        "id": "dr_dopo_jam_fat_dogs_and_danishmen",
+        "title": "Fat Dogs & Danishmen",
+        "artist": "Dr. Dopo Jam",
+        "year": 1974,
+        "country": "Denmark",
+        "cover": "img/covers/dr_dopo_jam_fat_dogs_and_danishmen.jpg",
+        "criteria": [3, 7, 15, 18, 19, 35, 42],
+        "selectedTrackTitle": "Nova Bossa Nova",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=wkViMhydlkc"
     },
     // ************************************************************************************ //
     // **************************************** E **************************************** //
@@ -1023,6 +1100,17 @@ const albums = [
         "selectedTrackTitle": "Second Spasm",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=EcBm-GbbEyI"
     },
+    {
+        "id": "guns_and_butter_guns_and_butter",
+        "title": "Guns & Butter",
+        "artist": "Guns & Butter",
+        "year": 1972,
+        "country": "USA",
+        "cover": "img/covers/guns_and_butter_guns_and_butter.jpg",
+        "criteria": [7, 19, 21, 42],
+        "selectedTrackTitle": "The Wanderer",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=EcBm-TXBjM9ts11w"
+    },
     // ************************************************************************************ //
     // **************************************** H **************************************** //
     // ********************************************************************************** //
@@ -1359,6 +1447,61 @@ const albums = [
         "criteria": [2, 5, 10, 19, 30, 39, 43],
         "selectedTrackTitle": "Da Zeuhl Ẁortz Mëkanïk",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=B5UZVtUC3V0"
+    },
+    {
+        "id": "mahavishnu_orchestra_the_inner_mounting_flame",
+        "title": "The Inner Mounting Flame",
+        "artist": "Mahavishnu Orchestra",
+        "year": 1971,
+        "country": "USA",
+        "cover": "img/covers/mahavishnu_orchestra_the_inner_mounting_flame.jpg",
+        "criteria": [3, 4, 6, 7, 15, 23, 42],
+        "selectedTrackTitle": "A Lotus On Irish Streams",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=1m5V8zbyR2M"
+    },
+    {
+        "id": "mahavishnu_orchestra_birds_of_fire",
+        "title": "Birds Of Fire",
+        "artist": "Mahavishnu Orchestra",
+        "year": 1973,
+        "country": "USA",
+        "cover": "img/covers/mahavishnu_orchestra_birds_of_fire.jpg",
+        "criteria": [3, 4, 6, 7, 15, 23, 42],
+        "selectedTrackTitle": "Sanctuary",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=d08lMTHzYdY"
+    },
+    {
+        "id": "mahavishnu_orchestra_between_nothingness_and_eternity",
+        "title": "Between Nothingness And Eternity",
+        "artist": "Mahavishnu Orchestra",
+        "year": 1973,
+        "country": "USA",
+        "cover": "img/covers/mahavishnu_orchestra_between_nothingness_and_eternity.jpg",
+        "criteria": [4, 6, 7, 8, 12, 15, 23, 42],
+        "selectedTrackTitle": "La Mère De La Mer",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=8YrPXjladAw"
+    },
+    {
+        "id": "mahavishnu_orchestra_apocalypse",
+        "title": "Apocalypse",
+        "artist": "Mahavishnu Orchestra",
+        "year": 1974,
+        "country": "USA",
+        "cover": "img/covers/mahavishnu_orchestra_apocalypse.jpg",
+        "criteria": [4, 6, 8, 10, 15, 17, 42],
+        "selectedTrackTitle": "Hymn To Him",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=M9eegi9dd6g"
+    },
+    {
+        "id": "mahavishnu_orchestra_visions_of_emerald_beyond",
+        "title": "Visions Of Emerald Beyond",
+        "artist": "Mahavishnu Orchestra",
+        "year": 1975,
+        "country": "USA",
+        "cover": "img/covers/mahavishnu_orchestra_visions_of_emerald_beyond.jpg",
+        "criteria": [3, 4, 6, 7, 15, 23, 42],
+        "selectedTrackTitle": "Lila's Dance",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=ZSh0nmretso"
     },
     {
         "id": "man_be_good_to_yourself_at_least_once_a_day",
@@ -2003,13 +2146,9 @@ Acqua Fragile
 Ange 
 Anna Själv Tredje
 Anthony Philips     
-Banco Del Mutuo Soccorso
-Bakerloo 
+Banco Del Mutuo Soccorso 
 Barclay James Harvest 
-Burning Candle
-Canamii
-Carmen 
-Crucis
+Canamii 
 Delirium
 Dominique Guiot 
 Egg 
@@ -2019,12 +2158,10 @@ Eskaton
 Fruupp 
 Gentle Giant
 Goblin
-Guns & Butter
 Happy The Man
 Henry Cow 
 Jane 
 Locanda Dell Fante
-Mahavishnu Orchestra
 Matching Mole
 Michel Madore
 M.L. Bongers Project
