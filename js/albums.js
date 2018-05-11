@@ -115,6 +115,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=oUNxXhzF0fw"
     },
     {
+        "id": "anna_sjalv_tredje_tussilago_fanfara",
+        "title": "Tussilago Fanfara",
+        "artist": "Anna Själv Tredje",
+        "year": 1977,
+        "country": "Sweden",
+        "cover": "img/covers/anna_sjalv_tredje_tussilago_fanfara.jpg",
+        "criteria": [6, 8, 14, 18, 44],
+        "selectedTrackTitle": "Den Barbariska Söndagen",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=WfLqv6liuiQ"
+    },
+    {
         "id": "aphrodites_child_666",
         "title": "666",
         "artist": "Aphrodite's Child",
@@ -589,7 +600,7 @@ const albums = [
         "year": 1968,
         "country": "England",
         "cover": "img/covers/the_crazy_world_of_arthur_brown_the_crazy_world_of_arthur_brown.png",
-        "criteria": [1, 9, 18, 35, 41, 45],
+        "criteria": [1, 9, 18, 41, 45],
         "selectedTrackTitle": "Fire",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=FaHEusBG20c"
     },
@@ -961,9 +972,20 @@ const albums = [
         "year": 1988,
         "country": "USA",
         "cover": "img/covers/frank_zappa_broadway_the_hard_way.jpg",
-        "criteria": [12, 17, 35],
+        "criteria": [12, 17, 35, 45],
         "selectedTrackTitle": "Why Don't You Like Me",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=emEOePwK0ok"
+    },
+    {
+        "id": "fuhrs_and_frohling_ammerland",
+        "title": "Ammerland",
+        "artist": "Führs & Fröhling",
+        "year": 1978,
+        "country": "Germany",
+        "cover": "img/covers/fuhrs_and_frohling_ammerland.jpg",
+        "criteria": [6, 8, 21, 44],
+        "selectedTrackTitle": "Ammerland",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=RV0RD6SthNI"
     },
     {
         "id": "fuhrs_and_frohling_strings",
@@ -983,7 +1005,7 @@ const albums = [
         "year": 1971,
         "country": "England",
         "cover": "img/covers/fuzzy_duck_fuzzy_duck.jpg",
-        "criteria": [3, 22],
+        "criteria": [3, 7, 22],
         "selectedTrackTitle": "Country Boy",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=odP44_gNdNU"
     },
@@ -1033,6 +1055,17 @@ const albums = [
         "criteria": [3, 8, 10, 30, 43, 47],
         "selectedTrackTitle": "Firth Of Fifth",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=SD5engyVXe0"
+    },
+    {
+        "id": "gentle_giant_acquiring_the_taste",
+        "title": "Acquiring The Taste",
+        "artist": "Gentle Giant",
+        "year": 1971,
+        "country": "England",
+        "cover": "img/covers/gentle_giant_acquiring_the_taste.jpg",
+        "criteria": [3, 18, 19, 21],
+        "selectedTrackTitle": "Pantagruel's Nativity",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=ODWYJyJh6cg"
     },
     {
         "id": "gnidrolog_lady_lake",
@@ -1314,7 +1347,7 @@ const albums = [
         "year": 1976,
         "country": "France",
         "cover": "img/covers/jean_michel_jarre_oxygene.jpg",
-        "criteria": [1, 6, 14, 44],
+        "criteria": [1, 6, 11, 14, 44],
         "selectedTrackTitle": "Oxygène (Part IV)",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=P_I2ch8_TXc"
     },
@@ -1325,7 +1358,7 @@ const albums = [
         "year": 1978,
         "country": "France",
         "cover": "img/covers/jean_michel_jarre_equinoxe.jpg",
-        "criteria": [1, 6, 14, 44],
+        "criteria": [1, 6, 11, 14, 44],
         "selectedTrackTitle": "Équinoxe (Part IV)",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=fpWNimba344"
     },
@@ -2039,6 +2072,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=VGbSw8dHR3w"
     },
     {
+        "id": "serge_ramses_secret",
+        "title": "Secret",
+        "artist": "Serge Ramses",
+        "year": 1978,
+        "country": "France",
+        "cover": "img/covers/serge_ramses_secret.jpg",
+        "criteria": [6, 8, 11, 14, 44],
+        "selectedTrackTitle": "Secret",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=3K0UOKOdDvE"
+    },
+    {
         "id": "shakti_natural_elements",
         "title": "Natural Elements",
         "artist": "Shakti",
@@ -2347,6 +2391,17 @@ const albums = [
         "selectedTrackTitle": "Sometime World",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=kvLVSPPLZZY"
     },
+    {
+        "id": "wizzard_wizzard_brew",
+        "title": "Wizzard Brew",
+        "artist": "Wizzard",
+        "year": 1973,
+        "country": "England",
+        "cover": "img/covers/wizzard_wizzard_brew.jpg",
+        "criteria": [7, 8, 18, 22, 40, 45],
+        "selectedTrackTitle": "Meet Me At The Jailhouse",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=sBzeB36zYvU"
+    },
     // ************************************************************************************ //
     // **************************************** X **************************************** //
     // ********************************************************************************** //
@@ -2401,6 +2456,17 @@ const albums = [
     // **************************************** Z **************************************** //
     // ********************************************************************************** //
     {
+        "id": "zanov_in_course_of_time",
+        "title": "In Course Of Time",
+        "artist": "Zanov",
+        "year": 1982,
+        "country": "France",
+        "cover": "img/covers/zanov_in_course_of_time.jpg",
+        "criteria": [6, 8, 11, 14, 44],
+        "selectedTrackTitle": "Lost Message",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=sYzgqOIkVS8"
+    },
+    {
         "id": "zoo_zoo",
         "title": "Zoo",
         "artist": "Zoo",
@@ -2419,7 +2485,6 @@ const albums = [
 Acid Mothers XXX
 Acqua Fragile
 Ange 
-Anna Själv Tredje
 Anthony Philips     
 Banco Del Mutuo Soccorso 
 Barclay James Harvest 
@@ -2431,7 +2496,6 @@ Elder Kindred
 ELP
 Eskaton  
 Fruupp 
-Gentle Giant
 Goblin
 Happy The Man
 Henry Cow 
@@ -2450,7 +2514,6 @@ Quatermass
 Ramses 
 Robert Connolly
 Schicke, Führs & Fröhling
-Serg Ramses 
 Semiramis 
 Sir Lord Baltimore
 Sloche  
@@ -2459,8 +2522,6 @@ Tea & Sympfony
 Ultimate Spinach
 Van der Graaf
 Weidorje
-Wizzard
-Zanov
 */
 
 
