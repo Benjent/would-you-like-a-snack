@@ -115,6 +115,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=oUNxXhzF0fw"
     },
     {
+        "id": "anna_sjalv_tredje_tussilago_fanfara",
+        "title": "Tussilago Fanfara",
+        "artist": "Anna Själv Tredje",
+        "year": 1977,
+        "country": "Sweden",
+        "cover": "img/covers/anna_sjalv_tredje_tussilago_fanfara.jpg",
+        "criteria": [6, 8, 14, 18, 44],
+        "selectedTrackTitle": "Den Barbariska Söndagen",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=WfLqv6liuiQ"
+    },
+    {
         "id": "aphrodites_child_666",
         "title": "666",
         "artist": "Aphrodite's Child",
@@ -589,7 +600,7 @@ const albums = [
         "year": 1968,
         "country": "England",
         "cover": "img/covers/the_crazy_world_of_arthur_brown_the_crazy_world_of_arthur_brown.png",
-        "criteria": [1, 9, 18, 35, 41, 45],
+        "criteria": [1, 9, 18, 41, 45],
         "selectedTrackTitle": "Fire",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=FaHEusBG20c"
     },
@@ -797,6 +808,28 @@ const albums = [
         "selectedTrackTitle": "Giant",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=E1X0euUgYgA"
     },
+    {
+        "id": "emerson_lake_and_palmer_emerson_lake_and_palmer",
+        "title": "Emerson, Lake & Palmer",
+        "artist": "Emerson, Lake & Palmer",
+        "year": 1970,
+        "country": "England",
+        "cover": "img/covers/emerson_lake_and_palmer_emerson_lake_and_palmer.jpg",
+        "criteria": [3, 4, 6, 8, 10, 18, 30],
+        "selectedTrackTitle": "Take A Pebble",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=tVz35uXqFYw"
+    },
+    {
+        "id": "emerson_lake_and_palmer_tarkus",
+        "title": "Tarkus",
+        "artist": "Emerson, Lake & Palmer",
+        "year": 1971,
+        "country": "England",
+        "cover": "img/covers/emerson_lake_and_palmer_tarkus.jpg",
+        "criteria": [3, 4, 6, 8, 10, 18, 30],
+        "selectedTrackTitle": "Tarkus",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=WKNOlDtZluU"
+    },
     // ************************************************************************************ //
     // **************************************** F **************************************** //
     // ********************************************************************************** //
@@ -961,9 +994,20 @@ const albums = [
         "year": 1988,
         "country": "USA",
         "cover": "img/covers/frank_zappa_broadway_the_hard_way.jpg",
-        "criteria": [12, 17, 35],
+        "criteria": [12, 17, 35, 45],
         "selectedTrackTitle": "Why Don't You Like Me",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=emEOePwK0ok"
+    },
+    {
+        "id": "fuhrs_and_frohling_ammerland",
+        "title": "Ammerland",
+        "artist": "Führs & Fröhling",
+        "year": 1978,
+        "country": "Germany",
+        "cover": "img/covers/fuhrs_and_frohling_ammerland.jpg",
+        "criteria": [6, 8, 21, 44],
+        "selectedTrackTitle": "Ammerland",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=RV0RD6SthNI"
     },
     {
         "id": "fuhrs_and_frohling_strings",
@@ -983,7 +1027,7 @@ const albums = [
         "year": 1971,
         "country": "England",
         "cover": "img/covers/fuzzy_duck_fuzzy_duck.jpg",
-        "criteria": [3, 22],
+        "criteria": [3, 7, 22],
         "selectedTrackTitle": "Country Boy",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=odP44_gNdNU"
     },
@@ -1033,6 +1077,17 @@ const albums = [
         "criteria": [3, 8, 10, 30, 43, 47],
         "selectedTrackTitle": "Firth Of Fifth",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=SD5engyVXe0"
+    },
+    {
+        "id": "gentle_giant_acquiring_the_taste",
+        "title": "Acquiring The Taste",
+        "artist": "Gentle Giant",
+        "year": 1971,
+        "country": "England",
+        "cover": "img/covers/gentle_giant_acquiring_the_taste.jpg",
+        "criteria": [3, 18, 19, 21],
+        "selectedTrackTitle": "Pantagruel's Nativity",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=ODWYJyJh6cg"
     },
     {
         "id": "gnidrolog_lady_lake",
@@ -1216,6 +1271,61 @@ const albums = [
         "selectedTrackTitle": "The Raven",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=Q09vwl1A9CY"
     },
+    {
+        "id": "the_incredible_string_band_the_incredible_string_band",
+        "title": "The Incredible String Band",
+        "artist": "The Incredible String Band",
+        "year": 1966,
+        "country": "Scotland",
+        "cover": "img/covers/the_incredible_string_band_the_incredible_string_band.jpg",
+        "criteria": [15, 46],
+        "selectedTrackTitle": "Dandelion Blues",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=QF2pR4hq02k"
+    },
+    {
+        "id": "the_incredible_string_band_the_5000_spirits_or_the_layers_of_the_onion",
+        "title": "The 5000 Spirits Or The Layers Of The Onion",
+        "artist": "The Incredible String Band",
+        "year": 1967,
+        "country": "Scotland",
+        "cover": "img/covers/the_incredible_string_band_the_5000_spirits_or_the_layers_of_the_onion.jpg",
+        "criteria": [13, 15, 18, 46],
+        "selectedTrackTitle": "Painting Box",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=UoQ3tmohEX4"
+    },
+    {
+        "id": "the_incredible_string_band_the_hangmans_beautiful_daughter",
+        "title": "The Hangman's Beautiful Daughter",
+        "artist": "The Incredible String Band",
+        "year": 1968,
+        "country": "Scotland",
+        "cover": "img/covers/the_incredible_string_band_the_hangmans_beautiful_daughter.jpg",
+        "criteria": [8, 13, 15, 18, 46],
+        "selectedTrackTitle": "A Very Cellular Song",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=-90rrjR6Wvk"
+    },
+    {
+        "id": "the_incredible_string_band_wee_tam",
+        "title": "Wee Tam",
+        "artist": "The Incredible String Band",
+        "year": 1968,
+        "country": "Scotland",
+        "cover": "img/covers/the_incredible_string_band_wee_tam.jpg",
+        "criteria": [13, 15, 18, 46],
+        "selectedTrackTitle": "Job's Tears",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=Dd5yq76q51c"
+    },
+    {
+        "id": "the_incredible_string_band_the_big_huge",
+        "title": "The Big Huge",
+        "artist": "The Incredible String Band",
+        "year": 1968,
+        "country": "Scotland",
+        "cover": "img/covers/the_incredible_string_band_the_big_huge.jpg",
+        "criteria": [13, 15, 18, 46],
+        "selectedTrackTitle": "Cousin Caterpillar",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=nu0brlGGQ2Y"
+    },
     // ************************************************************************************ //
     // **************************************** J **************************************** //
     // ********************************************************************************** //
@@ -1259,7 +1369,7 @@ const albums = [
         "year": 1976,
         "country": "France",
         "cover": "img/covers/jean_michel_jarre_oxygene.jpg",
-        "criteria": [1, 6, 14, 44],
+        "criteria": [1, 6, 11, 14, 44],
         "selectedTrackTitle": "Oxygène (Part IV)",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=P_I2ch8_TXc"
     },
@@ -1270,7 +1380,7 @@ const albums = [
         "year": 1978,
         "country": "France",
         "cover": "img/covers/jean_michel_jarre_equinoxe.jpg",
-        "criteria": [1, 6, 14, 44],
+        "criteria": [1, 6, 11, 14, 44],
         "selectedTrackTitle": "Équinoxe (Part IV)",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=fpWNimba344"
     },
@@ -1350,6 +1460,17 @@ const albums = [
         "criteria": [3, 46],
         "selectedTrackTitle": "Velvet Green",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=JG77YHX5yYE"
+    },
+    {
+        "id": "the_jimi_hendrix_experience_electric_ladyland",
+        "title": "Electric Ladyland",
+        "artist": "The Jimi Hendrix Experience",
+        "year": 1968,
+        "country": "England",
+        "cover": "img/covers/the_jimi_hendrix_experience_electric_ladyland.jpg",
+        "criteria": [7, 8, 18, 22, 42],
+        "selectedTrackTitle": "Burning Of The Midnight Lamp",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=j60OzzR7mMk"
     },
     // ************************************************************************************ //
     // **************************************** K **************************************** //
@@ -1482,6 +1603,17 @@ const albums = [
     // **************************************** M **************************************** //
     // ********************************************************************************** //
     {
+        "id": "ml_bongers_project_pacific_prison",
+        "title": "Pacific Prison",
+        "artist": "M.L. Bongers Project",
+        "year": 1978,
+        "country": "Germany",
+        "cover": "img/covers/ml_bongers_project_pacific_prison.jpg",
+        "criteria": [2, 9, 16, 20],
+        "selectedTrackTitle": "A Deadly Smile",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=px1CIxbSN0o"
+    },
+    {
         "id": "magma_mekanik_destruktiw_kommandoh",
         "title": "Mëkanïk Dëstruktïẁ Kömmandöh",
         "artist": "Magma",
@@ -1548,6 +1680,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=ZSh0nmretso"
     },
     {
+        "id": "mahogany_rush_child_of_the_novelty",
+        "title": "Child Of The Novelty",
+        "artist": "Mahogany Rush",
+        "year": 1974,
+        "country": "Quebec",
+        "cover": "img/covers/mahogany_rush_child_of_the_novelty.jpg",
+        "criteria": [7, 22, 42],
+        "selectedTrackTitle": "Child Of The Novelty",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=4fVfpcHMxWg"
+    },
+    {
         "id": "man_be_good_to_yourself_at_least_once_a_day",
         "title": "Be Good To Yourself At Least Once A Day",
         "artist": "Man",
@@ -1579,6 +1722,28 @@ const albums = [
         "criteria": [7, 18, 42],
         "selectedTrackTitle": "Snakes And Ladders",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=OKy6SGSGQbw"
+    },
+    {
+        "id": "michel_madore_le_komuso_a_cordes",
+        "title": "Le Komuso À Cordes",
+        "artist": "Michel Madore",
+        "year": 1976,
+        "country": "Quebec",
+        "cover": "img/covers/michel_madore_le_komuso_a_cordes.jpg",
+        "criteria": [6, 18, 19],
+        "selectedTrackTitle": "Calligraphie",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=MMnA_1jYPCU"
+    },
+    {
+        "id": "michel_madore_la_chambre_nuptiale",
+        "title": "La Chambre Nuptiale",
+        "artist": "Michel Madore",
+        "year": 1979,
+        "country": "Quebec",
+        "cover": "img/covers/michel_madore_la_chambre_nuptiale.jpg",
+        "criteria": [6, 8, 14, 16, 18, 44, 49],
+        "selectedTrackTitle": "Les Anges Qui Passent",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=-XR_7DT0E-c"
     },
     {
         "id": "mike_oldfield_hergest_ridge",
@@ -1627,12 +1792,56 @@ const albums = [
     // ************************************************************************************ //
     // **************************************** N **************************************** //
     // ********************************************************************************** //
+    {
+        "id": "nazareth_hair_of_the_dog",
+        "title": "Hair Of The Dog",
+        "artist": "Nazareth",
+        "year": 1975,
+        "country": "Scotland",
+        "cover": "img/covers/nazareth_hair_of_the_dog.jpg",
+        "criteria": [7, 22, 40],
+        "selectedTrackTitle": "Please Don't Judas Me",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=PdiIu1RwGhA"
+    },
     // ************************************************************************************ //
     // **************************************** O **************************************** //
     // ********************************************************************************** //
+    {
+        "id": "ozric_tentacles_phalarn_dawn",
+        "title": "Pungent Effulgent",
+        "artist": "Ozric Tentacles",
+        "year": 1989,
+        "country": "England",
+        "cover": "img/covers/ozric_tentacles_phalarn_dawn.jpg",
+        "criteria": [6, 7, 8, 18, 19, 42, 44],
+        "selectedTrackTitle": "Phalarn Dawn",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=UQCYvIbznkw"
+    },
     // ************************************************************************************ //
     // **************************************** P **************************************** //
     // ********************************************************************************** //
+    {
+        "id": "pangee_hymnemonde",
+        "title": "Hymnemonde",
+        "artist": "Pangée",
+        "year": 1977,
+        "country": "Quebec",
+        "cover": "img/covers/pangee_hymnemonde.jpg",
+        "criteria": [3, 6, 8, 18, 20],
+        "selectedTrackTitle": "Cataracte",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=TVkcSh3COMc"
+    },
+    {
+        "id": "peter_gabriel_car",
+        "title": "Car",
+        "artist": "Peter Gabriel",
+        "year": 1977,
+        "country": "England",
+        "cover": "img/covers/peter_gabriel_car.jpg",
+        "criteria": [48],
+        "selectedTrackTitle": "Here Comes The Flood",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=vb7htoJAK7g"
+    },
     {
         "id": "pink_floyd_a_saucerful_of_secrets",
         "title": "A Saucerful Of Secrets",
@@ -1794,6 +2003,39 @@ const albums = [
     // **************************************** R **************************************** //
     // ********************************************************************************** //
     {
+        "id": "rainbow_rainbow",
+        "title": "Rainbow",
+        "artist": "Rainbow",
+        "year": 1975,
+        "country": "England",
+        "cover": "img/covers/rainbow_rainbow.jpg",
+        "criteria": [7, 22, 40],
+        "selectedTrackTitle": "Catch The Rainbow",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=p3VgV31vmUE"
+    },
+    {
+        "id": "rainbow_rising",
+        "title": "Rising",
+        "artist": "Rainbow",
+        "year": 1976,
+        "country": "England",
+        "cover": "img/covers/rainbow_rising.jpg",
+        "criteria": [7, 22, 30, 40],
+        "selectedTrackTitle": "Stargazer",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=rVXy1OhaERY"
+    },
+    {
+        "id": "rainbow_long_live_rock_n_roll",
+        "title": "Long Live Rock 'N' Roll",
+        "artist": "Rainbow",
+        "year": 1978,
+        "country": "England",
+        "cover": "img/covers/rainbow_long_live_rock_n_roll.jpg",
+        "criteria": [7, 22, 30, 40],
+        "selectedTrackTitle": "Gates Of Babylon",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=MHCdCbTxypU"
+    },
+    {
         "id": "ralph_lundsten_shangri_la",
         "title": "Shangri-La",
         "artist": "Ralph Lundsten",
@@ -1866,9 +2108,31 @@ const albums = [
         "year": 1976,
         "country": "USA",
         "cover": "img/covers/return_to_forever_romantic_warrior.png",
-        "criteria": [1, 3, 4, 6, 7, 8, 11, 23, 33, 42],
+        "criteria": [1, 3, 4, 6, 7, 8, 11, 23, 42],
         "selectedTrackTitle": "Duel Of The Jester And The Tyrant",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=sa21WPH4_U4"
+    },
+    {
+        "id": "return_to_forever_musicmagic",
+        "title": "Musicmagic",
+        "artist": "Return To Forever",
+        "year": 1977,
+        "country": "USA",
+        "cover": "img/covers/return_to_forever_musicmagic.jpg",
+        "criteria": [3, 7, 15, 23, 42],
+        "selectedTrackTitle": "The Endless Night",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=STXJFzaAj0U"
+    },
+    {
+        "id": "robert_connolly_plateau",
+        "title": "Plateau",
+        "artist": "Robert Connolly",
+        "year": 1978,
+        "country": "Canada",
+        "cover": "img/covers/robert_connolly_plateau.jpg",
+        "criteria": [6, 8, 20],
+        "selectedTrackTitle": "Journey",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=c4t_ThUzI48"
     },
     {
         "id": "roger_glover_the_butterfly_ball_and_the_grasshoppers_feast",
@@ -1894,6 +2158,28 @@ const albums = [
         "criteria": [1, 3, 6, 7, 9, 14, 18, 19, 42],
         "selectedTrackTitle": "Waves Within",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=VGbSw8dHR3w"
+    },
+    {
+        "id": "semiramis_dedicato_a_frazz",
+        "title": "Dedicato A Frazz",
+        "artist": "Semiramis",
+        "year": 1973,
+        "country": "Italy",
+        "cover": "img/covers/semiramis_dedicato_a_frazz.jpg",
+        "criteria": [3, 4, 10, 30, 36],
+        "selectedTrackTitle": "Luna Park",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=T2PVgfv0OR4"
+    },
+    {
+        "id": "serge_ramses_secret",
+        "title": "Secret",
+        "artist": "Serge Ramses",
+        "year": 1978,
+        "country": "France",
+        "cover": "img/covers/serge_ramses_secret.jpg",
+        "criteria": [6, 8, 11, 14, 44],
+        "selectedTrackTitle": "Secret",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=3K0UOKOdDvE"
     },
     {
         "id": "shakti_natural_elements",
@@ -1973,6 +2259,28 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=1ABQLe-KfEo"
     },
     {
+        "id": "supertramp_supertramp",
+        "title": "Supertramp",
+        "artist": "Supertramp",
+        "year": 1970,
+        "country": "England",
+        "cover": "img/covers/supertramp_supertramp.jpg",
+        "criteria": [7, 11, 22, 48],
+        "selectedTrackTitle": "Words Unspoken",
+        "selectedTrackYtId": ""
+    },
+    {
+        "id": "supertramp_indelibly_stamped",
+        "title": "Indelibly Stamped",
+        "artist": "Supertramp",
+        "year": 1971,
+        "country": "England",
+        "cover": "img/covers/supertramp_indelibly_stamped.jpg",
+        "criteria": [22, 48],
+        "selectedTrackTitle": "Travelled",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=OzihNqVYElA"
+    },
+    {
         "id": "supertramp_crime_of_the_century",
         "title": "Crime Of The Century",
         "artist": "Supertramp",
@@ -2041,6 +2349,28 @@ const albums = [
     // ************************************************************************************ //
     // **************************************** T **************************************** //
     // ********************************************************************************** //
+    {
+        "id": "tangerine_dream_phaedra",
+        "title": "Phaedra",
+        "artist": "Tangerine Dream",
+        "year": 1974,
+        "country": "Germany",
+        "cover": "img/covers/tangerine_dream_phaedra.jpg",
+        "criteria": [6, 8, 11, 14, 18, 44],
+        "selectedTrackTitle": "Sequent 'C'",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=Jb_hDcNr5KQ"
+    },
+    {
+        "id": "tangerine_dream_rubycon",
+        "title": "Rubycon",
+        "artist": "Tangerine Dream",
+        "year": 1975,
+        "country": "Germany",
+        "cover": "img/covers/tangerine_dream_rubycon.png",
+        "criteria": [6, 8, 11, 14, 18, 44],
+        "selectedTrackTitle": "Rubycon (Part I)",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=4xl6zlD_hlE"
+    },
     {
         "id": "titus_groan_titus_groan",
         "title": "Titus Groan",
@@ -2160,6 +2490,17 @@ const albums = [
         "selectedTrackTitle": "Sometime World",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=kvLVSPPLZZY"
     },
+    {
+        "id": "wizzard_wizzard_brew",
+        "title": "Wizzard Brew",
+        "artist": "Wizzard",
+        "year": 1973,
+        "country": "England",
+        "cover": "img/covers/wizzard_wizzard_brew.jpg",
+        "criteria": [7, 8, 18, 22, 40, 45],
+        "selectedTrackTitle": "Meet Me At The Jailhouse",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=sBzeB36zYvU"
+    },
     // ************************************************************************************ //
     // **************************************** X **************************************** //
     // ********************************************************************************** //
@@ -2214,6 +2555,17 @@ const albums = [
     // **************************************** Z **************************************** //
     // ********************************************************************************** //
     {
+        "id": "zanov_in_course_of_time",
+        "title": "In Course Of Time",
+        "artist": "Zanov",
+        "year": 1982,
+        "country": "France",
+        "cover": "img/covers/zanov_in_course_of_time.jpg",
+        "criteria": [6, 8, 11, 14, 44],
+        "selectedTrackTitle": "Lost Message",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=sYzgqOIkVS8"
+    },
+    {
         "id": "zoo_zoo",
         "title": "Zoo",
         "artist": "Zoo",
@@ -2229,10 +2581,8 @@ const albums = [
 // TODO
 // Below is the list of prog artists that I listened and should be part of this project
 /*
-Acid Mothers XXX
 Acqua Fragile
 Ange 
-Anna Själv Tredje
 Anthony Philips     
 Banco Del Mutuo Soccorso 
 Barclay James Harvest 
@@ -2241,40 +2591,28 @@ Delirium
 Dominique Guiot 
 Egg 
 Elder Kindred 
-ELP
 Eskaton  
 Fruupp 
-Gentle Giant
 Goblin
 Happy The Man
 Henry Cow 
 Jane 
 Locanda Dell Fante
 Matching Mole
-Michel Madore
-M.L. Bongers Project
 Miklagård 
-Necktar 
-Nightwinds 
-Ozric Tentacles
-Pangée 
+Nektar 
+Nightwinds  
 Premiata Forneria Marconi
 Quatermass
 Ramses 
-Robert Connolly
-Schicke, Führs & Fröhling
-Serg Ramses 
-Semiramis 
+Schicke, Führs & Fröhling 
 Sir Lord Baltimore
 Sloche  
 Strawbs
-Tangerine Dream
 Tea & Sympfony 
 Ultimate Spinach
 Van der Graaf
 Weidorje
-Wizzard
-Zanov
 */
 
 
