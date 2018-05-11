@@ -808,6 +808,28 @@ const albums = [
         "selectedTrackTitle": "Giant",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=E1X0euUgYgA"
     },
+    {
+        "id": "emerson_lake_and_palmer_emerson_lake_and_palmer",
+        "title": "Emerson, Lake & Palmer",
+        "artist": "Emerson, Lake & Palmer",
+        "year": 1970,
+        "country": "England",
+        "cover": "img/covers/emerson_lake_and_palmer_emerson_lake_and_palmer.jpg",
+        "criteria": [3, 4, 6, 8, 10, 18, 30],
+        "selectedTrackTitle": "Take A Pebble",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=tVz35uXqFYw"
+    },
+    {
+        "id": "emerson_lake_and_palmer_tarkus",
+        "title": "Tarkus",
+        "artist": "Emerson, Lake & Palmer",
+        "year": 1971,
+        "country": "England",
+        "cover": "img/covers/emerson_lake_and_palmer_tarkus.jpg",
+        "criteria": [3, 4, 6, 8, 10, 18, 30],
+        "selectedTrackTitle": "Tarkus",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=WKNOlDtZluU"
+    },
     // ************************************************************************************ //
     // **************************************** F **************************************** //
     // ********************************************************************************** //
@@ -2072,6 +2094,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=VGbSw8dHR3w"
     },
     {
+        "id": "semiramis_dedicato_a_frazz",
+        "title": "Dedicato A Frazz",
+        "artist": "Semiramis",
+        "year": 1973,
+        "country": "Italy",
+        "cover": "img/covers/semiramis_dedicato_a_frazz.jpg",
+        "criteria": [3, 4, 10, 30, 36],
+        "selectedTrackTitle": "Luna Park",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=T2PVgfv0OR4"
+    },
+    {
         "id": "serge_ramses_secret",
         "title": "Secret",
         "artist": "Serge Ramses",
@@ -2493,7 +2526,6 @@ Delirium
 Dominique Guiot 
 Egg 
 Elder Kindred 
-ELP
 Eskaton  
 Fruupp 
 Goblin
@@ -2513,8 +2545,7 @@ Premiata Forneria Marconi
 Quatermass
 Ramses 
 Robert Connolly
-Schicke, Führs & Fröhling
-Semiramis 
+Schicke, Führs & Fröhling 
 Sir Lord Baltimore
 Sloche  
 Strawbs
