@@ -1216,6 +1216,61 @@ const albums = [
         "selectedTrackTitle": "The Raven",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=Q09vwl1A9CY"
     },
+    {
+        "id": "the_incredible_string_band_the_incredible_string_band",
+        "title": "The Incredible String Band",
+        "artist": "The Incredible String Band",
+        "year": 1966,
+        "country": "Scotland",
+        "cover": "img/covers/the_incredible_string_band_the_incredible_string_band.jpg",
+        "criteria": [15, 46],
+        "selectedTrackTitle": "Dandelion Blues",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=QF2pR4hq02k"
+    },
+    {
+        "id": "the_incredible_string_band_the_5000_spirits_or_the_layers_of_the_onion",
+        "title": "The 5000 Spirits Or The Layers Of The Onion",
+        "artist": "The Incredible String Band",
+        "year": 1967,
+        "country": "Scotland",
+        "cover": "img/covers/the_incredible_string_band_the_5000_spirits_or_the_layers_of_the_onion.jpg",
+        "criteria": [13, 15, 18, 46],
+        "selectedTrackTitle": "Painting Box",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=UoQ3tmohEX4"
+    },
+    {
+        "id": "the_incredible_string_band_the_hangmans_beautiful_daughter",
+        "title": "The Hangman's Beautiful Daughter",
+        "artist": "The Incredible String Band",
+        "year": 1968,
+        "country": "Scotland",
+        "cover": "img/covers/the_incredible_string_band_the_hangmans_beautiful_daughter.jpg",
+        "criteria": [8, 13, 15, 18, 46],
+        "selectedTrackTitle": "A Very Cellular Song",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=-90rrjR6Wvk"
+    },
+    {
+        "id": "the_incredible_string_band_wee_tam",
+        "title": "Wee Tam",
+        "artist": "The Incredible String Band",
+        "year": 1968,
+        "country": "Scotland",
+        "cover": "img/covers/the_incredible_string_band_wee_tam.jpg",
+        "criteria": [13, 15, 18, 46],
+        "selectedTrackTitle": "Job's Tears",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=Dd5yq76q51c"
+    },
+    {
+        "id": "the_incredible_string_band_the_big_huge",
+        "title": "The Big Huge",
+        "artist": "The Incredible String Band",
+        "year": 1968,
+        "country": "Scotland",
+        "cover": "img/covers/the_incredible_string_band_the_big_huge.jpg",
+        "criteria": [13, 15, 18, 46],
+        "selectedTrackTitle": "Cousin Caterpillar",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=nu0brlGGQ2Y"
+    },
     // ************************************************************************************ //
     // **************************************** J **************************************** //
     // ********************************************************************************** //
@@ -1350,6 +1405,17 @@ const albums = [
         "criteria": [3, 46],
         "selectedTrackTitle": "Velvet Green",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=JG77YHX5yYE"
+    },
+    {
+        "id": "the_jimi_hendrix_experience_electric_ladyland",
+        "title": "Electric Ladyland",
+        "artist": "The Jimi Hendrix Experience",
+        "year": 1968,
+        "country": "England",
+        "cover": "img/covers/the_jimi_hendrix_experience_electric_ladyland.jpg",
+        "criteria": [7, 8, 18, 22, 42],
+        "selectedTrackTitle": "Burning Of The Midnight Lamp",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=j60OzzR7mMk"
     },
     // ************************************************************************************ //
     // **************************************** K **************************************** //
@@ -1548,6 +1614,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=ZSh0nmretso"
     },
     {
+        "id": "mahogany_rush_child_of_the_novelty",
+        "title": "Child Of The Novelty",
+        "artist": "Mahogany Rush",
+        "year": 1974,
+        "country": "Quebec",
+        "cover": "img/covers/mahogany_rush_child_of_the_novelty.jpg",
+        "criteria": [7, 22, 42],
+        "selectedTrackTitle": "Child Of The Novelty",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=4fVfpcHMxWg"
+    },
+    {
         "id": "man_be_good_to_yourself_at_least_once_a_day",
         "title": "Be Good To Yourself At Least Once A Day",
         "artist": "Man",
@@ -1627,12 +1704,34 @@ const albums = [
     // ************************************************************************************ //
     // **************************************** N **************************************** //
     // ********************************************************************************** //
+    {
+        "id": "nazareth_hair_of_the_dog",
+        "title": "Hair Of The Dog",
+        "artist": "Nazareth",
+        "year": 1975,
+        "country": "Scotland",
+        "cover": "img/covers/nazareth_hair_of_the_dog.jpg",
+        "criteria": [7, 22, 40],
+        "selectedTrackTitle": "Please Don't Judas Me",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=PdiIu1RwGhA"
+    },
     // ************************************************************************************ //
     // **************************************** O **************************************** //
     // ********************************************************************************** //
     // ************************************************************************************ //
     // **************************************** P **************************************** //
     // ********************************************************************************** //
+    {
+        "id": "peter_gabriel_car",
+        "title": "Car",
+        "artist": "Peter Gabriel",
+        "year": 1977,
+        "country": "England",
+        "cover": "img/covers/peter_gabriel_car.jpg",
+        "criteria": [48],
+        "selectedTrackTitle": "Here Comes The Flood",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=vb7htoJAK7g"
+    },
     {
         "id": "pink_floyd_a_saucerful_of_secrets",
         "title": "A Saucerful Of Secrets",
@@ -1794,6 +1893,39 @@ const albums = [
     // **************************************** R **************************************** //
     // ********************************************************************************** //
     {
+        "id": "rainbow_rainbow",
+        "title": "Rainbow",
+        "artist": "Rainbow",
+        "year": 1975,
+        "country": "England",
+        "cover": "img/covers/rainbow_rainbow.jpg",
+        "criteria": [7, 22, 40],
+        "selectedTrackTitle": "Catch The Rainbow",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=p3VgV31vmUE"
+    },
+    {
+        "id": "rainbow_rising",
+        "title": "Rising",
+        "artist": "Rainbow",
+        "year": 1976,
+        "country": "England",
+        "cover": "img/covers/rainbow_rising.jpg",
+        "criteria": [7, 22, 30, 40],
+        "selectedTrackTitle": "Stargazer",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=rVXy1OhaERY"
+    },
+    {
+        "id": "rainbow_long_live_rock_n_roll",
+        "title": "Long Live Rock 'N' Roll",
+        "artist": "Rainbow",
+        "year": 1978,
+        "country": "England",
+        "cover": "img/covers/rainbow_long_live_rock_n_roll.jpg",
+        "criteria": [7, 22, 30, 40],
+        "selectedTrackTitle": "Gates Of Babylon",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=MHCdCbTxypU"
+    },
+    {
         "id": "ralph_lundsten_shangri_la",
         "title": "Shangri-La",
         "artist": "Ralph Lundsten",
@@ -1866,9 +1998,20 @@ const albums = [
         "year": 1976,
         "country": "USA",
         "cover": "img/covers/return_to_forever_romantic_warrior.png",
-        "criteria": [1, 3, 4, 6, 7, 8, 11, 23, 33, 42],
+        "criteria": [1, 3, 4, 6, 7, 8, 11, 23, 42],
         "selectedTrackTitle": "Duel Of The Jester And The Tyrant",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=sa21WPH4_U4"
+    },
+    {
+        "id": "return_to_forever_musicmagic",
+        "title": "Musicmagic",
+        "artist": "Return To Forever",
+        "year": 1977,
+        "country": "USA",
+        "cover": "img/covers/return_to_forever_musicmagic.jpg",
+        "criteria": [3, 7, 15, 23, 42],
+        "selectedTrackTitle": "The Endless Night",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=STXJFzaAj0U"
     },
     {
         "id": "roger_glover_the_butterfly_ball_and_the_grasshoppers_feast",
@@ -1973,6 +2116,28 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=1ABQLe-KfEo"
     },
     {
+        "id": "supertramp_supertramp",
+        "title": "Supertramp",
+        "artist": "Supertramp",
+        "year": 1970,
+        "country": "England",
+        "cover": "img/covers/supertramp_supertramp.jpg",
+        "criteria": [7, 11, 22, 48],
+        "selectedTrackTitle": "Words Unspoken",
+        "selectedTrackYtId": ""
+    },
+    {
+        "id": "supertramp_indelibly_stamped",
+        "title": "Indelibly Stamped",
+        "artist": "Supertramp",
+        "year": 1971,
+        "country": "England",
+        "cover": "img/covers/supertramp_indelibly_stamped.jpg",
+        "criteria": [22, 48],
+        "selectedTrackTitle": "Travelled",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=OzihNqVYElA"
+    },
+    {
         "id": "supertramp_crime_of_the_century",
         "title": "Crime Of The Century",
         "artist": "Supertramp",
@@ -2041,6 +2206,28 @@ const albums = [
     // ************************************************************************************ //
     // **************************************** T **************************************** //
     // ********************************************************************************** //
+    {
+        "id": "tangerine_dream_phaedra",
+        "title": "Phaedra",
+        "artist": "Tangerine Dream",
+        "year": 1974,
+        "country": "Germany",
+        "cover": "img/covers/tangerine_dream_phaedra.jpg",
+        "criteria": [6, 8, 11, 14, 18, 44],
+        "selectedTrackTitle": "Sequent 'C'",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=Jb_hDcNr5KQ"
+    },
+    {
+        "id": "tangerine_dream_rubycon",
+        "title": "Rubycon",
+        "artist": "Tangerine Dream",
+        "year": 1975,
+        "country": "Germany",
+        "cover": "img/covers/tangerine_dream_rubycon.png",
+        "criteria": [6, 8, 11, 14, 18, 44],
+        "selectedTrackTitle": "Rubycon (Part I)",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=4xl6zlD_hlE"
+    },
     {
         "id": "titus_groan_titus_groan",
         "title": "Titus Groan",
@@ -2268,7 +2455,6 @@ Semiramis
 Sir Lord Baltimore
 Sloche  
 Strawbs
-Tangerine Dream
 Tea & Sympfony 
 Ultimate Spinach
 Van der Graaf
