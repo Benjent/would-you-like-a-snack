@@ -1603,6 +1603,17 @@ const albums = [
     // **************************************** M **************************************** //
     // ********************************************************************************** //
     {
+        "id": "ml_bongers_project_pacific_prison",
+        "title": "Pacific Prison",
+        "artist": "M.L. Bongers Project",
+        "year": 1978,
+        "country": "Germany",
+        "cover": "img/covers/ml_bongers_project_pacific_prison.jpg",
+        "criteria": [2, 9, 16, 20],
+        "selectedTrackTitle": "A Deadly Smile",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=px1CIxbSN0o"
+    },
+    {
         "id": "magma_mekanik_destruktiw_kommandoh",
         "title": "Mëkanïk Dëstruktïẁ Kömmandöh",
         "artist": "Magma",
@@ -1713,6 +1724,28 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=OKy6SGSGQbw"
     },
     {
+        "id": "michel_madore_le_komuso_a_cordes",
+        "title": "Le Komuso À Cordes",
+        "artist": "Michel Madore",
+        "year": 1976,
+        "country": "Quebec",
+        "cover": "img/covers/michel_madore_le_komuso_a_cordes.jpg",
+        "criteria": [6, 18, 19],
+        "selectedTrackTitle": "Calligraphie",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=MMnA_1jYPCU"
+    },
+    {
+        "id": "michel_madore_la_chambre_nuptiale",
+        "title": "La Chambre Nuptiale",
+        "artist": "Michel Madore",
+        "year": 1979,
+        "country": "Quebec",
+        "cover": "img/covers/michel_madore_la_chambre_nuptiale.jpg",
+        "criteria": [6, 8, 14, 16, 18, 44, 49],
+        "selectedTrackTitle": "Les Anges Qui Passent",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=-XR_7DT0E-c"
+    },
+    {
         "id": "mike_oldfield_hergest_ridge",
         "title": "Hergest Ridge",
         "artist": "Mike Oldfield",
@@ -1773,9 +1806,31 @@ const albums = [
     // ************************************************************************************ //
     // **************************************** O **************************************** //
     // ********************************************************************************** //
+    {
+        "id": "ozric_tentacles_phalarn_dawn",
+        "title": "Pungent Effulgent",
+        "artist": "Ozric Tentacles",
+        "year": 1989,
+        "country": "England",
+        "cover": "img/covers/ozric_tentacles_phalarn_dawn.jpg",
+        "criteria": [6, 7, 8, 18, 19, 42, 44],
+        "selectedTrackTitle": "Phalarn Dawn",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=UQCYvIbznkw"
+    },
     // ************************************************************************************ //
     // **************************************** P **************************************** //
     // ********************************************************************************** //
+    {
+        "id": "pangee_hymnemonde",
+        "title": "Hymnemonde",
+        "artist": "Pangée",
+        "year": 1977,
+        "country": "Quebec",
+        "cover": "img/covers/pangee_hymnemonde.jpg",
+        "criteria": [3, 6, 8, 18, 20],
+        "selectedTrackTitle": "Cataracte",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=TVkcSh3COMc"
+    },
     {
         "id": "peter_gabriel_car",
         "title": "Car",
@@ -2067,6 +2122,17 @@ const albums = [
         "criteria": [3, 7, 15, 23, 42],
         "selectedTrackTitle": "The Endless Night",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=STXJFzaAj0U"
+    },
+    {
+        "id": "robert_connolly_plateau",
+        "title": "Plateau",
+        "artist": "Robert Connolly",
+        "year": 1978,
+        "country": "Canada",
+        "cover": "img/covers/robert_connolly_plateau.jpg",
+        "criteria": [6, 8, 20],
+        "selectedTrackTitle": "Journey",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=c4t_ThUzI48"
     },
     {
         "id": "roger_glover_the_butterfly_ball_and_the_grasshoppers_feast",
@@ -2515,7 +2581,6 @@ const albums = [
 // TODO
 // Below is the list of prog artists that I listened and should be part of this project
 /*
-Acid Mothers XXX
 Acqua Fragile
 Ange 
 Anthony Philips     
@@ -2534,17 +2599,12 @@ Henry Cow
 Jane 
 Locanda Dell Fante
 Matching Mole
-Michel Madore
-M.L. Bongers Project
 Miklagård 
-Necktar 
-Nightwinds 
-Ozric Tentacles
-Pangée 
+Nektar 
+Nightwinds  
 Premiata Forneria Marconi
 Quatermass
 Ramses 
-Robert Connolly
 Schicke, Führs & Fröhling 
 Sir Lord Baltimore
 Sloche  
