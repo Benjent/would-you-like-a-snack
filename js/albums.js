@@ -126,6 +126,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=WfLqv6liuiQ"
     },
     {
+        "id": "anthony_phillips_the_geese_and_the_ghost",
+        "title": "The Gees & The Ghost",
+        "artist": "Anthony Philips",
+        "year": 1977,
+        "country": "England",
+        "cover": "img/covers/anthony_phillips_the_geese_and_the_ghost.jpg",
+        "criteria": [8, 11, 33, 46],
+        "selectedTrackTitle": "Which Way The Wind Blows",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=E-zErxaZxh8"
+    },
+    {
         "id": "aphrodites_child_666",
         "title": "666",
         "artist": "Aphrodite's Child",
@@ -146,6 +157,17 @@ const albums = [
         "criteria": [1, 18, 19, 37],
         "selectedTrackTitle": "Le Chamadère",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=6v5NjAeKNE0"
+    },
+    {
+        "id": "area_caution_radiation_area",
+        "title": "Caution Radiation Area!",
+        "artist": "Area",
+        "year": 1974,
+        "country": "Italy",
+        "cover": "img/covers/area_caution_radiation_area.jpg",
+        "criteria": [3, 5, 6, 7, 16, 18, 23],
+        "selectedTrackTitle": "Cometa Rossa",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=KuTOacIIf-I"
     },
     {
         "id": "area_crac",
@@ -201,6 +223,17 @@ const albums = [
         "criteria": [3, 4, 6, 7, 15, 19, 30, 36, 41, 42],
         "selectedTrackTitle": "Valzer Per Domani",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=NDBj39DGVRw"
+    },
+    {
+        "id": "arti_mestieri_quinto_stato",
+        "title": "Quinto Stato",
+        "artist": "Arti & Mestieri",
+        "year": 1979,
+        "country": "Italy",
+        "cover": "img/covers/arti_mestieri_quinto_stato.jpg",
+        "criteria": [3, 7, 19, 36, 42],
+        "selectedTrackTitle": "Torino Nella Mente",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=skOYf_P1BP4"
     },
     {
         "id": "asia_asia",
@@ -421,7 +454,7 @@ const albums = [
         "year": 1978,
         "country": "Argentina",
         "cover": "img/covers/bubu_anabelas.jpg",
-        "criteria": [6, 8, 18, 19, 38, 42],
+        "criteria": [6, 8, 10, 18, 19, 38, 42],
         "selectedTrackTitle": "El Viaje De Anabelas",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=-5pmx5tZ-80"
     },
@@ -528,6 +561,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=-JKb5xbYkYg"
     },
     {
+        "id": "canamii_concept",
+        "title": "Concept",
+        "artist": "Canamii",
+        "year": 1980,
+        "country": "South Africa",
+        "cover": "img/covers/canamii_concept.jpg",
+        "criteria": [3, 11, 20, 21],
+        "selectedTrackTitle": "Rain",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=yutpOHSsdOA"
+    },
+    {
         "id": "captain_beyond_captain_beyond",
         "title": "Captain Beyond",
         "artist": "Captain Beyond",
@@ -570,6 +614,17 @@ const albums = [
         "criteria": [8, 19, 21, 47],
         "selectedTrackTitle": "Foreigner Suite",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=KOC_LkgNAHU"
+    },
+    {
+        "id": "claude_leveillee_black_sun",
+        "title": "Black Sun",
+        "artist": "Claude Léveillée",
+        "year": 1978,
+        "country": "Quebec",
+        "cover": "img/covers/claude_leveillee_black_sun.jpg",
+        "criteria": [6, 11, 16, 20],
+        "selectedTrackTitle": "Requiem Pour Un Astronaute",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=dtsi7kNIApo"
     },
     {
         "id": "coma_financial_tycoon",
@@ -887,6 +942,17 @@ const albums = [
         "criteria": [6, 8, 10, 19, 33],
         "selectedTrackTitle": "La Cathédrale De Strasbourg",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=HowIDiFOHwY"
+    },
+    {
+        "id": "focus_focus",
+        "title": "Focus",
+        "artist": "Focus",
+        "year": 1985,
+        "country": "Netherlands",
+        "cover": "img/covers/focus_focus.jpg",
+        "criteria": [6, 7, 8, 11, 20],
+        "selectedTrackTitle": "King Kong",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=26b_f-KriRQ"
     },
     {
         "id": "frank_zappa_hot_rats",
@@ -1768,6 +1834,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=vShVl_Xd_Tc"
     },
     {
+        "id": "miklagard_miklagard",
+        "title": "Miklagård",
+        "artist": "Miklagård",
+        "year": 1979,
+        "country": "Sweden",
+        "cover": "img/covers/miklagard_miklagard.jpg",
+        "criteria": [8, 11, 51],
+        "selectedTrackTitle": "Soldaten",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=qcLbMdv1Ht0"
+    },
+    {
         "id": "the_moody_blues_days_of_future_passed",
         "title": "Days Of Future Passed",
         "artist": "The Moody Blues",
@@ -1802,6 +1879,17 @@ const albums = [
         "criteria": [7, 22, 40],
         "selectedTrackTitle": "Please Don't Judas Me",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=PdiIu1RwGhA"
+    },
+    {
+        "id": "nightwinds_nightwinds",
+        "title": "Nightwinds",
+        "artist": "Nightwinds",
+        "year": 1979,
+        "country": "Canada",
+        "cover": "img/covers/nightwinds_nightwinds.jpg",
+        "criteria": [10, 20],
+        "selectedTrackTitle": "As The Crow Flies",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=EmtT_l7MYsE"
     },
     // ************************************************************************************ //
     // **************************************** O **************************************** //
@@ -2405,6 +2493,28 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=sGMIO4h7XMY"
     },
     {
+        "id": "triumvirat_mediterranean_tales",
+        "title": "Mediterranean Tales",
+        "artist": "Triumvirat",
+        "year": 1972,
+        "country": "Germany",
+        "cover": "img/covers/triumvirat_mediterranean_tales.jpg",
+        "criteria": [3, 8, 10, 20, 30],
+        "selectedTrackTitle": "Across The Waters",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=msni0_j51IU"
+    },
+    {
+        "id": "triumvirat_illusions_on_a_double_dimple",
+        "title": "Illusions On A Double Dimple",
+        "artist": "Triumvirat",
+        "year": 1973,
+        "country": "Germany",
+        "cover": "img/covers/triumvirat_illusions_on_a_double_dimple.jpg",
+        "criteria": [3, 8, 10, 20, 30],
+        "selectedTrackTitle": "Mister Ten Percent",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=7VAA7M5nXx8"
+    },
+    {
         "id": "triumvirat_spartacus",
         "title": "Spartacus",
         "artist": "Triumvirat",
@@ -2582,11 +2692,9 @@ const albums = [
 // Below is the list of prog artists that I listened and should be part of this project
 /*
 Acqua Fragile
-Ange 
-Anthony Philips     
+Ange  
 Banco Del Mutuo Soccorso 
-Barclay James Harvest 
-Canamii 
+Barclay James Harvest  
 Delirium
 Dominique Guiot 
 Egg 
@@ -2598,10 +2706,8 @@ Happy The Man
 Henry Cow 
 Jane 
 Locanda Dell Fante
-Matching Mole
-Miklagård 
-Nektar 
-Nightwinds  
+Matching Mole 
+Nektar   
 Premiata Forneria Marconi
 Quatermass
 Ramses 
