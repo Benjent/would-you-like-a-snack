@@ -104,11 +104,23 @@ header {
 }
 
 header button {
-  width: 300px;
+  width: 260px;
 }
 
-header #collectionSize {
-  width: 300px;
+header #left {
+  display: flex;
+  align-items: center;
+  width: 25%;
+}
+
+header #left #collectionSize {
+  width: 260px;
+}
+
+header #right {
+  width: 25%;
+  display: flex;
+  justify-content: right;
 }
 
 #albumVue {
@@ -215,4 +227,11 @@ header #collectionSize {
 #atticVue .artist .artist-discography .album-wrapper img:hover {
   cursor: pointer;
   border-bottom: solid 3px #d7e4da;
+}
+
+#aboutVue {
+  margin: 0 auto;
+  padding: 180px 20px 50px 20px;
+  width: 60vw;
+  text-align: justify;
 }
