@@ -104,11 +104,23 @@ header {
 }
 
 header button {
-  width: 300px;
+  width: 260px;
 }
 
-header #collectionSize {
-  width: 300px;
+header #left {
+  display: flex;
+  align-items: center;
+  width: 25%;
+}
+
+header #left #collectionSize {
+  width: 260px;
+}
+
+header #right {
+  width: 25%;
+  display: flex;
+  justify-content: right;
 }
 
 #albumVue {

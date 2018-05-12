@@ -51,15 +51,22 @@ header {
         // position: absolute;
         // left: 20px;
         // top: 40px;
-        width: 300px;
+        width: 260px;
     }
 
-    // h1 {
-    //     width: 100%;
-    // }
+    #left {
+        display: flex;
+        align-items: center;
+        width: 25%;
+        #collectionSize {
+            width: 260px;
+        }
+    }
 
-    #collectionSize {
-        width: 300px;
+    #right {
+        width: 25%;
+        display: flex;
+        justify-content: right;
     }
 }
 
