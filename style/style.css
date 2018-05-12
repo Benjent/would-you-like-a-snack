@@ -228,3 +228,10 @@ header #right {
   cursor: pointer;
   border-bottom: solid 3px #d7e4da;
 }
+
+#aboutVue {
+  margin: 0 auto;
+  padding: 180px 20px 50px 20px;
+  width: 60vw;
+  text-align: justify;
+}
