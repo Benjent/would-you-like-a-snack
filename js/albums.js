@@ -448,6 +448,28 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=bRj4G6M5K_w"
     },
     {
+        "id": "barclay_james_harvest_once_again",
+        "title": "Once Again",
+        "artist": "Barclay James Harvest",
+        "year": 1971,
+        "country": "England",
+        "cover": "img/covers/barclay_james_harvest_once_again.jpg",
+        "criteria": [10, 21, 22],
+        "selectedTrackTitle": "Galadriel",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=H2AWFbMiRTQ"
+    },
+    {
+        "id": "barclay_james_harvest_barclay_james_harvest_and_other_short_stories",
+        "title": "Barclay James Harvest And Other Short Stories",
+        "artist": "Barclay James Harvest",
+        "year": 1971,
+        "country": "England",
+        "cover": "img/covers/barclay_james_harvest_barclay_james_harvest_and_other_short_stories.jpg",
+        "criteria": [10, 21, 22],
+        "selectedTrackTitle": "Song With No Meaning",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=vsONUkg4Gg4"
+    },
+    {
         "id": "the_beatles_sgt_peppers_lonely_hearts_club_band",
         "title": "Sgt. Pepper's Lonely Hearts Club Band",
         "artist": "The Beatles",
@@ -2760,6 +2782,17 @@ const albums = [
     // **************************************** U **************************************** //
     // ********************************************************************************** //
     {
+        "id": "ultimate_spinach_ultimate_spinach",
+        "title": "Ultimate Spinach",
+        "artist": "Ultimate Spinach",
+        "year": 1968,
+        "country": "USA",
+        "cover": "img/covers/ultimate_spinach_ultimate_spinach.jpg",
+        "criteria": [18, 22],
+        "selectedTrackTitle": "Ego Trip",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=uIy3WOK2-iY"
+    },
+    {
         "id": "uriah_heep_demons_and_wizards",
         "title": "Demons And Wizards",
         "artist": "Uriah Heep",
@@ -2972,7 +3005,6 @@ Schicke, Führs & Fröhling
 Sir Lord Baltimore
 Sloche  
 Strawbs 
-Ultimate Spinach
 */
 
 
