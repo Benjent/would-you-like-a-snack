@@ -98,6 +98,10 @@ header {
             text-align: right;
             width: 45%;
             // align-items: right;
+            .album-title, .album-selected-track {
+                font-style: italic;
+                font-size: 2rem;
+            }
 
             #player {
                 display: block;
