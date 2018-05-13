@@ -245,6 +245,11 @@ header #right {
   body {
     font-size: 1rem;
   }
+  #albumVue .content img {
+    width: 260px;
+    height: 260px;
+    margin: 20px;
+  }
 }
 
 @media (max-height: 850px) {
