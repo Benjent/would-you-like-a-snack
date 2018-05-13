@@ -40,7 +40,7 @@
                         <div class="album-artist">{{selectedAlbum.artist}}</div>
                         <div class="album-year">{{selectedAlbum.year}}</div>
                         <div class="album-country">{{selectedAlbum.country}}</div>
-                        <div class="album-selected-track">Selected track: {{selectedAlbum.selectedTrackTitle}}</div>
+                        <div>Selected track: <span class="album-selected-track">{{selectedAlbum.selectedTrackTitle}}</span></div>
                         <a v-if="selectedAlbum.selectedTrackYtId" v-bind:href=selectedAlbum.selectedTrackYtId target="_blank">
                             <div class="album-selected-track-url">Listen on YouTube</div>
                         </a>
