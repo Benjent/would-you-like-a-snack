@@ -137,6 +137,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=E-zErxaZxh8"
     },
     {
+        "id": "anthony_phillips_wise_after_the_event",
+        "title": "Wise After The Event",
+        "artist": "Anthony Philips",
+        "year": 1977,
+        "country": "England",
+        "cover": "img/covers/anthony_phillips_wise_after_the_event.jpg",
+        "criteria": [11, 46],
+        "selectedTrackTitle": "Birdsong And Reprise",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=tSEqbHSUZJU"
+    },
+    {
         "id": "aphrodites_child_666",
         "title": "666",
         "artist": "Aphrodite's Child",
@@ -622,7 +633,7 @@ const albums = [
         "year": 1978,
         "country": "Quebec",
         "cover": "img/covers/claude_leveillee_black_sun.jpg",
-        "criteria": [6, 11, 16, 20],
+        "criteria": [6, 11, 15, 16, 18, 20, 21],
         "selectedTrackTitle": "Requiem Pour Un Astronaute",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=dtsi7kNIApo"
     },
@@ -1680,6 +1691,28 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=px1CIxbSN0o"
     },
     {
+        "id": "magma_magma",
+        "title": "Magma",
+        "artist": "Magma",
+        "year": 1970,
+        "country": "France",
+        "cover": "img/covers/magma_magma.jpg",
+        "criteria": [2, 5, 8, 10, 19, 30, 39, 43],
+        "selectedTrackTitle": "Kobaïa",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=TAtaaxb2TVU"
+    },
+    {
+        "id": "magma_1001_centigrades",
+        "title": "1001° Centigrades",
+        "artist": "Magma",
+        "year": 1971,
+        "country": "France",
+        "cover": "img/covers/magma_1001_centigrades.jpg",
+        "criteria": [2, 5, 8, 10, 19, 30, 39, 43],
+        "selectedTrackTitle": "Ki Ïahl Ö Lïahk",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=gbVas9ZMVgk"
+    },
+    {
         "id": "magma_mekanik_destruktiw_kommandoh",
         "title": "Mëkanïk Dëstruktïẁ Kömmandöh",
         "artist": "Magma",
@@ -2169,7 +2202,7 @@ const albums = [
     },
     {
         "id": "ralph_lundsten_paradissymfonin",
-        "title": " Paradissymfonin",
+        "title": "Paradissymfonin",
         "artist": "Ralph Lundsten",
         "year": 1980,
         "country": "Sweden",
@@ -2180,7 +2213,7 @@ const albums = [
     },
     {
         "id": "ralph_lundsten_the_new_age",
-        "title": " The New Age",
+        "title": "The New Age",
         "artist": "Ralph Lundsten",
         "year": 1982,
         "country": "Sweden",
@@ -2188,6 +2221,17 @@ const albums = [
         "criteria": [1, 6, 11, 14, 18, 42, 44],
         "selectedTrackTitle": "Time Storm",
         "selectedTrackYtId": ""
+    },
+    {
+        "id": "ramses_la_leyla",
+        "title": "La Leyla",
+        "artist": "Ramses",
+        "year": 1976,
+        "country": "Germany",
+        "cover": "img/covers/ramses_la_leyla.jpg",
+        "criteria": [11, 20, 31],
+        "selectedTrackTitle": "La Leyla",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=FmiSuG7PuVs"
     },
     {
         "id": "return_to_forever_romantic_warrior",
@@ -2568,6 +2612,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=zgWyveaejwI"
     },
     {
+        "id": "weidorje_weidorje",
+        "title": "Weidorje",
+        "artist": "Weidorje",
+        "year": 1978,
+        "country": "France",
+        "cover": "img/covers/weidorje_weidorje.jpg",
+        "criteria": [3, 6, 8, 18, 19, 20, 39],
+        "selectedTrackTitle": "Booldemug",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=3UyB0hlR6nw"
+    },
+    {
         "id": "winterhawk_revival",
         "title": "Revival",
         "artist": "Winterhawk",
@@ -2688,7 +2743,6 @@ const albums = [
     }
 ]
 
-// TODO
 // Below is the list of prog artists that I listened and should be part of this project
 /*
 Acqua Fragile
@@ -2709,8 +2763,7 @@ Locanda Dell Fante
 Matching Mole 
 Nektar   
 Premiata Forneria Marconi
-Quatermass
-Ramses 
+Quatermass 
 Schicke, Führs & Fröhling 
 Sir Lord Baltimore
 Sloche  
@@ -2718,10 +2771,7 @@ Strawbs
 Tea & Sympfony 
 Ultimate Spinach
 Van der Graaf
-Weidorje
 */
-
-
 
 
 let artists = [];
