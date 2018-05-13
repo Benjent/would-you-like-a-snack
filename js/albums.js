@@ -104,6 +104,28 @@ const albums = [
         "selectedTrackYtId": ""
     },
     {
+        "id": "alice_cooper_billion_dollar_babies",
+        "title": "Billion Dollar Babies",
+        "artist": "Alice Cooper",
+        "year": 1973,
+        "country": "USA",
+        "cover": "img/covers/alice_cooper_billion_dollar_babies.png",
+        "criteria": [19, 22, 25],
+        "selectedTrackTitle": "Hello Hooray",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=80bqSzONHP4"
+    },
+    {
+        "id": "alice_cooper_muscle_of_love",
+        "title": "Muscle Of Love",
+        "artist": "Alice Cooper",
+        "year": 1973,
+        "country": "USA",
+        "cover": "img/covers/alice_cooper_muscle_of_love.jpg",
+        "criteria": [19, 22],
+        "selectedTrackTitle": "Hard Hearted Alice",
+        "selectedTrackYtId": ""
+    },
+    {
         "id": "alice_cooper_from_the_inside",
         "title": "From The Inside",
         "artist": "Alice Cooper",
@@ -212,6 +234,17 @@ const albums = [
         "criteria": [1, 18, 19, 37],
         "selectedTrackTitle": "Le Chamadère",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=6v5NjAeKNE0"
+    },
+    {
+        "id": "area_arbeit_macht_frei",
+        "title": "Arbeit Macht Frei",
+        "artist": "Area",
+        "year": 1973,
+        "country": "Italy",
+        "cover": "img/covers/area_arbeit_macht_frei.jpg",
+        "criteria": [3, 5, 6, 7, 15, 16, 18, 23],
+        "selectedTrackTitle": "L'abbattimento Dello Zeppelin",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=433wf2jDkhA"
     },
     {
         "id": "area_caution_radiation_area",
@@ -413,6 +446,28 @@ const albums = [
         "criteria": [10, 21, 22],
         "selectedTrackTitle": "Mother Dear",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=bRj4G6M5K_w"
+    },
+    {
+        "id": "barclay_james_harvest_once_again",
+        "title": "Once Again",
+        "artist": "Barclay James Harvest",
+        "year": 1971,
+        "country": "England",
+        "cover": "img/covers/barclay_james_harvest_once_again.jpg",
+        "criteria": [10, 21, 22],
+        "selectedTrackTitle": "Galadriel",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=H2AWFbMiRTQ"
+    },
+    {
+        "id": "barclay_james_harvest_barclay_james_harvest_and_other_short_stories",
+        "title": "Barclay James Harvest And Other Short Stories",
+        "artist": "Barclay James Harvest",
+        "year": 1971,
+        "country": "England",
+        "cover": "img/covers/barclay_james_harvest_barclay_james_harvest_and_other_short_stories.jpg",
+        "criteria": [10, 21, 22],
+        "selectedTrackTitle": "Song With No Meaning",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=vsONUkg4Gg4"
     },
     {
         "id": "the_beatles_sgt_peppers_lonely_hearts_club_band",
@@ -873,6 +928,17 @@ const albums = [
         "criteria": [1, 3, 6, 7, 11, 19, 20, 42],
         "selectedTrackTitle": "Arcturus",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=4YDGiubWxvw"
+    },
+    {
+        "id": "elder_kindred_kindred_spirits",
+        "title": "Kindred Spirits",
+        "artist": "Elder Kindred",
+        "year": 1971,
+        "country": "England",
+        "cover": "img/covers/elder_kindred_kindred_spirits.jpg",
+        "criteria": [42, 46],
+        "selectedTrackTitle": "Castles",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=Tw9Ksxrm7hg"
     },
     {
         "id": "electric_light_orchestra_out_of_the_blue",
@@ -1743,6 +1809,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=Rf1I9htJk"
     },
     {
+        "id": "locanda_dell_fate_forse_le_lucciole_non_si_amano_piu",
+        "title": "Forse Le Lucciole Non Si Amano Più",
+        "artist": "Locanda Delle Fate",
+        "year": 1977,
+        "country": "Italy",
+        "cover": "img/covers/locanda_dell_fate_forse_le_lucciole_non_si_amano_piu.jpg",
+        "criteria": [3, 10, 36],
+        "selectedTrackTitle": "Forse Le Lucciole Non Si Amano Più",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=QbaJfSEehns"
+    },
+    {
         "id": "los_grillos_vibraciones_latinoamericanas",
         "title": "Vibraciones Latinoamericanas",
         "artist": "Los Grillos",
@@ -2435,15 +2512,37 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=4RwLgA9U_3I"
     },
     {
+        "id": "spirogyra_st_radigunds",
+        "title": "St. Radigunds",
+        "artist": "Spirogyra",
+        "year": 1971,
+        "country": "England",
+        "cover": "img/covers/spirogyra_st_radigunds.jpg",
+        "criteria": [18, 46],
+        "selectedTrackTitle": "The Duke Of Beaufoot",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=D1jNLR9tjXE"
+    },
+    {
+        "id": "spirogyra_old_boot_wine",
+        "title": "Old Boot Wine",
+        "artist": "Spirogyra",
+        "year": 1972,
+        "country": "England",
+        "cover": "img/covers/spirogyra_old_boot_wine.jpg",
+        "criteria": [18, 46],
+        "selectedTrackTitle": "A Canterbury Tale",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=o7Z5SIYACAU"
+    },
+    {
         "id": "spirogyra_bells_boots_and_shambles",
         "title": "Bells, Boots And Shambles",
         "artist": "Spirogyra",
         "year": 1973,
         "country": "England",
         "cover": "img/covers/spirogyra_bells_boots_and_shambles.jpg",
-        "criteria": [8, 46],
-        "selectedTrackTitle": "In The Western World",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=KBW2sheX8NI"
+        "criteria": [8, 18, 46],
+        "selectedTrackTitle": "Old Boot Wine",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=-Q0rh2uESWY"
     },
     {
         "id": "starcastle_starcastle",
@@ -2603,6 +2702,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=4xl6zlD_hlE"
     },
     {
+        "id": "tea_and_symphony_jo_sago",
+        "title": "Jo Sago",
+        "artist": "Tea And Symphony",
+        "year": 1970,
+        "country": "England",
+        "cover": "img/covers/tea_and_symphony_jo_sago.jpg",
+        "criteria": [2, 15, 42, 43, 46],
+        "selectedTrackTitle": "Yourself",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=YlyCN0xb37g"
+    },
+    {
         "id": "titus_groan_titus_groan",
         "title": "Titus Groan",
         "artist": "Titus Groan",
@@ -2671,6 +2781,17 @@ const albums = [
     // ************************************************************************************ //
     // **************************************** U **************************************** //
     // ********************************************************************************** //
+    {
+        "id": "ultimate_spinach_ultimate_spinach",
+        "title": "Ultimate Spinach",
+        "artist": "Ultimate Spinach",
+        "year": 1968,
+        "country": "USA",
+        "cover": "img/covers/ultimate_spinach_ultimate_spinach.jpg",
+        "criteria": [18, 22],
+        "selectedTrackTitle": "Ego Trip",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=uIy3WOK2-iY"
+    },
     {
         "id": "uriah_heep_demons_and_wizards",
         "title": "Demons And Wizards",
@@ -2869,15 +2990,13 @@ const albums = [
 Banco Del Mutuo Soccorso   
 Delirium
 Dominique Guiot 
-Egg 
-Elder Kindred 
+Egg  
 Eskaton  
 Fruupp 
 Goblin
 Happy The Man
 Henry Cow 
 Jane 
-Locanda Dell Fante
 Matching Mole 
 Nektar   
 Premiata Forneria Marconi
@@ -2885,9 +3004,7 @@ Quatermass
 Schicke, Führs & Fröhling 
 Sir Lord Baltimore
 Sloche  
-Strawbs
-Tea & Sympfony 
-Ultimate Spinach
+Strawbs 
 */
 
 
