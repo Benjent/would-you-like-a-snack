@@ -5,6 +5,28 @@ const albums = [
     // **************************************** A **************************************** //
     // ********************************************************************************** //
     {
+        "id": "acqua_fragile_acqua_fragile",
+        "title": "Acqua Fragile",
+        "artist": "Acqua Fragile",
+        "year": 1973,
+        "country": "Italy",
+        "cover": "img/covers/acqua_fragile_acqua_fragile.jpg",
+        "criteria": [3, 7, 10, 19, 21],
+        "selectedTrackTitle": "Morning Comes",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=kUrl0QQyO3w"
+    },
+    {
+        "id": "acqua_fragile_mass_media_stars",
+        "title": "Mass-Media Stars",
+        "artist": "Acqua Fragile",
+        "year": 1974,
+        "country": "Italy",
+        "cover": "img/covers/acqua_fragile_mass_media_stars.jpg",
+        "criteria": [3, 7, 10],
+        "selectedTrackTitle": "Professor",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=kHeIgl7WMvY"
+    },
+    {
         "id": "agora_live_in_montreux",
         "title": "Live In Montreux",
         "artist": "Agorà",
@@ -71,6 +93,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=g_RT7NV74Tk"
     },
     {
+        "id": "alice_cooper_schools_out",
+        "title": "School's Out",
+        "artist": "Alice Cooper",
+        "year": 1972,
+        "country": "USA",
+        "cover": "img/covers/alice_cooper_schools_out.jpg",
+        "criteria": [1, 16, 22, 35, 40],
+        "selectedTrackTitle": "Alma Mater",
+        "selectedTrackYtId": ""
+    },
+    {
         "id": "alice_cooper_from_the_inside",
         "title": "From The Inside",
         "artist": "Alice Cooper",
@@ -113,6 +146,17 @@ const albums = [
         "criteria": [6, 7, 8, 11, 18, 46],
         "selectedTrackTitle": "Love Is Peace",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=oUNxXhzF0fw"
+    },
+    {
+        "id": "ange_guet_apens",
+        "title": "Guet-Apens",
+        "artist": "Ange",
+        "year": 1978,
+        "country": "France",
+        "cover": "img/covers/ange_guet_apens.jpg",
+        "criteria": [3, 8, 37, 43],
+        "selectedTrackTitle": "Réveille-Toi",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=F_66uMKNZC8"
     },
     {
         "id": "anna_sjalv_tredje_tussilago_fanfara",
@@ -358,6 +402,17 @@ const albums = [
         "criteria": [6, 7, 22],
         "selectedTrackTitle": "Drivin' Bachwards",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=uWrdCYBMh0E"
+    },
+    {
+        "id": "barclay_james_harvest_barclay_james_harvest",
+        "title": "Barclay James Harvest",
+        "artist": "Barclay James Harvest",
+        "year": 1970,
+        "country": "England",
+        "cover": "img/covers/barclay_james_harvest_barclay_james_harvest.jpg",
+        "criteria": [10, 21, 22],
+        "selectedTrackTitle": "Mother Dear",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=bRj4G6M5K_w"
     },
     {
         "id": "the_beatles_sgt_peppers_lonely_hearts_club_band",
@@ -842,6 +897,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=CJdZTNLkpuA"
     },
     {
+        "id": "eloy_floating",
+        "title": "Floating",
+        "artist": "Eloy",
+        "year": 1974,
+        "country": "Germany",
+        "cover": "img/covers/eloy_floating.jpg",
+        "criteria": [7, 8, 10, 20],
+        "selectedTrackTitle": "Castle In The Air",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=K_oPTaKCjcY"
+    },
+    {
         "id": "eloy_ocean",
         "title": "Ocean",
         "artist": "Eloy",
@@ -1267,6 +1333,17 @@ const albums = [
         "criteria": [8, 11, 19, 21, 42],
         "selectedTrackTitle": "Depuis L'automne",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=sCkkxr7tS7c"
+    },
+    {
+        "id": "harmonium_lheptade",
+        "title": "L'heptade",
+        "artist": "Harmonium",
+        "year": 1976,
+        "country": "Quebec",
+        "cover": "img/covers/harmonium_lheptade.jpg",
+        "criteria": [1, 8, 10, 19, 21, 43, 47],
+        "selectedTrackTitle": "Le Premier Ciel",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=G8qda-s8Yks"
     },
     {
         "id": "hatfield_and_the_north_hatfield_and_the_north",
@@ -2234,6 +2311,28 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=FmiSuG7PuVs"
     },
     {
+        "id": "ramses_eternity_rise",
+        "title": "Eternity Rise",
+        "artist": "Ramses",
+        "year": 1978,
+        "country": "Germany",
+        "cover": "img/covers/ramses_eternity_rise.jpg",
+        "criteria": [11, 20, 31],
+        "selectedTrackTitle": "Only Yesterday",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=KYfxukQkw10"
+    },
+    {
+        "id": "ramses_light_fantastic",
+        "title": "Light Fantastic",
+        "artist": "Ramses",
+        "year": 1981,
+        "country": "Germany",
+        "cover": "img/covers/ramses_light_fantastic.jpg",
+        "criteria": [11, 20, 31],
+        "selectedTrackTitle": "Across The Everglades",
+        "selectedTrackYtId": ""
+    },
+    {
         "id": "return_to_forever_romantic_warrior",
         "title": "Romantic Warrior",
         "artist": "Return To Forever",
@@ -2597,6 +2696,28 @@ const albums = [
     // ************************************************************************************ //
     // **************************************** V **************************************** //
     // ********************************************************************************** //
+    {
+        "id": "van_der_graaf_generator_the_aerosol_grey_machine",
+        "title": "The Aerosol Grey Machine",
+        "artist": "Van Der Graaf Generator",
+        "year": 1969,
+        "country": "England",
+        "cover": "img/covers/van_der_graaf_generator_the_aerosol_grey_machine.jpg",
+        "criteria": [18, 21],
+        "selectedTrackTitle": "Octopus",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=N91EyGMzvgc"
+    },
+    {
+        "id": "van_der_graaf_generator_the_least_that_we_can_do_is_wave_to_each_other",
+        "title": "The Least We Can Do Is Wave To Each Other",
+        "artist": "Van Der Graaf Generator",
+        "year": 1970,
+        "country": "England",
+        "cover": "img/covers/van_der_graaf_generator_the_least_that_we_can_do_is_wave_to_each_other.jpg",
+        "criteria": [3, 10, 19, 21],
+        "selectedTrackTitle": "After The Flood",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=oJUu9-s15PQ"
+    },
     // ************************************************************************************ //
     // **************************************** W **************************************** //
     // ********************************************************************************** //
@@ -2744,11 +2865,8 @@ const albums = [
 ]
 
 // Below is the list of prog artists that I listened and should be part of this project
-/*
-Acqua Fragile
-Ange  
-Banco Del Mutuo Soccorso 
-Barclay James Harvest  
+/*  
+Banco Del Mutuo Soccorso   
 Delirium
 Dominique Guiot 
 Egg 
@@ -2770,7 +2888,6 @@ Sloche
 Strawbs
 Tea & Sympfony 
 Ultimate Spinach
-Van der Graaf
 */
 
 
