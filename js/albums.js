@@ -357,6 +357,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=9TiGDuI9d6Y"
     },
     {
+        "id": "atomic_rooster_death_walks_behind_you",
+        "title": "Death Walks Behind You",
+        "artist": "Atomic Rooster",
+        "year": 1970,
+        "country": "England",
+        "cover": "img/covers/atomic_rooster_death_walks_behind_you.jpg",
+        "criteria": [7, 22, 40],
+        "selectedTrackTitle": "Death Walks Behind You",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=8yO7l6TmIRI"
+    },
+    {
         "id": "atomic_rooster_in_hearing_of_atomic_rooster",
         "title": "In Hearing Of Atomic Rooster",
         "artist": "Atomic Rooster",
@@ -644,7 +655,7 @@ const albums = [
         "year": 1975,
         "country": "England",
         "cover": "img/covers/camel_the_snow_goose.jpg",
-        "criteria": [2, 6, 9, 11, 41],
+        "criteria": [1, 6, 9, 11, 41],
         "selectedTrackTitle": "La Princesse Perdue",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=dhkWnxNzHig"
     },
@@ -669,6 +680,17 @@ const albums = [
         "criteria": [3, 11, 20],
         "selectedTrackTitle": "Air Born",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=JR4aCz-JZrY"
+    },
+    {
+        "id": "camel_nude",
+        "title": "Nude",
+        "artist": "Camel",
+        "year": 1981,
+        "country": "England",
+        "cover": "img/covers/camel_nude.jpg",
+        "criteria": [1, 3, 6, 9, 11, 41],
+        "selectedTrackTitle": "Beached",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=GD-IY4LfGfc"
     },
     {
         "id": "can_future_days",
@@ -702,6 +724,17 @@ const albums = [
         "criteria": [2, 3, 9, 40, 41],
         "selectedTrackTitle": "As The Moon Speaks (Part I)",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=wm61ROOZ5ek"
+    },
+    {
+        "id": "captain_beyond_sufficiently_breathless",
+        "title": "Sufficiently Breathless",
+        "artist": "Captain Beyond",
+        "year": 1973,
+        "country": "England",
+        "cover": "img/covers/captain_beyond_sufficiently_breathless.jpg",
+        "criteria": [3, 7, 22, 40, 42],
+        "selectedTrackTitle": "Starglow Energy",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=x5D_6GHBBVg"
     },
     {
         "id": "caravan_in_the_land_of_grey_and_pink",
@@ -2088,7 +2121,7 @@ const albums = [
         "year": 1989,
         "country": "England",
         "cover": "img/covers/ozric_tentacles_phalarn_dawn.jpg",
-        "criteria": [6, 7, 8, 18, 19, 42, 44],
+        "criteria": [6, 7, 8, 18, 19, 42, 44, 50],
         "selectedTrackTitle": "Phalarn Dawn",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=UQCYvIbznkw"
     },
@@ -2501,6 +2534,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=d_DajSHROJA"
     },
     {
+        "id": "sir_lord_baltimore_kingdom_come",
+        "title": "Kingdom Come",
+        "artist": "Sir Lord Baltimore",
+        "year": 1970,
+        "country": "USA",
+        "cover": "img/covers/sir_lord_baltimore_kingdom_come.jpg",
+        "criteria": [7, 22, 40],
+        "selectedTrackTitle": "Master Heartache",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=wQSz64rU9mM"
+    },
+    {
         "id": "soft_machine_third",
         "title": "Third",
         "artist": "Soft Machine",
@@ -2839,6 +2883,17 @@ const albums = [
         "selectedTrackTitle": "After The Flood",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=oJUu9-s15PQ"
     },
+    {
+        "id": "van_der_graaf_generator_h_to_he_who_am_the_only_one",
+        "title": "H To He, Who Am The Only One",
+        "artist": "Van Der Graaf Generator",
+        "year": 1970,
+        "country": "England",
+        "cover": "img/covers/van_der_graaf_generator_h_to_he_who_am_the_only_one.jpg",
+        "criteria": [3, 8, 10, 19],
+        "selectedTrackTitle": "The Emperor In His War Room",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=4wtUFJPGE0I"
+    },
     // ************************************************************************************ //
     // **************************************** W **************************************** //
     // ********************************************************************************** //
@@ -2863,6 +2918,17 @@ const albums = [
         "criteria": [3, 6, 8, 18, 19, 20, 39],
         "selectedTrackTitle": "Booldemug",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=3UyB0hlR6nw"
+    },
+    {
+        "id": "windchase_symphinity",
+        "title": "Simphinity",
+        "artist": "Windchase",
+        "year": 1977,
+        "country": "Australia",
+        "cover": "img/covers/windchase_symphinity.jpg",
+        "criteria": [3, 7, 10, 16],
+        "selectedTrackTitle": "Glad To Be Alive",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=grqGzuSak2s"
     },
     {
         "id": "winterhawk_revival",
@@ -3002,7 +3068,6 @@ Nektar
 Premiata Forneria Marconi
 Quatermass 
 Schicke, Führs & Fröhling 
-Sir Lord Baltimore
 Sloche  
 Strawbs 
 */
