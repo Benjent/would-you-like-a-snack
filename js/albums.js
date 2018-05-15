@@ -481,6 +481,39 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=vsONUkg4Gg4"
     },
     {
+        "id": "be_bop_deluxe_axe_victim",
+        "title": "Axe Victim",
+        "artist": "Be-Bop Deluxe",
+        "year": 1974,
+        "country": "England",
+        "cover": "img/covers/be_bop_deluxe_axe_victim.jpg",
+        "criteria": [7, 21, 22],
+        "selectedTrackTitle": "Love Is Swift Arrows",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=Bvi5Vv7E1nI"
+    },
+    {
+        "id": "be_bop_deluxe_futurama",
+        "title": "Futurama",
+        "artist": "Be-Bop Deluxe",
+        "year": 1975,
+        "country": "England",
+        "cover": "img/covers/be_bop_deluxe_futurama.jpg",
+        "criteria": [7, 21, 22, 48],
+        "selectedTrackTitle": "Swan Song",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=ArDJ0LT5gA8"
+    },
+    {
+        "id": "be_bop_deluxe_sunburst_finish",
+        "title": "Sunburst Finish",
+        "artist": "Be-Bop Deluxe",
+        "year": 1976,
+        "country": "England",
+        "cover": "img/covers/be_bop_deluxe_sunburst_finish.jpg",
+        "criteria": [7, 21, 22, 48],
+        "selectedTrackTitle": "Heavenly Homes",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=_Ao_Ao2191I"
+    },
+    {
         "id": "the_beatles_sgt_peppers_lonely_hearts_club_band",
         "title": "Sgt. Pepper's Lonely Hearts Club Band",
         "artist": "The Beatles",
@@ -1131,6 +1164,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=26b_f-KriRQ"
     },
     {
+        "id": "frank_zappa_absolutely_free",
+        "title": "Absolutely Free",
+        "artist": "Frank Zappa",
+        "year": 1967,
+        "country": "USA",
+        "cover": "img/covers/frank_zappa_absolutely_free.jpg",
+        "criteria": [3, 18, 19, 35, 41],
+        "selectedTrackTitle": "Invocation & Ritual Dance Of The Young Pumpkin",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=7gw2qqcsxlE"
+    },
+    {
         "id": "frank_zappa_hot_rats",
         "title": "Hot Rats",
         "artist": "Frank Zappa",
@@ -1184,6 +1228,17 @@ const albums = [
         "criteria": [2, 3, 9, 17, 22, 35],
         "selectedTrackTitle": "Father O'blivion",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=2XO7xSwYVZI"
+    },
+    {
+        "id": "frank_zappa_roxy_and_elsewhere",
+        "title": "Roxy & Elsewhere",
+        "artist": "Frank Zappa",
+        "year": 1974,
+        "country": "USA",
+        "cover": "img/covers/frank_zappa_roxy_and_elsewhere.jpg",
+        "criteria": [3, 4, 7, 8, 12, 19, 30, 42, 45],
+        "selectedTrackTitle": "Echidna's Arf (Of You)",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=NeCGm8VipUU"
     },
     {
         "id": "frank_zappa_one_size_fits_all",
@@ -1371,7 +1426,7 @@ const albums = [
         "year": 1974,
         "country": "France",
         "cover": "img/covers/gong_you.jpg",
-        "criteria": [2, 9, 15, 18, 19, 20, 50],
+        "criteria": [2, 9, 15, 18, 19, 20, 42, 50],
         "selectedTrackTitle": "Master Builder",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=CKfTKNp_yUI"
     },
@@ -2132,7 +2187,7 @@ const albums = [
         "id": "pangee_hymnemonde",
         "title": "Hymnemonde",
         "artist": "Pangée",
-        "year": 1977,
+        "year": 1995,
         "country": "Quebec",
         "cover": "img/covers/pangee_hymnemonde.jpg",
         "criteria": [3, 6, 8, 18, 20],
@@ -2160,6 +2215,17 @@ const albums = [
         "criteria": [18],
         "selectedTrackTitle": "Set The Controls For The Heart Of The Sun",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=bbWOmh_rRq0"
+    },
+    {
+        "id": "pink_floyd_ummagumma",
+        "title": "Ummagumma",
+        "artist": "Pink Floyd",
+        "year": 1969,
+        "country": "England",
+        "cover": "img/covers/pink_floyd_ummagumma.jpg",
+        "criteria": [9, 16, 18, 21],
+        "selectedTrackTitle": "The Narrow Way",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=85Iz-_xigS8"
     },
     {
         "id": "pink_floyd_more",
@@ -2292,6 +2358,17 @@ const albums = [
         "criteria": [3, 6, 8, 11, 18, 20, 31, 37],
         "selectedTrackTitle": "The Strands Of The Future",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=KpL5htneI-c"
+    },
+    {
+        "id": "pythagoras_journey_to_the_vast_unknown",
+        "title": "Journey To The Vast Unknown",
+        "artist": "Pythagoras",
+        "year": 1980,
+        "country": "Netherlands",
+        "cover": "img/covers/pythagoras_journey_to_the_vast_unknown.jpeg",
+        "criteria": [6, 7, 14, 18, 44],
+        "selectedTrackTitle": "Journey To The Vast Unknown (Part II)",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=qLWSAGAjUqw"
     },
     // ************************************************************************************ //
     // **************************************** Q **************************************** //
@@ -3001,6 +3078,17 @@ const albums = [
         "criteria": [3, 4, 8, 10, 17, 30],
         "selectedTrackTitle": "Siberian Khatru",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=r0HnIr6jYWU"
+    },
+    {
+        "id": "yes_tales_from_topographic_oceans",
+        "title": "Tales From Topographic Oceans",
+        "artist": "Yes",
+        "year": 1973,
+        "country": "England",
+        "cover": "img/covers/yes_tales_from_topographic_oceans.jpg",
+        "criteria": [1, 3, 5, 8, 10, 13, 18, 42],
+        "selectedTrackTitle": "The Ancient",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=fMoE_2lV-bk"
     },
     {
         "id": "yes_relayer",
