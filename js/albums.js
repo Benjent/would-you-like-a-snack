@@ -514,6 +514,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=_Ao_Ao2191I"
     },
     {
+        "id": "be_bop_deluxe_modern_music",
+        "title": "Modern Music",
+        "artist": "Be-Bop Deluxe",
+        "year": 1976,
+        "country": "England",
+        "cover": "img/covers/be_bop_deluxe_modern_music.jpg",
+        "criteria": [9, 16, 21, 22, 48],
+        "selectedTrackTitle": "Dancing In The Moonlight",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=p65uMNG43V4"
+    },
+    {
         "id": "the_beatles_sgt_peppers_lonely_hearts_club_band",
         "title": "Sgt. Pepper's Lonely Hearts Club Band",
         "artist": "The Beatles",
@@ -1079,7 +1090,7 @@ const albums = [
         "year": 1970,
         "country": "England",
         "cover": "img/covers/emerson_lake_and_palmer_emerson_lake_and_palmer.jpg",
-        "criteria": [3, 4, 6, 8, 10, 18, 30],
+        "criteria": [3, 4, 6, 8, 10, 18, 21, 30],
         "selectedTrackTitle": "Take A Pebble",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=tVz35uXqFYw"
     },
@@ -1090,7 +1101,7 @@ const albums = [
         "year": 1971,
         "country": "England",
         "cover": "img/covers/emerson_lake_and_palmer_tarkus.jpg",
-        "criteria": [3, 4, 6, 8, 10, 18, 30],
+        "criteria": [3, 4, 6, 8, 10, 18, 21, 30],
         "selectedTrackTitle": "Tarkus",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=WKNOlDtZluU"
     },
