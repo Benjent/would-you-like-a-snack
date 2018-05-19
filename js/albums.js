@@ -536,6 +536,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=usNsCeOV4GM"
     },
     {
+        "id": "the_beatles_the_beatles",
+        "title": "The Beatles",
+        "artist": "The Beatles",
+        "year": 1968,
+        "country": "England",
+        "cover": "img/covers/the_beatles_the_beatles.jpg",
+        "criteria": [3, 9, 16, 17, 21, 22, 35],
+        "selectedTrackTitle": "The Continuing Story Of Bungalow Bill",
+        "selectedTrackYtId": ""
+    },
+    {
         "id": "the_beatles_yellow_submarine",
         "title": "Yellow Submarine",
         "artist": "The Beatles",
@@ -971,6 +982,28 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=STFWapwyqMo"
     },
     {
+        "id": "dominique_guiot_lunivers_de_la_mer",
+        "title": "L'univers De La Mer",
+        "artist": "Dominique Guiot",
+        "year": 1978,
+        "country": "France",
+        "cover": "img/covers/dominique_guiot_lunivers_de_la_mer.jpg",
+        "criteria": [1, 6, 11, 21, 41, 44],
+        "selectedTrackTitle": "Les Deux Poissons",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=gOwuBTGwrco"
+    },
+    {
+        "id": "dominique_guiot_la_dame_a_la_licorne",
+        "title": "La Dame À La Licorne",
+        "artist": "Dominique Guiot",
+        "year": 1983,
+        "country": "France",
+        "cover": "img/covers/dominique_guiot_la_dame_a_la_licorne.jpg",
+        "criteria": [1, 6, 11, 15, 33, 41, 46],
+        "selectedTrackTitle": "La Dame À La Licorne",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=O5s_o1Pc6bA"
+    },
+    {
         "id": "dr_dopo_jam_entree",
         "title": "Entrée",
         "artist": "Dr. Dopo Jam",
@@ -1104,6 +1137,28 @@ const albums = [
         "criteria": [3, 4, 6, 8, 10, 18, 21, 30],
         "selectedTrackTitle": "Tarkus",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=WKNOlDtZluU"
+    },
+    {
+        "id": "eskaton_4_visions",
+        "title": "4 Visions",
+        "artist": "Eskaton",
+        "year": 1979,
+        "country": "France",
+        "cover": "img/covers/eskaton_4_visions.jpg",
+        "criteria": [8, 18, 19, 20, 42],
+        "selectedTrackTitle": "Le Cri",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=aMpmbXRIu28"
+    },
+    {
+        "id": "eskaton_ardeur",
+        "title": "Ardeur",
+        "artist": "Eskaton",
+        "year": 1980,
+        "country": "France",
+        "cover": "img/covers/eskaton_ardeur.jpg",
+        "criteria": [3, 8, 18, 19, 20, 42],
+        "selectedTrackTitle": "Eskaton",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=YRrKHFxLRh4"
     },
     // ************************************************************************************ //
     // **************************************** F **************************************** //
@@ -2054,6 +2109,28 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=pZIg-fJU7vI"
     },
     {
+        "id": "matching_mole_matching_mole",
+        "title": "Matching Mole",
+        "artist": "Matching Mole",
+        "year": 1972,
+        "country": "England",
+        "cover": "img/covers/matching_mole_matching_mole.jpg",
+        "criteria": [3, 18, 19],
+        "selectedTrackTitle": "Part Of The Dance",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=7pvk1eIhFeM"
+    },
+    {
+        "id": "matching_mole_little_red_record",
+        "title": "Little Red Record",
+        "artist": "Matching Mole",
+        "year": 1972,
+        "country": "England",
+        "cover": "img/covers/matching_mole_little_red_record.jpg",
+        "criteria": [3, 18, 19],
+        "selectedTrackTitle": "Brandy As In Benj",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=3pRLir_Evds"
+    },
+    {
         "id": "may_blitz_may_blitz",
         "title": "May Blitz",
         "artist": "May Blitz",
@@ -2140,6 +2217,17 @@ const albums = [
         "criteria": [1, 6, 10, 15, 18, 43],
         "selectedTrackTitle": "Evening: The Sunset / Twilight Time",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=C012iKu9s-8"
+    },
+    {
+        "id": "the_moody_blues_in_search_of_the_lost_chord",
+        "title": "In Search Of The Lost Chord",
+        "artist": "The Moody Blues",
+        "year": 1968,
+        "country": "England",
+        "cover": "img/covers/the_moody_blues_in_search_of_the_lost_chord.jpg",
+        "criteria": [1, 18, 46],
+        "selectedTrackTitle": "The Actor",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=29ihZ_TbFqY"
     },
     {
         "id": "museo_rosenbach_zarathustra",
@@ -2587,6 +2675,28 @@ const albums = [
         "criteria": [1, 3, 6, 7, 9, 14, 18, 19, 42],
         "selectedTrackTitle": "Waves Within",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=VGbSw8dHR3w"
+    },
+    {
+        "id": "schicke_fuhrs_and_frohling_symphonic_pictures",
+        "title": "Symphonic Pictures",
+        "artist": "Schicke, Führs & Fröhling",
+        "year": 1976,
+        "country": "Germany",
+        "cover": "img/covers/schicke_fuhrs_and_frohling_symphonic_pictures.jpg",
+        "criteria": [6, 8, 10, 18, 44],
+        "selectedTrackTitle": "Pictures",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=xvnRkJdbm6w"
+    },
+    {
+        "id": "schicke_fuhrs_and_frohling_sunburst",
+        "title": "Sunburst",
+        "artist": "Schicke, Führs & Fröhling",
+        "year": 1977,
+        "country": "Germany",
+        "cover": "img/covers/schicke_fuhrs_and_frohling_sunburst.jpg",
+        "criteria": [3, 20],
+        "selectedTrackTitle": "Troja",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=1AfQ2w-fY40"
     },
     {
         "id": "semiramis_dedicato_a_frazz",
@@ -3153,20 +3263,16 @@ const albums = [
 // Below is the list of prog artists that I listened and should be part of this project
 /*  
 Banco Del Mutuo Soccorso   
-Delirium
-Dominique Guiot 
-Egg  
-Eskaton  
+Delirium 
+Egg    
 Fruupp 
 Goblin
 Happy The Man
 Henry Cow 
-Jane 
-Matching Mole 
+Jane  
 Nektar   
 Premiata Forneria Marconi
-Quatermass 
-Schicke, Führs & Fröhling 
+Quatermass  
 Sloche  
 Strawbs 
 */
