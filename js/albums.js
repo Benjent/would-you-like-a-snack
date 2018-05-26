@@ -400,6 +400,17 @@ const albums = [
         "selectedTrackTitle": "L'araignée-Mal",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=Wm6vFufqm6s"
     },
+    {
+        "id": "axis_axis",
+        "title": "Axis",
+        "artist": "Axis",
+        "year": 1973,
+        "country": "Greece",
+        "cover": "img/covers/axis_axis.jpg",
+        "criteria": [3, 7, 18, 19],
+        "selectedTrackTitle": "L'araignée-Mal",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=Wm6vFufqm6s"
+    },
     // ************************************************************************************ //
     // **************************************** B **************************************** //
     // ********************************************************************************** //
@@ -1004,6 +1015,50 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=O5s_o1Pc6bA"
     },
     {
+        "id": "the_doors_the_doors",
+        "title": "The Doors",
+        "artist": "The Doors",
+        "year": 1967,
+        "country": "USA",
+        "cover": "img/covers/the_doors_the_doors.jpg",
+        "criteria": [19, 42, 48],
+        "selectedTrackTitle": "The End",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=JSUIQgEVDM4"
+    },
+    {
+        "id": "the_doors_strange_days",
+        "title": "Strange Days",
+        "artist": "The Doors",
+        "year": 1967,
+        "country": "USA",
+        "cover": "img/covers/the_doors_strange_days.jpg",
+        "criteria": [18, 19, 42, 48],
+        "selectedTrackTitle": "When The Music's Over",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=YkKRU1ajKFA"
+    },
+    {
+        "id": "the_doors_waiting_for_the_sun",
+        "title": "Waiting For The Sun",
+        "artist": "The Doors",
+        "year": 1968,
+        "country": "USA",
+        "cover": "img/covers/the_doors_waiting_for_the_sun.jpg",
+        "criteria": [19, 42, 48],
+        "selectedTrackTitle": "Yes, The River Knows",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=v6boHOX8r60"
+    },
+    {
+        "id": "the_doors_the_soft_parade",
+        "title": "The Soft Parade",
+        "artist": "The Doors",
+        "year": 1969,
+        "country": "USA",
+        "cover": "img/covers/the_doors_the_soft_parade.jpg",
+        "criteria": [19, 42, 48],
+        "selectedTrackTitle": "The Soft Parade",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=8p-AUo1w45w"
+    },
+    {
         "id": "dr_dopo_jam_entree",
         "title": "Entrée",
         "artist": "Dr. Dopo Jam",
@@ -1038,6 +1093,39 @@ const albums = [
         "criteria": [1, 3, 6, 7, 11, 19, 20, 42],
         "selectedTrackTitle": "Arcturus",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=4YDGiubWxvw"
+    },
+    {
+        "id": "egg_egg",
+        "title": "Egg",
+        "artist": "Egg",
+        "year": 1970,
+        "country": "England",
+        "cover": "img/covers/egg_egg.jpg",
+        "criteria": [3, 6, 7, 8, 19, 35, 42],
+        "selectedTrackTitle": "Symphony No. 2",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=gR1TYEOVpJ0"
+    },
+    {
+        "id": "egg_the_polite_force",
+        "title": "The Polite Force",
+        "artist": "Egg",
+        "year": 1971,
+        "country": "England",
+        "cover": "img/covers/egg_the_polite_force.jpg",
+        "criteria": [3, 6, 7, 19, 42],
+        "selectedTrackTitle": "A Visit To Newport Hospital",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=DanChmmX4k0"
+    },
+    {
+        "id": "egg_the_civil_surface",
+        "title": "The Civil Surface",
+        "artist": "Egg",
+        "year": 1974,
+        "country": "England",
+        "cover": "img/covers/egg_the_civil_surface.jpg",
+        "criteria": [3, 6, 7, 19, 42],
+        "selectedTrackTitle": "Enneagram",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=QS96H34Ywv4"
     },
     {
         "id": "elder_kindred_kindred_spirits",
@@ -1872,6 +1960,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=76upSLEWHL8"
     },
     {
+        "id": "khan_space_shanty",
+        "title": "Space Shanty",
+        "artist": "Khan",
+        "year": 1972,
+        "country": "England",
+        "cover": "img/covers/khan_space_shanty.jpg",
+        "criteria": [3, 6, 7],
+        "selectedTrackTitle": "Stranded",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=tHkYXKlwB9s"
+    },
+    {
         "id": "king_crimson_in_the_court_of_the_crimson_king",
         "title": "In The Court Of The Crimson King",
         "artist": "King Crimson",
@@ -1983,6 +2082,17 @@ const albums = [
         "criteria": [3, 6, 7, 11, 20, 38, 42],
         "selectedTrackTitle": "Pueblito",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=z8rtBgxvAfw"
+    },
+    {
+        "id": "low_flying_aircraft_low_flying_aircraft",
+        "title": "Low Flying Aircraft",
+        "artist": "Low Flying Aircraft",
+        "year": 1987,
+        "country": "England",
+        "cover": "img/covers/low_flying_aircraft_low_flying_aircraft.jpg",
+        "criteria": [3, 6, 18, 19, 20],
+        "selectedTrackTitle": "Poolside",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=7sspuSlsL1Q"
     },
     // ************************************************************************************ //
     // **************************************** M **************************************** //
@@ -2482,6 +2592,17 @@ const albums = [
         "criteria": [2, 9, 10, 17, 43, 45],
         "selectedTrackTitle": "The March Of The Black Queen",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=SoBMhx_ap_g"
+    },
+    {
+        "id": "quicksilver_messenger_service_happy_trails",
+        "title": "Happy Trails",
+        "artist": "Quicksilver Messenger Service",
+        "year": 1969,
+        "country": "USA",
+        "cover": "img/covers/quicksilver_messenger_service_happy_trails.jpg",
+        "criteria": [0, 6, 7, 12, 22, ],
+        "selectedTrackTitle": "When Do You Love",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=Rng54UMoxy8"
     },
     // ************************************************************************************ //
     // **************************************** R **************************************** //
@@ -3261,18 +3382,19 @@ const albums = [
 ]
 
 // Below is the list of prog artists that I listened and should be part of this project
+// TODO fill some discographies, like Zappa, King Crimson, ...
 /*  
 Banco Del Mutuo Soccorso   
-Delirium 
-Egg    
+Delirium      
 Fruupp 
 Goblin
+Grateful Dead
 Happy The Man
 Henry Cow 
 Jane  
 Nektar   
 Premiata Forneria Marconi
-Quatermass  
+Quatermass
 Sloche  
 Strawbs 
 */
