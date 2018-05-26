@@ -407,9 +407,9 @@ const albums = [
         "year": 1973,
         "country": "Greece",
         "cover": "img/covers/axis_axis.jpg",
-        "criteria": [3, 7, 18, 19],
-        "selectedTrackTitle": "L'araignée-Mal",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=Wm6vFufqm6s"
+        "criteria": [3, 6, 7, 18, 19, 42],
+        "selectedTrackTitle": "Roads",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=a7sBh6MMFwU"
     },
     // ************************************************************************************ //
     // **************************************** B **************************************** //
