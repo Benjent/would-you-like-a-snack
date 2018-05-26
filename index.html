@@ -7,7 +7,7 @@
         <link rel="icon" type="image/ico" href="img/favicon.svg"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
         <link rel="stylesheet" href="style/style.css">
-        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js"></script>
     </head>
     <body>
 
@@ -46,7 +46,9 @@
                         </a>
                         <!-- <div id="player" v-if="currentVue == 'albumVue'"></div> -->
                     </div>
-                    <img v-bind:src=selectedAlbum.cover alt="">
+                    <div class="album-cover-wrapper">
+                        <img v-bind:src=selectedAlbum.cover alt="">
+                    </div>
                     <div class="album-criteria">
                         <div class="album-criterium" v-for="criterium in computedCriteria">{{criterium}}</div>
                     </div>
