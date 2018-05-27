@@ -401,6 +401,28 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=Wm6vFufqm6s"
     },
     {
+        "id": "atoll_tertio",
+        "title": "Tertio",
+        "artist": "Atoll",
+        "year": 1977,
+        "country": "France",
+        "cover": "img/covers/atoll_tertio.jpg",
+        "criteria": [10, 37, 42],
+        "selectedTrackTitle": "Le Cerf-Volant",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=4VgSc1XbgyU"
+    },
+    {
+        "id": "atoll_rock_puzzle",
+        "title": "Rock Puzzle",
+        "artist": "Atoll",
+        "year": 1979,
+        "country": "France",
+        "cover": "img/covers/atoll_rock_puzzle.jpg",
+        "criteria": [37, 42],
+        "selectedTrackTitle": "Puzzle",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=BgEINKJeztQ"
+    },
+    {
         "id": "axis_axis",
         "title": "Axis",
         "artist": "Axis",
@@ -759,6 +781,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=GD-IY4LfGfc"
     },
     {
+        "id": "can_tago_mago",
+        "title": "Tago Mago",
+        "artist": "Can",
+        "year": 1971,
+        "country": "Germany",
+        "cover": "img/covers/can_tago_mago.jpg",
+        "criteria": [8, 18, 42],
+        "selectedTrackTitle": "Mushroom",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=T_9LJCKOvQE"
+    },
+    {
         "id": "can_future_days",
         "title": "Future Days",
         "artist": "Can",
@@ -803,6 +836,28 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=x5D_6GHBBVg"
     },
     {
+        "id": "caravan_caravan",
+        "title": "Caravan",
+        "artist": "Caravan",
+        "year": 1969,
+        "country": "England",
+        "cover": "img/covers/caravan_caravan.jpg",
+        "criteria": [7, 11, 21],
+        "selectedTrackTitle": "Love Song With Flute",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=5X6Hkp1OpfE"
+    },
+    {
+        "id": "carava_if_i_could_do_it_all_over_again_id_do_it_all_over_you",
+        "title": "If I Could Do It All Over Again, I'd Do It All Over You",
+        "artist": "Caravan",
+        "year": 1970,
+        "country": "England",
+        "cover": "img/covers/carava_if_i_could_do_it_all_over_again_id_do_it_all_over_you.jpg",
+        "criteria": [7, 8, 11, 21],
+        "selectedTrackTitle": "Can't Be Long Now / Françoise / For Richard / Warlock",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=CcxS-HU2qH0"
+    },
+    {
         "id": "caravan_in_the_land_of_grey_and_pink",
         "title": "In The Land Of Grey And Pink",
         "artist": "Caravan",
@@ -812,6 +867,39 @@ const albums = [
         "criteria": [7, 8, 11, 21],
         "selectedTrackTitle": "Winter Wine",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=l2ZrJdmnHIw"
+    },
+    {
+        "id": "caravan_waterloo_lily",
+        "title": "Waterloo Lily",
+        "artist": "Caravan",
+        "year": 1972,
+        "country": "England",
+        "cover": "img/covers/caravan_waterloo_lily.jpg",
+        "criteria": [7, 8, 11, 21],
+        "selectedTrackTitle": "The World Is Yours",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=F4yDoaCQ70g"
+    },
+    {
+        "id": "caravan_for_girls_who_plump_in_the_night",
+        "title": "For Girls Who Grow Plump In The Night",
+        "artist": "Caravan",
+        "year": 1973,
+        "country": "England",
+        "cover": "img/covers/caravan_for_girls_who_plump_in_the_night.jpg",
+        "criteria": [7, 11, 21, 42],
+        "selectedTrackTitle": "C'thlu Thlu",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=e8HIpQscvrs"
+    },
+    {
+        "id": "caravan_cunning_stunts",
+        "title": "Cunning Stunts",
+        "artist": "Caravan",
+        "year": 1975,
+        "country": "England",
+        "cover": "img/covers/caravan_cunning_stunts.jpg",
+        "criteria": [7, 8, 11, 21, 42],
+        "selectedTrackTitle": "The Dabsong Conshirtoe",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=uMn4BDFiV-g"
     },
     {
         "id": "carmen_fandagos_in_space",
@@ -1627,6 +1715,17 @@ const albums = [
         "criteria": [3, 8, 10, 30, 43, 47],
         "selectedTrackTitle": "Firth Of Fifth",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=SD5engyVXe0"
+    },
+    {
+        "id": "gentle_giant_gentle_giant",
+        "title": "Gentle Giant",
+        "artist": "Gentle Giant",
+        "year": 1970,
+        "country": "England",
+        "cover": "img/covers/gentle_giant_gentle_giant.jpg",
+        "criteria": [3, 18, 19, 21],
+        "selectedTrackTitle": "Nothing At All",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=XIlG0TmxzTs"
     },
     {
         "id": "gentle_giant_acquiring_the_taste",
@@ -2693,6 +2792,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=SoBMhx_ap_g"
     },
     {
+        "id": "queen_sheer_heart_attack",
+        "title": "Sheer Heart Attack",
+        "artist": "Queen",
+        "year": 1974,
+        "country": "England",
+        "cover": "img/covers/queen_sheer_heart_attack.jpg",
+        "criteria": [9, 17, 43, 45],
+        "selectedTrackTitle": "In The Lap Of The Gods... Revisited",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=ieXcPZC0MJk"
+    },
+    {
         "id": "quicksilver_messenger_service_happy_trails",
         "title": "Happy Trails",
         "artist": "Quicksilver Messenger Service",
@@ -3311,6 +3421,17 @@ const albums = [
         "criteria": [3, 8, 10, 19],
         "selectedTrackTitle": "The Emperor In His War Room",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=4wtUFJPGE0I"
+    },
+    {
+        "id": "van_der_graaf_generator_pawn_hearts",
+        "title": "Pawn Hearts",
+        "artist": "Van Der Graaf Generator",
+        "year": 1971,
+        "country": "England",
+        "cover": "img/covers/van_der_graaf_generator_pawn_hearts.jpg",
+        "criteria": [3, 8, 10, 19],
+        "selectedTrackTitle": "Lemmings",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=_Earfbot_uI"
     },
     // ************************************************************************************ //
     // **************************************** W **************************************** //
