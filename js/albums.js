@@ -401,6 +401,28 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=Wm6vFufqm6s"
     },
     {
+        "id": "atoll_tertio",
+        "title": "Tertio",
+        "artist": "Atoll",
+        "year": 1977,
+        "country": "France",
+        "cover": "img/covers/atoll_tertio.jpg",
+        "criteria": [10, 37, 42],
+        "selectedTrackTitle": "Le Cerf-Volant",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=4VgSc1XbgyU"
+    },
+    {
+        "id": "atoll_rock_puzzle",
+        "title": "Rock Puzzle",
+        "artist": "Atoll",
+        "year": 1979,
+        "country": "France",
+        "cover": "img/covers/atoll_rock_puzzle.jpg",
+        "criteria": [37, 42],
+        "selectedTrackTitle": "Puzzle",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=BgEINKJeztQ"
+    },
+    {
         "id": "axis_axis",
         "title": "Axis",
         "artist": "Axis",
@@ -759,6 +781,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=GD-IY4LfGfc"
     },
     {
+        "id": "can_tago_mago",
+        "title": "Tago Mago",
+        "artist": "Can",
+        "year": 1971,
+        "country": "Germany",
+        "cover": "img/covers/can_tago_mago.jpg",
+        "criteria": [8, 18, 42],
+        "selectedTrackTitle": "Mushroom",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=T_9LJCKOvQE"
+    },
+    {
         "id": "can_future_days",
         "title": "Future Days",
         "artist": "Can",
@@ -803,6 +836,28 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=x5D_6GHBBVg"
     },
     {
+        "id": "caravan_caravan",
+        "title": "Caravan",
+        "artist": "Caravan",
+        "year": 1969,
+        "country": "England",
+        "cover": "img/covers/caravan_caravan.jpg",
+        "criteria": [7, 11, 21],
+        "selectedTrackTitle": "Love Song With Flute",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=5X6Hkp1OpfE"
+    },
+    {
+        "id": "carava_if_i_could_do_it_all_over_again_id_do_it_all_over_you",
+        "title": "If I Could Do It All Over Again, I'd Do It All Over You",
+        "artist": "Caravan",
+        "year": 1970,
+        "country": "England",
+        "cover": "img/covers/carava_if_i_could_do_it_all_over_again_id_do_it_all_over_you.jpg",
+        "criteria": [7, 8, 11, 21],
+        "selectedTrackTitle": "Can't Be Long Now / Françoise / For Richard / Warlock",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=CcxS-HU2qH0"
+    },
+    {
         "id": "caravan_in_the_land_of_grey_and_pink",
         "title": "In The Land Of Grey And Pink",
         "artist": "Caravan",
@@ -812,6 +867,39 @@ const albums = [
         "criteria": [7, 8, 11, 21],
         "selectedTrackTitle": "Winter Wine",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=l2ZrJdmnHIw"
+    },
+    {
+        "id": "caravan_waterloo_lily",
+        "title": "Waterloo Lily",
+        "artist": "Caravan",
+        "year": 1972,
+        "country": "England",
+        "cover": "img/covers/caravan_waterloo_lily.jpg",
+        "criteria": [7, 8, 11, 21],
+        "selectedTrackTitle": "The World Is Yours",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=F4yDoaCQ70g"
+    },
+    {
+        "id": "caravan_for_girls_who_plump_in_the_night",
+        "title": "For Girls Who Grow Plump In The Night",
+        "artist": "Caravan",
+        "year": 1973,
+        "country": "England",
+        "cover": "img/covers/caravan_for_girls_who_plump_in_the_night.jpg",
+        "criteria": [7, 11, 21, 42],
+        "selectedTrackTitle": "C'thlu Thlu",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=e8HIpQscvrs"
+    },
+    {
+        "id": "caravan_cunning_stunts",
+        "title": "Cunning Stunts",
+        "artist": "Caravan",
+        "year": 1975,
+        "country": "England",
+        "cover": "img/covers/caravan_cunning_stunts.jpg",
+        "criteria": [7, 8, 11, 21, 42],
+        "selectedTrackTitle": "The Dabsong Conshirtoe",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=uMn4BDFiV-g"
     },
     {
         "id": "carmen_fandagos_in_space",
@@ -1318,6 +1406,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=26b_f-KriRQ"
     },
     {
+        "id": "frank_zappa_freak_out",
+        "title": "Freak Out!",
+        "artist": "Frank Zappa",
+        "year": 1966,
+        "country": "USA",
+        "cover": "img/covers/frank_zappa_freak_out.jpg",
+        "criteria": [5, 15, 18, 35],
+        "selectedTrackTitle": "Who Are The Brain Police?",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=DuABc9ZNtrA"
+    },
+    {
         "id": "frank_zappa_absolutely_free",
         "title": "Absolutely Free",
         "artist": "Frank Zappa",
@@ -1329,6 +1428,39 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=7gw2qqcsxlE"
     },
     {
+        "id": "frank_zappa_lumpy_gravy",
+        "title": "Lumpy Gravy",
+        "artist": "Frank Zappa",
+        "year": 1968,
+        "country": "USA",
+        "cover": "img/covers/frank_zappa_lumpy_gravy.jpg",
+        "criteria": [1, 9, 16, 17, 35, 41],
+        "selectedTrackTitle": "Duodenum",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=oylUODycgRA"
+    },
+    {
+        "id": "frank_zappa_were_only_in_it_for_the_money",
+        "title": "We're Only In It For The Money",
+        "artist": "Frank Zappa",
+        "year": 1968,
+        "country": "USA",
+        "cover": "img/covers/frank_zappa_were_only_in_it_for_the_money.jpg",
+        "criteria": [1, 3, 9, 18, 19, 35, 41],
+        "selectedTrackTitle": "Take Your Clothes Off When You Dance",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=Xsuk9S0XknE"
+    },
+    {
+        "id": "frank_zappa_uncle_meat",
+        "title": "We're Only In It For The Money",
+        "artist": "Frank Zappa",
+        "year": 1968,
+        "country": "USA",
+        "cover": "img/covers/frank_zappa_uncle_meat.jpg",
+        "criteria": [1, 3, 5, 9, 15, 16, 17, 35, 41],
+        "selectedTrackTitle": "The Dog Breath Variations",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=d_YSSPOFHYI"
+    },
+    {
         "id": "frank_zappa_hot_rats",
         "title": "Hot Rats",
         "artist": "Frank Zappa",
@@ -1338,6 +1470,17 @@ const albums = [
         "criteria": [6, 7, 15, 23, 35, 42],
         "selectedTrackTitle": "Peaches En Regalia",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=zprYyWMcUGY"
+    },
+    {
+        "id": "frank_zappa_200_motels",
+        "title": "200 Motels",
+        "artist": "Frank Zappa",
+        "year": 1971,
+        "country": "USA",
+        "cover": "img/covers/frank_zappa_200_motels.jpg",
+        "criteria": [1, 16, 17, 35, 41, 49],
+        "selectedTrackTitle": "She Painted Up Her Face",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=p_1KEwREujU"
     },
     {
         "id": "frank_zappa_waka_jawaka",
@@ -1406,6 +1549,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=3hAUvgZmjlg"
     },
     {
+        "id": "frank_zappa_bongo_fury",
+        "title": "Bongo Fury",
+        "artist": "Frank Zappa",
+        "year": 1975,
+        "country": "USA",
+        "cover": "img/covers/frank_zappa_bongo_fury.jpg",
+        "criteria": [7, 12, 18, 35],
+        "selectedTrackTitle": "Muffin Man",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=8CGO9I8rmkE"
+    },
+    {
         "id": "frank_zappa_zoot_allures",
         "title": "Zoot Allures",
         "artist": "Frank Zappa",
@@ -1415,6 +1569,39 @@ const albums = [
         "criteria": [18, 22, 35],
         "selectedTrackTitle": "Zoot Allures",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=fdQmhhi5cLI"
+    },
+    {
+        "id": "frank_zappa_in_new_york",
+        "title": "In New York",
+        "artist": "Frank Zappa",
+        "year": 1978,
+        "country": "USA",
+        "cover": "img/covers/frank_zappa_in_new_york.jpg",
+        "criteria": [7, 8, 12, 19, 35],
+        "selectedTrackTitle": "Honey, Don't You Want A Man Like Me?",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=QsrSIQM4ZTk"
+    },
+    {
+        "id": "frank_zappa_studio_tan",
+        "title": "Studio Tan",
+        "artist": "Frank Zappa",
+        "year": 1978,
+        "country": "USA",
+        "cover": "img/covers/frank_zappa_studio_tan.jpg",
+        "criteria": [2, 3, 8, 19, 35],
+        "selectedTrackTitle": "RDNZL",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=ZlwLNcBD68k"
+    },
+    {
+        "id": "frank_zappa_sleep_dirt",
+        "title": "Sleep Dirt",
+        "artist": "Frank Zappa",
+        "year": 1979,
+        "country": "USA",
+        "cover": "img/covers/frank_zappa_sleep_dirt.jpg",
+        "criteria": [3, 4, 6, 18, 19],
+        "selectedTrackTitle": "The Ocean Is The Ultimate Solution",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=zCNRgfkeWXs"
     },
     {
         "id": "frank_zappa_sheik_yerbouti",
@@ -1528,6 +1715,17 @@ const albums = [
         "criteria": [3, 8, 10, 30, 43, 47],
         "selectedTrackTitle": "Firth Of Fifth",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=SD5engyVXe0"
+    },
+    {
+        "id": "gentle_giant_gentle_giant",
+        "title": "Gentle Giant",
+        "artist": "Gentle Giant",
+        "year": 1970,
+        "country": "England",
+        "cover": "img/covers/gentle_giant_gentle_giant.jpg",
+        "criteria": [3, 18, 19, 21],
+        "selectedTrackTitle": "Nothing At All",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=XIlG0TmxzTs"
     },
     {
         "id": "gentle_giant_acquiring_the_taste",
@@ -2594,6 +2792,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=SoBMhx_ap_g"
     },
     {
+        "id": "queen_sheer_heart_attack",
+        "title": "Sheer Heart Attack",
+        "artist": "Queen",
+        "year": 1974,
+        "country": "England",
+        "cover": "img/covers/queen_sheer_heart_attack.jpg",
+        "criteria": [9, 17, 43, 45],
+        "selectedTrackTitle": "In The Lap Of The Gods... Revisited",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=ieXcPZC0MJk"
+    },
+    {
         "id": "quicksilver_messenger_service_happy_trails",
         "title": "Happy Trails",
         "artist": "Quicksilver Messenger Service",
@@ -3213,6 +3422,17 @@ const albums = [
         "selectedTrackTitle": "The Emperor In His War Room",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=4wtUFJPGE0I"
     },
+    {
+        "id": "van_der_graaf_generator_pawn_hearts",
+        "title": "Pawn Hearts",
+        "artist": "Van Der Graaf Generator",
+        "year": 1971,
+        "country": "England",
+        "cover": "img/covers/van_der_graaf_generator_pawn_hearts.jpg",
+        "criteria": [3, 8, 10, 19],
+        "selectedTrackTitle": "Lemmings",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=_Earfbot_uI"
+    },
     // ************************************************************************************ //
     // **************************************** W **************************************** //
     // ********************************************************************************** //
@@ -3378,6 +3598,17 @@ const albums = [
         "criteria": [7, 22, 42],
         "selectedTrackTitle": "Cold Night",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=2gI_mUCPHO0"
+    },
+    {
+        "id": "zyma_thoughts",
+        "title": "Thoughts",
+        "artist": "Zyma",
+        "year": 1978,
+        "country": "Germany",
+        "cover": "img/covers/zyma_thoughts.jpeg",
+        "criteria": [3, 7, 15, 18, 19, 42],
+        "selectedTrackTitle": "Businessman",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=jnE_gq9_R84"
     }
 ]
 
@@ -3394,6 +3625,7 @@ Henry Cow
 Jane  
 Nektar   
 Premiata Forneria Marconi
+Procol Harum
 Quatermass
 Sloche  
 Strawbs 
