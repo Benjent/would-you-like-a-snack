@@ -1318,6 +1318,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=26b_f-KriRQ"
     },
     {
+        "id": "frank_zappa_freak_out",
+        "title": "Freak Out!",
+        "artist": "Frank Zappa",
+        "year": 1966,
+        "country": "USA",
+        "cover": "img/covers/frank_zappa_freak_out.jpg",
+        "criteria": [5, 15, 18, 35],
+        "selectedTrackTitle": "Who Are The Brain Police?",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=DuABc9ZNtrA"
+    },
+    {
         "id": "frank_zappa_absolutely_free",
         "title": "Absolutely Free",
         "artist": "Frank Zappa",
@@ -1329,6 +1340,39 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=7gw2qqcsxlE"
     },
     {
+        "id": "frank_zappa_lumpy_gravy",
+        "title": "Lumpy Gravy",
+        "artist": "Frank Zappa",
+        "year": 1968,
+        "country": "USA",
+        "cover": "img/covers/frank_zappa_lumpy_gravy.jpg",
+        "criteria": [1, 9, 16, 17, 35, 41],
+        "selectedTrackTitle": "Duodenum",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=oylUODycgRA"
+    },
+    {
+        "id": "frank_zappa_were_only_in_it_for_the_money",
+        "title": "We're Only In It For The Money",
+        "artist": "Frank Zappa",
+        "year": 1968,
+        "country": "USA",
+        "cover": "img/covers/frank_zappa_were_only_in_it_for_the_money.jpg",
+        "criteria": [1, 3, 9, 18, 19, 35, 41],
+        "selectedTrackTitle": "Take Your Clothes Off When You Dance",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=Xsuk9S0XknE"
+    },
+    {
+        "id": "frank_zappa_uncle_meat",
+        "title": "We're Only In It For The Money",
+        "artist": "Frank Zappa",
+        "year": 1968,
+        "country": "USA",
+        "cover": "img/covers/frank_zappa_uncle_meat.jpg",
+        "criteria": [1, 3, 5, 9, 15, 16, 17, 35, 41],
+        "selectedTrackTitle": "The Dog Breath Variations",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=d_YSSPOFHYI"
+    },
+    {
         "id": "frank_zappa_hot_rats",
         "title": "Hot Rats",
         "artist": "Frank Zappa",
@@ -1338,6 +1382,17 @@ const albums = [
         "criteria": [6, 7, 15, 23, 35, 42],
         "selectedTrackTitle": "Peaches En Regalia",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=zprYyWMcUGY"
+    },
+    {
+        "id": "frank_zappa_200_motels",
+        "title": "200 Motels",
+        "artist": "Frank Zappa",
+        "year": 1971,
+        "country": "USA",
+        "cover": "img/covers/frank_zappa_200_motels.jpg",
+        "criteria": [1, 16, 17, 35, 41, 49],
+        "selectedTrackTitle": "She Painted Up Her Face",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=p_1KEwREujU"
     },
     {
         "id": "frank_zappa_waka_jawaka",
@@ -1406,6 +1461,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=3hAUvgZmjlg"
     },
     {
+        "id": "frank_zappa_bongo_fury",
+        "title": "Bongo Fury",
+        "artist": "Frank Zappa",
+        "year": 1975,
+        "country": "USA",
+        "cover": "img/covers/frank_zappa_bongo_fury.jpg",
+        "criteria": [7, 12, 18, 35],
+        "selectedTrackTitle": "Muffin Man",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=8CGO9I8rmkE"
+    },
+    {
         "id": "frank_zappa_zoot_allures",
         "title": "Zoot Allures",
         "artist": "Frank Zappa",
@@ -1415,6 +1481,39 @@ const albums = [
         "criteria": [18, 22, 35],
         "selectedTrackTitle": "Zoot Allures",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=fdQmhhi5cLI"
+    },
+    {
+        "id": "frank_zappa_in_new_york",
+        "title": "In New York",
+        "artist": "Frank Zappa",
+        "year": 1978,
+        "country": "USA",
+        "cover": "img/covers/frank_zappa_in_new_york.jpg",
+        "criteria": [7, 8, 12, 19, 35],
+        "selectedTrackTitle": "Honey, Don't You Want A Man Like Me?",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=QsrSIQM4ZTk"
+    },
+    {
+        "id": "frank_zappa_studio_tan",
+        "title": "Studio Tan",
+        "artist": "Frank Zappa",
+        "year": 1978,
+        "country": "USA",
+        "cover": "img/covers/frank_zappa_studio_tan.jpg",
+        "criteria": [2, 3, 8, 19, 35],
+        "selectedTrackTitle": "RDNZL",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=ZlwLNcBD68k"
+    },
+    {
+        "id": "frank_zappa_sleep_dirt",
+        "title": "Sleep Dirt",
+        "artist": "Frank Zappa",
+        "year": 1979,
+        "country": "USA",
+        "cover": "img/covers/frank_zappa_sleep_dirt.jpg",
+        "criteria": [3, 4, 6, 18, 19],
+        "selectedTrackTitle": "The Ocean Is The Ultimate Solution",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=zCNRgfkeWXs"
     },
     {
         "id": "frank_zappa_sheik_yerbouti",
@@ -3378,6 +3477,17 @@ const albums = [
         "criteria": [7, 22, 42],
         "selectedTrackTitle": "Cold Night",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=2gI_mUCPHO0"
+    },
+    {
+        "id": "zyma_thoughts",
+        "title": "Thoughts",
+        "artist": "Zyma",
+        "year": 1978,
+        "country": "Germany",
+        "cover": "img/covers/zyma_thoughts.jpeg",
+        "criteria": [3, 7, 15, 18, 19, 42],
+        "selectedTrackTitle": "Businessman",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=jnE_gq9_R84"
     }
 ]
 
@@ -3394,6 +3504,7 @@ Henry Cow
 Jane  
 Nektar   
 Premiata Forneria Marconi
+Procol Harum
 Quatermass
 Sloche  
 Strawbs 
