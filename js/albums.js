@@ -552,7 +552,7 @@ const albums = [
         "artist": "Be-Bop Deluxe",
         "year": 1976,
         "country": "England",
-        "cover": "img/covers/be_bop_deluxe_modern_music.jpg",
+        "cover": "img/covers/be_bop_deluxe_modern_music.png",
         "criteria": [9, 16, 21, 22, 48],
         "selectedTrackTitle": "Dancing In The Moonlight",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=p65uMNG43V4"
