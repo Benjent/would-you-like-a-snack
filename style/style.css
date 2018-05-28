@@ -95,6 +95,7 @@ header {
   justify-content: space-between;
   align-items: center;
   position: fixed;
+  z-index: 1;
   top: 0;
   width: 100vw;
   background: #030504;
@@ -228,12 +229,12 @@ header #right {
 #atticVue .artist .artist-discography .album-wrapper img {
   height: 100px;
   width: 100px;
-  border-bottom: solid 3px #a18a54;
+  border-bottom: solid 4px #a18a54;
 }
 
 #atticVue .artist .artist-discography .album-wrapper img:hover {
   cursor: pointer;
-  border-bottom: solid 3px #d7e4da;
+  border-bottom: solid 4px #d7e4da;
 }
 
 #aboutVue {

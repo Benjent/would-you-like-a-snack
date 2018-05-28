@@ -61,5 +61,6 @@ const criteria = [
     "Soundtrack album",                             // 49
     "Spacy",                                        // 50
     "Swedish sung",                                 // 51
+    "Baroque vibes",                                // 52
     
 ]

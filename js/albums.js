@@ -1472,6 +1472,28 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=zprYyWMcUGY"
     },
     {
+        "id": "frank_zappa_burnt_weeny_sandwich",
+        "title": "Burnt Weeny Sandwich",
+        "artist": "Frank Zappa",
+        "year": 1970,
+        "country": "USA",
+        "cover": "img/covers/frank_zappa_burnt_weeny_sandwich.jpg",
+        "criteria": [5, 6, 7, 16, 18, 41],
+        "selectedTrackTitle": "Theme From Burnt Weeny Sandwich",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=vB-PYif7Fek"
+    },
+    {
+        "id": "frank_zappa_weasels_ripped_my_flesh",
+        "title": "Weasels Ripped My FLesh",
+        "artist": "Frank Zappa",
+        "year": 1970,
+        "country": "USA",
+        "cover": "img/covers/frank_zappa_weasels_ripped_my_flesh.jpg",
+        "criteria": [5, 12, 18, 19],
+        "selectedTrackTitle": "The Eric Dolphy Memorial Barbecue",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=tLUxmYKvYBo"
+    },
+    {
         "id": "frank_zappa_200_motels",
         "title": "200 Motels",
         "artist": "Frank Zappa",
@@ -1673,6 +1695,17 @@ const albums = [
     // **************************************** G **************************************** //
     // ********************************************************************************** //
     {
+        "id": "genesis_from_genesis_to_revelation",
+        "title": "From Genesis To Revelation",
+        "artist": "Genesis",
+        "year": 1969,
+        "country": "England",
+        "cover": "img/covers/genesis_from_genesis_to_revelation.jpg",
+        "criteria": [1, 9, 11, 15],
+        "selectedTrackTitle": "The Serpent",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=_lUJ9f0B3jo"
+    },
+    {
         "id": "genesis_trespass",
         "title": "Trespass",
         "artist": "Genesis",
@@ -1739,6 +1772,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=ODWYJyJh6cg"
     },
     {
+        "id": "gentle_giant_octopus",
+        "title": "Octopus",
+        "artist": "Gentle Giant",
+        "year": 1972,
+        "country": "England",
+        "cover": "img/covers/gentle_giant_octopus.jpg",
+        "criteria": [3, 19, 21],
+        "selectedTrackTitle": "The Boys In The Band",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=BTet3C_afKA"
+    },
+    {
         "id": "gnidrolog_lady_lake",
         "title": "Lady Lake",
         "artist": "Gnidrolog",
@@ -1748,6 +1792,17 @@ const albums = [
         "criteria": [19, 21],
         "selectedTrackTitle": "Lady Lake",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=3LdNEFRkbGk"
+    },
+    {
+        "id": "goblin_roller",
+        "title": "Roller",
+        "artist": "Goblin",
+        "year": 1976,
+        "country": "Italy",
+        "cover": "img/covers/goblin_roller.jpg",
+        "criteria": [3, 6, 10, 49],
+        "selectedTrackTitle": "Roller",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=X_hHhhE4suU"
     },
     {
         "id": "gong_flying_teapot",
@@ -1805,6 +1860,39 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=G0tsWMzmr-c"
     },
     {
+        "id": "grateful_dead_anthem_of_the_sun",
+        "title": "Anthem Of The Sun",
+        "artist": "Grateful Dead",
+        "year": 1968,
+        "country": "USA",
+        "cover": "img/covers/grateful_dead_anthem_of_the_sun.jpg",
+        "criteria": [7, 8, 18, 21, 22, 42],
+        "selectedTrackTitle": "Alligator",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=eNJTIU8b8Yk"
+    },
+    {
+        "id": "grateful_dead_blues_for_allah",
+        "title": "Blues For Allah",
+        "artist": "Grateful Dead",
+        "year": 1975,
+        "country": "USA",
+        "cover": "img/covers/grateful_dead_blues_for_allah.jpg",
+        "criteria": [7, 18, 21, 42],
+        "selectedTrackTitle": "Blues For Allah / Sand Castles And Glass Camels / Unusual Occurrences In The Desert",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=Ss1_Xu7YBrM"
+    },
+    {
+        "id": "grateful_dead_terrapin_station",
+        "title": "Terrapin Station",
+        "artist": "Grateful Dead",
+        "year": 1977,
+        "country": "USA",
+        "cover": "img/covers/grateful_dead_terrapin_station.jpg",
+        "criteria": [7, 8, 21, 22, 42],
+        "selectedTrackTitle": "Terrapin Station",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=3I7CLy70WtI"
+    },
+    {
         "id": "gryphon_red_queen_to_gryphon_three",
         "title": "Red Queen To Gryphon Three",
         "artist": "Gryphon",
@@ -1829,6 +1917,28 @@ const albums = [
     // ************************************************************************************ //
     // **************************************** H **************************************** //
     // ********************************************************************************** //
+    {
+        "id": "happy_the_man_happy_the_man",
+        "title": "Happy The Man",
+        "artist": "Happy The Man",
+        "year": 1977,
+        "country": "USA",
+        "cover": "img/covers/happy_the_man_happy_the_man.jpg",
+        "criteria": [3, 6, 10, 11, 19, 20, 42],
+        "selectedTrackTitle": "Starborne",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=7eMlI4MzQks"
+    },
+    {
+        "id": "happy_the_man_crafty_hands",
+        "title": "Crafty Hands",
+        "artist": "Happy The Man",
+        "year": 1978,
+        "country": "USA",
+        "cover": "img/covers/happy_the_man_crafty_hands.jpg",
+        "criteria": [3, 6, 10, 11, 19, 20, 42],
+        "selectedTrackTitle": "Morning Sun",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=g9B_P36s_-A"
+    },
     {
         "id": "harmonium_si_on_avait_besoin_dune_cinquieme_saison",
         "title": "Si On Avait Besoin D'une Cinquième Saison",
@@ -3520,6 +3630,17 @@ const albums = [
     // **************************************** Y **************************************** //
     // ********************************************************************************** //
     {
+        "id": "yes_the_yes_album",
+        "title": "The Yes Album",
+        "artist": "Yes",
+        "year": 1970,
+        "country": "England",
+        "cover": "img/covers/yes_the_yes_album.jpg",
+        "criteria": [3, 4, 10],
+        "selectedTrackTitle": "Starship Trooper",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=DKftiJS30Cs"
+    },
+    {
         "id": "yes_fragile",
         "title": "Fragile",
         "artist": "Yes",
@@ -3613,14 +3734,11 @@ const albums = [
 ]
 
 // Below is the list of prog artists that I listened and should be part of this project
-// TODO fill some discographies, like Zappa, King Crimson, ...
+// TODO fill some discographies, like Zappa, King Crimson, Gentle Giant, Yes, VdGG...
 /*  
 Banco Del Mutuo Soccorso   
 Delirium      
 Fruupp 
-Goblin
-Grateful Dead
-Happy The Man
 Henry Cow 
 Jane  
 Nektar   
