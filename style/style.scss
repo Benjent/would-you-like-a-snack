@@ -39,6 +39,7 @@ header {
     justify-content: space-between;
     align-items: center;
     position: fixed;
+    z-index: 1;
     top: 0;
     width: 100vw;
     // margin-bottom: 50px;
@@ -168,6 +169,7 @@ header {
             height: 100%;
             display: flex;
             flex-wrap: wrap;
+
             .album-wrapper {
                 display: flex;
                 flex-direction: column;
@@ -177,10 +179,10 @@ header {
                 img {
                     height: 100px;
                     width: 100px;
-                    border-bottom: solid 3px $gold;
+                    border-bottom: solid 4px $gold;
                     &:hover {
                         cursor: pointer;
-                        border-bottom: solid 3px $cream;
+                        border-bottom: solid 4px $cream;
                     }
                 }
             }
