@@ -2027,6 +2027,39 @@ const albums = [
         "selectedTrackTitle": "Assault And Battery / The Golden Void",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=1UIYMxZRLf0"
     },
+    {
+        "id": "henry_cow_legend",
+        "title": "Legend",
+        "artist": "Henry Cow",
+        "year": 1973,
+        "country": "England",
+        "cover": "img/covers/henry_cow_legend.jpg",
+        "criteria": [3, 5, 15, 18, 23],
+        "selectedTrackTitle": "Amygdala",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=t4e-Zq6kPk4"
+    },
+    {
+        "id": "henry_cow_unrest",
+        "title": "Unrest",
+        "artist": "Henry Cow",
+        "year": 1974,
+        "country": "England",
+        "cover": "img/covers/henry_cow_unrest.jpg",
+        "criteria": [3, 5, 8, 15, 18, 23],
+        "selectedTrackTitle": "Half Asleep/Half Awake",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=DDLqUcUls6s"
+    },
+    {
+        "id": "henry_cow_in_praise_of_learning",
+        "title": "In Praise Of Learning",
+        "artist": "Henry Cow",
+        "year": 1975,
+        "country": "England",
+        "cover": "img/covers/henry_cow_in_praise_of_learning.jpg",
+        "criteria": [3, 5, 8, 15, 18, 23],
+        "selectedTrackTitle": "Beautiful As The Moon - Terrible As An Army With Banners",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=374qf7xCFkY"
+    },
     // ************************************************************************************ //
     // **************************************** I **************************************** //
     // ********************************************************************************** //
@@ -2687,15 +2720,26 @@ const albums = [
     // **************************************** O **************************************** //
     // ********************************************************************************** //
     {
-        "id": "ozric_tentacles_phalarn_dawn",
+        "id": "ozric_tentacles_pungent_effulgent",
         "title": "Pungent Effulgent",
         "artist": "Ozric Tentacles",
         "year": 1989,
         "country": "England",
-        "cover": "img/covers/ozric_tentacles_phalarn_dawn.jpg",
-        "criteria": [6, 7, 8, 18, 19, 42, 44, 50],
+        "cover": "img/covers/ozric_tentacles_pungent_effulgent.jpg",
+        "criteria": [6, 7, 18, 19, 42, 44, 50],
         "selectedTrackTitle": "Phalarn Dawn",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=UQCYvIbznkw"
+    },
+    {
+        "id": "ozric_tentacles_erpland",
+        "title": "Erpland",
+        "artist": "Ozric Tentacles",
+        "year": 1990,
+        "country": "England",
+        "cover": "img/covers/ozric_tentacles_erpland.jpg",
+        "criteria": [6, 7, 18, 19, 42, 44, 50],
+        "selectedTrackTitle": "Crackerblocks",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=ZjtfdisDhuo"
     },
     // ************************************************************************************ //
     // **************************************** P **************************************** //
@@ -3101,6 +3145,17 @@ const albums = [
         "criteria": [2, 3, 9, 17, 41, 43, 45],
         "selectedTrackTitle": "Love Is All",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=YK2Pltm8ZsQ"
+    },
+    {
+        "id": "roger_waters_and_ron_geesin_music_from_the_body",
+        "title": "Music From The Body",
+        "artist": "Roger Waters & Ron Geesin",
+        "year": 1970,
+        "country": "England",
+        "cover": "img/covers/roger_waters_and_ron_geesin_music_from_the_body.jpg",
+        "criteria": [1, 5, 9, 11, 15, 16, 18, 21, 41, 49],
+        "selectedTrackTitle": "The Womb Bit",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=vR-PDPS1-Pg"
     },
     // ************************************************************************************ //
     // **************************************** S **************************************** //
@@ -3738,8 +3793,7 @@ const albums = [
 /*  
 Banco Del Mutuo Soccorso   
 Delirium      
-Fruupp 
-Henry Cow 
+Fruupp  
 Jane  
 Nektar   
 Premiata Forneria Marconi
