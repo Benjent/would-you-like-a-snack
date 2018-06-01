@@ -514,6 +514,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=vsONUkg4Gg4"
     },
     {
+        "id": "barclay_james_harvest_baby_james_harvest",
+        "title": "Baby James Harvest",
+        "artist": "Barclay James Harvest",
+        "year": 1972,
+        "country": "England",
+        "cover": "img/covers/barclay_james_harvest_baby_james_harvest.jpg",
+        "criteria": [16, 21, 22],
+        "selectedTrackTitle": "Summer Soldier",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=t5wSsTgyaic"
+    },
+    {
         "id": "be_bop_deluxe_axe_victim",
         "title": "Axe Victim",
         "artist": "Be-Bop Deluxe",
@@ -688,6 +699,50 @@ const albums = [
         "criteria": [7, 22, 40],
         "selectedTrackTitle": "The Author",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=lrQd56l4adE"
+    },
+    {
+        "id": "budgie_squawk",
+        "title": "Squawk",
+        "artist": "Budgie",
+        "year": 1972,
+        "country": "Wales",
+        "cover": "img/covers/budgie_squawk.jpg",
+        "criteria": [7, 22, 40],
+        "selectedTrackTitle": "Young Is A World",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=3JqJyCE3Xeo"
+    },
+    {
+        "id": "budgie_never_turn_your_back_on_a_friend",
+        "title": "Never Turn Your Back On A Friend",
+        "artist": "Budgie",
+        "year": 1973,
+        "country": "Wales",
+        "cover": "img/covers/budgie_never_turn_your_back_on_a_friend.jpg",
+        "criteria": [7, 22, 40],
+        "selectedTrackTitle": "Parents",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=nHPCtgmtS68"
+    },
+    {
+        "id": "budgie_in_for_the_kill",
+        "title": "In For The Kill!",
+        "artist": "Budgie",
+        "year": 1974,
+        "country": "Wales",
+        "cover": "img/covers/budgie_in_for_the_kill.jpg",
+        "criteria": [7, 22, 40, 42],
+        "selectedTrackTitle": "Zoom Club",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=VG7e3-jm3UU"
+    },
+    {
+        "id": "budgie_bandolier",
+        "title": "Bandolier",
+        "artist": "Budgie",
+        "year": 1975,
+        "country": "Wales",
+        "cover": "img/covers/budgie_bandolier.jpg",
+        "criteria": [7, 22, 40, 42],
+        "selectedTrackTitle": "Slipaway",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=50Q-qDmF2-g"
     },
     {
         "id": "burning_candle_burning_candle",
@@ -1772,6 +1827,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=ODWYJyJh6cg"
     },
     {
+        "id": "gentle_giant_three_friends",
+        "title": "Three Friends",
+        "artist": "Gentle Giant",
+        "year": 1972,
+        "country": "England",
+        "cover": "img/covers/gentle_giant_three_friends.jpg",
+        "criteria": [1, 3, 19, 21],
+        "selectedTrackTitle": "Peel The Paint",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=SIl5RCLNy1E"
+    },
+    {
         "id": "gentle_giant_octopus",
         "title": "Octopus",
         "artist": "Gentle Giant",
@@ -2279,6 +2345,17 @@ const albums = [
     // **************************************** K **************************************** //
     // ********************************************************************************** //
     {
+        "id": "kanguru_dreaming",
+        "title": "Dreaming",
+        "artist": "Kanguru",
+        "year": 1976,
+        "country": "Australia",
+        "cover": "img/covers/kanguru_dreaming.jpg",
+        "criteria": [6, 7, 8, 11, 13, 14, 15, 18],
+        "selectedTrackTitle": "Ras Lila",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=eNTd_BY_zsI"
+    },
+    {
         "id": "keef_hartley_band_the_time_is_near",
         "title": "The Time Is Near...",
         "artist": "Keef Hartley Band",
@@ -2448,6 +2525,17 @@ const albums = [
         "criteria": [2, 9, 16, 20],
         "selectedTrackTitle": "A Deadly Smile",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=px1CIxbSN0o"
+    },
+    {
+        "id": "magic_spell_is_there_anywhere_a_gas_station",
+        "title": "Is There Anywhere A Gas Station?",
+        "artist": "Magic Spell",
+        "year": 1980,
+        "country": "Switzerland",
+        "cover": "img/covers/magic_spell_is_there_anywhere_a_gas_station.jpg",
+        "criteria": [7, 18, 20],
+        "selectedTrackTitle": "Turkish Invasion",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=3RHzfQQn1Zs"
     },
     {
         "id": "magma_magma",
@@ -3598,6 +3686,17 @@ const albums = [
         "selectedTrackTitle": "Lemmings",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=_Earfbot_uI"
     },
+    {
+        "id": "van_der_graaf_generator_godbluff",
+        "title": "Godbluff",
+        "artist": "Van Der Graaf Generator",
+        "year": 1975,
+        "country": "England",
+        "cover": "img/covers/van_der_graaf_generator_godbluff.jpg",
+        "criteria": [3, 7, 8, 10, 18, 19, 42],
+        "selectedTrackTitle": "Arrow",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=s_o5tMza1og"
+    },
     // ************************************************************************************ //
     // **************************************** W **************************************** //
     // ********************************************************************************** //
@@ -3801,6 +3900,7 @@ Procol Harum
 Quatermass
 Sloche  
 Strawbs 
+Vangelis Papanastassiou
 */
 
 
