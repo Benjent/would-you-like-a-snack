@@ -27,12 +27,20 @@
             </header>
 
             <div id="spinningVinylWrapper">
-                <img class="spinning-vinyl spinning" src="img/vinyle gold.png" alt="">
+                <img class="spinning-vinyl spinning" src="img/vinyle_gold.png" alt="">
             </div>
 
             <section id="albumVue" v-if="currentVue == 'albumVue'">
 
-                <button id="randomButton" v-on:click="randomizeAlbum">Surprise me</button>
+                <div class="buttons">
+                    <div class="arrow-wrapper">
+                        <img class="arrow arrow-previous" v-if="previousAlbum" v-bind:id="previousAlbum.id" v-on:click="selectAlbum($event)" src="img/arrow.svg" alt="">
+                    </div>
+                    <button id="randomButton" v-on:click="randomizeAlbum">Surprise me</button>
+                    <div class="arrow-wrapper">
+                        <img class="arrow arrow-next" v-if="nextAlbum" v-bind:id="nextAlbum.id" v-on:click="selectAlbum($event)" src="img/arrow.svg" alt="">
+                    </div>
+                </div>
 
                 <div class="content">
                     <div class="album-metadata">

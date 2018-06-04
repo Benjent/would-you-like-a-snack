@@ -82,9 +82,27 @@ header {
     justify-content: center;
     margin-top: $headerHeight;
 
-    #randomButton {
-        margin: 0 auto;
+    .buttons {
         margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+        .arrow-wrapper {
+            height: 100px;
+            width: 100px;
+            .arrow {
+                height: 100%;
+                width: 100%;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+            .arrow-next {
+                transform: rotate(180deg);
+            }
+        }
     }
 
     .content {

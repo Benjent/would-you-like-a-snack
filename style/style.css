@@ -132,9 +132,30 @@ header #right {
   margin-top: 150px;
 }
 
-#albumVue #randomButton {
-  margin: 0 auto;
+#albumVue .buttons {
   margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#albumVue .buttons .arrow-wrapper {
+  height: 100px;
+  width: 100px;
+}
+
+#albumVue .buttons .arrow-wrapper .arrow {
+  height: 100%;
+  width: 100%;
+}
+
+#albumVue .buttons .arrow-wrapper .arrow:hover {
+  cursor: pointer;
+}
+
+#albumVue .buttons .arrow-wrapper .arrow-next {
+  transform: rotate(180deg);
 }
 
 #albumVue .content {
