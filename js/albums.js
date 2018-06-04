@@ -2571,6 +2571,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=B5UZVtUC3V0"
     },
     {
+        "id": "magma_wurdah_itah",
+        "title": "Ẁurdah Ïtah",
+        "artist": "Magma",
+        "year": 1974,
+        "country": "France",
+        "cover": "img/covers/magma_wurdah_itah.jpg",
+        "criteria": [5, 9, 10, 19, 30, 39, 43, 49],
+        "selectedTrackTitle": "De Zeuhl Ündazïr",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=8rRdPY9fTdU"
+    },
+    {
         "id": "mahavishnu_orchestra_the_inner_mounting_flame",
         "title": "The Inner Mounting Flame",
         "artist": "Mahavishnu Orchestra",
@@ -2646,6 +2657,50 @@ const albums = [
         "criteria": [0, 7, 22, 42],
         "selectedTrackTitle": "C'mon",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=pZIg-fJU7vI"
+    },
+    {
+        "id": "marillion_script_for_a_jesters_tear",
+        "title": "Script For A Jester's Tear",
+        "artist": "Marillion",
+        "year": 1983,
+        "country": "England",
+        "cover": "img/covers/marillion_script_for_a_jesters_tear.jpg",
+        "criteria": [43, 48],
+        "selectedTrackTitle": "Forgotten Sons",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=RtiUoEbwD7Q"
+    },
+    {
+        "id": "marillion_fugazi",
+        "title": "Fugazi",
+        "artist": "Marillion",
+        "year": 1984,
+        "country": "England",
+        "cover": "img/covers/marillion_fugazi.jpg",
+        "criteria": [3, 10, 43, 48],
+        "selectedTrackTitle": "Punch & Judy",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=OWrwYsSt6OE"
+    },
+    {
+        "id": "marillion_misplaced_childhood",
+        "title": "Misplaced Childhood",
+        "artist": "Marillion",
+        "year": 1985,
+        "country": "England",
+        "cover": "img/covers/marillion_misplaced_childhood.jpg",
+        "criteria": [3, 9, 43, 48],
+        "selectedTrackTitle": "Blind Curve",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=5aMaGblvd5o"
+    },
+    {
+        "id": "marillion_clutching_at_straws",
+        "title": "Clutching At Straws",
+        "artist": "Marillion",
+        "year": 1987,
+        "country": "England",
+        "cover": "img/covers/marillion_clutching_at_straws.jpg",
+        "criteria": [3, 9, 43, 48],
+        "selectedTrackTitle": "Just For The Record",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=Q79xkgIXhmU"
     },
     {
         "id": "matching_mole_matching_mole",
@@ -3697,6 +3752,39 @@ const albums = [
         "selectedTrackTitle": "Arrow",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=s_o5tMza1og"
     },
+    {
+        "id": "van_der_graaf_generator_still_life",
+        "title": "Still Life",
+        "artist": "Van Der Graaf Generator",
+        "year": 1976,
+        "country": "England",
+        "cover": "img/covers/van_der_graaf_generator_still_life.jpg",
+        "criteria": [3, 8, 10, 19],
+        "selectedTrackTitle": "Childlike Faith In Childhood's End",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=x16-qZJmpKA"
+    },
+    {
+        "id": "van_der_graaf_generator_world_record",
+        "title": "World Record",
+        "artist": "Van Der Graaf Generator",
+        "year": 1976,
+        "country": "England",
+        "cover": "img/covers/van_der_graaf_generator_world_record.jpg",
+        "criteria": [3, 10, 19],
+        "selectedTrackTitle": "Meurglys III, The Songwriter's Guild",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=Xo4IWcGrbbQ"
+    },
+    {
+        "id": "van_der_graaf_generator_the_quiet_zone_the_pleasure_dome",
+        "title": "The Quiet Zone / The Pleasure Dome",
+        "artist": "Van Der Graaf Generator",
+        "year": 1977,
+        "country": "England",
+        "cover": "img/covers/van_der_graaf_generator_the_quiet_zone_the_pleasure_dome.jpg",
+        "criteria": [3, 10, 19, 42],
+        "selectedTrackTitle": "The Sphinx In The Face",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=Xo4IWcGrbbQ"
+    },
     // ************************************************************************************ //
     // **************************************** W **************************************** //
     // ********************************************************************************** //
@@ -3915,7 +4003,8 @@ for (let i = 0; i < albums.length; i++) {
 function getAlbumById(id) {
     for (let i = 0; i < albums.length; i++) {
         if(albums[i].id == id) {
-            return albums[i]
+            albums[i].index = i;
+            return albums[i];
         }
     }
 }
