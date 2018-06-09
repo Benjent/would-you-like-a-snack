@@ -27,6 +27,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=kHeIgl7WMvY"
     },
     {
+        "id": "agharta_agharta",
+        "title": "Agharta",
+        "artist": "Agharta",
+        "year": 1980,
+        "country": "Quebec",
+        "cover": "img/covers/agharta_agharta.jpg",
+        "criteria": [3, 6, 7, 15, 19, 42],
+        "selectedTrackTitle": "Esperanto",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=4lfO4BKIOuA"
+    },
+    {
         "id": "agora_live_in_montreux",
         "title": "Live In Montreux",
         "artist": "Agorà",
@@ -168,6 +179,28 @@ const albums = [
         "criteria": [6, 7, 8, 11, 18, 46],
         "selectedTrackTitle": "Love Is Peace",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=oUNxXhzF0fw"
+    },
+    {
+        "id": "ambrosia_ambrosia",
+        "title": "Ambrosia",
+        "artist": "Ambrosia",
+        "year": 1975,
+        "country": "USA",
+        "cover": "img/covers/ambrosia_ambrosia.jpg",
+        "criteria": [3, 22, 48],
+        "selectedTrackTitle": "Time Waits For No One",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=kXrWEDW0I7Q"
+    },
+    {
+        "id": "ambrosia_somewhere_ive_never_travelled",
+        "title": "Somewhere I've Never Travelled",
+        "artist": "Ambrosia",
+        "year": 1976,
+        "country": "USA",
+        "cover": "img/covers/ambrosia_somewhere_ive_never_travelled.jpg",
+        "criteria": [3, 9, 10, 15, 22, 48],
+        "selectedTrackTitle": "Todo",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=Todo"
     },
     {
         "id": "ange_guet_apens",
@@ -2420,6 +2453,39 @@ const albums = [
         "criteria": [3, 8, 18, 19],
         "selectedTrackTitle": "Cirkus",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=IYHjPE9ByS4"
+    },
+    {
+        "id": "king_crimson_islands",
+        "title": "Islands",
+        "artist": "King Crimson",
+        "year": 1971,
+        "country": "England",
+        "cover": "img/covers/king_crimson_islands.jpg",
+        "criteria": [3, 18, 19, 47],
+        "selectedTrackTitle": "Islands",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=8UUWBCXa21Y"
+    },
+    {
+        "id": "king_crimson_larks_tongue_in_aspic",
+        "title": "Larks' Tongues In Aspic",
+        "artist": "King Crimson",
+        "year": 1973,
+        "country": "England",
+        "cover": "img/covers/king_crimson_larks_tongue_in_aspic.jpg",
+        "criteria": [3, 8, 18, 19],
+        "selectedTrackTitle": "Book Of Saturday",
+        "selectedTrackYtId": ""
+    },
+    {
+        "id": "king_crimson_starless_and_bible_black",
+        "title": "Starless And Bible Black",
+        "artist": "King Crimson",
+        "year": 1974,
+        "country": "England",
+        "cover": "img/covers/king_crimson_starless_and_bible_black.jpg",
+        "criteria": [3, 8, 18, 19],
+        "selectedTrackTitle": "Fracture",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=ZaD7gk7BTwU"
     },
     {
         "id": "king_crimson_red",
