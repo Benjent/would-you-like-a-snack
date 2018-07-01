@@ -1582,6 +1582,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=tLUxmYKvYBo"
     },
     {
+        "id": "frank_zappa_chungas_revenge",
+        "title": "Chunga's Revenge",
+        "artist": "Frank Zappa",
+        "year": 1970,
+        "country": "USA",
+        "cover": "img/covers/frank_zappa_chungas_revenge.jpg",
+        "criteria": [18, 19, 35],
+        "selectedTrackTitle": "Rudy Wants To Buy Yez A Drink",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=ZCgmTFM23sA"
+    },
+    {
         "id": "frank_zappa_200_motels",
         "title": "200 Motels",
         "artist": "Frank Zappa",
@@ -1758,6 +1769,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=RV0RD6SthNI"
     },
     {
+        "id": "fuchsia_fuchsia",
+        "title": "Fuchsia",
+        "artist": "Fuchsia",
+        "year": 1971,
+        "country": "England",
+        "cover": "img/covers/fuchsia_fuchsia.jpg",
+        "criteria": [11, 18, 46],
+        "selectedTrackTitle": "The Nothing Song",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=MRlr3WYNVjA"
+    },
+    {
         "id": "fuhrs_and_frohling_strings",
         "title": "Strings",
         "artist": "Führs & Fröhling",
@@ -1880,6 +1902,39 @@ const albums = [
         "criteria": [3, 19, 21],
         "selectedTrackTitle": "The Boys In The Band",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=BTet3C_afKA"
+    },
+    {
+        "id": "gentle_giant_in_a_glass_house",
+        "title": "In A Glass House",
+        "artist": "Gentle Giant",
+        "year": 1973,
+        "country": "England",
+        "cover": "img/covers/gentle_giant_in_a_glass_house.jpg",
+        "criteria": [3, 19, 21],
+        "selectedTrackTitle": "In A Glass House",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=cgUpLcnLkxs"
+    },
+    {
+        "id": "gentle_giant_the_power_and_the_glory",
+        "title": "The Power And The Glory",
+        "artist": "Gentle Giant",
+        "year": 1974,
+        "country": "England",
+        "cover": "img/covers/gentle_giant_the_power_and_the_glory.jpg",
+        "criteria": [1, 3, 19, 21],
+        "selectedTrackTitle": "Aspirations",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=d8tpBYUIvTk"
+    },
+    {
+        "id": "gentle_giant_free_hand",
+        "title": "Free Hand",
+        "artist": "Gentle Giant",
+        "year": 1975,
+        "country": "England",
+        "cover": "img/covers/gentle_giant_free_hand.jpg",
+        "criteria": [3, 19, 21],
+        "selectedTrackTitle": "His Last Voyage",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=hqyTDtgSmm4"
     },
     {
         "id": "gnidrolog_lady_lake",
@@ -2712,6 +2767,28 @@ const albums = [
         "criteria": [7, 22, 42],
         "selectedTrackTitle": "Child Of The Novelty",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=4fVfpcHMxWg"
+    },
+    {
+        "id": "man_man",
+        "title": "Man",
+        "artist": "Man",
+        "year": 1971,
+        "country": "Wales",
+        "cover": "img/covers/man_man.jpg",
+        "criteria": [7, 18, 22, 42],
+        "selectedTrackTitle": "Would The Christians Wait Five Minutes? The Lions Are Having A Draw",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=9fCs_QsrcSU"
+    },
+    {
+        "id": "man_do_you_like_it_here_now_are_you_settling_in",
+        "title": "Do You Like It Here Now, Are You Settling In?",
+        "artist": "Man",
+        "year": 1971,
+        "country": "Wales",
+        "cover": "img/covers/man_do_you_like_it_here_now_are_you_settling_in.jpg",
+        "criteria": [7, 22, 42],
+        "selectedTrackTitle": "All Good Clean Fun",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=PllGouNiXlo"
     },
     {
         "id": "man_be_good_to_yourself_at_least_once_a_day",
@@ -3851,6 +3928,17 @@ const albums = [
         "selectedTrackTitle": "The Sphinx In The Face",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=Xo4IWcGrbbQ"
     },
+    {
+        "id": "vangelis_spiral",
+        "title": "Spiral",
+        "artist": "Vangelis",
+        "year": 1977,
+        "country": "Greece",
+        "cover": "img/covers/vangelis_spiral.jpg",
+        "criteria": [6, 10, 44],
+        "selectedTrackTitle": "Spiral",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=iW_qGMRmJAw"
+    },
     // ************************************************************************************ //
     // **************************************** W **************************************** //
     // ********************************************************************************** //
@@ -4042,7 +4130,7 @@ const albums = [
 ]
 
 // Below is the list of prog artists that I listened and should be part of this project
-// TODO fill some discographies, like Zappa, King Crimson, Gentle Giant, Yes, VdGG...
+// TODO fill some discographies of artists that are already here
 /*  
 Banco Del Mutuo Soccorso   
 Delirium      
@@ -4054,7 +4142,6 @@ Procol Harum
 Quatermass
 Sloche  
 Strawbs 
-Vangelis Papanastassiou
 */
 
 
