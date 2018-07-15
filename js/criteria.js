@@ -63,5 +63,6 @@ const criteria = [
     "Swedish sung",                                 // 51
     "Baroque vibes",                                // 52
     "Orchestral parts",                             // 53
+    "Sophisticated",                                // 54
     
 ]
