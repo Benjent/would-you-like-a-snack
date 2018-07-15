@@ -203,6 +203,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=Todo"
     },
     {
+        "id": "ange_par_les_fils_de_mandrin",
+        "title": "Par Les Fils De Mandrin",
+        "artist": "Ange",
+        "year": 1976,
+        "country": "France",
+        "cover": "img/covers/ange_par_les_fils_de_mandrin.jpg",
+        "criteria": [3, 33, 37, 43, 45, 48],
+        "selectedTrackTitle": "Au Café Du Colibri",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=JjU8A0DReMo"
+    },
+    {
         "id": "ange_guet_apens",
         "title": "Guet-Apens",
         "artist": "Ange",
@@ -1860,13 +1871,46 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=SD5engyVXe0"
     },
     {
+        "id": "genesis_the_lamb_lies_down_on_broadway",
+        "title": "The Lamb Lies Down On Broadway",
+        "artist": "Genesis",
+        "year": 1974,
+        "country": "England",
+        "cover": "img/covers/genesis_the_lamb_lies_down_on_broadway.jpg",
+        "criteria": [1, 9, 43, 47],
+        "selectedTrackTitle": "Fly On A Windshield",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=k9X2QtzCvBQ"
+    },
+    {
+        "id": "genesis_a_trick_of_the_tail",
+        "title": "A Trick Of The Tail",
+        "artist": "Genesis",
+        "year": 1976,
+        "country": "England",
+        "cover": "img/covers/genesis_a_trick_of_the_tail.jpg",
+        "criteria": [47, 48],
+        "selectedTrackTitle": "Mad Mad Moon",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=IQ_U4XkAarE"
+    },
+    {
+        "id": "genesis_wind_and_wuthering",
+        "title": "Wind & Wuthering",
+        "artist": "Genesis",
+        "year": 1976,
+        "country": "England",
+        "cover": "img/covers/genesis_wind_and_wuthering.jpg",
+        "criteria": [47, 48],
+        "selectedTrackTitle": "Blood On The Rooftops",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=EeZRdd_1b4g"
+    },
+    {
         "id": "gentle_giant_gentle_giant",
         "title": "Gentle Giant",
         "artist": "Gentle Giant",
         "year": 1970,
         "country": "England",
         "cover": "img/covers/gentle_giant_gentle_giant.jpg",
-        "criteria": [3, 18, 19, 21],
+        "criteria": [3, 18, 19, 21, 54],
         "selectedTrackTitle": "Nothing At All",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=XIlG0TmxzTs"
     },
@@ -1877,7 +1921,7 @@ const albums = [
         "year": 1971,
         "country": "England",
         "cover": "img/covers/gentle_giant_acquiring_the_taste.jpg",
-        "criteria": [3, 18, 19, 21],
+        "criteria": [3, 18, 19, 21, 54],
         "selectedTrackTitle": "Pantagruel's Nativity",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=ODWYJyJh6cg"
     },
@@ -1888,7 +1932,7 @@ const albums = [
         "year": 1972,
         "country": "England",
         "cover": "img/covers/gentle_giant_three_friends.jpg",
-        "criteria": [1, 3, 19, 21],
+        "criteria": [1, 3, 19, 21, 54],
         "selectedTrackTitle": "Peel The Paint",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=SIl5RCLNy1E"
     },
@@ -1899,7 +1943,7 @@ const albums = [
         "year": 1972,
         "country": "England",
         "cover": "img/covers/gentle_giant_octopus.jpg",
-        "criteria": [3, 19, 21],
+        "criteria": [3, 19, 21, 54],
         "selectedTrackTitle": "The Boys In The Band",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=BTet3C_afKA"
     },
@@ -1910,7 +1954,7 @@ const albums = [
         "year": 1973,
         "country": "England",
         "cover": "img/covers/gentle_giant_in_a_glass_house.jpg",
-        "criteria": [3, 19, 21],
+        "criteria": [3, 19, 21, 54],
         "selectedTrackTitle": "In A Glass House",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=cgUpLcnLkxs"
     },
@@ -1921,7 +1965,7 @@ const albums = [
         "year": 1974,
         "country": "England",
         "cover": "img/covers/gentle_giant_the_power_and_the_glory.jpg",
-        "criteria": [1, 3, 19, 21],
+        "criteria": [1, 3, 19, 21, 54],
         "selectedTrackTitle": "Aspirations",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=d8tpBYUIvTk"
     },
@@ -1932,7 +1976,7 @@ const albums = [
         "year": 1975,
         "country": "England",
         "cover": "img/covers/gentle_giant_free_hand.jpg",
-        "criteria": [3, 19, 21],
+        "criteria": [3, 19, 21, 54],
         "selectedTrackTitle": "His Last Voyage",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=hqyTDtgSmm4"
     },
@@ -2623,6 +2667,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=z8rtBgxvAfw"
     },
     {
+        "id": "the_long_hello_the_long_hello",
+        "title": "The Long Hello",
+        "artist": "The Long Hello",
+        "year": 1974,
+        "country": "England",
+        "cover": "img/covers/the_long_hello_the_long_hello.jpg",
+        "criteria": [3, 6, 11, 21],
+        "selectedTrackTitle": "Fairhazel Gardens",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=DiiPTWZiJJ0"
+    },
+    {
         "id": "low_flying_aircraft_low_flying_aircraft",
         "title": "Low Flying Aircraft",
         "artist": "Low Flying Aircraft",
@@ -2980,6 +3035,17 @@ const albums = [
     // ************************************************************************************ //
     // **************************************** N **************************************** //
     // ********************************************************************************** //
+    {
+        "id": "national_health_national_health",
+        "title": "National Health",
+        "artist": "National Health",
+        "year": 1977,
+        "country": "England",
+        "cover": "img/covers/national_health_national_health.jpg",
+        "criteria": [3, 8, 18, 19, 20, 21, 54],
+        "selectedTrackTitle": "Tenemos Roads",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=vj9ZUHju7JE"
+    },
     {
         "id": "nazareth_hair_of_the_dog",
         "title": "Hair Of The Dog",
@@ -3952,6 +4018,17 @@ const albums = [
         "criteria": [0, 22, 40],
         "selectedTrackTitle": "Woman Of The Devil",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=zgWyveaejwI"
+    },
+    {
+        "id": "weather_report_black_market",
+        "title": "Black Market",
+        "artist": "Weather Report",
+        "year": 1976,
+        "country": "USA",
+        "cover": "img/covers/weather_report_black_market.jpg",
+        "criteria": [1, 6, 7, 23, 42],
+        "selectedTrackTitle": "Herandu",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=_A4FqKg0c_A"
     },
     {
         "id": "weidorje_weidorje",
