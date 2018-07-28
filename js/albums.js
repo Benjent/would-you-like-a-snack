@@ -2645,6 +2645,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=Rf1I9htJk"
     },
     {
+        "id": "lethe_lethe",
+        "title": "Lethe",
+        "artist": "Lethe",
+        "year": 1981,
+        "country": "Netherlands",
+        "cover": "img/covers/lethe_lethe.jpg",
+        "criteria": [6, 11, 15],
+        "selectedTrackTitle": "Cold In Fingers",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=ZCx4ENGwjFM"
+    },
+    {
         "id": "locanda_dell_fate_forse_le_lucciole_non_si_amano_piu",
         "title": "Forse Le Lucciole Non Si Amano Più",
         "artist": "Locanda Delle Fate",
@@ -3045,6 +3056,28 @@ const albums = [
         "criteria": [3, 8, 18, 19, 20, 21, 54],
         "selectedTrackTitle": "Tenemos Roads",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=vj9ZUHju7JE"
+    },
+    {
+        "id": "national_health_of_queues_and_cures",
+        "title": "Of Queues And Cures",
+        "artist": "National Health",
+        "year": 1978,
+        "country": "England",
+        "cover": "img/covers/national_health_of_queues_and_cures.jpg",
+        "criteria": [3, 8, 18, 19, 20, 21, 54],
+        "selectedTrackTitle": "Squarer For Maud",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=BeHheJ3kqYI"
+    },
+    {
+        "id": "national_health_ds_al_coda",
+        "title": "D.S. Al Coda",
+        "artist": "National Health",
+        "year": 1982,
+        "country": "England",
+        "cover": "img/covers/national_health_ds_al_coda.jpg",
+        "criteria": [3, 18, 19, 20, 21, 54],
+        "selectedTrackTitle": "Black Hat",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=mYGh1aejZiA"
     },
     {
         "id": "nazareth_hair_of_the_dog",
@@ -4171,6 +4204,17 @@ const albums = [
     // ************************************************************************************ //
     // **************************************** Z **************************************** //
     // ********************************************************************************** //
+    {
+        "id": "zanov_moebius_256_301",
+        "title": "Moebius 256 301",
+        "artist": "Zanov",
+        "year": 1977,
+        "country": "France",
+        "cover": "img/covers/zanov_moebius_256_301.jpg",
+        "criteria": [6, 8, 11, 14, 18, 44],
+        "selectedTrackTitle": "Plénitude",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=QCs2wJBMTv4"
+    },
     {
         "id": "zanov_in_course_of_time",
         "title": "In Course Of Time",
