@@ -77,7 +77,7 @@ var indexVue = new Vue({
       }
     },
     nextAlbum() {
-      if(this.selectedAlbum.index < this.albums.length && this.albums[this.selectedAlbum.index + 1].artist == this.selectedAlbum.artist) {
+      if(this.selectedAlbum.index < this.albums.length - 1 && this.albums[this.selectedAlbum.index + 1].artist == this.selectedAlbum.artist) {
         return this.albums[this.selectedAlbum.index + 1];
       } else {
         return null
