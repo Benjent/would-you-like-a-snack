@@ -1414,6 +1414,39 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=WKNOlDtZluU"
     },
     {
+        "id": "emerson_lake_and_palmer_pictures_at_an_exhibition",
+        "title": "Pictures At An Exhibition",
+        "artist": "Emerson, Lake & Palmer",
+        "year": 1971,
+        "country": "England",
+        "cover": "img/covers/emerson_lake_and_palmer_pictures_at_an_exhibition.jpg",
+        "criteria": [1, 6, 10, 12, 20, 41, 43],
+        "selectedTrackTitle": "The Sage",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=1gxAGj-Svcc"
+    },
+    {
+        "id": "emerson_lake_and_palmer_trilogy",
+        "title": "Trilogy",
+        "artist": "Emerson, Lake & Palmer",
+        "year": 1972,
+        "country": "England",
+        "cover": "img/covers/emerson_lake_and_palmer_trilogy.jpg",
+        "criteria": [3, 10, 20],
+        "selectedTrackTitle": "Trilogy",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=-yB1rilcUGQ"
+    },
+    {
+        "id": "emerson_lake_and_palmer_brain_salad_surgery",
+        "title": "Brain Salad Surgery",
+        "artist": "Emerson, Lake & Palmer",
+        "year": 1973,
+        "country": "England",
+        "cover": "img/covers/emerson_lake_and_palmer_brain_salad_surgery.jpg",
+        "criteria": [4, 9, 10, 18, 20],
+        "selectedTrackTitle": "Still... You Turn Me On",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=_8VHHcd0M_o"
+    },
+    {
         "id": "eskaton_4_visions",
         "title": "4 Visions",
         "artist": "Eskaton",
@@ -3050,7 +3083,7 @@ const albums = [
         "id": "national_health_national_health",
         "title": "National Health",
         "artist": "National Health",
-        "year": 1977,
+        "year": 1978,
         "country": "England",
         "cover": "img/covers/national_health_national_health.jpg",
         "criteria": [3, 8, 18, 19, 20, 21, 54],
@@ -4038,6 +4071,17 @@ const albums = [
         "selectedTrackTitle": "Spiral",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=iW_qGMRmJAw"
     },
+    {
+        "id": "visitor_2035_visitor_2035",
+        "title": "Visitor 2035",
+        "artist": "Visitor 2035",
+        "year": 1978,
+        "country": "England",
+        "cover": "img/covers/visitor_2035_visitor_2035.jpg",
+        "criteria": [3, 6, 7, 20, 42],
+        "selectedTrackTitle": "Center Of The Winds",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=7DMy4F3GDiM"
+    },
     // ************************************************************************************ //
     // **************************************** W **************************************** //
     // ********************************************************************************** //
@@ -4128,6 +4172,17 @@ const albums = [
         "criteria": [7, 8, 18, 22, 40, 45],
         "selectedTrackTitle": "Meet Me At The Jailhouse",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=sBzeB36zYvU"
+    },
+    {
+        "id": "wizzo_band_super_active_wizzo",
+        "title": "Super Active Wizzo",
+        "artist": "Wizzo Band",
+        "year": 1977,
+        "country": "England",
+        "cover": "img/covers/wizzo_band_super_active_wizzo.jpg",
+        "criteria": [3, 19, 40, 45],
+        "selectedTrackTitle": "Waitin' At This Door",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=I_Udqw806sA"
     },
     // ************************************************************************************ //
     // **************************************** X **************************************** //
@@ -4247,6 +4302,17 @@ const albums = [
         "criteria": [3, 7, 15, 18, 19, 42],
         "selectedTrackTitle": "Businessman",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=jnE_gq9_R84"
+    },
+    {
+        "id": "zyma_brave_new_world",
+        "title": "Brave New World",
+        "artist": "Zyma",
+        "year": 1979,
+        "country": "Germany",
+        "cover": "img/covers/zyma_brave_new_world.jpg",
+        "criteria": [11, 19, 42],
+        "selectedTrackTitle": "Colours",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=OJbotZE5lV4"
     }
 ]
 
