@@ -880,6 +880,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=GD-IY4LfGfc"
     },
     {
+        "id": "can_monster_movie",
+        "title": "Monster Movie",
+        "artist": "Can",
+        "year": 1969,
+        "country": "Germany",
+        "cover": "img/covers/can_monster_movie.jpg",
+        "criteria": [8, 18],
+        "selectedTrackTitle": "Mary, Mary So Contrary",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=YefiMvJdjhY"
+    },
+    {
         "id": "can_tago_mago",
         "title": "Tago Mago",
         "artist": "Can",
@@ -3353,6 +3364,17 @@ const albums = [
     // **************************************** Q **************************************** //
     // ********************************************************************************** //
     {
+        "id": "quatermass_quatermass",
+        "title": "Quatermass",
+        "artist": "Quatermass",
+        "year": 1970,
+        "country": "England",
+        "cover": "img/covers/quatermass_quatermass.jpg",
+        "criteria": [22, 40],
+        "selectedTrackTitle": "Gemini",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=8tU5T4kGI2E"
+    },
+    {
         "id": "queen_queen_II",
         "title": "Queen II",
         "artist": "Queen",
@@ -3519,6 +3541,17 @@ const albums = [
         "criteria": [11, 20, 31],
         "selectedTrackTitle": "Across The Everglades",
         "selectedTrackYtId": ""
+    },
+    {
+        "id": "raymond_vincent_metronomics",
+        "title": "Metronomics",
+        "artist": "Raymond Vincent",
+        "year": 1973,
+        "country": "Belgium",
+        "cover": "img/covers/raymond_vincent_metronomics.png",
+        "criteria": [6, 21, 41],
+        "selectedTrackTitle": "La Mouette",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=5g1Ppivoqu0"
     },
     {
         "id": "return_to_forever_romantic_warrior",
@@ -3855,6 +3888,17 @@ const albums = [
         "criteria": [6, 8, 11, 14, 18, 44],
         "selectedTrackTitle": "Rubycon (Part I)",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=4xl6zlD_hlE"
+    },
+    {
+        "id": "tea_and_symphony_an_asylum_for_the_musically_insane",
+        "title": "An Asylum For The Musically Insane",
+        "artist": "Tea And Symphony",
+        "year": 1969,
+        "country": "England",
+        "cover": "img/covers/tea_and_symphony_an_asylum_for_the_musically_insane.jpg",
+        "criteria": [18, 35, 46],
+        "selectedTrackTitle": "Sometime",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=91xllZBR8ps"
     },
     {
         "id": "tea_and_symphony_jo_sago",
@@ -4319,6 +4363,7 @@ const albums = [
 // Below is the list of prog artists that I listened and should be part of this project
 // TODO fill some discographies of artists that are already here
 /*  
+The allman brothers band sur l'album Win, Lose or Draw a High Falls
 Banco Del Mutuo Soccorso   
 Delirium      
 Fruupp  
@@ -4326,7 +4371,6 @@ Jane
 Nektar   
 Premiata Forneria Marconi
 Procol Harum
-Quatermass
 Sloche  
 Strawbs 
 */
