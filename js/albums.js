@@ -913,6 +913,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=-JKb5xbYkYg"
     },
     {
+        "id": "can_soon_over_babaluma",
+        "title": "Soon Over Babaluma",
+        "artist": "Can",
+        "year": 1974,
+        "country": "Germany",
+        "cover": "img/covers/can_soon_over_babaluma.jpg",
+        "criteria": [6, 7, 11, 14],
+        "selectedTrackTitle": "Come Sta, La Luna",
+        "selectedTrackYtId": ""
+    },
+    {
         "id": "canamii_concept",
         "title": "Concept",
         "artist": "Canamii",
@@ -2047,6 +2058,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=X_hHhhE4suU"
     },
     {
+        "id": "gong_camembert_electrique",
+        "title": "Camembert Electrique",
+        "artist": "Gong",
+        "year": 1971,
+        "country": "France",
+        "cover": "img/covers/gong_camembert_electrique.jpg",
+        "criteria": [3, 7, 9, 18, 19, 20, 35, 42, 50],
+        "selectedTrackTitle": "Fohat Digs Holes In Space",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=Pk1jsxcXWqE"
+    },
+    {
         "id": "gong_flying_teapot",
         "title": "Flying Teapot",
         "artist": "Gong",
@@ -2868,15 +2890,37 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=ZSh0nmretso"
     },
     {
+        "id": "mahogany_rush_maxoom",
+        "title": "Maxoom",
+        "artist": "Mahogany Rush",
+        "year": 1972,
+        "country": "Quebec",
+        "cover": "img/covers/mahogany_rush_maxoom.jpg",
+        "criteria": [7, 18, 22, 42],
+        "selectedTrackTitle": "Buddy",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=zvHYArrWQ"
+    },
+    {
         "id": "mahogany_rush_child_of_the_novelty",
         "title": "Child Of The Novelty",
         "artist": "Mahogany Rush",
         "year": 1974,
         "country": "Quebec",
         "cover": "img/covers/mahogany_rush_child_of_the_novelty.jpg",
-        "criteria": [7, 22, 42],
+        "criteria": [7, 18, 22, 42],
         "selectedTrackTitle": "Child Of The Novelty",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=4fVfpcHMxWg"
+    },
+    {
+        "id": "mahogany_rush_strange_universe",
+        "title": "Strange Universe",
+        "artist": "Mahogany Rush",
+        "year": 1975,
+        "country": "Quebec",
+        "cover": "img/covers/mahogany_rush_strange_universe.jpg",
+        "criteria": [7, 18, 22, 42],
+        "selectedTrackTitle": "Strange Universe",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=gbuNknh5lhI"
     },
     {
         "id": "man_man",
@@ -3122,6 +3166,17 @@ const albums = [
         "criteria": [3, 18, 19, 20, 21, 54],
         "selectedTrackTitle": "Black Hat",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=mYGh1aejZiA"
+    },
+    {
+        "id": "nautilus_space_storm",
+        "title": "Space Storm",
+        "artist": "Nautilus",
+        "year": 1980,
+        "country": "Switzerland",
+        "cover": "img/covers/nautilus_space_storm.jpg",
+        "criteria": [22],
+        "selectedTrackTitle": "Saturday Night",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=aDK_D0S87_k"
     },
     {
         "id": "nazareth_hair_of_the_dog",
@@ -3548,7 +3603,7 @@ const albums = [
         "artist": "Raymond Vincent",
         "year": 1973,
         "country": "Belgium",
-        "cover": "img/covers/raymond_vincent_metronomics.png",
+        "cover": "img/covers/raymond_vincent_metronomics.jpg",
         "criteria": [6, 21, 41],
         "selectedTrackTitle": "La Mouette",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=5g1Ppivoqu0"
