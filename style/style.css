@@ -41,12 +41,25 @@ a:hover, a:focus {
   color: #d7e4da;
 }
 
-@keyframes spinning {
+@-webkit-keyframes spinning {
   from {
-    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes spinning {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
   }
 }
 
@@ -60,7 +73,8 @@ a:hover, a:focus {
 }
 
 #spinningVinylWrapper .spinning {
-  animation: spinning 30s linear infinite;
+  -webkit-animation: spinning 30s linear infinite;
+          animation: spinning 30s linear infinite;
 }
 
 #spinningVinylWrapper .spinning-vinyl {
@@ -71,7 +85,8 @@ a:hover, a:focus {
   top: -100px;
   bottom: 0;
   z-index: -1;
-  filter: grayscale(20%);
+  -webkit-filter: grayscale(20%);
+          filter: grayscale(20%);
 }
 
 body {
@@ -82,18 +97,31 @@ body {
   overflow-x: hidden;
   height: 100vh;
   width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 header {
   height: 150px;
   background-position: 50%;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -101,7 +129,12 @@ header {
   background: #030504;
   border-bottom: solid 10px #a18a54;
   padding: 0 20px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header #snackHeader {
+  cursor: pointer;
 }
 
 header button {
@@ -109,8 +142,12 @@ header button {
 }
 
 header #left {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 30%;
 }
 
@@ -120,23 +157,44 @@ header #left #collectionSize {
 
 header #right {
   width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+header #right #statsButton {
+  margin-right: 20px;
 }
 
 #albumVue {
   width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: 150px;
 }
 
 #albumVue .buttons {
   margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100%;
 }
 
@@ -155,13 +213,20 @@ header #right {
 }
 
 #albumVue .buttons .arrow-wrapper .arrow-next {
-  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 
 #albumVue .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100%;
 }
 
@@ -198,6 +263,8 @@ header #right {
 }
 
 #albumVue footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   position: fixed;
   bottom: 0;
@@ -214,8 +281,11 @@ header #right {
 }
 
 #atticVue {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   padding: 180px 20px 50px 20px;
 }
 
@@ -234,13 +304,21 @@ header #right {
 
 #atticVue .artist .artist-discography {
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 #atticVue .artist .artist-discography .album-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 #atticVue .artist .artist-discography .album-wrapper .album-year {
@@ -256,6 +334,28 @@ header #right {
 #atticVue .artist .artist-discography .album-wrapper img:hover {
   cursor: pointer;
   border-bottom: solid 4px #d7e4da;
+}
+
+#statsVue {
+  margin: 0 auto;
+  padding: 180px 20px 50px 20px;
+  width: 60vw;
+  text-align: justify;
+}
+
+#statsVue .gaugeColumn {
+  width: 300px;
+}
+
+#statsVue .albumsPerYear .albumsPerYear-nbOfAlbums {
+  padding: 5px;
+}
+
+#statsVue .albumsPerYear .albumsPerYear-nbOfAlbums .gauge {
+  padding: 0px 6px;
+  min-width: 7%;
+  background: #a18a54;
+  color: #030504;
 }
 
 #aboutVue {

@@ -492,6 +492,17 @@ const albums = [
     // **************************************** B **************************************** //
     // ********************************************************************************** //
     {
+        "id": "baba_yaga_collage",
+        "title": "Collage",
+        "artist": "Baba Yaga",
+        "year": 1974,
+        "country": "Germany",
+        "cover": "img/covers/baba_yaga_collage.jpg",
+        "criteria": [6, 8, 13, 15, 18, 20],
+        "selectedTrackTitle": "Moksha",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=ZJPFjl_bBGg"
+    },
+    {
         "id": "badger_one_live_badger",
         "title": "One Live Badger",
         "artist": "Badger",
@@ -4496,15 +4507,21 @@ Sloche
 Strawbs 
 */
 
-
+// Artists
 let artists = [];
+let albumsPerYear = {};
 
 for (let i = 0; i < albums.length; i++) {
+    // Artists
     if (!artists.includes(albums[i].artist)) {
         artists.push(albums[i].artist);
     }
+    // Albums per year
+    const year = albums[i].year;
+    albumsPerYear[year] ? albumsPerYear[year]++ : albumsPerYear[year] = 1;
 }
 
+// Other
 function getAlbumById(id) {
     for (let i = 0; i < albums.length; i++) {
         if(albums[i].id == id) {

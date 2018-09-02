@@ -16,13 +16,14 @@
             <header>
                 <div id="left">
                     <button id="atticButton" v-if="currentVue != 'atticVue'" v-on:click="setCurrentVue('atticVue')">What's in the attic</button>
-                    <button id="randomButton" v-if="currentVue == 'atticVue'" v-on:click="setCurrentVue('albumVue')">Surprise me</button>
+                    <!-- <button id="randomButton" v-if="currentVue == 'atticVue'" v-on:click="setCurrentVue('albumVue')">Surprise me</button> -->
                     <div id="collectionSize">{{albums.length}} albums</div>
                 </div>
-                <h1>Would you like a snack</h1>
+                <h1 id="snackHeader" v-on:click="setCurrentVue('albumVue')">Would you like a snack</h1>
                 <div id="right">
+                    <button id="statsButton" v-if="currentVue != 'statsVue'" v-on:click="setCurrentVue('statsVue')">Stats</button>
                     <button id="aboutButton" v-if="currentVue != 'aboutVue'" v-on:click="setCurrentVue('aboutVue')">About the project</button>
-                    <button id="randomButtonBis" v-if="currentVue == 'aboutVue'" v-on:click="setCurrentVue('albumVue')">Surprise me</button>
+                    <!-- <button id="randomButtonBis" v-if="currentVue == 'aboutVue'" v-on:click="setCurrentVue('albumVue')">Surprise me</button> -->
                 </div>
             </header>
 
@@ -77,6 +78,26 @@
                         </div>
                     </div>
                 </div>
+            </section>
+
+            <section id="statsVue" v-if="currentVue == 'statsVue'">
+                <p>
+                    {{albums.length}} albums
+                </p>
+                <table>
+                    <thead>
+                        <th>Year</th>
+                        <th class="gauge-column">Number of albums</th>
+                    </thead>
+                    <tbody>
+                        <tr class="albumsPerYear" v-for="(item, year) in albumsPerYearWithRatio">
+                            <td class="albumsPerYear-year">{{year}}</td>
+                            <td class="albumsPerYear-nbOfAlbums">
+                                <div class="gauge" :style="{width: item.ratioPercent}">{{item.nbOfAlbums}}</div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </section>
 
             <section id="aboutVue" v-if="currentVue == 'aboutVue'">

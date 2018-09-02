@@ -24,6 +24,7 @@ var indexVue = new Vue({
     albums: albums,
     randomAlbums: randomAlbums,
     artists: artists,
+    albumsPerYear: albumsPerYear,
   },
   methods: {
     setCurrentVue: function(vue) {
@@ -82,6 +83,31 @@ var indexVue = new Vue({
       } else {
         return null
       }
+    },
+    albumsPerYearWithRatio() {
+
+      const obj = this.albumsPerYear;
+      const arr = Object.keys( obj ).map(function ( key ) { return obj[key]; });
+      const max = Math.max.apply( null, arr );
+      const min = 0;
+
+      const albumsPerYearWithRatio = {}
+
+      for(year in this.albumsPerYear) {
+
+        const nbOfAlbums = this.albumsPerYear[year];
+        const ratio = (nbOfAlbums - min) / (max - min);
+
+        albumsPerYearWithRatio[year] = {
+          nbOfAlbums: nbOfAlbums, 
+          ratio: ratio,
+          ratioPercent: (ratio * 100).toString() + "%",
+        }
+      };
+
+      console.log(albumsPerYearWithRatio);
+
+      return albumsPerYearWithRatio;
     }
   },
 })
