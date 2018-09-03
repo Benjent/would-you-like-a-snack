@@ -203,6 +203,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=Todo"
     },
     {
+        "id": "ange_emile_jacotey",
+        "title": "Émile Jacotey",
+        "artist": "Ange",
+        "year": 1975,
+        "country": "France",
+        "cover": "img/covers/ange_emile_jacotey.jpg",
+        "criteria": [3, 33, 37, 43, 45, 48],
+        "selectedTrackTitle": "Sur La Trace Des Fées",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=F9z4OCHE7t8"
+    },
+    {
         "id": "ange_par_les_fils_de_mandrin",
         "title": "Par Les Fils De Mandrin",
         "artist": "Ange",
@@ -481,6 +492,17 @@ const albums = [
     // **************************************** B **************************************** //
     // ********************************************************************************** //
     {
+        "id": "baba_yaga_collage",
+        "title": "Collage",
+        "artist": "Baba Yaga",
+        "year": 1974,
+        "country": "Germany",
+        "cover": "img/covers/baba_yaga_collage.jpg",
+        "criteria": [6, 8, 13, 15, 18, 20],
+        "selectedTrackTitle": "Moksha",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=ZJPFjl_bBGg"
+    },
+    {
         "id": "badger_one_live_badger",
         "title": "One Live Badger",
         "artist": "Badger",
@@ -729,7 +751,7 @@ const albums = [
         "year": 1978,
         "country": "Argentina",
         "cover": "img/covers/bubu_anabelas.jpg",
-        "criteria": [6, 8, 10, 18, 19, 38, 42],
+        "criteria": [3, 6, 8, 10, 18, 19, 38, 42, 54],
         "selectedTrackTitle": "El Viaje De Anabelas",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=-5pmx5tZ-80"
     },
@@ -2036,6 +2058,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=hqyTDtgSmm4"
     },
     {
+        "id": "gnidrolog_in_spite_of_harrys_toenail",
+        "title": "In Spite Of Harry's Toenail",
+        "artist": "Gnidrolog",
+        "year": 1972,
+        "country": "England",
+        "cover": "img/covers/gnidrolog_in_spite_of_harrys_toenail.jpg",
+        "criteria": [3, 19, 21],
+        "selectedTrackTitle": "Long Live Man Dead",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=N7c00SXMNaQ"
+    },
+    {
         "id": "gnidrolog_lady_lake",
         "title": "Lady Lake",
         "artist": "Gnidrolog",
@@ -2662,6 +2695,50 @@ const albums = [
         "criteria": [1, 3, 8, 11, 18, 19, 47],
         "selectedTrackTitle": "Starless",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=OfR6_V91fG8"
+    },
+    {
+        "id": "king_crimson_discipline",
+        "title": "Discipline",
+        "artist": "King Crimson",
+        "year": 1981,
+        "country": "England",
+        "cover": "img/covers/king_crimson_discipline.jpg",
+        "criteria": [3, 20, 22],
+        "selectedTrackTitle": "Frame By Frame",
+        "selectedTrackYtId": ""
+    },
+    {
+        "id": "king_crimson_beat",
+        "title": "Beat",
+        "artist": "King Crimson",
+        "year": 1982,
+        "country": "England",
+        "cover": "img/covers/king_crimson_beat.jpg",
+        "criteria": [3, 20, 22],
+        "selectedTrackTitle": "Waiting Man",
+        "selectedTrackYtId": ""
+    },
+    {
+        "id": "king_crimson_three_of_a_perfect_pair",
+        "title": "Three Of A Perfect Pair",
+        "artist": "King Crimson",
+        "year": 1984,
+        "country": "England",
+        "cover": "img/covers/king_crimson_three_of_a_perfect_pair.jpg",
+        "criteria": [3, 18, 20, 22],
+        "selectedTrackTitle": "Three Of A Perfect Pair",
+        "selectedTrackYtId": ""
+    },
+    {
+        "id": "king_crimson_thrak",
+        "title": "THRAK",
+        "artist": "King Crimson",
+        "year": 1995,
+        "country": "England",
+        "cover": "img/covers/king_crimson_thrak.jpg",
+        "criteria": [1, 3, 9, 10, 15, 18, 54],
+        "selectedTrackTitle": "VROOOM",
+        "selectedTrackYtId": ""
     },
     // ************************************************************************************ //
     // **************************************** L **************************************** //
@@ -4430,15 +4507,27 @@ Sloche
 Strawbs 
 */
 
-
+// Artists
 let artists = [];
+let albumsPerYear = {};
+let albumsPerCountry = {};
 
 for (let i = 0; i < albums.length; i++) {
+    // Artists
     if (!artists.includes(albums[i].artist)) {
         artists.push(albums[i].artist);
     }
+
+    // Albums per year
+    const year = albums[i].year;
+    albumsPerYear[year] ? albumsPerYear[year]++ : albumsPerYear[year] = 1;
+
+    // Albums per country
+    const country = albums[i].country;
+    albumsPerCountry[country] ? albumsPerCountry[country]++ : albumsPerCountry[country] = 1;
 }
 
+// Other
 function getAlbumById(id) {
     for (let i = 0; i < albums.length; i++) {
         if(albums[i].id == id) {

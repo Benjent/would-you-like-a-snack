@@ -48,6 +48,10 @@ header {
     padding: 0 20px;
     box-sizing: border-box;
 
+    #snackHeader {
+        cursor: pointer;
+    }
+
     button {
         // position: absolute;
         // left: 20px;
@@ -70,6 +74,10 @@ header {
         width: 30%;
         display: flex;
         justify-content: flex-end;
+
+        #statsButton {
+            margin-right: 20px;
+        }
     }
 }
 
@@ -202,6 +210,36 @@ header {
                         cursor: pointer;
                         border-bottom: solid 4px $cream;
                     }
+                }
+            }
+        }
+    }
+
+}
+
+// statsVue
+
+#statsVue {
+    margin: 0 auto;
+    padding: $headerHeight + 30px 20px 50px 20px;
+    width: 60vw;
+    text-align: justify;
+
+    .tables {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .gauge-column {
+            width: 400px;
+        }
+        .albumsPerCategory {
+            .albumsPerCategory-nbOfAlbums {
+                padding: 5px;
+                .gauge {
+                    padding: 0px 6px;
+                    min-width: 7%;
+                    background: $gold;
+                    color: $black
                 }
             }
         }
