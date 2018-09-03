@@ -225,6 +225,11 @@ header {
     width: 60vw;
     text-align: justify;
 
+    .numbers {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
     .tables {
         display: flex;
         flex-direction: row;

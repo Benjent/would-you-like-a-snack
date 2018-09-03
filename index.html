@@ -81,9 +81,10 @@
             </section>
 
             <section id="statsVue" v-if="currentVue == 'statsVue'">
-                <p>
-                    {{albums.length}} albums
-                </p>
+                <div class="numbers">
+                    <span>{{albums.length}} albums</span>
+                    <span>{{artists.length}} artists</span>
+                </div>
                 <div class="tables">
                     <table>
                         <thead>

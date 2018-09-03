@@ -343,6 +343,15 @@ header #right #statsButton {
   text-align: justify;
 }
 
+#statsVue .numbers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
 #statsVue .tables {
   display: -webkit-box;
   display: -ms-flexbox;
