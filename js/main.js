@@ -25,6 +25,7 @@ var indexVue = new Vue({
     randomAlbums: randomAlbums,
     artists: artists,
     albumsPerYear: albumsPerYear,
+    albumsPerCountry: albumsPerCountry,
   },
   methods: {
     setCurrentVue: function(vue) {
@@ -105,9 +106,47 @@ var indexVue = new Vue({
         }
       };
 
-      console.log(albumsPerYearWithRatio);
-
       return albumsPerYearWithRatio;
+    },
+    albumsPerCountryWithRatio() {
+
+      const obj = this.albumsPerCountry;
+      const arr = Object.keys( obj ).map(function ( key ) { return obj[key]; });
+      const max = Math.max.apply( null, arr );
+      const min = 0;
+
+      const albumsPerCountryWithRatio = []
+
+      for(country in this.albumsPerCountry) {
+
+        const nbOfAlbums = this.albumsPerCountry[country];
+        const ratio = (nbOfAlbums - min) / (max - min);
+
+        albumsPerCountryWithRatio.push({
+          country: country,
+          nbOfAlbums: nbOfAlbums, 
+          ratio: ratio,
+          ratioPercent: (ratio * 100).toString() + "%",
+        });
+      };
+
+      console.log(albumsPerCountryWithRatio)
+
+      // Sort in alphabetical order
+      albumsPerCountryWithRatio.sort(function(a, b){
+        const countryA = a.country.toLowerCase()
+        const countryB = b.country.toLowerCase();
+
+        if (countryA < countryB) {// Sort string ascending
+          return -1;
+        }
+        if (countryA > countryB) {
+          return 1;
+        }
+        return 0 // Default return value (no sorting)
+      })
+
+      return albumsPerCountryWithRatio;
     }
   },
 })

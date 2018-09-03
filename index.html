@@ -84,20 +84,42 @@
                 <p>
                     {{albums.length}} albums
                 </p>
-                <table>
-                    <thead>
-                        <th>Year</th>
-                        <th class="gauge-column">Number of albums</th>
-                    </thead>
-                    <tbody>
-                        <tr class="albumsPerYear" v-for="(item, year) in albumsPerYearWithRatio">
-                            <td class="albumsPerYear-year">{{year}}</td>
-                            <td class="albumsPerYear-nbOfAlbums">
-                                <div class="gauge" :style="{width: item.ratioPercent}">{{item.nbOfAlbums}}</div>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+                <div class="tables">
+                    <table>
+                        <thead>
+                            <th>Year</th>
+                            <th class="gauge-column">Number of albums</th>
+                        </thead>
+                        <tbody>
+                            <tr class="albumsPerCategory" v-for="(item, year) in albumsPerYearWithRatio">
+                                <td class="albumsPerCategory-year">{{year}}</td>
+                                <td class="albumsPerCategory-nbOfAlbums">
+                                    <div class="gauge" :style="{width: item.ratioPercent}">{{item.nbOfAlbums}}</div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table>
+                        <thead>
+                            <th>Country</th>
+                            <th class="gauge-column">Number of albums</th>
+                        </thead>
+                        <tbody>
+                            <!-- <tr class="albumsPerCategory" v-for="(item, country) in albumsPerCountryWithRatio">
+                                <td class="albumsPerCategory-country">{{country}}</td>
+                                <td class="albumsPerCategory-nbOfAlbums">
+                                    <div class="gauge" :style="{width: item.ratioPercent}">{{item.nbOfAlbums}}</div>
+                                </td>
+                            </tr> -->
+                            <tr class="albumsPerCategory" v-for="item in albumsPerCountryWithRatio">
+                                <td class="albumsPerCategory-country">{{item.country}}</td>
+                                <td class="albumsPerCategory-nbOfAlbums">
+                                    <div class="gauge" :style="{width: item.ratioPercent}">{{item.nbOfAlbums}}</div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </section>
 
             <section id="aboutVue" v-if="currentVue == 'aboutVue'">

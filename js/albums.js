@@ -4510,15 +4510,21 @@ Strawbs
 // Artists
 let artists = [];
 let albumsPerYear = {};
+let albumsPerCountry = {};
 
 for (let i = 0; i < albums.length; i++) {
     // Artists
     if (!artists.includes(albums[i].artist)) {
         artists.push(albums[i].artist);
     }
+
     // Albums per year
     const year = albums[i].year;
     albumsPerYear[year] ? albumsPerYear[year]++ : albumsPerYear[year] = 1;
+
+    // Albums per country
+    const country = albums[i].country;
+    albumsPerCountry[country] ? albumsPerCountry[country]++ : albumsPerCountry[country] = 1;
 }
 
 // Other
