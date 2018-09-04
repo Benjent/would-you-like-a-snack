@@ -498,7 +498,7 @@ const albums = [
         "year": 1974,
         "country": "Germany",
         "cover": "img/covers/baba_yaga_collage.jpg",
-        "criteria": [6, 8, 13, 15, 18, 20],
+        "criteria": [6, 8, 13, 14, 15, 18, 20],
         "selectedTrackTitle": "Moksha",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=ZJPFjl_bBGg"
     },
@@ -3265,6 +3265,17 @@ const albums = [
         "criteria": [7, 22, 40],
         "selectedTrackTitle": "Please Don't Judas Me",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=PdiIu1RwGhA"
+    },
+    {
+        "id": "nazareth_close_enough_for_rock_n_roll",
+        "title": "Close Enough For Rock 'N' Roll",
+        "artist": "Nazareth",
+        "year": 1976,
+        "country": "Scotland",
+        "cover": "img/covers/nazareth_close_enough_for_rock_n_roll.jpg",
+        "criteria": [7, 22, 40],
+        "selectedTrackTitle": "Telegram",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=xRgZlEVzAss"
     },
     {
         "id": "nightwinds_nightwinds",

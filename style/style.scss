@@ -176,41 +176,83 @@ header {
 #atticVue {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     padding: $headerHeight + 30px 20px 50px 20px;
+    margin-top: $headerHeight * 1.5;
 
     // Dirty hack
     #player {
         display: none;
     }
 
-    .artist {
-        margin-right: 50px;
-        margin-bottom: 30px;
+    // .artist {
+    //     margin-right: 50px;
+    //     margin-bottom: 30px;
 
-        &:last-of-type {
-            margin-right: 0;
+    //     &:last-of-type {
+    //         margin-right: 0;
+    //     }
+
+    //     .artist-discography {
+    //         height: 100%;
+    //         display: flex;
+    //         flex-wrap: wrap;
+
+    //         .album-wrapper {
+    //             display: flex;
+    //             flex-direction: column;
+    //             .album-year {
+    //                 font-size: 1.2rem;
+    //             }
+    //             img {
+    //                 height: 100px;
+    //                 width: 100px;
+    //                 border-bottom: solid 4px $gold;
+    //                 &:hover {
+    //                     cursor: pointer;
+    //                     border-bottom: solid 4px $cream;
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
+
+    .album-wrapper {
+        $albumHeight: 220px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        height: $albumHeight;
+        width: $albumHeight;
+        &:hover {
+            .album-infos {
+                opacity: 1;
+                top: $albumHeight;
+                cursor: pointer;
+            }
         }
-
-        .artist-discography {
-            height: 100%;
+        .album-infos {
+            font-size: 1.2rem;
+            position: relative;
+            // top: (220px * 0.5) + (78px * 0.5);
+            // margin-top: -(220px * 0.5) - (78px * 0.5);
+            top: $albumHeight * 2;
+            margin-top: -$albumHeight * 2;
             display: flex;
-            flex-wrap: wrap;
-
-            .album-wrapper {
-                display: flex;
-                flex-direction: column;
-                .album-year {
-                    font-size: 1.2rem;
-                }
-                img {
-                    height: 100px;
-                    width: 100px;
-                    border-bottom: solid 4px $gold;
-                    &:hover {
-                        cursor: pointer;
-                        border-bottom: solid 4px $cream;
-                    }
-                }
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: $albumHeight; // Syncrhonize value
+            text-align: center;
+            background: rgba(0, 0, 0, 0.7);
+            opacity: 0;
+            transition: top 0.2s, opacity 0.2s;
+        }
+        img {
+            height: $albumHeight;
+            width: $albumHeight;
+            &:hover {
+                cursor: pointer;
             }
         }
     }
@@ -224,6 +266,11 @@ header {
     padding: $headerHeight + 30px 20px 50px 20px;
     width: 60vw;
     text-align: justify;
+
+    .numbers {
+        display: flex;
+        justify-content: space-evenly;
+    }
 
     .tables {
         display: flex;
