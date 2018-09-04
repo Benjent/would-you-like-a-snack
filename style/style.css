@@ -286,32 +286,18 @@ header #right #statsButton {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: 180px 20px 50px 20px;
+  margin-top: 225px;
 }
 
 #atticVue #player {
   display: none;
 }
 
-#atticVue .artist {
-  margin-right: 50px;
-  margin-bottom: 30px;
-}
-
-#atticVue .artist:last-of-type {
-  margin-right: 0;
-}
-
-#atticVue .artist .artist-discography {
-  height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-#atticVue .artist .artist-discography .album-wrapper {
+#atticVue .album-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -319,21 +305,50 @@ header #right #statsButton {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  position: relative;
+  height: 220px;
+  width: 220px;
 }
 
-#atticVue .artist .artist-discography .album-wrapper .album-year {
-  font-size: 1.2rem;
-}
-
-#atticVue .artist .artist-discography .album-wrapper img {
-  height: 100px;
-  width: 100px;
-  border-bottom: solid 4px #a18a54;
-}
-
-#atticVue .artist .artist-discography .album-wrapper img:hover {
+#atticVue .album-wrapper:hover .album-infos {
+  opacity: 1;
+  top: 220px;
   cursor: pointer;
-  border-bottom: solid 4px #d7e4da;
+}
+
+#atticVue .album-wrapper .album-infos {
+  font-size: 1.2rem;
+  position: relative;
+  top: 440px;
+  margin-top: -440px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 220px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  -webkit-transition: top 0.2s, opacity 0.2s;
+  transition: top 0.2s, opacity 0.2s;
+}
+
+#atticVue .album-wrapper img {
+  height: 220px;
+  width: 220px;
+}
+
+#atticVue .album-wrapper img:hover {
+  cursor: pointer;
 }
 
 #statsVue {

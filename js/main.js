@@ -40,7 +40,7 @@ var indexVue = new Vue({
     },
     selectAlbumAndRandomize: function(event) {
       // Select
-      let clickedId = event.target.id
+      let clickedId = event.target.attributes.albumid.value;
       this.selectedAlbum = getAlbumById(clickedId);
       // player.loadVideoById(this.selectedAlbum.selectedTrackYtId);
       // player.stopVideo()
@@ -62,6 +62,9 @@ var indexVue = new Vue({
       this.setCurrentVue("albumVue");
       this.selectAlbumAndRandomize(event);
     },
+    displayAlbumInfos: function(event) {
+      // console.log(event.target)
+    }
   },
   computed: {
     computedCriteria() {
@@ -129,8 +132,6 @@ var indexVue = new Vue({
           ratioPercent: (ratio * 100).toString() + "%",
         });
       };
-
-      console.log(albumsPerCountryWithRatio)
 
       // Sort in alphabetical order
       albumsPerCountryWithRatio.sort(function(a, b){
