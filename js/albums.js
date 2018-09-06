@@ -891,6 +891,28 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=JR4aCz-JZrY"
     },
     {
+        "id": "camel_breathless",
+        "title": "Breathless",
+        "artist": "Camel",
+        "year": 1978,
+        "country": "England",
+        "cover": "img/covers/camel_breathless.jpg",
+        "criteria": [3, 11, 22],
+        "selectedTrackTitle": "The Sleeper",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=MXEQhCd4HnU"
+    },
+    {
+        "id": "camel_i_can_see_your_house_from_here",
+        "title": "I Can See Your House From Here",
+        "artist": "Camel",
+        "year": 1979,
+        "country": "England",
+        "cover": "img/covers/camel_i_can_see_your_house_from_here.jpg",
+        "criteria": [11, 22],
+        "selectedTrackTitle": "Hymn To Her",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=EGtky9Nlxhg"
+    },
+    {
         "id": "camel_nude",
         "title": "Nude",
         "artist": "Camel",
@@ -2235,6 +2257,17 @@ const albums = [
         "criteria": [3, 6, 10, 11, 19, 20, 42],
         "selectedTrackTitle": "Morning Sun",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=g9B_P36s_-A"
+    },
+    {
+        "id": "harmonium_harmonium",
+        "title": "Harmonium",
+        "artist": "Harmonium",
+        "year": 1974,
+        "country": "Quebec",
+        "cover": "img/covers/harmonium_harmonium.jpg",
+        "criteria": [11, 46],
+        "selectedTrackTitle": "Un Musicien Parmi Tant D'autres",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=KkDNsKPLXaM"
     },
     {
         "id": "harmonium_si_on_avait_besoin_dune_cinquieme_saison",
@@ -3832,6 +3865,28 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=wQSz64rU9mM"
     },
     {
+        "id": "sloche_jun_oeil",
+        "title": "J'un Oeil",
+        "artist": "Sloche",
+        "year": 1975,
+        "country": "Quebec",
+        "cover": "img/covers/sloche_jun_oeil.jpg",
+        "criteria": [3, 6, 7, 10, 18, 37, 42],
+        "selectedTrackTitle": "J'un Oeil",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=Kng5yZJyMj0"
+    },
+    {
+        "id": "sloche_stadacone",
+        "title": "Stadaconé",
+        "artist": "Sloche",
+        "year": 1976,
+        "country": "Quebec",
+        "cover": "img/covers/sloche_stadacone.jpg",
+        "criteria": [3, 6, 7, 10, 18, 37, 42],
+        "selectedTrackTitle": "Stadaconé",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=GlkUhrk8MZg"
+    },
+    {
         "id": "soft_machine_third",
         "title": "Third",
         "artist": "Soft Machine",
@@ -4031,6 +4086,28 @@ const albums = [
         "criteria": [6, 8, 11, 14, 18, 44],
         "selectedTrackTitle": "Rubycon (Part I)",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=4xl6zlD_hlE"
+    },
+    {
+        "id": "tangerine_dream_ricochet",
+        "title": "Ricochet",
+        "artist": "Tangerine Dream",
+        "year": 1975,
+        "country": "Germany",
+        "cover": "img/covers/tangerine_dream_ricochet.jpg",
+        "criteria": [6, 8, 11, 12, 14, 18, 44],
+        "selectedTrackTitle": "Ricochet (Part II)",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=XCsJOaPDJUE"
+    },
+    {
+        "id": "tangerine_dream_stratosfear",
+        "title": "Stratosfear",
+        "artist": "Tangerine Dream",
+        "year": 1976,
+        "country": "Germany",
+        "cover": "img/covers/tangerine_dream_stratosfear.png",
+        "criteria": [6, 11, 14, 18, 44],
+        "selectedTrackTitle": "Stratosfear",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=2w8VsvJ40sM"
     },
     {
         "id": "tea_and_symphony_an_asylum_for_the_musically_insane",
@@ -4508,13 +4585,14 @@ const albums = [
 /*  
 The allman brothers band sur l'album Win, Lose or Draw a High Falls
 Banco Del Mutuo Soccorso   
-Delirium      
+Delirium  
+Faust    
 Fruupp  
 Jane  
 Nektar   
+Neu!
 Premiata Forneria Marconi
 Procol Harum
-Sloche  
 Strawbs 
 */
 
