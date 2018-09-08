@@ -172,8 +172,7 @@ const albums = [
         "selectedTrackTitle": "Genèse",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=jTS5f1nSurQ",
         "isAGem": true,
-        "description": "TODO",
-        "description": "TODO"
+        "description": "Led by guitarists Claude Alvarez-Pereyre and Michel Mareska, this album displays instrumental tracks with choral harmonies interludes to create a smooth - but deep and adventurous - space museum journey."
     },
     {
         "id": "alphataurus_alphataurus",

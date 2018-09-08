@@ -15,15 +15,13 @@
 
             <header>
                 <div id="left">
-                    <button id="atticButton" v-if="currentVue != 'atticVue'" v-on:click="setCurrentVue('atticVue')">What's in the attic</button>
-                    <!-- <button id="randomButton" v-if="currentVue == 'atticVue'" v-on:click="setCurrentVue('albumVue')">Surprise me</button> -->
-                    <button id="gemsButton" v-if="currentVue != 'gemsVue'" v-on:click="setCurrentVue('gemsVue')">Absolute gems</button>
+                    <button id="atticButton" v-bind:class="{'button-active': currentVue == 'atticVue'}" v-on:click="setCurrentVue('atticVue')">What's in the attic</button>
+                    <button id="gemsButton" v-bind:class="{'button-active': currentVue == 'gemsVue'}" v-on:click="setCurrentVue('gemsVue')">Absolute gems</button>
                 </div>
                 <h1 id="snackHeader" v-on:click="setCurrentVue('albumVue')">Would you like a snack</h1>
                 <div id="right">
-                    <button id="statsButton" v-if="currentVue != 'statsVue'" v-on:click="setCurrentVue('statsVue')">Stats</button>
-                    <button id="aboutButton" v-if="currentVue != 'aboutVue'" v-on:click="setCurrentVue('aboutVue')">About the project</button>
-                    <!-- <button id="randomButtonBis" v-if="currentVue == 'aboutVue'" v-on:click="setCurrentVue('albumVue')">Surprise me</button> -->
+                    <button id="statsButton" v-bind:class="{'button-active': currentVue == 'statsVue'}" v-on:click="setCurrentVue('statsVue')">Stats</button>
+                    <button id="aboutButton" v-bind:class="{'button-active': currentVue == 'aboutVue'}" v-on:click="setCurrentVue('aboutVue')">About the project</button>
                 </div>
             </header>
 
@@ -69,20 +67,12 @@
             </section>
 
             <section id="atticVue" v-if="currentVue == 'atticVue'">
-                <!-- <div class="artist" v-for="artist in artists">
-                    <div class="artist-name">{{artist}}</div>
-                    <div class="artist-discography">
-                        <div class="album-wrapper" v-for="album in albums" v-if="album.artist == artist">
-                            <span class="album-year">{{album.year}}</span>
-                            <img class="album" v-bind:id="album.id" v-bind:src=album.cover v-on:click="setAlbumVueAndselectAlbum($event)" alt="">
-                        </div>
-                    </div>
-                </div> -->
                 <div class="album-wrapper" v-for="album in albums" v-bind:albumId="album.id" v-on:mouseover="displayAlbumInfos($event)" v-on:click="setAlbumVueAndselectAlbum($event)">
                     <div class="album-infos" v-bind:albumId="album.id">
                         <span class="album-artist" v-bind:albumId="album.id">{{album.artist}}</span>
                         <span class="album-title" v-bind:albumId="album.id">{{album.title}}</span>
                         <span class="album-year" v-bind:albumId="album.id">{{album.year}}</span>
+                        <span class="album-rating" v-if="album.isAGem" v-bind:albumId="album.id">This is a must-hear</span>
                     </div>
                     <img class="album" v-bind:src=album.cover alt="">
                 </div>
@@ -93,9 +83,6 @@
                     <img class="album-cover" v-bind:albumId="album.id" v-on:click="setAlbumVueAndselectAlbum($event)" v-bind:src=album.cover alt="">
                     <div class="album-infos" v-bind:albumId="album.id">
                         <span>{{album.artist}} - {{album.title}} ({{album.year}})</span>
-                        <!-- <span class="album-artist" v-bind:albumId="album.id">{{album.artist}}</span>
-                        <span class="album-title" v-bind:albumId="album.id">{{album.title}}</span>
-                        <span class="album-year" v-bind:albumId="album.id">{{album.year}}</span> -->
                         <blockquote class="album-description">{{album.description}}</blockquote>
                     </div>
                 </div>
