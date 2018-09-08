@@ -17,7 +17,7 @@
                 <div id="left">
                     <button id="atticButton" v-if="currentVue != 'atticVue'" v-on:click="setCurrentVue('atticVue')">What's in the attic</button>
                     <!-- <button id="randomButton" v-if="currentVue == 'atticVue'" v-on:click="setCurrentVue('albumVue')">Surprise me</button> -->
-                    <div id="collectionSize">{{albums.length}} albums</div>
+                    <button id="gemsButton" v-if="currentVue != 'gemsVue'" v-on:click="setCurrentVue('gemsVue')">Absolute gems</button>
                 </div>
                 <h1 id="snackHeader" v-on:click="setCurrentVue('albumVue')">Would you like a snack</h1>
                 <div id="right">
@@ -85,6 +85,19 @@
                         <span class="album-year" v-bind:albumId="album.id">{{album.year}}</span>
                     </div>
                     <img class="album" v-bind:src=album.cover alt="">
+                </div>
+            </section>
+
+            <section id="gemsVue" v-if="currentVue == 'gemsVue'">
+                <div class="album-wrapper" v-for="album in albums" v-if="album.isAGem">
+                    <img class="album-cover" v-bind:albumId="album.id" v-on:click="setAlbumVueAndselectAlbum($event)" v-bind:src=album.cover alt="">
+                    <div class="album-infos" v-bind:albumId="album.id">
+                        <span>{{album.artist}} - {{album.title}} ({{album.year}})</span>
+                        <!-- <span class="album-artist" v-bind:albumId="album.id">{{album.artist}}</span>
+                        <span class="album-title" v-bind:albumId="album.id">{{album.title}}</span>
+                        <span class="album-year" v-bind:albumId="album.id">{{album.year}}</span> -->
+                        <blockquote class="album-description">{{album.description}}</blockquote>
+                    </div>
                 </div>
             </section>
 

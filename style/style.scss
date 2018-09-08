@@ -64,8 +64,7 @@ header {
         display: flex;
         align-items: center;
         width: 30%;
-        #collectionSize {
-            // width: 260px;
+        #gemsButton {
             margin-left: 20px;
         }
     }
@@ -257,6 +256,39 @@ header {
         }
     }
 
+}
+
+// gemsVue
+
+#gemsVue {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: $headerHeight + 30px 20px 50px 20px;
+
+    .album-wrapper {
+        display: flex;
+        border-bottom: solid 1px;
+        width: 80%;
+        padding: 100px;
+        .album-cover {
+            margin-right: 30px;
+            cursor: pointer;
+            display: block;
+            width: 300px;
+            height: 300px;
+        }
+        .album-infos {
+            display: flex;
+            flex-direction: column;
+            .album-description {
+                font-style: italic;
+                font-size: 1.6rem;
+                margin: auto 50px;
+            }
+        }
+    }
 }
 
 // statsVue
