@@ -48,24 +48,24 @@ header {
     padding: 0 20px;
     box-sizing: border-box;
 
-    #snackHeader {
-        cursor: pointer;
+    button {
+        width: auto;
+        &.button-active {
+            color: $black;
+            background: $gold;
+            pointer-events: none;
+        }
     }
 
-    button {
-        // position: absolute;
-        // left: 20px;
-        // top: 40px;
-        // width: 280px;
-        width: auto;
+    #snackHeader {
+        cursor: pointer;
     }
 
     #left {
         display: flex;
         align-items: center;
         width: 30%;
-        #collectionSize {
-            // width: 260px;
+        #gemsButton {
             margin-left: 20px;
         }
     }
@@ -185,38 +185,6 @@ header {
         display: none;
     }
 
-    // .artist {
-    //     margin-right: 50px;
-    //     margin-bottom: 30px;
-
-    //     &:last-of-type {
-    //         margin-right: 0;
-    //     }
-
-    //     .artist-discography {
-    //         height: 100%;
-    //         display: flex;
-    //         flex-wrap: wrap;
-
-    //         .album-wrapper {
-    //             display: flex;
-    //             flex-direction: column;
-    //             .album-year {
-    //                 font-size: 1.2rem;
-    //             }
-    //             img {
-    //                 height: 100px;
-    //                 width: 100px;
-    //                 border-bottom: solid 4px $gold;
-    //                 &:hover {
-    //                     cursor: pointer;
-    //                     border-bottom: solid 4px $cream;
-    //                 }
-    //             }
-    //         }
-    //     }
-    // }
-
     .album-wrapper {
         $albumHeight: 220px;
         display: flex;
@@ -247,6 +215,12 @@ header {
             background: rgba(0, 0, 0, 0.7);
             opacity: 0;
             transition: top 0.2s, opacity 0.2s;
+            .album-rating {
+                font-style: italic;
+                font-weight: bold;
+                border-top: solid;
+                border-bottom: solid;
+            }
         }
         img {
             height: $albumHeight;
@@ -256,7 +230,48 @@ header {
             }
         }
     }
+}
 
+// gemsVue
+
+#gemsVue {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: $headerHeight + 30px 20px 50px 20px;
+
+    .album-wrapper {
+        display: flex;
+        border-bottom: solid 1px;
+        width: 80%;
+        padding: 100px;
+        &:last-of-type {
+            border: none;
+        }
+        &:nth-child(even) {
+            flex-direction: row-reverse;
+            text-align: right;
+        }
+        .album-cover {
+            margin: 0 30px;
+            cursor: pointer;
+            display: block;
+            width: 300px;
+            height: 300px;
+            box-shadow: 0px 0px 500px -50px $gold;
+            border: solid 5px $gold;
+        }
+        .album-infos {
+            display: flex;
+            flex-direction: column;
+            .album-description {
+                font-style: italic;
+                font-size: 1.6rem;
+                margin: auto 50px;
+            }
+        }
+    }
 }
 
 // statsVue
@@ -291,7 +306,6 @@ header {
             }
         }
     }
-
 }
 
 // aboutVue
@@ -352,9 +366,6 @@ header {
                 height: 260px;
                 margin: 20px;
             }
-        }
-        footer {
-
         }
     }
 
