@@ -2800,7 +2800,8 @@ const albums = [
         "criteria": [3, 8, 10, 15, 18, 19, 54],
         "selectedTrackTitle": "Zero",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=",
-        "isAGem": false
+        "isAGem": true,
+        "desciprion": "TODO"
     },
     // ************************************************************************************ //
     // **************************************** J **************************************** //
