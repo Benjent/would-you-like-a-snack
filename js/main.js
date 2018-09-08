@@ -26,6 +26,7 @@ var indexVue = new Vue({
     artists: artists,
     albumsPerYear: albumsPerYear,
     albumsPerCountry: albumsPerCountry,
+    gemsNb: gemsNb
   },
   methods: {
     setCurrentVue: function(vue) {

@@ -5166,11 +5166,17 @@ Strawbs
 let artists = [];
 let albumsPerYear = {};
 let albumsPerCountry = {};
+let gemsNb = 0;
 
 for (let i = 0; i < albums.length; i++) {
     // Artists
     if (!artists.includes(albums[i].artist)) {
         artists.push(albums[i].artist);
+    }
+
+    // Gems
+    if(albums[i].isAGem) {
+        gemsNb++;
     }
 
     // Albums per year
