@@ -203,6 +203,17 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=Todo"
     },
     {
+        "id": "ange_au_dela_du_delire",
+        "title": "Au-Delà Du Délire",
+        "artist": "Ange",
+        "year": 1974,
+        "country": "France",
+        "cover": "img/covers/ange_au_dela_du_delire.jpg",
+        "criteria": [3, 33, 37, 43, 45, 48],
+        "selectedTrackTitle": "Les Longues Nuits D'Isaac",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=L7EezMJrnRM"
+    },
+    {
         "id": "ange_emile_jacotey",
         "title": "Émile Jacotey",
         "artist": "Ange",
@@ -1414,6 +1425,28 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=CJdZTNLkpuA"
     },
     {
+        "id": "eloy_eloy",
+        "title": "Eloy",
+        "artist": "Eloy",
+        "year": 1971,
+        "country": "Germany",
+        "cover": "img/covers/eloy_eloy.jpg",
+        "criteria": [7, 22],
+        "selectedTrackTitle": "Something Yellow",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=yDatGyROJ1c"
+    },
+    {
+        "id": "eloy_inside",
+        "title": "Inside",
+        "artist": "Eloy",
+        "year": 1973,
+        "country": "Germany",
+        "cover": "img/covers/eloy_inside.jpg",
+        "criteria": [7, 8, 10, 20],
+        "selectedTrackTitle": "Inside",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=g9geep2yJjI"
+    },
+    {
         "id": "eloy_floating",
         "title": "Floating",
         "artist": "Eloy",
@@ -1423,6 +1456,28 @@ const albums = [
         "criteria": [7, 8, 10, 20],
         "selectedTrackTitle": "Castle In The Air",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=K_oPTaKCjcY"
+    },
+    {
+        "id": "eloy_power_and_the_passion",
+        "title": "Power And The Passion",
+        "artist": "Eloy",
+        "year": 1975,
+        "country": "Germany",
+        "cover": "img/covers/eloy_power_and_the_passion.jpg",
+        "criteria": [2, 7, 10, 20],
+        "selectedTrackTitle": "The Bells Of Notre Dame",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=p9P8OlPZnrM"
+    },
+    {
+        "id": "eloy_dawn",
+        "title": "Dawn",
+        "artist": "Eloy",
+        "year": 1976,
+        "country": "Germany",
+        "cover": "img/covers/eloy_dawn.jpg",
+        "criteria": [2, 7, 10, 20],
+        "selectedTrackTitle": "Gliding Into Light And Knowledge",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=FGcpZ_4a5Y8"
     },
     {
         "id": "eloy_ocean",
@@ -1456,6 +1511,28 @@ const albums = [
         "criteria": [7, 10, 20],
         "selectedTrackTitle": "Giant",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=E1X0euUgYgA"
+    },
+    {
+        "id": "eloy_planets",
+        "title": "Planets",
+        "artist": "Eloy",
+        "year": 1981,
+        "country": "Germany",
+        "cover": "img/covers/eloy_planets.jpg",
+        "criteria": [7, 10, 20],
+        "selectedTrackTitle": "Mysterious Monolith",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=qLUmum7-Krs"
+    },
+    {
+        "id": "eloy_time_to_turn",
+        "title": "Time To Turn",
+        "artist": "Eloy",
+        "year": 1982,
+        "country": "Germany",
+        "cover": "img/covers/eloy_time_to_turn.jpg",
+        "criteria": [7, 10, 20],
+        "selectedTrackTitle": "End Of An Odyssey",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=MCr4WoovspA"
     },
     {
         "id": "emerson_lake_and_palmer_emerson_lake_and_palmer",
@@ -2458,6 +2535,17 @@ const albums = [
         "criteria": [13, 15, 18, 46],
         "selectedTrackTitle": "Cousin Caterpillar",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=nu0brlGGQ2Y"
+    },
+    {
+        "id": "island_pictures",
+        "title": "Pictures",
+        "artist": "Island",
+        "year": 1977,
+        "country": "Switzerland",
+        "cover": "img/covers/island_pictures.jpg",
+        "criteria": [3, 8, 10, 15, 18, 19, 54],
+        "selectedTrackTitle": "Zero",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v="
     },
     // ************************************************************************************ //
     // **************************************** J **************************************** //
@@ -4210,6 +4298,17 @@ const albums = [
         "criteria": [18, 22],
         "selectedTrackTitle": "Ego Trip",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=uIy3WOK2-iY"
+    },
+    {
+        "id": "urban_sax_urban_sax",
+        "title": "Urban Sax",
+        "artist": "Urban Sax",
+        "year": 1977,
+        "country": "France",
+        "cover": "img/covers/urban_sax_urban_sax.jpg",
+        "criteria": [3, 5, 6, 8, 14, 18, 23],
+        "selectedTrackTitle": "Urban Sax (Part I)",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=q01oHWFqVqM"
     },
     {
         "id": "uriah_heep_demons_and_wizards",
