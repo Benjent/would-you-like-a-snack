@@ -443,6 +443,7 @@ header #right #statsButton {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  margin: 20px 0 50px 0;
 }
 
 #statsVue .tables {
