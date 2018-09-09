@@ -754,7 +754,7 @@ const albums = [
         "selectedTrackTitle": "She Came In Through The Bathroom Window",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=o14wVjw3HfQ",
         "isAGem": true,
-        "description": "TODO"
+        "description": "An album with music as iconic as its cover, once again carried by a splendid Lennon-McCartney composition. Side one happily delivers bluesy and pop music drenched in psychedelic mood while side two is a piece composed of puzzle tracks with orchestral parts and colorful alterations."
     },
     {
         "id": "black_sabbath_sabotage",
@@ -977,7 +977,7 @@ const albums = [
         "selectedTrackTitle": "Air Born",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=JR4aCz-JZrY",
         "isAGem": true,
-        "description": "TODO"
+        "description": "Camel decides to explore a more cold but tender music through Peter Bardens' snow-white keyboard playing and Andrew Latimer's soothing guitar licks, along with Doug Ferguson's and Andy Ward's groovy but soft sections. This results in a relaxing sound veiled with odd rhythm, hypnotizing parts, resembling a lucid dream, with tracks reflecting the musicians' personnalities."
     },
     {
         "id": "camel_rain_dances",
@@ -1810,7 +1810,7 @@ const albums = [
         "selectedTrackTitle": "Janis",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=vx-JzRzsCss",
         "isAGem": true,
-        "description": "TODO"
+        "description": "Directed by Thijs Van Leer's alchimistic ideas and Jan Akkerman's grandiose guitar playing, Moving Waves starts with a scatterbrained hit track, followed by blue and instrumental-driven music. It ends on an eruption of a pure progressive Rock, 22-minute symphony, using the best of the musician's abilities to create a fulfilling and magical grande finale."
     },
     {
         "id": "focus_focus_3",
