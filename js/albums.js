@@ -401,7 +401,7 @@ const albums = [
         "selectedTrackTitle": "Positivo/Negativo",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=DC_K3w6gi2Q",
         "isAGem": true,
-        "description": "TODO"
+        "description": "Gigi Venegoni gathers music virtuosi to create music where the bass guitar and the vibraphone share the room while the guitar and the violin plays frantic melodies over Furio Chirico's fast-paced drumming style. The band handles textures with a wide asset of instruments but very few vocal parts, and play around tempo variations to create the surprise, with just enough time to rest."
     },
     {
         "id": "arti_mestieri_giro_di_valzer_per_domani",
@@ -977,7 +977,7 @@ const albums = [
         "selectedTrackTitle": "Air Born",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=JR4aCz-JZrY",
         "isAGem": true,
-        "description": "Camel decides to explore a more cold but tender music through Peter Bardens' snow-white keyboard playing and Andrew Latimer's soothing guitar licks, along with Doug Ferguson's and Andy Ward's groovy but soft sections. This results in a relaxing sound veiled with odd rhythm, hypnotizing parts, resembling a lucid dream, with tracks reflecting the musicians' personnalities."
+        "description": "Camel decides to explore a more cold but tender music through Peter Bardens' snow-white keyboard playing and Andrew Latimer's soothing guitar licks, along with Doug Ferguson's and Andy Ward's groovy but soft sections. This results in a relaxing sound veiled with odd rhythm, enchanting parts, resembling a lucid dream, with tracks reflecting the musicians' personnalities."
     },
     {
         "id": "camel_rain_dances",
@@ -1063,7 +1063,7 @@ const albums = [
         "selectedTrackTitle": "Future Days",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=-JKb5xbYkYg",
         "isAGem": true,
-        "description": "TODO"
+        "description": "The band keeps on drifting away from the intense psychedelic music to embrace a more peaceful music, sometimes mesmerizing, sometimes percolating, sprinkled with Damo Suzuki's faded vocals. The album materializes a perfect warm soundscape in which we gladly relax."
     },
     {
         "id": "can_soon_over_babaluma",
@@ -4507,7 +4507,7 @@ const albums = [
         "selectedTrackTitle": "Rudy",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=gxW3s_Qk1dk",
         "isAGem": true,
-        "description": "TODO"
+        "description": "Rick Davies and Roger Hodgson composed heavy-hearted songs to create one of the most subtle, most magnificient, most moving albums we could imagine, with intense vocals and lyrics as desperate as the cover. The album is a theater of unregular song structures and piano-driven melodies, where the other instruments complete parts here and there so that almost every song is a climax itself."
     },
     {
         "id": "supertramp_crisis_what_crisis",
