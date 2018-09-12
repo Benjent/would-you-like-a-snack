@@ -7,152 +7,42 @@
         <link rel="icon" type="image/ico" href="img/favicon.svg"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
         <link rel="stylesheet" href="style/style.css">
-        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js"></script>
+        <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js"></script> -->
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+        <!-- Components -->
+        <script type="text/javascript" src="components/the-nav-bar/the-nav-bar.js"></script>
+        <script type="text/javascript" src="components/album/album.js"></script>
+        <script type="text/javascript" src="components/attic/attic.js"></script>
+        <script type="text/javascript" src="components/gems/gems.js"></script>
+        <script type="text/javascript" src="components/stats/stats.js"></script>
+        <script type="text/javascript" src="components/about/about.js"></script>
     </head>
     <body>
 
         <div id="indexVue">
 
-            <header>
-                <div id="left">
-                    <button id="atticButton" v-bind:class="{'button-active': currentVue == 'atticVue'}" v-on:click="setCurrentVue('atticVue')">What's in the attic</button>
-                    <button id="gemsButton" v-bind:class="{'button-active': currentVue == 'gemsVue'}" v-on:click="setCurrentVue('gemsVue')">Absolute gems</button>
-                </div>
-                <h1 id="snackHeader" v-on:click="setCurrentVue('albumVue')">Would you like a snack</h1>
-                <div id="right">
-                    <button id="statsButton" v-bind:class="{'button-active': currentVue == 'statsVue'}" v-on:click="setCurrentVue('statsVue')">Stats</button>
-                    <button id="aboutButton" v-bind:class="{'button-active': currentVue == 'aboutVue'}" v-on:click="setCurrentVue('aboutVue')">About the project</button>
-                </div>
-            </header>
+            <the-nav-bar v-bind:current-vue="currentVue" v-on:set-current-vue="setCurrentVue"></the-nav-bar>
 
             <div id="spinningVinylWrapper">
                 <img class="spinning-vinyl spinning" src="img/vinyle_gold.png" alt="">
             </div>
 
-            <section id="albumVue" v-if="currentVue == 'albumVue'">
-
-                <div class="buttons">
-                    <div class="arrow-wrapper">
-                        <img class="arrow arrow-previous" v-if="previousAlbum" v-bind:id="previousAlbum.id" v-on:click="selectAlbum($event)" src="img/arrow.svg" alt="">
-                    </div>
-                    <button id="randomButton" v-on:click="randomizeAlbum">Surprise me</button>
-                    <div class="arrow-wrapper">
-                        <img class="arrow arrow-next" v-if="nextAlbum" v-bind:id="nextAlbum.id" v-on:click="selectAlbum($event)" src="img/arrow.svg" alt="">
-                    </div>
-                </div>
-
-                <div class="content">
-                    <div class="album-metadata">
-                        <div class="album-title">{{selectedAlbum.title}}</div>
-                        <div class="album-artist">{{selectedAlbum.artist}}</div>
-                        <div class="album-year">{{selectedAlbum.year}}</div>
-                        <div class="album-country">{{selectedAlbum.country}}</div>
-                        <div>Selected track: <span class="album-selected-track">{{selectedAlbum.selectedTrackTitle}}</span></div>
-                        <a v-if="selectedAlbum.selectedTrackYtId" v-bind:href=selectedAlbum.selectedTrackYtId target="_blank">
-                            <div class="album-selected-track-url">Listen on YouTube</div>
-                        </a>
-                        <!-- <div id="player" v-if="currentVue == 'albumVue'"></div> -->
-                    </div>
-                    <div class="album-cover-wrapper">
-                        <img v-bind:src=selectedAlbum.cover alt="">
-                    </div>
-                    <div class="album-criteria">
-                        <div class="album-criterium" v-for="criterium in computedCriteria">{{criterium}}</div>
-                    </div>
-                </div>
-
-                <footer id="randomVue">
-                    <img v-for="album in randomAlbums" v-bind:albumId="album.id" v-bind:src=album.cover v-on:click="selectAlbumAndRandomize($event)" alt="">
-                </footer>
-            </section>
-
-            <section id="atticVue" v-if="currentVue == 'atticVue'">
-                <div class="album-wrapper" v-for="album in albums" v-bind:albumId="album.id" v-on:mouseover="displayAlbumInfos($event)" v-on:click="setAlbumVueAndselectAlbum($event)">
-                    <div class="album-infos" v-bind:albumId="album.id">
-                        <span class="album-artist" v-bind:albumId="album.id">{{album.artist}}</span>
-                        <span class="album-title" v-bind:albumId="album.id">{{album.title}}</span>
-                        <span class="album-year" v-bind:albumId="album.id">{{album.year}}</span>
-                        <span class="album-rating" v-if="album.isAGem" v-bind:albumId="album.id">This is a must-hear</span>
-                    </div>
-                    <img class="album" v-bind:src=album.cover alt="">
-                </div>
-            </section>
-
-            <section id="gemsVue" v-if="currentVue == 'gemsVue'">
-                <div class="album-wrapper" v-for="album in albums" v-if="album.isAGem">
-                    <img class="album-cover" v-bind:albumId="album.id" v-on:click="setAlbumVueAndselectAlbum($event)" v-bind:src=album.cover alt="">
-                    <div class="album-infos" v-bind:albumId="album.id">
-                        <span>{{album.artist}} - {{album.title}} ({{album.year}})</span>
-                        <blockquote class="album-description">{{album.description}}</blockquote>
-                    </div>
-                </div>
-            </section>
-
-            <section id="statsVue" v-if="currentVue == 'statsVue'">
-                <div class="numbers">
-                    <span>{{artists.length}} artists</span>
-                    <span>{{albums.length}} albums</span>
-                    <span>{{gemsNb}} must-hear albums</span>
-                </div>
-                <div class="tables">
-                    <table>
-                        <thead>
-                            <th>Year</th>
-                            <th class="gauge-column">Number of albums</th>
-                        </thead>
-                        <tbody>
-                            <tr class="albumsPerCategory" v-for="(item, year) in albumsPerYearWithRatio">
-                                <td class="albumsPerCategory-year">{{year}}</td>
-                                <td class="albumsPerCategory-nbOfAlbums">
-                                    <div class="gauge" :style="{width: item.ratioPercent}">{{item.nbOfAlbums}}</div>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <table>
-                        <thead>
-                            <th>Country</th>
-                            <th class="gauge-column">Number of albums</th>
-                        </thead>
-                        <tbody>
-                            <!-- <tr class="albumsPerCategory" v-for="(item, country) in albumsPerCountryWithRatio">
-                                <td class="albumsPerCategory-country">{{country}}</td>
-                                <td class="albumsPerCategory-nbOfAlbums">
-                                    <div class="gauge" :style="{width: item.ratioPercent}">{{item.nbOfAlbums}}</div>
-                                </td>
-                            </tr> -->
-                            <tr class="albumsPerCategory" v-for="item in albumsPerCountryWithRatio">
-                                <td class="albumsPerCategory-country">{{item.country}}</td>
-                                <td class="albumsPerCategory-nbOfAlbums">
-                                    <div class="gauge" :style="{width: item.ratioPercent}">{{item.nbOfAlbums}}</div>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </section>
-
-            <section id="aboutVue" v-if="currentVue == 'aboutVue'">
-                <h2>Hi!</h2>
-                <p>
-                    Would You Like A Snack is a tiny web project with big music amibitions: dusting old prog albums, known as prog gems, to make them shine beside classic albums.
-                </p>
-                <p>
-                    Prog albums are anything related to progressive music, from late 60's psychedelic vibes to early 80's electronic wave ; still focusing on the progressive bloom of the 70's.
-                </p>
-                <p>
-                    This project is designed as a tool to discover albums, the way we would pick up vinyls in music stores, as well as centralizer of what can be found scrapping the web.
-                </p>
-                <p>
-                    If you spot any wrong information or any typo, think of improvements, or would like to leave a sweet comment, please feel free to contact me at benjent@hotmail.fr.
-                </p>
-            </section>
+            <component
+                v-bind:is="currentVue"
+                v-bind:selected-album="selectedAlbum"
+                v-bind:db="db"
+                v-on:album-click="setAlbumVueAndSelectAlbum"></component>
 
         </div>
 
+        <!-- Scripts -->
+        <script type="text/javascript" src="js/paths.js"></script>
         <script type="text/javascript" src="js/criteria.js"></script>
         <script type="text/javascript" src="js/albums.js"></script>
-        <script src="js/main.js"></script>
+        <script type="text/javascript" src="js/utils.js"></script>
+        <script type="text/javascript" src="js/dao.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
     </body>
     
 </html>
