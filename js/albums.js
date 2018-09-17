@@ -4278,6 +4278,18 @@ const albums = [
         "description": "TODO"
     },
     {
+        "id": "santana_borboletta",
+        "title": "Borboletta",
+        "artist": "Santana",
+        "year": 1974,
+        "country": "USA",
+        "cover": pathToCovers + "/santana_borboletta.jpg",
+        "criteria": [7, 9, 15, 19, 42],
+        "selectedTrackTitle": "Canto De Los Flores",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=vlWO_F2D2tw",
+        "isAGem": false
+    },
+    {
         "id": "schicke_fuhrs_and_frohling_symphonic_pictures",
         "title": "Symphonic Pictures",
         "artist": "Schicke, Führs & Fröhling",
