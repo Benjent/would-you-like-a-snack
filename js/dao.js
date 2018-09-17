@@ -22,11 +22,14 @@ for (let i = 0; i < albums.length; i++) {
     // Albums per year
     const year = albums[i].year;
     albumsPerYear[year] ? albumsPerYear[year]++ : albumsPerYear[year] = 1;
-
+    
     // Albums per country
     const country = albums[i].country;
     albumsPerCountry[country] ? albumsPerCountry[country]++ : albumsPerCountry[country] = 1;
 }
+
+const albumsSortedByYear = albums.slice(0);
+albumsSortedByYear.sort(Utils.sortByYear);
 
 // USE THIS OBJECT IN SNACK TO SIMULATE THE DB
 const Db = {
@@ -34,7 +37,8 @@ const Db = {
     artists: artists,
     albumsPerYear: albumsPerYear,
     albumsPerCountry: albumsPerCountry,
-    gemsNb: gemsNb
+    gemsNb: gemsNb,
+    albumsSortedByYear: albumsSortedByYear
 }
 
 // Other

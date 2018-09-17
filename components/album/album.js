@@ -59,13 +59,12 @@ Vue.component('album', {
                 </div>
             </div>
 
-            <footer id="randomVue">
-                <img
-                    v-for="album in randomAlbums"
-                    v-bind:album-id="album.id"
-                    v-bind:src=album.cover
-                    v-on:click="selectAlbumAndRandomize(album)" alt="">
-            </footer>
+            <timeline
+                v-bind:selected-album="selectedAlbum"
+                v-bind:db="db"
+                v-on:album-click="handleTimelineAlbumClick">
+            </timeline>
+
         </section>
     `,
     props: ['selectedAlbum', 'db'],
@@ -119,8 +118,19 @@ Vue.component('album', {
             // Randomize
             this.randomAlbums = getRandomAlbumsByLength(numberOfAlbumsInRandomVue, album.id).slice(0);
         },
+        handleTimelineAlbumClick: function(album) {
+            this.$emit('album-click', album);
+        }
     }
 })
+
+{/* <footer id="randomVue">
+<img
+    v-for="album in randomAlbums"
+    v-bind:album-id="album.id"
+    v-bind:src=album.cover
+    v-on:click="selectAlbumAndRandomize(album)" alt="">
+</footer> */}
 
 // // Youtube Player
 

@@ -22,5 +22,13 @@ const Utils = {
         }
     
         return defaultAlbum;
-    }
+    },
+
+    sortByYear: function(albumA, albumB) {
+        if (albumA.year < albumB.year)
+          return -1;
+        if (albumA.year > albumB.year)
+          return 1;
+        return 0;
+      }
 }

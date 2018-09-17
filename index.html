@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- Meta -->
         <title>Would you like a snack</title>
         <meta charset="UTF-8">
         <meta name="description" content="Explore what Prog music has to offer" />
-        <link rel="icon" type="image/ico" href="img/favicon.svg"> 
+        <link rel="icon" type="image/ico" href="assets/img/favicon.svg"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
         <link rel="stylesheet" href="style/style.css">
+
+        <!-- Frameworks and libraries -->
         <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js"></script> -->
         <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <script src="https://cdn.rawgit.com/asvd/dragscroll/master/dragscroll.js"></script>
+
+        <!-- Standalone utils -->
+        <script src="js/paths.js"></script>
 
         <!-- Components -->
-        <script type="text/javascript" src="components/the-nav-bar/the-nav-bar.js"></script>
-        <script type="text/javascript" src="components/album/album.js"></script>
-        <script type="text/javascript" src="components/attic/attic.js"></script>
-        <script type="text/javascript" src="components/gems/gems.js"></script>
-        <script type="text/javascript" src="components/stats/stats.js"></script>
-        <script type="text/javascript" src="components/about/about.js"></script>
+        <script src="components/the-nav-bar/the-nav-bar.js"></script>
+        <script src="components/album/album.js"></script>
+        <script src="components/timeline/timeline.js"></script>
+        <script src="components/attic/attic.js"></script>
+        <script src="components/gems/gems.js"></script>
+        <script src="components/stats/stats.js"></script>
+        <script src="components/about/about.js"></script>
     </head>
     <body>
 
@@ -25,24 +33,24 @@
             <the-nav-bar v-bind:current-vue="currentVue" v-on:set-current-vue="setCurrentVue"></the-nav-bar>
 
             <div id="spinningVinylWrapper">
-                <img class="spinning-vinyl spinning" src="img/vinyle_gold.png" alt="">
+                <img class="spinning-vinyl spinning" src="assets/img/vinyle_gold.png" alt="">
             </div>
 
             <component
                 v-bind:is="currentVue"
                 v-bind:selected-album="selectedAlbum"
                 v-bind:db="db"
-                v-on:album-click="setAlbumVueAndSelectAlbum"></component>
+                v-on:album-click="setAlbumVueAndSelectAlbum">
+            </component>
 
         </div>
 
         <!-- Scripts -->
-        <script type="text/javascript" src="js/paths.js"></script>
-        <script type="text/javascript" src="js/criteria.js"></script>
-        <script type="text/javascript" src="js/albums.js"></script>
-        <script type="text/javascript" src="js/utils.js"></script>
-        <script type="text/javascript" src="js/dao.js"></script>
-        <script type="text/javascript" src="js/main.js"></script>
+        <script src="js/criteria.js"></script>
+        <script src="js/albums.js"></script>
+        <script src="js/utils.js"></script>
+        <script src="js/dao.js"></script>
+        <script src="js/main.js"></script>
     </body>
     
 </html>
