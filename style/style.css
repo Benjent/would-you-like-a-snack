@@ -94,7 +94,6 @@ body {
   font-size: 2rem;
   color: #a18a54;
   background: #030504;
-  overflow-x: hidden;
   height: 100vh;
   width: 100vw;
   display: -webkit-box;
@@ -284,6 +283,41 @@ header #right #statsButton {
 
 #albumVue footer img:hover {
   cursor: pointer;
+}
+
+#timelineVue {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  overflow-x: scroll;
+  position: fixed;
+  bottom: 0;
+  border-top: solid 10px #a18a54;
+}
+
+#timelineVue .album-wrapper {
+  display: contents;
+}
+
+#timelineVue .album-wrapper .album-cover {
+  height: 150px;
+  width: 150px;
+}
+
+#timelineVue .album-wrapper .album-cover:hover {
+  cursor: pointer;
+}
+
+#timelineVue .album-wrapper .album-year {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  -webkit-transform: rotateZ(180deg);
+          transform: rotateZ(180deg);
+  background: #a18a54;
+  color: #030504;
+  text-align: center;
 }
 
 #atticVue {
