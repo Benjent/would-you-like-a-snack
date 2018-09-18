@@ -16,4 +16,7 @@ button {
     line-height: normal;
     overflow: visible;
     padding: 0;
+    &::-moz-focus-inner {
+        border: none
+    }
 }

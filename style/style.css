@@ -19,6 +19,10 @@ button {
   padding: 0;
 }
 
+button::-moz-focus-inner {
+  border: none;
+}
+
 a {
   color: #d7e4da;
 }
@@ -27,17 +31,39 @@ a:hover, a:focus {
   color: #d7e4da;
 }
 
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
 button {
   border: solid 3px #a18a54;
   padding: 5px 20px;
   background: #030504;
+  background-size: 400%;
   display: block;
 }
 
 button:hover {
   cursor: pointer;
-  background: #a18a54;
-  color: #030504;
+  background: linear-gradient(141deg, #030504 0%, #1c3a3e 70%, #674e47 90%);
+  background-size: 250%;
+  background-position: 100%;
+  -webkit-animation: AnimationName 0.2s ease;
+          animation: AnimationName 0.2s ease;
 }
 
 @-webkit-keyframes spinning {
