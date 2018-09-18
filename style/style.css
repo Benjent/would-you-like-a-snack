@@ -171,7 +171,6 @@ body {
   font-size: 25px;
   color: #a18a54;
   background: #030504;
-  background-repeat: no-repeat;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -300,11 +299,13 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   width: 100vw;
   overflow-x: scroll;
   position: fixed;
   bottom: 0;
-  border-top: solid 10px #a18a54;
 }
 
 #timelineVue .album-wrapper {
@@ -312,8 +313,10 @@ body {
 }
 
 #timelineVue .album-wrapper .album-cover {
-  height: 150px;
-  width: 150px;
+  height: 180px;
+  width: 180px;
+  border-top: solid 6px #a18a54;
+  margin-top: 20px;
 }
 
 #timelineVue .album-wrapper .album-cover:hover {
@@ -321,14 +324,17 @@ body {
 }
 
 #timelineVue .album-wrapper .album-year {
-  -webkit-writing-mode: vertical-rl;
-      -ms-writing-mode: tb-rl;
-          writing-mode: vertical-rl;
-  -webkit-transform: rotateZ(180deg);
-          transform: rotateZ(180deg);
-  background: #a18a54;
-  color: #030504;
   text-align: center;
+  z-index: 1;
+  background: #030504;
+  color: #a18a54;
+  padding: 5px 20px;
+  display: table;
+  width: 95px;
+  margin-right: -95px;
+  border: solid 3px #a18a54;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 #atticVue {
