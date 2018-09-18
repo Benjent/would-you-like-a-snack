@@ -155,11 +155,11 @@ body {
 // atticVue
 
 #atticVue {
+    $albumHeight: 220px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: $headerHeight + 30px 20px 50px 20px;
-    margin-top: $headerHeight * 1.5;
+    padding: $headerHeight + $borderThick + $albumHeight + 30px 20px 50px 20px;
 
     // Dirty hack
     #player {
@@ -167,7 +167,6 @@ body {
     }
 
     .album-wrapper {
-        $albumHeight: 220px;
         display: flex;
         flex-direction: column;
         position: relative;
