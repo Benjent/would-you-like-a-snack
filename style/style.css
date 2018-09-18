@@ -166,25 +166,6 @@ header #snackHeader {
   cursor: pointer;
 }
 
-body {
-  font-family: 'Oswald', sans-serif;
-  font-size: 25px;
-  color: #a18a54;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #030504), color-stop(90%, #1c3a3e));
-  background: linear-gradient(#030504 10%, #1c3a3e 90%);
-  background-attachment: fixed;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
 #albumVue {
   width: 100vw;
   display: -webkit-box;
@@ -276,24 +257,6 @@ body {
 
 #albumVue .content .album-criteria {
   width: 45%;
-}
-
-#albumVue footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: fixed;
-  bottom: 0;
-  border-top: solid 10px #a18a54;
-}
-
-#albumVue footer img {
-  height: 9.09091vw;
-  width: 9.09091vw;
-}
-
-#albumVue footer img:hover {
-  cursor: pointer;
 }
 
 #timelineVue {
@@ -530,6 +493,25 @@ body {
   padding: 133px 20px 50px 20px;
   width: 60vw;
   text-align: justify;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  color: #a18a54;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #030504), color-stop(90%, #1c3a3e));
+  background: linear-gradient(#030504 10%, #1c3a3e 90%);
+  background-attachment: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 @media (max-width: 1500px) {

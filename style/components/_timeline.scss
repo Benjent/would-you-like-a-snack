@@ -1,0 +1,39 @@
+#timelineVue {
+    display: flex;
+    align-items: flex-start;
+    width: 100vw;
+    // height: 300px;
+    overflow-x: scroll;
+    position: fixed;
+    bottom: 0;
+    // border-top: solid $borderThick $gold;
+    // cursor: grab;
+    .album-wrapper {
+        display: contents;
+        .album-cover {
+            height: 180px;
+            width: 180px;
+            border-top: solid $borderThick $gold;
+            margin-top: 20px;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+        .album-year {
+            $albumYearWidth: 95px;
+            // writing-mode: vertical-rl;
+            // // text-orientation: upright;
+            // transform: rotateZ(180deg);
+            text-align: center;
+            z-index: 1;
+            background: $black;
+            color: $gold;
+            padding: 5px 20px;
+            display: table;
+            width: $albumYearWidth;
+            margin-right: -$albumYearWidth;
+            border: solid $borderThin $gold;
+            box-sizing: border-box;
+        }
+    }
+}

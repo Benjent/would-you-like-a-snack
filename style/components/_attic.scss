@@ -1,0 +1,57 @@
+#atticVue {
+    $albumHeight: 220px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: $headerHeight + $borderThick + $albumHeight + 30px 20px 50px 20px;
+
+    // Dirty hack
+    #player {
+        display: none;
+    }
+
+    .album-wrapper {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        height: $albumHeight;
+        width: $albumHeight;
+        &:hover {
+            .album-infos {
+                opacity: 1;
+                top: $albumHeight;
+                cursor: pointer;
+            }
+        }
+        .album-infos {
+            font-size: 1.2rem;
+            position: relative;
+            // top: (220px * 0.5) + (78px * 0.5);
+            // margin-top: -(220px * 0.5) - (78px * 0.5);
+            top: $albumHeight * 2;
+            margin-top: -$albumHeight * 2;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: $albumHeight; // Syncrhonize value
+            text-align: center;
+            background: rgba(0, 0, 0, 0.7);
+            opacity: 0;
+            transition: top 0.2s, opacity 0.2s;
+            .album-rating {
+                font-style: italic;
+                font-weight: bold;
+                border-top: solid;
+                border-bottom: solid;
+            }
+        }
+        img {
+            height: $albumHeight;
+            width: $albumHeight;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}

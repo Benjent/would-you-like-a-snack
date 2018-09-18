@@ -1,0 +1,39 @@
+#gemsVue {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: $headerHeight + 30px 20px 50px 20px;
+
+    .album-wrapper {
+        display: flex;
+        border-bottom: solid 1px;
+        width: 80%;
+        padding: 100px;
+        &:last-of-type {
+            border: none;
+        }
+        &:nth-child(even) {
+            flex-direction: row-reverse;
+            text-align: right;
+        }
+        .album-cover {
+            margin: 0 30px;
+            cursor: pointer;
+            display: block;
+            width: 300px;
+            height: 300px;
+            box-shadow: 0px 0px 500px -50px $gold;
+            border: solid 5px $gold;
+        }
+        .album-infos {
+            display: flex;
+            flex-direction: column;
+            .album-description {
+                font-style: italic;
+                font-size: 1.6rem;
+                margin: auto 50px;
+            }
+        }
+    }
+}
