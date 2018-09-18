@@ -170,8 +170,9 @@ body {
   font-family: 'Oswald', sans-serif;
   font-size: 25px;
   color: #a18a54;
-  background: #030504;
-  height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #030504), color-stop(90%, #1c3a3e));
+  background: linear-gradient(#030504 10%, #1c3a3e 90%);
+  background-attachment: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

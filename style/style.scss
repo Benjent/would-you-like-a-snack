@@ -24,8 +24,12 @@ body {
     font-size: 25px;
     color: $gold;
 
-    background: $black;
-    height: 100vh;
+    // background: $black;
+    // background: linear-gradient($dark 10%, $ocean 90%);
+    background: linear-gradient($black 10%, $ocean 90%);
+    // background-repeat: no-repeat;
+    background-attachment: fixed;
+    // height: 100vh;
 
     display: flex;
     flex-direction: column;
