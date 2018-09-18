@@ -6,15 +6,22 @@
     margin-top: $headerHeight;
 
     .buttons {
-        margin-top: 50px;
+        margin-top: 100px;
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 100%;
+        align-self: center;
 
         .arrow-wrapper {
-            height: 100px;
-            width: 100px;
+            // Arrow wrapper is needed to always center even if an arrow is missing
+            height: 50px;
+            width: 50px;
+            @include button;
+            &:hover {
+                // Workaround because we load an img not directly an svg element
+                border-radius: 50%;
+                @include button-hover;
+            }
             .arrow {
                 height: 100%;
                 width: 100%;
@@ -25,6 +32,10 @@
             .arrow-next {
                 transform: rotate(180deg);
             }
+        }
+
+        #randomButton {
+            margin: 0 50px;
         }
     }
 
