@@ -2,7 +2,8 @@
 @import 'reset';
 
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow');
+// @import url('https://fonts.googleapis.com/css?family=Archivo+Narrow');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
 
 // Colors
 @import 'colors';
@@ -11,75 +12,27 @@
 @import 'values';
 
 // Components
-@import 'components';
+@import 'link';
+@import 'button';
+@import 'vinyl';
+@import 'header';
 
 // Style
 
 body {
-    font-family: 'Archivo Narrow', sans-serif;
-    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
     color: $gold;
 
     background: $black;
-    // overflow-x: hidden;
-
+    background-repeat: no-repeat;
     height: 100vh;
-    width: 100vw;
 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-header {
-    height: $headerHeight;
-    background-position: 50%;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    width: 100vw;
-    // margin-bottom: 50px;
-    background: $black;
-    border-bottom: solid 10px $gold;
-    padding: 0 20px;
-    box-sizing: border-box;
-
-    button {
-        width: auto;
-        &.button-active {
-            color: $black;
-            background: $gold;
-            pointer-events: none;
-        }
-    }
-
-    #snackHeader {
-        cursor: pointer;
-    }
-
-    #left {
-        display: flex;
-        align-items: center;
-        width: 30%;
-        #gemsButton {
-            margin-left: 20px;
-        }
-    }
-
-    #right {
-        width: 30%;
-        display: flex;
-        justify-content: flex-end;
-
-        #statsButton {
-            margin-right: 20px;
-        }
-    }
-}
 
 // albumVue
 
@@ -202,11 +155,11 @@ header {
 // atticVue
 
 #atticVue {
+    $albumHeight: 220px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: $headerHeight + 30px 20px 50px 20px;
-    margin-top: $headerHeight * 1.5;
+    padding: $headerHeight + $borderThick + $albumHeight + 30px 20px 50px 20px;
 
     // Dirty hack
     #player {
@@ -214,7 +167,6 @@ header {
     }
 
     .album-wrapper {
-        $albumHeight: 220px;
         display: flex;
         flex-direction: column;
         position: relative;
@@ -380,12 +332,7 @@ header {
         font-size: 1.6rem;
     }
 
-    header {
-        height: $headerHeight-small;
-    }
-
     #albumVue {
-        margin-top: $headerHeight-small;
         #randomButton {
             margin-top: 40px;
         }
@@ -399,7 +346,7 @@ header {
     }
 
     #atticVue {
-        padding-top: $headerHeight-small + 30px;
+        padding-top: $headerHeight + 30px;
     }
 }
 

@@ -1776,6 +1776,18 @@ const albums = [
     // **************************************** F **************************************** //
     // ********************************************************************************** //
     {
+        "id": "faust_faust",
+        "title": "Faust",
+        "artist": "Faust",
+        "year": 1971,
+        "country": "Germany",
+        "cover": pathToCovers + "/faust_faust.jpg",
+        "criteria": [5, 6, 7, 8, 18, 20],
+        "selectedTrackTitle": "Miss Fortune",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=Yu9MehUlLgo",
+        "isAGem": false
+    },
+    {
         "id": "fm_black_noise",
         "title": "Black Noise",
         "artist": "FM",
@@ -5164,8 +5176,7 @@ const albums = [
 /*  
 The allman brothers band sur l'album Win, Lose or Draw a High Falls
 Banco Del Mutuo Soccorso   
-Delirium  
-Faust    
+Delirium      
 Fruupp  
 Jane  
 Nektar   
