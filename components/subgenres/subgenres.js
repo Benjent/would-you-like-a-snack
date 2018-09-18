@@ -11,73 +11,19 @@ Vue.component('subgenres', {
                     v-on:click="$emit('album-click', subgenre.mostRepresentativeAlbum)"
                     v-bind:src=subgenre.mostRepresentativeAlbum.cover alt="">
 
-                <span>{{subgenre.name}}</span>
-                <blockquote class="subgenre-description">{{subgenre.description}}</blockquote>
-            </div>
-            <div class="subgenre-wrapper">
-                <span>Canterbury School</span>
-                Caravan
-            </div>
-            <div class="subgenre-wrapper">
-                <span>New Age</span>
-                Zanov, Tangerine Dream
-            </div>
-            <div class="subgenre-wrapper">
-                <span>Jazz</span>
-                Gong, Zappa
-            </div>
-            
-            <div class="subgenre-wrapper">
-                <span>Symphonic</span>
-                Yes
-            </div>
-            <div class="subgenre-wrapper">
-                <span>Avant-Prog</span>
-                Henry Cow, Area
-            </div>
-            <div class="subgenre-wrapper">
-                <span>Psychedelic</span>
-                Zappa, Can
-            </div>
-            <div class="subgenre-wrapper">
-                <span>Electro Rock</span>
-                Elo, Alan Parsons
-            </div>
-            <div class="subgenre-wrapper">
-                <span>Eclectic</span>
-                Bubu, Gentle Giant
-            </div>
-            <div class="subgenre-wrapper">
-                <span>Zeuhl</span>
-                Magma, Weidorje
-            </div>
-            <div class="subgenre-wrapper">
-                <span>Heavy</span>
-                Uriah Heep, Rainbow
-            </div>
-            <div class="subgenre-wrapper">
-                <span>Folk</span>
-                Spifogyra
-            </div>
-            <div class="subgenre-wrapper">
-                <span>Renaissance</span>
-                Semiramis
-            </div>
-            <div class="subgenre-wrapper">
-                <span>Space Rock</span>
-                Hawkwind, Ozric
-            </div>
-            <div class="subgenre-wrapper">
-                <span>Opera/Fanfare</span>
-                Queen, Arthur Brown, Jesus CHrist SUperstar, Butteffly ball
-            </div>
-            <div class="subgenre-wrapper">
-                <span>Neo-Prog</span>
-                Marillion
-            </div>
-            <div class="subgenre-wrapper">
-                <span>Fantasy</span>
-                paint a picture, book of talyesin
+                <div
+                    class="subgenre-infos">
+
+                    <span>{{subgenre.name}}</span>
+                    <blockquote class="subgenre-description">{{subgenre.description}}</blockquote>
+                    <img
+                        class="album-cover"
+                        v-for="album in subgenre.albums"
+                        v-bind:albumId="album.id"
+                        v-on:click="$emit('album-click', album)"
+                        v-bind:src=album.cover alt="">
+
+                </div>
             </div>
         </section>
     `,

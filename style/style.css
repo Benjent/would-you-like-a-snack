@@ -474,6 +474,9 @@ header #snackHeader {
 }
 
 #subgenresVue .subgenre-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   border-bottom: solid 1px;
   width: 80%;
   padding: 100px;
@@ -489,6 +492,38 @@ header #snackHeader {
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
   text-align: right;
+}
+
+#subgenresVue .subgenre-wrapper .most-representative {
+  margin: 0 30px;
+  cursor: pointer;
+  display: block;
+  width: 300px;
+  height: 300px;
+  -webkit-box-shadow: 0px 0px 500px -50px #a18a54;
+          box-shadow: 0px 0px 500px -50px #a18a54;
+  border: solid 5px #a18a54;
+}
+
+#subgenresVue .subgenre-wrapper .subgenre-infos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#subgenresVue .subgenre-wrapper .subgenre-infos .subgenre-description {
+  font-style: italic;
+  font-size: 1.6rem;
+  margin: auto 50px;
+}
+
+#subgenresVue .subgenre-wrapper .subgenre-infos .album-cover {
+  width: 150px;
+  height: 150px;
 }
 
 #statsVue {
