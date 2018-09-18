@@ -1,0 +1,32 @@
+#statsVue {
+    margin: 0 auto;
+    padding: $headerHeight + 30px 20px 50px 20px;
+    width: 60vw;
+    text-align: justify;
+
+    .numbers {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 20px 0 50px 0;
+    }
+
+    .tables {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .gauge-column {
+            width: 400px;
+        }
+        .albumsPerCategory {
+            .albumsPerCategory-nbOfAlbums {
+                padding: 5px;
+                .gauge {
+                    padding: 0px 6px;
+                    min-width: 7%;
+                    background: $gold;
+                    color: $black
+                }
+            }
+        }
+    }
+}

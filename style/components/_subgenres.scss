@@ -1,0 +1,20 @@
+
+#subgenresVue {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: $headerHeight + 30px 20px 50px 20px;
+    .subgenre-wrapper {
+        border-bottom: solid 1px;
+        width: 80%;
+        padding: 100px;
+        &:last-of-type {
+            border: none;
+        }
+        &:nth-child(even) {
+            flex-direction: row-reverse;
+            text-align: right;
+        }
+    }
+}

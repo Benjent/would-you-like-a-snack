@@ -50,10 +50,10 @@ a:hover, a:focus {
 }
 
 button {
-  border: solid 3px #a18a54;
-  padding: 5px 20px;
   background: #030504;
   background-size: 400%;
+  border: solid 3px #a18a54;
+  padding: 5px 20px;
   display: block;
 }
 
@@ -166,24 +166,6 @@ header #snackHeader {
   cursor: pointer;
 }
 
-body {
-  font-family: 'Oswald', sans-serif;
-  font-size: 25px;
-  color: #a18a54;
-  background: #030504;
-  height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
 #albumVue {
   width: 100vw;
   display: -webkit-box;
@@ -200,7 +182,7 @@ body {
 }
 
 #albumVue .buttons {
-  margin-top: 50px;
+  margin-top: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -210,12 +192,17 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 100%;
+  -ms-flex-item-align: center;
+      align-self: center;
 }
 
 #albumVue .buttons .arrow-wrapper {
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
+}
+
+#albumVue .buttons .arrow-wrapper:hover {
+  border-radius: 50%;
 }
 
 #albumVue .buttons .arrow-wrapper .arrow {
@@ -230,6 +217,10 @@ body {
 #albumVue .buttons .arrow-wrapper .arrow-next {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
+}
+
+#albumVue .buttons #randomButton {
+  margin: 0 50px;
 }
 
 #albumVue .content {
@@ -250,9 +241,13 @@ body {
   width: 45%;
 }
 
-#albumVue .content .album-metadata .album-title, #albumVue .content .album-metadata .album-selected-track {
+#albumVue .content .album-metadata .album-title {
   font-style: italic;
   font-size: 2rem;
+}
+
+#albumVue .content .album-metadata .album-selected-track {
+  font-style: italic;
 }
 
 #albumVue .content .album-metadata #player {
@@ -275,24 +270,6 @@ body {
 
 #albumVue .content .album-criteria {
   width: 45%;
-}
-
-#albumVue footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: fixed;
-  bottom: 0;
-  border-top: solid 10px #a18a54;
-}
-
-#albumVue footer img {
-  height: 9.09091vw;
-  width: 9.09091vw;
-}
-
-#albumVue footer img:hover {
-  cursor: pointer;
 }
 
 #timelineVue {
@@ -479,6 +456,41 @@ body {
   margin: auto 50px;
 }
 
+#subgenresVue {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 133px 20px 50px 20px;
+}
+
+#subgenresVue .subgenre-wrapper {
+  border-bottom: solid 1px;
+  width: 80%;
+  padding: 100px;
+}
+
+#subgenresVue .subgenre-wrapper:last-of-type {
+  border: none;
+}
+
+#subgenresVue .subgenre-wrapper:nth-child(even) {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  text-align: right;
+}
+
 #statsVue {
   margin: 0 auto;
   padding: 133px 20px 50px 20px;
@@ -531,6 +543,25 @@ body {
   text-align: justify;
 }
 
+body {
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  color: #a18a54;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #030504), color-stop(90%, #1c3a3e));
+  background: linear-gradient(#030504 10%, #1c3a3e 90%);
+  background-attachment: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 @media (max-width: 1500px) {
   body {
     font-size: 1.4rem;
@@ -551,9 +582,6 @@ body {
 @media (max-height: 850px) {
   body {
     font-size: 1.6rem;
-  }
-  #albumVue #randomButton {
-    margin-top: 40px;
   }
   #albumVue .content .album-cover-wrapper {
     width: 260px;

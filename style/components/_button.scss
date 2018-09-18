@@ -1,0 +1,32 @@
+@keyframes GradientWave {
+    0%{background-position:0% 50%}
+    100%{background-position:100% 50%}
+}
+
+@mixin button {
+    background: $black;
+    background-size: 400%;
+}
+
+@mixin button-hover {
+    // background: linear-gradient(141deg, $ocean 10%, $brown 90%);
+    background: linear-gradient(141deg, $black 0%, $ocean 70%, $brown 90%);
+    background-size: 250%;
+    background-position: 100%;
+    animation: GradientWave 0.2s ease;
+}
+
+button {
+    // width: 200px;
+    @include button;
+    border: solid $borderThin $gold;
+    padding: 5px 20px;
+    display: block;
+
+    &:hover {
+        cursor: pointer;
+        // background: $gold;
+        // color: $black;
+        @include button-hover;
+    }
+}

@@ -21,6 +21,12 @@ Vue.component('the-nav-bar', {
                     Absolute gems
                 </button>
                 <button
+                    id="subgenresButton"
+                    v-bind:class="{'button-active': currentVue == 'subgenres'}"
+                    v-on:click="$emit('set-current-vue', 'subgenres')">
+                    Subgenres
+                </button>
+                <button
                     id="statsButton"
                     v-bind:class="{'button-active': currentVue == 'stats'}"
                     v-on:click="$emit('set-current-vue', 'stats')">
