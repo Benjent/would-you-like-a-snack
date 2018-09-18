@@ -248,9 +248,13 @@ header #snackHeader {
   width: 45%;
 }
 
-#albumVue .content .album-metadata .album-title, #albumVue .content .album-metadata .album-selected-track {
+#albumVue .content .album-metadata .album-title {
   font-style: italic;
   font-size: 2rem;
+}
+
+#albumVue .content .album-metadata .album-selected-track {
+  font-style: italic;
 }
 
 #albumVue .content .album-metadata #player {

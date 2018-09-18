@@ -48,9 +48,12 @@
         .album-metadata {
             text-align: right;
             width: 45%;
-            .album-title, .album-selected-track {
+            .album-title {
                 font-style: italic;
                 font-size: 2rem;
+            }
+            .album-selected-track {
+                font-style: italic;
             }
 
             #player {
