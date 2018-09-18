@@ -10,13 +10,19 @@
     // cursor: grab;
     .album-wrapper {
         display: contents;
-        .album-cover {
+        .album-placeholder {
             height: 180px;
             width: 180px;
+            background: $gold;
             border-top: solid $borderThick $gold;
             margin-top: 20px;
-            &:hover {
-                cursor: pointer;
+            display: block;
+            .album-cover {
+                height: 180px;
+                width: 180px;
+                &:hover {
+                    cursor: pointer;
+                }
             }
         }
         .album-year {

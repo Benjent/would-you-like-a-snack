@@ -20,7 +20,9 @@ const subgenres = [
         "description": "TODO",
         "mostRepresentativeAlbum": getAlbumById("caravan_in_the_land_of_grey_and_pink"),
         "albums": [
-
+            getAlbumById("national_health_national_health"),
+            getAlbumById("soft_machine_third"),
+            getAlbumById("jethro_tull_thick_as_a_brick")
         ]
     },
     {

@@ -17,12 +17,14 @@ Vue.component('timeline', {
                     {{album.year}}
                 </div>
 
-                <img
-                    class="album-cover"
-                    v-bind:album-id="album.id"
-                    v-bind:src=album.cover
-                    v-on:click="$emit('album-click', album)"
-                    alt="">
+                <div class="album-placeholder">
+                    <img
+                        class="album-cover"
+                        v-bind:album-id="album.id"
+                        v-bind:src=album.cover
+                        v-on:click="$emit('album-click', album)"
+                        alt="">
+                </div>
 
             </div>
 

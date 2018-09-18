@@ -16,12 +16,15 @@ Vue.component('subgenres', {
 
                     <span>{{subgenre.name}}</span>
                     <blockquote class="subgenre-description">{{subgenre.description}}</blockquote>
-                    <img
-                        class="album-cover"
-                        v-for="album in subgenre.albums"
-                        v-bind:albumId="album.id"
-                        v-on:click="$emit('album-click', album)"
-                        v-bind:src=album.cover alt="">
+                    
+                    <div class="albums">
+                        <img
+                            class="album-cover"
+                            v-for="album in subgenre.albums"
+                            v-bind:albumId="album.id"
+                            v-on:click="$emit('album-click', album)"
+                            v-bind:src=album.cover alt="">
+                    </div>
 
                 </div>
             </div>

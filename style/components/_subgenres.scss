@@ -34,9 +34,12 @@
                 font-size: 1.6rem;
                 margin: auto 50px;
             }
-            .album-cover {
-                width: 150px;
-                height: 150px;
+            .albums {
+                display: flex;
+                .album-cover {
+                    width: 120px;
+                    height: 120px;
+                }
             }
         }
     }
