@@ -75,7 +75,8 @@ Vue.component('album', {
     },
     computed: {
         arrowPath() {
-            return pathToImg + "/arrow.svg"
+            // return pathToImg + "/arrow.svg"
+            return pathToImg + "/arrow-borderless.svg"
         },
         computedCriteria() {
             let computedCriteria = []

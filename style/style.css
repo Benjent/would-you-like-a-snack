@@ -199,17 +199,10 @@ header #snackHeader {
 #albumVue .buttons .arrow-wrapper {
   height: 50px;
   width: 50px;
-  background: #030504;
-  background-size: 400%;
 }
 
 #albumVue .buttons .arrow-wrapper:hover {
   border-radius: 50%;
-  background: linear-gradient(141deg, #030504 0%, #1c3a3e 70%, #674e47 90%);
-  background-size: 250%;
-  background-position: 100%;
-  -webkit-animation: GradientWave 0.2s ease;
-          animation: GradientWave 0.2s ease;
 }
 
 #albumVue .buttons .arrow-wrapper .arrow {
@@ -461,6 +454,41 @@ header #snackHeader {
   font-style: italic;
   font-size: 1.6rem;
   margin: auto 50px;
+}
+
+#subgenresVue {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 133px 20px 50px 20px;
+}
+
+#subgenresVue .subgenre-wrapper {
+  border-bottom: solid 1px;
+  width: 80%;
+  padding: 100px;
+}
+
+#subgenresVue .subgenre-wrapper:last-of-type {
+  border: none;
+}
+
+#subgenresVue .subgenre-wrapper:nth-child(even) {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  text-align: right;
 }
 
 #statsVue {

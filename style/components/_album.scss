@@ -16,11 +16,11 @@
             // Arrow wrapper is needed to always center even if an arrow is missing
             height: 50px;
             width: 50px;
-            @include button;
+            // @include button;
             &:hover {
                 // Workaround because we load an img not directly an svg element
                 border-radius: 50%;
-                @include button-hover;
+                // @include button-hover;
             }
             .arrow {
                 height: 100%;
