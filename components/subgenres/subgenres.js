@@ -1,6 +1,19 @@
 Vue.component('subgenres', {
     template: `
         <section id="subgenresVue">
+            <div
+                class="subgenre-wrapper"
+                v-for="subgenre in subgenres">
+
+                <img
+                    class="album-cover most-representative"
+                    v-bind:albumId="subgenre.mostRepresentativeAlbum.id"
+                    v-on:click="$emit('album-click', subgenre.mostRepresentativeAlbum)"
+                    v-bind:src=subgenre.mostRepresentativeAlbum.cover alt="">
+
+                <span>{{subgenre.name}}</span>
+                <blockquote class="subgenre-description">{{subgenre.description}}</blockquote>
+            </div>
             <div class="subgenre-wrapper">
                 <span>Canterbury School</span>
                 Caravan
@@ -13,10 +26,7 @@ Vue.component('subgenres', {
                 <span>Jazz</span>
                 Gong, Zappa
             </div>
-            <div class="subgenre-wrapper">
-                <span>Art Pop</span>
-                Supertramp
-            </div>
+            
             <div class="subgenre-wrapper">
                 <span>Symphonic</span>
                 Yes
@@ -73,6 +83,7 @@ Vue.component('subgenres', {
     `,
     data: function () {
         return {
+            subgenres: subgenres
         }
     }
 })

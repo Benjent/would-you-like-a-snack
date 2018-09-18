@@ -1565,7 +1565,7 @@ const albums = [
         "selectedTrackTitle": "Ticket To The Moon",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=CJdZTNLkpuA",
         "isAGem": true,
-        "description": "TODO"
+        "description": "Jeff Lynne takes us into a futuristic romantic story where a man enters the year 2095 and compares his new life with his old one with nostalgia, in the same place that has now drastically changed. Each track borrows a lot of different musical styles such as Disco, New Wave and Reggae, but the album remains heavily Synth-Pop oriented with strong Electro-Rock roots."
     },
     {
         "id": "eloy_eloy",
@@ -4670,6 +4670,18 @@ const albums = [
         "isAGem": false
     },
     {
+        "id": "thalassa_suffer_and_misery",
+        "title": "Suffer And Misery",
+        "artist": "Thalassa",
+        "year": 1982,
+        "country": "France",
+        "cover": pathToCovers + "/thalassa_suffer_and_misery.jpg",
+        "criteria": [3, 10, 11, 20],
+        "selectedTrackTitle": "Far From Me",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=o6IZVtde0Es",
+        "isAGem": false
+    },
+    {
         "id": "titus_groan_titus_groan",
         "title": "Titus Groan",
         "artist": "Titus Groan",
@@ -5169,7 +5181,16 @@ const albums = [
         "selectedTrackTitle": "Colours",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=OJbotZE5lV4"
     }
-]
+];
+
+function getAlbumById(id) {
+    for (let i = 0; i < albums.length; i++) {
+        if(albums[i].id == id) {
+            albums[i].index = i;
+            return albums[i];
+        }
+    }
+}
 
 // Below is the list of prog artists that I listened and should be part of this project
 // TODO fill some discographies of artists that are already here

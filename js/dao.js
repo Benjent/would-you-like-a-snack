@@ -1,7 +1,7 @@
 // Artists
-let artists = [];
-let albumsPerYear = {};
-let albumsPerCountry = {};
+const artists = [];
+const albumsPerYear = {};
+const albumsPerCountry = {};
 let gemsNb = 0;
 
 for (let i = 0; i < albums.length; i++) {
@@ -38,18 +38,11 @@ const Db = {
     albumsPerYear: albumsPerYear,
     albumsPerCountry: albumsPerCountry,
     gemsNb: gemsNb,
-    albumsSortedByYear: albumsSortedByYear
+    albumsSortedByYear: albumsSortedByYear,
+    subgenres: subgenres
 }
 
 // Other
-function getAlbumById(id) {
-    for (let i = 0; i < albums.length; i++) {
-        if(albums[i].id == id) {
-            albums[i].index = i;
-            return albums[i];
-        }
-    }
-}
 
 function getRandomAlbumsByLength(numberOfAlbumsInRandomVue, idToAvoid) {
 
