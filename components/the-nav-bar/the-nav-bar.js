@@ -2,7 +2,12 @@ Vue.component('the-nav-bar', {
     props: ['currentVue'],
     template: `
         <header>
-            <div id="left">
+            <h1
+                id="snackHeader"
+                v-on:click="$emit('set-current-vue', 'album')">
+                Would you like a snack
+            </h1>
+            <div id="menu">
                 <button
                     id="atticButton"
                     v-bind:class="{'button-active': currentVue == 'attic'}"
@@ -15,13 +20,6 @@ Vue.component('the-nav-bar', {
                     v-on:click="$emit('set-current-vue', 'gems')">
                     Absolute gems
                 </button>
-            </div>
-            <h1
-                id="snackHeader"
-                v-on:click="$emit('set-current-vue', 'album')">
-                Would you like a snack
-            </h1>
-            <div id="right">
                 <button
                     id="statsButton"
                     v-bind:class="{'button-active': currentVue == 'stats'}"
