@@ -1,5 +1,5 @@
 header {
-    height: $headerHeight;
+    // height: $headerHeight;
 
     display: flex;
     flex-direction: column;
@@ -17,8 +17,15 @@ header {
     padding: 0 20px;
     box-sizing: border-box;
 
+    #snackHeader {
+        margin: 10px 0 -10px 0;
+        cursor: pointer;
+    }
+
     #menu {
         display: flex;
+        position: relative;
+        top: 30px;
         button {
             width: auto;
             border-right-width: 0;
@@ -31,9 +38,5 @@ header {
                 border-right-width: $borderThin;
             }
         }
-    }
-
-    #snackHeader {
-        cursor: pointer;
     }
 }

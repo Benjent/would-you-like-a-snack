@@ -116,7 +116,6 @@ button:hover {
 }
 
 header {
-  height: 103px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -141,10 +140,17 @@ header {
           box-sizing: border-box;
 }
 
+header #snackHeader {
+  margin: 10px 0 -10px 0;
+  cursor: pointer;
+}
+
 header #menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
+  top: 30px;
 }
 
 header #menu button {
@@ -160,10 +166,6 @@ header #menu button.button-active {
 
 header #menu button:last-of-type {
   border-right-width: 3px;
-}
-
-header #snackHeader {
-  cursor: pointer;
 }
 
 #albumVue {
