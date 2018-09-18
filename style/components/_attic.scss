@@ -3,7 +3,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: $headerHeight + $borderThick + $albumHeight + 30px 20px 50px 20px;
+    padding: $headerHeight + $borderThick + $albumHeight + 50px 20px 50px 20px;
 
     // Dirty hack
     #player {

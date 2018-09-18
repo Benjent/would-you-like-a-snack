@@ -291,14 +291,21 @@ header #menu button:last-of-type {
   display: contents;
 }
 
-#timelineVue .album-wrapper .album-cover {
+#timelineVue .album-wrapper .album-placeholder {
   height: 180px;
   width: 180px;
+  background: #a18a54;
   border-top: solid 6px #a18a54;
   margin-top: 20px;
+  display: block;
 }
 
-#timelineVue .album-wrapper .album-cover:hover {
+#timelineVue .album-wrapper .album-placeholder .album-cover {
+  height: 180px;
+  width: 180px;
+}
+
+#timelineVue .album-wrapper .album-placeholder .album-cover:hover {
   cursor: pointer;
 }
 
@@ -325,7 +332,7 @@ header #menu button:last-of-type {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 359px 20px 50px 20px;
+  padding: 379px 20px 50px 20px;
 }
 
 #atticVue #player {
@@ -523,14 +530,20 @@ header #menu button:last-of-type {
   margin: auto 50px;
 }
 
-#subgenresVue .subgenre-wrapper .subgenre-infos .album-cover {
-  width: 150px;
-  height: 150px;
+#subgenresVue .subgenre-wrapper .subgenre-infos .albums {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#subgenresVue .subgenre-wrapper .subgenre-infos .albums .album-cover {
+  width: 120px;
+  height: 120px;
 }
 
 #statsVue {
   margin: 0 auto;
-  padding: 133px 20px 50px 20px;
+  padding: 153px 20px 50px 20px;
   width: 60vw;
   text-align: justify;
 }
@@ -575,7 +588,7 @@ header #menu button:last-of-type {
 
 #aboutVue {
   margin: 0 auto;
-  padding: 133px 20px 50px 20px;
+  padding: 153px 20px 50px 20px;
   width: 60vw;
   text-align: justify;
 }
