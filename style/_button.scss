@@ -1,0 +1,13 @@
+button {
+    // width: 200px;
+    border: solid $borderThin $gold;
+    padding: 5px 20px;
+    background: $black;
+    display: block;
+
+    &:hover {
+        cursor: pointer;
+        background: $gold;
+        color: $black; 
+    }
+}

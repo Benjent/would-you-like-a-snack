@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Archivo+Narrow");
+@import url("https://fonts.googleapis.com/css?family=Oswald");
 body {
   border: 0;
   margin: 0;
@@ -19,8 +19,15 @@ button {
   padding: 0;
 }
 
+a {
+  color: #d7e4da;
+}
+
+a:hover, a:focus {
+  color: #d7e4da;
+}
+
 button {
-  width: 200px;
   border: solid 3px #a18a54;
   padding: 5px 20px;
   background: #030504;
@@ -31,14 +38,6 @@ button:hover {
   cursor: pointer;
   background: #a18a54;
   color: #030504;
-}
-
-a {
-  color: #d7e4da;
-}
-
-a:hover, a:focus {
-  color: #d7e4da;
 }
 
 @-webkit-keyframes spinning {
@@ -70,6 +69,7 @@ a:hover, a:focus {
   width: 100vw;
   height: 100vh;
   z-index: -1;
+  display: none;
 }
 
 #spinningVinylWrapper .spinning {
@@ -89,13 +89,8 @@ a:hover, a:focus {
           filter: grayscale(20%);
 }
 
-body {
-  font-family: 'Archivo Narrow', sans-serif;
-  font-size: 2rem;
-  color: #a18a54;
-  background: #030504;
-  height: 100vh;
-  width: 100vw;
+header {
+  height: 103px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -106,18 +101,6 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-
-header {
-  height: 150px;
-  background-position: 50%;
-  text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -125,53 +108,55 @@ header {
   z-index: 1;
   top: 0;
   width: 100vw;
-  background: #030504;
-  border-bottom: solid 10px #a18a54;
+  background: linear-gradient(141deg, #1c3a3e 10%, #674e47 90%);
+  border-bottom: solid 6px #a18a54;
   padding: 0 20px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
-header button {
-  width: auto;
+header #menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-header button.button-active {
+header #menu button {
+  width: auto;
+  border-right-width: 0;
+}
+
+header #menu button.button-active {
   color: #030504;
   background: #a18a54;
   pointer-events: none;
+}
+
+header #menu button:last-of-type {
+  border-right-width: 3px;
 }
 
 header #snackHeader {
   cursor: pointer;
 }
 
-header #left {
+body {
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  color: #a18a54;
+  background: #030504;
+  background-repeat: no-repeat;
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 30%;
-}
-
-header #left #gemsButton {
-  margin-left: 20px;
-}
-
-header #right {
-  width: 30%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-
-header #right #statsButton {
-  margin-right: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 #albumVue {
@@ -186,7 +171,7 @@ header #right #statsButton {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 150px;
+  margin-top: 103px;
 }
 
 #albumVue .buttons {
@@ -329,8 +314,8 @@ header #right #statsButton {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 180px 20px 50px 20px;
-  margin-top: 225px;
+  padding: 133px 20px 50px 20px;
+  margin-top: 154.5px;
 }
 
 #atticVue #player {
@@ -412,7 +397,7 @@ header #right #statsButton {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 180px 20px 50px 20px;
+  padding: 133px 20px 50px 20px;
 }
 
 #gemsVue .album-wrapper {
@@ -465,7 +450,7 @@ header #right #statsButton {
 
 #statsVue {
   margin: 0 auto;
-  padding: 180px 20px 50px 20px;
+  padding: 133px 20px 50px 20px;
   width: 60vw;
   text-align: justify;
 }
@@ -510,7 +495,7 @@ header #right #statsButton {
 
 #aboutVue {
   margin: 0 auto;
-  padding: 180px 20px 50px 20px;
+  padding: 133px 20px 50px 20px;
   width: 60vw;
   text-align: justify;
 }
@@ -536,12 +521,6 @@ header #right #statsButton {
   body {
     font-size: 1.6rem;
   }
-  header {
-    height: 100px;
-  }
-  #albumVue {
-    margin-top: 100px;
-  }
   #albumVue #randomButton {
     margin-top: 40px;
   }
@@ -551,6 +530,6 @@ header #right #statsButton {
     margin: 20px;
   }
   #atticVue {
-    padding-top: 130px;
+    padding-top: 133px;
   }
 }
