@@ -110,7 +110,8 @@ const subgenres = [
             getAlbumById("zanov_in_course_of_time"),
             getAlbumById("tangerine_dream_phaedra"),
             getAlbumById("ralph_lundsten_alpha_ralpha_boulevard"),
-            getAlbumById("anna_sjalv_tredje_tussilago_fanfara")
+            getAlbumById("anna_sjalv_tredje_tussilago_fanfara"),
+            getAlbumById("vangelis_beaubourg")
         ]
     },
     {

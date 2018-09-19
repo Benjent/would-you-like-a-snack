@@ -5132,6 +5132,18 @@ const albums = [
         "isAGem": false
     },
     {
+        "id": "vangelis_albedo_039",
+        "title": "Albedo 0.39",
+        "artist": "Vangelis",
+        "year": 1976,
+        "country": "Greece",
+        "cover": pathToCovers + "/vangelis_albedo_039.jpg",
+        "criteria": [6, 10, 44],
+        "selectedTrackTitle": "Pulstar",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=G1cQnhOxqXw",
+        "isAGem": false
+    },
+    {
         "id": "vangelis_spiral",
         "title": "Spiral",
         "artist": "Vangelis",
@@ -5140,6 +5152,18 @@ const albums = [
         "cover": pathToCovers + "/vangelis_spiral.jpg",
         "criteria": [6, 10, 44],
         "selectedTrackTitle": "Spiral",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=iW_qGMRmJAw",
+        "isAGem": false
+    },
+    {
+        "id": "vangelis_beaubourg",
+        "title": "Beaubourg",
+        "artist": "Vangelis",
+        "year": 1978,
+        "country": "Greece",
+        "cover": pathToCovers + "/vangelis_beaubourg.jpg",
+        "criteria": [5, 6, 8, 10, 44],
+        "selectedTrackTitle": "Beaubourg (Part I)",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=iW_qGMRmJAw",
         "isAGem": false
     },
