@@ -2727,6 +2727,18 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=374qf7xCFkY",
         "isAGem": false
     },
+    {
+        "id": "herbie_hancock_thrust",
+        "title": "Thrust",
+        "artist": "Herbie Hancock",
+        "year": 1974,
+        "country": "USA",
+        "cover": pathToCovers + "/herbie_hancock_thrust.jpg",
+        "criteria": [3, 6, 7, 11, 20, 23, 42],
+        "selectedTrackTitle": "Butterfly",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=knbmKDUYDXc",
+        "isAGem": false
+    },
     // ************************************************************************************ //
     // **************************************** I **************************************** //
     // ********************************************************************************** //
@@ -2819,6 +2831,42 @@ const albums = [
     // **************************************** J **************************************** //
     // ********************************************************************************** //
     {
+        "id": "jade_warrior_jade_warrior",
+        "title": "Jade Warrior",
+        "artist": "Jade Warrior",
+        "year": 1971,
+        "country": "England",
+        "cover": pathToCovers + "/jade_warrior_jade_warrior.jpg",
+        "criteria": [1, 11, 13, 15],
+        "selectedTrackTitle": "Sundial Song",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=0JqujXC4HgQ",
+        "isAGem": false
+    },
+    {
+        "id": "jade_warrior_released",
+        "title": "Released",
+        "artist": "Jade Warrior",
+        "year": 1971,
+        "country": "England",
+        "cover": pathToCovers + "/jade_warrior_released.jpg",
+        "criteria": [1, 11, 13, 15, 19],
+        "selectedTrackTitle": "Water Curtain Cave",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=eNV_7E2P_ok",
+        "isAGem": false
+    },
+    {
+        "id": "jade_warrior_last_autumns_dream",
+        "title": "Last Autumn's Dream",
+        "artist": "Jade Warrior",
+        "year": 1972,
+        "country": "England",
+        "cover": pathToCovers + "/jade_warrior_last_autumns_dream.jpg",
+        "criteria": [1, 6, 11, 13, 15],
+        "selectedTrackTitle": "Morning Hymn",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=ArrIZD5Hklc",
+        "isAGem": false
+    },
+    {
         "id": "jade_warrior_floating_world",
         "title": "Floating World",
         "artist": "Jade Warrior",
@@ -2834,13 +2882,25 @@ const albums = [
         "id": "jade_warrior_waves",
         "title": "Waves",
         "artist": "Jade Warrior",
-        "year": 1976,
+        "year": 1975,
         "country": "England",
         "cover": pathToCovers + "/jade_warrior_waves.jpg",
         "criteria": [1, 6, 8, 9, 11, 13, 14, 15, 19],
         "selectedTrackTitle": "Waves (Part II)",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=uGYpyLxDzlk",
         "isAGem": false
+    },
+    {
+        "id": "jade_warrior_kites",
+        "title": "Kites",
+        "artist": "Jade Warrior",
+        "year": 1976,
+        "country": "England",
+        "cover": pathToCovers + "/jade_warrior_kites.jpg",
+        "criteria": [1, 6, 9, 11, 13, 14, 15, 19],
+        "selectedTrackTitle": "Wind Song",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=y4m76cJXZmo",
+        "isAGem": false,
     },
     {
         "id": "jade_warrior_way_of_the_sun",
@@ -4212,6 +4272,66 @@ const albums = [
         "isAGem": false
     },
     {
+        "id": "return_to_forever_return_to_forever",
+        "title": "Return To Forever",
+        "artist": "Return To Forever",
+        "year": 1972,
+        "country": "USA",
+        "cover": pathToCovers + "/return_to_forever_return_to_forever.jpg",
+        "criteria": [3, 6, 7, 8, 11, 23, 42],
+        "selectedTrackTitle": "Crystal Silence",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=69rjdr7SR0Q",
+        "isAGem": false
+    },
+    {
+        "id": "return_to_forever_light_as_a_feather",
+        "title": "Light As A Feather",
+        "artist": "Return To Forever",
+        "year": 1972,
+        "country": "USA",
+        "cover": pathToCovers + "/return_to_forever_light_as_a_feather.jpg",
+        "criteria": [7, 23, 42],
+        "selectedTrackTitle": "Spain",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=a_OEJ0wqt2g",
+        "isAGem": false
+    },
+    {
+        "id": "return_to_forever_hymn_of_the_seventh_galaxy",
+        "title": "Hymn Of The Seventh Galaxy",
+        "artist": "Return To Forever",
+        "year": 1973,
+        "country": "USA",
+        "cover": pathToCovers + "/return_to_forever_hymn_of_the_seventh_galaxy.jpg",
+        "criteria": [3, 4, 6, 7, 23, 42],
+        "selectedTrackTitle": "After The Cosmic Rain",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=MWPo6oqHvJ8",
+        "isAGem": false
+    },
+    {
+        "id": "return_to_forever_where_have_i_known_you_before",
+        "title": "Where Have I Known You Before",
+        "artist": "Return To Forever",
+        "year": 1974,
+        "country": "USA",
+        "cover": pathToCovers + "/return_to_forever_where_have_i_known_you_before.jpg",
+        "criteria": [3, 4, 6, 7, 23, 42],
+        "selectedTrackTitle": "Song To The Pharoah Kings",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=q-XDtjCwS9Q",
+        "isAGem": false
+    },
+    {
+        "id": "return_to_forever_no_mystery",
+        "title": "No Mystery",
+        "artist": "Return To Forever",
+        "year": 1975,
+        "country": "USA",
+        "cover": pathToCovers + "/return_to_forever_no_mystery.jpg",
+        "criteria": [3, 4, 6, 7, 23, 42],
+        "selectedTrackTitle": "Celebration Suite (Part I)",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=LBawRSufDlU",
+        "isAGem": false
+    },
+    {
         "id": "return_to_forever_romantic_warrior",
         "title": "Romantic Warrior",
         "artist": "Return To Forever",
@@ -5190,6 +5310,7 @@ function getAlbumById(id) {
             return albums[i];
         }
     }
+    console.error("Unable to find album with id: ", id);
 }
 
 // Below is the list of prog artists that I listened and should be part of this project

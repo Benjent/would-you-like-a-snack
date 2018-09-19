@@ -540,6 +540,7 @@ header #menu button:last-of-type {
 #subgenresVue .subgenre-wrapper .subgenre-infos .albums .album-cover {
   width: 120px;
   height: 120px;
+  cursor: pointer;
 }
 
 #statsVue {
