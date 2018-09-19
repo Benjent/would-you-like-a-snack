@@ -57,7 +57,8 @@ const subgenres = [
         "mostRepresentativeAlbum": getAlbumById("deep_purple_the_book_of_taliesyn"),
         "albums": [
             getAlbumById("the_moody_blues_days_of_future_passed"),
-            getAlbumById("the_beatles_yellow_submarine")
+            getAlbumById("the_beatles_yellow_submarine"),
+            getAlbumById("pink_floyd_the_piper_at_the_gates_of_dawn")
             // Fantasy paint a picture
             // Procol Harum
         ]
@@ -118,7 +119,8 @@ const subgenres = [
         "mostRepresentativeAlbum": getAlbumById("marillion_script_for_a_jesters_tear"),
         "albums": [
             getAlbumById("king_crimson_three_of_a_perfect_pair"),
-            getAlbumById("low_flying_aircraft_low_flying_aircraft")
+            getAlbumById("low_flying_aircraft_low_flying_aircraft"),
+            getAlbumById("camel_nude")
         ]
     },
     {
@@ -141,7 +143,8 @@ const subgenres = [
             getAlbumById("sweet_smoke_just_a_poke"),
             getAlbumById("frank_zappa_were_only_in_it_for_the_money"),
             getAlbumById("amon_duul_paradieswarts_duul"),
-            getAlbumById("the_incredible_string_band_the_5000_spirits_or_the_layers_of_the_onion")
+            getAlbumById("the_incredible_string_band_the_5000_spirits_or_the_layers_of_the_onion"),
+            getAlbumById("jefferson_airplane_crown_of_creation")
         ]
     },
     {

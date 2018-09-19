@@ -223,6 +223,30 @@ const albums = [
         "isAGem": false
     },
     {
+        "id": "ange_caricatures",
+        "title": "Caricatures",
+        "artist": "Ange",
+        "year": 1972,
+        "country": "France",
+        "cover": pathToCovers + "/ange_caricatures.jpg",
+        "criteria": [8, 10, 18, 33, 37, 43, 45],
+        "selectedTrackTitle": "Dignité",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=C9u3KWEi7Us",
+        "isAGem": false
+    },
+    {
+        "id": "ange_le_cimetiere_des_arlequins",
+        "title": "Le Cimetière Des Arlequins",
+        "artist": "Ange",
+        "year": 1973,
+        "country": "France",
+        "cover": pathToCovers + "/ange_le_cimetiere_des_arlequins.jpg",
+        "criteria": [10, 18, 33, 37, 43, 45],
+        "selectedTrackTitle": "Aujourd'hui C'est La Fête Chez L'apprenti Sorcier",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=f2S7J9eXuTQ",
+        "isAGem": false
+    },
+    {
         "id": "ange_au_dela_du_delire",
         "title": "Au-Delà Du Délire",
         "artist": "Ange",
@@ -2153,18 +2177,6 @@ const albums = [
         "isAGem": false
     },
     {
-        "id": "fuhrs_and_frohling_ammerland",
-        "title": "Ammerland",
-        "artist": "Führs & Fröhling",
-        "year": 1978,
-        "country": "Germany",
-        "cover": pathToCovers + "/fuhrs_and_frohling_ammerland.jpg",
-        "criteria": [6, 8, 21, 44],
-        "selectedTrackTitle": "Ammerland",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=RV0RD6SthNI",
-        "isAGem": false
-    },
-    {
         "id": "fuchsia_fuchsia",
         "title": "Fuchsia",
         "artist": "Fuchsia",
@@ -2174,6 +2186,18 @@ const albums = [
         "criteria": [11, 18, 46],
         "selectedTrackTitle": "The Nothing Song",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=MRlr3WYNVjA",
+        "isAGem": false
+    },
+    {
+        "id": "fuhrs_and_frohling_ammerland",
+        "title": "Ammerland",
+        "artist": "Führs & Fröhling",
+        "year": 1978,
+        "country": "Germany",
+        "cover": pathToCovers + "/fuhrs_and_frohling_ammerland.jpg",
+        "criteria": [6, 8, 21, 44],
+        "selectedTrackTitle": "Ammerland",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=RV0RD6SthNI",
         "isAGem": false
     },
     {
@@ -2494,6 +2518,18 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=G0tsWMzmr-c",
         "isAGem": true,
         "description": "TODO"
+    },
+    {
+        "id": "gong_expresso_II",
+        "title": "Expresso II !",
+        "artist": "Gong",
+        "year": 1976,
+        "country": "France",
+        "cover": pathToCovers + "/gong_expresso_II.jpg",
+        "criteria": [3, 6, 11, 15, 23, 42],
+        "selectedTrackTitle": "Golden Dilemma",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=59jLXceqQsc",
+        "isAGem": false
     },
     {
         "id": "grateful_dead_anthem_of_the_sun",
@@ -2962,6 +2998,18 @@ const albums = [
         "criteria": [7, 46],
         "selectedTrackTitle": "Bourée",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=N2RNe2jwHE0",
+        "isAGem": false
+    },
+    {
+        "id": "jethro_tull_benefit",
+        "title": "Benefit",
+        "artist": "Jethro Tull",
+        "year": 1970,
+        "country": "England",
+        "cover": pathToCovers + "/jethro_tull_benefit.jpg",
+        "criteria": [7, 46],
+        "selectedTrackTitle": "For Michael Collins, Jeffrey and Me",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=b2GTNhmPbtg",
         "isAGem": false
     },
     {
@@ -3879,6 +3927,18 @@ const albums = [
         "isAGem": false
     },
     {
+        "id": "pink_floyd_the_piper_at_the_gates_of_dawn",
+        "title": "The Piper At The Gates Of Dawn",
+        "artist": "Pink Floyd",
+        "year": 1967,
+        "country": "England",
+        "cover": pathToCovers + "/pink_floyd_the_piper_at_the_gates_of_dawn.jpg",
+        "criteria": [18, 35],
+        "selectedTrackTitle": "Interstellar Overdrive",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=4o2sA0vpA-4",
+        "isAGem": false
+    },
+    {
         "id": "pink_floyd_a_saucerful_of_secrets",
         "title": "A Saucerful Of Secrets",
         "artist": "Pink Floyd",
@@ -4050,6 +4110,18 @@ const albums = [
         "description": "TODO"
     },
     {
+        "id": "pulsar_halloween",
+        "title": "Halloween",
+        "artist": "Pulsar",
+        "year": 1977,
+        "country": "France",
+        "cover": pathToCovers + "/pulsar_halloween.jpg",
+        "criteria": [3, 6, 8, 11, 18, 20, 31, 37],
+        "selectedTrackTitle": "Halloween (Part I)",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=2yD0VxZgobo",
+        "isAGem": false
+    },
+    {
         "id": "pythagoras_journey_to_the_vast_unknown",
         "title": "Journey To The Vast Unknown",
         "artist": "Pythagoras",
@@ -4098,6 +4170,30 @@ const albums = [
         "criteria": [9, 17, 43, 45],
         "selectedTrackTitle": "In The Lap Of The Gods... Revisited",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=ieXcPZC0MJk",
+        "isAGem": false
+    },
+    {
+        "id": "queen_a_night_at_the_opera",
+        "title": "A Night At The Opera",
+        "artist": "Queen",
+        "year": 1975,
+        "country": "England",
+        "cover": pathToCovers + "/queen_a_night_at_the_opera.jpg",
+        "criteria": [17, 43, 45, 48],
+        "selectedTrackTitle": "Bohemian Rhapsody",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=fJ9rUzIMcZQ",
+        "isAGem": false
+    },
+    {
+        "id": "queen_a_day_at_the_races",
+        "title": "A Day At The Races",
+        "artist": "Queen",
+        "year": 1976,
+        "country": "England",
+        "cover": pathToCovers + "/queen_a_day_at_the_races.jpg",
+        "criteria": [17, 43, 45, 48],
+        "selectedTrackTitle": "Somebody To Love",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=kijpcUv-b8M",
         "isAGem": false
     },
     {
@@ -4888,6 +4984,18 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=uIy3WOK2-iY",
         "isAGem": false
     },
+    {    
+        "id": "ultimate_spinach_behold_and_see",
+        "title": "Behold & See",
+        "artist": "Ultimate Spinach",
+        "year": 1968,
+        "country": "USA",
+        "cover": pathToCovers + "/ultimate_spinach_behold_and_see.jpg",
+        "criteria": [7, 18, 22],
+        "selectedTrackTitle": "Mind Flowers",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=eoj6au1h6m0",
+        "isAGem": false
+    },
     {
         "id": "urban_sax_urban_sax",
         "title": "Urban Sax",
@@ -5167,6 +5275,30 @@ const albums = [
     // **************************************** Y **************************************** //
     // ********************************************************************************** //
     {
+        "id": "yes_yes",
+        "title": "Yes",
+        "artist": "Yes",
+        "year": 1969,
+        "country": "England",
+        "cover": pathToCovers + "/yes_yes.jpg",
+        "criteria": [10, 22],
+        "selectedTrackTitle": "Beyond & Before",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=YFcxNnKZGNU",
+        "isAGem": false
+    },
+    {
+        "id": "yes_time_and_a_word",
+        "title": "Time And A Word",
+        "artist": "Yes",
+        "year": 1970,
+        "country": "England",
+        "cover": pathToCovers + "/yes_time_and_a_word.jpg",
+        "criteria": [10, 22],
+        "selectedTrackTitle": "Astral Traveller",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=q0aXTN_AeKw",
+        "isAGem": false
+    },
+    {
         "id": "yes_the_yes_album",
         "title": "The Yes Album",
         "artist": "Yes",
@@ -5317,7 +5449,8 @@ function getAlbumById(id) {
 // TODO fill some discographies of artists that are already here
 /*  
 The allman brothers band sur l'album Win, Lose or Draw a High Falls
-Banco Del Mutuo Soccorso   
+Banco Del Mutuo Soccorso
+Can   
 Delirium      
 Fruupp  
 Jane  
