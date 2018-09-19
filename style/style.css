@@ -245,7 +245,7 @@ header #menu button:last-of-type {
 
 #albumVue .content .album-metadata .album-title {
   font-style: italic;
-  font-size: 2rem;
+  font-size: 32px;
 }
 
 #albumVue .content .album-metadata .album-selected-track {
@@ -282,7 +282,9 @@ header #menu button:last-of-type {
       -ms-flex-align: start;
           align-items: flex-start;
   width: 100vw;
+  height: 23vh;
   overflow-x: scroll;
+  overflow-y: hidden;
   position: fixed;
   bottom: 0;
 }
@@ -292,8 +294,8 @@ header #menu button:last-of-type {
 }
 
 #timelineVue .album-wrapper .album-placeholder {
-  height: 180px;
-  width: 180px;
+  height: 23vh;
+  width: 23vh;
   background: #a18a54;
   border-top: solid 6px #a18a54;
   margin-top: 20px;
@@ -301,8 +303,7 @@ header #menu button:last-of-type {
 }
 
 #timelineVue .album-wrapper .album-placeholder .album-cover {
-  height: 180px;
-  width: 180px;
+  height: 100%;
 }
 
 #timelineVue .album-wrapper .album-placeholder .album-cover:hover {
@@ -614,13 +615,13 @@ body {
 
 @media (max-width: 1500px) {
   body {
-    font-size: 1.4rem;
+    font-size: 20px;
   }
 }
 
 @media (max-width: 1100px) {
   body {
-    font-size: 1rem;
+    font-size: 20px;
   }
   #albumVue .content .album-cover-wrapper {
     width: 260px;
@@ -629,16 +630,53 @@ body {
   }
 }
 
+@media (max-width: 740px) {
+  header #snackHeader {
+    font-size: 32px;
+    margin: 5px 0 -15px 0;
+  }
+  header #menu {
+    font-size: 15px;
+  }
+}
+
 @media (max-height: 850px) {
   body {
-    font-size: 1.6rem;
+    font-size: 20px;
+  }
+  #albumVue .buttons {
+    margin-top: 60px;
   }
   #albumVue .content .album-cover-wrapper {
     width: 260px;
     height: 260px;
     margin: 20px;
+    border-width: 4px;
   }
   #atticVue {
     padding-top: 133px;
+  }
+  #timelineVue .album-wrapper .album-year {
+    font-size: 15px;
+    width: 75px;
+    margin-right: -75px;
+  }
+}
+
+@media (max-height: 600px) {
+  #albumVue .content .album-cover-wrapper {
+    width: 130px;
+    height: 130px;
+    margin: 20px;
+    border-width: 3px;
+  }
+  #albumVue .content .album-metadata {
+    font-size: 15px;
+  }
+  #albumVue .content .album-metadata .album-title {
+    font-size: 16px;
+  }
+  #albumVue .content .album-criteria {
+    font-size: 15px;
   }
 }

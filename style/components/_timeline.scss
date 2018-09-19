@@ -1,9 +1,11 @@
 #timelineVue {
+    $timelineHeight: 23vh;
     display: flex;
     align-items: flex-start;
     width: 100vw;
-    // height: 300px;
+    height: $timelineHeight;
     overflow-x: scroll;
+    overflow-y: hidden;
     position: fixed;
     bottom: 0;
     // border-top: solid $borderThick $gold;
@@ -11,15 +13,16 @@
     .album-wrapper {
         display: contents;
         .album-placeholder {
-            height: 180px;
-            width: 180px;
+            height: $timelineHeight;
+            width: $timelineHeight;
             background: $gold;
             border-top: solid $borderThick $gold;
             margin-top: 20px;
             display: block;
             .album-cover {
-                height: 180px;
-                width: 180px;
+                // height: 180px;
+                // width: 180px;
+                height: 100%;
                 &:hover {
                     cursor: pointer;
                 }
