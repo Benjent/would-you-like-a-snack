@@ -26,7 +26,6 @@ const subgenres = [
         "mostRepresentativeAlbum": getAlbumById("caravan_in_the_land_of_grey_and_pink"),
         "albums": [
             getAlbumById("national_health_national_health"),
-            getAlbumById("soft_machine_third"),
             getAlbumById("jethro_tull_thick_as_a_brick")
         ]
     },
@@ -48,7 +47,8 @@ const subgenres = [
             getAlbumById("electric_light_orchestra_time"),
             getAlbumById("asia_asia"),
             getAlbumById("happy_the_man_happy_the_man"),
-            getAlbumById("ml_bongers_project_pacific_prison")
+            getAlbumById("ml_bongers_project_pacific_prison"),
+            getAlbumById("triumvirat_spartacus")
         ]
     },
     {
@@ -57,7 +57,8 @@ const subgenres = [
         "mostRepresentativeAlbum": getAlbumById("deep_purple_the_book_of_taliesyn"),
         "albums": [
             getAlbumById("the_moody_blues_days_of_future_passed"),
-            getAlbumById("the_beatles_yellow_submarine")
+            getAlbumById("the_beatles_yellow_submarine"),
+            getAlbumById("pink_floyd_the_piper_at_the_gates_of_dawn")
             // Fantasy paint a picture
             // Procol Harum
         ]
@@ -109,7 +110,9 @@ const subgenres = [
             getAlbumById("zanov_in_course_of_time"),
             getAlbumById("tangerine_dream_phaedra"),
             getAlbumById("ralph_lundsten_alpha_ralpha_boulevard"),
-            getAlbumById("anna_sjalv_tredje_tussilago_fanfara")
+            getAlbumById("anna_sjalv_tredje_tussilago_fanfara"),
+            getAlbumById("vangelis_beaubourg"),
+            getAlbumById("pythagoras_journey_to_the_vast_unknown")
         ]
     },
     {
@@ -118,7 +121,9 @@ const subgenres = [
         "mostRepresentativeAlbum": getAlbumById("marillion_script_for_a_jesters_tear"),
         "albums": [
             getAlbumById("king_crimson_three_of_a_perfect_pair"),
-            getAlbumById("low_flying_aircraft_low_flying_aircraft")
+            getAlbumById("low_flying_aircraft_low_flying_aircraft"),
+            getAlbumById("camel_nude"),
+            getAlbumById("eskaton_4_visions")
         ]
     },
     {
@@ -141,7 +146,9 @@ const subgenres = [
             getAlbumById("sweet_smoke_just_a_poke"),
             getAlbumById("frank_zappa_were_only_in_it_for_the_money"),
             getAlbumById("amon_duul_paradieswarts_duul"),
-            getAlbumById("the_incredible_string_band_the_5000_spirits_or_the_layers_of_the_onion")
+            getAlbumById("the_incredible_string_band_the_5000_spirits_or_the_layers_of_the_onion"),
+            getAlbumById("jefferson_airplane_crown_of_creation"),
+            getAlbumById("ultimate_spinach_ultimate_spinach")
         ]
     },
     {
