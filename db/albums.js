@@ -948,7 +948,7 @@ const albums = [
         "selectedTrackTitle": "La Forma De Tu Vita",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=npJ--wejC6c",
         "isAGem": true,
-        "description": "TODO"
+        "description": "The band decides to go against the flow by composing their first album entirely acoustic, brightened up by soft keyboard parts. Song after song, a relieving sentiment is carried through gentle, almost delicate music, with nearly hummed vocal melodies."
     },
     // ************************************************************************************ //
     // **************************************** C **************************************** //
@@ -1074,6 +1074,18 @@ const albums = [
         "criteria": [8, 18, 42],
         "selectedTrackTitle": "Mushroom",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=T_9LJCKOvQE",
+        "isAGem": false
+    },
+    {
+        "id": "can_ege_bamyasi",
+        "title": "Ege Bamyasi",
+        "artist": "Can",
+        "year": 1972,
+        "country": "Germany",
+        "cover": pathToCovers + "/can_ege_bamyasi.jpg",
+        "criteria": [18, 19],
+        "selectedTrackTitle": "Vitamin C",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=YmN9oHa3ZIQ",
         "isAGem": false
     },
     {
@@ -2052,7 +2064,7 @@ const albums = [
         "selectedTrackTitle": "Father O'blivion",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=2XO7xSwYVZI",
         "isAGem": true,
-        "description": "TODO"
+        "description": "The first part of the album tells the story of a dream Frank Zappa had: as Nanook the eskimo, Zappa encounters eccentric happennings foretold by a foolish prophecy, eventually atending a crazy breakfast party. The whole album is soaked with a bluesy mood, spiced-up with psychedelic music and Jazz parts using a large asset of instruments, and topped with funny lyrics."
     },
     {
         "id": "frank_zappa_roxy_and_elsewhere",
@@ -4665,6 +4677,18 @@ const albums = [
         "isAGem": false
     },
     {
+        "id": "spring_spring",
+        "title": "Spring",
+        "artist": "Spring",
+        "year": 1971,
+        "country": "England",
+        "cover": pathToCovers + "/spring_spring.jpg",
+        "criteria": [10, 21, 22],
+        "selectedTrackTitle": "Golden Fleece",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=BuP9_sMgu8I",
+        "isAGem": false
+    },
+    {
         "id": "starcastle_starcastle",
         "title": "Starcastle",
         "artist": "Starcastle",
@@ -5477,6 +5501,7 @@ Banco Del Mutuo Soccorso
 Can   
 Delirium      
 Fruupp  
+Gryphon
 Jane  
 Nektar   
 Neu!
