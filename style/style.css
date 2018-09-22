@@ -265,6 +265,12 @@ header #menu .search-wrapper #searchResult .search-result-item {
           align-items: center;
 }
 
+header #menu .search-wrapper #searchResult .search-result-item:hover {
+  cursor: pointer;
+  background: #a18a54;
+  color: #030504;
+}
+
 header #menu .search-wrapper #searchResult .search-result-item .album-cover {
   width: 30px;
   height: 30px;

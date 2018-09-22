@@ -36,7 +36,8 @@
             <the-nav-bar
                 v-bind:current-vue="currentVue"
                 v-bind:db="db"
-                v-on:set-current-vue="setCurrentVue">
+                v-on:set-current-vue="setCurrentVue"
+                v-on:album-click="setAlbumVueAndSelectAlbum">
             </the-nav-bar>
 
             <div id="spinningVinylWrapper">

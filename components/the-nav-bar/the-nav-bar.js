@@ -56,7 +56,8 @@ Vue.component('the-nav-bar', {
                         v-if="matchingAlbums.length > 0">
                         <div
                             class="search-result-item"
-                            v-for="album in matchingAlbums">
+                            v-for="album in matchingAlbums"
+                            v-on:click="selectSearchResult(album)">
 
                             <img
                                 class="album-cover"
@@ -104,6 +105,10 @@ Vue.component('the-nav-bar', {
         resetSearch: function() {
             this.currentSearch = '';
             this.matchingAlbums = [];
+        },
+        selectSearchResult: function(album) {
+            this.$emit('album-click', album);
+            this.resetSearch();
         }
     }
 })
