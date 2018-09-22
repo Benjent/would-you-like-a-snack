@@ -15,3 +15,21 @@ $specialInfoFontSize: 32px;
 $headerFontSizeSmall: 30px;
 $mainFontSizeSmall: 20px;
 $specialInfoFontSizeSmall: 26px;
+
+@mixin albumCover {
+    width: 300px;
+    height: 300px;
+    border: solid 5px $gold;
+}
+
+@mixin albumCoverMedium {
+    width: 260px;
+    height: 260px;
+    border: solid 4px $gold;
+}
+
+@mixin albumCoverSmall {
+    width: 130px;
+    height: 130px;
+    border: solid 3px $gold;
+}

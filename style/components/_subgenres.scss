@@ -18,13 +18,11 @@
             text-align: right;
         }
         .most-representative {
+            @include albumCover;
             margin: 0 30px;
             cursor: pointer;
             display: block;
-            width: 300px;
-            height: 300px;
             box-shadow: 0px 0px 500px -50px $gold;
-            border: solid 5px $gold;
         }
         .subgenre-infos {
             display: flex;

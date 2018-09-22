@@ -16,7 +16,7 @@ Vue.component('gems', {
                     class="album-infos"
                     v-bind:albumId="album.id">
 
-                    <span>{{album.artist}} - {{album.title}} ({{album.year}})</span>
+                    <span class="album-title">{{album.artist}} - {{album.title}} ({{album.year}})</span>
                     <blockquote class="album-description">{{album.description}}</blockquote>
                     
                 </div>
