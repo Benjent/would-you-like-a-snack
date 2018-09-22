@@ -102,6 +102,18 @@ const albums = [
         "isAGem": false
     },
     {
+        "id": "the_alan_parsons_project_eye_in_the_sky",
+        "title": "Eye In The Sky",
+        "artist": "The Alan Parsons Project",
+        "year": 1982,
+        "country": "England",
+        "cover": pathToCovers + "/the_alan_parsons_project_eye_in_the_sky.jpg",
+        "criteria": [1, 10, 11, 48, 53],
+        "selectedTrackTitle": "Silence And I",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=76n_uE_W31A",
+        "isAGem": false
+    },
+    {
         "id": "albatross_albatross",
         "title": "Albatross",
         "artist": "Albatross",
@@ -218,8 +230,8 @@ const albums = [
         "country": "USA",
         "cover": pathToCovers + "/ambrosia_somewhere_ive_never_travelled.jpg",
         "criteria": [3, 9, 10, 15, 22, 48],
-        "selectedTrackTitle": "Todo",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=Todo",
+        "selectedTrackTitle": "The Brunt",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=3y4-rbRYszY",
         "isAGem": false
     },
     {
@@ -1136,7 +1148,7 @@ const albums = [
         "selectedTrackTitle": "As The Moon Speaks (Part I)",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=wm61ROOZ5ek",
         "isAGem": true,
-        "description": "TODO"
+        "description": "A blend of Hard Rock, guitar-driven riffs interspersed with spacy moments, all with a flowing mise-en-abyme intensifying the music immersion. Larry Reinhardt's guitar playing alongside Rod Evan's vocals bring a stunning raw touch."
     },
     {
         "id": "captain_beyond_sufficiently_breathless",
@@ -2077,7 +2089,7 @@ const albums = [
         "selectedTrackTitle": "Echidna's Arf (Of You)",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=NeCGm8VipUU",
         "isAGem": true,
-        "description": "TODO"
+        "description": "At their peak of their creativity, The Mothers Of Inventions performed several live concerts at the Roxy in the late 1973. The album captures the absolute best of Frank Zappa's genius and the band's musicality and musicianship. From funny bits to lively Jazz Rock arrangements, all with a stunning sound, these memorable performances create a fantastic, joyful moment where every bandmate can display their fabulous skill in an organic way."
     },
     {
         "id": "frank_zappa_one_size_fits_all",
@@ -2174,7 +2186,7 @@ const albums = [
         "selectedTrackTitle": "A Token Of My Extreme",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=tnSF36PBxbk",
         "isAGem": true,
-        "description": "TODO"
+        "description": "Joe, a young guitarist, forms a band in his garage in a world repressed by the Central Scrutinizer, a clunky flying saucer whose role is to enforce the law. Frank Zappa presents Joe's story and struggles in this dystopian society, through music blending many genres, though very Pop Rock-driven (mocking the Rock fashion of the late 70's), and comical lyrics."
     },
     {
         "id": "frank_zappa_broadway_the_hard_way",

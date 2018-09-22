@@ -17,7 +17,8 @@ const subgenres = [
         "albums": [
             getAlbumById("area_arbeit_macht_frei"),
             getAlbumById("faust_faust"),
-            getAlbumById("baba_yaga_collage")
+            getAlbumById("baba_yaga_collage"),
+            getAlbumById("soft_machine_third")
         ]
     },
     {
