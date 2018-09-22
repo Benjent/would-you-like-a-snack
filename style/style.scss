@@ -48,26 +48,43 @@ body {
     body {
         font-size: $mainFontSizeSmall;
     }
+
+    #gemsVue {
+        .album-wrapper {
+            .album-infos {
+                .album-title {
+                    font-size: $specialInfoFontSizeSmall;
+                }
+                .album-description {
+                    font-size: $mainFontSizeSmall;
+                }
+            }
+        }
+    }
 }
 
 @media (max-width: 1100px) {
 
-    body {
-        font-size: $mainFontSizeSmall;
-    }
-
     #albumVue {
         .content {
             .album-cover-wrapper {
-                width: 260px;
-                height: 260px;
+                @include albumCoverMedium;
                 margin: 20px;
+            }
+        }
+    }
+
+    #gemsVue {
+        .album-wrapper {
+            .album-cover {
+                @include albumCoverMedium;
             }
         }
     }
 }
 
 @media (max-width: 740px) {
+
     header {
         #snackHeader {
             font-size: 32px;
@@ -75,6 +92,14 @@ body {
         }
         #menu {
             font-size: 15px;
+        }
+    }
+
+    #gemsVue {
+        .album-wrapper {
+            .album-cover {
+                @include albumCoverSmall;
+            }
         }
     }
 }
@@ -93,10 +118,8 @@ body {
         }
         .content {
             .album-cover-wrapper {
-                width: 260px;
-                height: 260px;
+                @include albumCoverMedium;
                 margin: 20px;
-                border-width: 4px;
             }
         }
     }
@@ -122,10 +145,8 @@ body {
     #albumVue {
         .content {
             .album-cover-wrapper {
-                width: 130px;
-                height: 130px;
+                @include albumCoverSmall;
                 margin: 20px;
-                border-width: 3px;
             }
             .album-metadata {
                 font-size: 15px;

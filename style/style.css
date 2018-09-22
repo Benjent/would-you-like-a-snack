@@ -309,8 +309,8 @@ header #menu button:last-of-type {
 #albumVue .content .album-cover-wrapper {
   width: 300px;
   height: 300px;
-  margin: 45px;
   border: solid 5px #a18a54;
+  margin: 45px;
 }
 
 #albumVue .content .album-cover-wrapper img {
@@ -488,14 +488,14 @@ header #menu button:last-of-type {
 }
 
 #gemsVue .album-wrapper .album-cover {
+  width: 300px;
+  height: 300px;
+  border: solid 5px #a18a54;
   margin: 0 30px;
   cursor: pointer;
   display: block;
-  width: 300px;
-  height: 300px;
   -webkit-box-shadow: 0px 0px 500px -50px #a18a54;
           box-shadow: 0px 0px 500px -50px #a18a54;
-  border: solid 5px #a18a54;
 }
 
 #gemsVue .album-wrapper .album-infos {
@@ -506,6 +506,10 @@ header #menu button:last-of-type {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+#gemsVue .album-wrapper .album-infos .album-title {
+  font-size: 32px;
 }
 
 #gemsVue .album-wrapper .album-infos .album-description {
@@ -553,14 +557,14 @@ header #menu button:last-of-type {
 }
 
 #subgenresVue .subgenre-wrapper .most-representative {
+  width: 300px;
+  height: 300px;
+  border: solid 5px #a18a54;
   margin: 0 30px;
   cursor: pointer;
   display: block;
-  width: 300px;
-  height: 300px;
   -webkit-box-shadow: 0px 0px 500px -50px #a18a54;
           box-shadow: 0px 0px 500px -50px #a18a54;
-  border: solid 5px #a18a54;
 }
 
 #subgenresVue .subgenre-wrapper .subgenre-infos {
@@ -666,16 +670,25 @@ body {
   body {
     font-size: 20px;
   }
+  #gemsVue .album-wrapper .album-infos .album-title {
+    font-size: 26px;
+  }
+  #gemsVue .album-wrapper .album-infos .album-description {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 1100px) {
-  body {
-    font-size: 20px;
-  }
   #albumVue .content .album-cover-wrapper {
     width: 260px;
     height: 260px;
+    border: solid 4px #a18a54;
     margin: 20px;
+  }
+  #gemsVue .album-wrapper .album-cover {
+    width: 260px;
+    height: 260px;
+    border: solid 4px #a18a54;
   }
 }
 
@@ -686,6 +699,11 @@ body {
   }
   header #menu {
     font-size: 15px;
+  }
+  #gemsVue .album-wrapper .album-cover {
+    width: 130px;
+    height: 130px;
+    border: solid 3px #a18a54;
   }
 }
 
@@ -699,8 +717,8 @@ body {
   #albumVue .content .album-cover-wrapper {
     width: 260px;
     height: 260px;
+    border: solid 4px #a18a54;
     margin: 20px;
-    border-width: 4px;
   }
   #atticVue {
     padding-top: 133px;
@@ -716,8 +734,8 @@ body {
   #albumVue .content .album-cover-wrapper {
     width: 130px;
     height: 130px;
+    border: solid 3px #a18a54;
     margin: 20px;
-    border-width: 3px;
   }
   #albumVue .content .album-metadata {
     font-size: 15px;

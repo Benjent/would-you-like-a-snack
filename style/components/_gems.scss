@@ -18,17 +18,18 @@
             text-align: right;
         }
         .album-cover {
+            @include albumCover;
             margin: 0 30px;
             cursor: pointer;
             display: block;
-            width: 300px;
-            height: 300px;
             box-shadow: 0px 0px 500px -50px $gold;
-            border: solid 5px $gold;
         }
         .album-infos {
             display: flex;
             flex-direction: column;
+            .album-title {
+                font-size: $specialInfoFontSize;
+            }
             .album-description {
                 font-style: italic;
                 font-size: 1.6rem;
