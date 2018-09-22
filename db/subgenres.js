@@ -150,7 +150,8 @@ const subgenres = [
             getAlbumById("amon_duul_paradieswarts_duul"),
             getAlbumById("the_incredible_string_band_the_5000_spirits_or_the_layers_of_the_onion"),
             getAlbumById("jefferson_airplane_crown_of_creation"),
-            getAlbumById("ultimate_spinach_ultimate_spinach")
+            getAlbumById("ultimate_spinach_ultimate_spinach"),
+            getAlbumById("may_blitz_may_blitz")
         ]
     },
     {
