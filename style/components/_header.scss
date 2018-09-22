@@ -35,7 +35,60 @@ header {
                 pointer-events: none;
             }
             &:last-of-type {
-                border-right-width: $borderThin;
+                // border-right-width: $borderThin; // No need if searchbar is at the end of the menu
+            }
+        }
+        .search-wrapper {
+            position: relative;
+            // Fix flex display bug in most browsers
+            display: flex;
+            flex-direction: column;
+            // max-height: 500px;
+            #searchBar {
+                background: linear-gradient($black 10%, $ocean 90%);
+                border: solid $borderThin $gold;
+                padding: 5px 20px;
+                color: $gold;
+            }
+
+            #resetSearch {
+                position: absolute;
+                top: 7px;
+                right: 10px;
+                cursor: pointer;
+                width: 40px;
+                height: 40px;
+            }
+        
+            #searchResult {
+                // height: 100%; 
+                max-height: 300px;               
+                width: 300px - $borderThin;
+                position: absolute;
+                top: 50px;
+                z-index: 5;
+                background: $black;
+                overflow-x: hidden;
+                overflow-y: auto;
+                border: solid $borderThin $gold;
+                padding: 0 20px 5px 0;
+                font-size: $mainFontSizeSmall;
+
+
+                .search-result-item {
+                    display: flex;
+                    align-items: center;
+                    .album-cover {
+                        width: 30px;
+                        height: 30px;
+                        margin-right: 5px;
+                    }
+                    .album-title {
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        overflow-x: hidden;
+                    }
+                }
             }
         }
     }
