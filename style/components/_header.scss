@@ -74,10 +74,14 @@ header {
                 padding: 0 20px 5px 0;
                 font-size: $mainFontSizeSmall;
 
-
                 .search-result-item {
                     display: flex;
                     align-items: center;
+                    &:hover {
+                        cursor: pointer;
+                        background: $gold;
+                        color: $black;
+                    }
                     .album-cover {
                         width: 30px;
                         height: 30px;
