@@ -2,14 +2,14 @@
 // ********** DEFAULT ********** //
 
 // Randomize default album
-const selectedAlbumId = Utils.randomize();
+const selectedAlbumId = Utils.randomize(albums.length);
 
 // Set default random albums
 const numberOfAlbumsInRandomVue = 11;
 
 const defaultValues = {
   currentVue: "album",
-  selectedAlbum: Utils.selectDefaultAlbum(selectedAlbumId),
+  selectedAlbum: Utils.selectDefaultAlbum(selectedAlbumId, albums),
   randomAlbums: getRandomAlbumsByLength(numberOfAlbumsInRandomVue, selectedAlbumId).slice(0)
 }
 

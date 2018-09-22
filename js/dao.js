@@ -50,7 +50,7 @@ function getRandomAlbumsByLength(numberOfAlbumsInRandomVue, idToAvoid) {
 
     // Make sure that the databse is big enough... Otherwise infinite loop
     while (randomAlbumIds.length < numberOfAlbumsInRandomVue) {
-        let randomId = Utils.randomize();
+        let randomId = Utils.randomize(albums.length);
         if(!randomAlbumIds.includes(randomId) && albums[randomId].id != idToAvoid) {
             randomAlbumIds.push(randomId);
         }

@@ -104,7 +104,7 @@ Vue.component('album', {
         randomizeAlbum: function() {
             let albumId = this.selectedAlbum.id;
             while(albumId == this.selectedAlbum.id) {
-              albumId = Utils.randomize(); // Randomize id
+              albumId = Utils.randomize(this.db.albums.length); // Randomize id
             }
             const randomizedAlbum = albums[albumId];
             this.$emit('album-click', randomizedAlbum);
