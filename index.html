@@ -33,7 +33,11 @@
 
         <div id="indexVue">
 
-            <the-nav-bar v-bind:current-vue="currentVue" v-on:set-current-vue="setCurrentVue"></the-nav-bar>
+            <the-nav-bar
+                v-bind:current-vue="currentVue"
+                v-bind:db="db"
+                v-on:set-current-vue="setCurrentVue">
+            </the-nav-bar>
 
             <div id="spinningVinylWrapper">
                 <img class="spinning-vinyl spinning" src="assets/img/vinyle_gold.png" alt="">

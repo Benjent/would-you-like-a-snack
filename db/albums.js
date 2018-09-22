@@ -1958,7 +1958,7 @@ const albums = [
     },
     {
         "id": "frank_zappa_uncle_meat",
-        "title": "We're Only In It For The Money",
+        "title": "Uncle Meat",
         "artist": "Frank Zappa",
         "year": 1968,
         "country": "USA",
