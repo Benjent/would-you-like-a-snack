@@ -841,13 +841,25 @@ const albums = [
         "description": "An album with music as iconic as its cover, once again carried by a splendid Lennon-McCartney composition. Side one happily delivers bluesy and pop music drenched in psychedelic mood while side two is a piece composed of puzzle tracks with orchestral parts and colorful alterations."
     },
     {
+        "id": "bedemon_child_of_darkness",
+        "title": "Child Of Darkness",
+        "artist": "Bedemon",
+        "year": 1974,
+        "country": regions.USA,
+        "cover": pathToCovers + "/bedemon_child_of_darkness.jpg",
+        "criteria": [criteria.ODD_RHYTHM, criteria.HEAVY, criteria.OCCULT],
+        "selectedTrackTitle": "Serpent Venom",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=hRCc-eCI2c8",
+        "isAGem": false
+    },
+    {
         "id": "black_sabbath_black_sabbath",
         "title": "Black Sabbath",
         "artist": "Black Sabbath",
         "year": 1970,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/black_sabbath_black_sabbath.jpg",
-        "criteria": [criteria.TRANSITION, criteria.HEAVY, criteria.OCCULT],
+        "criteria": [criteria.HEAVY, criteria.OCCULT],
         "selectedTrackTitle": "The Wizard",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=MeZ8uVIOIhM",
         "isAGem": false
@@ -859,7 +871,7 @@ const albums = [
         "year": 1970,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/black_sabbath_paranoid.jpg",
-        "criteria": [criteria.TRANSITION, criteria.HEAVY, criteria.OCCULT],
+        "criteria": [criteria.HEAVY, criteria.OCCULT],
         "selectedTrackTitle": "Jack The Stripper / Fairies Wear Boots",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=13BeI93Vuqk",
         "isAGem": true,
@@ -872,9 +884,9 @@ const albums = [
         "year": 1971,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/black_sabbath_master_of_reality.jpg",
-        "criteria": [criteria.TRANSITION, criteria.HEAVY, criteria.OCCULT],
-        "selectedTrackTitle": "TODO",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=TODO",
+        "criteria": [criteria.HEAVY, criteria.OCCULT],
+        "selectedTrackTitle": "Lord Of This World",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=KGRuKdowkcM",
         "isAGem": false
     },
     {
@@ -884,9 +896,9 @@ const albums = [
         "year": 1972,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/black_sabbath_vol_4.jpg",
-        "criteria": [criteria.TRANSITION, criteria.HEAVY, criteria.OCCULT],
-        "selectedTrackTitle": "TODO",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=TODO",
+        "criteria": [criteria.HEAVY, criteria.OCCULT],
+        "selectedTrackTitle": "Laguna Sunrise",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=4LVUHNeqZeI",
         "isAGem": false
     },
     {
@@ -896,9 +908,9 @@ const albums = [
         "year": 1973,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/black_sabbath_sabbath_bloody_sabbath.jpg",
-        "criteria": [criteria.TRANSITION, criteria.HEAVY, criteria.OCCULT],
-        "selectedTrackTitle": "TODO",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=TODO",
+        "criteria": [criteria.HEAVY, criteria.OCCULT],
+        "selectedTrackTitle": "Spiral Architect",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=lkx7SQ4Wuh0",
         "isAGem": false
     },
     {
@@ -3029,7 +3041,7 @@ const albums = [
         "cover": pathToCovers + "/island_pictures.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.SOPHISTICATED],
         "selectedTrackTitle": "Zero",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=TODO",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=JY4fRFeJOoE",
         "isAGem": true,
         "desciprion": "TODO"
     },
@@ -4671,6 +4683,18 @@ const albums = [
         "selectedTrackYtId": "https://www.youtube.com/watch?v=BTxp7cqrQjA",
         "isAGem": false
     },
+    {
+        "id": "roy_wood_mustard",
+        "title": "Mustard",
+        "artist": "Roy Wood",
+        "year": 1975,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/roy_wood_mustard.jpg",
+        "criteria": [criteria.ART_POP, criteria.BLENDS, criteria.BAROQUE, criteria.C_PSYCHEDELIC],
+        "selectedTrackTitle": "Get On Down Home",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=6n5Y25fE-f0",
+        "isAGem": false
+    },
     // ************************************************************************************ //
     // **************************************** S **************************************** //
     // ********************************************************************************** //
@@ -5668,10 +5692,12 @@ function getAlbumById(id) {
 /*  
 The allman brothers band sur l'album Win, Lose or Draw a High Falls
 Banco Del Mutuo Soccorso
+Bedemon
 Can   
 Delirium      
 Fruupp  
 Gryphon
+Iron Claw
 Jane  
 Kraftwerk  
 Nektar   
