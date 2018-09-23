@@ -1889,7 +1889,7 @@ const albums = [
         "year": 1970,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/emerson_lake_and_palmer_emerson_lake_and_palmer.jpg",
-        "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_PSYCHEDELIC, criteria.C_FOLK, 30],
+        "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_PSYCHEDELIC, criteria.C_FOLK, criteria.SPECTACULAR],
         "selectedTrackTitle": "Take A Pebble",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=tVz35uXqFYw",
         "isAGem": false
@@ -1901,7 +1901,7 @@ const albums = [
         "year": 1971,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/emerson_lake_and_palmer_tarkus.jpg",
-        "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_PSYCHEDELIC, criteria.C_FOLK, 30],
+        "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_PSYCHEDELIC, criteria.C_FOLK, criteria.SPECTACULAR],
         "selectedTrackTitle": "Tarkus",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=WKNOlDtZluU",
         "isAGem": false
@@ -4853,7 +4853,7 @@ const albums = [
         "year": 1976,
         "country": regions.USA,
         "cover": pathToCovers + "/starcastle_starcastle.jpg",
-        "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.GLITTER, criteria.C_ELECTRO, 30],
+        "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.GLITTER, criteria.C_ELECTRO, criteria.SPECTACULAR],
         "selectedTrackTitle": "Elliptical Seasons",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=sSZepYc219Y",
         "isAGem": false
@@ -4865,7 +4865,7 @@ const albums = [
         "year": 1977,
         "country": regions.USA,
         "cover": pathToCovers + "/starcastle_fountains_of_light.jpg",
-        "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.GLITTER, criteria.C_ELECTRO, 30],
+        "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.GLITTER, criteria.C_ELECTRO, criteria.SPECTACULAR],
         "selectedTrackTitle": "Silver Winds",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=0tmM4X3HnDk",
         "isAGem": false
@@ -4877,7 +4877,7 @@ const albums = [
         "year": 1977,
         "country": regions.USA,
         "cover": pathToCovers + "/starcastle_citadel.jpg",
-        "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.GLITTER, criteria.C_ELECTRO, 30],
+        "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.GLITTER, criteria.C_ELECTRO, criteria.SPECTACULAR],
         "selectedTrackTitle": "Wings Of White",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=Z8qyuL_wpXQ",
         "isAGem": false
@@ -5122,7 +5122,7 @@ const albums = [
         "year": 1972,
         "country": regions.GERMANY,
         "cover": pathToCovers + "/triumvirat_mediterranean_tales.jpg",
-        "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_ELECTRO, 30],
+        "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_ELECTRO, criteria.SPECTACULAR],
         "selectedTrackTitle": "Across The Waters",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=msni0_j51IU",
         "isAGem": false
@@ -5134,7 +5134,7 @@ const albums = [
         "year": 1973,
         "country": regions.GERMANY,
         "cover": pathToCovers + "/triumvirat_illusions_on_a_double_dimple.jpg",
-        "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_ELECTRO, 30],
+        "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_ELECTRO, criteria.SPECTACULAR],
         "selectedTrackTitle": "Mister Ten Percent",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=7VAA7M5nXx8",
         "isAGem": false
@@ -5511,7 +5511,7 @@ const albums = [
         "year": 1970,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/yes_the_yes_album.jpg",
-        "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, 10],
+        "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.GLITTER],
         "selectedTrackTitle": "Starship Trooper",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=DKftiJS30Cs",
         "isAGem": false
@@ -5535,7 +5535,7 @@ const albums = [
         "year": 1972,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/yes_close_to_the_edge.jpg",
-        "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.LENGHTY_TRACKS, criteria.GLITTER, criteria.SYMPHONIC, criteria.BLENDS, 30],
+        "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.LENGHTY_TRACKS, criteria.GLITTER, criteria.SYMPHONIC, criteria.BLENDS, criteria.SPECTACULAR],
         "selectedTrackTitle": "Siberian Khatru",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=r0HnIr6jYWU",
         "isAGem": true,
@@ -5560,7 +5560,7 @@ const albums = [
         "year": 1974,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/yes_relayer.jpg",
-        "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.LENGHTY_TRACKS, criteria.GLITTER, criteria.SYMPHONIC, criteria.BLENDS, 30],
+        "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.LENGHTY_TRACKS, criteria.GLITTER, criteria.SYMPHONIC, criteria.BLENDS, criteria.SPECTACULAR],
         "selectedTrackTitle": "The Gates Of Delirium",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=EdmUAsU2eXI",
         "isAGem": false
@@ -5572,7 +5572,7 @@ const albums = [
         "year": 1977,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/yes_going_for_the_one.jpg",
-        "criteria": [criteria.GLITTER, criteria.BLENDS, 30],
+        "criteria": [criteria.GLITTER, criteria.BLENDS, criteria.SPECTACULAR],
         "selectedTrackTitle": "Going For The One",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=f9GAkA7W5Qg",
         "isAGem": false
