@@ -349,7 +349,7 @@ const albums = [
         "year": 1972,
         "country": "Greece",
         "cover": pathToCovers + "/aphrodites_child_666.jpg",
-        "criteria": [1, 5, 6, 8, 9, 10, 15, 18, 20, 41],
+        "criteria": [1, 5, 6, 8, 9, 10, 15, 18, 20, 41, 55],
         "selectedTrackTitle": "The Lamb",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=hbTHgL4pu_A",
         "isAGem": false
@@ -696,6 +696,54 @@ const albums = [
         "isAGem": false
     },
     {
+        "id": "barclay_james_harvest_everyone_is_everybody_else",
+        "title": "Everyone Is Everybody Else",
+        "artist": "Barclay James Harvest",
+        "year": 1974,
+        "country": "England",
+        "cover": pathToCovers + "/barclay_james_harvest_everyone_is_everybody_else.jpg",
+        "criteria": [22],
+        "selectedTrackTitle": "Child Of The Universe",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=o93hYhytAmI",
+        "isAGem": false
+    },
+    {
+        "id": "barclay_james_harvest_time_honoured_ghosts",
+        "title": "Time Honoured Ghosts",
+        "artist": "Barclay James Harvest",
+        "year": 1975,
+        "country": "England",
+        "cover": pathToCovers + "/barclay_james_harvest_time_honoured_ghosts.jpg",
+        "criteria": [3, 10, 21, 22],
+        "selectedTrackTitle": "One Night",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=KCzVt3pd5gg",
+        "isAGem": false
+    },
+    {
+        "id": "barclay_james_harvest_octoberon",
+        "title": "Octoberon",
+        "artist": "Barclay James Harvest",
+        "year": 1976,
+        "country": "England",
+        "cover": pathToCovers + "/barclay_james_harvest_octoberon.jpg",
+        "criteria": [10, 22],
+        "selectedTrackTitle": "Ra",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=HOSZoUjaC9A",
+        "isAGem": false
+    },
+    {
+        "id": "barclay_james_harvest_gone_to_earth",
+        "title": "Gone To Earth",
+        "artist": "Barclay James Harvest",
+        "year": 1977,
+        "country": "England",
+        "cover": pathToCovers + "/barclay_james_harvest_gone_to_earth.jpg",
+        "criteria": [10, 22],
+        "selectedTrackTitle": "Sea Of Tranquility",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=-bf3x8Qynv8",
+        "isAGem": false
+    },
+    {
         "id": "be_bop_deluxe_axe_victim",
         "title": "Axe Victim",
         "artist": "Be-Bop Deluxe",
@@ -793,6 +841,67 @@ const albums = [
         "description": "An album with music as iconic as its cover, once again carried by a splendid Lennon-McCartney composition. Side one happily delivers bluesy and pop music drenched in psychedelic mood while side two is a piece composed of puzzle tracks with orchestral parts and colorful alterations."
     },
     {
+        "id": "black_sabbath_black_sabbath",
+        "title": "Black Sabbath",
+        "artist": "Black Sabbath",
+        "year": 1970,
+        "country": "England",
+        "cover": pathToCovers + "/black_sabbath_black_sabbath.jpg",
+        "criteria": [9, 40, 55],
+        "selectedTrackTitle": "The Wizard",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=MeZ8uVIOIhM",
+        "isAGem": false
+    },
+    {
+        "id": "black_sabbath_paranoid",
+        "title": "Paranoid",
+        "artist": "Black Sabbath",
+        "year": 1970,
+        "country": "England",
+        "cover": pathToCovers + "/black_sabbath_paranoid.jpg",
+        "criteria": [9, 40, 55],
+        "selectedTrackTitle": "Jack The Stripper / Fairies Wear Boots",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=13BeI93Vuqk",
+        "isAGem": true,
+        "description": "TODO"
+    },
+    {
+        "id": "black_sabbath_master_of_reality",
+        "title": "Master Of Reality",
+        "artist": "Black Sabbath",
+        "year": 1971,
+        "country": "England",
+        "cover": pathToCovers + "/black_sabbath_master_of_reality.jpg",
+        "criteria": [9, 40, 55],
+        "selectedTrackTitle": "TODO",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=TODO",
+        "isAGem": false
+    },
+    {
+        "id": "black_sabbath_vol_4",
+        "title": "Vol. 4",
+        "artist": "Black Sabbath",
+        "year": 1972,
+        "country": "England",
+        "cover": pathToCovers + "/black_sabbath_vol_4.jpg",
+        "criteria": [9, 40, 55],
+        "selectedTrackTitle": "TODO",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=TODO",
+        "isAGem": false
+    },
+    {
+        "id": "black_sabbath_sabbath_bloody_sabbath",
+        "title": "Sabbath Bloody Sabbath",
+        "artist": "Black Sabbath",
+        "year": 1973,
+        "country": "England",
+        "cover": pathToCovers + "/black_sabbath_sabbath_bloody_sabbath.jpg",
+        "criteria": [9, 40, 55],
+        "selectedTrackTitle": "TODO",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=TODO",
+        "isAGem": false
+    },
+    {
         "id": "black_sabbath_sabotage",
         "title": "Sabotage",
         "artist": "Black Sabbath",
@@ -811,7 +920,7 @@ const albums = [
         "year": 1970,
         "country": "England",
         "cover": pathToCovers + "/black_widow_sacrifice.jpg",
-        "criteria": [1, 15, 18, 42],
+        "criteria": [1, 15, 18, 42, 55],
         "selectedTrackTitle": "In Ancient Days",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=yGKt65hTItU",
         "isAGem": false
@@ -1175,12 +1284,12 @@ const albums = [
         "isAGem": false
     },
     {
-        "id": "carava_if_i_could_do_it_all_over_again_id_do_it_all_over_you",
+        "id": "caravan_if_i_could_do_it_all_over_again_id_do_it_all_over_you",
         "title": "If I Could Do It All Over Again, I'd Do It All Over You",
         "artist": "Caravan",
         "year": 1970,
         "country": "England",
-        "cover": pathToCovers + "/carava_if_i_could_do_it_all_over_again_id_do_it_all_over_you.jpg",
+        "cover": pathToCovers + "/caravan_if_i_could_do_it_all_over_again_id_do_it_all_over_you.jpg",
         "criteria": [7, 8, 11, 21],
         "selectedTrackTitle": "Can't Be Long Now / Françoise / For Richard / Warlock",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=CcxS-HU2qH0",
@@ -1233,6 +1342,30 @@ const albums = [
         "criteria": [7, 8, 11, 21, 42],
         "selectedTrackTitle": "The Dabsong Conshirtoe",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=uMn4BDFiV-g",
+        "isAGem": false
+    },
+    {
+        "id": "carlos_santana_oneness_silver_dreams_golden_reality",
+        "title": "Oneness: Silver Dreams - Golden Reality",
+        "artist": "Carlos Santana",
+        "year": 1979,
+        "country": "USA",
+        "cover": pathToCovers + "/carlos_santana_oneness_silver_dreams_golden_reality.jpg",
+        "criteria": [1, 7, 19, 21, 42],
+        "selectedTrackTitle": "Oneness",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=2zLSwiWz9Ws",
+        "isAGem": false
+    },
+    {
+        "id": "carlos_santana_the_swing_of_delight",
+        "title": "The Swing Of Delight",
+        "artist": "Carlos Santana",
+        "year": 1980,
+        "country": "USA",
+        "cover": pathToCovers + "/carlos_santana_the_swing_of_delight.jpg",
+        "criteria": [6, 7, 11, 19, 21],
+        "selectedTrackTitle": "TODO",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=",
         "isAGem": false
     },
     {
@@ -1290,7 +1423,7 @@ const albums = [
         "year": 1969,
         "country": "USA",
         "cover": pathToCovers + "/coven_witchcraft_destroys_minds_and_reaps_souls.jpg",
-        "criteria": [1, 18, 22, 40, 42],
+        "criteria": [1, 18, 22, 40, 42, 55],
         "selectedTrackTitle": "The White Witch Of Rose Hall",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=TSKJ9C_QX18",
         "isAGem": false
@@ -1302,7 +1435,7 @@ const albums = [
         "year": 1968,
         "country": "England",
         "cover": pathToCovers + "/the_crazy_world_of_arthur_brown_the_crazy_world_of_arthur_brown.jpg",
-        "criteria": [1, 9, 18, 41, 45],
+        "criteria": [1, 9, 18, 41, 45, 55],
         "selectedTrackTitle": "Fire",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=FaHEusBG20c",
         "isAGem": false
@@ -4610,7 +4743,7 @@ const albums = [
         "year": 1970,
         "country": "USA",
         "cover": pathToCovers + "/sir_lord_baltimore_kingdom_come.jpg",
-        "criteria": [7, 22, 40],
+        "criteria": [7, 22, 40, 55],
         "selectedTrackTitle": "Master Heartache",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=wQSz64rU9mM",
         "isAGem": false
@@ -5225,7 +5358,7 @@ const albums = [
         "year": 1970,
         "country": "England",
         "cover": pathToCovers + "/warhorse_warhorse.jpg",
-        "criteria": [0, 22, 40],
+        "criteria": [0, 22, 40, 55],
         "selectedTrackTitle": "Woman Of The Devil",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=zgWyveaejwI",
         "isAGem": false

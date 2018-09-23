@@ -129,6 +129,18 @@ const subgenres = [
         ]
     },
     {
+        "name": "Occult / Heavy",
+        "description": "TODO",
+        "mostRepresentativeAlbum": getAlbumById("black_widow_sacrifice"),
+        "albums": [
+            getAlbumById("black_sabbath_black_sabbath"),
+            getAlbumById("coven_witchcraft_destroys_minds_and_reaps_souls"),
+            getAlbumById("sir_lord_baltimore_kingdom_come"),
+            getAlbumById("warhorse_warhorse"),
+            getAlbumById("aphrodites_child_666")
+        ]
+    },
+    {
         "name": "Opera Rock / Fanfare",
         "description": "TODO",
         "mostRepresentativeAlbum": getAlbumById("roger_glover_the_butterfly_ball_and_the_grasshoppers_feast"),
