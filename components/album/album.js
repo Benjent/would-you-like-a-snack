@@ -81,8 +81,13 @@ Vue.component('album', {
         computedCriteria() {
             let computedCriteria = []
             for (i = 0; i < this.selectedAlbum.criteria.length; i++) {
-                computedCriteria.push(criteria[this.selectedAlbum.criteria[i]]);
+                // computedCriteria.push(criteria[this.selectedAlbum.criteria[i]]);
+                // TODO refact if enum works
+                computedCriteria.push(this.selectedAlbum.criteria[i])
             }
+
+            computedCriteria.sort((a, b) => criteriaOrder.indexOf(a) > criteriaOrder.indexOf(b));
+
             return computedCriteria;
         },
         previousAlbum() {

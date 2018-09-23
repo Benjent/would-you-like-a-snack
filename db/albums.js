@@ -11,7 +11,7 @@ const albums = [
         "year": 1973,
         "country": regions.ITALY,
         "cover": pathToCovers + "/acqua_fragile_acqua_fragile.jpg",
-        "criteria": [3, 7, 10, 19, 21],
+        "criteria": [criteria.C_JAZZ, criteria.C_FOLK, criteria.ODD_RHYTHM, criteria.JAM, criteria.GLITTER],
         "selectedTrackTitle": "Morning Comes",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=kUrl0QQyO3w",
         "isAGem": false
@@ -23,7 +23,7 @@ const albums = [
         "year": 1974,
         "country": regions.ITALY,
         "cover": pathToCovers + "/acqua_fragile_mass_media_stars.jpg",
-        "criteria": [3, 7, 10],
+        "criteria": [criteria.ODD_RHYTHM, criteria.JAM, criteria.GLITTER],
         "selectedTrackTitle": "Professor",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=kHeIgl7WMvY",
         "isAGem": false
@@ -35,7 +35,7 @@ const albums = [
         "year": 1980,
         "country": regions.QUEBEC,
         "cover": pathToCovers + "/agharta_agharta.jpg",
-        "criteria": [3, 6, 7, 15, 19, 42],
+        "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.UNCOMMON_INSTRUMENTS, criteria.C_JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Esperanto",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=4lfO4BKIOuA",
         "isAGem": false
@@ -47,7 +47,7 @@ const albums = [
         "year": 1975,
         "country": regions.ITALY,
         "cover": pathToCovers + "/agora_live_in_montreux.jpg",
-        "criteria": [6, 7, 11, 12, 14, 23],
+        "criteria": [criteria.INSTRUMENTAL, criteria.JAM, criteria.SOFT, criteria.LIVE, criteria.AMBIENT, criteria.JAZZ],
         "selectedTrackTitle": "L'Orto Di Ovidio",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=IoBMXLfGAuo",
         "isAGem": false
@@ -59,7 +59,7 @@ const albums = [
         "year": 1976,
         "country": regions.ITALY,
         "cover": pathToCovers + "/agora_agora_2.jpg",
-        "criteria": [6, 7, 11, 14, 15, 23],
+        "criteria": [criteria.INSTRUMENTAL, criteria.JAM, criteria.SOFT, criteria.AMBIENT, criteria.UNCOMMON_INSTRUMENTS, criteria.JAZZ],
         "selectedTrackTitle": "Tall El Zaatar",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=9AvuK3lwNuM",
         "isAGem": false
@@ -71,7 +71,7 @@ const albums = [
         "year": 1976,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/the_alan_parsons_project_tales_of_mystery_and_imagination.jpg",
-        "criteria": [1, 9, 18, 20, 42, 48],
+        "criteria": [criteria.CONCEPT, criteria.TRANSITION, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO, criteria.JAZZY_GROOVY, criteria.ART_POP],
         "selectedTrackTitle": "The Raven",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=YAE1XTvKLXA",
         "isAGem": false
@@ -83,7 +83,7 @@ const albums = [
         "year": 1977,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/the_alan_parsons_project_i_robot.jpg",
-        "criteria": [1, 9, 15, 18, 20, 42, 48],
+        "criteria": [criteria.CONCEPT, criteria.TRANSITION, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO, criteria.JAZZY_GROOVY, criteria.ART_POP],
         "selectedTrackTitle": "I Robot",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=u7oAuba3Ekg",
         "isAGem": true,
@@ -96,7 +96,7 @@ const albums = [
         "year": 1978,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/the_alan_parsons_project_pyramid.jpg",
-        "criteria": [20, 42, 48],
+        "criteria": [criteria.C_ELECTRO, criteria.JAZZY_GROOVY, criteria.ART_POP],
         "selectedTrackTitle": "Hyper-Gamma-Spaces",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=Am5Rloqqk0U",
         "isAGem": false
@@ -108,7 +108,7 @@ const albums = [
         "year": 1982,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/the_alan_parsons_project_eye_in_the_sky.jpg",
-        "criteria": [1, 10, 11, 48, 53],
+        "criteria": [criteria.CONCEPT, criteria.GLITTER, criteria.SOFT, criteria.ART_POP, criteria.ORCHESTRAL_PARTS],
         "selectedTrackTitle": "Silence And I",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=76n_uE_W31A",
         "isAGem": false
@@ -120,7 +120,7 @@ const albums = [
         "year": 1976,
         "country": regions.USA,
         "cover": pathToCovers + "/albatross_albatross.jpg",
-        "criteria": [3, 8, 16, 18, 20],
+        "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.SOUND_COLLAGES, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO],
         "selectedTrackTitle": "Four Horsemen Of The Apocalypse",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=g_RT7NV74Tk",
         "isAGem": false
@@ -132,7 +132,7 @@ const albums = [
         "year": 1972,
         "country": regions.USA,
         "cover": pathToCovers + "/alice_cooper_schools_out.jpg",
-        "criteria": [1, 16, 22, 35, 40],
+        "criteria": [criteria.CONCEPT, criteria.SOUND_COLLAGES, criteria.ROCK, criteria.FUNNY, criteria.HEAVY],
         "selectedTrackTitle": "Alma Mater",
         "selectedTrackYtId": "",
         "isAGem": false
@@ -144,7 +144,7 @@ const albums = [
         "year": 1973,
         "country": regions.USA,
         "cover": pathToCovers + "/alice_cooper_billion_dollar_babies.jpg",
-        "criteria": [19, 22, 25],
+        "criteria": [criteria.C_JAZZ, criteria.ROCK],
         "selectedTrackTitle": "Hello Hooray",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=80bqSzONHP4",
         "isAGem": false
@@ -156,7 +156,7 @@ const albums = [
         "year": 1973,
         "country": regions.USA,
         "cover": pathToCovers + "/alice_cooper_muscle_of_love.jpg",
-        "criteria": [19, 22],
+        "criteria": [criteria.C_JAZZ, criteria.ROCK],
         "selectedTrackTitle": "Hard Hearted Alice",
         "selectedTrackYtId": "",
         "isAGem": false
@@ -168,7 +168,7 @@ const albums = [
         "year": 1978,
         "country": regions.USA,
         "cover": pathToCovers + "/alice_cooper_from_the_inside.jpg",
-        "criteria": [2, 43, 48],
+        "criteria": [criteria.STORYLINE, criteria.ROCK_OPERA, criteria.ART_POP],
         "selectedTrackTitle": "Nurse Rozetta",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=R-h13lDzGNo",
         "isAGem": false
@@ -180,7 +180,7 @@ const albums = [
         "year": 1977,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/alpha_ralpha_alpha_ralpha.jpg",
-        "criteria": [6, 11, 14, 19],
+        "criteria": [criteria.INSTRUMENTAL, criteria.SOFT, criteria.AMBIENT, criteria.C_JAZZ],
         "selectedTrackTitle": "Genèse",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=jTS5f1nSurQ",
         "isAGem": true,
@@ -193,7 +193,7 @@ const albums = [
         "year": 1973,
         "country": regions.ITALY,
         "cover": pathToCovers + "/alphataurus_alphataurus.jpg",
-        "criteria": [6, 7, 8, 15, 19, 36],
+        "criteria": [criteria.INSTRUMENTAL, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.UNCOMMON_INSTRUMENTS, criteria.C_JAZZ, criteria.ITALIAN_SUNG],
         "selectedTrackTitle": "La Mente Vola",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=W3_5gl9DHfs",
         "isAGem": false
@@ -205,7 +205,7 @@ const albums = [
         "year": 1970,
         "country": regions.GERMANY,
         "cover": pathToCovers + "/amon_duul_paradieswarts_duul.jpg",
-        "criteria": [6, 7, 8, 11, 18, 46],
+        "criteria": [criteria.INSTRUMENTAL, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.C_PSYCHEDELIC, criteria.FOLK],
         "selectedTrackTitle": "Love Is Peace",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=oUNxXhzF0fw",
         "isAGem": false
@@ -217,7 +217,7 @@ const albums = [
         "year": 1975,
         "country": regions.USA,
         "cover": pathToCovers + "/ambrosia_ambrosia.jpg",
-        "criteria": [3, 22, 48],
+        "criteria": [criteria.ODD_RHYTHM, criteria.ROCK, criteria.ART_POP],
         "selectedTrackTitle": "Time Waits For No One",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=kXrWEDW0I7Q",
         "isAGem": false
@@ -229,7 +229,7 @@ const albums = [
         "year": 1976,
         "country": regions.USA,
         "cover": pathToCovers + "/ambrosia_somewhere_ive_never_travelled.jpg",
-        "criteria": [3, 9, 10, 15, 22, 48],
+        "criteria": [criteria.ODD_RHYTHM, criteria.TRANSITION, criteria.GLITTER, criteria.UNCOMMON_INSTRUMENTS, criteria.ROCK, criteria.ART_POP],
         "selectedTrackTitle": "The Brunt",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=3y4-rbRYszY",
         "isAGem": false
@@ -241,7 +241,7 @@ const albums = [
         "year": 1972,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/ange_caricatures.jpg",
-        "criteria": [8, 10, 18, 33, 37, 43, 45],
+        "criteria": [criteria.LENGHTY_TRACKS, criteria.GLITTER, criteria.C_PSYCHEDELIC, criteria.MEDIEVAL, criteria.FRENCH_SUNG, criteria.ROCK_OPERA, criteria.FANFARE],
         "selectedTrackTitle": "Dignité",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=C9u3KWEi7Us",
         "isAGem": false
@@ -253,7 +253,7 @@ const albums = [
         "year": 1973,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/ange_le_cimetiere_des_arlequins.jpg",
-        "criteria": [10, 18, 33, 37, 43, 45],
+        "criteria": [criteria.GLITTER, criteria.C_PSYCHEDELIC, criteria.MEDIEVAL, criteria.FRENCH_SUNG, criteria.ROCK_OPERA, criteria.FANFARE],
         "selectedTrackTitle": "Aujourd'hui C'est La Fête Chez L'apprenti Sorcier",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=f2S7J9eXuTQ",
         "isAGem": false
@@ -265,7 +265,7 @@ const albums = [
         "year": 1974,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/ange_au_dela_du_delire.jpg",
-        "criteria": [3, 33, 37, 43, 45, 48],
+        "criteria": [criteria.ODD_RHYTHM, criteria.MEDIEVAL, criteria.FRENCH_SUNG, criteria.ROCK_OPERA, criteria.FANFARE, criteria.ART_POP],
         "selectedTrackTitle": "Les Longues Nuits D'Isaac",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=L7EezMJrnRM",
         "isAGem": false
@@ -277,7 +277,7 @@ const albums = [
         "year": 1975,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/ange_emile_jacotey.jpg",
-        "criteria": [3, 33, 37, 43, 45, 48],
+        "criteria": [criteria.ODD_RHYTHM, criteria.MEDIEVAL, criteria.FRENCH_SUNG, criteria.ROCK_OPERA, criteria.FANFARE, criteria.ART_POP],
         "selectedTrackTitle": "Sur La Trace Des Fées",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=F9z4OCHE7t8",
         "isAGem": false
@@ -289,7 +289,7 @@ const albums = [
         "year": 1976,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/ange_par_les_fils_de_mandrin.jpg",
-        "criteria": [3, 33, 37, 43, 45, 48],
+        "criteria": [criteria.ODD_RHYTHM, criteria.MEDIEVAL, criteria.FRENCH_SUNG, criteria.ROCK_OPERA, criteria.FANFARE, criteria.ART_POP],
         "selectedTrackTitle": "Au Café Du Colibri",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=JjU8A0DReMo",
         "isAGem": false
@@ -301,7 +301,7 @@ const albums = [
         "year": 1978,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/ange_guet_apens.jpg",
-        "criteria": [3, 8, 37, 43],
+        "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.FRENCH_SUNG, criteria.ROCK_OPERA],
         "selectedTrackTitle": "Réveille-Toi",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=F_66uMKNZC8",
         "isAGem": false
@@ -313,7 +313,7 @@ const albums = [
         "year": 1977,
         "country": regions.SWEDEN,
         "cover": pathToCovers + "/anna_sjalv_tredje_tussilago_fanfara.jpg",
-        "criteria": [6, 8, 14, 18, 44],
+        "criteria": [criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.AMBIENT, criteria.C_PSYCHEDELIC, criteria.ELECTRO],
         "selectedTrackTitle": "Den Barbariska Söndagen",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=WfLqv6liuiQ",
         "isAGem": false
@@ -325,7 +325,7 @@ const albums = [
         "year": 1977,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/anthony_phillips_the_geese_and_the_ghost.jpg",
-        "criteria": [8, 11, 33, 46],
+        "criteria": [criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.MEDIEVAL, criteria.FOLK],
         "selectedTrackTitle": "Which Way The Wind Blows",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=E-zErxaZxh8",
         "isAGem": false
@@ -337,7 +337,7 @@ const albums = [
         "year": 1977,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/anthony_phillips_wise_after_the_event.jpg",
-        "criteria": [11, 46],
+        "criteria": [criteria.SOFT, criteria.FOLK],
         "selectedTrackTitle": "Birdsong And Reprise",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=tSEqbHSUZJU",
         "isAGem": false
@@ -349,7 +349,7 @@ const albums = [
         "year": 1972,
         "country": regions.GREECE,
         "cover": pathToCovers + "/aphrodites_child_666.jpg",
-        "criteria": [1, 5, 6, 8, 9, 10, 15, 18, 20, 41, 55],
+        "criteria": [criteria.CONCEPT, criteria.EXPERIMENTAL, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.TRANSITION, criteria.SYMPHONIC, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO, criteria.PATCHWORK, criteria.OCCULT],
         "selectedTrackTitle": "The Lamb",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=hbTHgL4pu_A",
         "isAGem": false
@@ -361,7 +361,7 @@ const albums = [
         "year": 1979,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/arachnoid_arachnoid.jpg",
-        "criteria": [1, 18, 19, 37],
+        "criteria": [criteria.CONCEPT, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.FRENCH_SUNG],
         "selectedTrackTitle": "Le Chamadère",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=6v5NjAeKNE0",
         "isAGem": false
@@ -373,7 +373,7 @@ const albums = [
         "year": 1973,
         "country": regions.ITALY,
         "cover": pathToCovers + "/area_arbeit_macht_frei.jpg",
-        "criteria": [3, 5, 6, 7, 15, 16, 18, 23],
+        "criteria": [criteria.ODD_RHYTHM, criteria.EXPERIMENTAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.UNCOMMON_INSTRUMENTS, criteria.SOUND_COLLAGES, criteria.C_PSYCHEDELIC, criteria.JAZZ],
         "selectedTrackTitle": "L'abbattimento Dello Zeppelin",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=433wf2jDkhA",
         "isAGem": false
@@ -385,7 +385,7 @@ const albums = [
         "year": 1974,
         "country": regions.ITALY,
         "cover": pathToCovers + "/area_caution_radiation_area.jpg",
-        "criteria": [3, 5, 6, 7, 16, 18, 23],
+        "criteria": [criteria.ODD_RHYTHM, criteria.EXPERIMENTAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.SOUND_COLLAGES, criteria.C_PSYCHEDELIC, criteria.JAZZ],
         "selectedTrackTitle": "Cometa Rossa",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=KuTOacIIf-I",
         "isAGem": false
@@ -397,7 +397,7 @@ const albums = [
         "year": 1975,
         "country": regions.ITALY,
         "cover": pathToCovers + "/area_crac.jpg",
-        "criteria": [3, 5, 6, 7, 18, 23],
+        "criteria": [criteria.ODD_RHYTHM, criteria.EXPERIMENTAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.C_PSYCHEDELIC, criteria.JAZZ],
         "selectedTrackTitle": "Megalopoli",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=VVugC2gOMFs",
         "isAGem": false
@@ -409,7 +409,7 @@ const albums = [
         "year": 1976,
         "country": regions.ITALY,
         "cover": pathToCovers + "/area_maledetti.jpg",
-        "criteria": [1, 3, 5, 6, 7, 18, 23, 42],
+        "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.EXPERIMENTAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.C_PSYCHEDELIC, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Diforisma Urbano",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=zrX2WtAMPLU",
         "isAGem": false
@@ -421,7 +421,7 @@ const albums = [
         "year": 1977,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/artcane_odyssee.jpg",
-        "criteria": [6, 19, 20, 37],
+        "criteria": [criteria.INSTRUMENTAL, criteria.C_JAZZ, criteria.C_ELECTRO, criteria.FRENCH_SUNG],
         "selectedTrackTitle": "Le Chant D'Orphée",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=vzmYFSSPfeQ",
         "isAGem": false
@@ -433,7 +433,7 @@ const albums = [
         "year": 1974,
         "country": regions.ITALY,
         "cover": pathToCovers + "/arti_mestieri_tilt.jpg",
-        "criteria": [3, 4, 6, 7, 9, 15, 19, 36, 42],
+        "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.TRANSITION, criteria.UNCOMMON_INSTRUMENTS, criteria.C_JAZZ, criteria.ITALIAN_SUNG, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Positivo/Negativo",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=DC_K3w6gi2Q",
         "isAGem": true,
@@ -446,7 +446,7 @@ const albums = [
         "year": 1975,
         "country": regions.ITALY,
         "cover": pathToCovers + "/arti_mestieri_giro_di_valzer_per_domani.jpg",
-        "criteria": [3, 4, 6, 7, 15, 19, 30, 36, 41, 42],
+        "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.UNCOMMON_INSTRUMENTS, criteria.C_JAZZ, criteria.SPECTACULAR, criteria.ITALIAN_SUNG, criteria.PATCHWORK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Valzer Per Domani",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=NDBj39DGVRw",
         "isAGem": true,
@@ -459,7 +459,7 @@ const albums = [
         "year": 1979,
         "country": regions.ITALY,
         "cover": pathToCovers + "/arti_mestieri_quinto_stato.jpg",
-        "criteria": [3, 7, 19, 36, 42],
+        "criteria": [criteria.ODD_RHYTHM, criteria.JAM, criteria.C_JAZZ, criteria.ITALIAN_SUNG, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Torino Nella Mente",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=skOYf_P1BP4",
         "isAGem": false
@@ -471,7 +471,7 @@ const albums = [
         "year": 1982,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/asia_asia.jpg",
-        "criteria": [7, 20, 22],
+        "criteria": [criteria.JAM, criteria.C_ELECTRO, criteria.ROCK],
         "selectedTrackTitle": "Time Again",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=YCWNYKRtRFs",
         "isAGem": false
@@ -483,7 +483,7 @@ const albums = [
         "year": 1983,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/asia_alpha.jpg",
-        "criteria": [7, 20, 22],
+        "criteria": [criteria.JAM, criteria.C_ELECTRO, criteria.ROCK],
         "selectedTrackTitle": "The Heat Goes On",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=Hbw3HA3lMMU",
         "isAGem": false
@@ -495,7 +495,7 @@ const albums = [
         "year": 1985,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/asia_astra.jpg",
-        "criteria": [7, 20, 22],
+        "criteria": [criteria.JAM, criteria.C_ELECTRO, criteria.ROCK],
         "selectedTrackTitle": "Go",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=9TiGDuI9d6Y",
         "isAGem": false
@@ -507,7 +507,7 @@ const albums = [
         "year": 1970,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/atomic_rooster_death_walks_behind_you.jpg",
-        "criteria": [7, 22, 40],
+        "criteria": [criteria.JAM, criteria.ROCK, criteria.HEAVY],
         "selectedTrackTitle": "Death Walks Behind You",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=8yO7l6TmIRI",
         "isAGem": false
@@ -519,7 +519,7 @@ const albums = [
         "year": 1971,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/atomic_rooster_in_hearing_of_atomic_rooster.jpg",
-        "criteria": [7, 22],
+        "criteria": [criteria.JAM, criteria.ROCK],
         "selectedTrackTitle": "Breakthrough",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=lgqFPcKpfEg",
         "isAGem": false
@@ -531,7 +531,7 @@ const albums = [
         "year": 1974,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/atoll_musiciens_magiciens.jpg",
-        "criteria": [9, 19, 37, 42],
+        "criteria": [criteria.TRANSITION, criteria.C_JAZZ, criteria.FRENCH_SUNG, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Au-Delà Des Écrans De Cristal",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=7FqCY8N06HU",
         "isAGem": false
@@ -543,7 +543,7 @@ const albums = [
         "year": 1975,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/atoll_laraignee_mal.jpg",
-        "criteria": [9, 19, 37, 42],
+        "criteria": [criteria.TRANSITION, criteria.C_JAZZ, criteria.FRENCH_SUNG, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "L'araignée-Mal",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=Wm6vFufqm6s",
         "isAGem": false
@@ -555,7 +555,7 @@ const albums = [
         "year": 1977,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/atoll_tertio.jpg",
-        "criteria": [10, 37, 42],
+        "criteria": [criteria.SYMPHONIC, criteria.FRENCH_SUNG, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Le Cerf-Volant",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=4VgSc1XbgyU",
         "isAGem": false
@@ -567,7 +567,7 @@ const albums = [
         "year": 1979,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/atoll_rock_puzzle.jpg",
-        "criteria": [37, 42],
+        "criteria": [criteria.FRENCH_SUNG, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Puzzle",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=BgEINKJeztQ",
         "isAGem": false
@@ -579,7 +579,7 @@ const albums = [
         "year": 1973,
         "country": regions.GREECE,
         "cover": pathToCovers + "/axis_axis.jpg",
-        "criteria": [3, 6, 7, 18, 19, 42],
+        "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Roads",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=a7sBh6MMFwU",
         "isAGem": false
@@ -594,7 +594,7 @@ const albums = [
         "year": 1974,
         "country": regions.GERMANY,
         "cover": pathToCovers + "/baba_yaga_collage.jpg",
-        "criteria": [6, 8, 13, 14, 15, 18, 20],
+        "criteria": [criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.ORIENTAL, criteria.AMBIENT, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO],
         "selectedTrackTitle": "Moksha",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=ZJPFjl_bBGg",
         "isAGem": false
@@ -606,7 +606,7 @@ const albums = [
         "year": 1973,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/badger_one_live_badger.jpg",
-        "criteria": [0, 3, 7, 12, 22, 47],
+        "criteria": [criteria.ODD_RHYTHM, criteria.JAM, criteria.LIVE, criteria.ROCK, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "Fountain",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=To2NXcCRC58",
         "isAGem": false
@@ -618,7 +618,7 @@ const albums = [
         "year": 1973,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/bachdenkel_lemmings.jpg",
-        "criteria": [11, 18],
+        "criteria": [criteria.SOFT, criteria.C_PSYCHEDELIC],
         "selectedTrackTitle": "Translation",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=FSaajW7QHwk",
         "isAGem": false
@@ -630,7 +630,7 @@ const albums = [
         "year": 1977,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/bachdenkel_cталинград.jpg",
-        "criteria": [11, 18],
+        "criteria": [criteria.SOFT, criteria.C_PSYCHEDELIC],
         "selectedTrackTitle": "The Whole World",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=qZQ4WaJe90g",
         "isAGem": false
@@ -642,7 +642,7 @@ const albums = [
         "year": 1969,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/bakerloo_bakerloo.jpg",
-        "criteria": [6, 7, 22],
+        "criteria": [criteria.INSTRUMENTAL, criteria.JAM, criteria.ROCK],
         "selectedTrackTitle": "Drivin' Bachwards",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=uWrdCYBMh0E",
         "isAGem": false
@@ -654,7 +654,7 @@ const albums = [
         "year": 1970,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/barclay_james_harvest_barclay_james_harvest.jpg",
-        "criteria": [10, 21, 22],
+        "criteria": [criteria.GLITTER, criteria.C_FOLK, criteria.ROCK],
         "selectedTrackTitle": "Mother Dear",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=bRj4G6M5K_w",
         "isAGem": false
@@ -666,7 +666,7 @@ const albums = [
         "year": 1971,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/barclay_james_harvest_once_again.jpg",
-        "criteria": [10, 21, 22],
+        "criteria": [criteria.GLITTER, criteria.C_FOLK, criteria.ROCK],
         "selectedTrackTitle": "Galadriel",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=H2AWFbMiRTQ",
         "isAGem": false
@@ -678,7 +678,7 @@ const albums = [
         "year": 1971,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/barclay_james_harvest_barclay_james_harvest_and_other_short_stories.jpg",
-        "criteria": [10, 21, 22],
+        "criteria": [criteria.GLITTER, criteria.C_FOLK, criteria.ROCK],
         "selectedTrackTitle": "Song With No Meaning",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=vsONUkg4Gg4",
         "isAGem": false
@@ -690,7 +690,7 @@ const albums = [
         "year": 1972,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/barclay_james_harvest_baby_james_harvest.jpg",
-        "criteria": [16, 21, 22],
+        "criteria": [criteria.SOUND_COLLAGES, criteria.C_FOLK, criteria.ROCK],
         "selectedTrackTitle": "Summer Soldier",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=t5wSsTgyaic",
         "isAGem": false
@@ -702,7 +702,7 @@ const albums = [
         "year": 1974,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/barclay_james_harvest_everyone_is_everybody_else.jpg",
-        "criteria": [22],
+        "criteria": [criteria.ROCK],
         "selectedTrackTitle": "Child Of The Universe",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=o93hYhytAmI",
         "isAGem": false
@@ -714,7 +714,7 @@ const albums = [
         "year": 1975,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/barclay_james_harvest_time_honoured_ghosts.jpg",
-        "criteria": [3, 10, 21, 22],
+        "criteria": [criteria.ODD_RHYTHM, criteria.GLITTER, criteria.C_FOLK, criteria.ROCK],
         "selectedTrackTitle": "One Night",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=KCzVt3pd5gg",
         "isAGem": false
@@ -726,7 +726,7 @@ const albums = [
         "year": 1976,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/barclay_james_harvest_octoberon.jpg",
-        "criteria": [10, 22],
+        "criteria": [criteria.GLITTER, criteria.ROCK],
         "selectedTrackTitle": "Ra",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=HOSZoUjaC9A",
         "isAGem": false
@@ -738,7 +738,7 @@ const albums = [
         "year": 1977,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/barclay_james_harvest_gone_to_earth.jpg",
-        "criteria": [10, 22],
+        "criteria": [criteria.GLITTER, criteria.ROCK],
         "selectedTrackTitle": "Sea Of Tranquility",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=-bf3x8Qynv8",
         "isAGem": false
@@ -750,7 +750,7 @@ const albums = [
         "year": 1974,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/be_bop_deluxe_axe_victim.jpg",
-        "criteria": [7, 21, 22],
+        "criteria": [criteria.JAM, criteria.C_FOLK, criteria.ROCK],
         "selectedTrackTitle": "Love Is Swift Arrows",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=Bvi5Vv7E1nI",
         "isAGem": false
@@ -762,7 +762,7 @@ const albums = [
         "year": 1975,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/be_bop_deluxe_futurama.jpg",
-        "criteria": [7, 21, 22, 48],
+        "criteria": [criteria.JAM, criteria.C_FOLK, criteria.ROCK, criteria.ART_POP],
         "selectedTrackTitle": "Swan Song",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=ArDJ0LT5gA8",
         "isAGem": false
@@ -774,7 +774,7 @@ const albums = [
         "year": 1976,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/be_bop_deluxe_sunburst_finish.jpg",
-        "criteria": [7, 21, 22, 48],
+        "criteria": [criteria.JAM, criteria.C_FOLK, criteria.ROCK, criteria.ART_POP],
         "selectedTrackTitle": "Heavenly Homes",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=_Ao_Ao2191I",
         "isAGem": false
@@ -786,7 +786,7 @@ const albums = [
         "year": 1976,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/be_bop_deluxe_modern_music.jpg",
-        "criteria": [9, 16, 21, 22, 48],
+        "criteria": [criteria.TRANSITION, criteria.SOUND_COLLAGES, criteria.C_FOLK, criteria.ROCK, criteria.ART_POP],
         "selectedTrackTitle": "Dancing In The Moonlight",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=p65uMNG43V4",
         "isAGem": false
@@ -798,7 +798,7 @@ const albums = [
         "year": 1967,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/the_beatles_sgt_peppers_lonely_hearts_club_band.jpg",
-        "criteria": [1, 9, 15, 16, 17, 41, 45],
+        "criteria": [criteria.CONCEPT, criteria.TRANSITION, criteria.UNCOMMON_INSTRUMENTS, criteria.SOUND_COLLAGES, criteria.BLENDS, criteria.PATCHWORK, criteria.FANFARE],
         "selectedTrackTitle": "A Day In The Life",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=usNsCeOV4GM",
         "isAGem": false
@@ -810,7 +810,7 @@ const albums = [
         "year": 1968,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/the_beatles_the_beatles.jpg",
-        "criteria": [3, 9, 16, 17, 21, 22, 35],
+        "criteria": [criteria.ODD_RHYTHM, criteria.TRANSITION, criteria.SOUND_COLLAGES, criteria.BLENDS, criteria.C_FOLK, criteria.ROCK, criteria.FUNNY],
         "selectedTrackTitle": "The Continuing Story Of Bungalow Bill",
         "selectedTrackYtId": "",
         "isAGem": false
@@ -822,7 +822,7 @@ const albums = [
         "year": 1969,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/the_beatles_yellow_submarine.jpg",
-        "criteria": [1, 10, 15, 16, 18, 45, 49],
+        "criteria": [criteria.CONCEPT, criteria.SYMPHONIC, criteria.UNCOMMON_INSTRUMENTS, criteria.SOUND_COLLAGES, criteria.C_PSYCHEDELIC, criteria.FANFARE, criteria.SOUNDTRACK],
         "selectedTrackTitle": "Yellow Submarine",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=m2uTFF_3MaA",
         "isAGem": false
@@ -834,7 +834,7 @@ const albums = [
         "year": 1969,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/the_beatles_abbey_road.jpg",
-        "criteria": [9, 18, 35, 41],
+        "criteria": [criteria.TRANSITION, criteria.C_PSYCHEDELIC, criteria.FUNNY, criteria.PATCHWORK],
         "selectedTrackTitle": "She Came In Through The Bathroom Window",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=o14wVjw3HfQ",
         "isAGem": true,
@@ -847,7 +847,7 @@ const albums = [
         "year": 1970,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/black_sabbath_black_sabbath.jpg",
-        "criteria": [9, 40, 55],
+        "criteria": [criteria.TRANSITION, criteria.HEAVY, criteria.OCCULT],
         "selectedTrackTitle": "The Wizard",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=MeZ8uVIOIhM",
         "isAGem": false
@@ -859,7 +859,7 @@ const albums = [
         "year": 1970,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/black_sabbath_paranoid.jpg",
-        "criteria": [9, 40, 55],
+        "criteria": [criteria.TRANSITION, criteria.HEAVY, criteria.OCCULT],
         "selectedTrackTitle": "Jack The Stripper / Fairies Wear Boots",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=13BeI93Vuqk",
         "isAGem": true,
@@ -872,7 +872,7 @@ const albums = [
         "year": 1971,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/black_sabbath_master_of_reality.jpg",
-        "criteria": [9, 40, 55],
+        "criteria": [criteria.TRANSITION, criteria.HEAVY, criteria.OCCULT],
         "selectedTrackTitle": "TODO",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=TODO",
         "isAGem": false
@@ -884,7 +884,7 @@ const albums = [
         "year": 1972,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/black_sabbath_vol_4.jpg",
-        "criteria": [9, 40, 55],
+        "criteria": [criteria.TRANSITION, criteria.HEAVY, criteria.OCCULT],
         "selectedTrackTitle": "TODO",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=TODO",
         "isAGem": false
@@ -896,7 +896,7 @@ const albums = [
         "year": 1973,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/black_sabbath_sabbath_bloody_sabbath.jpg",
-        "criteria": [9, 40, 55],
+        "criteria": [criteria.TRANSITION, criteria.HEAVY, criteria.OCCULT],
         "selectedTrackTitle": "TODO",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=TODO",
         "isAGem": false
@@ -908,7 +908,7 @@ const albums = [
         "year": 1975,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/black_sabbath_sabotage.jpg",
-        "criteria": [9, 40],
+        "criteria": [criteria.TRANSITION, criteria.HEAVY],
         "selectedTrackTitle": "The Writ",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=iyXqWzZ_8sM",
         "isAGem": false
@@ -920,7 +920,7 @@ const albums = [
         "year": 1970,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/black_widow_sacrifice.jpg",
-        "criteria": [1, 15, 18, 42, 55],
+        "criteria": [criteria.CONCEPT, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.JAZZY_GROOVY, criteria.OCCULT],
         "selectedTrackTitle": "In Ancient Days",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=yGKt65hTItU",
         "isAGem": false
@@ -932,7 +932,7 @@ const albums = [
         "year": 1971,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/black_widow_black_widow.jpg",
-        "criteria": [18],
+        "criteria": [criteria.C_PSYCHEDELIC],
         "selectedTrackTitle": "Tears And Wine",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=bDk2hX1hsUc",
         "isAGem": false
@@ -944,7 +944,7 @@ const albums = [
         "year": 1972,
         "country": regions.USA,
         "cover": pathToCovers + "/bloodrock_passage.jpg",
-        "criteria": [3, 18, 21, 22],
+        "criteria": [criteria.ODD_RHYTHM, criteria.C_PSYCHEDELIC, criteria.C_FOLK, criteria.ROCK],
         "selectedTrackTitle": "Lost Fame",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=5n_a4wR972M",
         "isAGem": false
@@ -956,7 +956,7 @@ const albums = [
         "year": 1974,
         "country": regions.USA,
         "cover": pathToCovers + "/bloodrock_whirlwind_tongues.jpg",
-        "criteria": [3, 18, 21, 22],
+        "criteria": [criteria.ODD_RHYTHM, criteria.C_PSYCHEDELIC, criteria.C_FOLK, criteria.ROCK],
         "selectedTrackTitle": "Stilled By Whirlwind Tongues",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=CfwD6SCQtjE",
         "isAGem": false
@@ -968,7 +968,7 @@ const albums = [
         "year": 1972,
         "country": regions.GERMANY,
         "cover": pathToCovers + "/brave_new_world_impressions_on_reading_aldous_huxley.jpg",
-        "criteria": [1, 6, 7, 8, 9, 15, 18, 19, 20],
+        "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.TRANSITION, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.C_ELECTRO],
         "selectedTrackTitle": "Lenina",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=3eHj2-iltEg",
         "isAGem": false
@@ -980,7 +980,7 @@ const albums = [
         "year": 1978,
         "country": regions.ARGENTINA,
         "cover": pathToCovers + "/bubu_anabelas.jpg",
-        "criteria": [3, 6, 8, 10, 18, 19, 38, 42, 54],
+        "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.SPANISH_SUNG, criteria.JAZZY_GROOVY, 54],
         "selectedTrackTitle": "El Viaje De Anabelas",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=-5pmx5tZ-80",
         "isAGem": true,
@@ -993,7 +993,7 @@ const albums = [
         "year": 1971,
         "country": regions.WALES,
         "cover": pathToCovers + "/budgie_budgie.jpg",
-        "criteria": [7, 22, 40],
+        "criteria": [criteria.JAM, criteria.ROCK, criteria.HEAVY],
         "selectedTrackTitle": "The Author",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=lrQd56l4adE",
         "isAGem": false
@@ -1005,7 +1005,7 @@ const albums = [
         "year": 1972,
         "country": regions.WALES,
         "cover": pathToCovers + "/budgie_squawk.jpg",
-        "criteria": [7, 22, 40],
+        "criteria": [criteria.JAM, criteria.ROCK, criteria.HEAVY],
         "selectedTrackTitle": "Young Is A World",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=3JqJyCE3Xeo",
         "isAGem": false
@@ -1017,7 +1017,7 @@ const albums = [
         "year": 1973,
         "country": regions.WALES,
         "cover": pathToCovers + "/budgie_never_turn_your_back_on_a_friend.jpg",
-        "criteria": [7, 22, 40],
+        "criteria": [criteria.JAM, criteria.ROCK, criteria.HEAVY],
         "selectedTrackTitle": "Parents",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=nHPCtgmtS68",
         "isAGem": false
@@ -1029,7 +1029,7 @@ const albums = [
         "year": 1974,
         "country": regions.WALES,
         "cover": pathToCovers + "/budgie_in_for_the_kill.jpg",
-        "criteria": [7, 22, 40, 42],
+        "criteria": [criteria.JAM, criteria.ROCK, criteria.HEAVY, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Zoom Club",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=VG7e3-jm3UU",
         "isAGem": false
@@ -1041,7 +1041,7 @@ const albums = [
         "year": 1975,
         "country": regions.WALES,
         "cover": pathToCovers + "/budgie_bandolier.jpg",
-        "criteria": [7, 22, 40, 42],
+        "criteria": [criteria.JAM, criteria.ROCK, criteria.HEAVY, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Slipaway",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=50Q-qDmF2-g",
         "isAGem": false
@@ -1053,7 +1053,7 @@ const albums = [
         "year": 1981,
         "country": regions.GERMANY,
         "cover": pathToCovers + "/burning_candle_burning_candle.jpg",
-        "criteria": [3, 8, 20, 42],
+        "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.C_ELECTRO, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Expedition To The Sun",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=c2N8B1nC3R4",
         "isAGem": false
@@ -1065,7 +1065,7 @@ const albums = [
         "year": 1978,
         "country": regions.ARGENTINA,
         "cover": pathToCovers + "/busqueda_busqueda.jpg",
-        "criteria": [11, 31, 38, 46],
+        "criteria": [criteria.SOFT, 31, criteria.SPANISH_SUNG, criteria.FOLK],
         "selectedTrackTitle": "La Forma De Tu Vita",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=npJ--wejC6c",
         "isAGem": true,
@@ -1081,7 +1081,7 @@ const albums = [
         "year": 1973,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/camel_camel.jpg",
-        "criteria": [7, 22, 42],
+        "criteria": [criteria.JAM, criteria.ROCK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Slow Yourself Down",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=8wN89VZGz8s",
         "isAGem": false
@@ -1093,7 +1093,7 @@ const albums = [
         "year": 1974,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/camel_mirage.jpg",
-        "criteria": [3, 8, 11, 42],
+        "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Freefall",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=Gcagz8epRN8",
         "isAGem": true,
@@ -1106,7 +1106,7 @@ const albums = [
         "year": 1975,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/camel_the_snow_goose.jpg",
-        "criteria": [1, 6, 9, 11, 41],
+        "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.TRANSITION, criteria.SOFT, criteria.PATCHWORK],
         "selectedTrackTitle": "La Princesse Perdue",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=dhkWnxNzHig",
         "isAGem": false
@@ -1118,7 +1118,7 @@ const albums = [
         "year": 1976,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/camel_moonmadness.jpg",
-        "criteria": [3, 11, 19],
+        "criteria": [criteria.ODD_RHYTHM, criteria.SOFT, criteria.C_JAZZ],
         "selectedTrackTitle": "Air Born",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=JR4aCz-JZrY",
         "isAGem": true,
@@ -1131,7 +1131,7 @@ const albums = [
         "year": 1977,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/camel_rain_dances.jpg",
-        "criteria": [3, 11, 20],
+        "criteria": [criteria.ODD_RHYTHM, criteria.SOFT, criteria.C_ELECTRO],
         "selectedTrackTitle": "Air Born",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=JR4aCz-JZrY",
         "isAGem": true,
@@ -1144,7 +1144,7 @@ const albums = [
         "year": 1978,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/camel_breathless.jpg",
-        "criteria": [3, 11, 22],
+        "criteria": [criteria.ODD_RHYTHM, criteria.SOFT, criteria.ROCK],
         "selectedTrackTitle": "The Sleeper",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=MXEQhCd4HnU",
         "isAGem": false
@@ -1156,7 +1156,7 @@ const albums = [
         "year": 1979,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/camel_i_can_see_your_house_from_here.jpg",
-        "criteria": [11, 22],
+        "criteria": [criteria.SOFT, criteria.ROCK],
         "selectedTrackTitle": "Hymn To Her",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=EGtky9Nlxhg",
         "isAGem": false
@@ -1168,7 +1168,7 @@ const albums = [
         "year": 1981,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/camel_nude.jpg",
-        "criteria": [1, 3, 6, 9, 11, 41],
+        "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.TRANSITION, criteria.SOFT, criteria.PATCHWORK],
         "selectedTrackTitle": "Beached",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=GD-IY4LfGfc",
         "isAGem": false
@@ -1180,7 +1180,7 @@ const albums = [
         "year": 1969,
         "country": regions.GERMANY,
         "cover": pathToCovers + "/can_monster_movie.jpg",
-        "criteria": [8, 18],
+        "criteria": [criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC],
         "selectedTrackTitle": "Mary, Mary So Contrary",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=YefiMvJdjhY",
         "isAGem": false
@@ -1192,7 +1192,7 @@ const albums = [
         "year": 1971,
         "country": regions.GERMANY,
         "cover": pathToCovers + "/can_tago_mago.jpg",
-        "criteria": [8, 18, 42],
+        "criteria": [criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Mushroom",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=T_9LJCKOvQE",
         "isAGem": false
@@ -1204,7 +1204,7 @@ const albums = [
         "year": 1972,
         "country": regions.GERMANY,
         "cover": pathToCovers + "/can_ege_bamyasi.jpg",
-        "criteria": [18, 19],
+        "criteria": [criteria.C_PSYCHEDELIC, criteria.C_JAZZ],
         "selectedTrackTitle": "Vitamin C",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=YmN9oHa3ZIQ",
         "isAGem": false
@@ -1216,7 +1216,7 @@ const albums = [
         "year": 1973,
         "country": regions.GERMANY,
         "cover": pathToCovers + "/can_future_days.jpg",
-        "criteria": [6, 7, 8, 11, 14, 15, 19, 42],
+        "criteria": [criteria.INSTRUMENTAL, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.AMBIENT, criteria.UNCOMMON_INSTRUMENTS, criteria.C_JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Future Days",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=-JKb5xbYkYg",
         "isAGem": true,
@@ -1229,7 +1229,7 @@ const albums = [
         "year": 1974,
         "country": regions.GERMANY,
         "cover": pathToCovers + "/can_soon_over_babaluma.jpg",
-        "criteria": [6, 7, 11, 14],
+        "criteria": [criteria.INSTRUMENTAL, criteria.JAM, criteria.SOFT, criteria.AMBIENT],
         "selectedTrackTitle": "Come Sta, La Luna",
         "selectedTrackYtId": "",
         "isAGem": false
@@ -1241,7 +1241,7 @@ const albums = [
         "year": 1980,
         "country": regions.SOUTH_AFRICA,
         "cover": pathToCovers + "/canamii_concept.jpg",
-        "criteria": [3, 11, 20, 21],
+        "criteria": [criteria.ODD_RHYTHM, criteria.SOFT, criteria.C_ELECTRO, 21],
         "selectedTrackTitle": "Rain",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=yutpOHSsdOA",
         "isAGem": false
@@ -1253,7 +1253,7 @@ const albums = [
         "year": 1972,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/captain_beyond_captain_beyond.jpg",
-        "criteria": [2, 3, 9, 40, 41],
+        "criteria": [criteria.STORYLINE, criteria.ODD_RHYTHM, criteria.TRANSITION, criteria.HEAVY, criteria.PATCHWORK],
         "selectedTrackTitle": "As The Moon Speaks (Part I)",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=wm61ROOZ5ek",
         "isAGem": true,
@@ -1266,7 +1266,7 @@ const albums = [
         "year": 1973,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/captain_beyond_sufficiently_breathless.jpg",
-        "criteria": [3, 7, 22, 40, 42],
+        "criteria": [criteria.ODD_RHYTHM, criteria.JAM, criteria.ROCK, criteria.HEAVY, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Starglow Energy",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=x5D_6GHBBVg",
         "isAGem": false
@@ -1278,7 +1278,7 @@ const albums = [
         "year": 1969,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/caravan_caravan.jpg",
-        "criteria": [7, 11, 21],
+        "criteria": [criteria.JAM, criteria.SOFT, 21],
         "selectedTrackTitle": "Love Song With Flute",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=5X6Hkp1OpfE",
         "isAGem": false
@@ -1290,7 +1290,7 @@ const albums = [
         "year": 1970,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/caravan_if_i_could_do_it_all_over_again_id_do_it_all_over_you.jpg",
-        "criteria": [7, 8, 11, 21],
+        "criteria": [criteria.JAM, criteria.LENGHTY_TRACKS, criteria.SOFT, 21],
         "selectedTrackTitle": "Can't Be Long Now / Françoise / For Richard / Warlock",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=CcxS-HU2qH0",
         "isAGem": false
@@ -1302,7 +1302,7 @@ const albums = [
         "year": 1971,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/caravan_in_the_land_of_grey_and_pink.jpg",
-        "criteria": [7, 8, 11, 21],
+        "criteria": [criteria.JAM, criteria.LENGHTY_TRACKS, criteria.SOFT, 21],
         "selectedTrackTitle": "Winter Wine",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=l2ZrJdmnHIw",
         "isAGem": true,
@@ -1315,7 +1315,7 @@ const albums = [
         "year": 1972,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/caravan_waterloo_lily.jpg",
-        "criteria": [7, 8, 11, 21],
+        "criteria": [criteria.JAM, criteria.LENGHTY_TRACKS, criteria.SOFT, 21],
         "selectedTrackTitle": "The World Is Yours",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=F4yDoaCQ70g",
         "isAGem": false
@@ -1327,7 +1327,7 @@ const albums = [
         "year": 1973,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/caravan_for_girls_who_plump_in_the_night.jpg",
-        "criteria": [7, 11, 21, 42],
+        "criteria": [criteria.JAM, criteria.SOFT, criteria.C_FOLK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "C'thlu Thlu",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=e8HIpQscvrs",
         "isAGem": false
@@ -1339,7 +1339,7 @@ const albums = [
         "year": 1975,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/caravan_cunning_stunts.jpg",
-        "criteria": [7, 8, 11, 21, 42],
+        "criteria": [criteria.JAM, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.C_FOLK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "The Dabsong Conshirtoe",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=uMn4BDFiV-g",
         "isAGem": false
@@ -1351,7 +1351,7 @@ const albums = [
         "year": 1979,
         "country": regions.USA,
         "cover": pathToCovers + "/carlos_santana_oneness_silver_dreams_golden_reality.jpg",
-        "criteria": [1, 7, 19, 21, 42],
+        "criteria": [criteria.CONCEPT, criteria.JAM, criteria.C_JAZZ, criteria.C_FOLK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Oneness",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=2zLSwiWz9Ws",
         "isAGem": false
@@ -1363,7 +1363,7 @@ const albums = [
         "year": 1980,
         "country": regions.USA,
         "cover": pathToCovers + "/carlos_santana_the_swing_of_delight.jpg",
-        "criteria": [6, 7, 11, 19, 21],
+        "criteria": [criteria.INSTRUMENTAL, criteria.JAM, criteria.SOFT, criteria.C_JAZZ, 21],
         "selectedTrackTitle": "Song For My Brother",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=z5nUNCTcZog",
         "isAGem": false
@@ -1375,7 +1375,7 @@ const albums = [
         "year": 1974,
         "country": regions.USA,
         "cover": pathToCovers + "/carlos_santana_and_alice_coltrane_illuminations.jpg",
-        "criteria": [1, 6, 8, 10, 11, 13, 14, 15, 53],
+        "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.SOFT, criteria.ORIENTAL, criteria.AMBIENT, criteria.UNCOMMON_INSTRUMENTS, criteria.ORCHESTRAL_PARTS],
         "selectedTrackTitle": "Bliss: The Eternal Row",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=Bp1gzeUnXWE",
         "isAGem": true,
@@ -1388,7 +1388,7 @@ const albums = [
         "year": 1973,
         "country": regions.USA,
         "cover": pathToCovers + "/carmen_fandagos_in_space.jpg",
-        "criteria": [1, 3, 38],
+        "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, 38],
         "selectedTrackTitle": "Bulerias",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=gjFs0Iy6yAc",
         "isAGem": false
@@ -1400,7 +1400,7 @@ const albums = [
         "year": 1973,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/cat_stevens_foreigner.jpg",
-        "criteria": [8, 19, 21, 47],
+        "criteria": [criteria.LENGHTY_TRACKS, criteria.C_JAZZ, criteria.C_FOLK, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "Foreigner Suite",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=KOC_LkgNAHU",
         "isAGem": false
@@ -1412,7 +1412,7 @@ const albums = [
         "year": 1978,
         "country": regions.QUEBEC,
         "cover": pathToCovers + "/claude_leveillee_black_sun.jpg",
-        "criteria": [6, 11, 15, 16, 18, 20, 21],
+        "criteria": [criteria.INSTRUMENTAL, criteria.SOFT, criteria.UNCOMMON_INSTRUMENTS, criteria.SOUND_COLLAGES, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO, 21],
         "selectedTrackTitle": "Requiem Pour Un Astronaute",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=dtsi7kNIApo",
         "isAGem": false
@@ -1424,7 +1424,7 @@ const albums = [
         "year": 1977,
         "country": regions.DENMARK,
         "cover": pathToCovers + "/coma_financial_tycoon.jpg",
-        "criteria": [1, 3, 6, 7, 15, 18, 19, 35, 42],
+        "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.FUNNY, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Foreigner Suite",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=QOJXZbwHPNI",
         "isAGem": false
@@ -1436,7 +1436,7 @@ const albums = [
         "year": 1969,
         "country": regions.USA,
         "cover": pathToCovers + "/coven_witchcraft_destroys_minds_and_reaps_souls.jpg",
-        "criteria": [1, 18, 22, 40, 42, 55],
+        "criteria": [criteria.CONCEPT, criteria.C_PSYCHEDELIC, criteria.ROCK, criteria.HEAVY, criteria.JAZZY_GROOVY, criteria.OCCULT],
         "selectedTrackTitle": "The White Witch Of Rose Hall",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=TSKJ9C_QX18",
         "isAGem": false
@@ -1448,7 +1448,7 @@ const albums = [
         "year": 1968,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/the_crazy_world_of_arthur_brown_the_crazy_world_of_arthur_brown.jpg",
-        "criteria": [1, 9, 18, 41, 45, 55],
+        "criteria": [criteria.CONCEPT, criteria.TRANSITION, criteria.C_PSYCHEDELIC, criteria.PATCHWORK, criteria.FANFARE, criteria.OCCULT],
         "selectedTrackTitle": "Fire",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=FaHEusBG20c",
         "isAGem": false
@@ -1460,7 +1460,7 @@ const albums = [
         "year": 1976,
         "country": regions.ARGENTINA,
         "cover": pathToCovers + "/crucis_crucis.jpg",
-        "criteria": [3, 10, 20, 38],
+        "criteria": [criteria.ODD_RHYTHM, criteria.GLITTER, criteria.C_ELECTRO, 38],
         "selectedTrackTitle": "Mes",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=oeVNf_Ugpb8",
         "isAGem": false
@@ -1472,7 +1472,7 @@ const albums = [
         "year": 1976,
         "country": regions.ARGENTINA,
         "cover": pathToCovers + "/crucis_los_delirios_del_mariscal.jpg",
-        "criteria": [3, 10, 20, 38],
+        "criteria": [criteria.ODD_RHYTHM, criteria.GLITTER, criteria.C_ELECTRO, 38],
         "selectedTrackTitle": "No Me Separen De Mí",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=XvdxYyYbc84",
         "isAGem": false
@@ -1499,7 +1499,7 @@ const albums = [
         "year": 1969,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/david_bowie_space_oddity.jpg",
-        "criteria": [21, 48],
+        "criteria": [criteria.C_FOLK, criteria.ART_POP],
         "selectedTrackTitle": "Space Oddity",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=iYYRH4apXDo",
         "isAGem": false
@@ -1511,7 +1511,7 @@ const albums = [
         "year": 1970,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/david_bowie_the_man_who_sold_the_world.jpg",
-        "criteria": [21, 48],
+        "criteria": [criteria.C_FOLK, criteria.ART_POP],
         "selectedTrackTitle": "The Width Of A Circle",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=s2L4hL2IvUk",
         "isAGem": false
@@ -1523,7 +1523,7 @@ const albums = [
         "year": 1971,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/david_bowie_hunky_dory.jpg",
-        "criteria": [3, 21, 48],
+        "criteria": [criteria.ODD_RHYTHM, criteria.C_FOLK, criteria.ART_POP],
         "selectedTrackTitle": "Life On Mars?",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=v--IqqusnNQ",
         "isAGem": false
@@ -1535,7 +1535,7 @@ const albums = [
         "year": 1972,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/david_bowie_the_rise_and_fall_of_ziggy_stardust_and_the_spiders_from_mars.jpg",
-        "criteria": [1, 21, 43, 48],
+        "criteria": [criteria.CONCEPT, criteria.C_FOLK, criteria.ROCK_OPERA, criteria.ART_POP],
         "selectedTrackTitle": "Starman",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=EYQTGF1hXVI",
         "isAGem": false
@@ -1547,7 +1547,7 @@ const albums = [
         "year": 1968,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/deep_purple_the_book_of_taliesyn.jpg",
-        "criteria": [7, 18, 20],
+        "criteria": [criteria.JAM, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO],
         "selectedTrackTitle": "Listen, Learn, Read On",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=uYZaXo4jOu0",
         "isAGem": false
@@ -1559,7 +1559,7 @@ const albums = [
         "year": 1969,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/deep_purple_deep_purple.jpg",
-        "criteria": [7, 18, 20],
+        "criteria": [criteria.JAM, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO],
         "selectedTrackTitle": "April",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=2eRTQnSzoUI",
         "isAGem": false
@@ -1571,7 +1571,7 @@ const albums = [
         "year": 1972,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/deep_purple_machine_head.jpg",
-        "criteria": [3, 7, 22, 40],
+        "criteria": [criteria.ODD_RHYTHM, criteria.JAM, criteria.ROCK, criteria.HEAVY],
         "selectedTrackTitle": "Lazy",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=STFWapwyqMo",
         "isAGem": false
@@ -1583,7 +1583,7 @@ const albums = [
         "year": 1978,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/dominique_guiot_lunivers_de_la_mer.jpg",
-        "criteria": [1, 6, 11, 21, 41, 44],
+        "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.SOFT, criteria.C_FOLK, criteria.PATCHWORK, criteria.ELECTRO],
         "selectedTrackTitle": "Les Deux Poissons",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=gOwuBTGwrco",
         "isAGem": false
@@ -1595,7 +1595,7 @@ const albums = [
         "year": 1983,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/dominique_guiot_la_dame_a_la_licorne.jpg",
-        "criteria": [1, 6, 11, 15, 33, 41, 46],
+        "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.SOFT, criteria.UNCOMMON_INSTRUMENTS, criteria.MEDIEVAL, criteria.PATCHWORK, criteria.FOLK],
         "selectedTrackTitle": "La Dame À La Licorne",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=O5s_o1Pc6bA",
         "isAGem": false
@@ -1607,7 +1607,7 @@ const albums = [
         "year": 1967,
         "country": regions.USA,
         "cover": pathToCovers + "/the_doors_the_doors.jpg",
-        "criteria": [19, 42, 48],
+        "criteria": [criteria.C_JAZZ, criteria.JAZZY_GROOVY, criteria.ART_POP],
         "selectedTrackTitle": "The End",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=JSUIQgEVDM4",
         "isAGem": false
@@ -1619,7 +1619,7 @@ const albums = [
         "year": 1967,
         "country": regions.USA,
         "cover": pathToCovers + "/the_doors_strange_days.jpg",
-        "criteria": [18, 19, 42, 48],
+        "criteria": [criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.JAZZY_GROOVY, criteria.ART_POP],
         "selectedTrackTitle": "When The Music's Over",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=YkKRU1ajKFA",
         "isAGem": false
@@ -1631,7 +1631,7 @@ const albums = [
         "year": 1968,
         "country": regions.USA,
         "cover": pathToCovers + "/the_doors_waiting_for_the_sun.jpg",
-        "criteria": [19, 42, 48],
+        "criteria": [criteria.C_JAZZ, criteria.JAZZY_GROOVY, criteria.ART_POP],
         "selectedTrackTitle": "Yes, The River Knows",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=v6boHOX8r60",
         "isAGem": false
@@ -1643,7 +1643,7 @@ const albums = [
         "year": 1969,
         "country": regions.USA,
         "cover": pathToCovers + "/the_doors_the_soft_parade.jpg",
-        "criteria": [19, 42, 48],
+        "criteria": [criteria.C_JAZZ, criteria.JAZZY_GROOVY, criteria.ART_POP],
         "selectedTrackTitle": "The Soft Parade",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=8p-AUo1w45w",
         "isAGem": false
@@ -1655,7 +1655,7 @@ const albums = [
         "year": 1973,
         "country": regions.DENMARK,
         "cover": pathToCovers + "/dr_dopo_jam_entree.jpg",
-        "criteria": [3, 7, 8, 15, 18, 19, 35, 42],
+        "criteria": [criteria.ODD_RHYTHM, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.FUNNY, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Opening",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=ymeBpnDr4Lw",
         "isAGem": true,
@@ -1668,7 +1668,7 @@ const albums = [
         "year": 1974,
         "country": regions.DENMARK,
         "cover": pathToCovers + "/dr_dopo_jam_fat_dogs_and_danishmen.jpg",
-        "criteria": [3, 7, 15, 18, 19, 35, 42],
+        "criteria": [criteria.ODD_RHYTHM, criteria.JAM, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.FUNNY, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Nova Bossa Nova",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=wkViMhydlkc",
         "isAGem": false
@@ -1683,7 +1683,7 @@ const albums = [
         "year": 1978,
         "country": regions.USA,
         "cover": pathToCovers + "/earthrise_earthrise.jpg",
-        "criteria": [1, 3, 6, 7, 11, 19, 20, 42],
+        "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.SOFT, criteria.C_JAZZ, criteria.C_ELECTRO, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Arcturus",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=4YDGiubWxvw",
         "isAGem": false
@@ -1695,7 +1695,7 @@ const albums = [
         "year": 1970,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/egg_egg.jpg",
-        "criteria": [3, 6, 7, 8, 19, 35, 42],
+        "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.C_JAZZ, criteria.FUNNY, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Symphony No. 2",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=gR1TYEOVpJ0",
         "isAGem": false
@@ -1707,7 +1707,7 @@ const albums = [
         "year": 1971,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/egg_the_polite_force.jpg",
-        "criteria": [3, 6, 7, 19, 42],
+        "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.C_JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "A Visit To Newport Hospital",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=DanChmmX4k0",
         "isAGem": false
@@ -1719,7 +1719,7 @@ const albums = [
         "year": 1974,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/egg_the_civil_surface.jpg",
-        "criteria": [3, 6, 7, 19, 42],
+        "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.C_JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Enneagram",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=QS96H34Ywv4",
         "isAGem": false
@@ -1731,7 +1731,7 @@ const albums = [
         "year": 1971,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/elder_kindred_kindred_spirits.jpg",
-        "criteria": [42, 46],
+        "criteria": [criteria.JAZZY_GROOVY, criteria.FOLK],
         "selectedTrackTitle": "Castles",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=Tw9Ksxrm7hg",
         "isAGem": false
@@ -1743,7 +1743,7 @@ const albums = [
         "year": 1977,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/electric_light_orchestra_out_of_the_blue.jpg",
-        "criteria": [1, 9, 20, 43, 45],
+        "criteria": [criteria.CONCEPT, criteria.TRANSITION, criteria.C_ELECTRO, criteria.ROCK_OPERA, criteria.FANFARE],
         "selectedTrackTitle": "Mr. Blue Sky",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=aQUlA8Hcv4s",
         "isAGem": false
@@ -1755,7 +1755,7 @@ const albums = [
         "year": 1981,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/electric_light_orchestra_time.jpg",
-        "criteria": [2, 9, 43, 44],
+        "criteria": [criteria.STORYLINE, criteria.TRANSITION, criteria.ROCK_OPERA, criteria.ELECTRO],
         "selectedTrackTitle": "Ticket To The Moon",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=CJdZTNLkpuA",
         "isAGem": true,
@@ -1768,7 +1768,7 @@ const albums = [
         "year": 1971,
         "country": regions.GERMANY,
         "cover": pathToCovers + "/eloy_eloy.jpg",
-        "criteria": [7, 22],
+        "criteria": [criteria.JAM, criteria.ROCK],
         "selectedTrackTitle": "Something Yellow",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=yDatGyROJ1c",
         "isAGem": false
@@ -1780,7 +1780,7 @@ const albums = [
         "year": 1973,
         "country": regions.GERMANY,
         "cover": pathToCovers + "/eloy_inside.jpg",
-        "criteria": [7, 8, 10, 20],
+        "criteria": [criteria.JAM, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_ELECTRO],
         "selectedTrackTitle": "Inside",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=g9geep2yJjI",
         "isAGem": false
@@ -1792,7 +1792,7 @@ const albums = [
         "year": 1974,
         "country": regions.GERMANY,
         "cover": pathToCovers + "/eloy_floating.jpg",
-        "criteria": [7, 8, 10, 20],
+        "criteria": [criteria.JAM, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_ELECTRO],
         "selectedTrackTitle": "Castle In The Air",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=K_oPTaKCjcY",
         "isAGem": false
@@ -1804,7 +1804,7 @@ const albums = [
         "year": 1975,
         "country": regions.GERMANY,
         "cover": pathToCovers + "/eloy_power_and_the_passion.jpg",
-        "criteria": [2, 7, 10, 20],
+        "criteria": [criteria.STORYLINE, criteria.JAM, criteria.SYMPHONIC, criteria.C_ELECTRO],
         "selectedTrackTitle": "The Bells Of Notre Dame",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=p9P8OlPZnrM",
         "isAGem": false
@@ -1816,7 +1816,7 @@ const albums = [
         "year": 1976,
         "country": regions.GERMANY,
         "cover": pathToCovers + "/eloy_dawn.jpg",
-        "criteria": [2, 7, 10, 20],
+        "criteria": [criteria.STORYLINE, criteria.JAM, criteria.SYMPHONIC, criteria.C_ELECTRO],
         "selectedTrackTitle": "Gliding Into Light And Knowledge",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=FGcpZ_4a5Y8",
         "isAGem": false
@@ -1828,7 +1828,7 @@ const albums = [
         "year": 1977,
         "country": regions.GERMANY,
         "cover": pathToCovers + "/eloy_ocean.jpg",
-        "criteria": [1, 7, 8, 10, 20, 43],
+        "criteria": [criteria.CONCEPT, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_ELECTRO, criteria.ROCK_OPERA],
         "selectedTrackTitle": "Poseidon's Creation",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=NIeO4IAhpGM",
         "isAGem": true,
@@ -1841,7 +1841,7 @@ const albums = [
         "year": 1979,
         "country": regions.GERMANY,
         "cover": pathToCovers + "/eloy_silent_cries_and_mighty_echoes.jpg",
-        "criteria": [7, 8, 10, 20],
+        "criteria": [criteria.JAM, criteria.LENGHTY_TRACKS, criteria.GLITTER, criteria.SYMPHONIC, criteria.C_ELECTRO],
         "selectedTrackTitle": "Master Of Sensation",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=GzJ8a29jvMU",
         "isAGem": false
@@ -1853,7 +1853,7 @@ const albums = [
         "year": 1980,
         "country": regions.GERMANY,
         "cover": pathToCovers + "/eloy_colours.jpg",
-        "criteria": [7, 10, 20],
+        "criteria": [criteria.JAM, criteria.GLITTER, criteria.C_ELECTRO],
         "selectedTrackTitle": "Giant",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=E1X0euUgYgA",
         "isAGem": false
@@ -1865,7 +1865,7 @@ const albums = [
         "year": 1981,
         "country": regions.GERMANY,
         "cover": pathToCovers + "/eloy_planets.jpg",
-        "criteria": [7, 10, 20],
+        "criteria": [criteria.JAM, criteria.GLITTER, criteria.C_ELECTRO],
         "selectedTrackTitle": "Mysterious Monolith",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=qLUmum7-Krs",
         "isAGem": false
@@ -1877,7 +1877,7 @@ const albums = [
         "year": 1982,
         "country": regions.GERMANY,
         "cover": pathToCovers + "/eloy_time_to_turn.jpg",
-        "criteria": [7, 10, 20],
+        "criteria": [criteria.JAM, criteria.GLITTER, criteria.C_ELECTRO],
         "selectedTrackTitle": "End Of An Odyssey",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=MCr4WoovspA",
         "isAGem": false
@@ -1889,7 +1889,7 @@ const albums = [
         "year": 1970,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/emerson_lake_and_palmer_emerson_lake_and_palmer.jpg",
-        "criteria": [3, 4, 6, 8, 10, 18, 21, 30],
+        "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_PSYCHEDELIC, criteria.C_FOLK, 30],
         "selectedTrackTitle": "Take A Pebble",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=tVz35uXqFYw",
         "isAGem": false
@@ -1901,7 +1901,7 @@ const albums = [
         "year": 1971,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/emerson_lake_and_palmer_tarkus.jpg",
-        "criteria": [3, 4, 6, 8, 10, 18, 21, 30],
+        "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_PSYCHEDELIC, criteria.C_FOLK, 30],
         "selectedTrackTitle": "Tarkus",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=WKNOlDtZluU",
         "isAGem": false
@@ -1913,7 +1913,7 @@ const albums = [
         "year": 1971,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/emerson_lake_and_palmer_pictures_at_an_exhibition.jpg",
-        "criteria": [1, 6, 10, 12, 20, 41, 43],
+        "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.SYMPHONIC, criteria.LIVE, criteria.C_ELECTRO, criteria.PATCHWORK, criteria.ROCK_OPERA],
         "selectedTrackTitle": "The Sage",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=1gxAGj-Svcc",
         "isAGem": false
@@ -1925,7 +1925,7 @@ const albums = [
         "year": 1972,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/emerson_lake_and_palmer_trilogy.jpg",
-        "criteria": [3, 10, 20],
+        "criteria": [criteria.ODD_RHYTHM, criteria.SYMPHONIC, criteria.C_ELECTRO],
         "selectedTrackTitle": "Trilogy",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=-yB1rilcUGQ",
         "isAGem": false
@@ -1937,7 +1937,7 @@ const albums = [
         "year": 1973,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/emerson_lake_and_palmer_brain_salad_surgery.jpg",
-        "criteria": [4, 9, 10, 18, 20],
+        "criteria": [4, criteria.TRANSITION, criteria.SYMPHONIC, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO],
         "selectedTrackTitle": "Still... You Turn Me On",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=_8VHHcd0M_o",
         "isAGem": false
@@ -1949,7 +1949,7 @@ const albums = [
         "year": 1979,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/eskaton_4_visions.jpg",
-        "criteria": [8, 18, 19, 20, 42],
+        "criteria": [criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.C_ELECTRO, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Le Cri",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=aMpmbXRIu28",
         "isAGem": false
@@ -1961,7 +1961,7 @@ const albums = [
         "year": 1980,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/eskaton_ardeur.jpg",
-        "criteria": [3, 8, 18, 19, 20, 42],
+        "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.C_ELECTRO, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Eskaton",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=YRrKHFxLRh4",
         "isAGem": false
@@ -1976,7 +1976,7 @@ const albums = [
         "year": 1971,
         "country": regions.GERMANY,
         "cover": pathToCovers + "/faust_faust.jpg",
-        "criteria": [5, 6, 7, 8, 18, 20],
+        "criteria": [5, criteria.INSTRUMENTAL, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO],
         "selectedTrackTitle": "Miss Fortune",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=Yu9MehUlLgo",
         "isAGem": false
@@ -1988,7 +1988,7 @@ const albums = [
         "year": 1978,
         "country": regions.CANADA,
         "cover": pathToCovers + "/fm_black_noise.jpg",
-        "criteria": [2, 7, 43, 44],
+        "criteria": [criteria.STORYLINE, criteria.JAM, criteria.ROCK_OPERA, criteria.ELECTRO],
         "selectedTrackTitle": "Slaughter In Robot Village",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=vx-8oTLXkIvu7M",
         "isAGem": false
@@ -2000,7 +2000,7 @@ const albums = [
         "year": 1970,
         "country": regions.NETHERLANDS,
         "cover": pathToCovers + "/focus_in_and_out_of_focus.jpg",
-        "criteria": [6, 11, 19, 22, 31, 42],
+        "criteria": [criteria.INSTRUMENTAL, criteria.SOFT, criteria.C_JAZZ, criteria.ROCK, 31, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "House Of The King",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=vx-g0C4iHTEJ9o",
         "isAGem": false
@@ -2012,7 +2012,7 @@ const albums = [
         "year": 1971,
         "country": regions.NETHERLANDS,
         "cover": pathToCovers + "/focus_moving_waves.jpg",
-        "criteria": [6, 8, 10, 11, 19, 35],
+        "criteria": [criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.SOFT, criteria.C_JAZZ, criteria.FUNNY],
         "selectedTrackTitle": "Janis",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=vx-JzRzsCss",
         "isAGem": true,
@@ -2025,7 +2025,7 @@ const albums = [
         "year": 1972,
         "country": regions.NETHERLANDS,
         "cover": pathToCovers + "/focus_focus_3.jpg",
-        "criteria": [3, 4, 6, 7, 8, 19, 33, 35, 42],
+        "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.C_JAZZ, criteria.MEDIEVAL, criteria.FUNNY, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Sylvia",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=aig4mWJUpLw",
         "isAGem": false
@@ -2037,7 +2037,7 @@ const albums = [
         "year": 1974,
         "country": regions.NETHERLANDS,
         "cover": pathToCovers + "/focus_hamburger_concerto.jpg",
-        "criteria": [6, 8, 10, 19, 33],
+        "criteria": [criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_JAZZ, 33],
         "selectedTrackTitle": "La Cathédrale De Strasbourg",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=HowIDiFOHwY",
         "isAGem": false
@@ -2049,7 +2049,7 @@ const albums = [
         "year": 1985,
         "country": regions.NETHERLANDS,
         "cover": pathToCovers + "/focus_focus.jpg",
-        "criteria": [6, 7, 8, 11, 20],
+        "criteria": [criteria.INSTRUMENTAL, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.C_ELECTRO],
         "selectedTrackTitle": "King Kong",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=26b_f-KriRQ",
         "isAGem": false
@@ -2061,7 +2061,7 @@ const albums = [
         "year": 1966,
         "country": regions.USA,
         "cover": pathToCovers + "/frank_zappa_freak_out.jpg",
-        "criteria": [5, 15, 18, 35],
+        "criteria": [5, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.FUNNY],
         "selectedTrackTitle": "Who Are The Brain Police?",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=DuABc9ZNtrA",
         "isAGem": false
@@ -2073,7 +2073,7 @@ const albums = [
         "year": 1967,
         "country": regions.USA,
         "cover": pathToCovers + "/frank_zappa_absolutely_free.jpg",
-        "criteria": [3, 18, 19, 35, 41],
+        "criteria": [criteria.ODD_RHYTHM, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.FUNNY, criteria.PATCHWORK],
         "selectedTrackTitle": "Invocation & Ritual Dance Of The Young Pumpkin",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=7gw2qqcsxlE",
         "isAGem": false
@@ -2085,7 +2085,7 @@ const albums = [
         "year": 1968,
         "country": regions.USA,
         "cover": pathToCovers + "/frank_zappa_lumpy_gravy.jpg",
-        "criteria": [1, 9, 16, 17, 35, 41],
+        "criteria": [criteria.CONCEPT, criteria.TRANSITION, criteria.SOUND_COLLAGES, criteria.BLENDS, criteria.FUNNY, criteria.PATCHWORK],
         "selectedTrackTitle": "Duodenum",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=oylUODycgRA",
         "isAGem": false
@@ -2097,7 +2097,7 @@ const albums = [
         "year": 1968,
         "country": regions.USA,
         "cover": pathToCovers + "/frank_zappa_were_only_in_it_for_the_money.jpg",
-        "criteria": [1, 3, 9, 18, 19, 35, 41],
+        "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.TRANSITION, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.FUNNY, criteria.PATCHWORK],
         "selectedTrackTitle": "Take Your Clothes Off When You Dance",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=Xsuk9S0XknE",
         "isAGem": false
@@ -2109,7 +2109,7 @@ const albums = [
         "year": 1968,
         "country": regions.USA,
         "cover": pathToCovers + "/frank_zappa_uncle_meat.jpg",
-        "criteria": [1, 3, 5, 9, 15, 16, 17, 35, 41],
+        "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.EXPERIMENTAL, criteria.TRANSITION, criteria.UNCOMMON_INSTRUMENTS, criteria.SOUND_COLLAGES, criteria.BLENDS, criteria.FUNNY, criteria.PATCHWORK],
         "selectedTrackTitle": "The Dog Breath Variations",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=d_YSSPOFHYI",
         "isAGem": false
@@ -2121,7 +2121,7 @@ const albums = [
         "year": 1969,
         "country": regions.USA,
         "cover": pathToCovers + "/frank_zappa_hot_rats.jpg",
-        "criteria": [6, 7, 15, 23, 35, 42],
+        "criteria": [criteria.INSTRUMENTAL, criteria.JAM, criteria.UNCOMMON_INSTRUMENTS, criteria.JAZZ, criteria.FUNNY, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Peaches En Regalia",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=zprYyWMcUGY",
         "isAGem": false
@@ -2133,7 +2133,7 @@ const albums = [
         "year": 1970,
         "country": regions.USA,
         "cover": pathToCovers + "/frank_zappa_burnt_weeny_sandwich.jpg",
-        "criteria": [5, 6, 7, 16, 18, 41],
+        "criteria": [5, criteria.INSTRUMENTAL, criteria.JAM, criteria.SOUND_COLLAGES, criteria.C_PSYCHEDELIC, criteria.PATCHWORK],
         "selectedTrackTitle": "Theme From Burnt Weeny Sandwich",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=vB-PYif7Fek",
         "isAGem": false
@@ -2145,7 +2145,7 @@ const albums = [
         "year": 1970,
         "country": regions.USA,
         "cover": pathToCovers + "/frank_zappa_weasels_ripped_my_flesh.jpg",
-        "criteria": [5, 12, 18, 19],
+        "criteria": [5, criteria.LIVE, criteria.C_PSYCHEDELIC, criteria.C_JAZZ],
         "selectedTrackTitle": "The Eric Dolphy Memorial Barbecue",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=tLUxmYKvYBo",
         "isAGem": false
@@ -2157,7 +2157,7 @@ const albums = [
         "year": 1970,
         "country": regions.USA,
         "cover": pathToCovers + "/frank_zappa_chungas_revenge.jpg",
-        "criteria": [18, 19, 35],
+        "criteria": [criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.FUNNY],
         "selectedTrackTitle": "Rudy Wants To Buy Yez A Drink",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=ZCgmTFM23sA",
         "isAGem": false
@@ -2169,7 +2169,7 @@ const albums = [
         "year": 1971,
         "country": regions.USA,
         "cover": pathToCovers + "/frank_zappa_200_motels.jpg",
-        "criteria": [1, 16, 17, 35, 41, 49],
+        "criteria": [criteria.CONCEPT, criteria.SOUND_COLLAGES, criteria.BLENDS, criteria.FUNNY, criteria.PATCHWORK, criteria.SOUNDTRACK],
         "selectedTrackTitle": "She Painted Up Her Face",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=p_1KEwREujU",
         "isAGem": false
@@ -2181,7 +2181,7 @@ const albums = [
         "year": 1972,
         "country": regions.USA,
         "cover": pathToCovers + "/frank_zappa_waka_jawaka.jpg",
-        "criteria": [3, 4, 6, 7, 8, 15, 23, 35, 42],
+        "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.UNCOMMON_INSTRUMENTS, criteria.JAZZ, criteria.FUNNY, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "It Just Might Be A One-Shot Deal",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=3expVNVi6Gw",
         "isAGem": false
@@ -2193,7 +2193,7 @@ const albums = [
         "year": 1972,
         "country": regions.USA,
         "cover": pathToCovers + "/frank_zappa_the_grand_wazoo.jpg",
-        "criteria": [3, 6, 7, 8, 15, 23, 35, 42, 45],
+        "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.UNCOMMON_INSTRUMENTS, criteria.JAZZ, criteria.FUNNY, criteria.JAZZY_GROOVY, criteria.FANFARE],
         "selectedTrackTitle": "Cletus Awreetus-Awrightus",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=cu_kJ4jEJ9A",
         "isAGem": true,
@@ -2206,7 +2206,7 @@ const albums = [
         "year": 1973,
         "country": regions.USA,
         "cover": pathToCovers + "/frank_zappa_over_nite_sensation.jpg",
-        "criteria": [3, 18, 19, 22, 35, 40, 42],
+        "criteria": [criteria.ODD_RHYTHM, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.ROCK, criteria.FUNNY, criteria.HEAVY, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Zomby Woof",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=ksnwEsPKO5s",
         "isAGem": false
@@ -2218,7 +2218,7 @@ const albums = [
         "year": 1974,
         "country": regions.USA,
         "cover": pathToCovers + "/frank_zappa_apostrophe.jpg",
-        "criteria": [2, 3, 9, 17, 22, 35],
+        "criteria": [criteria.STORYLINE, criteria.ODD_RHYTHM, criteria.TRANSITION, criteria.BLENDS, criteria.ROCK, criteria.FUNNY],
         "selectedTrackTitle": "Father O'blivion",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=2XO7xSwYVZI",
         "isAGem": true,
@@ -2231,7 +2231,7 @@ const albums = [
         "year": 1974,
         "country": regions.USA,
         "cover": pathToCovers + "/frank_zappa_roxy_and_elsewhere.jpg",
-        "criteria": [3, 4, 7, 8, 12, 19, 30, 42, 45],
+        "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.LIVE, criteria.C_JAZZ, criteria.SPECTACULAR, criteria.JAZZY_GROOVY, criteria.FANFARE],
         "selectedTrackTitle": "Echidna's Arf (Of You)",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=NeCGm8VipUU",
         "isAGem": true,
@@ -2244,7 +2244,7 @@ const albums = [
         "year": 1975,
         "country": regions.USA,
         "cover": pathToCovers + "/frank_zappa_one_size_fits_all.jpg",
-        "criteria": [3, 15, 17, 35],
+        "criteria": [criteria.ODD_RHYTHM, criteria.UNCOMMON_INSTRUMENTS, criteria.BLENDS, criteria.FUNNY],
         "selectedTrackTitle": "Andy",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=3hAUvgZmjlg",
         "isAGem": false
@@ -2256,7 +2256,7 @@ const albums = [
         "year": 1975,
         "country": regions.USA,
         "cover": pathToCovers + "/frank_zappa_bongo_fury.jpg",
-        "criteria": [7, 12, 18, 35],
+        "criteria": [criteria.JAM, criteria.LIVE, criteria.C_PSYCHEDELIC, criteria.FUNNY],
         "selectedTrackTitle": "Muffin Man",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=8CGO9I8rmkE",
         "isAGem": false
@@ -2268,7 +2268,7 @@ const albums = [
         "year": 1976,
         "country": regions.USA,
         "cover": pathToCovers + "/frank_zappa_zoot_allures.jpg",
-        "criteria": [18, 22, 35],
+        "criteria": [criteria.C_PSYCHEDELIC, criteria.ROCK, criteria.FUNNY],
         "selectedTrackTitle": "Zoot Allures",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=fdQmhhi5cLI",
         "isAGem": false
@@ -2280,7 +2280,7 @@ const albums = [
         "year": 1978,
         "country": regions.USA,
         "cover": pathToCovers + "/frank_zappa_in_new_york.jpg",
-        "criteria": [7, 8, 12, 19, 35],
+        "criteria": [criteria.JAM, criteria.LENGHTY_TRACKS, criteria.LIVE, criteria.C_JAZZ, criteria.FUNNY],
         "selectedTrackTitle": "Honey, Don't You Want A Man Like Me?",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=QsrSIQM4ZTk",
         "isAGem": false
@@ -2292,7 +2292,7 @@ const albums = [
         "year": 1978,
         "country": regions.USA,
         "cover": pathToCovers + "/frank_zappa_studio_tan.jpg",
-        "criteria": [2, 3, 8, 19, 35],
+        "criteria": [criteria.STORYLINE, criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.C_JAZZ, criteria.FUNNY],
         "selectedTrackTitle": "RDNZL",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=ZlwLNcBD68k",
         "isAGem": false
@@ -2304,7 +2304,7 @@ const albums = [
         "year": 1979,
         "country": regions.USA,
         "cover": pathToCovers + "/frank_zappa_sleep_dirt.jpg",
-        "criteria": [3, 4, 6, 18, 19],
+        "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.C_PSYCHEDELIC, criteria.C_JAZZ],
         "selectedTrackTitle": "The Ocean Is The Ultimate Solution",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=zCNRgfkeWXs",
         "isAGem": false
@@ -2316,7 +2316,7 @@ const albums = [
         "year": 1979,
         "country": regions.USA,
         "cover": pathToCovers + "/frank_zappa_sheik_yerbouti.jpg",
-        "criteria": [7, 12, 16, 18, 22, 35, 40, 41],
+        "criteria": [criteria.JAM, criteria.LIVE, criteria.SOUND_COLLAGES, criteria.C_PSYCHEDELIC, criteria.ROCK, criteria.FUNNY, criteria.HEAVY, criteria.PATCHWORK],
         "selectedTrackTitle": "City Of Tiny Lites",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=cMe7ZFMBGdo",
         "isAGem": false
@@ -2328,7 +2328,7 @@ const albums = [
         "year": 1979,
         "country": regions.USA,
         "cover": pathToCovers + "/frank_zappa_joes_garage.jpg",
-        "criteria": [2, 3, 9, 17, 35, 42, 43],
+        "criteria": [criteria.STORYLINE, criteria.ODD_RHYTHM, criteria.TRANSITION, criteria.BLENDS, criteria.FUNNY, criteria.JAZZY_GROOVY, criteria.ROCK_OPERA],
         "selectedTrackTitle": "A Token Of My Extreme",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=tnSF36PBxbk",
         "isAGem": true,
@@ -2341,7 +2341,7 @@ const albums = [
         "year": 1988,
         "country": regions.USA,
         "cover": pathToCovers + "/frank_zappa_broadway_the_hard_way.jpg",
-        "criteria": [12, 17, 35, 45],
+        "criteria": [12, criteria.BLENDS, criteria.FUNNY, criteria.FANFARE],
         "selectedTrackTitle": "Why Don't You Like Me",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=emEOePwK0ok",
         "isAGem": false
@@ -2353,7 +2353,7 @@ const albums = [
         "year": 1971,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/fuchsia_fuchsia.jpg",
-        "criteria": [11, 18, 46],
+        "criteria": [criteria.SOFT, criteria.C_PSYCHEDELIC, criteria.FOLK],
         "selectedTrackTitle": "The Nothing Song",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=MRlr3WYNVjA",
         "isAGem": false
@@ -2365,7 +2365,7 @@ const albums = [
         "year": 1978,
         "country": regions.GERMANY,
         "cover": pathToCovers + "/fuhrs_and_frohling_ammerland.jpg",
-        "criteria": [6, 8, 21, 44],
+        "criteria": [criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.C_FOLK, criteria.ELECTRO],
         "selectedTrackTitle": "Ammerland",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=RV0RD6SthNI",
         "isAGem": false
@@ -2377,7 +2377,7 @@ const albums = [
         "year": 1979,
         "country": regions.GERMANY,
         "cover": pathToCovers + "/fuhrs_and_frohling_strings.jpg",
-        "criteria": [6, 7, 21, 44],
+        "criteria": [criteria.INSTRUMENTAL, criteria.JAM, criteria.C_FOLK, criteria.ELECTRO],
         "selectedTrackTitle": "Morning Bird",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=RV0RD6SthNI",
         "isAGem": false
@@ -2389,7 +2389,7 @@ const albums = [
         "year": 1971,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/fuzzy_duck_fuzzy_duck.jpg",
-        "criteria": [3, 7, 22],
+        "criteria": [criteria.ODD_RHYTHM, criteria.JAM, criteria.ROCK],
         "selectedTrackTitle": "Country Boy",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=odP44_gNdNU",
         "isAGem": false
@@ -2404,7 +2404,7 @@ const albums = [
         "year": 1969,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/genesis_from_genesis_to_revelation.jpg",
-        "criteria": [1, 9, 11, 15],
+        "criteria": [criteria.CONCEPT, criteria.TRANSITION, criteria.SOFT, criteria.UNCOMMON_INSTRUMENTS],
         "selectedTrackTitle": "The Serpent",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=_lUJ9f0B3jo",
         "isAGem": false
@@ -2416,7 +2416,7 @@ const albums = [
         "year": 1970,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/genesis_trespass.jpg",
-        "criteria": [3, 10, 30, 43, 47],
+        "criteria": [criteria.ODD_RHYTHM, criteria.SYMPHONIC, criteria.SPECTACULAR, criteria.ROCK_OPERA, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "Dusk",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=R8fq7djQAnQ",
         "isAGem": true,
@@ -2429,7 +2429,7 @@ const albums = [
         "year": 1971,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/genesis_nursery_cryme.jpg",
-        "criteria": [3, 10, 30, 43, 47],
+        "criteria": [criteria.ODD_RHYTHM, criteria.SYMPHONIC, criteria.SPECTACULAR, criteria.ROCK_OPERA, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "Harold The Barrel",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=qT7k7keej0k",
         "isAGem": false
@@ -2441,7 +2441,7 @@ const albums = [
         "year": 1972,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/genesis_foxtrot.jpg",
-        "criteria": [3, 8, 10, 30, 43, 47],
+        "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.SPECTACULAR, criteria.ROCK_OPERA, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "Get 'Em Out By Friday",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=Kp-TwWnn0dk",
         "isAGem": false
@@ -2453,7 +2453,7 @@ const albums = [
         "year": 1973,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/genesis_selling_england_by_the_pound.jpg",
-        "criteria": [3, 8, 10, 30, 43, 47],
+        "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.SPECTACULAR, criteria.ROCK_OPERA, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "Firth Of Fifth",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=SD5engyVXe0",
         "isAGem": true,
@@ -2466,7 +2466,7 @@ const albums = [
         "year": 1974,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/genesis_the_lamb_lies_down_on_broadway.jpg",
-        "criteria": [1, 9, 43, 47],
+        "criteria": [criteria.CONCEPT, criteria.TRANSITION, criteria.ROCK_OPERA, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "Fly On A Windshield",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=k9X2QtzCvBQ",
         "isAGem": false
@@ -2478,7 +2478,7 @@ const albums = [
         "year": 1976,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/genesis_a_trick_of_the_tail.jpg",
-        "criteria": [47, 48],
+        "criteria": [47, criteria.ART_POP],
         "selectedTrackTitle": "Mad Mad Moon",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=IQ_U4XkAarE",
         "isAGem": false
@@ -2490,7 +2490,7 @@ const albums = [
         "year": 1976,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/genesis_wind_and_wuthering.jpg",
-        "criteria": [47, 48],
+        "criteria": [47, criteria.ART_POP],
         "selectedTrackTitle": "Blood On The Rooftops",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=EeZRdd_1b4g",
         "isAGem": false
@@ -2502,7 +2502,7 @@ const albums = [
         "year": 1970,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/gentle_giant_gentle_giant.jpg",
-        "criteria": [3, 18, 19, 21, 54],
+        "criteria": [criteria.ODD_RHYTHM, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.C_FOLK, 54],
         "selectedTrackTitle": "Nothing At All",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=XIlG0TmxzTs",
         "isAGem": false
@@ -2514,7 +2514,7 @@ const albums = [
         "year": 1971,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/gentle_giant_acquiring_the_taste.jpg",
-        "criteria": [3, 18, 19, 21, 54],
+        "criteria": [criteria.ODD_RHYTHM, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.C_FOLK, 54],
         "selectedTrackTitle": "Pantagruel's Nativity",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=ODWYJyJh6cg",
         "isAGem": false
@@ -2526,7 +2526,7 @@ const albums = [
         "year": 1972,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/gentle_giant_three_friends.jpg",
-        "criteria": [1, 3, 19, 21, 54],
+        "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.C_JAZZ, criteria.C_FOLK, 54],
         "selectedTrackTitle": "Peel The Paint",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=SIl5RCLNy1E",
         "isAGem": false
@@ -2538,7 +2538,7 @@ const albums = [
         "year": 1972,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/gentle_giant_octopus.jpg",
-        "criteria": [3, 19, 21, 54],
+        "criteria": [criteria.ODD_RHYTHM, criteria.C_JAZZ, criteria.C_FOLK, 54],
         "selectedTrackTitle": "The Boys In The Band",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=BTet3C_afKA",
         "isAGem": false
@@ -2550,7 +2550,7 @@ const albums = [
         "year": 1973,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/gentle_giant_in_a_glass_house.jpg",
-        "criteria": [3, 19, 21, 54],
+        "criteria": [criteria.ODD_RHYTHM, criteria.C_JAZZ, criteria.C_FOLK, 54],
         "selectedTrackTitle": "In A Glass House",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=cgUpLcnLkxs",
         "isAGem": false
@@ -2562,7 +2562,7 @@ const albums = [
         "year": 1974,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/gentle_giant_the_power_and_the_glory.jpg",
-        "criteria": [1, 3, 19, 21, 54],
+        "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.C_JAZZ, criteria.C_FOLK, 54],
         "selectedTrackTitle": "Aspirations",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=d8tpBYUIvTk",
         "isAGem": false
@@ -2574,7 +2574,7 @@ const albums = [
         "year": 1975,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/gentle_giant_free_hand.jpg",
-        "criteria": [3, 19, 21, 54],
+        "criteria": [criteria.ODD_RHYTHM, criteria.C_JAZZ, criteria.C_FOLK, 54],
         "selectedTrackTitle": "His Last Voyage",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=hqyTDtgSmm4",
         "isAGem": false
@@ -2586,7 +2586,7 @@ const albums = [
         "year": 1972,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/gnidrolog_in_spite_of_harrys_toenail.jpg",
-        "criteria": [3, 19, 21],
+        "criteria": [criteria.ODD_RHYTHM, criteria.C_JAZZ, 21],
         "selectedTrackTitle": "Long Live Man Dead",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=N7c00SXMNaQ",
         "isAGem": false
@@ -2598,7 +2598,7 @@ const albums = [
         "year": 1972,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/gnidrolog_lady_lake.jpg",
-        "criteria": [19, 21],
+        "criteria": [criteria.C_JAZZ, 21],
         "selectedTrackTitle": "Lady Lake",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=3LdNEFRkbGk",
         "isAGem": false
@@ -2610,7 +2610,7 @@ const albums = [
         "year": 1976,
         "country": regions.ITALY,
         "cover": pathToCovers + "/goblin_roller.jpg",
-        "criteria": [3, 6, 10, 49],
+        "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.SYMPHONIC, criteria.SOUNDTRACK],
         "selectedTrackTitle": "Roller",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=X_hHhhE4suU",
         "isAGem": false
@@ -2622,7 +2622,7 @@ const albums = [
         "year": 1971,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/gong_camembert_electrique.jpg",
-        "criteria": [3, 7, 9, 18, 19, 20, 35, 42, 50],
+        "criteria": [criteria.ODD_RHYTHM, criteria.JAM, criteria.TRANSITION, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.C_ELECTRO, criteria.FUNNY, criteria.JAZZY_GROOVY, 50],
         "selectedTrackTitle": "Fohat Digs Holes In Space",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=Pk1jsxcXWqE",
         "isAGem": false
@@ -2634,7 +2634,7 @@ const albums = [
         "year": 1973,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/gong_flying_teapot.jpg",
-        "criteria": [2, 3, 7, 9, 18, 19, 20, 35, 42, 50],
+        "criteria": [criteria.STORYLINE, criteria.ODD_RHYTHM, criteria.JAM, criteria.TRANSITION, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.C_ELECTRO, criteria.FUNNY, criteria.JAZZY_GROOVY, 50],
         "selectedTrackTitle": "Flying Teapot",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=SIgzP4Rj0Ns",
         "isAGem": true,
@@ -2647,7 +2647,7 @@ const albums = [
         "year": 1973,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/gong_angels_egg.jpg",
-        "criteria": [2, 3, 9, 18, 20, 41, 50],
+        "criteria": [criteria.STORYLINE, criteria.ODD_RHYTHM, criteria.TRANSITION, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO, criteria.PATCHWORK, 50],
         "selectedTrackTitle": "Oily Way",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=xZWW1ClYxYo",
         "isAGem": false
@@ -2659,7 +2659,7 @@ const albums = [
         "year": 1974,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/gong_you.jpg",
-        "criteria": [2, 9, 15, 18, 19, 20, 42, 50],
+        "criteria": [criteria.STORYLINE, criteria.TRANSITION, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.C_ELECTRO, criteria.JAZZY_GROOVY, 50],
         "selectedTrackTitle": "Master Builder",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=CKfTKNp_yUI",
         "isAGem": false
@@ -2671,7 +2671,7 @@ const albums = [
         "year": 1975,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/gong_shamal.jpg",
-        "criteria": [3, 6, 11, 15, 23, 42],
+        "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.SOFT, criteria.UNCOMMON_INSTRUMENTS, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Mandrake",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=Ks9YscGny8g",
         "isAGem": false
@@ -2683,7 +2683,7 @@ const albums = [
         "year": 1976,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/gong_gazeuse.jpg",
-        "criteria": [3, 6, 11, 15, 23, 42],
+        "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.SOFT, criteria.UNCOMMON_INSTRUMENTS, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Percolations",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=G0tsWMzmr-c",
         "isAGem": true,
@@ -2696,7 +2696,7 @@ const albums = [
         "year": 1976,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/gong_expresso_II.jpg",
-        "criteria": [3, 6, 11, 15, 23, 42],
+        "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.SOFT, criteria.UNCOMMON_INSTRUMENTS, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Golden Dilemma",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=59jLXceqQsc",
         "isAGem": false
@@ -2708,7 +2708,7 @@ const albums = [
         "year": 1968,
         "country": regions.USA,
         "cover": pathToCovers + "/grateful_dead_anthem_of_the_sun.jpg",
-        "criteria": [7, 8, 18, 21, 22, 42],
+        "criteria": [criteria.JAM, criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.C_FOLK, criteria.ROCK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Alligator",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=eNJTIU8b8Yk",
         "isAGem": false
@@ -2720,7 +2720,7 @@ const albums = [
         "year": 1975,
         "country": regions.USA,
         "cover": pathToCovers + "/grateful_dead_blues_for_allah.jpg",
-        "criteria": [7, 18, 21, 42],
+        "criteria": [criteria.JAM, criteria.C_PSYCHEDELIC, criteria.C_FOLK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Blues For Allah / Sand Castles And Glass Camels / Unusual Occurrences In The Desert",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=Ss1_Xu7YBrM",
         "isAGem": false
@@ -2732,7 +2732,7 @@ const albums = [
         "year": 1977,
         "country": regions.USA,
         "cover": pathToCovers + "/grateful_dead_terrapin_station.jpg",
-        "criteria": [7, 8, 21, 22, 42],
+        "criteria": [criteria.JAM, criteria.LENGHTY_TRACKS, criteria.C_FOLK, criteria.ROCK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Terrapin Station",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=3I7CLy70WtI",
         "isAGem": false
@@ -2744,7 +2744,7 @@ const albums = [
         "year": 1974,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/gryphon_red_queen_to_gryphon_three.jpg",
-        "criteria": [1, 3, 6, 8, 15, 21, 33, 42],
+        "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.UNCOMMON_INSTRUMENTS, criteria.C_FOLK, criteria.MEDIEVAL, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Second Spasm",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=EcBm-GbbEyI",
         "isAGem": false
@@ -2756,7 +2756,7 @@ const albums = [
         "year": 1972,
         "country": regions.USA,
         "cover": pathToCovers + "/guns_and_butter_guns_and_butter.jpg",
-        "criteria": [7, 19, 21, 42],
+        "criteria": [criteria.JAM, criteria.C_JAZZ, criteria.C_FOLK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "The Wanderer",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=EcBm-TXBjM9ts11w",
         "isAGem": false
@@ -2771,7 +2771,7 @@ const albums = [
         "year": 1977,
         "country": regions.USA,
         "cover": pathToCovers + "/happy_the_man_happy_the_man.jpg",
-        "criteria": [3, 6, 10, 11, 19, 20, 42],
+        "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.GLITTER, criteria.SOFT, criteria.C_JAZZ, criteria.C_ELECTRO, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Starborne",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=7eMlI4MzQks",
         "isAGem": false
@@ -2783,7 +2783,7 @@ const albums = [
         "year": 1978,
         "country": regions.USA,
         "cover": pathToCovers + "/happy_the_man_crafty_hands.jpg",
-        "criteria": [3, 6, 10, 11, 19, 20, 42],
+        "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.GLITTER, criteria.SOFT, criteria.C_JAZZ, criteria.C_ELECTRO, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Morning Sun",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=g9B_P36s_-A",
         "isAGem": false
@@ -2795,7 +2795,7 @@ const albums = [
         "year": 1974,
         "country": regions.QUEBEC,
         "cover": pathToCovers + "/harmonium_harmonium.jpg",
-        "criteria": [11, 46],
+        "criteria": [criteria.SOFT, criteria.FOLK],
         "selectedTrackTitle": "Un Musicien Parmi Tant D'autres",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=KkDNsKPLXaM",
         "isAGem": false
@@ -2807,7 +2807,7 @@ const albums = [
         "year": 1975,
         "country": regions.QUEBEC,
         "cover": pathToCovers + "/harmonium_si_on_avait_besoin_dune_cinquieme_saison.jpg",
-        "criteria": [8, 11, 19, 21, 42],
+        "criteria": [criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.C_JAZZ, criteria.C_FOLK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Depuis L'automne",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=sCkkxr7tS7c",
         "isAGem": true,
@@ -2820,7 +2820,7 @@ const albums = [
         "year": 1976,
         "country": regions.QUEBEC,
         "cover": pathToCovers + "/harmonium_lheptade.jpg",
-        "criteria": [1, 8, 10, 19, 21, 43, 47],
+        "criteria": [criteria.CONCEPT, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_JAZZ, criteria.C_FOLK, criteria.ROCK_OPERA, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "Le Premier Ciel",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=G8qda-s8Yks",
         "isAGem": false
@@ -2832,7 +2832,7 @@ const albums = [
         "year": 1974,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/hatfield_and_the_north_hatfield_and_the_north.jpg",
-        "criteria": [3, 6, 7, 11, 19, 35, 41],
+        "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.SOFT, criteria.C_JAZZ, criteria.FUNNY, criteria.PATCHWORK],
         "selectedTrackTitle": "Son Of \"There's No Place Like Homerton\"",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=Qk04cGkff44",
         "isAGem": false
@@ -2844,7 +2844,7 @@ const albums = [
         "year": 1975,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/hatfield_and_the_north_the_rotters_club.jpg",
-        "criteria": [3, 6, 7, 8, 11, 19, 35],
+        "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.C_JAZZ, criteria.FUNNY],
         "selectedTrackTitle": "Mumps",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=h_MUajIs9Vs",
         "isAGem": false
@@ -2856,7 +2856,7 @@ const albums = [
         "year": 1971,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/hawkwind_in_search_of_space.jpg",
-        "criteria": [7, 8, 18, 20, 40, 50],
+        "criteria": [criteria.JAM, criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO, criteria.HEAVY, 50],
         "selectedTrackTitle": "Masters Of The Universe",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=X3W7ch0oLeA",
         "isAGem": false
@@ -2868,7 +2868,7 @@ const albums = [
         "year": 1972,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/hawkwind_doremi_fasol_latido.jpg",
-        "criteria": [7, 18, 20, 40, 50],
+        "criteria": [criteria.JAM, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO, criteria.HEAVY, 50],
         "selectedTrackTitle": "Time We Left This World Today",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=X5SRYtPLDLI",
         "isAGem": false
@@ -2880,7 +2880,7 @@ const albums = [
         "year": 1974,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/hawkwind_hall_of_the_mountain_grill.jpg",
-        "criteria": [7, 18, 20, 40, 50],
+        "criteria": [criteria.JAM, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO, criteria.HEAVY, 50],
         "selectedTrackTitle": "The Psychedelic Warlords",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=MvHtfoqcDss",
         "isAGem": false
@@ -2892,7 +2892,7 @@ const albums = [
         "year": 1975,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/hawkwind_warriors_on_the_edge_of_time.jpg",
-        "criteria": [7, 18, 20, 40, 50],
+        "criteria": [criteria.JAM, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO, criteria.HEAVY, 50],
         "selectedTrackTitle": "Assault And Battery / The Golden Void",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=1UIYMxZRLf0",
         "isAGem": false
@@ -2904,7 +2904,7 @@ const albums = [
         "year": 1973,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/henry_cow_legend.jpg",
-        "criteria": [3, 5, 15, 18, 23],
+        "criteria": [criteria.ODD_RHYTHM, criteria.EXPERIMENTAL, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.JAZZ],
         "selectedTrackTitle": "Amygdala",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=t4e-Zq6kPk4",
         "isAGem": false
@@ -2916,7 +2916,7 @@ const albums = [
         "year": 1974,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/henry_cow_unrest.jpg",
-        "criteria": [3, 5, 8, 15, 18, 23],
+        "criteria": [criteria.ODD_RHYTHM, criteria.EXPERIMENTAL, criteria.LENGHTY_TRACKS, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.JAZZ],
         "selectedTrackTitle": "Half Asleep/Half Awake",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=DDLqUcUls6s",
         "isAGem": false
@@ -2928,7 +2928,7 @@ const albums = [
         "year": 1975,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/henry_cow_in_praise_of_learning.jpg",
-        "criteria": [3, 5, 8, 15, 18, 23],
+        "criteria": [criteria.ODD_RHYTHM, criteria.EXPERIMENTAL, criteria.LENGHTY_TRACKS, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.JAZZ],
         "selectedTrackTitle": "Beautiful As The Moon - Terrible As An Army With Banners",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=374qf7xCFkY",
         "isAGem": false
@@ -2940,7 +2940,7 @@ const albums = [
         "year": 1974,
         "country": regions.USA,
         "cover": pathToCovers + "/herbie_hancock_thrust.jpg",
-        "criteria": [3, 6, 7, 11, 20, 23, 42],
+        "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.SOFT, criteria.C_ELECTRO, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Butterfly",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=knbmKDUYDXc",
         "isAGem": false
@@ -2955,7 +2955,7 @@ const albums = [
         "year": 1971,
         "country": regions.GERMANY,
         "cover": pathToCovers + "/ikarus_ikarus.jpg",
-        "criteria": [3, 6, 7, 8, 19],
+        "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.C_JAZZ],
         "selectedTrackTitle": "The Raven",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=Q09vwl1A9CY",
         "isAGem": false
@@ -2967,7 +2967,7 @@ const albums = [
         "year": 1966,
         "country": regions.SCOTLAND,
         "cover": pathToCovers + "/the_incredible_string_band_the_incredible_string_band.jpg",
-        "criteria": [15, 46],
+        "criteria": [criteria.UNCOMMON_INSTRUMENTS, criteria.FOLK],
         "selectedTrackTitle": "Dandelion Blues",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=QF2pR4hq02k",
         "isAGem": false
@@ -2979,7 +2979,7 @@ const albums = [
         "year": 1967,
         "country": regions.SCOTLAND,
         "cover": pathToCovers + "/the_incredible_string_band_the_5000_spirits_or_the_layers_of_the_onion.jpg",
-        "criteria": [13, 15, 18, 46],
+        "criteria": [criteria.ORIENTAL, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.FOLK],
         "selectedTrackTitle": "Painting Box",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=UoQ3tmohEX4",
         "isAGem": false
@@ -2991,7 +2991,7 @@ const albums = [
         "year": 1968,
         "country": regions.SCOTLAND,
         "cover": pathToCovers + "/the_incredible_string_band_the_hangmans_beautiful_daughter.jpg",
-        "criteria": [8, 13, 15, 18, 46],
+        "criteria": [criteria.LENGHTY_TRACKS, criteria.ORIENTAL, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.FOLK],
         "selectedTrackTitle": "A Very Cellular Song",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=-90rrjR6Wvk",
         "isAGem": false
@@ -3003,7 +3003,7 @@ const albums = [
         "year": 1968,
         "country": regions.SCOTLAND,
         "cover": pathToCovers + "/the_incredible_string_band_wee_tam.jpg",
-        "criteria": [13, 15, 18, 46],
+        "criteria": [criteria.ORIENTAL, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.FOLK],
         "selectedTrackTitle": "Job's Tears",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=Dd5yq76q51c",
         "isAGem": false
@@ -3015,7 +3015,7 @@ const albums = [
         "year": 1968,
         "country": regions.SCOTLAND,
         "cover": pathToCovers + "/the_incredible_string_band_the_big_huge.jpg",
-        "criteria": [13, 15, 18, 46],
+        "criteria": [criteria.ORIENTAL, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.FOLK],
         "selectedTrackTitle": "Cousin Caterpillar",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=nu0brlGGQ2Y",
         "isAGem": false
@@ -3027,9 +3027,9 @@ const albums = [
         "year": 1977,
         "country": regions.SWITZERLAND,
         "cover": pathToCovers + "/island_pictures.jpg",
-        "criteria": [3, 8, 10, 15, 18, 19, 54],
+        "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, 54],
         "selectedTrackTitle": "Zero",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=TODO",
         "isAGem": true,
         "desciprion": "TODO"
     },
@@ -3043,7 +3043,7 @@ const albums = [
         "year": 1971,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/jade_warrior_jade_warrior.jpg",
-        "criteria": [1, 11, 13, 15],
+        "criteria": [criteria.CONCEPT, criteria.SOFT, criteria.ORIENTAL, criteria.UNCOMMON_INSTRUMENTS],
         "selectedTrackTitle": "Sundial Song",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=0JqujXC4HgQ",
         "isAGem": false
@@ -3055,7 +3055,7 @@ const albums = [
         "year": 1971,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/jade_warrior_released.jpg",
-        "criteria": [1, 11, 13, 15, 19],
+        "criteria": [criteria.CONCEPT, criteria.SOFT, criteria.ORIENTAL, criteria.UNCOMMON_INSTRUMENTS, criteria.C_JAZZ],
         "selectedTrackTitle": "Water Curtain Cave",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=eNV_7E2P_ok",
         "isAGem": false
@@ -3067,7 +3067,7 @@ const albums = [
         "year": 1972,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/jade_warrior_last_autumns_dream.jpg",
-        "criteria": [1, 6, 11, 13, 15],
+        "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.SOFT, criteria.ORIENTAL, criteria.UNCOMMON_INSTRUMENTS],
         "selectedTrackTitle": "Morning Hymn",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=ArrIZD5Hklc",
         "isAGem": false
@@ -3079,7 +3079,7 @@ const albums = [
         "year": 1974,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/jade_warrior_floating_world.jpg",
-        "criteria": [1, 3, 6, 9, 11, 13, 14, 15, 19],
+        "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.TRANSITION, criteria.SOFT, criteria.ORIENTAL, criteria.AMBIENT, criteria.UNCOMMON_INSTRUMENTS, criteria.C_JAZZ],
         "selectedTrackTitle": "Mountain Of Fruit And Flowers",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=P02f9snizbE",
         "isAGem": false
@@ -3091,7 +3091,7 @@ const albums = [
         "year": 1975,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/jade_warrior_waves.jpg",
-        "criteria": [1, 6, 8, 9, 11, 13, 14, 15, 19],
+        "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.TRANSITION, criteria.SOFT, criteria.ORIENTAL, criteria.AMBIENT, criteria.UNCOMMON_INSTRUMENTS, criteria.C_JAZZ],
         "selectedTrackTitle": "Waves (Part II)",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=uGYpyLxDzlk",
         "isAGem": false
@@ -3103,7 +3103,7 @@ const albums = [
         "year": 1976,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/jade_warrior_kites.jpg",
-        "criteria": [1, 6, 9, 11, 13, 14, 15, 19],
+        "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.TRANSITION, criteria.SOFT, criteria.ORIENTAL, criteria.AMBIENT, criteria.UNCOMMON_INSTRUMENTS, criteria.C_JAZZ],
         "selectedTrackTitle": "Wind Song",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=y4m76cJXZmo",
         "isAGem": false,
@@ -3115,7 +3115,7 @@ const albums = [
         "year": 1978,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/jade_warrior_way_of_the_sun.jpg",
-        "criteria": [1, 6, 9, 11, 13, 14, 15, 19],
+        "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.TRANSITION, criteria.SOFT, criteria.ORIENTAL, criteria.AMBIENT, criteria.UNCOMMON_INSTRUMENTS, criteria.C_JAZZ],
         "selectedTrackTitle": "Heaven Stone",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=e0-VIz5MINU",
         "isAGem": true,
@@ -3128,7 +3128,7 @@ const albums = [
         "year": 1976,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/jean_michel_jarre_oxygene.jpg",
-        "criteria": [1, 6, 11, 14, 44],
+        "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.SOFT, criteria.AMBIENT, criteria.ELECTRO],
         "selectedTrackTitle": "Oxygène (Part IV)",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=P_I2ch8_TXc",
         "isAGem": true,
@@ -3141,7 +3141,7 @@ const albums = [
         "year": 1978,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/jean_michel_jarre_equinoxe.jpg",
-        "criteria": [1, 6, 11, 14, 44],
+        "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.SOFT, criteria.AMBIENT, criteria.ELECTRO],
         "selectedTrackTitle": "Équinoxe (Part IV)",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=fpWNimba344",
         "isAGem": false
@@ -3153,7 +3153,7 @@ const albums = [
         "year": 1968,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/jefferson_airplane_crown_of_creation.jpg",
-        "criteria": [18, 46],
+        "criteria": [criteria.C_PSYCHEDELIC, criteria.FOLK],
         "selectedTrackTitle": "Lather",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=e0-9WF4FF8QrQE",
         "isAGem": false
@@ -3165,7 +3165,7 @@ const albums = [
         "year": 1969,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/jethro_tull_stand_up.jpg",
-        "criteria": [7, 46],
+        "criteria": [criteria.JAM, criteria.FOLK],
         "selectedTrackTitle": "Bourée",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=N2RNe2jwHE0",
         "isAGem": false
@@ -3177,7 +3177,7 @@ const albums = [
         "year": 1970,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/jethro_tull_benefit.jpg",
-        "criteria": [7, 46],
+        "criteria": [criteria.JAM, criteria.FOLK],
         "selectedTrackTitle": "For Michael Collins, Jeffrey and Me",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=b2GTNhmPbtg",
         "isAGem": false
@@ -3189,7 +3189,7 @@ const albums = [
         "year": 1971,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/jethro_tull_aqualung.jpg",
-        "criteria": [3, 7, 46],
+        "criteria": [criteria.ODD_RHYTHM, criteria.JAM, criteria.FOLK],
         "selectedTrackTitle": "Aqualung",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=B0jMPI_pUec",
         "isAGem": false
@@ -3201,7 +3201,7 @@ const albums = [
         "year": 1972,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/jethro_tull_thick_as_a_brick.jpg",
-        "criteria": [1, 3, 8, 43, 46],
+        "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.ROCK_OPERA, criteria.FOLK],
         "selectedTrackTitle": "Thick As A Brick (Part I)",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=l21p4Id40cU",
         "isAGem": true,
@@ -3214,7 +3214,7 @@ const albums = [
         "year": 1973,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/jethro_tull_a_passion_play.jpg",
-        "criteria": [1, 3, 8, 43, 46],
+        "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.ROCK_OPERA, criteria.FOLK],
         "selectedTrackTitle": "A Passion Play (Part I)",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=gB_Ago8wDb8",
         "isAGem": false
@@ -3226,7 +3226,7 @@ const albums = [
         "year": 1975,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/jethro_tull_minstrel_in_the_gallery.jpg",
-        "criteria": [3, 8, 46],
+        "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.FOLK],
         "selectedTrackTitle": "Baker St. Muse",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=B-7yVIJ7wE4",
         "isAGem": false
@@ -3238,7 +3238,7 @@ const albums = [
         "year": 1977,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/jethro_tull_songs_from_the_wood.jpg",
-        "criteria": [3, 46],
+        "criteria": [criteria.ODD_RHYTHM, criteria.FOLK],
         "selectedTrackTitle": "Velvet Green",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=JG77YHX5yYE",
         "isAGem": false
@@ -3250,7 +3250,7 @@ const albums = [
         "year": 1968,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/the_jimi_hendrix_experience_electric_ladyland.jpg",
-        "criteria": [7, 8, 18, 22, 42],
+        "criteria": [criteria.JAM, criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.ROCK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Burning Of The Midnight Lamp",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=j60OzzR7mMk",
         "isAGem": false
@@ -3265,7 +3265,7 @@ const albums = [
         "year": 1976,
         "country": regions.AUSTRALIA,
         "cover": pathToCovers + "/kanguru_dreaming.jpg",
-        "criteria": [6, 7, 8, 11, 13, 14, 15, 18],
+        "criteria": [criteria.INSTRUMENTAL, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.ORIENTAL, criteria.AMBIENT, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC],
         "selectedTrackTitle": "Ras Lila",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=eNTd_BY_zsI",
         "isAGem": false
@@ -3277,7 +3277,7 @@ const albums = [
         "year": 1971,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/keef_hartley_band_the_time_is_near.jpg",
-        "criteria": [7, 21, 22, 42],
+        "criteria": [criteria.JAM, criteria.C_FOLK, criteria.ROCK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "The Time Is Near",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=SIm_uYzdcsA",
         "isAGem": false
@@ -3289,7 +3289,7 @@ const albums = [
         "year": 1971,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/keef_hartley_band_overdog.jpg",
-        "criteria": [7, 21, 22, 42],
+        "criteria": [criteria.JAM, criteria.C_FOLK, criteria.ROCK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Theme Song / En Route",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=76upSLEWHL8",
         "isAGem": false
@@ -3301,7 +3301,7 @@ const albums = [
         "year": 1972,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/khan_space_shanty.jpg",
-        "criteria": [3, 6, 7],
+        "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, 7],
         "selectedTrackTitle": "Stranded",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=tHkYXKlwB9s",
         "isAGem": false
@@ -3313,7 +3313,7 @@ const albums = [
         "year": 1969,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/king_crimson_in_the_court_of_the_crimson_king.jpg",
-        "criteria": [3, 8, 11, 15, 18, 19, 47],
+        "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "The Court Of The Crimson King",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=gvCmtHDDuu0",
         "isAGem": true,
@@ -3326,7 +3326,7 @@ const albums = [
         "year": 1970,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/king_crimson_in_the_wake_of_poseidon.jpg",
-        "criteria": [3, 8, 11, 15, 18, 19, 47],
+        "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "In The Wake Of Poseidon",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=J1JjOpXsJ7A",
         "isAGem": false
@@ -3338,7 +3338,7 @@ const albums = [
         "year": 1970,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/king_crimson_lizard.jpg",
-        "criteria": [3, 8, 18, 19],
+        "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.C_JAZZ],
         "selectedTrackTitle": "Cirkus",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=IYHjPE9ByS4",
         "isAGem": false
@@ -3350,7 +3350,7 @@ const albums = [
         "year": 1971,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/king_crimson_islands.jpg",
-        "criteria": [3, 18, 19, 47],
+        "criteria": [criteria.ODD_RHYTHM, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "Islands",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=8UUWBCXa21Y",
         "isAGem": false
@@ -3362,7 +3362,7 @@ const albums = [
         "year": 1973,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/king_crimson_larks_tongue_in_aspic.jpg",
-        "criteria": [3, 8, 18, 19],
+        "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.C_JAZZ],
         "selectedTrackTitle": "Book Of Saturday",
         "selectedTrackYtId": "",
         "isAGem": false
@@ -3374,7 +3374,7 @@ const albums = [
         "year": 1974,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/king_crimson_starless_and_bible_black.jpg",
-        "criteria": [3, 8, 18, 19],
+        "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.C_JAZZ],
         "selectedTrackTitle": "Fracture",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=ZaD7gk7BTwU",
         "isAGem": false
@@ -3386,7 +3386,7 @@ const albums = [
         "year": 1974,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/king_crimson_red.jpg",
-        "criteria": [1, 3, 8, 11, 18, 19, 47],
+        "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "Starless",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=OfR6_V91fG8",
         "isAGem": true,
@@ -3399,7 +3399,7 @@ const albums = [
         "year": 1981,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/king_crimson_discipline.jpg",
-        "criteria": [3, 20, 22],
+        "criteria": [criteria.ODD_RHYTHM, criteria.C_ELECTRO, criteria.ROCK],
         "selectedTrackTitle": "Frame By Frame",
         "selectedTrackYtId": "",
         "isAGem": false
@@ -3411,7 +3411,7 @@ const albums = [
         "year": 1982,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/king_crimson_beat.jpg",
-        "criteria": [3, 20, 22],
+        "criteria": [criteria.ODD_RHYTHM, criteria.C_ELECTRO, criteria.ROCK],
         "selectedTrackTitle": "Waiting Man",
         "selectedTrackYtId": "",
         "isAGem": false
@@ -3423,7 +3423,7 @@ const albums = [
         "year": 1984,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/king_crimson_three_of_a_perfect_pair.jpg",
-        "criteria": [3, 18, 20, 22],
+        "criteria": [criteria.ODD_RHYTHM, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO, criteria.ROCK],
         "selectedTrackTitle": "Three Of A Perfect Pair",
         "selectedTrackYtId": "",
         "isAGem": false
@@ -3435,7 +3435,7 @@ const albums = [
         "year": 1995,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/king_crimson_thrak.jpg",
-        "criteria": [1, 3, 9, 10, 15, 18, 54],
+        "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.TRANSITION, criteria.SYMPHONIC, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, 54],
         "selectedTrackTitle": "VROOOM",
         "selectedTrackYtId": "",
         "isAGem": false
@@ -3450,7 +3450,7 @@ const albums = [
         "year": 1971,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/led_zeppelin_led_zeppelin_iv.jpg",
-        "criteria": [3, 15, 21, 22],
+        "criteria": [criteria.ODD_RHYTHM, criteria.UNCOMMON_INSTRUMENTS, criteria.C_FOLK, criteria.ROCK],
         "selectedTrackTitle": "Four Sticks",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=T8GP2j7NdSo",
         "isAGem": true,
@@ -3463,7 +3463,7 @@ const albums = [
         "year": 1973,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/led_zeppelin_houses_of_the_holy.jpg",
-        "criteria": [3, 17, 22],
+        "criteria": [criteria.ODD_RHYTHM, criteria.BLENDS, criteria.ROCK],
         "selectedTrackTitle": "No Quarter",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=Pu94mWlgzMY",
         "isAGem": false
@@ -3475,7 +3475,7 @@ const albums = [
         "year": 1975,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/led_zeppelin_physical_graffiti.jpg",
-        "criteria": [3, 7, 22, 42],
+        "criteria": [criteria.ODD_RHYTHM, criteria.JAM, criteria.ROCK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Ten Years Gone",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=kWbO9a1_Z3U",
         "isAGem": false
@@ -3487,7 +3487,7 @@ const albums = [
         "year": 1976,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/led_zeppelin_presence.jpg",
-        "criteria": [3, 7, 22, 42],
+        "criteria": [criteria.ODD_RHYTHM, criteria.JAM, criteria.ROCK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Achilles Last Stand",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=Rf1I9htJk",
         "isAGem": false
@@ -3499,7 +3499,7 @@ const albums = [
         "year": 1981,
         "country": regions.NETHERLANDS,
         "cover": pathToCovers + "/lethe_lethe.jpg",
-        "criteria": [6, 11, 15],
+        "criteria": [criteria.INSTRUMENTAL, criteria.SOFT, criteria.UNCOMMON_INSTRUMENTS],
         "selectedTrackTitle": "Cold In Fingers",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=ZCx4ENGwjFM",
         "isAGem": false
@@ -3511,7 +3511,7 @@ const albums = [
         "year": 1977,
         "country": regions.ITALY,
         "cover": pathToCovers + "/locanda_dell_fate_forse_le_lucciole_non_si_amano_piu.jpg",
-        "criteria": [3, 10, 36],
+        "criteria": [criteria.ODD_RHYTHM, criteria.GLITTER, criteria.ITALIAN_SUNG],
         "selectedTrackTitle": "Forse Le Lucciole Non Si Amano Più",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=QbaJfSEehns",
         "isAGem": false
@@ -3523,7 +3523,7 @@ const albums = [
         "year": 1975,
         "country": regions.SCOTLAND,
         "cover": pathToCovers + "/los_grillos_vibraciones_latinoamericanas.jpg",
-        "criteria": [3, 6, 7, 11, 20, 38, 42],
+        "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.SOFT, criteria.C_ELECTRO, criteria.SPANISH_SUNG, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Pueblito",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=z8rtBgxvAfw",
         "isAGem": false
@@ -3535,7 +3535,7 @@ const albums = [
         "year": 1974,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/the_long_hello_the_long_hello.jpg",
-        "criteria": [3, 6, 11, 21],
+        "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.SOFT, 21],
         "selectedTrackTitle": "Fairhazel Gardens",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=DiiPTWZiJJ0",
         "isAGem": false
@@ -3547,7 +3547,7 @@ const albums = [
         "year": 1987,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/low_flying_aircraft_low_flying_aircraft.jpg",
-        "criteria": [3, 6, 18, 19, 20],
+        "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.C_ELECTRO],
         "selectedTrackTitle": "Poolside",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=7sspuSlsL1Q",
         "isAGem": false
@@ -3562,7 +3562,7 @@ const albums = [
         "year": 1978,
         "country": regions.GERMANY,
         "cover": pathToCovers + "/ml_bongers_project_pacific_prison.jpg",
-        "criteria": [2, 9, 16, 20],
+        "criteria": [criteria.STORYLINE, criteria.TRANSITION, criteria.SOUND_COLLAGES, criteria.C_ELECTRO],
         "selectedTrackTitle": "A Deadly Smile",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=px1CIxbSN0o",
         "isAGem": false
@@ -3574,7 +3574,7 @@ const albums = [
         "year": 1980,
         "country": regions.SWITZERLAND,
         "cover": pathToCovers + "/magic_spell_is_there_anywhere_a_gas_station.jpg",
-        "criteria": [7, 18, 20],
+        "criteria": [criteria.JAM, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO],
         "selectedTrackTitle": "Turkish Invasion",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=3RHzfQQn1Zs",
         "isAGem": false
@@ -3586,7 +3586,7 @@ const albums = [
         "year": 1970,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/magma_magma.jpg",
-        "criteria": [2, 5, 8, 10, 19, 30, 39, 43],
+        "criteria": [criteria.STORYLINE, criteria.EXPERIMENTAL, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_JAZZ, criteria.SPECTACULAR, 39, criteria.ROCK_OPERA],
         "selectedTrackTitle": "Kobaïa",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=TAtaaxb2TVU",
         "isAGem": false
@@ -3598,7 +3598,7 @@ const albums = [
         "year": 1971,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/magma_1001_centigrades.jpg",
-        "criteria": [2, 5, 8, 10, 19, 30, 39, 43],
+        "criteria": [criteria.STORYLINE, criteria.EXPERIMENTAL, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_JAZZ, criteria.SPECTACULAR, 39, criteria.ROCK_OPERA],
         "selectedTrackTitle": "Ki Ïahl Ö Lïahk",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=gbVas9ZMVgk",
         "isAGem": false
@@ -3610,7 +3610,7 @@ const albums = [
         "year": 1973,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/magma_mekanik_destruktiw_kommandoh.jpg",
-        "criteria": [2, 5, 10, 19, 30, 39, 43],
+        "criteria": [criteria.STORYLINE, criteria.EXPERIMENTAL, criteria.SYMPHONIC, criteria.C_JAZZ, criteria.SPECTACULAR, 39, criteria.ROCK_OPERA],
         "selectedTrackTitle": "Da Zeuhl Ẁortz Mëkanïk",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=B5UZVtUC3V0",
         "isAGem": true,
@@ -3623,7 +3623,7 @@ const albums = [
         "year": 1974,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/magma_wurdah_itah.jpg",
-        "criteria": [5, 9, 10, 19, 30, 39, 43, 49],
+        "criteria": [5, criteria.TRANSITION, criteria.SYMPHONIC, criteria.C_JAZZ, criteria.SPECTACULAR, 39, criteria.ROCK_OPERA, criteria.SOUNDTRACK],
         "selectedTrackTitle": "De Zeuhl Ündazïr",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=8rRdPY9fTdU",
         "isAGem": false
@@ -3635,7 +3635,7 @@ const albums = [
         "year": 1971,
         "country": regions.USA,
         "cover": pathToCovers + "/mahavishnu_orchestra_the_inner_mounting_flame.jpg",
-        "criteria": [3, 4, 6, 7, 15, 23, 42],
+        "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.UNCOMMON_INSTRUMENTS, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "A Lotus On Irish Streams",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=1m5V8zbyR2M",
         "isAGem": true,
@@ -3648,7 +3648,7 @@ const albums = [
         "year": 1973,
         "country": regions.USA,
         "cover": pathToCovers + "/mahavishnu_orchestra_birds_of_fire.jpg",
-        "criteria": [3, 4, 6, 7, 15, 23, 42],
+        "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.UNCOMMON_INSTRUMENTS, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Sanctuary",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=d08lMTHzYdY",
         "isAGem": false
@@ -3660,7 +3660,7 @@ const albums = [
         "year": 1973,
         "country": regions.USA,
         "cover": pathToCovers + "/mahavishnu_orchestra_between_nothingness_and_eternity.jpg",
-        "criteria": [4, 6, 7, 8, 12, 15, 23, 42],
+        "criteria": [4, criteria.INSTRUMENTAL, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.LIVE, criteria.UNCOMMON_INSTRUMENTS, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "La Mère De La Mer",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=8YrPXjladAw",
         "isAGem": false
@@ -3672,7 +3672,7 @@ const albums = [
         "year": 1974,
         "country": regions.USA,
         "cover": pathToCovers + "/mahavishnu_orchestra_apocalypse.jpg",
-        "criteria": [4, 6, 8, 10, 15, 17, 42],
+        "criteria": [4, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.UNCOMMON_INSTRUMENTS, criteria.BLENDS, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Hymn To Him",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=M9eegi9dd6g",
         "isAGem": false
@@ -3684,7 +3684,7 @@ const albums = [
         "year": 1975,
         "country": regions.USA,
         "cover": pathToCovers + "/mahavishnu_orchestra_visions_of_emerald_beyond.jpg",
-        "criteria": [3, 4, 6, 7, 15, 23, 42],
+        "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.UNCOMMON_INSTRUMENTS, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Lila's Dance",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=ZSh0nmretso",
         "isAGem": false
@@ -3696,7 +3696,7 @@ const albums = [
         "year": 1972,
         "country": regions.QUEBEC,
         "cover": pathToCovers + "/mahogany_rush_maxoom.jpg",
-        "criteria": [7, 18, 22, 42],
+        "criteria": [criteria.JAM, criteria.C_PSYCHEDELIC, criteria.ROCK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Buddy",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=zvHYArrWQ",
         "isAGem": false
@@ -3708,7 +3708,7 @@ const albums = [
         "year": 1974,
         "country": regions.QUEBEC,
         "cover": pathToCovers + "/mahogany_rush_child_of_the_novelty.jpg",
-        "criteria": [7, 18, 22, 42],
+        "criteria": [criteria.JAM, criteria.C_PSYCHEDELIC, criteria.ROCK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Child Of The Novelty",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=4fVfpcHMxWg",
         "isAGem": false
@@ -3720,7 +3720,7 @@ const albums = [
         "year": 1975,
         "country": regions.QUEBEC,
         "cover": pathToCovers + "/mahogany_rush_strange_universe.jpg",
-        "criteria": [7, 18, 22, 42],
+        "criteria": [criteria.JAM, criteria.C_PSYCHEDELIC, criteria.ROCK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Strange Universe",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=gbuNknh5lhI",
         "isAGem": false
@@ -3732,7 +3732,7 @@ const albums = [
         "year": 1971,
         "country": regions.WALES,
         "cover": pathToCovers + "/man_man.jpg",
-        "criteria": [7, 18, 22, 42],
+        "criteria": [criteria.JAM, criteria.C_PSYCHEDELIC, criteria.ROCK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Would The Christians Wait Five Minutes? The Lions Are Having A Draw",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=9fCs_QsrcSU",
         "isAGem": false
@@ -3744,7 +3744,7 @@ const albums = [
         "year": 1971,
         "country": regions.WALES,
         "cover": pathToCovers + "/man_do_you_like_it_here_now_are_you_settling_in.jpg",
-        "criteria": [7, 22, 42],
+        "criteria": [criteria.JAM, criteria.ROCK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "All Good Clean Fun",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=PllGouNiXlo",
         "isAGem": false
@@ -3756,7 +3756,7 @@ const albums = [
         "year": 1972,
         "country": regions.WALES,
         "cover": pathToCovers + "/man_be_good_to_yourself_at_least_once_a_day.jpg",
-        "criteria": [0, 7, 22, 42],
+        "criteria": [criteria.JAM, criteria.ROCK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "C'mon",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=pZIg-fJU7vI",
         "isAGem": false
@@ -3768,7 +3768,7 @@ const albums = [
         "year": 1983,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/marillion_script_for_a_jesters_tear.jpg",
-        "criteria": [43, 48],
+        "criteria": [criteria.ROCK_OPERA, criteria.ART_POP],
         "selectedTrackTitle": "Forgotten Sons",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=RtiUoEbwD7Q",
         "isAGem": false
@@ -3780,7 +3780,7 @@ const albums = [
         "year": 1984,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/marillion_fugazi.jpg",
-        "criteria": [3, 10, 43, 48],
+        "criteria": [criteria.ODD_RHYTHM, criteria.GLITTER, criteria.ROCK_OPERA, criteria.ART_POP],
         "selectedTrackTitle": "Punch & Judy",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=OWrwYsSt6OE",
         "isAGem": false
@@ -3792,7 +3792,7 @@ const albums = [
         "year": 1985,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/marillion_misplaced_childhood.jpg",
-        "criteria": [3, 9, 43, 48],
+        "criteria": [criteria.ODD_RHYTHM, criteria.TRANSITION, criteria.ROCK_OPERA, criteria.ART_POP],
         "selectedTrackTitle": "Blind Curve",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=5aMaGblvd5o",
         "isAGem": false
@@ -3804,7 +3804,7 @@ const albums = [
         "year": 1987,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/marillion_clutching_at_straws.jpg",
-        "criteria": [3, 9, 43, 48],
+        "criteria": [criteria.ODD_RHYTHM, criteria.TRANSITION, criteria.ROCK_OPERA, criteria.ART_POP],
         "selectedTrackTitle": "Just For The Record",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=Q79xkgIXhmU",
         "isAGem": false
@@ -3816,7 +3816,7 @@ const albums = [
         "year": 1972,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/matching_mole_matching_mole.jpg",
-        "criteria": [3, 18, 19],
+        "criteria": [criteria.ODD_RHYTHM, criteria.C_PSYCHEDELIC, criteria.C_JAZZ],
         "selectedTrackTitle": "Part Of The Dance",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=7pvk1eIhFeM",
         "isAGem": false
@@ -3828,7 +3828,7 @@ const albums = [
         "year": 1972,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/matching_mole_little_red_record.jpg",
-        "criteria": [3, 18, 19],
+        "criteria": [criteria.ODD_RHYTHM, criteria.C_PSYCHEDELIC, criteria.C_JAZZ],
         "selectedTrackTitle": "Brandy As In Benj",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=3pRLir_Evds",
         "isAGem": false
@@ -3840,7 +3840,7 @@ const albums = [
         "year": 1970,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/may_blitz_may_blitz.jpg",
-        "criteria": [11, 18],
+        "criteria": [criteria.SOFT, criteria.C_PSYCHEDELIC],
         "selectedTrackTitle": "Tomorrow May Come",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=-JKaFlLHcQ8",
         "isAGem": false
@@ -3852,7 +3852,7 @@ const albums = [
         "year": 1971,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/may_blitz_the_2nd_of_may.jpg",
-        "criteria": [7, 18, 42],
+        "criteria": [criteria.JAM, criteria.C_PSYCHEDELIC, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Snakes And Ladders",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=OKy6SGSGQbw",
         "isAGem": false
@@ -3864,7 +3864,7 @@ const albums = [
         "year": 1976,
         "country": regions.QUEBEC,
         "cover": pathToCovers + "/michel_madore_le_komuso_a_cordes.jpg",
-        "criteria": [6, 18, 19],
+        "criteria": [criteria.INSTRUMENTAL, criteria.C_PSYCHEDELIC, criteria.C_JAZZ],
         "selectedTrackTitle": "Calligraphie",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=MMnA_1jYPCU",
         "isAGem": false
@@ -3876,7 +3876,7 @@ const albums = [
         "year": 1979,
         "country": regions.QUEBEC,
         "cover": pathToCovers + "/michel_madore_la_chambre_nuptiale.jpg",
-        "criteria": [6, 8, 14, 16, 18, 44, 49],
+        "criteria": [criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.AMBIENT, criteria.SOUND_COLLAGES, criteria.C_PSYCHEDELIC, 44, criteria.SOUNDTRACK],
         "selectedTrackTitle": "Les Anges Qui Passent",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=-XR_7DT0E-c",
         "isAGem": false
@@ -3888,7 +3888,7 @@ const albums = [
         "year": 1974,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/mike_oldfield_hergest_ridge.jpg",
-        "criteria": [6, 8, 10, 15, 20, 21, 45],
+        "criteria": [criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.UNCOMMON_INSTRUMENTS, criteria.C_ELECTRO, criteria.C_FOLK, criteria.FANFARE],
         "selectedTrackTitle": "Hergest Ridge (Part I)",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=DPQPYwWgxTY",
         "isAGem": false
@@ -3900,7 +3900,7 @@ const albums = [
         "year": 1975,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/mike_oldfield_ommadawn.jpg",
-        "criteria": [6, 8, 10, 15, 20, 21, 45],
+        "criteria": [criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.UNCOMMON_INSTRUMENTS, criteria.C_ELECTRO, criteria.C_FOLK, criteria.FANFARE],
         "selectedTrackTitle": "Ommadawn (Part I)",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=vShVl_Xd_Tc",
         "isAGem": false
@@ -3912,7 +3912,7 @@ const albums = [
         "year": 1979,
         "country": regions.SWEDEN,
         "cover": pathToCovers + "/miklagard_miklagard.jpg",
-        "criteria": [8, 11, 51],
+        "criteria": [criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.SWEDISH_SUNG],
         "selectedTrackTitle": "Soldaten",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=qcLbMdv1Ht0",
         "isAGem": false
@@ -3924,7 +3924,7 @@ const albums = [
         "year": 1967,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/the_moody_blues_days_of_future_passed.jpg",
-        "criteria": [1, 6, 10, 15, 18, 43],
+        "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.SYMPHONIC, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.ROCK_OPERA],
         "selectedTrackTitle": "Evening: The Sunset / Twilight Time",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=C012iKu9s-8",
         "isAGem": false
@@ -3936,7 +3936,7 @@ const albums = [
         "year": 1968,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/the_moody_blues_in_search_of_the_lost_chord.jpg",
-        "criteria": [1, 18, 46],
+        "criteria": [criteria.CONCEPT, criteria.C_PSYCHEDELIC, criteria.FOLK],
         "selectedTrackTitle": "The Actor",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=29ihZ_TbFqY",
         "isAGem": false
@@ -3948,7 +3948,7 @@ const albums = [
         "year": 1973,
         "country": regions.ITALY,
         "cover": pathToCovers + "/museo_rosenbach_zarathustra.jpg",
-        "criteria": [1, 9, 10, 30, 36, 47],
+        "criteria": [criteria.CONCEPT, criteria.TRANSITION, criteria.SYMPHONIC, criteria.SPECTACULAR, criteria.ITALIAN_SUNG, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "Zarathustra I: L'ultimo Uomo",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=uC9hegZIC2g",
         "isAGem": true,
@@ -3964,7 +3964,7 @@ const albums = [
         "year": 1978,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/national_health_national_health.jpg",
-        "criteria": [3, 8, 18, 19, 20, 21, 54],
+        "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.C_ELECTRO, criteria.C_FOLK, 54],
         "selectedTrackTitle": "Tenemos Roads",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=vj9ZUHju7JE",
         "isAGem": false
@@ -3976,7 +3976,7 @@ const albums = [
         "year": 1978,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/national_health_of_queues_and_cures.jpg",
-        "criteria": [3, 8, 18, 19, 20, 21, 54],
+        "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.C_ELECTRO, criteria.C_FOLK, 54],
         "selectedTrackTitle": "Squarer For Maud",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=BeHheJ3kqYI",
         "isAGem": true,
@@ -3989,7 +3989,7 @@ const albums = [
         "year": 1982,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/national_health_ds_al_coda.jpg",
-        "criteria": [3, 18, 19, 20, 21, 54],
+        "criteria": [criteria.ODD_RHYTHM, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.C_ELECTRO, criteria.C_FOLK, 54],
         "selectedTrackTitle": "Black Hat",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=mYGh1aejZiA",
         "isAGem": false
@@ -4001,7 +4001,7 @@ const albums = [
         "year": 1980,
         "country": regions.SWITZERLAND,
         "cover": pathToCovers + "/nautilus_space_storm.jpg",
-        "criteria": [22],
+        "criteria": [criteria.ROCK],
         "selectedTrackTitle": "Saturday Night",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=aDK_D0S87_k",
         "isAGem": false
@@ -4013,7 +4013,7 @@ const albums = [
         "year": 1975,
         "country": regions.SCOTLAND,
         "cover": pathToCovers + "/nazareth_hair_of_the_dog.jpg",
-        "criteria": [7, 22, 40],
+        "criteria": [criteria.JAM, criteria.ROCK, criteria.HEAVY],
         "selectedTrackTitle": "Please Don't Judas Me",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=PdiIu1RwGhA",
         "isAGem": false
@@ -4025,7 +4025,7 @@ const albums = [
         "year": 1976,
         "country": regions.SCOTLAND,
         "cover": pathToCovers + "/nazareth_close_enough_for_rock_n_roll.jpg",
-        "criteria": [7, 22, 40],
+        "criteria": [criteria.JAM, criteria.ROCK, criteria.HEAVY],
         "selectedTrackTitle": "Telegram",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=xRgZlEVzAss",
         "isAGem": false
@@ -4037,7 +4037,7 @@ const albums = [
         "year": 1979,
         "country": regions.CANADA,
         "cover": pathToCovers + "/nightwinds_nightwinds.jpg",
-        "criteria": [10, 20],
+        "criteria": [criteria.GLITTER, criteria.C_ELECTRO],
         "selectedTrackTitle": "As The Crow Flies",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=EmtT_l7MYsE",
         "isAGem": false
@@ -4052,7 +4052,7 @@ const albums = [
         "year": 1989,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/ozric_tentacles_pungent_effulgent.jpg",
-        "criteria": [6, 7, 18, 19, 42, 44, 50],
+        "criteria": [criteria.INSTRUMENTAL, criteria.JAM, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.JAZZY_GROOVY, 44, 50],
         "selectedTrackTitle": "Phalarn Dawn",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=UQCYvIbznkw",
         "isAGem": false
@@ -4064,7 +4064,7 @@ const albums = [
         "year": 1990,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/ozric_tentacles_erpland.jpg",
-        "criteria": [6, 7, 18, 19, 42, 44, 50],
+        "criteria": [criteria.INSTRUMENTAL, criteria.JAM, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.JAZZY_GROOVY, 44, 50],
         "selectedTrackTitle": "Crackerblocks",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=ZjtfdisDhuo",
         "isAGem": false
@@ -4079,7 +4079,7 @@ const albums = [
         "year": 1995,
         "country": regions.QUEBEC,
         "cover": pathToCovers + "/pangee_hymnemonde.jpg",
-        "criteria": [3, 6, 8, 18, 20],
+        "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO],
         "selectedTrackTitle": "Cataracte",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=TVkcSh3COMc",
         "isAGem": false
@@ -4091,7 +4091,7 @@ const albums = [
         "year": 1977,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/peter_gabriel_car.jpg",
-        "criteria": [48],
+        "criteria": [criteria.ART_POP],
         "selectedTrackTitle": "Here Comes The Flood",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=vb7htoJAK7g",
         "isAGem": false
@@ -4103,7 +4103,7 @@ const albums = [
         "year": 1967,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/pink_floyd_the_piper_at_the_gates_of_dawn.jpg",
-        "criteria": [18, 35],
+        "criteria": [criteria.C_PSYCHEDELIC, criteria.FUNNY],
         "selectedTrackTitle": "Interstellar Overdrive",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=4o2sA0vpA-4",
         "isAGem": false
@@ -4115,7 +4115,7 @@ const albums = [
         "year": 1968,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/pink_floyd_a_saucerful_of_secrets.jpg",
-        "criteria": [18],
+        "criteria": [criteria.C_PSYCHEDELIC],
         "selectedTrackTitle": "Set The Controls For The Heart Of The Sun",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=bbWOmh_rRq0",
         "isAGem": false
@@ -4127,7 +4127,7 @@ const albums = [
         "year": 1969,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/pink_floyd_ummagumma.jpg",
-        "criteria": [9, 16, 18, 21],
+        "criteria": [criteria.TRANSITION, criteria.SOUND_COLLAGES, criteria.C_PSYCHEDELIC, 21],
         "selectedTrackTitle": "The Narrow Way",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=85Iz-_xigS8",
         "isAGem": false
@@ -4139,7 +4139,7 @@ const albums = [
         "year": 1969,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/pink_floyd_more.jpg",
-        "criteria": [18, 21, 41, 49],
+        "criteria": [criteria.C_PSYCHEDELIC, criteria.C_FOLK, criteria.PATCHWORK, criteria.SOUNDTRACK],
         "selectedTrackTitle": "Cymbaline",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=ZM5iopSs_rI",
         "isAGem": false
@@ -4151,7 +4151,7 @@ const albums = [
         "year": 1970,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/pink_floyd_atom_heart_mother.jpg",
-        "criteria": [1, 5, 8, 16, 17, 18, 21],
+        "criteria": [criteria.CONCEPT, criteria.EXPERIMENTAL, criteria.LENGHTY_TRACKS, criteria.SOUND_COLLAGES, criteria.BLENDS, criteria.C_PSYCHEDELIC, 21],
         "selectedTrackTitle": "Atom Heart Mother",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=yusGUGTVAyw",
         "isAGem": false
@@ -4163,7 +4163,7 @@ const albums = [
         "year": 1971,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/pink_floyd_meddle.jpg",
-        "criteria": [5, 8, 16, 18, 20, 21],
+        "criteria": [5, criteria.LENGHTY_TRACKS, criteria.SOUND_COLLAGES, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO, 21],
         "selectedTrackTitle": "A Pillow Of Winds",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=uThZ1uuLLWM",
         "isAGem": false
@@ -4175,7 +4175,7 @@ const albums = [
         "year": 1972,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/pink_floyd_obscured_by_clouds.jpg",
-        "criteria": [22, 49],
+        "criteria": [criteria.ROCK, criteria.SOUNDTRACK],
         "selectedTrackTitle": "When You're In",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=6vr07uuBjg4",
         "isAGem": false
@@ -4187,7 +4187,7 @@ const albums = [
         "year": 1973,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/pink_floyd_dark_side_of_the_moon.jpg",
-        "criteria": [1, 3, 9, 11, 16, 20],
+        "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.TRANSITION, criteria.SOFT, criteria.SOUND_COLLAGES, criteria.C_ELECTRO],
         "selectedTrackTitle": "Time",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=rL3AgkwbYgo",
         "isAGem": true,
@@ -4200,7 +4200,7 @@ const albums = [
         "year": 1975,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/pink_floyd_wish_you_were_here.jpg",
-        "criteria": [7, 8, 16, 20, 47],
+        "criteria": [criteria.JAM, criteria.LENGHTY_TRACKS, criteria.SOUND_COLLAGES, criteria.C_ELECTRO, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "Welcome To The Machine",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=lt-udg9zQSE",
         "isAGem": false
@@ -4212,7 +4212,7 @@ const albums = [
         "year": 1977,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/pink_floyd_animals.jpg",
-        "criteria": [1, 7, 8, 16, 21],
+        "criteria": [criteria.CONCEPT, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.SOUND_COLLAGES, 21],
         "selectedTrackTitle": "Sheep",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=UqlsVZ1zxMk",
         "isAGem": true,
@@ -4225,7 +4225,7 @@ const albums = [
         "year": 1979,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/pink_floyd_the_wall.jpg",
-        "criteria": [1, 9, 16, 17, 30, 43, 47],
+        "criteria": [criteria.CONCEPT, criteria.TRANSITION, criteria.SOUND_COLLAGES, criteria.BLENDS, criteria.SPECTACULAR, criteria.ROCK_OPERA, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "The Trial",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=4fa7AtI1msk",
         "isAGem": false
@@ -4237,7 +4237,7 @@ const albums = [
         "year": 1983,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/pink_floyd_the_final_cut.jpg",
-        "criteria": [2, 9, 16, 43, 47],
+        "criteria": [criteria.STORYLINE, criteria.TRANSITION, criteria.SOUND_COLLAGES, criteria.ROCK_OPERA, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "Your Possible Pasts",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=E-ve_sgdgZs",
         "isAGem": false
@@ -4249,7 +4249,7 @@ const albums = [
         "year": 1977,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/plat_du_jour_plat_du_jour.jpg",
-        "criteria": [3, 18, 19, 37, 40, 42],
+        "criteria": [criteria.ODD_RHYTHM, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.FRENCH_SUNG, criteria.HEAVY, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Zilbra",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=NnSnwsz9aXs",
         "isAGem": false
@@ -4261,7 +4261,7 @@ const albums = [
         "year": 1975,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/pulsar_pollen.jpg",
-        "criteria": [3, 6, 8, 11, 18, 20, 31, 37],
+        "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO, 31, criteria.FRENCH_SUNG],
         "selectedTrackTitle": "Apaisement",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=21D_sVa_-p8",
         "isAGem": false
@@ -4273,7 +4273,7 @@ const albums = [
         "year": 1976,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/pulsar_the_strands_of_the_future.jpg",
-        "criteria": [3, 6, 8, 11, 18, 20, 31, 37],
+        "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO, 31, criteria.FRENCH_SUNG],
         "selectedTrackTitle": "The Strands Of The Future",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=KpL5htneI-c",
         "isAGem": true,
@@ -4286,7 +4286,7 @@ const albums = [
         "year": 1977,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/pulsar_halloween.jpg",
-        "criteria": [3, 6, 8, 11, 18, 20, 31, 37],
+        "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO, 31, criteria.FRENCH_SUNG],
         "selectedTrackTitle": "Halloween (Part I)",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=2yD0VxZgobo",
         "isAGem": false
@@ -4298,7 +4298,7 @@ const albums = [
         "year": 1980,
         "country": regions.NETHERLANDS,
         "cover": pathToCovers + "/pythagoras_journey_to_the_vast_unknown.jpg",
-        "criteria": [6, 7, 14, 18, 44],
+        "criteria": [criteria.INSTRUMENTAL, criteria.JAM, criteria.AMBIENT, criteria.C_PSYCHEDELIC, criteria.ELECTRO],
         "selectedTrackTitle": "Journey To The Vast Unknown (Part II)",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=qLWSAGAjUqw",
         "isAGem": false
@@ -4313,7 +4313,7 @@ const albums = [
         "year": 1970,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/quatermass_quatermass.jpg",
-        "criteria": [22, 40],
+        "criteria": [criteria.ROCK, criteria.HEAVY],
         "selectedTrackTitle": "Gemini",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=8tU5T4kGI2E",
         "isAGem": false
@@ -4325,7 +4325,7 @@ const albums = [
         "year": 1974,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/queen_queen_II.jpg",
-        "criteria": [2, 9, 10, 17, 43, 45],
+        "criteria": [criteria.STORYLINE, criteria.TRANSITION, criteria.SYMPHONIC, criteria.BLENDS, criteria.ROCK_OPERA, criteria.FANFARE],
         "selectedTrackTitle": "The March Of The Black Queen",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=SoBMhx_ap_g",
         "isAGem": false
@@ -4337,7 +4337,7 @@ const albums = [
         "year": 1974,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/queen_sheer_heart_attack.jpg",
-        "criteria": [9, 17, 43, 45],
+        "criteria": [criteria.TRANSITION, criteria.BLENDS, criteria.ROCK_OPERA, criteria.FANFARE],
         "selectedTrackTitle": "In The Lap Of The Gods... Revisited",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=ieXcPZC0MJk",
         "isAGem": false
@@ -4349,7 +4349,7 @@ const albums = [
         "year": 1975,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/queen_a_night_at_the_opera.jpg",
-        "criteria": [17, 43, 45, 48],
+        "criteria": [criteria.BLENDS, criteria.ROCK_OPERA, criteria.FANFARE, criteria.ART_POP],
         "selectedTrackTitle": "Bohemian Rhapsody",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=fJ9rUzIMcZQ",
         "isAGem": false
@@ -4361,7 +4361,7 @@ const albums = [
         "year": 1976,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/queen_a_day_at_the_races.jpg",
-        "criteria": [17, 43, 45, 48],
+        "criteria": [criteria.BLENDS, criteria.ROCK_OPERA, criteria.FANFARE, criteria.ART_POP],
         "selectedTrackTitle": "Somebody To Love",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=kijpcUv-b8M",
         "isAGem": false
@@ -4373,7 +4373,7 @@ const albums = [
         "year": 1969,
         "country": regions.USA,
         "cover": pathToCovers + "/quicksilver_messenger_service_happy_trails.jpg",
-        "criteria": [0, 6, 7, 12, 22, ],
+        "criteria": [criteria.INSTRUMENTAL, criteria.JAM, criteria.LIVE, criteria.ROCK, ],
         "selectedTrackTitle": "When Do You Love",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=Rng54UMoxy8",
         "isAGem": false
@@ -4388,7 +4388,7 @@ const albums = [
         "year": 1975,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/rainbow_rainbow.jpg",
-        "criteria": [7, 22, 40],
+        "criteria": [criteria.JAM, criteria.ROCK, criteria.HEAVY],
         "selectedTrackTitle": "Catch The Rainbow",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=p3VgV31vmUE",
         "isAGem": false
@@ -4400,7 +4400,7 @@ const albums = [
         "year": 1976,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/rainbow_rising.jpg",
-        "criteria": [7, 22, 30, 40],
+        "criteria": [criteria.JAM, criteria.ROCK, criteria.SPECTACULAR, criteria.HEAVY],
         "selectedTrackTitle": "Stargazer",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=rVXy1OhaERY",
         "isAGem": false
@@ -4412,7 +4412,7 @@ const albums = [
         "year": 1978,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/rainbow_long_live_rock_n_roll.jpg",
-        "criteria": [7, 22, 30, 40],
+        "criteria": [criteria.JAM, criteria.ROCK, criteria.SPECTACULAR, criteria.HEAVY],
         "selectedTrackTitle": "Gates Of Babylon",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=MHCdCbTxypU",
         "isAGem": false
@@ -4424,7 +4424,7 @@ const albums = [
         "year": 1975,
         "country": regions.SWEDEN,
         "cover": pathToCovers + "/ralph_lundsten_shangri_la.jpg",
-        "criteria": [1, 6, 9, 11, 14, 18, 44],
+        "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.TRANSITION, criteria.SOFT, criteria.AMBIENT, criteria.C_PSYCHEDELIC, criteria.ELECTRO],
         "selectedTrackTitle": "Shangri-La",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=Gg0dopo1q4U",
         "isAGem": false
@@ -4436,7 +4436,7 @@ const albums = [
         "year": 1976,
         "country": regions.SWEDEN,
         "cover": pathToCovers + "/ralph_lundsten_ralph_lundstens_universe.jpg",
-        "criteria": [1, 6, 9, 11, 14, 18, 44],
+        "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.TRANSITION, criteria.SOFT, criteria.AMBIENT, criteria.C_PSYCHEDELIC, criteria.ELECTRO],
         "selectedTrackTitle": "The Blue Planet",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=nc207RhZQDQ",
         "isAGem": false
@@ -4448,7 +4448,7 @@ const albums = [
         "year": 1978,
         "country": regions.SWEDEN,
         "cover": pathToCovers + "/ralph_lundsten_discophrenia.jpg",
-        "criteria": [1, 6, 11, 14, 18, 42, 44],
+        "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.SOFT, criteria.AMBIENT, criteria.C_PSYCHEDELIC, criteria.JAZZY_GROOVY, criteria.ELECTRO],
         "selectedTrackTitle": "Discophrenia",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=wgWUJBJ4Tt8",
         "isAGem": false
@@ -4460,7 +4460,7 @@ const albums = [
         "year": 1979,
         "country": regions.SWEDEN,
         "cover": pathToCovers + "/ralph_lundsten_alpha_ralpha_boulevard.jpg",
-        "criteria": [1, 6, 11, 14, 18, 44],
+        "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.SOFT, criteria.AMBIENT, criteria.C_PSYCHEDELIC, criteria.ELECTRO],
         "selectedTrackTitle": "Alpha Ralpha Boulevard",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=uKL5tj0FHDk",
         "isAGem": false
@@ -4472,7 +4472,7 @@ const albums = [
         "year": 1980,
         "country": regions.SWEDEN,
         "cover": pathToCovers + "/ralph_lundsten_paradissymfonin.jpg",
-        "criteria": [1, 6, 10, 11, 14, 44],
+        "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.SYMPHONIC, criteria.SOFT, criteria.AMBIENT, criteria.ELECTRO],
         "selectedTrackTitle": "Himmelens Port",
         "selectedTrackYtId": "",
         "isAGem": false
@@ -4484,7 +4484,7 @@ const albums = [
         "year": 1982,
         "country": regions.SWEDEN,
         "cover": pathToCovers + "/ralph_lundsten_the_new_age.jpg",
-        "criteria": [1, 6, 11, 14, 18, 42, 44],
+        "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.SOFT, criteria.AMBIENT, criteria.C_PSYCHEDELIC, criteria.JAZZY_GROOVY, criteria.ELECTRO],
         "selectedTrackTitle": "Time Storm",
         "selectedTrackYtId": "",
         "isAGem": false
@@ -4496,7 +4496,7 @@ const albums = [
         "year": 1976,
         "country": regions.GERMANY,
         "cover": pathToCovers + "/ramses_la_leyla.jpg",
-        "criteria": [11, 20, 31],
+        "criteria": [criteria.SOFT, criteria.C_ELECTRO, 31],
         "selectedTrackTitle": "La Leyla",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=FmiSuG7PuVs",
         "isAGem": false
@@ -4508,7 +4508,7 @@ const albums = [
         "year": 1978,
         "country": regions.GERMANY,
         "cover": pathToCovers + "/ramses_eternity_rise.jpg",
-        "criteria": [11, 20, 31],
+        "criteria": [criteria.SOFT, criteria.C_ELECTRO, 31],
         "selectedTrackTitle": "Only Yesterday",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=KYfxukQkw10",
         "isAGem": false
@@ -4520,7 +4520,7 @@ const albums = [
         "year": 1981,
         "country": regions.GERMANY,
         "cover": pathToCovers + "/ramses_light_fantastic.jpg",
-        "criteria": [11, 20, 31],
+        "criteria": [criteria.SOFT, criteria.C_ELECTRO, 31],
         "selectedTrackTitle": "Across The Everglades",
         "selectedTrackYtId": "",
         "isAGem": false
@@ -4532,7 +4532,7 @@ const albums = [
         "year": 1973,
         "country": regions.BELGIUM,
         "cover": pathToCovers + "/raymond_vincent_metronomics.jpg",
-        "criteria": [6, 21, 41],
+        "criteria": [criteria.INSTRUMENTAL, criteria.C_FOLK, criteria.PATCHWORK],
         "selectedTrackTitle": "La Mouette",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=5g1Ppivoqu0",
         "isAGem": false
@@ -4544,7 +4544,7 @@ const albums = [
         "year": 1972,
         "country": regions.USA,
         "cover": pathToCovers + "/return_to_forever_return_to_forever.jpg",
-        "criteria": [3, 6, 7, 8, 11, 23, 42],
+        "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Crystal Silence",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=69rjdr7SR0Q",
         "isAGem": false
@@ -4556,7 +4556,7 @@ const albums = [
         "year": 1972,
         "country": regions.USA,
         "cover": pathToCovers + "/return_to_forever_light_as_a_feather.jpg",
-        "criteria": [7, 23, 42],
+        "criteria": [criteria.JAM, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Spain",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=a_OEJ0wqt2g",
         "isAGem": false
@@ -4568,7 +4568,7 @@ const albums = [
         "year": 1973,
         "country": regions.USA,
         "cover": pathToCovers + "/return_to_forever_hymn_of_the_seventh_galaxy.jpg",
-        "criteria": [3, 4, 6, 7, 23, 42],
+        "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "After The Cosmic Rain",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=MWPo6oqHvJ8",
         "isAGem": false
@@ -4580,7 +4580,7 @@ const albums = [
         "year": 1974,
         "country": regions.USA,
         "cover": pathToCovers + "/return_to_forever_where_have_i_known_you_before.jpg",
-        "criteria": [3, 4, 6, 7, 23, 42],
+        "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Song To The Pharoah Kings",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=q-XDtjCwS9Q",
         "isAGem": false
@@ -4592,7 +4592,7 @@ const albums = [
         "year": 1975,
         "country": regions.USA,
         "cover": pathToCovers + "/return_to_forever_no_mystery.jpg",
-        "criteria": [3, 4, 6, 7, 23, 42],
+        "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Celebration Suite (Part I)",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=LBawRSufDlU",
         "isAGem": false
@@ -4604,7 +4604,7 @@ const albums = [
         "year": 1976,
         "country": regions.USA,
         "cover": pathToCovers + "/return_to_forever_romantic_warrior.jpg",
-        "criteria": [1, 3, 4, 6, 7, 8, 11, 23, 42],
+        "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Duel Of The Jester And The Tyrant",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=sa21WPH4_U4",
         "isAGem": true,
@@ -4617,7 +4617,7 @@ const albums = [
         "year": 1977,
         "country": regions.USA,
         "cover": pathToCovers + "/return_to_forever_musicmagic.jpg",
-        "criteria": [3, 7, 15, 23, 42],
+        "criteria": [criteria.ODD_RHYTHM, criteria.JAM, criteria.UNCOMMON_INSTRUMENTS, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "The Endless Night",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=STXJFzaAj0U",
         "isAGem": false
@@ -4629,7 +4629,7 @@ const albums = [
         "year": 1978,
         "country": regions.CANADA,
         "cover": pathToCovers + "/robert_connolly_plateau.jpg",
-        "criteria": [6, 8, 20],
+        "criteria": [criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.C_ELECTRO],
         "selectedTrackTitle": "Journey",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=c4t_ThUzI48",
         "isAGem": false
@@ -4641,7 +4641,7 @@ const albums = [
         "year": 1974,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/roger_glover_the_butterfly_ball_and_the_grasshoppers_feast.jpg",
-        "criteria": [2, 3, 9, 17, 41, 43, 45],
+        "criteria": [criteria.STORYLINE, criteria.ODD_RHYTHM, criteria.TRANSITION, criteria.BLENDS, criteria.PATCHWORK, criteria.ROCK_OPERA, criteria.FANFARE],
         "selectedTrackTitle": "Love Is All",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=YK2Pltm8ZsQ",
         "isAGem": true,
@@ -4654,7 +4654,7 @@ const albums = [
         "year": 1970,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/roger_waters_and_ron_geesin_music_from_the_body.jpg",
-        "criteria": [1, 5, 9, 11, 15, 16, 18, 21, 41, 49],
+        "criteria": [criteria.CONCEPT, criteria.EXPERIMENTAL, criteria.TRANSITION, criteria.SOFT, criteria.UNCOMMON_INSTRUMENTS, criteria.SOUND_COLLAGES, criteria.C_PSYCHEDELIC, criteria.C_FOLK, criteria.PATCHWORK, criteria.SOUNDTRACK],
         "selectedTrackTitle": "The Womb Bit",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=vR-PDPS1-Pg",
         "isAGem": false
@@ -4669,7 +4669,7 @@ const albums = [
         "year": 1972,
         "country": regions.USA,
         "cover": pathToCovers + "/santana_caravanserai.jpg",
-        "criteria": [1, 3, 6, 7, 9, 14, 18, 19, 42],
+        "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.TRANSITION, criteria.AMBIENT, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Waves Within",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=VGbSw8dHR3w",
         "isAGem": true,
@@ -4682,7 +4682,7 @@ const albums = [
         "year": 1974,
         "country": regions.USA,
         "cover": pathToCovers + "/santana_borboletta.jpg",
-        "criteria": [7, 9, 15, 19, 42],
+        "criteria": [criteria.JAM, criteria.TRANSITION, criteria.UNCOMMON_INSTRUMENTS, criteria.C_JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Canto De Los Flores",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=vlWO_F2D2tw",
         "isAGem": false
@@ -4694,7 +4694,7 @@ const albums = [
         "year": 1976,
         "country": regions.GERMANY,
         "cover": pathToCovers + "/schicke_fuhrs_and_frohling_symphonic_pictures.jpg",
-        "criteria": [6, 8, 10, 18, 44],
+        "criteria": [criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_PSYCHEDELIC, criteria.ELECTRO],
         "selectedTrackTitle": "Pictures",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=xvnRkJdbm6w",
         "isAGem": false
@@ -4706,7 +4706,7 @@ const albums = [
         "year": 1977,
         "country": regions.GERMANY,
         "cover": pathToCovers + "/schicke_fuhrs_and_frohling_sunburst.jpg",
-        "criteria": [3, 20],
+        "criteria": [criteria.ODD_RHYTHM, criteria.C_ELECTRO],
         "selectedTrackTitle": "Troja",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=1AfQ2w-fY40",
         "isAGem": false
@@ -4718,7 +4718,7 @@ const albums = [
         "year": 1973,
         "country": regions.ITALY,
         "cover": pathToCovers + "/semiramis_dedicato_a_frazz.jpg",
-        "criteria": [3, 4, 10, 30, 36],
+        "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.SYMPHONIC, criteria.SPECTACULAR, criteria.ITALIAN_SUNG],
         "selectedTrackTitle": "Luna Park",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=T2PVgfv0OR4",
         "isAGem": true,
@@ -4731,7 +4731,7 @@ const albums = [
         "year": 1978,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/serge_ramses_secret.jpg",
-        "criteria": [6, 8, 11, 14, 44],
+        "criteria": [criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.AMBIENT, criteria.ELECTRO],
         "selectedTrackTitle": "Secret",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=3K0UOKOdDvE",
         "isAGem": false
@@ -4743,7 +4743,7 @@ const albums = [
         "year": 1977,
         "country": regions.AUSTRALIA,
         "cover": pathToCovers + "/shakti_natural_elements.jpg",
-        "criteria": [1, 3, 4, 6, 7, 13, 15, 19, 21],
+        "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.ORIENTAL, criteria.UNCOMMON_INSTRUMENTS, criteria.C_JAZZ, 21],
         "selectedTrackTitle": "Mind Ecology",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=d_DajSHROJA",
         "isAGem": true,
@@ -4756,7 +4756,7 @@ const albums = [
         "year": 1970,
         "country": regions.USA,
         "cover": pathToCovers + "/sir_lord_baltimore_kingdom_come.jpg",
-        "criteria": [7, 22, 40, 55],
+        "criteria": [criteria.JAM, criteria.ROCK, criteria.HEAVY, criteria.OCCULT],
         "selectedTrackTitle": "Master Heartache",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=wQSz64rU9mM",
         "isAGem": false
@@ -4768,7 +4768,7 @@ const albums = [
         "year": 1975,
         "country": regions.QUEBEC,
         "cover": pathToCovers + "/sloche_jun_oeil.jpg",
-        "criteria": [3, 6, 7, 10, 18, 37, 42],
+        "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.SYMPHONIC, criteria.C_PSYCHEDELIC, criteria.FRENCH_SUNG, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "J'un Oeil",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=Kng5yZJyMj0",
         "isAGem": false
@@ -4780,7 +4780,7 @@ const albums = [
         "year": 1976,
         "country": regions.QUEBEC,
         "cover": pathToCovers + "/sloche_stadacone.jpg",
-        "criteria": [3, 6, 7, 10, 18, 37, 42],
+        "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.SYMPHONIC, criteria.C_PSYCHEDELIC, criteria.FRENCH_SUNG, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Stadaconé",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=GlkUhrk8MZg",
         "isAGem": true,
@@ -4793,7 +4793,7 @@ const albums = [
         "year": 1970,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/soft_machine_third.jpg",
-        "criteria": [5, 6, 8, 18, 20, 23],
+        "criteria": [5, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO, criteria.JAZZ],
         "selectedTrackTitle": "Slightly All The Time",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=4RwLgA9U_3I",
         "isAGem": false
@@ -4805,7 +4805,7 @@ const albums = [
         "year": 1971,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/spirogyra_st_radigunds.jpg",
-        "criteria": [18, 46],
+        "criteria": [criteria.C_PSYCHEDELIC, criteria.FOLK],
         "selectedTrackTitle": "The Duke Of Beaufoot",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=D1jNLR9tjXE",
         "isAGem": false
@@ -4817,7 +4817,7 @@ const albums = [
         "year": 1972,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/spirogyra_old_boot_wine.jpg",
-        "criteria": [18, 46],
+        "criteria": [criteria.C_PSYCHEDELIC, criteria.FOLK],
         "selectedTrackTitle": "A Canterbury Tale",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=o7Z5SIYACAU",
         "isAGem": false
@@ -4829,7 +4829,7 @@ const albums = [
         "year": 1973,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/spirogyra_bells_boots_and_shambles.jpg",
-        "criteria": [8, 18, 46],
+        "criteria": [criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.FOLK],
         "selectedTrackTitle": "Old Boot Wine",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=-Q0rh2uESWY",
         "isAGem": false
@@ -4841,7 +4841,7 @@ const albums = [
         "year": 1971,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/spring_spring.jpg",
-        "criteria": [10, 21, 22],
+        "criteria": [criteria.GLITTER, criteria.C_FOLK, criteria.ROCK],
         "selectedTrackTitle": "Golden Fleece",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=BuP9_sMgu8I",
         "isAGem": false
@@ -4853,7 +4853,7 @@ const albums = [
         "year": 1976,
         "country": regions.USA,
         "cover": pathToCovers + "/starcastle_starcastle.jpg",
-        "criteria": [1, 3, 10, 20, 30],
+        "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.GLITTER, criteria.C_ELECTRO, 30],
         "selectedTrackTitle": "Elliptical Seasons",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=sSZepYc219Y",
         "isAGem": false
@@ -4865,7 +4865,7 @@ const albums = [
         "year": 1977,
         "country": regions.USA,
         "cover": pathToCovers + "/starcastle_fountains_of_light.jpg",
-        "criteria": [1, 3, 10, 20, 30],
+        "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.GLITTER, criteria.C_ELECTRO, 30],
         "selectedTrackTitle": "Silver Winds",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=0tmM4X3HnDk",
         "isAGem": false
@@ -4877,7 +4877,7 @@ const albums = [
         "year": 1977,
         "country": regions.USA,
         "cover": pathToCovers + "/starcastle_citadel.jpg",
-        "criteria": [1, 3, 10, 20, 30],
+        "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.GLITTER, criteria.C_ELECTRO, 30],
         "selectedTrackTitle": "Wings Of White",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=Z8qyuL_wpXQ",
         "isAGem": false
@@ -4889,7 +4889,7 @@ const albums = [
         "year": 1977,
         "country": regions.BELGIUM,
         "cover": pathToCovers + "/sunhouse_sunhouse.jpg",
-        "criteria": [6, 7, 11, 19, 42],
+        "criteria": [criteria.INSTRUMENTAL, criteria.JAM, criteria.SOFT, criteria.C_JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Don't Skimp With Us",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=1ABQLe-KfEo",
         "isAGem": false
@@ -4901,7 +4901,7 @@ const albums = [
         "year": 1970,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/supertramp_supertramp.jpg",
-        "criteria": [7, 11, 22, 48],
+        "criteria": [criteria.JAM, criteria.SOFT, criteria.ROCK, criteria.ART_POP],
         "selectedTrackTitle": "Words Unspoken",
         "selectedTrackYtId": "",
         "isAGem": false
@@ -4913,7 +4913,7 @@ const albums = [
         "year": 1971,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/supertramp_indelibly_stamped.jpg",
-        "criteria": [22, 48],
+        "criteria": [criteria.ROCK, criteria.ART_POP],
         "selectedTrackTitle": "Travelled",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=OzihNqVYElA",
         "isAGem": false
@@ -4925,7 +4925,7 @@ const albums = [
         "year": 1974,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/supertramp_crime_of_the_century.jpg",
-        "criteria": [1, 11, 17, 19, 43, 47, 48],
+        "criteria": [criteria.CONCEPT, criteria.SOFT, criteria.BLENDS, criteria.C_JAZZ, criteria.ROCK_OPERA, 47, criteria.ART_POP],
         "selectedTrackTitle": "Rudy",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=gxW3s_Qk1dk",
         "isAGem": true,
@@ -4938,7 +4938,7 @@ const albums = [
         "year": 1975,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/supertramp_crisis_what_crisis.jpg",
-        "criteria": [11, 47, 48],
+        "criteria": [criteria.SOFT, 47, criteria.ART_POP],
         "selectedTrackTitle": "Another Man's Woman",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=MUPwN0MtY1Y",
         "isAGem": false
@@ -4950,7 +4950,7 @@ const albums = [
         "year": 1977,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/supertramp_even_in_the_quietest_moments.jpg",
-        "criteria": [11, 47, 48],
+        "criteria": [criteria.SOFT, 47, criteria.ART_POP],
         "selectedTrackTitle": "Even In The Quietest Moments",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=7CXcMPdVXp4",
         "isAGem": false
@@ -4962,7 +4962,7 @@ const albums = [
         "year": 1970,
         "country": regions.USA,
         "cover": pathToCovers + "/sweet_smoke_just_a_poke.jpg",
-        "criteria": [7, 8, 11, 18, 19, 42],
+        "criteria": [criteria.JAM, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Baby Night",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=s6L8ZCAt3DA",
         "isAGem": true,
@@ -4975,7 +4975,7 @@ const albums = [
         "year": 1973,
         "country": regions.USA,
         "cover": pathToCovers + "/sweet_smoke_darkness_to_light.jpg",
-        "criteria": [8, 13, 16, 18, 21],
+        "criteria": [criteria.LENGHTY_TRACKS, criteria.ORIENTAL, criteria.SOUND_COLLAGES, criteria.C_PSYCHEDELIC, 21],
         "selectedTrackTitle": "Baby Night",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=s6L8ZCAt3DA",
         "isAGem": false
@@ -4987,7 +4987,7 @@ const albums = [
         "year": 1970,
         "country": regions.USA,
         "cover": pathToCovers + "/sweetwater_just_for_you.jpg",
-        "criteria": [11, 42, 46],
+        "criteria": [criteria.SOFT, criteria.JAZZY_GROOVY, criteria.FOLK],
         "selectedTrackTitle": "Song Of Romeo",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=_LXdlWNrItQ",
         "isAGem": false
@@ -5002,7 +5002,7 @@ const albums = [
         "year": 1974,
         "country": regions.GERMANY,
         "cover": pathToCovers + "/tangerine_dream_phaedra.jpg",
-        "criteria": [6, 8, 11, 14, 18, 44],
+        "criteria": [criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.AMBIENT, criteria.C_PSYCHEDELIC, criteria.ELECTRO],
         "selectedTrackTitle": "Sequent 'C'",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=Jb_hDcNr5KQ",
         "isAGem": false
@@ -5014,7 +5014,7 @@ const albums = [
         "year": 1975,
         "country": regions.GERMANY,
         "cover": pathToCovers + "/tangerine_dream_rubycon.jpg",
-        "criteria": [6, 8, 11, 14, 18, 44],
+        "criteria": [criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.AMBIENT, criteria.C_PSYCHEDELIC, criteria.ELECTRO],
         "selectedTrackTitle": "Rubycon (Part I)",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=4xl6zlD_hlE",
         "isAGem": false
@@ -5026,7 +5026,7 @@ const albums = [
         "year": 1975,
         "country": regions.GERMANY,
         "cover": pathToCovers + "/tangerine_dream_ricochet.jpg",
-        "criteria": [6, 8, 11, 12, 14, 18, 44],
+        "criteria": [criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.LIVE, criteria.AMBIENT, criteria.C_PSYCHEDELIC, criteria.ELECTRO],
         "selectedTrackTitle": "Ricochet (Part II)",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=XCsJOaPDJUE",
         "isAGem": false
@@ -5038,7 +5038,7 @@ const albums = [
         "year": 1976,
         "country": regions.GERMANY,
         "cover": pathToCovers + "/tangerine_dream_stratosfear.jpg",
-        "criteria": [6, 11, 14, 18, 44],
+        "criteria": [criteria.INSTRUMENTAL, criteria.SOFT, criteria.AMBIENT, criteria.C_PSYCHEDELIC, criteria.ELECTRO],
         "selectedTrackTitle": "Stratosfear",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=2w8VsvJ40sM",
         "isAGem": false
@@ -5050,7 +5050,7 @@ const albums = [
         "year": 1969,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/tea_and_symphony_an_asylum_for_the_musically_insane.jpg",
-        "criteria": [18, 35, 46],
+        "criteria": [criteria.C_PSYCHEDELIC, criteria.FUNNY, criteria.FOLK],
         "selectedTrackTitle": "Sometime",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=91xllZBR8ps",
         "isAGem": false
@@ -5062,7 +5062,7 @@ const albums = [
         "year": 1970,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/tea_and_symphony_jo_sago.jpg",
-        "criteria": [2, 15, 42, 43, 46],
+        "criteria": [criteria.STORYLINE, criteria.UNCOMMON_INSTRUMENTS, criteria.JAZZY_GROOVY, criteria.ROCK_OPERA, criteria.FOLK],
         "selectedTrackTitle": "Yourself",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=YlyCN0xb37g",
         "isAGem": false
@@ -5074,7 +5074,7 @@ const albums = [
         "year": 1982,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/thalassa_suffer_and_misery.jpg",
-        "criteria": [3, 10, 11, 20],
+        "criteria": [criteria.ODD_RHYTHM, criteria.GLITTER, criteria.SOFT, criteria.C_ELECTRO],
         "selectedTrackTitle": "Far From Me",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=o6IZVtde0Es",
         "isAGem": false
@@ -5086,7 +5086,7 @@ const albums = [
         "year": 1970,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/titus_groan_titus_groan.jpg",
-        "criteria": [22],
+        "criteria": [criteria.ROCK],
         "selectedTrackTitle": "It Wasn't For You",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=7QC1hQyn8-0",
         "isAGem": false
@@ -5098,7 +5098,7 @@ const albums = [
         "year": 1970,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/trapeze_trapeze.jpg",
-        "criteria": [11, 46],
+        "criteria": [criteria.SOFT, criteria.FOLK],
         "selectedTrackTitle": "The Giant's Dead Hoorah!",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=zqekc2zaw9A",
         "isAGem": false
@@ -5110,7 +5110,7 @@ const albums = [
         "year": 1978,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/trefle_reflet.jpg",
-        "criteria": [2, 37, 43, 47],
+        "criteria": [criteria.STORYLINE, criteria.FRENCH_SUNG, criteria.ROCK_OPERA, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "L'appel Du Temps",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=sGMIO4h7XMY",
         "isAGem": false
@@ -5122,7 +5122,7 @@ const albums = [
         "year": 1972,
         "country": regions.GERMANY,
         "cover": pathToCovers + "/triumvirat_mediterranean_tales.jpg",
-        "criteria": [3, 8, 10, 20, 30],
+        "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_ELECTRO, 30],
         "selectedTrackTitle": "Across The Waters",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=msni0_j51IU",
         "isAGem": false
@@ -5134,7 +5134,7 @@ const albums = [
         "year": 1973,
         "country": regions.GERMANY,
         "cover": pathToCovers + "/triumvirat_illusions_on_a_double_dimple.jpg",
-        "criteria": [3, 8, 10, 20, 30],
+        "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_ELECTRO, 30],
         "selectedTrackTitle": "Mister Ten Percent",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=7VAA7M5nXx8",
         "isAGem": false
@@ -5146,7 +5146,7 @@ const albums = [
         "year": 1975,
         "country": regions.GERMANY,
         "cover": pathToCovers + "/triumvirat_spartacus.jpg",
-        "criteria": [1, 44, 48],
+        "criteria": [criteria.CONCEPT, 44, criteria.ART_POP],
         "selectedTrackTitle": "The March To The Eternal City",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=TmTZpQYMzN8",
         "isAGem": false
@@ -5161,7 +5161,7 @@ const albums = [
         "year": 1968,
         "country": regions.USA,
         "cover": pathToCovers + "/ultimate_spinach_ultimate_spinach.jpg",
-        "criteria": [18, 22],
+        "criteria": [criteria.C_PSYCHEDELIC, criteria.ROCK],
         "selectedTrackTitle": "Ego Trip",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=uIy3WOK2-iY",
         "isAGem": false
@@ -5173,7 +5173,7 @@ const albums = [
         "year": 1968,
         "country": regions.USA,
         "cover": pathToCovers + "/ultimate_spinach_behold_and_see.jpg",
-        "criteria": [7, 18, 22],
+        "criteria": [criteria.JAM, criteria.C_PSYCHEDELIC, criteria.ROCK],
         "selectedTrackTitle": "Mind Flowers",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=eoj6au1h6m0",
         "isAGem": false
@@ -5185,7 +5185,7 @@ const albums = [
         "year": 1977,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/urban_sax_urban_sax.jpg",
-        "criteria": [3, 5, 6, 8, 14, 18, 23],
+        "criteria": [criteria.ODD_RHYTHM, criteria.EXPERIMENTAL, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.AMBIENT, criteria.C_PSYCHEDELIC, criteria.JAZZ],
         "selectedTrackTitle": "Urban Sax (Part I)",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=q01oHWFqVqM",
         "isAGem": false
@@ -5197,7 +5197,7 @@ const albums = [
         "year": 1972,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/uriah_heep_demons_and_wizards.jpg",
-        "criteria": [22, 40],
+        "criteria": [criteria.ROCK, criteria.HEAVY],
         "selectedTrackTitle": "The Spell",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=w5L-AOGt7qw",
         "isAGem": false
@@ -5209,7 +5209,7 @@ const albums = [
         "year": 1972,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/uriah_heep_the_magicians_birthday.jpg",
-        "criteria": [22, 40],
+        "criteria": [criteria.ROCK, criteria.HEAVY],
         "selectedTrackTitle": "The Magician's Birthday",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=apWKh3D9oVw",
         "isAGem": false
@@ -5224,7 +5224,7 @@ const albums = [
         "year": 1969,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/van_der_graaf_generator_the_aerosol_grey_machine.jpg",
-        "criteria": [18, 21],
+        "criteria": [criteria.C_PSYCHEDELIC, 21],
         "selectedTrackTitle": "Octopus",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=N91EyGMzvgc",
         "isAGem": false
@@ -5236,7 +5236,7 @@ const albums = [
         "year": 1970,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/van_der_graaf_generator_the_least_that_we_can_do_is_wave_to_each_other.jpg",
-        "criteria": [3, 10, 19, 21],
+        "criteria": [criteria.ODD_RHYTHM, criteria.SYMPHONIC, criteria.C_JAZZ, 21],
         "selectedTrackTitle": "After The Flood",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=oJUu9-s15PQ",
         "isAGem": false
@@ -5248,7 +5248,7 @@ const albums = [
         "year": 1970,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/van_der_graaf_generator_h_to_he_who_am_the_only_one.jpg",
-        "criteria": [3, 8, 10, 19],
+        "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_JAZZ],
         "selectedTrackTitle": "The Emperor In His War Room",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=4wtUFJPGE0I",
         "isAGem": false
@@ -5260,7 +5260,7 @@ const albums = [
         "year": 1971,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/van_der_graaf_generator_pawn_hearts.jpg",
-        "criteria": [3, 8, 10, 19],
+        "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_JAZZ],
         "selectedTrackTitle": "Lemmings",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=_Earfbot_uI",
         "isAGem": false
@@ -5272,7 +5272,7 @@ const albums = [
         "year": 1975,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/van_der_graaf_generator_godbluff.jpg",
-        "criteria": [3, 7, 8, 10, 18, 19, 42],
+        "criteria": [criteria.ODD_RHYTHM, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Arrow",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=s_o5tMza1og",
         "isAGem": false
@@ -5284,7 +5284,7 @@ const albums = [
         "year": 1976,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/van_der_graaf_generator_still_life.jpg",
-        "criteria": [3, 8, 10, 19],
+        "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_JAZZ],
         "selectedTrackTitle": "Childlike Faith In Childhood's End",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=x16-qZJmpKA",
         "isAGem": false
@@ -5296,7 +5296,7 @@ const albums = [
         "year": 1976,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/van_der_graaf_generator_world_record.jpg",
-        "criteria": [3, 10, 19],
+        "criteria": [criteria.ODD_RHYTHM, criteria.SYMPHONIC, criteria.C_JAZZ],
         "selectedTrackTitle": "Meurglys III, The Songwriter's Guild",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=Xo4IWcGrbbQ",
         "isAGem": false
@@ -5308,7 +5308,7 @@ const albums = [
         "year": 1977,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/van_der_graaf_generator_the_quiet_zone_the_pleasure_dome.jpg",
-        "criteria": [3, 10, 19, 42],
+        "criteria": [criteria.ODD_RHYTHM, criteria.SYMPHONIC, criteria.C_JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "The Sphinx In The Face",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=Xo4IWcGrbbQ",
         "isAGem": false
@@ -5320,7 +5320,7 @@ const albums = [
         "year": 1976,
         "country": regions.GREECE,
         "cover": pathToCovers + "/vangelis_albedo_039.jpg",
-        "criteria": [6, 10, 44],
+        "criteria": [criteria.INSTRUMENTAL, criteria.SYMPHONIC, criteria.ELECTRO],
         "selectedTrackTitle": "Pulstar",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=G1cQnhOxqXw",
         "isAGem": false
@@ -5332,7 +5332,7 @@ const albums = [
         "year": 1977,
         "country": regions.GREECE,
         "cover": pathToCovers + "/vangelis_spiral.jpg",
-        "criteria": [6, 10, 44],
+        "criteria": [criteria.INSTRUMENTAL, criteria.SYMPHONIC, criteria.ELECTRO],
         "selectedTrackTitle": "Spiral",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=iW_qGMRmJAw",
         "isAGem": false
@@ -5344,7 +5344,7 @@ const albums = [
         "year": 1978,
         "country": regions.GREECE,
         "cover": pathToCovers + "/vangelis_beaubourg.jpg",
-        "criteria": [5, 6, 8, 10, 44],
+        "criteria": [5, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.ELECTRO],
         "selectedTrackTitle": "Beaubourg (Part I)",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=iW_qGMRmJAw",
         "isAGem": false
@@ -5356,7 +5356,7 @@ const albums = [
         "year": 1978,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/visitor_2035_visitor_2035.jpg",
-        "criteria": [3, 6, 7, 20, 42],
+        "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.C_ELECTRO, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Center Of The Winds",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=7DMy4F3GDiM",
         "isAGem": false
@@ -5371,7 +5371,7 @@ const albums = [
         "year": 1970,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/warhorse_warhorse.jpg",
-        "criteria": [0, 22, 40, 55],
+        "criteria": [criteria.ROCK, criteria.HEAVY, criteria.OCCULT],
         "selectedTrackTitle": "Woman Of The Devil",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=zgWyveaejwI",
         "isAGem": false
@@ -5383,7 +5383,7 @@ const albums = [
         "year": 1976,
         "country": regions.USA,
         "cover": pathToCovers + "/weather_report_black_market.jpg",
-        "criteria": [1, 6, 7, 23, 42],
+        "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.JAM, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Herandu",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=_A4FqKg0c_A",
         "isAGem": true,
@@ -5396,7 +5396,7 @@ const albums = [
         "year": 1978,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/weidorje_weidorje.jpg",
-        "criteria": [3, 6, 8, 18, 19, 20, 39],
+        "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.C_ELECTRO, 39],
         "selectedTrackTitle": "Booldemug",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=3UyB0hlR6nw",
         "isAGem": false
@@ -5408,7 +5408,7 @@ const albums = [
         "year": 1977,
         "country": regions.AUSTRALIA,
         "cover": pathToCovers + "/windchase_symphinity.jpg",
-        "criteria": [3, 7, 10, 16],
+        "criteria": [criteria.ODD_RHYTHM, criteria.JAM, criteria.GLITTER, criteria.SOUND_COLLAGES],
         "selectedTrackTitle": "Glad To Be Alive",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=grqGzuSak2s",
         "isAGem": true,
@@ -5421,7 +5421,7 @@ const albums = [
         "year": 1982,
         "country": regions.USA,
         "cover": pathToCovers + "/winterhawk_revival.jpg",
-        "criteria": [7, 22, 40],
+        "criteria": [criteria.JAM, criteria.ROCK, criteria.HEAVY],
         "selectedTrackTitle": "Period Of Change",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=zDW3m-LaaRc",
         "isAGem": false
@@ -5433,7 +5433,7 @@ const albums = [
         "year": 1971,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/wishbone_ash_pilgrimage.jpg",
-        "criteria": [3, 7, 22],
+        "criteria": [criteria.ODD_RHYTHM, criteria.JAM, criteria.ROCK],
         "selectedTrackTitle": "Valediction",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=PILotugu-s4",
         "isAGem": false
@@ -5445,7 +5445,7 @@ const albums = [
         "year": 1972,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/wishbone_ash_argus.jpg",
-        "criteria": [7, 22],
+        "criteria": [criteria.JAM, criteria.ROCK],
         "selectedTrackTitle": "Sometime World",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=kvLVSPPLZZY",
         "isAGem": false
@@ -5457,7 +5457,7 @@ const albums = [
         "year": 1973,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/wizzard_wizzard_brew.jpg",
-        "criteria": [7, 8, 18, 22, 40, 45],
+        "criteria": [criteria.JAM, criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.ROCK, criteria.HEAVY, criteria.FANFARE],
         "selectedTrackTitle": "Meet Me At The Jailhouse",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=sBzeB36zYvU",
         "isAGem": false
@@ -5469,7 +5469,7 @@ const albums = [
         "year": 1977,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/wizzo_band_super_active_wizzo.jpg",
-        "criteria": [3, 19, 40, 45],
+        "criteria": [criteria.ODD_RHYTHM, criteria.C_JAZZ, criteria.HEAVY, criteria.FANFARE],
         "selectedTrackTitle": "Waitin' At This Door",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=I_Udqw806sA",
         "isAGem": false
@@ -5487,7 +5487,7 @@ const albums = [
         "year": 1969,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/yes_yes.jpg",
-        "criteria": [10, 22],
+        "criteria": [criteria.GLITTER, criteria.ROCK],
         "selectedTrackTitle": "Beyond & Before",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=YFcxNnKZGNU",
         "isAGem": false
@@ -5499,7 +5499,7 @@ const albums = [
         "year": 1970,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/yes_time_and_a_word.jpg",
-        "criteria": [10, 22],
+        "criteria": [criteria.GLITTER, criteria.ROCK],
         "selectedTrackTitle": "Astral Traveller",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=q0aXTN_AeKw",
         "isAGem": false
@@ -5511,7 +5511,7 @@ const albums = [
         "year": 1970,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/yes_the_yes_album.jpg",
-        "criteria": [3, 4, 10],
+        "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, 10],
         "selectedTrackTitle": "Starship Trooper",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=DKftiJS30Cs",
         "isAGem": false
@@ -5523,7 +5523,7 @@ const albums = [
         "year": 1971,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/yes_fragile.jpg",
-        "criteria": [3, 4, 5, 10, 16, 17, 30, 41],
+        "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.EXPERIMENTAL, criteria.GLITTER, criteria.SYMPHONIC, criteria.SOUND_COLLAGES, criteria.BLENDS, criteria.SPECTACULAR, criteria.PATCHWORK],
         "selectedTrackTitle": "Roundabout",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=-Tdu4uKSZ3M",
         "isAGem": false
@@ -5535,7 +5535,7 @@ const albums = [
         "year": 1972,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/yes_close_to_the_edge.jpg",
-        "criteria": [3, 4, 8, 10, 17, 30],
+        "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.LENGHTY_TRACKS, criteria.GLITTER, criteria.SYMPHONIC, criteria.BLENDS, 30],
         "selectedTrackTitle": "Siberian Khatru",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=r0HnIr6jYWU",
         "isAGem": true,
@@ -5548,7 +5548,7 @@ const albums = [
         "year": 1973,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/yes_tales_from_topographic_oceans.jpg",
-        "criteria": [1, 3, 5, 8, 10, 13, 18, 42],
+        "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.EXPERIMENTAL, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.ORIENTAL, criteria.C_PSYCHEDELIC, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "The Ancient",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=fMoE_2lV-bk",
         "isAGem": false
@@ -5560,7 +5560,7 @@ const albums = [
         "year": 1974,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/yes_relayer.jpg",
-        "criteria": [3, 4, 8, 10, 17, 30],
+        "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.LENGHTY_TRACKS, criteria.GLITTER, criteria.SYMPHONIC, criteria.BLENDS, 30],
         "selectedTrackTitle": "The Gates Of Delirium",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=EdmUAsU2eXI",
         "isAGem": false
@@ -5572,7 +5572,7 @@ const albums = [
         "year": 1977,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/yes_going_for_the_one.jpg",
-        "criteria": [10, 17, 30],
+        "criteria": [criteria.GLITTER, criteria.BLENDS, 30],
         "selectedTrackTitle": "Going For The One",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=f9GAkA7W5Qg",
         "isAGem": false
@@ -5587,7 +5587,7 @@ const albums = [
         "year": 1977,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/zanov_moebius_256_301.jpg",
-        "criteria": [6, 8, 11, 14, 18, 44],
+        "criteria": [criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.AMBIENT, criteria.C_PSYCHEDELIC, criteria.ELECTRO],
         "selectedTrackTitle": "Plénitude",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=QCs2wJBMTv4",
         "isAGem": false
@@ -5599,7 +5599,7 @@ const albums = [
         "year": 1982,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/zanov_in_course_of_time.jpg",
-        "criteria": [6, 8, 11, 14, 44],
+        "criteria": [criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.AMBIENT, criteria.ELECTRO],
         "selectedTrackTitle": "Lost Message",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=sYzgqOIkVS8",
         "isAGem": false
@@ -5611,7 +5611,7 @@ const albums = [
         "year": 1973,
         "country": regions.NETHERLANDS,
         "cover": pathToCovers + "/zoo_zoo.jpg",
-        "criteria": [7, 22, 42],
+        "criteria": [criteria.JAM, criteria.ROCK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Cold Night",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=2gI_mUCPHO0",
         "isAGem": false
@@ -5623,7 +5623,7 @@ const albums = [
         "year": 1978,
         "country": regions.GERMANY,
         "cover": pathToCovers + "/zyma_thoughts.jpg",
-        "criteria": [3, 7, 15, 18, 19, 42],
+        "criteria": [criteria.ODD_RHYTHM, criteria.JAM, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Businessman",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=jnE_gq9_R84",
         "isAGem": false
@@ -5635,7 +5635,7 @@ const albums = [
         "year": 1979,
         "country": regions.GERMANY,
         "cover": pathToCovers + "/zyma_brave_new_world.jpg",
-        "criteria": [11, 19, 42],
+        "criteria": [criteria.SOFT, criteria.C_JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Colours",
         "selectedTrackYtId": "https://www.youtube.com/watch?v=OJbotZE5lV4"
     }
