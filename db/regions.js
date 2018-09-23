@@ -1,0 +1,23 @@
+const regions = {
+    ARGENTINA: "Argentina",
+    AUSTRALIA: "Australia",
+    BELGIUM: "Belgium",
+    BOLIVIA: "Bolivia",
+    CANADA: "Canada",
+    DENMARK: "Denmark",
+    ENGLAND: "England",
+    ITALY: "Italy",
+    FRANCE: "France",
+    GERMANY: "Germany",
+    GREECE: "Greece",
+    INDIA: "India",
+    NETHERLANDS: "Netherlands",
+    QUEBEC: "Québec",
+    SCOTLAND: "Scotland",
+    SOUTH_AFRICA: "South Africa",
+    SPAIN: "Spain",
+    SWEDEN: "Sweden",
+    SWITZERLAND: "Switzerland",
+    USA: "USA", // TODO split by region
+    WALES: "Wales",
+}
