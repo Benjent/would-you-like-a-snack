@@ -1364,9 +1364,22 @@ const albums = [
         "country": "USA",
         "cover": pathToCovers + "/carlos_santana_the_swing_of_delight.jpg",
         "criteria": [6, 7, 11, 19, 21],
-        "selectedTrackTitle": "TODO",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=",
+        "selectedTrackTitle": "Song For My Brother",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=z5nUNCTcZog",
         "isAGem": false
+    },
+    {
+        "id": "carlos_santana_and_alice_coltrane_illuminations",
+        "title": "Illuminations",
+        "artist": "Carlos Santana & Alice Coltrane",
+        "year": 1974,
+        "country": "USA",
+        "cover": pathToCovers + "/carlos_santana_and_alice_coltrane_illuminations.jpg",
+        "criteria": [1, 6, 8, 10, 11, 13, 14, 15, 53],
+        "selectedTrackTitle": "Bliss: The Eternal Row",
+        "selectedTrackYtId": "https://www.youtube.com/watch?v=Bp1gzeUnXWE",
+        "isAGem": true,
+        "description": "TODO"
     },
     {
         "id": "carmen_fandagos_in_space",
