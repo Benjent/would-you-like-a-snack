@@ -13,9 +13,9 @@ const criteria = {
     ZEUHL: "Zeuhl",
     
     // Theme
-    SCI_FI: "Sci-fi",
-    FANTASY: "Fantasy",
-    MEDIEVAL: "Medieval",
+    SCI_FI: "Sci-fi touch",
+    FANTASY: "Fantasy touch",
+    MEDIEVAL: "Medieval touch",
     OCCULT: "Occult",
 
     // Genre-based
