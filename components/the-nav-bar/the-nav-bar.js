@@ -43,7 +43,7 @@ Vue.component('the-nav-bar', {
                 <div class="search-wrapper">
                     <input
                         id="searchBar"
-                        placeholder="Search an album or an artist"
+                        placeholder="Search by album, artist or year"
                         v-model="currentSearch"
                         v-on:input="search($event.target.value)">
                     <img
@@ -90,14 +90,43 @@ Vue.component('the-nav-bar', {
 
             this.matchingAlbums = [];
             if(search) {
-                // search.replace(/ /g,'_');
-                search = search.split(' ').join('_')
-    
+                // search = search.split(' ').join('_')
+                const keyWords = search.split(' ');
+                const keyWordsMatcher = [];
+                
                 for(let i = 0; i < this.db.albums.length; i++) {
                     const album = this.db.albums[i];
+                    let allKeyWordsMatch = true;
                     
-                    if(album.id.includes(search)) {
-                        this.matchingAlbums.push(album);
+                    // Check for album presence in result
+                    if(this.matchingAlbums.includes(album)) {
+                        // Album is already retrieved
+                        break;
+                    } else {
+
+                        // Check for album title, artists name or year
+                        for(let j = 0; j < keyWords.length; j++) {
+
+                            const albumTitle = album.title.toLowerCase();
+                            const artist = album.artist.toLowerCase();
+                            const year = album.year.toString();
+
+                            if(albumTitle.includes(keyWords[j])
+                                || artist.includes(keyWords[j])
+                                || year.includes(keyWords[j])) {
+
+                                // At least one keyword matches
+                            } else {
+                                // console.log(album.title, " avec ", keyWords[j], " match pas")
+                                allKeyWordsMatch = false;
+                                break;
+                            }
+                        }
+
+                        if(allKeyWordsMatch) {
+                            // Album is not present in result and all keywords match
+                            this.matchingAlbums.push(album);
+                        }
                     }
                 }
             }
