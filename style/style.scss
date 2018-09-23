@@ -12,6 +12,7 @@
 @import 'components/link';
 @import 'components/button';
 @import 'components/vinyl';
+@import 'components/searchbar';
 @import 'components/header';
 
 // Vues
@@ -65,6 +66,32 @@ body {
 
 @media (max-width: 1100px) {
 
+    header {
+        #snackHeader {
+            font-size: 32px;
+            margin: 5px 0 -15px 0;
+        }
+        #menu {
+            font-size: $menuFontSizeSmall;
+        }
+    }
+
+    .search-wrapper {
+        $searchBarWidth: 200px;
+        #searchBar {
+            width: $searchBarWidth;
+            font-size: $menuFontSizeSmall;
+        }
+        #resetSearch {
+            top: 2px;
+        }
+        #searchResult {
+            width: $searchBarWidth;
+            top: 35px !important;
+            font-size: $menuFontSizeSmall;
+        }
+    }
+
     #albumVue {
         .content {
             .album-cover-wrapper {
@@ -83,33 +110,21 @@ body {
     }
 }
 
-@media (max-width: 740px) {
-
-    header {
-        #snackHeader {
-            font-size: 32px;
-            margin: 5px 0 -15px 0;
-        }
-        #menu {
-            font-size: 15px;
-        }
-    }
-
-    #gemsVue {
-        .album-wrapper {
-            .album-cover {
-                @include albumCoverSmall;
-            }
-        }
-    }
-}
-
 // ********** HEIGHT ********** //
 
 @media (max-height: 850px) {
 
     body {
         font-size: $mainFontSizeSmall;
+    }
+
+    .search-wrapper {
+        #searchResult {
+            top: 43px; // TODO find a dynamic way...
+        }
+        #resetSearch {
+            top: 4px;
+        }
     }
 
     #albumVue {

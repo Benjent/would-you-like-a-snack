@@ -64,5 +64,6 @@ const criteria = [
     "Baroque vibes",                                // 52
     "Orchestral parts",                             // 53
     "Sophisticated",                                // 54
+    "Occult",                                       // 55
     
 ]

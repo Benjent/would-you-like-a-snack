@@ -1,0 +1,64 @@
+.search-wrapper {
+    $searchBarWidth: 300px;
+    position: relative;
+    // Fix flex display bug in most browsers
+    display: flex;
+    flex-direction: column;
+    // max-height: 500px;
+    #searchBar {
+        width: $searchBarWidth;
+        box-sizing: border-box;
+        height: 100%;
+        font-size: $mainFontSizeSmall;
+        background: linear-gradient($black 10%, $ocean 90%);
+        border: solid $borderThin $gold;
+        padding: 5px 10px;
+        color: $gold;
+    }
+
+    #resetSearch {
+        position: absolute;
+        top: 10px;
+        right: 5px;
+        cursor: pointer;
+        width: 35px;
+        height: 35px;
+        align-self: end;
+    }
+
+    #searchResult {
+        // height: 100%; 
+        max-height: 300px;               
+        width: $searchBarWidth;
+        box-sizing: border-box;
+        position: absolute;
+        top: 50px;
+        z-index: 5;
+        background: $black;
+        overflow-x: hidden;
+        overflow-y: auto;
+        border: solid $borderThin $gold;
+        // padding-right: 20px;
+        font-size: $mainFontSizeSmall;
+
+        .search-result-item {
+            display: flex;
+            align-items: center;
+            &:hover {
+                cursor: pointer;
+                background: $gold;
+                color: $black;
+            }
+            .album-cover {
+                width: 30px;
+                height: 30px;
+                margin-right: 5px;
+            }
+            .album-title {
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow-x: hidden;
+            }
+        }
+    }
+}

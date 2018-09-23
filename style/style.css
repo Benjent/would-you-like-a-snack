@@ -165,6 +165,84 @@ button:hover {
           filter: grayscale(20%);
 }
 
+.search-wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.search-wrapper #searchBar {
+  width: 300px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 100%;
+  font-size: 20px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #030504), color-stop(90%, #1c3a3e));
+  background: linear-gradient(#030504 10%, #1c3a3e 90%);
+  border: solid 3px #a18a54;
+  padding: 5px 10px;
+  color: #a18a54;
+}
+
+.search-wrapper #resetSearch {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+}
+
+.search-wrapper #searchResult {
+  max-height: 300px;
+  width: 300px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: absolute;
+  top: 50px;
+  z-index: 5;
+  background: #030504;
+  overflow-x: hidden;
+  overflow-y: auto;
+  border: solid 3px #a18a54;
+  font-size: 20px;
+}
+
+.search-wrapper #searchResult .search-result-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.search-wrapper #searchResult .search-result-item:hover {
+  cursor: pointer;
+  background: #a18a54;
+  color: #030504;
+}
+
+.search-wrapper #searchResult .search-result-item .album-cover {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+.search-wrapper #searchResult .search-result-item .album-title {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow-x: hidden;
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -212,75 +290,6 @@ header #menu button.button-active {
   color: #030504;
   background: #a18a54;
   pointer-events: none;
-}
-
-header #menu .search-wrapper {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-header #menu .search-wrapper #searchBar {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #030504), color-stop(90%, #1c3a3e));
-  background: linear-gradient(#030504 10%, #1c3a3e 90%);
-  border: solid 3px #a18a54;
-  padding: 5px 20px;
-  color: #a18a54;
-}
-
-header #menu .search-wrapper #resetSearch {
-  position: absolute;
-  top: 7px;
-  right: 10px;
-  cursor: pointer;
-  width: 40px;
-  height: 40px;
-}
-
-header #menu .search-wrapper #searchResult {
-  max-height: 300px;
-  width: 297px;
-  position: absolute;
-  top: 50px;
-  z-index: 5;
-  background: #030504;
-  overflow-x: hidden;
-  overflow-y: auto;
-  border: solid 3px #a18a54;
-  padding: 0 20px 5px 0;
-  font-size: 20px;
-}
-
-header #menu .search-wrapper #searchResult .search-result-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-header #menu .search-wrapper #searchResult .search-result-item:hover {
-  cursor: pointer;
-  background: #a18a54;
-  color: #030504;
-}
-
-header #menu .search-wrapper #searchResult .search-result-item .album-cover {
-  width: 30px;
-  height: 30px;
-  margin-right: 5px;
-}
-
-header #menu .search-wrapper #searchResult .search-result-item .album-title {
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow-x: hidden;
 }
 
 #albumVue {
@@ -746,6 +755,25 @@ body {
 }
 
 @media (max-width: 1100px) {
+  header #snackHeader {
+    font-size: 32px;
+    margin: 5px 0 -15px 0;
+  }
+  header #menu {
+    font-size: 15px;
+  }
+  .search-wrapper #searchBar {
+    width: 200px;
+    font-size: 15px;
+  }
+  .search-wrapper #resetSearch {
+    top: 2px;
+  }
+  .search-wrapper #searchResult {
+    width: 200px;
+    top: 35px !important;
+    font-size: 15px;
+  }
   #albumVue .content .album-cover-wrapper {
     width: 260px;
     height: 260px;
@@ -759,24 +787,15 @@ body {
   }
 }
 
-@media (max-width: 740px) {
-  header #snackHeader {
-    font-size: 32px;
-    margin: 5px 0 -15px 0;
-  }
-  header #menu {
-    font-size: 15px;
-  }
-  #gemsVue .album-wrapper .album-cover {
-    width: 130px;
-    height: 130px;
-    border: solid 3px #a18a54;
-  }
-}
-
 @media (max-height: 850px) {
   body {
     font-size: 20px;
+  }
+  .search-wrapper #searchResult {
+    top: 43px;
+  }
+  .search-wrapper #resetSearch {
+    top: 4px;
   }
   #albumVue .buttons {
     margin-top: 60px;
