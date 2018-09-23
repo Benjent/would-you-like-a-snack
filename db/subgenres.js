@@ -44,9 +44,8 @@ const subgenres = [
     {
         "name": "Electro Rock",
         "description": "TODO",
-        "mostRepresentativeAlbum": getAlbumById("eloy_ocean"),
+        "mostRepresentativeAlbum": getAlbumById("electric_light_orchestra_time"),
         "albums": [
-            getAlbumById("electric_light_orchestra_time"),
             getAlbumById("asia_asia"),
             getAlbumById("happy_the_man_happy_the_man"),
             getAlbumById("ml_bongers_project_pacific_prison"),
@@ -147,7 +146,9 @@ const subgenres = [
         "albums": [
             getAlbumById("queen_queen_II"),
             getAlbumById("the_crazy_world_of_arthur_brown_the_crazy_world_of_arthur_brown"),
-            getAlbumById("frank_zappa_joes_garage")
+            getAlbumById("frank_zappa_joes_garage"),
+            getAlbumById("roy_wood_mustard"),
+            getAlbumById("wizzard_wizzard_brew")
             // "jesus christ superstar"
         ]
     },
@@ -189,7 +190,8 @@ const subgenres = [
             getAlbumById("mike_oldfield_hergest_ridge"),
             getAlbumById("bubu_anabelas"),
             getAlbumById("van_der_graaf_generator_h_to_he_who_am_the_only_one"),
-            getAlbumById("emerson_lake_and_palmer_tarkus")
+            getAlbumById("emerson_lake_and_palmer_tarkus"),
+            getAlbumById("eloy_ocean")
         ]
     },
     {

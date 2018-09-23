@@ -73,7 +73,6 @@ Vue.component('searchbar', {
 
                                 // At least one keyword matches
                             } else {
-                                // console.log(album.title, " avec ", keyWords[j], " match pas")
                                 allKeyWordsMatch = false;
                                 break;
                             }

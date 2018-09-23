@@ -3,7 +3,7 @@ Vue.component('gems', {
         <section id="gemsVue">
             <div
                 class="album-wrapper"
-                v-for="album in albums"
+                v-for="album in db.albumsSortedByYear"
                 v-if="album.isAGem">
                 
                 <img
@@ -23,9 +23,9 @@ Vue.component('gems', {
             </div>
         </section>
     `,
+    props: ['db'],
     data: function () {
         return {
-            albums: albums
         }
     }
 })
