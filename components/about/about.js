@@ -1,9 +1,23 @@
 Vue.component('about', {
     template: `
         <section id="aboutVue">
+
             <h2>Hi!</h2>
+        
+            <div class="me-wrapper">
+                <img
+                    class="me"
+                    v-bind:src="mePath">
+                <div class="me-description">
+                    <span>The face of a sane man</span>
+                    <img
+                        class="arrow"
+                        v-bind:src="arrowPath">
+                </div>
+            </div>
+            
             <p>
-                Would You Like A Snack is a tiny web project with big music amibitions: dusting old prog albums, known as prog gems, to make them shine beside classic albums.
+                Would You Like A Snack is a tiny web project with big music ambitions: dusting old prog albums, known as prog gems, to make them shine beside classic albums.
             </p>
             <p>
                 Prog albums are anything related to progressive music, from late 60's psychedelic vibes to early 80's electronic wave ; still focusing on the progressive bloom of the 70's.
@@ -20,4 +34,12 @@ Vue.component('about', {
         return {
         }
     },
+    computed: {
+        arrowPath() {
+            return pathToImg + "/arrow-clueless.svg"
+        },
+        mePath() {
+            return pathToImg + "/me.jpg"
+        }
+    }
 })
