@@ -42,12 +42,19 @@ Vue.component('album', {
                         target="_blank">
                         <div class="album-selected-track-url">Listen on YouTube</div>
                     </a>
-                    <!-- <div id="player" v-if="currentVue == 'albumVue'"></div> -->
 
                 </div>
 
                 <div class="album-cover-wrapper">
                     <img v-bind:src=selectedAlbum.cover alt="">
+                    <iframe
+                        id="spotifyPlayer"
+                        v-if="selectedAlbum.spotifyId"
+                        v-bind:src="selectedAlbum.spotifyId"
+                        frameborder="0"
+                        allowtransparency="true"
+                        allow="encrypted-media">
+                    </iframe>
                 </div>
 
                 <div class="album-criteria">
@@ -127,48 +134,3 @@ Vue.component('album', {
         }
     }
 })
-
-{/* <footer id="randomVue">
-<img
-    v-for="album in randomAlbums"
-    v-bind:album-id="album.id"
-    v-bind:src=album.cover
-    v-on:click="selectAlbumAndRandomize(album)" alt="">
-</footer> */}
-
-// // Youtube Player
-
-// // Load the IFrame Player API code asynchronously
-// var tag = document.createElement('script');
-// tag.src = "https://www.youtube.com/iframe_api";
-// var firstScriptTag = document.getElementsByTagName('script')[0];
-// firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-// // Create <iframe> (and YouTube player) after the API code downloads
-// var player;
-// function onYouTubeIframeAPIReady() {
-//   player = new YT.Player('player', {
-//     height: '70',
-//     width: '300',
-//     videoId: indexVue.selectedAlbum.selectedTrackYtId,
-//     events: {
-//       'onReady': onPlayerReady,
-//       'onStateChange': onPlayerStateChange
-//     }
-//   });
-// }
-
-// function onPlayerReady(event) {
-// //   event.target.playVideo();
-// }
-
-// // Video is being played <=> state=1
-// var done = false;
-// function onPlayerStateChange(event) {
-//   if (event.data == YT.PlayerState.PLAYING && !done) {
-//     done = true;
-//   }
-// }
-// function stopVideo() {
-//   player.stopVideo()
-// }

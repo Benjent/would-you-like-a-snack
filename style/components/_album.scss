@@ -64,8 +64,10 @@
         }
     
         .album-cover-wrapper {
-            @include albumCover;
+            display: flex;
             margin: 45px;
+            @include albumCover;
+            width: auto;
             img {
                 // width: 100%;
                 height: 100%;

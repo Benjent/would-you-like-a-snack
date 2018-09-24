@@ -383,10 +383,14 @@ header #menu button.button-active {
 }
 
 #albumVue .content .album-cover-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 45px;
   width: 300px;
   height: 300px;
   border: solid 5px #a18a54;
-  margin: 45px;
+  width: auto;
 }
 
 #albumVue .content .album-cover-wrapper img {

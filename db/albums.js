@@ -13,7 +13,8 @@ const albums = [
         "cover": pathToCovers + "/acqua_fragile_acqua_fragile.jpg",
         "criteria": [criteria.C_JAZZ, criteria.C_FOLK, criteria.ODD_RHYTHM, criteria.JAM, criteria.GLITTER],
         "selectedTrackTitle": "Morning Comes",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=kUrl0QQyO3w",
+        "selectedTrackYtId": pathToYtVideo + "kUrl0QQyO3w",
+        "spotifyId": pathToSpotifyAlbum + "1RtXq36VbQGluE5E2YJuV3",
         "isAGem": false
     },
     {
@@ -25,7 +26,8 @@ const albums = [
         "cover": pathToCovers + "/acqua_fragile_mass_media_stars.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.JAM, criteria.GLITTER],
         "selectedTrackTitle": "Professor",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=kHeIgl7WMvY",
+        "selectedTrackYtId": pathToYtVideo + "kHeIgl7WMvY",
+        "spotifyId": pathToSpotifyAlbum + "11hyZEEfhJE60wcWnBr5ng",
         "isAGem": false
     },
     {
@@ -37,7 +39,8 @@ const albums = [
         "cover": pathToCovers + "/agharta_agharta.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.UNCOMMON_INSTRUMENTS, criteria.C_JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Esperanto",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=4lfO4BKIOuA",
+        "selectedTrackYtId": pathToYtVideo + "4lfO4BKIOuA",
+        "spotifyId": "",
         "isAGem": false
     },
     {
@@ -49,7 +52,8 @@ const albums = [
         "cover": pathToCovers + "/agora_live_in_montreux.jpg",
         "criteria": [criteria.INSTRUMENTAL, criteria.JAM, criteria.SOFT, criteria.LIVE, criteria.AMBIENT, criteria.JAZZ],
         "selectedTrackTitle": "L'Orto Di Ovidio",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=IoBMXLfGAuo",
+        "selectedTrackYtId": pathToYtVideo + "IoBMXLfGAuo",
+        "spotifyId": pathToSpotifyAlbum + "7rzdBtEzTXZgpZDZmZgvxM",
         "isAGem": false
     },
     {
@@ -61,7 +65,8 @@ const albums = [
         "cover": pathToCovers + "/agora_agora_2.jpg",
         "criteria": [criteria.INSTRUMENTAL, criteria.JAM, criteria.SOFT, criteria.AMBIENT, criteria.UNCOMMON_INSTRUMENTS, criteria.JAZZ],
         "selectedTrackTitle": "Tall El Zaatar",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=9AvuK3lwNuM",
+        "selectedTrackYtId": pathToYtVideo + "9AvuK3lwNuM",
+        "spotifyId": pathToSpotifyAlbum + "48ED6IQMBDTzefFdQ6rGBH",
         "isAGem": false
     },
     {
@@ -73,7 +78,8 @@ const albums = [
         "cover": pathToCovers + "/the_alan_parsons_project_tales_of_mystery_and_imagination.jpg",
         "criteria": [criteria.CONCEPT, criteria.TRANSITION, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO, criteria.JAZZY_GROOVY, criteria.ART_POP],
         "selectedTrackTitle": "The Raven",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=YAE1XTvKLXA",
+        "selectedTrackYtId": pathToYtVideo + "YAE1XTvKLXA",
+        "spotifyId": pathToSpotifyAlbum + "4QKtovzVkwFs4yRKBMOLrv",
         "isAGem": false
     },
     {
@@ -85,7 +91,8 @@ const albums = [
         "cover": pathToCovers + "/the_alan_parsons_project_i_robot.jpg",
         "criteria": [criteria.CONCEPT, criteria.TRANSITION, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO, criteria.JAZZY_GROOVY, criteria.ART_POP],
         "selectedTrackTitle": "I Robot",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=u7oAuba3Ekg",
+        "selectedTrackYtId": pathToYtVideo + "u7oAuba3Ekg",
+        "spotifyId": pathToSpotifyAlbum + "4QKtovzVkwFs4yRKBMOLrv",
         "isAGem": true,
         "description": "Alan Parsons and Eric Woolfson managed to blend pop ballads with sci-fi lyrics - inspired by Isaac Asimov's Robot Trilogy - with spectacular arrangements, drawing the best out of electronic music from the late 70's and what was about to be disco music."
     },
@@ -98,7 +105,8 @@ const albums = [
         "cover": pathToCovers + "/the_alan_parsons_project_pyramid.jpg",
         "criteria": [criteria.C_ELECTRO, criteria.JAZZY_GROOVY, criteria.ART_POP],
         "selectedTrackTitle": "Hyper-Gamma-Spaces",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=Am5Rloqqk0U",
+        "selectedTrackYtId": pathToYtVideo + "Am5Rloqqk0U",
+        "spotifyId": pathToSpotifyAlbum + "33lGtVb2m0lY8ftdJQLi8f",
         "isAGem": false
     },
     {
@@ -110,7 +118,8 @@ const albums = [
         "cover": pathToCovers + "/the_alan_parsons_project_eye_in_the_sky.jpg",
         "criteria": [criteria.CONCEPT, criteria.GLITTER, criteria.SOFT, criteria.ART_POP, criteria.ORCHESTRAL_PARTS],
         "selectedTrackTitle": "Silence And I",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=76n_uE_W31A",
+        "selectedTrackYtId": pathToYtVideo + "76n_uE_W31A",
+        "spotifyId": pathToSpotifyAlbum + "4BGd9BmpePqeSfHLeYiCDr",
         "isAGem": false
     },
     {
@@ -122,7 +131,8 @@ const albums = [
         "cover": pathToCovers + "/albatross_albatross.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.SOUND_COLLAGES, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO],
         "selectedTrackTitle": "Four Horsemen Of The Apocalypse",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=g_RT7NV74Tk",
+        "selectedTrackYtId": pathToYtVideo + "g_RT7NV74Tk",
+        "spotifyId": "",
         "isAGem": false
     },
     {
@@ -135,6 +145,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.SOUND_COLLAGES, criteria.ROCK, criteria.FUNNY, criteria.HEAVY],
         "selectedTrackTitle": "Alma Mater",
         "selectedTrackYtId": "",
+        "spotifyId": pathToSpotifyAlbum + "0zKjnOsXxs63unPR6TWoHq",
         "isAGem": false
     },
     {
@@ -146,7 +157,8 @@ const albums = [
         "cover": pathToCovers + "/alice_cooper_billion_dollar_babies.jpg",
         "criteria": [criteria.C_JAZZ, criteria.ROCK],
         "selectedTrackTitle": "Hello Hooray",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=80bqSzONHP4",
+        "selectedTrackYtId": pathToYtVideo + "80bqSzONHP4",
+        "spotifyId": pathToSpotifyAlbum + "70vRcyvFfGc3rwaETxzjHC",
         "isAGem": false
     },
     {
@@ -159,6 +171,7 @@ const albums = [
         "criteria": [criteria.C_JAZZ, criteria.ROCK],
         "selectedTrackTitle": "Hard Hearted Alice",
         "selectedTrackYtId": "",
+        "spotifyId": pathToSpotifyAlbum + "4NYhlYA28LAzzElE3HSSfp",
         "isAGem": false
     },
     {
@@ -170,7 +183,8 @@ const albums = [
         "cover": pathToCovers + "/alice_cooper_from_the_inside.jpg",
         "criteria": [criteria.STORYLINE, criteria.ROCK_OPERA, criteria.ART_POP],
         "selectedTrackTitle": "Nurse Rozetta",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=R-h13lDzGNo",
+        "selectedTrackYtId": pathToYtVideo + "R-h13lDzGNo",
+        "spotifyId": pathToSpotifyAlbum + "7FFpqmbQxj3u4Q7aLGNox0",
         "isAGem": false
     },
     {
@@ -182,7 +196,8 @@ const albums = [
         "cover": pathToCovers + "/alpha_ralpha_alpha_ralpha.jpg",
         "criteria": [criteria.INSTRUMENTAL, criteria.SOFT, criteria.AMBIENT, criteria.C_JAZZ],
         "selectedTrackTitle": "Genèse",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=jTS5f1nSurQ",
+        "selectedTrackYtId": pathToYtVideo + "jTS5f1nSurQ",
+        "spotifyId": "",
         "isAGem": true,
         "description": "Led by guitarists Claude Alvarez-Pereyre and Michel Mareska, this album displays instrumental tracks with choral harmonies interludes to create a smooth - but deep and adventurous - space museum journey."
     },
@@ -195,7 +210,8 @@ const albums = [
         "cover": pathToCovers + "/alphataurus_alphataurus.jpg",
         "criteria": [criteria.INSTRUMENTAL, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.UNCOMMON_INSTRUMENTS, criteria.C_JAZZ, criteria.ITALIAN_SUNG],
         "selectedTrackTitle": "La Mente Vola",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=W3_5gl9DHfs",
+        "selectedTrackYtId": pathToYtVideo + "W3_5gl9DHfs",
+        "spotifyId": pathToSpotifyAlbum + "0Wh01o7ulww79Oq2eSZ6PX",
         "isAGem": false
     },
     {
@@ -207,7 +223,8 @@ const albums = [
         "cover": pathToCovers + "/amon_duul_paradieswarts_duul.jpg",
         "criteria": [criteria.INSTRUMENTAL, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.C_PSYCHEDELIC, criteria.FOLK],
         "selectedTrackTitle": "Love Is Peace",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=oUNxXhzF0fw",
+        "selectedTrackYtId": pathToYtVideo + "oUNxXhzF0fw",
+        "spotifyId": "",
         "isAGem": false
     },
     {
@@ -219,7 +236,8 @@ const albums = [
         "cover": pathToCovers + "/ambrosia_ambrosia.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.ROCK, criteria.ART_POP],
         "selectedTrackTitle": "Time Waits For No One",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=kXrWEDW0I7Q",
+        "selectedTrackYtId": pathToYtVideo + "kXrWEDW0I7Q",
+        "spotifyId": pathToSpotifyAlbum + "4WLSlSsZR6RZSaZm2ZB1WI",
         "isAGem": false
     },
     {
@@ -231,7 +249,8 @@ const albums = [
         "cover": pathToCovers + "/ambrosia_somewhere_ive_never_travelled.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.TRANSITION, criteria.GLITTER, criteria.UNCOMMON_INSTRUMENTS, criteria.ROCK, criteria.ART_POP],
         "selectedTrackTitle": "The Brunt",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=3y4-rbRYszY",
+        "selectedTrackYtId": pathToYtVideo + "3y4-rbRYszY",
+        "spotifyId": pathToSpotifyAlbum + "6WgShBCsr36H9L2AObtjT7",
         "isAGem": false
     },
     {
@@ -243,7 +262,8 @@ const albums = [
         "cover": pathToCovers + "/ange_caricatures.jpg",
         "criteria": [criteria.LENGHTY_TRACKS, criteria.GLITTER, criteria.C_PSYCHEDELIC, criteria.MEDIEVAL, criteria.FRENCH_SUNG, criteria.ROCK_OPERA, criteria.FANFARE],
         "selectedTrackTitle": "Dignité",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=C9u3KWEi7Us",
+        "selectedTrackYtId": pathToYtVideo + "C9u3KWEi7Us",
+        "spotifyId": pathToSpotifyAlbum + "4naH2uTFiUQ4L7D2zktDcx",
         "isAGem": false
     },
     {
@@ -255,7 +275,8 @@ const albums = [
         "cover": pathToCovers + "/ange_le_cimetiere_des_arlequins.jpg",
         "criteria": [criteria.GLITTER, criteria.C_PSYCHEDELIC, criteria.MEDIEVAL, criteria.FRENCH_SUNG, criteria.ROCK_OPERA, criteria.FANFARE],
         "selectedTrackTitle": "Aujourd'hui C'est La Fête Chez L'apprenti Sorcier",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=f2S7J9eXuTQ",
+        "selectedTrackYtId": pathToYtVideo + "f2S7J9eXuTQ",
+        "spotifyId": pathToSpotifyAlbum + "5KnZloSevoATYhQeX7t0e0",
         "isAGem": false
     },
     {
@@ -267,7 +288,8 @@ const albums = [
         "cover": pathToCovers + "/ange_au_dela_du_delire.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.MEDIEVAL, criteria.FRENCH_SUNG, criteria.ROCK_OPERA, criteria.FANFARE, criteria.ART_POP],
         "selectedTrackTitle": "Les Longues Nuits D'Isaac",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=L7EezMJrnRM",
+        "selectedTrackYtId": pathToYtVideo + "L7EezMJrnRM",
+        "spotifyId": pathToSpotifyAlbum + "3X6ZYhmu0k29UmNw2zcCrL",
         "isAGem": false
     },
     {
@@ -279,7 +301,8 @@ const albums = [
         "cover": pathToCovers + "/ange_emile_jacotey.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.MEDIEVAL, criteria.FRENCH_SUNG, criteria.ROCK_OPERA, criteria.FANFARE, criteria.ART_POP],
         "selectedTrackTitle": "Sur La Trace Des Fées",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=F9z4OCHE7t8",
+        "selectedTrackYtId": pathToYtVideo + "F9z4OCHE7t8",
+        "spotifyId": pathToSpotifyAlbum + "6C7B51NLYoIefaLAwsdFP7",
         "isAGem": false
     },
     {
@@ -291,7 +314,8 @@ const albums = [
         "cover": pathToCovers + "/ange_par_les_fils_de_mandrin.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.MEDIEVAL, criteria.FRENCH_SUNG, criteria.ROCK_OPERA, criteria.FANFARE, criteria.ART_POP],
         "selectedTrackTitle": "Au Café Du Colibri",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=JjU8A0DReMo",
+        "selectedTrackYtId": pathToYtVideo + "JjU8A0DReMo",
+        "spotifyId": pathToSpotifyAlbum + "3EqySsFNjDWa6xORz8apbS",
         "isAGem": false
     },
     {
@@ -303,7 +327,8 @@ const albums = [
         "cover": pathToCovers + "/ange_guet_apens.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.FRENCH_SUNG, criteria.ROCK_OPERA],
         "selectedTrackTitle": "Réveille-Toi",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=F_66uMKNZC8",
+        "selectedTrackYtId": pathToYtVideo + "F_66uMKNZC8",
+        "spotifyId": pathToSpotifyAlbum + "28yxlTAC4piWK2l9hGsNZF",
         "isAGem": false
     },
     {
@@ -315,7 +340,8 @@ const albums = [
         "cover": pathToCovers + "/anna_sjalv_tredje_tussilago_fanfara.jpg",
         "criteria": [criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.AMBIENT, criteria.C_PSYCHEDELIC, criteria.ELECTRO],
         "selectedTrackTitle": "Den Barbariska Söndagen",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=WfLqv6liuiQ",
+        "selectedTrackYtId": pathToYtVideo + "WfLqv6liuiQ",
+        "spotifyId": "",
         "isAGem": false
     },
     {
@@ -327,7 +353,7 @@ const albums = [
         "cover": pathToCovers + "/anthony_phillips_the_geese_and_the_ghost.jpg",
         "criteria": [criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.MEDIEVAL, criteria.FOLK],
         "selectedTrackTitle": "Which Way The Wind Blows",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=E-zErxaZxh8",
+        "selectedTrackYtId": pathToYtVideo + "E-zErxaZxh8",
         "isAGem": false
     },
     {
@@ -339,7 +365,7 @@ const albums = [
         "cover": pathToCovers + "/anthony_phillips_wise_after_the_event.jpg",
         "criteria": [criteria.SOFT, criteria.FOLK],
         "selectedTrackTitle": "Birdsong And Reprise",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=tSEqbHSUZJU",
+        "selectedTrackYtId": pathToYtVideo + "tSEqbHSUZJU",
         "isAGem": false
     },
     {
@@ -351,7 +377,7 @@ const albums = [
         "cover": pathToCovers + "/aphrodites_child_666.jpg",
         "criteria": [criteria.CONCEPT, criteria.EXPERIMENTAL, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.TRANSITION, criteria.SYMPHONIC, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO, criteria.PATCHWORK, criteria.OCCULT],
         "selectedTrackTitle": "The Lamb",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=hbTHgL4pu_A",
+        "selectedTrackYtId": pathToYtVideo + "hbTHgL4pu_A",
         "isAGem": false
     },
     {
@@ -363,7 +389,7 @@ const albums = [
         "cover": pathToCovers + "/arachnoid_arachnoid.jpg",
         "criteria": [criteria.CONCEPT, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.FRENCH_SUNG],
         "selectedTrackTitle": "Le Chamadère",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=6v5NjAeKNE0",
+        "selectedTrackYtId": pathToYtVideo + "6v5NjAeKNE0",
         "isAGem": false
     },
     {
@@ -375,7 +401,7 @@ const albums = [
         "cover": pathToCovers + "/area_arbeit_macht_frei.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.EXPERIMENTAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.UNCOMMON_INSTRUMENTS, criteria.SOUND_COLLAGES, criteria.C_PSYCHEDELIC, criteria.JAZZ],
         "selectedTrackTitle": "L'abbattimento Dello Zeppelin",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=433wf2jDkhA",
+        "selectedTrackYtId": pathToYtVideo + "433wf2jDkhA",
         "isAGem": false
     },
     {
@@ -387,7 +413,7 @@ const albums = [
         "cover": pathToCovers + "/area_caution_radiation_area.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.EXPERIMENTAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.SOUND_COLLAGES, criteria.C_PSYCHEDELIC, criteria.JAZZ],
         "selectedTrackTitle": "Cometa Rossa",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=KuTOacIIf-I",
+        "selectedTrackYtId": pathToYtVideo + "KuTOacIIf-I",
         "isAGem": false
     },
     {
@@ -399,7 +425,7 @@ const albums = [
         "cover": pathToCovers + "/area_crac.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.EXPERIMENTAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.C_PSYCHEDELIC, criteria.JAZZ],
         "selectedTrackTitle": "Megalopoli",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=VVugC2gOMFs",
+        "selectedTrackYtId": pathToYtVideo + "VVugC2gOMFs",
         "isAGem": false
     },
     {
@@ -411,7 +437,7 @@ const albums = [
         "cover": pathToCovers + "/area_maledetti.jpg",
         "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.EXPERIMENTAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.C_PSYCHEDELIC, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Diforisma Urbano",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=zrX2WtAMPLU",
+        "selectedTrackYtId": pathToYtVideo + "zrX2WtAMPLU",
         "isAGem": false
     },
     {
@@ -423,7 +449,7 @@ const albums = [
         "cover": pathToCovers + "/artcane_odyssee.jpg",
         "criteria": [criteria.INSTRUMENTAL, criteria.C_JAZZ, criteria.C_ELECTRO, criteria.FRENCH_SUNG],
         "selectedTrackTitle": "Le Chant D'Orphée",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=vzmYFSSPfeQ",
+        "selectedTrackYtId": pathToYtVideo + "vzmYFSSPfeQ",
         "isAGem": false
     },
     {
@@ -435,7 +461,7 @@ const albums = [
         "cover": pathToCovers + "/arti_mestieri_tilt.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.TRANSITION, criteria.UNCOMMON_INSTRUMENTS, criteria.C_JAZZ, criteria.ITALIAN_SUNG, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Positivo/Negativo",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=DC_K3w6gi2Q",
+        "selectedTrackYtId": pathToYtVideo + "DC_K3w6gi2Q",
         "isAGem": true,
         "description": "Gigi Venegoni gathers music virtuosi to create music where the bass guitar and the vibraphone share the room while the guitar and the violin plays frantic melodies over Furio Chirico's fast-paced drumming style. The band handles textures with a wide asset of instruments but very few vocal parts, and play around tempo variations to create the surprise, with just enough time to rest."
     },
@@ -448,7 +474,7 @@ const albums = [
         "cover": pathToCovers + "/arti_mestieri_giro_di_valzer_per_domani.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.UNCOMMON_INSTRUMENTS, criteria.C_JAZZ, criteria.SPECTACULAR, criteria.ITALIAN_SUNG, criteria.PATCHWORK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Valzer Per Domani",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=NDBj39DGVRw",
+        "selectedTrackYtId": pathToYtVideo + "NDBj39DGVRw",
         "isAGem": true,
         "description": "TODO"
     },
@@ -461,7 +487,7 @@ const albums = [
         "cover": pathToCovers + "/arti_mestieri_quinto_stato.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.JAM, criteria.C_JAZZ, criteria.ITALIAN_SUNG, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Torino Nella Mente",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=skOYf_P1BP4",
+        "selectedTrackYtId": pathToYtVideo + "skOYf_P1BP4",
         "isAGem": false
     },
     {
@@ -473,7 +499,7 @@ const albums = [
         "cover": pathToCovers + "/asia_asia.jpg",
         "criteria": [criteria.JAM, criteria.C_ELECTRO, criteria.ROCK],
         "selectedTrackTitle": "Time Again",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=YCWNYKRtRFs",
+        "selectedTrackYtId": pathToYtVideo + "YCWNYKRtRFs",
         "isAGem": false
     },
     {
@@ -485,7 +511,7 @@ const albums = [
         "cover": pathToCovers + "/asia_alpha.jpg",
         "criteria": [criteria.JAM, criteria.C_ELECTRO, criteria.ROCK],
         "selectedTrackTitle": "The Heat Goes On",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=Hbw3HA3lMMU",
+        "selectedTrackYtId": pathToYtVideo + "Hbw3HA3lMMU",
         "isAGem": false
     },
     {
@@ -497,7 +523,7 @@ const albums = [
         "cover": pathToCovers + "/asia_astra.jpg",
         "criteria": [criteria.JAM, criteria.C_ELECTRO, criteria.ROCK],
         "selectedTrackTitle": "Go",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=9TiGDuI9d6Y",
+        "selectedTrackYtId": pathToYtVideo + "9TiGDuI9d6Y",
         "isAGem": false
     },
     {
@@ -509,7 +535,7 @@ const albums = [
         "cover": pathToCovers + "/atomic_rooster_death_walks_behind_you.jpg",
         "criteria": [criteria.JAM, criteria.ROCK, criteria.HEAVY],
         "selectedTrackTitle": "Death Walks Behind You",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=8yO7l6TmIRI",
+        "selectedTrackYtId": pathToYtVideo + "8yO7l6TmIRI",
         "isAGem": false
     },
     {
@@ -521,7 +547,7 @@ const albums = [
         "cover": pathToCovers + "/atomic_rooster_in_hearing_of_atomic_rooster.jpg",
         "criteria": [criteria.JAM, criteria.ROCK],
         "selectedTrackTitle": "Breakthrough",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=lgqFPcKpfEg",
+        "selectedTrackYtId": pathToYtVideo + "lgqFPcKpfEg",
         "isAGem": false
     },
     {
@@ -533,7 +559,7 @@ const albums = [
         "cover": pathToCovers + "/atoll_musiciens_magiciens.jpg",
         "criteria": [criteria.TRANSITION, criteria.C_JAZZ, criteria.FRENCH_SUNG, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Au-Delà Des Écrans De Cristal",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=7FqCY8N06HU",
+        "selectedTrackYtId": pathToYtVideo + "7FqCY8N06HU",
         "isAGem": false
     },
     {
@@ -545,7 +571,7 @@ const albums = [
         "cover": pathToCovers + "/atoll_laraignee_mal.jpg",
         "criteria": [criteria.TRANSITION, criteria.C_JAZZ, criteria.FRENCH_SUNG, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "L'araignée-Mal",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=Wm6vFufqm6s",
+        "selectedTrackYtId": pathToYtVideo + "Wm6vFufqm6s",
         "isAGem": false
     },
     {
@@ -557,7 +583,7 @@ const albums = [
         "cover": pathToCovers + "/atoll_tertio.jpg",
         "criteria": [criteria.SYMPHONIC, criteria.FRENCH_SUNG, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Le Cerf-Volant",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=4VgSc1XbgyU",
+        "selectedTrackYtId": pathToYtVideo + "4VgSc1XbgyU",
         "isAGem": false
     },
     {
@@ -569,7 +595,7 @@ const albums = [
         "cover": pathToCovers + "/atoll_rock_puzzle.jpg",
         "criteria": [criteria.FRENCH_SUNG, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Puzzle",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=BgEINKJeztQ",
+        "selectedTrackYtId": pathToYtVideo + "BgEINKJeztQ",
         "isAGem": false
     },
     {
@@ -581,7 +607,7 @@ const albums = [
         "cover": pathToCovers + "/axis_axis.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Roads",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=a7sBh6MMFwU",
+        "selectedTrackYtId": pathToYtVideo + "a7sBh6MMFwU",
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -596,7 +622,7 @@ const albums = [
         "cover": pathToCovers + "/baba_yaga_collage.jpg",
         "criteria": [criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.ORIENTAL, criteria.AMBIENT, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO],
         "selectedTrackTitle": "Moksha",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=ZJPFjl_bBGg",
+        "selectedTrackYtId": pathToYtVideo + "ZJPFjl_bBGg",
         "isAGem": false
     },
     {
@@ -608,7 +634,8 @@ const albums = [
         "cover": pathToCovers + "/badger_one_live_badger.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.JAM, criteria.LIVE, criteria.ROCK, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "Fountain",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=To2NXcCRC58",
+        "selectedTrackYtId": pathToYtVideo + "To2NXcCRC58",
+        "spotifyId": "https://open.spotify.com/embed/album/3AC9IACTZlwBvyJJKwiPl4",
         "isAGem": false
     },
     {
@@ -620,7 +647,7 @@ const albums = [
         "cover": pathToCovers + "/bachdenkel_lemmings.jpg",
         "criteria": [criteria.SOFT, criteria.C_PSYCHEDELIC],
         "selectedTrackTitle": "Translation",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=FSaajW7QHwk",
+        "selectedTrackYtId": pathToYtVideo + "FSaajW7QHwk",
         "isAGem": false
     },
     {
@@ -632,7 +659,7 @@ const albums = [
         "cover": pathToCovers + "/bachdenkel_cталинград.jpg",
         "criteria": [criteria.SOFT, criteria.C_PSYCHEDELIC],
         "selectedTrackTitle": "The Whole World",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=qZQ4WaJe90g",
+        "selectedTrackYtId": pathToYtVideo + "qZQ4WaJe90g",
         "isAGem": false
     },
     {
@@ -644,7 +671,7 @@ const albums = [
         "cover": pathToCovers + "/bakerloo_bakerloo.jpg",
         "criteria": [criteria.INSTRUMENTAL, criteria.JAM, criteria.ROCK],
         "selectedTrackTitle": "Drivin' Bachwards",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=uWrdCYBMh0E",
+        "selectedTrackYtId": pathToYtVideo + "uWrdCYBMh0E",
         "isAGem": false
     },
     {
@@ -656,7 +683,7 @@ const albums = [
         "cover": pathToCovers + "/barclay_james_harvest_barclay_james_harvest.jpg",
         "criteria": [criteria.GLITTER, criteria.C_FOLK, criteria.ROCK],
         "selectedTrackTitle": "Mother Dear",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=bRj4G6M5K_w",
+        "selectedTrackYtId": pathToYtVideo + "bRj4G6M5K_w",
         "isAGem": false
     },
     {
@@ -668,7 +695,7 @@ const albums = [
         "cover": pathToCovers + "/barclay_james_harvest_once_again.jpg",
         "criteria": [criteria.GLITTER, criteria.C_FOLK, criteria.ROCK],
         "selectedTrackTitle": "Galadriel",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=H2AWFbMiRTQ",
+        "selectedTrackYtId": pathToYtVideo + "H2AWFbMiRTQ",
         "isAGem": false
     },
     {
@@ -680,7 +707,7 @@ const albums = [
         "cover": pathToCovers + "/barclay_james_harvest_barclay_james_harvest_and_other_short_stories.jpg",
         "criteria": [criteria.GLITTER, criteria.C_FOLK, criteria.ROCK],
         "selectedTrackTitle": "Song With No Meaning",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=vsONUkg4Gg4",
+        "selectedTrackYtId": pathToYtVideo + "vsONUkg4Gg4",
         "isAGem": false
     },
     {
@@ -692,7 +719,7 @@ const albums = [
         "cover": pathToCovers + "/barclay_james_harvest_baby_james_harvest.jpg",
         "criteria": [criteria.SOUND_COLLAGES, criteria.C_FOLK, criteria.ROCK],
         "selectedTrackTitle": "Summer Soldier",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=t5wSsTgyaic",
+        "selectedTrackYtId": pathToYtVideo + "t5wSsTgyaic",
         "isAGem": false
     },
     {
@@ -704,7 +731,7 @@ const albums = [
         "cover": pathToCovers + "/barclay_james_harvest_everyone_is_everybody_else.jpg",
         "criteria": [criteria.ROCK],
         "selectedTrackTitle": "Child Of The Universe",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=o93hYhytAmI",
+        "selectedTrackYtId": pathToYtVideo + "o93hYhytAmI",
         "isAGem": false
     },
     {
@@ -716,7 +743,7 @@ const albums = [
         "cover": pathToCovers + "/barclay_james_harvest_time_honoured_ghosts.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.GLITTER, criteria.C_FOLK, criteria.ROCK],
         "selectedTrackTitle": "One Night",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=KCzVt3pd5gg",
+        "selectedTrackYtId": pathToYtVideo + "KCzVt3pd5gg",
         "isAGem": false
     },
     {
@@ -728,7 +755,7 @@ const albums = [
         "cover": pathToCovers + "/barclay_james_harvest_octoberon.jpg",
         "criteria": [criteria.GLITTER, criteria.ROCK],
         "selectedTrackTitle": "Ra",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=HOSZoUjaC9A",
+        "selectedTrackYtId": pathToYtVideo + "HOSZoUjaC9A",
         "isAGem": false
     },
     {
@@ -740,7 +767,7 @@ const albums = [
         "cover": pathToCovers + "/barclay_james_harvest_gone_to_earth.jpg",
         "criteria": [criteria.GLITTER, criteria.ROCK],
         "selectedTrackTitle": "Sea Of Tranquility",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=-bf3x8Qynv8",
+        "selectedTrackYtId": pathToYtVideo + "-bf3x8Qynv8",
         "isAGem": false
     },
     {
@@ -752,7 +779,7 @@ const albums = [
         "cover": pathToCovers + "/be_bop_deluxe_axe_victim.jpg",
         "criteria": [criteria.JAM, criteria.C_FOLK, criteria.ROCK],
         "selectedTrackTitle": "Love Is Swift Arrows",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=Bvi5Vv7E1nI",
+        "selectedTrackYtId": pathToYtVideo + "Bvi5Vv7E1nI",
         "isAGem": false
     },
     {
@@ -764,7 +791,7 @@ const albums = [
         "cover": pathToCovers + "/be_bop_deluxe_futurama.jpg",
         "criteria": [criteria.JAM, criteria.C_FOLK, criteria.ROCK, criteria.ART_POP],
         "selectedTrackTitle": "Swan Song",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=ArDJ0LT5gA8",
+        "selectedTrackYtId": pathToYtVideo + "ArDJ0LT5gA8",
         "isAGem": false
     },
     {
@@ -776,7 +803,7 @@ const albums = [
         "cover": pathToCovers + "/be_bop_deluxe_sunburst_finish.jpg",
         "criteria": [criteria.JAM, criteria.C_FOLK, criteria.ROCK, criteria.ART_POP],
         "selectedTrackTitle": "Heavenly Homes",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=_Ao_Ao2191I",
+        "selectedTrackYtId": pathToYtVideo + "_Ao_Ao2191I",
         "isAGem": false
     },
     {
@@ -788,7 +815,7 @@ const albums = [
         "cover": pathToCovers + "/be_bop_deluxe_modern_music.jpg",
         "criteria": [criteria.TRANSITION, criteria.SOUND_COLLAGES, criteria.C_FOLK, criteria.ROCK, criteria.ART_POP],
         "selectedTrackTitle": "Dancing In The Moonlight",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=p65uMNG43V4",
+        "selectedTrackYtId": pathToYtVideo + "p65uMNG43V4",
         "isAGem": false
     },
     {
@@ -800,7 +827,7 @@ const albums = [
         "cover": pathToCovers + "/the_beatles_sgt_peppers_lonely_hearts_club_band.jpg",
         "criteria": [criteria.CONCEPT, criteria.TRANSITION, criteria.UNCOMMON_INSTRUMENTS, criteria.SOUND_COLLAGES, criteria.BLENDS, criteria.PATCHWORK, criteria.FANFARE],
         "selectedTrackTitle": "A Day In The Life",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=usNsCeOV4GM",
+        "selectedTrackYtId": pathToYtVideo + "usNsCeOV4GM",
         "isAGem": false
     },
     {
@@ -824,7 +851,7 @@ const albums = [
         "cover": pathToCovers + "/the_beatles_yellow_submarine.jpg",
         "criteria": [criteria.CONCEPT, criteria.SYMPHONIC, criteria.UNCOMMON_INSTRUMENTS, criteria.SOUND_COLLAGES, criteria.C_PSYCHEDELIC, criteria.FANFARE, criteria.SOUNDTRACK],
         "selectedTrackTitle": "Yellow Submarine",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=m2uTFF_3MaA",
+        "selectedTrackYtId": pathToYtVideo + "m2uTFF_3MaA",
         "isAGem": false
     },
     {
@@ -836,7 +863,7 @@ const albums = [
         "cover": pathToCovers + "/the_beatles_abbey_road.jpg",
         "criteria": [criteria.TRANSITION, criteria.C_PSYCHEDELIC, criteria.FUNNY, criteria.PATCHWORK],
         "selectedTrackTitle": "She Came In Through The Bathroom Window",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=o14wVjw3HfQ",
+        "selectedTrackYtId": pathToYtVideo + "o14wVjw3HfQ",
         "isAGem": true,
         "description": "An album with music as iconic as its cover, once again carried by a splendid Lennon-McCartney composition. Side one happily delivers bluesy and pop music drenched in psychedelic mood while side two is a piece composed of puzzle tracks with orchestral parts and colorful alterations."
     },
@@ -849,7 +876,7 @@ const albums = [
         "cover": pathToCovers + "/bedemon_child_of_darkness.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.HEAVY, criteria.OCCULT],
         "selectedTrackTitle": "Serpent Venom",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=hRCc-eCI2c8",
+        "selectedTrackYtId": pathToYtVideo + "hRCc-eCI2c8",
         "isAGem": false
     },
     {
@@ -861,7 +888,7 @@ const albums = [
         "cover": pathToCovers + "/black_sabbath_black_sabbath.jpg",
         "criteria": [criteria.HEAVY, criteria.OCCULT],
         "selectedTrackTitle": "The Wizard",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=MeZ8uVIOIhM",
+        "selectedTrackYtId": pathToYtVideo + "MeZ8uVIOIhM",
         "isAGem": false
     },
     {
@@ -873,7 +900,7 @@ const albums = [
         "cover": pathToCovers + "/black_sabbath_paranoid.jpg",
         "criteria": [criteria.HEAVY, criteria.OCCULT],
         "selectedTrackTitle": "Jack The Stripper / Fairies Wear Boots",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=13BeI93Vuqk",
+        "selectedTrackYtId": pathToYtVideo + "13BeI93Vuqk",
         "isAGem": true,
         "description": "TODO"
     },
@@ -886,7 +913,7 @@ const albums = [
         "cover": pathToCovers + "/black_sabbath_master_of_reality.jpg",
         "criteria": [criteria.HEAVY, criteria.OCCULT],
         "selectedTrackTitle": "Lord Of This World",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=KGRuKdowkcM",
+        "selectedTrackYtId": pathToYtVideo + "KGRuKdowkcM",
         "isAGem": false
     },
     {
@@ -898,7 +925,7 @@ const albums = [
         "cover": pathToCovers + "/black_sabbath_vol_4.jpg",
         "criteria": [criteria.HEAVY, criteria.OCCULT],
         "selectedTrackTitle": "Laguna Sunrise",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=4LVUHNeqZeI",
+        "selectedTrackYtId": pathToYtVideo + "4LVUHNeqZeI",
         "isAGem": false
     },
     {
@@ -910,7 +937,7 @@ const albums = [
         "cover": pathToCovers + "/black_sabbath_sabbath_bloody_sabbath.jpg",
         "criteria": [criteria.HEAVY, criteria.OCCULT],
         "selectedTrackTitle": "Spiral Architect",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=lkx7SQ4Wuh0",
+        "selectedTrackYtId": pathToYtVideo + "lkx7SQ4Wuh0",
         "isAGem": false
     },
     {
@@ -922,7 +949,7 @@ const albums = [
         "cover": pathToCovers + "/black_sabbath_sabotage.jpg",
         "criteria": [criteria.TRANSITION, criteria.HEAVY],
         "selectedTrackTitle": "The Writ",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=iyXqWzZ_8sM",
+        "selectedTrackYtId": pathToYtVideo + "iyXqWzZ_8sM",
         "isAGem": false
     },
     {
@@ -934,7 +961,7 @@ const albums = [
         "cover": pathToCovers + "/black_widow_sacrifice.jpg",
         "criteria": [criteria.CONCEPT, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.JAZZY_GROOVY, criteria.OCCULT],
         "selectedTrackTitle": "In Ancient Days",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=yGKt65hTItU",
+        "selectedTrackYtId": pathToYtVideo + "yGKt65hTItU",
         "isAGem": false
     },
     {
@@ -946,7 +973,7 @@ const albums = [
         "cover": pathToCovers + "/black_widow_black_widow.jpg",
         "criteria": [criteria.C_PSYCHEDELIC],
         "selectedTrackTitle": "Tears And Wine",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=bDk2hX1hsUc",
+        "selectedTrackYtId": pathToYtVideo + "bDk2hX1hsUc",
         "isAGem": false
     },
     {
@@ -958,7 +985,7 @@ const albums = [
         "cover": pathToCovers + "/bloodrock_passage.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.C_PSYCHEDELIC, criteria.C_FOLK, criteria.ROCK],
         "selectedTrackTitle": "Lost Fame",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=5n_a4wR972M",
+        "selectedTrackYtId": pathToYtVideo + "5n_a4wR972M",
         "isAGem": false
     },
     {
@@ -970,7 +997,7 @@ const albums = [
         "cover": pathToCovers + "/bloodrock_whirlwind_tongues.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.C_PSYCHEDELIC, criteria.C_FOLK, criteria.ROCK],
         "selectedTrackTitle": "Stilled By Whirlwind Tongues",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=CfwD6SCQtjE",
+        "selectedTrackYtId": pathToYtVideo + "CfwD6SCQtjE",
         "isAGem": false
     },
     {
@@ -982,7 +1009,7 @@ const albums = [
         "cover": pathToCovers + "/brave_new_world_impressions_on_reading_aldous_huxley.jpg",
         "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.TRANSITION, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.C_ELECTRO],
         "selectedTrackTitle": "Lenina",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=3eHj2-iltEg",
+        "selectedTrackYtId": pathToYtVideo + "3eHj2-iltEg",
         "isAGem": false
     },
     {
@@ -994,7 +1021,7 @@ const albums = [
         "cover": pathToCovers + "/bubu_anabelas.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.SPANISH_SUNG, criteria.JAZZY_GROOVY, criteria.SOPHISTICATED],
         "selectedTrackTitle": "El Viaje De Anabelas",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=-5pmx5tZ-80",
+        "selectedTrackYtId": pathToYtVideo + "-5pmx5tZ-80",
         "isAGem": true,
         "description": "TODO"
     },
@@ -1007,7 +1034,7 @@ const albums = [
         "cover": pathToCovers + "/budgie_budgie.jpg",
         "criteria": [criteria.JAM, criteria.ROCK, criteria.HEAVY],
         "selectedTrackTitle": "The Author",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=lrQd56l4adE",
+        "selectedTrackYtId": pathToYtVideo + "lrQd56l4adE",
         "isAGem": false
     },
     {
@@ -1019,7 +1046,7 @@ const albums = [
         "cover": pathToCovers + "/budgie_squawk.jpg",
         "criteria": [criteria.JAM, criteria.ROCK, criteria.HEAVY],
         "selectedTrackTitle": "Young Is A World",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=3JqJyCE3Xeo",
+        "selectedTrackYtId": pathToYtVideo + "3JqJyCE3Xeo",
         "isAGem": false
     },
     {
@@ -1031,7 +1058,7 @@ const albums = [
         "cover": pathToCovers + "/budgie_never_turn_your_back_on_a_friend.jpg",
         "criteria": [criteria.JAM, criteria.ROCK, criteria.HEAVY],
         "selectedTrackTitle": "Parents",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=nHPCtgmtS68",
+        "selectedTrackYtId": pathToYtVideo + "nHPCtgmtS68",
         "isAGem": false
     },
     {
@@ -1043,7 +1070,7 @@ const albums = [
         "cover": pathToCovers + "/budgie_in_for_the_kill.jpg",
         "criteria": [criteria.JAM, criteria.ROCK, criteria.HEAVY, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Zoom Club",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=VG7e3-jm3UU",
+        "selectedTrackYtId": pathToYtVideo + "VG7e3-jm3UU",
         "isAGem": false
     },
     {
@@ -1055,7 +1082,7 @@ const albums = [
         "cover": pathToCovers + "/budgie_bandolier.jpg",
         "criteria": [criteria.JAM, criteria.ROCK, criteria.HEAVY, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Slipaway",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=50Q-qDmF2-g",
+        "selectedTrackYtId": pathToYtVideo + "50Q-qDmF2-g",
         "isAGem": false
     },
     {
@@ -1067,7 +1094,7 @@ const albums = [
         "cover": pathToCovers + "/burning_candle_burning_candle.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.C_ELECTRO, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Expedition To The Sun",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=c2N8B1nC3R4",
+        "selectedTrackYtId": pathToYtVideo + "c2N8B1nC3R4",
         "isAGem": false
     },
     {
@@ -1079,7 +1106,7 @@ const albums = [
         "cover": pathToCovers + "/busqueda_busqueda.jpg",
         "criteria": [criteria.SOFT, criteria.HUMBLE, criteria.SPANISH_SUNG, criteria.FOLK],
         "selectedTrackTitle": "La Forma De Tu Vita",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=npJ--wejC6c",
+        "selectedTrackYtId": pathToYtVideo + "npJ--wejC6c",
         "isAGem": true,
         "description": "The band decides to go against the flow by composing their first album entirely acoustic, brightened up by soft keyboard parts. Song after song, a relieving sentiment is carried through gentle, almost delicate music, with nearly hummed vocal melodies."
     },
@@ -1095,7 +1122,7 @@ const albums = [
         "cover": pathToCovers + "/camel_camel.jpg",
         "criteria": [criteria.JAM, criteria.ROCK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Slow Yourself Down",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=8wN89VZGz8s",
+        "selectedTrackYtId": pathToYtVideo + "8wN89VZGz8s",
         "isAGem": false
     },
     {
@@ -1107,7 +1134,7 @@ const albums = [
         "cover": pathToCovers + "/camel_mirage.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Freefall",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=Gcagz8epRN8",
+        "selectedTrackYtId": pathToYtVideo + "Gcagz8epRN8",
         "isAGem": true,
         "description": "TODO"
     },
@@ -1120,7 +1147,7 @@ const albums = [
         "cover": pathToCovers + "/camel_the_snow_goose.jpg",
         "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.TRANSITION, criteria.SOFT, criteria.PATCHWORK],
         "selectedTrackTitle": "La Princesse Perdue",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=dhkWnxNzHig",
+        "selectedTrackYtId": pathToYtVideo + "dhkWnxNzHig",
         "isAGem": false
     },
     {
@@ -1132,7 +1159,7 @@ const albums = [
         "cover": pathToCovers + "/camel_moonmadness.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.SOFT, criteria.C_JAZZ],
         "selectedTrackTitle": "Air Born",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=JR4aCz-JZrY",
+        "selectedTrackYtId": pathToYtVideo + "JR4aCz-JZrY",
         "isAGem": true,
         "description": "Camel decides to explore a more cold but tender music through Peter Bardens' snow-white keyboard playing and Andrew Latimer's soothing guitar licks, along with Doug Ferguson's and Andy Ward's groovy but soft sections. This results in a relaxing sound veiled with odd rhythm, enchanting parts, resembling a lucid dream, with tracks reflecting the musicians' personnalities."
     },
@@ -1145,7 +1172,7 @@ const albums = [
         "cover": pathToCovers + "/camel_rain_dances.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.SOFT, criteria.C_ELECTRO],
         "selectedTrackTitle": "Air Born",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=JR4aCz-JZrY",
+        "selectedTrackYtId": pathToYtVideo + "JR4aCz-JZrY",
         "isAGem": true,
         "description": "TODO"
     },
@@ -1158,7 +1185,7 @@ const albums = [
         "cover": pathToCovers + "/camel_breathless.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.SOFT, criteria.ROCK],
         "selectedTrackTitle": "The Sleeper",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=MXEQhCd4HnU",
+        "selectedTrackYtId": pathToYtVideo + "MXEQhCd4HnU",
         "isAGem": false
     },
     {
@@ -1170,7 +1197,7 @@ const albums = [
         "cover": pathToCovers + "/camel_i_can_see_your_house_from_here.jpg",
         "criteria": [criteria.SOFT, criteria.ROCK],
         "selectedTrackTitle": "Hymn To Her",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=EGtky9Nlxhg",
+        "selectedTrackYtId": pathToYtVideo + "EGtky9Nlxhg",
         "isAGem": false
     },
     {
@@ -1182,7 +1209,7 @@ const albums = [
         "cover": pathToCovers + "/camel_nude.jpg",
         "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.TRANSITION, criteria.SOFT, criteria.PATCHWORK],
         "selectedTrackTitle": "Beached",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=GD-IY4LfGfc",
+        "selectedTrackYtId": pathToYtVideo + "GD-IY4LfGfc",
         "isAGem": false
     },
     {
@@ -1194,7 +1221,7 @@ const albums = [
         "cover": pathToCovers + "/can_monster_movie.jpg",
         "criteria": [criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC],
         "selectedTrackTitle": "Mary, Mary So Contrary",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=YefiMvJdjhY",
+        "selectedTrackYtId": pathToYtVideo + "YefiMvJdjhY",
         "isAGem": false
     },
     {
@@ -1206,7 +1233,7 @@ const albums = [
         "cover": pathToCovers + "/can_tago_mago.jpg",
         "criteria": [criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Mushroom",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=T_9LJCKOvQE",
+        "selectedTrackYtId": pathToYtVideo + "T_9LJCKOvQE",
         "isAGem": false
     },
     {
@@ -1218,7 +1245,7 @@ const albums = [
         "cover": pathToCovers + "/can_ege_bamyasi.jpg",
         "criteria": [criteria.C_PSYCHEDELIC, criteria.C_JAZZ],
         "selectedTrackTitle": "Vitamin C",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=YmN9oHa3ZIQ",
+        "selectedTrackYtId": pathToYtVideo + "YmN9oHa3ZIQ",
         "isAGem": false
     },
     {
@@ -1230,7 +1257,7 @@ const albums = [
         "cover": pathToCovers + "/can_future_days.jpg",
         "criteria": [criteria.INSTRUMENTAL, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.AMBIENT, criteria.UNCOMMON_INSTRUMENTS, criteria.C_JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Future Days",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=-JKb5xbYkYg",
+        "selectedTrackYtId": pathToYtVideo + "-JKb5xbYkYg",
         "isAGem": true,
         "description": "The band keeps on drifting away from the intense psychedelic music to embrace a more peaceful music, sometimes mesmerizing, sometimes percolating, sprinkled with Damo Suzuki's faded vocals. The album materializes a perfect warm soundscape in which we gladly relax."
     },
@@ -1255,7 +1282,7 @@ const albums = [
         "cover": pathToCovers + "/canamii_concept.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.SOFT, criteria.C_ELECTRO, criteria.C_FOLK],
         "selectedTrackTitle": "Rain",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=yutpOHSsdOA",
+        "selectedTrackYtId": pathToYtVideo + "yutpOHSsdOA",
         "isAGem": false
     },
     {
@@ -1267,7 +1294,7 @@ const albums = [
         "cover": pathToCovers + "/captain_beyond_captain_beyond.jpg",
         "criteria": [criteria.STORYLINE, criteria.ODD_RHYTHM, criteria.TRANSITION, criteria.HEAVY, criteria.PATCHWORK],
         "selectedTrackTitle": "As The Moon Speaks (Part I)",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=wm61ROOZ5ek",
+        "selectedTrackYtId": pathToYtVideo + "wm61ROOZ5ek",
         "isAGem": true,
         "description": "A blend of Hard Rock, guitar-driven riffs interspersed with spacy moments, all with a flowing mise-en-abyme intensifying the music immersion. Larry Reinhardt's guitar playing alongside Rod Evan's vocals bring a stunning raw touch."
     },
@@ -1280,7 +1307,7 @@ const albums = [
         "cover": pathToCovers + "/captain_beyond_sufficiently_breathless.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.JAM, criteria.ROCK, criteria.HEAVY, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Starglow Energy",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=x5D_6GHBBVg",
+        "selectedTrackYtId": pathToYtVideo + "x5D_6GHBBVg",
         "isAGem": false
     },
     {
@@ -1292,7 +1319,7 @@ const albums = [
         "cover": pathToCovers + "/caravan_caravan.jpg",
         "criteria": [criteria.JAM, criteria.SOFT, criteria.C_FOLK],
         "selectedTrackTitle": "Love Song With Flute",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=5X6Hkp1OpfE",
+        "selectedTrackYtId": pathToYtVideo + "5X6Hkp1OpfE",
         "isAGem": false
     },
     {
@@ -1304,7 +1331,7 @@ const albums = [
         "cover": pathToCovers + "/caravan_if_i_could_do_it_all_over_again_id_do_it_all_over_you.jpg",
         "criteria": [criteria.JAM, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.C_FOLK],
         "selectedTrackTitle": "Can't Be Long Now / Françoise / For Richard / Warlock",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=CcxS-HU2qH0",
+        "selectedTrackYtId": pathToYtVideo + "CcxS-HU2qH0",
         "isAGem": false
     },
     {
@@ -1316,7 +1343,7 @@ const albums = [
         "cover": pathToCovers + "/caravan_in_the_land_of_grey_and_pink.jpg",
         "criteria": [criteria.JAM, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.C_FOLK],
         "selectedTrackTitle": "Winter Wine",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=l2ZrJdmnHIw",
+        "selectedTrackYtId": pathToYtVideo + "l2ZrJdmnHIw",
         "isAGem": true,
         "description": "TODO"
     },
@@ -1329,7 +1356,7 @@ const albums = [
         "cover": pathToCovers + "/caravan_waterloo_lily.jpg",
         "criteria": [criteria.JAM, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.C_FOLK],
         "selectedTrackTitle": "The World Is Yours",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=F4yDoaCQ70g",
+        "selectedTrackYtId": pathToYtVideo + "F4yDoaCQ70g",
         "isAGem": false
     },
     {
@@ -1341,7 +1368,7 @@ const albums = [
         "cover": pathToCovers + "/caravan_for_girls_who_plump_in_the_night.jpg",
         "criteria": [criteria.JAM, criteria.SOFT, criteria.C_FOLK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "C'thlu Thlu",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=e8HIpQscvrs",
+        "selectedTrackYtId": pathToYtVideo + "e8HIpQscvrs",
         "isAGem": false
     },
     {
@@ -1353,7 +1380,7 @@ const albums = [
         "cover": pathToCovers + "/caravan_cunning_stunts.jpg",
         "criteria": [criteria.JAM, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.C_FOLK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "The Dabsong Conshirtoe",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=uMn4BDFiV-g",
+        "selectedTrackYtId": pathToYtVideo + "uMn4BDFiV-g",
         "isAGem": false
     },
     {
@@ -1365,7 +1392,7 @@ const albums = [
         "cover": pathToCovers + "/carlos_santana_oneness_silver_dreams_golden_reality.jpg",
         "criteria": [criteria.CONCEPT, criteria.JAM, criteria.C_JAZZ, criteria.C_FOLK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Oneness",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=2zLSwiWz9Ws",
+        "selectedTrackYtId": pathToYtVideo + "2zLSwiWz9Ws",
         "isAGem": false
     },
     {
@@ -1377,7 +1404,7 @@ const albums = [
         "cover": pathToCovers + "/carlos_santana_the_swing_of_delight.jpg",
         "criteria": [criteria.INSTRUMENTAL, criteria.JAM, criteria.SOFT, criteria.C_JAZZ, criteria.C_FOLK],
         "selectedTrackTitle": "Song For My Brother",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=z5nUNCTcZog",
+        "selectedTrackYtId": pathToYtVideo + "z5nUNCTcZog",
         "isAGem": false
     },
     {
@@ -1389,7 +1416,7 @@ const albums = [
         "cover": pathToCovers + "/carlos_santana_and_alice_coltrane_illuminations.jpg",
         "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.SOFT, criteria.ORIENTAL, criteria.AMBIENT, criteria.UNCOMMON_INSTRUMENTS, criteria.ORCHESTRAL_PARTS],
         "selectedTrackTitle": "Bliss: The Eternal Row",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=Bp1gzeUnXWE",
+        "selectedTrackYtId": pathToYtVideo + "Bp1gzeUnXWE",
         "isAGem": true,
         "description": "TODO"
     },
@@ -1402,7 +1429,7 @@ const albums = [
         "cover": pathToCovers + "/carmen_fandagos_in_space.jpg",
         "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.SPANISH_SUNG],
         "selectedTrackTitle": "Bulerias",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=gjFs0Iy6yAc",
+        "selectedTrackYtId": pathToYtVideo + "gjFs0Iy6yAc",
         "isAGem": false
     },
     {
@@ -1414,7 +1441,7 @@ const albums = [
         "cover": pathToCovers + "/cat_stevens_foreigner.jpg",
         "criteria": [criteria.LENGHTY_TRACKS, criteria.C_JAZZ, criteria.C_FOLK, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "Foreigner Suite",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=KOC_LkgNAHU",
+        "selectedTrackYtId": pathToYtVideo + "KOC_LkgNAHU",
         "isAGem": false
     },
     {
@@ -1426,7 +1453,7 @@ const albums = [
         "cover": pathToCovers + "/claude_leveillee_black_sun.jpg",
         "criteria": [criteria.INSTRUMENTAL, criteria.SOFT, criteria.UNCOMMON_INSTRUMENTS, criteria.SOUND_COLLAGES, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO, criteria.C_FOLK],
         "selectedTrackTitle": "Requiem Pour Un Astronaute",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=dtsi7kNIApo",
+        "selectedTrackYtId": pathToYtVideo + "dtsi7kNIApo",
         "isAGem": false
     },
     {
@@ -1438,7 +1465,7 @@ const albums = [
         "cover": pathToCovers + "/coma_financial_tycoon.jpg",
         "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.FUNNY, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Foreigner Suite",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=QOJXZbwHPNI",
+        "selectedTrackYtId": pathToYtVideo + "QOJXZbwHPNI",
         "isAGem": false
     },
     {
@@ -1450,7 +1477,7 @@ const albums = [
         "cover": pathToCovers + "/coven_witchcraft_destroys_minds_and_reaps_souls.jpg",
         "criteria": [criteria.CONCEPT, criteria.C_PSYCHEDELIC, criteria.ROCK, criteria.HEAVY, criteria.JAZZY_GROOVY, criteria.OCCULT],
         "selectedTrackTitle": "The White Witch Of Rose Hall",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=TSKJ9C_QX18",
+        "selectedTrackYtId": pathToYtVideo + "TSKJ9C_QX18",
         "isAGem": false
     },
     {
@@ -1462,7 +1489,7 @@ const albums = [
         "cover": pathToCovers + "/the_crazy_world_of_arthur_brown_the_crazy_world_of_arthur_brown.jpg",
         "criteria": [criteria.CONCEPT, criteria.TRANSITION, criteria.C_PSYCHEDELIC, criteria.PATCHWORK, criteria.FANFARE, criteria.OCCULT],
         "selectedTrackTitle": "Fire",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=FaHEusBG20c",
+        "selectedTrackYtId": pathToYtVideo + "FaHEusBG20c",
         "isAGem": false
     },
     {
@@ -1474,7 +1501,7 @@ const albums = [
         "cover": pathToCovers + "/crucis_crucis.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.GLITTER, criteria.C_ELECTRO, criteria.SPANISH_SUNG],
         "selectedTrackTitle": "Mes",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=oeVNf_Ugpb8",
+        "selectedTrackYtId": pathToYtVideo + "oeVNf_Ugpb8",
         "isAGem": false
     },
     {
@@ -1486,7 +1513,7 @@ const albums = [
         "cover": pathToCovers + "/crucis_los_delirios_del_mariscal.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.GLITTER, criteria.C_ELECTRO, criteria.SPANISH_SUNG],
         "selectedTrackTitle": "No Me Separen De Mí",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=XvdxYyYbc84",
+        "selectedTrackYtId": pathToYtVideo + "XvdxYyYbc84",
         "isAGem": false
     },
     {
@@ -1498,7 +1525,7 @@ const albums = [
         "cover": pathToCovers + "/curved_air_air_cut.jpg",
         "criteria": [21],
         "selectedTrackTitle": "Metamorphosis",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=uZAImsmFGhk",
+        "selectedTrackYtId": pathToYtVideo + "uZAImsmFGhk",
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -1513,7 +1540,7 @@ const albums = [
         "cover": pathToCovers + "/david_bowie_space_oddity.jpg",
         "criteria": [criteria.C_FOLK, criteria.ART_POP],
         "selectedTrackTitle": "Space Oddity",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=iYYRH4apXDo",
+        "selectedTrackYtId": pathToYtVideo + "iYYRH4apXDo",
         "isAGem": false
     },
     {
@@ -1525,7 +1552,7 @@ const albums = [
         "cover": pathToCovers + "/david_bowie_the_man_who_sold_the_world.jpg",
         "criteria": [criteria.C_FOLK, criteria.ART_POP],
         "selectedTrackTitle": "The Width Of A Circle",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=s2L4hL2IvUk",
+        "selectedTrackYtId": pathToYtVideo + "s2L4hL2IvUk",
         "isAGem": false
     },
     {
@@ -1537,7 +1564,7 @@ const albums = [
         "cover": pathToCovers + "/david_bowie_hunky_dory.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.C_FOLK, criteria.ART_POP],
         "selectedTrackTitle": "Life On Mars?",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=v--IqqusnNQ",
+        "selectedTrackYtId": pathToYtVideo + "v--IqqusnNQ",
         "isAGem": false
     },
     {
@@ -1549,7 +1576,7 @@ const albums = [
         "cover": pathToCovers + "/david_bowie_the_rise_and_fall_of_ziggy_stardust_and_the_spiders_from_mars.jpg",
         "criteria": [criteria.CONCEPT, criteria.C_FOLK, criteria.ROCK_OPERA, criteria.ART_POP],
         "selectedTrackTitle": "Starman",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=EYQTGF1hXVI",
+        "selectedTrackYtId": pathToYtVideo + "EYQTGF1hXVI",
         "isAGem": false
     },
     {
@@ -1561,7 +1588,7 @@ const albums = [
         "cover": pathToCovers + "/deep_purple_the_book_of_taliesyn.jpg",
         "criteria": [criteria.JAM, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO],
         "selectedTrackTitle": "Listen, Learn, Read On",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=uYZaXo4jOu0",
+        "selectedTrackYtId": pathToYtVideo + "uYZaXo4jOu0",
         "isAGem": false
     },
     {
@@ -1573,7 +1600,7 @@ const albums = [
         "cover": pathToCovers + "/deep_purple_deep_purple.jpg",
         "criteria": [criteria.JAM, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO],
         "selectedTrackTitle": "April",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=2eRTQnSzoUI",
+        "selectedTrackYtId": pathToYtVideo + "2eRTQnSzoUI",
         "isAGem": false
     },
     {
@@ -1585,7 +1612,7 @@ const albums = [
         "cover": pathToCovers + "/deep_purple_machine_head.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.JAM, criteria.ROCK, criteria.HEAVY],
         "selectedTrackTitle": "Lazy",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=STFWapwyqMo",
+        "selectedTrackYtId": pathToYtVideo + "STFWapwyqMo",
         "isAGem": false
     },
     {
@@ -1597,7 +1624,7 @@ const albums = [
         "cover": pathToCovers + "/dominique_guiot_lunivers_de_la_mer.jpg",
         "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.SOFT, criteria.C_FOLK, criteria.PATCHWORK, criteria.ELECTRO],
         "selectedTrackTitle": "Les Deux Poissons",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=gOwuBTGwrco",
+        "selectedTrackYtId": pathToYtVideo + "gOwuBTGwrco",
         "isAGem": false
     },
     {
@@ -1609,7 +1636,7 @@ const albums = [
         "cover": pathToCovers + "/dominique_guiot_la_dame_a_la_licorne.jpg",
         "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.SOFT, criteria.UNCOMMON_INSTRUMENTS, criteria.MEDIEVAL, criteria.PATCHWORK, criteria.FOLK],
         "selectedTrackTitle": "La Dame À La Licorne",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=O5s_o1Pc6bA",
+        "selectedTrackYtId": pathToYtVideo + "O5s_o1Pc6bA",
         "isAGem": false
     },
     {
@@ -1621,7 +1648,7 @@ const albums = [
         "cover": pathToCovers + "/the_doors_the_doors.jpg",
         "criteria": [criteria.C_JAZZ, criteria.JAZZY_GROOVY, criteria.ART_POP],
         "selectedTrackTitle": "The End",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=JSUIQgEVDM4",
+        "selectedTrackYtId": pathToYtVideo + "JSUIQgEVDM4",
         "isAGem": false
     },
     {
@@ -1633,7 +1660,7 @@ const albums = [
         "cover": pathToCovers + "/the_doors_strange_days.jpg",
         "criteria": [criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.JAZZY_GROOVY, criteria.ART_POP],
         "selectedTrackTitle": "When The Music's Over",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=YkKRU1ajKFA",
+        "selectedTrackYtId": pathToYtVideo + "YkKRU1ajKFA",
         "isAGem": false
     },
     {
@@ -1645,7 +1672,7 @@ const albums = [
         "cover": pathToCovers + "/the_doors_waiting_for_the_sun.jpg",
         "criteria": [criteria.C_JAZZ, criteria.JAZZY_GROOVY, criteria.ART_POP],
         "selectedTrackTitle": "Yes, The River Knows",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=v6boHOX8r60",
+        "selectedTrackYtId": pathToYtVideo + "v6boHOX8r60",
         "isAGem": false
     },
     {
@@ -1657,7 +1684,7 @@ const albums = [
         "cover": pathToCovers + "/the_doors_the_soft_parade.jpg",
         "criteria": [criteria.C_JAZZ, criteria.JAZZY_GROOVY, criteria.ART_POP],
         "selectedTrackTitle": "The Soft Parade",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=8p-AUo1w45w",
+        "selectedTrackYtId": pathToYtVideo + "8p-AUo1w45w",
         "isAGem": false
     },
     {
@@ -1669,7 +1696,7 @@ const albums = [
         "cover": pathToCovers + "/dr_dopo_jam_entree.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.FUNNY, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Opening",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=ymeBpnDr4Lw",
+        "selectedTrackYtId": pathToYtVideo + "ymeBpnDr4Lw",
         "isAGem": true,
         "description": "TODO"
     },
@@ -1682,7 +1709,7 @@ const albums = [
         "cover": pathToCovers + "/dr_dopo_jam_fat_dogs_and_danishmen.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.JAM, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.FUNNY, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Nova Bossa Nova",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=wkViMhydlkc",
+        "selectedTrackYtId": pathToYtVideo + "wkViMhydlkc",
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -1697,7 +1724,7 @@ const albums = [
         "cover": pathToCovers + "/earthrise_earthrise.jpg",
         "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.SOFT, criteria.C_JAZZ, criteria.C_ELECTRO, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Arcturus",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=4YDGiubWxvw",
+        "selectedTrackYtId": pathToYtVideo + "4YDGiubWxvw",
         "isAGem": false
     },
     {
@@ -1709,7 +1736,7 @@ const albums = [
         "cover": pathToCovers + "/egg_egg.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.C_JAZZ, criteria.FUNNY, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Symphony No. 2",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=gR1TYEOVpJ0",
+        "selectedTrackYtId": pathToYtVideo + "gR1TYEOVpJ0",
         "isAGem": false
     },
     {
@@ -1721,7 +1748,7 @@ const albums = [
         "cover": pathToCovers + "/egg_the_polite_force.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.C_JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "A Visit To Newport Hospital",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=DanChmmX4k0",
+        "selectedTrackYtId": pathToYtVideo + "DanChmmX4k0",
         "isAGem": false
     },
     {
@@ -1733,7 +1760,7 @@ const albums = [
         "cover": pathToCovers + "/egg_the_civil_surface.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.C_JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Enneagram",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=QS96H34Ywv4",
+        "selectedTrackYtId": pathToYtVideo + "QS96H34Ywv4",
         "isAGem": false
     },
     {
@@ -1745,7 +1772,7 @@ const albums = [
         "cover": pathToCovers + "/elder_kindred_kindred_spirits.jpg",
         "criteria": [criteria.JAZZY_GROOVY, criteria.FOLK],
         "selectedTrackTitle": "Castles",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=Tw9Ksxrm7hg",
+        "selectedTrackYtId": pathToYtVideo + "Tw9Ksxrm7hg",
         "isAGem": false
     },
     {
@@ -1757,7 +1784,7 @@ const albums = [
         "cover": pathToCovers + "/electric_light_orchestra_out_of_the_blue.jpg",
         "criteria": [criteria.CONCEPT, criteria.TRANSITION, criteria.C_ELECTRO, criteria.ROCK_OPERA, criteria.FANFARE],
         "selectedTrackTitle": "Mr. Blue Sky",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=aQUlA8Hcv4s",
+        "selectedTrackYtId": pathToYtVideo + "aQUlA8Hcv4s",
         "isAGem": false
     },
     {
@@ -1769,7 +1796,7 @@ const albums = [
         "cover": pathToCovers + "/electric_light_orchestra_time.jpg",
         "criteria": [criteria.STORYLINE, criteria.TRANSITION, criteria.ROCK_OPERA, criteria.ELECTRO],
         "selectedTrackTitle": "Ticket To The Moon",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=CJdZTNLkpuA",
+        "selectedTrackYtId": pathToYtVideo + "CJdZTNLkpuA",
         "isAGem": true,
         "description": "Jeff Lynne takes us into a futuristic romantic story where a man enters the year 2095 and compares his new life with his old one with nostalgia, in the same place that has now drastically changed. Each track borrows a lot of different musical styles such as Disco, New Wave and Reggae, but the album remains heavily Synth-Pop oriented with strong Electro-Rock roots."
     },
@@ -1782,7 +1809,7 @@ const albums = [
         "cover": pathToCovers + "/eloy_eloy.jpg",
         "criteria": [criteria.JAM, criteria.ROCK],
         "selectedTrackTitle": "Something Yellow",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=yDatGyROJ1c",
+        "selectedTrackYtId": pathToYtVideo + "yDatGyROJ1c",
         "isAGem": false
     },
     {
@@ -1794,7 +1821,7 @@ const albums = [
         "cover": pathToCovers + "/eloy_inside.jpg",
         "criteria": [criteria.JAM, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_ELECTRO],
         "selectedTrackTitle": "Inside",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=g9geep2yJjI",
+        "selectedTrackYtId": pathToYtVideo + "g9geep2yJjI",
         "isAGem": false
     },
     {
@@ -1806,7 +1833,7 @@ const albums = [
         "cover": pathToCovers + "/eloy_floating.jpg",
         "criteria": [criteria.JAM, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_ELECTRO],
         "selectedTrackTitle": "Castle In The Air",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=K_oPTaKCjcY",
+        "selectedTrackYtId": pathToYtVideo + "K_oPTaKCjcY",
         "isAGem": false
     },
     {
@@ -1818,7 +1845,7 @@ const albums = [
         "cover": pathToCovers + "/eloy_power_and_the_passion.jpg",
         "criteria": [criteria.STORYLINE, criteria.JAM, criteria.SYMPHONIC, criteria.C_ELECTRO],
         "selectedTrackTitle": "The Bells Of Notre Dame",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=p9P8OlPZnrM",
+        "selectedTrackYtId": pathToYtVideo + "p9P8OlPZnrM",
         "isAGem": false
     },
     {
@@ -1830,7 +1857,7 @@ const albums = [
         "cover": pathToCovers + "/eloy_dawn.jpg",
         "criteria": [criteria.STORYLINE, criteria.JAM, criteria.SYMPHONIC, criteria.C_ELECTRO],
         "selectedTrackTitle": "Gliding Into Light And Knowledge",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=FGcpZ_4a5Y8",
+        "selectedTrackYtId": pathToYtVideo + "FGcpZ_4a5Y8",
         "isAGem": false
     },
     {
@@ -1842,7 +1869,7 @@ const albums = [
         "cover": pathToCovers + "/eloy_ocean.jpg",
         "criteria": [criteria.CONCEPT, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_ELECTRO, criteria.ROCK_OPERA],
         "selectedTrackTitle": "Poseidon's Creation",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=NIeO4IAhpGM",
+        "selectedTrackYtId": pathToYtVideo + "NIeO4IAhpGM",
         "isAGem": true,
         "description": "TODO"
     },
@@ -1855,7 +1882,7 @@ const albums = [
         "cover": pathToCovers + "/eloy_silent_cries_and_mighty_echoes.jpg",
         "criteria": [criteria.JAM, criteria.LENGHTY_TRACKS, criteria.GLITTER, criteria.SYMPHONIC, criteria.C_ELECTRO],
         "selectedTrackTitle": "Master Of Sensation",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=GzJ8a29jvMU",
+        "selectedTrackYtId": pathToYtVideo + "GzJ8a29jvMU",
         "isAGem": false
     },
     {
@@ -1867,7 +1894,7 @@ const albums = [
         "cover": pathToCovers + "/eloy_colours.jpg",
         "criteria": [criteria.JAM, criteria.GLITTER, criteria.C_ELECTRO],
         "selectedTrackTitle": "Giant",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=E1X0euUgYgA",
+        "selectedTrackYtId": pathToYtVideo + "E1X0euUgYgA",
         "isAGem": false
     },
     {
@@ -1879,7 +1906,7 @@ const albums = [
         "cover": pathToCovers + "/eloy_planets.jpg",
         "criteria": [criteria.JAM, criteria.GLITTER, criteria.C_ELECTRO],
         "selectedTrackTitle": "Mysterious Monolith",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=qLUmum7-Krs",
+        "selectedTrackYtId": pathToYtVideo + "qLUmum7-Krs",
         "isAGem": false
     },
     {
@@ -1891,7 +1918,7 @@ const albums = [
         "cover": pathToCovers + "/eloy_time_to_turn.jpg",
         "criteria": [criteria.JAM, criteria.GLITTER, criteria.C_ELECTRO],
         "selectedTrackTitle": "End Of An Odyssey",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=MCr4WoovspA",
+        "selectedTrackYtId": pathToYtVideo + "MCr4WoovspA",
         "isAGem": false
     },
     {
@@ -1903,7 +1930,7 @@ const albums = [
         "cover": pathToCovers + "/emerson_lake_and_palmer_emerson_lake_and_palmer.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_PSYCHEDELIC, criteria.C_FOLK, criteria.SPECTACULAR],
         "selectedTrackTitle": "Take A Pebble",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=tVz35uXqFYw",
+        "selectedTrackYtId": pathToYtVideo + "tVz35uXqFYw",
         "isAGem": false
     },
     {
@@ -1915,7 +1942,7 @@ const albums = [
         "cover": pathToCovers + "/emerson_lake_and_palmer_tarkus.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_PSYCHEDELIC, criteria.C_FOLK, criteria.SPECTACULAR],
         "selectedTrackTitle": "Tarkus",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=WKNOlDtZluU",
+        "selectedTrackYtId": pathToYtVideo + "WKNOlDtZluU",
         "isAGem": false
     },
     {
@@ -1927,7 +1954,7 @@ const albums = [
         "cover": pathToCovers + "/emerson_lake_and_palmer_pictures_at_an_exhibition.jpg",
         "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.SYMPHONIC, criteria.LIVE, criteria.C_ELECTRO, criteria.PATCHWORK, criteria.ROCK_OPERA],
         "selectedTrackTitle": "The Sage",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=1gxAGj-Svcc",
+        "selectedTrackYtId": pathToYtVideo + "1gxAGj-Svcc",
         "isAGem": false
     },
     {
@@ -1939,7 +1966,7 @@ const albums = [
         "cover": pathToCovers + "/emerson_lake_and_palmer_trilogy.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.SYMPHONIC, criteria.C_ELECTRO],
         "selectedTrackTitle": "Trilogy",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=-yB1rilcUGQ",
+        "selectedTrackYtId": pathToYtVideo + "-yB1rilcUGQ",
         "isAGem": false
     },
     {
@@ -1951,7 +1978,7 @@ const albums = [
         "cover": pathToCovers + "/emerson_lake_and_palmer_brain_salad_surgery.jpg",
         "criteria": [4, criteria.TRANSITION, criteria.SYMPHONIC, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO],
         "selectedTrackTitle": "Still... You Turn Me On",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=_8VHHcd0M_o",
+        "selectedTrackYtId": pathToYtVideo + "_8VHHcd0M_o",
         "isAGem": false
     },
     {
@@ -1963,7 +1990,7 @@ const albums = [
         "cover": pathToCovers + "/eskaton_4_visions.jpg",
         "criteria": [criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.C_ELECTRO, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Le Cri",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=aMpmbXRIu28",
+        "selectedTrackYtId": pathToYtVideo + "aMpmbXRIu28",
         "isAGem": false
     },
     {
@@ -1975,7 +2002,7 @@ const albums = [
         "cover": pathToCovers + "/eskaton_ardeur.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.C_ELECTRO, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Eskaton",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=YRrKHFxLRh4",
+        "selectedTrackYtId": pathToYtVideo + "YRrKHFxLRh4",
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -1988,9 +2015,9 @@ const albums = [
         "year": 1971,
         "country": regions.GERMANY,
         "cover": pathToCovers + "/faust_faust.jpg",
-        "criteria": [5, criteria.INSTRUMENTAL, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO],
+        "criteria": [criteria.EXPERIMENTAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO],
         "selectedTrackTitle": "Miss Fortune",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=Yu9MehUlLgo",
+        "selectedTrackYtId": pathToYtVideo + "Yu9MehUlLgo",
         "isAGem": false
     },
     {
@@ -2002,7 +2029,7 @@ const albums = [
         "cover": pathToCovers + "/fm_black_noise.jpg",
         "criteria": [criteria.STORYLINE, criteria.JAM, criteria.ROCK_OPERA, criteria.ELECTRO],
         "selectedTrackTitle": "Slaughter In Robot Village",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=vx-8oTLXkIvu7M",
+        "selectedTrackYtId": pathToYtVideo + "vx-8oTLXkIvu7M",
         "isAGem": false
     },
     {
@@ -2014,7 +2041,7 @@ const albums = [
         "cover": pathToCovers + "/focus_in_and_out_of_focus.jpg",
         "criteria": [criteria.INSTRUMENTAL, criteria.SOFT, criteria.C_JAZZ, criteria.ROCK, criteria.HUMBLE, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "House Of The King",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=vx-g0C4iHTEJ9o",
+        "selectedTrackYtId": pathToYtVideo + "vx-g0C4iHTEJ9o",
         "isAGem": false
     },
     {
@@ -2026,7 +2053,7 @@ const albums = [
         "cover": pathToCovers + "/focus_moving_waves.jpg",
         "criteria": [criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.SOFT, criteria.C_JAZZ, criteria.FUNNY],
         "selectedTrackTitle": "Janis",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=vx-JzRzsCss",
+        "selectedTrackYtId": pathToYtVideo + "vx-JzRzsCss",
         "isAGem": true,
         "description": "Directed by Thijs Van Leer's alchimistic ideas and Jan Akkerman's grandiose guitar playing, Moving Waves starts with a scatterbrained hit track, followed by blue and instrumental-driven music. It ends on an eruption of a pure progressive Rock, 22-minute symphony, using the best of the musician's abilities to create a fulfilling and magical grande finale."
     },
@@ -2039,7 +2066,7 @@ const albums = [
         "cover": pathToCovers + "/focus_focus_3.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.C_JAZZ, criteria.MEDIEVAL, criteria.FUNNY, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Sylvia",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=aig4mWJUpLw",
+        "selectedTrackYtId": pathToYtVideo + "aig4mWJUpLw",
         "isAGem": false
     },
     {
@@ -2051,7 +2078,7 @@ const albums = [
         "cover": pathToCovers + "/focus_hamburger_concerto.jpg",
         "criteria": [criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_JAZZ, criteria.MEDIEVAL],
         "selectedTrackTitle": "La Cathédrale De Strasbourg",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=HowIDiFOHwY",
+        "selectedTrackYtId": pathToYtVideo + "HowIDiFOHwY",
         "isAGem": false
     },
     {
@@ -2063,7 +2090,7 @@ const albums = [
         "cover": pathToCovers + "/focus_focus.jpg",
         "criteria": [criteria.INSTRUMENTAL, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.C_ELECTRO],
         "selectedTrackTitle": "King Kong",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=26b_f-KriRQ",
+        "selectedTrackYtId": pathToYtVideo + "26b_f-KriRQ",
         "isAGem": false
     },
     {
@@ -2073,9 +2100,10 @@ const albums = [
         "year": 1966,
         "country": regions.USA,
         "cover": pathToCovers + "/frank_zappa_freak_out.jpg",
-        "criteria": [5, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.FUNNY],
+        "criteria": [criteria.EXPERIMENTAL, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.FUNNY],
         "selectedTrackTitle": "Who Are The Brain Police?",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=DuABc9ZNtrA",
+        "selectedTrackYtId": pathToYtVideo + "DuABc9ZNtrA",
+        "spotifyId": "https://open.spotify.com/embed/album/3PZXB9NBWf11eDS72JCGaY",
         "isAGem": false
     },
     {
@@ -2087,7 +2115,7 @@ const albums = [
         "cover": pathToCovers + "/frank_zappa_absolutely_free.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.FUNNY, criteria.PATCHWORK],
         "selectedTrackTitle": "Invocation & Ritual Dance Of The Young Pumpkin",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=7gw2qqcsxlE",
+        "selectedTrackYtId": pathToYtVideo + "7gw2qqcsxlE",
         "isAGem": false
     },
     {
@@ -2099,7 +2127,7 @@ const albums = [
         "cover": pathToCovers + "/frank_zappa_lumpy_gravy.jpg",
         "criteria": [criteria.CONCEPT, criteria.TRANSITION, criteria.SOUND_COLLAGES, criteria.BLENDS, criteria.FUNNY, criteria.PATCHWORK],
         "selectedTrackTitle": "Duodenum",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=oylUODycgRA",
+        "selectedTrackYtId": pathToYtVideo + "oylUODycgRA",
         "isAGem": false
     },
     {
@@ -2111,7 +2139,7 @@ const albums = [
         "cover": pathToCovers + "/frank_zappa_were_only_in_it_for_the_money.jpg",
         "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.TRANSITION, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.FUNNY, criteria.PATCHWORK],
         "selectedTrackTitle": "Take Your Clothes Off When You Dance",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=Xsuk9S0XknE",
+        "selectedTrackYtId": pathToYtVideo + "Xsuk9S0XknE",
         "isAGem": false
     },
     {
@@ -2123,7 +2151,7 @@ const albums = [
         "cover": pathToCovers + "/frank_zappa_uncle_meat.jpg",
         "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.EXPERIMENTAL, criteria.TRANSITION, criteria.UNCOMMON_INSTRUMENTS, criteria.SOUND_COLLAGES, criteria.BLENDS, criteria.FUNNY, criteria.PATCHWORK],
         "selectedTrackTitle": "The Dog Breath Variations",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=d_YSSPOFHYI",
+        "selectedTrackYtId": pathToYtVideo + "d_YSSPOFHYI",
         "isAGem": false
     },
     {
@@ -2135,7 +2163,7 @@ const albums = [
         "cover": pathToCovers + "/frank_zappa_hot_rats.jpg",
         "criteria": [criteria.INSTRUMENTAL, criteria.JAM, criteria.UNCOMMON_INSTRUMENTS, criteria.JAZZ, criteria.FUNNY, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Peaches En Regalia",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=zprYyWMcUGY",
+        "selectedTrackYtId": pathToYtVideo + "zprYyWMcUGY",
         "isAGem": false
     },
     {
@@ -2145,9 +2173,9 @@ const albums = [
         "year": 1970,
         "country": regions.USA,
         "cover": pathToCovers + "/frank_zappa_burnt_weeny_sandwich.jpg",
-        "criteria": [5, criteria.INSTRUMENTAL, criteria.JAM, criteria.SOUND_COLLAGES, criteria.C_PSYCHEDELIC, criteria.PATCHWORK],
+        "criteria": [criteria.EXPERIMENTAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.SOUND_COLLAGES, criteria.C_PSYCHEDELIC, criteria.PATCHWORK],
         "selectedTrackTitle": "Theme From Burnt Weeny Sandwich",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=vB-PYif7Fek",
+        "selectedTrackYtId": pathToYtVideo + "vB-PYif7Fek",
         "isAGem": false
     },
     {
@@ -2157,9 +2185,9 @@ const albums = [
         "year": 1970,
         "country": regions.USA,
         "cover": pathToCovers + "/frank_zappa_weasels_ripped_my_flesh.jpg",
-        "criteria": [5, criteria.LIVE, criteria.C_PSYCHEDELIC, criteria.C_JAZZ],
+        "criteria": [criteria.EXPERIMENTAL, criteria.LIVE, criteria.C_PSYCHEDELIC, criteria.C_JAZZ],
         "selectedTrackTitle": "The Eric Dolphy Memorial Barbecue",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=tLUxmYKvYBo",
+        "selectedTrackYtId": pathToYtVideo + "tLUxmYKvYBo",
         "isAGem": false
     },
     {
@@ -2171,7 +2199,7 @@ const albums = [
         "cover": pathToCovers + "/frank_zappa_chungas_revenge.jpg",
         "criteria": [criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.FUNNY],
         "selectedTrackTitle": "Rudy Wants To Buy Yez A Drink",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=ZCgmTFM23sA",
+        "selectedTrackYtId": pathToYtVideo + "ZCgmTFM23sA",
         "isAGem": false
     },
     {
@@ -2183,7 +2211,7 @@ const albums = [
         "cover": pathToCovers + "/frank_zappa_200_motels.jpg",
         "criteria": [criteria.CONCEPT, criteria.SOUND_COLLAGES, criteria.BLENDS, criteria.FUNNY, criteria.PATCHWORK, criteria.SOUNDTRACK],
         "selectedTrackTitle": "She Painted Up Her Face",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=p_1KEwREujU",
+        "selectedTrackYtId": pathToYtVideo + "p_1KEwREujU",
         "isAGem": false
     },
     {
@@ -2195,7 +2223,7 @@ const albums = [
         "cover": pathToCovers + "/frank_zappa_waka_jawaka.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.UNCOMMON_INSTRUMENTS, criteria.JAZZ, criteria.FUNNY, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "It Just Might Be A One-Shot Deal",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=3expVNVi6Gw",
+        "selectedTrackYtId": pathToYtVideo + "3expVNVi6Gw",
         "isAGem": false
     },
     {
@@ -2207,7 +2235,7 @@ const albums = [
         "cover": pathToCovers + "/frank_zappa_the_grand_wazoo.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.UNCOMMON_INSTRUMENTS, criteria.JAZZ, criteria.FUNNY, criteria.JAZZY_GROOVY, criteria.FANFARE],
         "selectedTrackTitle": "Cletus Awreetus-Awrightus",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=cu_kJ4jEJ9A",
+        "selectedTrackYtId": pathToYtVideo + "cu_kJ4jEJ9A",
         "isAGem": true,
         "description": "TODO"
     },
@@ -2220,7 +2248,7 @@ const albums = [
         "cover": pathToCovers + "/frank_zappa_over_nite_sensation.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.ROCK, criteria.FUNNY, criteria.HEAVY, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Zomby Woof",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=ksnwEsPKO5s",
+        "selectedTrackYtId": pathToYtVideo + "ksnwEsPKO5s",
         "isAGem": false
     },
     {
@@ -2232,7 +2260,7 @@ const albums = [
         "cover": pathToCovers + "/frank_zappa_apostrophe.jpg",
         "criteria": [criteria.STORYLINE, criteria.ODD_RHYTHM, criteria.TRANSITION, criteria.BLENDS, criteria.ROCK, criteria.FUNNY],
         "selectedTrackTitle": "Father O'blivion",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=2XO7xSwYVZI",
+        "selectedTrackYtId": pathToYtVideo + "2XO7xSwYVZI",
         "isAGem": true,
         "description": "The first part of the album tells the story of a dream Frank Zappa had: as Nanook the eskimo, Zappa encounters eccentric happennings foretold by a foolish prophecy, eventually atending a crazy breakfast party. The whole album is soaked with a bluesy mood, spiced-up with psychedelic music and Jazz parts using a large asset of instruments, and topped with funny lyrics."
     },
@@ -2245,7 +2273,7 @@ const albums = [
         "cover": pathToCovers + "/frank_zappa_roxy_and_elsewhere.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.LIVE, criteria.C_JAZZ, criteria.SPECTACULAR, criteria.JAZZY_GROOVY, criteria.FANFARE],
         "selectedTrackTitle": "Echidna's Arf (Of You)",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=NeCGm8VipUU",
+        "selectedTrackYtId": pathToYtVideo + "NeCGm8VipUU",
         "isAGem": true,
         "description": "At their peak of their creativity, The Mothers Of Inventions performed several live concerts at the Roxy in the late 1973. The album captures the absolute best of Frank Zappa's genius and the band's musicality and musicianship. From funny bits to lively Jazz Rock arrangements, all with a stunning sound, these memorable performances create a fantastic, joyful moment where every bandmate can display their fabulous skill in an organic way."
     },
@@ -2258,7 +2286,7 @@ const albums = [
         "cover": pathToCovers + "/frank_zappa_one_size_fits_all.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.UNCOMMON_INSTRUMENTS, criteria.BLENDS, criteria.FUNNY],
         "selectedTrackTitle": "Andy",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=3hAUvgZmjlg",
+        "selectedTrackYtId": pathToYtVideo + "3hAUvgZmjlg",
         "isAGem": false
     },
     {
@@ -2270,7 +2298,7 @@ const albums = [
         "cover": pathToCovers + "/frank_zappa_bongo_fury.jpg",
         "criteria": [criteria.JAM, criteria.LIVE, criteria.C_PSYCHEDELIC, criteria.FUNNY],
         "selectedTrackTitle": "Muffin Man",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=8CGO9I8rmkE",
+        "selectedTrackYtId": pathToYtVideo + "8CGO9I8rmkE",
         "isAGem": false
     },
     {
@@ -2282,7 +2310,7 @@ const albums = [
         "cover": pathToCovers + "/frank_zappa_zoot_allures.jpg",
         "criteria": [criteria.C_PSYCHEDELIC, criteria.ROCK, criteria.FUNNY],
         "selectedTrackTitle": "Zoot Allures",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=fdQmhhi5cLI",
+        "selectedTrackYtId": pathToYtVideo + "fdQmhhi5cLI",
         "isAGem": false
     },
     {
@@ -2294,7 +2322,7 @@ const albums = [
         "cover": pathToCovers + "/frank_zappa_in_new_york.jpg",
         "criteria": [criteria.JAM, criteria.LENGHTY_TRACKS, criteria.LIVE, criteria.C_JAZZ, criteria.FUNNY],
         "selectedTrackTitle": "Honey, Don't You Want A Man Like Me?",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=QsrSIQM4ZTk",
+        "selectedTrackYtId": pathToYtVideo + "QsrSIQM4ZTk",
         "isAGem": false
     },
     {
@@ -2306,7 +2334,7 @@ const albums = [
         "cover": pathToCovers + "/frank_zappa_studio_tan.jpg",
         "criteria": [criteria.STORYLINE, criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.C_JAZZ, criteria.FUNNY],
         "selectedTrackTitle": "RDNZL",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=ZlwLNcBD68k",
+        "selectedTrackYtId": pathToYtVideo + "ZlwLNcBD68k",
         "isAGem": false
     },
     {
@@ -2318,7 +2346,7 @@ const albums = [
         "cover": pathToCovers + "/frank_zappa_sleep_dirt.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.C_PSYCHEDELIC, criteria.C_JAZZ],
         "selectedTrackTitle": "The Ocean Is The Ultimate Solution",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=zCNRgfkeWXs",
+        "selectedTrackYtId": pathToYtVideo + "zCNRgfkeWXs",
         "isAGem": false
     },
     {
@@ -2330,7 +2358,7 @@ const albums = [
         "cover": pathToCovers + "/frank_zappa_sheik_yerbouti.jpg",
         "criteria": [criteria.JAM, criteria.LIVE, criteria.SOUND_COLLAGES, criteria.C_PSYCHEDELIC, criteria.ROCK, criteria.FUNNY, criteria.HEAVY, criteria.PATCHWORK],
         "selectedTrackTitle": "City Of Tiny Lites",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=cMe7ZFMBGdo",
+        "selectedTrackYtId": pathToYtVideo + "cMe7ZFMBGdo",
         "isAGem": false
     },
     {
@@ -2342,7 +2370,7 @@ const albums = [
         "cover": pathToCovers + "/frank_zappa_joes_garage.jpg",
         "criteria": [criteria.STORYLINE, criteria.ODD_RHYTHM, criteria.TRANSITION, criteria.BLENDS, criteria.FUNNY, criteria.JAZZY_GROOVY, criteria.ROCK_OPERA],
         "selectedTrackTitle": "A Token Of My Extreme",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=tnSF36PBxbk",
+        "selectedTrackYtId": pathToYtVideo + "tnSF36PBxbk",
         "isAGem": true,
         "description": "Joe, a young guitarist, forms a band in his garage in a world repressed by the Central Scrutinizer, a clunky flying saucer whose role is to enforce the law. Frank Zappa presents Joe's story and struggles in this dystopian society, through music blending many genres, though very Pop Rock-driven (mocking the Rock fashion of the late 70's), and comical lyrics."
     },
@@ -2355,7 +2383,7 @@ const albums = [
         "cover": pathToCovers + "/frank_zappa_broadway_the_hard_way.jpg",
         "criteria": [12, criteria.BLENDS, criteria.FUNNY, criteria.FANFARE],
         "selectedTrackTitle": "Why Don't You Like Me",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=emEOePwK0ok",
+        "selectedTrackYtId": pathToYtVideo + "emEOePwK0ok",
         "isAGem": false
     },
     {
@@ -2367,7 +2395,7 @@ const albums = [
         "cover": pathToCovers + "/fuchsia_fuchsia.jpg",
         "criteria": [criteria.SOFT, criteria.C_PSYCHEDELIC, criteria.FOLK],
         "selectedTrackTitle": "The Nothing Song",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=MRlr3WYNVjA",
+        "selectedTrackYtId": pathToYtVideo + "MRlr3WYNVjA",
         "isAGem": false
     },
     {
@@ -2379,7 +2407,7 @@ const albums = [
         "cover": pathToCovers + "/fuhrs_and_frohling_ammerland.jpg",
         "criteria": [criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.C_FOLK, criteria.ELECTRO],
         "selectedTrackTitle": "Ammerland",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=RV0RD6SthNI",
+        "selectedTrackYtId": pathToYtVideo + "RV0RD6SthNI",
         "isAGem": false
     },
     {
@@ -2391,7 +2419,7 @@ const albums = [
         "cover": pathToCovers + "/fuhrs_and_frohling_strings.jpg",
         "criteria": [criteria.INSTRUMENTAL, criteria.JAM, criteria.C_FOLK, criteria.ELECTRO],
         "selectedTrackTitle": "Morning Bird",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=RV0RD6SthNI",
+        "selectedTrackYtId": pathToYtVideo + "RV0RD6SthNI",
         "isAGem": false
     },
     {
@@ -2403,7 +2431,7 @@ const albums = [
         "cover": pathToCovers + "/fuzzy_duck_fuzzy_duck.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.JAM, criteria.ROCK],
         "selectedTrackTitle": "Country Boy",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=odP44_gNdNU",
+        "selectedTrackYtId": pathToYtVideo + "odP44_gNdNU",
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -2418,7 +2446,7 @@ const albums = [
         "cover": pathToCovers + "/genesis_from_genesis_to_revelation.jpg",
         "criteria": [criteria.CONCEPT, criteria.TRANSITION, criteria.SOFT, criteria.UNCOMMON_INSTRUMENTS],
         "selectedTrackTitle": "The Serpent",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=_lUJ9f0B3jo",
+        "selectedTrackYtId": pathToYtVideo + "_lUJ9f0B3jo",
         "isAGem": false
     },
     {
@@ -2430,7 +2458,7 @@ const albums = [
         "cover": pathToCovers + "/genesis_trespass.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.SYMPHONIC, criteria.SPECTACULAR, criteria.ROCK_OPERA, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "Dusk",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=R8fq7djQAnQ",
+        "selectedTrackYtId": pathToYtVideo + "R8fq7djQAnQ",
         "isAGem": true,
         "description": "TODO"
     },
@@ -2443,7 +2471,7 @@ const albums = [
         "cover": pathToCovers + "/genesis_nursery_cryme.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.SYMPHONIC, criteria.SPECTACULAR, criteria.ROCK_OPERA, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "Harold The Barrel",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=qT7k7keej0k",
+        "selectedTrackYtId": pathToYtVideo + "qT7k7keej0k",
         "isAGem": false
     },
     {
@@ -2455,7 +2483,7 @@ const albums = [
         "cover": pathToCovers + "/genesis_foxtrot.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.SPECTACULAR, criteria.ROCK_OPERA, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "Get 'Em Out By Friday",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=Kp-TwWnn0dk",
+        "selectedTrackYtId": pathToYtVideo + "Kp-TwWnn0dk",
         "isAGem": false
     },
     {
@@ -2467,7 +2495,7 @@ const albums = [
         "cover": pathToCovers + "/genesis_selling_england_by_the_pound.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.SPECTACULAR, criteria.ROCK_OPERA, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "Firth Of Fifth",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=SD5engyVXe0",
+        "selectedTrackYtId": pathToYtVideo + "SD5engyVXe0",
         "isAGem": true,
         "description": "TODO"
     },
@@ -2480,7 +2508,7 @@ const albums = [
         "cover": pathToCovers + "/genesis_the_lamb_lies_down_on_broadway.jpg",
         "criteria": [criteria.CONCEPT, criteria.TRANSITION, criteria.ROCK_OPERA, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "Fly On A Windshield",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=k9X2QtzCvBQ",
+        "selectedTrackYtId": pathToYtVideo + "k9X2QtzCvBQ",
         "isAGem": false
     },
     {
@@ -2492,7 +2520,7 @@ const albums = [
         "cover": pathToCovers + "/genesis_a_trick_of_the_tail.jpg",
         "criteria": [47, criteria.ART_POP],
         "selectedTrackTitle": "Mad Mad Moon",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=IQ_U4XkAarE",
+        "selectedTrackYtId": pathToYtVideo + "IQ_U4XkAarE",
         "isAGem": false
     },
     {
@@ -2504,7 +2532,7 @@ const albums = [
         "cover": pathToCovers + "/genesis_wind_and_wuthering.jpg",
         "criteria": [47, criteria.ART_POP],
         "selectedTrackTitle": "Blood On The Rooftops",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=EeZRdd_1b4g",
+        "selectedTrackYtId": pathToYtVideo + "EeZRdd_1b4g",
         "isAGem": false
     },
     {
@@ -2516,7 +2544,7 @@ const albums = [
         "cover": pathToCovers + "/gentle_giant_gentle_giant.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.C_FOLK, criteria.SOPHISTICATED],
         "selectedTrackTitle": "Nothing At All",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=XIlG0TmxzTs",
+        "selectedTrackYtId": pathToYtVideo + "XIlG0TmxzTs",
         "isAGem": false
     },
     {
@@ -2528,7 +2556,7 @@ const albums = [
         "cover": pathToCovers + "/gentle_giant_acquiring_the_taste.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.C_FOLK, criteria.SOPHISTICATED],
         "selectedTrackTitle": "Pantagruel's Nativity",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=ODWYJyJh6cg",
+        "selectedTrackYtId": pathToYtVideo + "ODWYJyJh6cg",
         "isAGem": false
     },
     {
@@ -2540,7 +2568,7 @@ const albums = [
         "cover": pathToCovers + "/gentle_giant_three_friends.jpg",
         "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.C_JAZZ, criteria.C_FOLK, criteria.SOPHISTICATED],
         "selectedTrackTitle": "Peel The Paint",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=SIl5RCLNy1E",
+        "selectedTrackYtId": pathToYtVideo + "SIl5RCLNy1E",
         "isAGem": false
     },
     {
@@ -2552,7 +2580,7 @@ const albums = [
         "cover": pathToCovers + "/gentle_giant_octopus.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.C_JAZZ, criteria.C_FOLK, criteria.SOPHISTICATED],
         "selectedTrackTitle": "The Boys In The Band",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=BTet3C_afKA",
+        "selectedTrackYtId": pathToYtVideo + "BTet3C_afKA",
         "isAGem": false
     },
     {
@@ -2564,7 +2592,7 @@ const albums = [
         "cover": pathToCovers + "/gentle_giant_in_a_glass_house.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.C_JAZZ, criteria.C_FOLK, criteria.SOPHISTICATED],
         "selectedTrackTitle": "In A Glass House",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=cgUpLcnLkxs",
+        "selectedTrackYtId": pathToYtVideo + "cgUpLcnLkxs",
         "isAGem": false
     },
     {
@@ -2576,7 +2604,7 @@ const albums = [
         "cover": pathToCovers + "/gentle_giant_the_power_and_the_glory.jpg",
         "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.C_JAZZ, criteria.C_FOLK, criteria.SOPHISTICATED],
         "selectedTrackTitle": "Aspirations",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=d8tpBYUIvTk",
+        "selectedTrackYtId": pathToYtVideo + "d8tpBYUIvTk",
         "isAGem": false
     },
     {
@@ -2588,7 +2616,7 @@ const albums = [
         "cover": pathToCovers + "/gentle_giant_free_hand.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.C_JAZZ, criteria.C_FOLK, criteria.SOPHISTICATED],
         "selectedTrackTitle": "His Last Voyage",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=hqyTDtgSmm4",
+        "selectedTrackYtId": pathToYtVideo + "hqyTDtgSmm4",
         "isAGem": false
     },
     {
@@ -2600,7 +2628,7 @@ const albums = [
         "cover": pathToCovers + "/gnidrolog_in_spite_of_harrys_toenail.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.C_JAZZ, criteria.C_FOLK],
         "selectedTrackTitle": "Long Live Man Dead",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=N7c00SXMNaQ",
+        "selectedTrackYtId": pathToYtVideo + "N7c00SXMNaQ",
         "isAGem": false
     },
     {
@@ -2612,7 +2640,7 @@ const albums = [
         "cover": pathToCovers + "/gnidrolog_lady_lake.jpg",
         "criteria": [criteria.C_JAZZ, criteria.C_FOLK],
         "selectedTrackTitle": "Lady Lake",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=3LdNEFRkbGk",
+        "selectedTrackYtId": pathToYtVideo + "3LdNEFRkbGk",
         "isAGem": false
     },
     {
@@ -2624,7 +2652,7 @@ const albums = [
         "cover": pathToCovers + "/goblin_roller.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.SYMPHONIC, criteria.SOUNDTRACK],
         "selectedTrackTitle": "Roller",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=X_hHhhE4suU",
+        "selectedTrackYtId": pathToYtVideo + "X_hHhhE4suU",
         "isAGem": false
     },
     {
@@ -2636,7 +2664,7 @@ const albums = [
         "cover": pathToCovers + "/gong_camembert_electrique.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.JAM, criteria.TRANSITION, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.C_ELECTRO, criteria.FUNNY, criteria.JAZZY_GROOVY, criteria.SPACY],
         "selectedTrackTitle": "Fohat Digs Holes In Space",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=Pk1jsxcXWqE",
+        "selectedTrackYtId": pathToYtVideo + "Pk1jsxcXWqE",
         "isAGem": false
     },
     {
@@ -2648,7 +2676,7 @@ const albums = [
         "cover": pathToCovers + "/gong_flying_teapot.jpg",
         "criteria": [criteria.STORYLINE, criteria.ODD_RHYTHM, criteria.JAM, criteria.TRANSITION, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.C_ELECTRO, criteria.FUNNY, criteria.JAZZY_GROOVY, criteria.SPACY],
         "selectedTrackTitle": "Flying Teapot",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=SIgzP4Rj0Ns",
+        "selectedTrackYtId": pathToYtVideo + "SIgzP4Rj0Ns",
         "isAGem": true,
         "description": "TODO"
     },
@@ -2661,7 +2689,7 @@ const albums = [
         "cover": pathToCovers + "/gong_angels_egg.jpg",
         "criteria": [criteria.STORYLINE, criteria.ODD_RHYTHM, criteria.TRANSITION, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO, criteria.PATCHWORK, criteria.SPACY],
         "selectedTrackTitle": "Oily Way",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=xZWW1ClYxYo",
+        "selectedTrackYtId": pathToYtVideo + "xZWW1ClYxYo",
         "isAGem": false
     },
     {
@@ -2673,7 +2701,7 @@ const albums = [
         "cover": pathToCovers + "/gong_you.jpg",
         "criteria": [criteria.STORYLINE, criteria.TRANSITION, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.C_ELECTRO, criteria.JAZZY_GROOVY, criteria.SPACY],
         "selectedTrackTitle": "Master Builder",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=CKfTKNp_yUI",
+        "selectedTrackYtId": pathToYtVideo + "CKfTKNp_yUI",
         "isAGem": false
     },
     {
@@ -2685,7 +2713,7 @@ const albums = [
         "cover": pathToCovers + "/gong_shamal.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.SOFT, criteria.UNCOMMON_INSTRUMENTS, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Mandrake",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=Ks9YscGny8g",
+        "selectedTrackYtId": pathToYtVideo + "Ks9YscGny8g",
         "isAGem": false
     },
     {
@@ -2697,7 +2725,7 @@ const albums = [
         "cover": pathToCovers + "/gong_gazeuse.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.SOFT, criteria.UNCOMMON_INSTRUMENTS, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Percolations",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=G0tsWMzmr-c",
+        "selectedTrackYtId": pathToYtVideo + "G0tsWMzmr-c",
         "isAGem": true,
         "description": "TODO"
     },
@@ -2710,7 +2738,7 @@ const albums = [
         "cover": pathToCovers + "/gong_expresso_II.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.SOFT, criteria.UNCOMMON_INSTRUMENTS, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Golden Dilemma",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=59jLXceqQsc",
+        "selectedTrackYtId": pathToYtVideo + "59jLXceqQsc",
         "isAGem": false
     },
     {
@@ -2722,7 +2750,7 @@ const albums = [
         "cover": pathToCovers + "/grateful_dead_anthem_of_the_sun.jpg",
         "criteria": [criteria.JAM, criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.C_FOLK, criteria.ROCK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Alligator",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=eNJTIU8b8Yk",
+        "selectedTrackYtId": pathToYtVideo + "eNJTIU8b8Yk",
         "isAGem": false
     },
     {
@@ -2734,7 +2762,7 @@ const albums = [
         "cover": pathToCovers + "/grateful_dead_blues_for_allah.jpg",
         "criteria": [criteria.JAM, criteria.C_PSYCHEDELIC, criteria.C_FOLK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Blues For Allah / Sand Castles And Glass Camels / Unusual Occurrences In The Desert",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=Ss1_Xu7YBrM",
+        "selectedTrackYtId": pathToYtVideo + "Ss1_Xu7YBrM",
         "isAGem": false
     },
     {
@@ -2746,7 +2774,7 @@ const albums = [
         "cover": pathToCovers + "/grateful_dead_terrapin_station.jpg",
         "criteria": [criteria.JAM, criteria.LENGHTY_TRACKS, criteria.C_FOLK, criteria.ROCK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Terrapin Station",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=3I7CLy70WtI",
+        "selectedTrackYtId": pathToYtVideo + "3I7CLy70WtI",
         "isAGem": false
     },
     {
@@ -2758,7 +2786,7 @@ const albums = [
         "cover": pathToCovers + "/gryphon_red_queen_to_gryphon_three.jpg",
         "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.UNCOMMON_INSTRUMENTS, criteria.C_FOLK, criteria.MEDIEVAL, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Second Spasm",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=EcBm-GbbEyI",
+        "selectedTrackYtId": pathToYtVideo + "EcBm-GbbEyI",
         "isAGem": false
     },
     {
@@ -2770,7 +2798,7 @@ const albums = [
         "cover": pathToCovers + "/guns_and_butter_guns_and_butter.jpg",
         "criteria": [criteria.JAM, criteria.C_JAZZ, criteria.C_FOLK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "The Wanderer",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=EcBm-TXBjM9ts11w",
+        "selectedTrackYtId": pathToYtVideo + "EcBm-TXBjM9ts11w",
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -2785,7 +2813,7 @@ const albums = [
         "cover": pathToCovers + "/happy_the_man_happy_the_man.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.GLITTER, criteria.SOFT, criteria.C_JAZZ, criteria.C_ELECTRO, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Starborne",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=7eMlI4MzQks",
+        "selectedTrackYtId": pathToYtVideo + "7eMlI4MzQks",
         "isAGem": false
     },
     {
@@ -2797,7 +2825,7 @@ const albums = [
         "cover": pathToCovers + "/happy_the_man_crafty_hands.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.GLITTER, criteria.SOFT, criteria.C_JAZZ, criteria.C_ELECTRO, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Morning Sun",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=g9B_P36s_-A",
+        "selectedTrackYtId": pathToYtVideo + "g9B_P36s_-A",
         "isAGem": false
     },
     {
@@ -2809,7 +2837,7 @@ const albums = [
         "cover": pathToCovers + "/harmonium_harmonium.jpg",
         "criteria": [criteria.SOFT, criteria.FOLK],
         "selectedTrackTitle": "Un Musicien Parmi Tant D'autres",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=KkDNsKPLXaM",
+        "selectedTrackYtId": pathToYtVideo + "KkDNsKPLXaM",
         "isAGem": false
     },
     {
@@ -2821,7 +2849,7 @@ const albums = [
         "cover": pathToCovers + "/harmonium_si_on_avait_besoin_dune_cinquieme_saison.jpg",
         "criteria": [criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.C_JAZZ, criteria.C_FOLK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Depuis L'automne",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=sCkkxr7tS7c",
+        "selectedTrackYtId": pathToYtVideo + "sCkkxr7tS7c",
         "isAGem": true,
         "description": "TODO"
     },
@@ -2834,7 +2862,7 @@ const albums = [
         "cover": pathToCovers + "/harmonium_lheptade.jpg",
         "criteria": [criteria.CONCEPT, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_JAZZ, criteria.C_FOLK, criteria.ROCK_OPERA, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "Le Premier Ciel",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=G8qda-s8Yks",
+        "selectedTrackYtId": pathToYtVideo + "G8qda-s8Yks",
         "isAGem": false
     },
     {
@@ -2846,7 +2874,7 @@ const albums = [
         "cover": pathToCovers + "/hatfield_and_the_north_hatfield_and_the_north.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.SOFT, criteria.C_JAZZ, criteria.FUNNY, criteria.PATCHWORK],
         "selectedTrackTitle": "Son Of \"There's No Place Like Homerton\"",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=Qk04cGkff44",
+        "selectedTrackYtId": pathToYtVideo + "Qk04cGkff44",
         "isAGem": false
     },
     {
@@ -2858,7 +2886,7 @@ const albums = [
         "cover": pathToCovers + "/hatfield_and_the_north_the_rotters_club.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.C_JAZZ, criteria.FUNNY],
         "selectedTrackTitle": "Mumps",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=h_MUajIs9Vs",
+        "selectedTrackYtId": pathToYtVideo + "h_MUajIs9Vs",
         "isAGem": false
     },
     {
@@ -2870,7 +2898,7 @@ const albums = [
         "cover": pathToCovers + "/hawkwind_in_search_of_space.jpg",
         "criteria": [criteria.JAM, criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO, criteria.HEAVY, criteria.SPACY],
         "selectedTrackTitle": "Masters Of The Universe",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=X3W7ch0oLeA",
+        "selectedTrackYtId": pathToYtVideo + "X3W7ch0oLeA",
         "isAGem": false
     },
     {
@@ -2882,7 +2910,7 @@ const albums = [
         "cover": pathToCovers + "/hawkwind_doremi_fasol_latido.jpg",
         "criteria": [criteria.JAM, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO, criteria.HEAVY, criteria.SPACY],
         "selectedTrackTitle": "Time We Left This World Today",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=X5SRYtPLDLI",
+        "selectedTrackYtId": pathToYtVideo + "X5SRYtPLDLI",
         "isAGem": false
     },
     {
@@ -2894,7 +2922,7 @@ const albums = [
         "cover": pathToCovers + "/hawkwind_hall_of_the_mountain_grill.jpg",
         "criteria": [criteria.JAM, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO, criteria.HEAVY, criteria.SPACY],
         "selectedTrackTitle": "The Psychedelic Warlords",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=MvHtfoqcDss",
+        "selectedTrackYtId": pathToYtVideo + "MvHtfoqcDss",
         "isAGem": false
     },
     {
@@ -2906,7 +2934,7 @@ const albums = [
         "cover": pathToCovers + "/hawkwind_warriors_on_the_edge_of_time.jpg",
         "criteria": [criteria.JAM, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO, criteria.HEAVY, criteria.SPACY],
         "selectedTrackTitle": "Assault And Battery / The Golden Void",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=1UIYMxZRLf0",
+        "selectedTrackYtId": pathToYtVideo + "1UIYMxZRLf0",
         "isAGem": false
     },
     {
@@ -2918,7 +2946,7 @@ const albums = [
         "cover": pathToCovers + "/henry_cow_legend.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.EXPERIMENTAL, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.JAZZ],
         "selectedTrackTitle": "Amygdala",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=t4e-Zq6kPk4",
+        "selectedTrackYtId": pathToYtVideo + "t4e-Zq6kPk4",
         "isAGem": false
     },
     {
@@ -2930,7 +2958,7 @@ const albums = [
         "cover": pathToCovers + "/henry_cow_unrest.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.EXPERIMENTAL, criteria.LENGHTY_TRACKS, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.JAZZ],
         "selectedTrackTitle": "Half Asleep/Half Awake",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=DDLqUcUls6s",
+        "selectedTrackYtId": pathToYtVideo + "DDLqUcUls6s",
         "isAGem": false
     },
     {
@@ -2942,7 +2970,7 @@ const albums = [
         "cover": pathToCovers + "/henry_cow_in_praise_of_learning.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.EXPERIMENTAL, criteria.LENGHTY_TRACKS, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.JAZZ],
         "selectedTrackTitle": "Beautiful As The Moon - Terrible As An Army With Banners",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=374qf7xCFkY",
+        "selectedTrackYtId": pathToYtVideo + "374qf7xCFkY",
         "isAGem": false
     },
     {
@@ -2954,7 +2982,7 @@ const albums = [
         "cover": pathToCovers + "/herbie_hancock_thrust.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.SOFT, criteria.C_ELECTRO, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Butterfly",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=knbmKDUYDXc",
+        "selectedTrackYtId": pathToYtVideo + "knbmKDUYDXc",
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -2969,7 +2997,7 @@ const albums = [
         "cover": pathToCovers + "/ikarus_ikarus.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.C_JAZZ],
         "selectedTrackTitle": "The Raven",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=Q09vwl1A9CY",
+        "selectedTrackYtId": pathToYtVideo + "Q09vwl1A9CY",
         "isAGem": false
     },
     {
@@ -2981,7 +3009,7 @@ const albums = [
         "cover": pathToCovers + "/the_incredible_string_band_the_incredible_string_band.jpg",
         "criteria": [criteria.UNCOMMON_INSTRUMENTS, criteria.FOLK],
         "selectedTrackTitle": "Dandelion Blues",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=QF2pR4hq02k",
+        "selectedTrackYtId": pathToYtVideo + "QF2pR4hq02k",
         "isAGem": false
     },
     {
@@ -2993,7 +3021,7 @@ const albums = [
         "cover": pathToCovers + "/the_incredible_string_band_the_5000_spirits_or_the_layers_of_the_onion.jpg",
         "criteria": [criteria.ORIENTAL, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.FOLK],
         "selectedTrackTitle": "Painting Box",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=UoQ3tmohEX4",
+        "selectedTrackYtId": pathToYtVideo + "UoQ3tmohEX4",
         "isAGem": false
     },
     {
@@ -3005,7 +3033,7 @@ const albums = [
         "cover": pathToCovers + "/the_incredible_string_band_the_hangmans_beautiful_daughter.jpg",
         "criteria": [criteria.LENGHTY_TRACKS, criteria.ORIENTAL, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.FOLK],
         "selectedTrackTitle": "A Very Cellular Song",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=-90rrjR6Wvk",
+        "selectedTrackYtId": pathToYtVideo + "-90rrjR6Wvk",
         "isAGem": false
     },
     {
@@ -3017,7 +3045,7 @@ const albums = [
         "cover": pathToCovers + "/the_incredible_string_band_wee_tam.jpg",
         "criteria": [criteria.ORIENTAL, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.FOLK],
         "selectedTrackTitle": "Job's Tears",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=Dd5yq76q51c",
+        "selectedTrackYtId": pathToYtVideo + "Dd5yq76q51c",
         "isAGem": false
     },
     {
@@ -3029,7 +3057,7 @@ const albums = [
         "cover": pathToCovers + "/the_incredible_string_band_the_big_huge.jpg",
         "criteria": [criteria.ORIENTAL, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.FOLK],
         "selectedTrackTitle": "Cousin Caterpillar",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=nu0brlGGQ2Y",
+        "selectedTrackYtId": pathToYtVideo + "nu0brlGGQ2Y",
         "isAGem": false
     },
     {
@@ -3041,7 +3069,7 @@ const albums = [
         "cover": pathToCovers + "/island_pictures.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.SOPHISTICATED],
         "selectedTrackTitle": "Zero",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=JY4fRFeJOoE",
+        "selectedTrackYtId": pathToYtVideo + "JY4fRFeJOoE",
         "isAGem": true,
         "desciprion": "TODO"
     },
@@ -3057,7 +3085,7 @@ const albums = [
         "cover": pathToCovers + "/jade_warrior_jade_warrior.jpg",
         "criteria": [criteria.CONCEPT, criteria.SOFT, criteria.ORIENTAL, criteria.UNCOMMON_INSTRUMENTS],
         "selectedTrackTitle": "Sundial Song",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=0JqujXC4HgQ",
+        "selectedTrackYtId": pathToYtVideo + "0JqujXC4HgQ",
         "isAGem": false
     },
     {
@@ -3069,7 +3097,7 @@ const albums = [
         "cover": pathToCovers + "/jade_warrior_released.jpg",
         "criteria": [criteria.CONCEPT, criteria.SOFT, criteria.ORIENTAL, criteria.UNCOMMON_INSTRUMENTS, criteria.C_JAZZ],
         "selectedTrackTitle": "Water Curtain Cave",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=eNV_7E2P_ok",
+        "selectedTrackYtId": pathToYtVideo + "eNV_7E2P_ok",
         "isAGem": false
     },
     {
@@ -3081,7 +3109,7 @@ const albums = [
         "cover": pathToCovers + "/jade_warrior_last_autumns_dream.jpg",
         "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.SOFT, criteria.ORIENTAL, criteria.UNCOMMON_INSTRUMENTS],
         "selectedTrackTitle": "Morning Hymn",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=ArrIZD5Hklc",
+        "selectedTrackYtId": pathToYtVideo + "ArrIZD5Hklc",
         "isAGem": false
     },
     {
@@ -3093,7 +3121,7 @@ const albums = [
         "cover": pathToCovers + "/jade_warrior_floating_world.jpg",
         "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.TRANSITION, criteria.SOFT, criteria.ORIENTAL, criteria.AMBIENT, criteria.UNCOMMON_INSTRUMENTS, criteria.C_JAZZ],
         "selectedTrackTitle": "Mountain Of Fruit And Flowers",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=P02f9snizbE",
+        "selectedTrackYtId": pathToYtVideo + "P02f9snizbE",
         "isAGem": false
     },
     {
@@ -3105,7 +3133,7 @@ const albums = [
         "cover": pathToCovers + "/jade_warrior_waves.jpg",
         "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.TRANSITION, criteria.SOFT, criteria.ORIENTAL, criteria.AMBIENT, criteria.UNCOMMON_INSTRUMENTS, criteria.C_JAZZ],
         "selectedTrackTitle": "Waves (Part II)",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=uGYpyLxDzlk",
+        "selectedTrackYtId": pathToYtVideo + "uGYpyLxDzlk",
         "isAGem": false
     },
     {
@@ -3117,7 +3145,7 @@ const albums = [
         "cover": pathToCovers + "/jade_warrior_kites.jpg",
         "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.TRANSITION, criteria.SOFT, criteria.ORIENTAL, criteria.AMBIENT, criteria.UNCOMMON_INSTRUMENTS, criteria.C_JAZZ],
         "selectedTrackTitle": "Wind Song",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=y4m76cJXZmo",
+        "selectedTrackYtId": pathToYtVideo + "y4m76cJXZmo",
         "isAGem": false,
     },
     {
@@ -3129,7 +3157,7 @@ const albums = [
         "cover": pathToCovers + "/jade_warrior_way_of_the_sun.jpg",
         "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.TRANSITION, criteria.SOFT, criteria.ORIENTAL, criteria.AMBIENT, criteria.UNCOMMON_INSTRUMENTS, criteria.C_JAZZ],
         "selectedTrackTitle": "Heaven Stone",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=e0-VIz5MINU",
+        "selectedTrackYtId": pathToYtVideo + "e0-VIz5MINU",
         "isAGem": true,
         "description": "TODO"
     },
@@ -3142,7 +3170,7 @@ const albums = [
         "cover": pathToCovers + "/jean_michel_jarre_oxygene.jpg",
         "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.SOFT, criteria.AMBIENT, criteria.ELECTRO],
         "selectedTrackTitle": "Oxygène (Part IV)",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=P_I2ch8_TXc",
+        "selectedTrackYtId": pathToYtVideo + "P_I2ch8_TXc",
         "isAGem": true,
         "description": "TODO"
     },
@@ -3155,7 +3183,7 @@ const albums = [
         "cover": pathToCovers + "/jean_michel_jarre_equinoxe.jpg",
         "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.SOFT, criteria.AMBIENT, criteria.ELECTRO],
         "selectedTrackTitle": "Équinoxe (Part IV)",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=fpWNimba344",
+        "selectedTrackYtId": pathToYtVideo + "fpWNimba344",
         "isAGem": false
     },
     {
@@ -3167,7 +3195,7 @@ const albums = [
         "cover": pathToCovers + "/jefferson_airplane_crown_of_creation.jpg",
         "criteria": [criteria.C_PSYCHEDELIC, criteria.FOLK],
         "selectedTrackTitle": "Lather",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=e0-9WF4FF8QrQE",
+        "selectedTrackYtId": pathToYtVideo + "e0-9WF4FF8QrQE",
         "isAGem": false
     },
     {
@@ -3179,7 +3207,7 @@ const albums = [
         "cover": pathToCovers + "/jethro_tull_stand_up.jpg",
         "criteria": [criteria.JAM, criteria.FOLK],
         "selectedTrackTitle": "Bourée",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=N2RNe2jwHE0",
+        "selectedTrackYtId": pathToYtVideo + "N2RNe2jwHE0",
         "isAGem": false
     },
     {
@@ -3191,7 +3219,7 @@ const albums = [
         "cover": pathToCovers + "/jethro_tull_benefit.jpg",
         "criteria": [criteria.JAM, criteria.FOLK],
         "selectedTrackTitle": "For Michael Collins, Jeffrey and Me",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=b2GTNhmPbtg",
+        "selectedTrackYtId": pathToYtVideo + "b2GTNhmPbtg",
         "isAGem": false
     },
     {
@@ -3203,7 +3231,7 @@ const albums = [
         "cover": pathToCovers + "/jethro_tull_aqualung.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.JAM, criteria.FOLK],
         "selectedTrackTitle": "Aqualung",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=B0jMPI_pUec",
+        "selectedTrackYtId": pathToYtVideo + "B0jMPI_pUec",
         "isAGem": false
     },
     {
@@ -3215,7 +3243,7 @@ const albums = [
         "cover": pathToCovers + "/jethro_tull_thick_as_a_brick.jpg",
         "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.ROCK_OPERA, criteria.FOLK],
         "selectedTrackTitle": "Thick As A Brick (Part I)",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=l21p4Id40cU",
+        "selectedTrackYtId": pathToYtVideo + "l21p4Id40cU",
         "isAGem": true,
         "description": "TODO"
     },
@@ -3228,7 +3256,7 @@ const albums = [
         "cover": pathToCovers + "/jethro_tull_a_passion_play.jpg",
         "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.ROCK_OPERA, criteria.FOLK],
         "selectedTrackTitle": "A Passion Play (Part I)",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=gB_Ago8wDb8",
+        "selectedTrackYtId": pathToYtVideo + "gB_Ago8wDb8",
         "isAGem": false
     },
     {
@@ -3240,7 +3268,7 @@ const albums = [
         "cover": pathToCovers + "/jethro_tull_minstrel_in_the_gallery.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.FOLK],
         "selectedTrackTitle": "Baker St. Muse",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=B-7yVIJ7wE4",
+        "selectedTrackYtId": pathToYtVideo + "B-7yVIJ7wE4",
         "isAGem": false
     },
     {
@@ -3252,7 +3280,7 @@ const albums = [
         "cover": pathToCovers + "/jethro_tull_songs_from_the_wood.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.FOLK],
         "selectedTrackTitle": "Velvet Green",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=JG77YHX5yYE",
+        "selectedTrackYtId": pathToYtVideo + "JG77YHX5yYE",
         "isAGem": false
     },
     {
@@ -3264,7 +3292,7 @@ const albums = [
         "cover": pathToCovers + "/the_jimi_hendrix_experience_electric_ladyland.jpg",
         "criteria": [criteria.JAM, criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.ROCK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Burning Of The Midnight Lamp",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=j60OzzR7mMk",
+        "selectedTrackYtId": pathToYtVideo + "j60OzzR7mMk",
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -3279,7 +3307,7 @@ const albums = [
         "cover": pathToCovers + "/kanguru_dreaming.jpg",
         "criteria": [criteria.INSTRUMENTAL, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.ORIENTAL, criteria.AMBIENT, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC],
         "selectedTrackTitle": "Ras Lila",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=eNTd_BY_zsI",
+        "selectedTrackYtId": pathToYtVideo + "eNTd_BY_zsI",
         "isAGem": false
     },
     {
@@ -3291,7 +3319,7 @@ const albums = [
         "cover": pathToCovers + "/keef_hartley_band_the_time_is_near.jpg",
         "criteria": [criteria.JAM, criteria.C_FOLK, criteria.ROCK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "The Time Is Near",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=SIm_uYzdcsA",
+        "selectedTrackYtId": pathToYtVideo + "SIm_uYzdcsA",
         "isAGem": false
     },
     {
@@ -3303,7 +3331,7 @@ const albums = [
         "cover": pathToCovers + "/keef_hartley_band_overdog.jpg",
         "criteria": [criteria.JAM, criteria.C_FOLK, criteria.ROCK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Theme Song / En Route",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=76upSLEWHL8",
+        "selectedTrackYtId": pathToYtVideo + "76upSLEWHL8",
         "isAGem": false
     },
     {
@@ -3315,7 +3343,7 @@ const albums = [
         "cover": pathToCovers + "/khan_space_shanty.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, 7],
         "selectedTrackTitle": "Stranded",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=tHkYXKlwB9s",
+        "selectedTrackYtId": pathToYtVideo + "tHkYXKlwB9s",
         "isAGem": false
     },
     {
@@ -3327,7 +3355,7 @@ const albums = [
         "cover": pathToCovers + "/king_crimson_in_the_court_of_the_crimson_king.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "The Court Of The Crimson King",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=gvCmtHDDuu0",
+        "selectedTrackYtId": pathToYtVideo + "gvCmtHDDuu0",
         "isAGem": true,
         "description": "TODO"
     },
@@ -3340,7 +3368,7 @@ const albums = [
         "cover": pathToCovers + "/king_crimson_in_the_wake_of_poseidon.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "In The Wake Of Poseidon",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=J1JjOpXsJ7A",
+        "selectedTrackYtId": pathToYtVideo + "J1JjOpXsJ7A",
         "isAGem": false
     },
     {
@@ -3352,7 +3380,7 @@ const albums = [
         "cover": pathToCovers + "/king_crimson_lizard.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.C_JAZZ],
         "selectedTrackTitle": "Cirkus",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=IYHjPE9ByS4",
+        "selectedTrackYtId": pathToYtVideo + "IYHjPE9ByS4",
         "isAGem": false
     },
     {
@@ -3364,7 +3392,7 @@ const albums = [
         "cover": pathToCovers + "/king_crimson_islands.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "Islands",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=8UUWBCXa21Y",
+        "selectedTrackYtId": pathToYtVideo + "8UUWBCXa21Y",
         "isAGem": false
     },
     {
@@ -3388,7 +3416,7 @@ const albums = [
         "cover": pathToCovers + "/king_crimson_starless_and_bible_black.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.C_JAZZ],
         "selectedTrackTitle": "Fracture",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=ZaD7gk7BTwU",
+        "selectedTrackYtId": pathToYtVideo + "ZaD7gk7BTwU",
         "isAGem": false
     },
     {
@@ -3400,7 +3428,7 @@ const albums = [
         "cover": pathToCovers + "/king_crimson_red.jpg",
         "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "Starless",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=OfR6_V91fG8",
+        "selectedTrackYtId": pathToYtVideo + "OfR6_V91fG8",
         "isAGem": true,
         "description": "TODO"
     },
@@ -3464,7 +3492,7 @@ const albums = [
         "cover": pathToCovers + "/led_zeppelin_led_zeppelin_iv.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.UNCOMMON_INSTRUMENTS, criteria.C_FOLK, criteria.ROCK],
         "selectedTrackTitle": "Four Sticks",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=T8GP2j7NdSo",
+        "selectedTrackYtId": pathToYtVideo + "T8GP2j7NdSo",
         "isAGem": true,
         "description": "TODO"
     },
@@ -3477,7 +3505,7 @@ const albums = [
         "cover": pathToCovers + "/led_zeppelin_houses_of_the_holy.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.BLENDS, criteria.ROCK],
         "selectedTrackTitle": "No Quarter",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=Pu94mWlgzMY",
+        "selectedTrackYtId": pathToYtVideo + "Pu94mWlgzMY",
         "isAGem": false
     },
     {
@@ -3489,7 +3517,7 @@ const albums = [
         "cover": pathToCovers + "/led_zeppelin_physical_graffiti.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.JAM, criteria.ROCK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Ten Years Gone",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=kWbO9a1_Z3U",
+        "selectedTrackYtId": pathToYtVideo + "kWbO9a1_Z3U",
         "isAGem": false
     },
     {
@@ -3501,7 +3529,7 @@ const albums = [
         "cover": pathToCovers + "/led_zeppelin_presence.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.JAM, criteria.ROCK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Achilles Last Stand",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=Rf1I9htJk",
+        "selectedTrackYtId": pathToYtVideo + "Rf1I9htJk",
         "isAGem": false
     },
     {
@@ -3513,7 +3541,7 @@ const albums = [
         "cover": pathToCovers + "/lethe_lethe.jpg",
         "criteria": [criteria.INSTRUMENTAL, criteria.SOFT, criteria.UNCOMMON_INSTRUMENTS],
         "selectedTrackTitle": "Cold In Fingers",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=ZCx4ENGwjFM",
+        "selectedTrackYtId": pathToYtVideo + "ZCx4ENGwjFM",
         "isAGem": false
     },
     {
@@ -3525,7 +3553,7 @@ const albums = [
         "cover": pathToCovers + "/locanda_dell_fate_forse_le_lucciole_non_si_amano_piu.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.GLITTER, criteria.ITALIAN_SUNG],
         "selectedTrackTitle": "Forse Le Lucciole Non Si Amano Più",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=QbaJfSEehns",
+        "selectedTrackYtId": pathToYtVideo + "QbaJfSEehns",
         "isAGem": false
     },
     {
@@ -3537,7 +3565,7 @@ const albums = [
         "cover": pathToCovers + "/los_grillos_vibraciones_latinoamericanas.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.SOFT, criteria.C_ELECTRO, criteria.SPANISH_SUNG, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Pueblito",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=z8rtBgxvAfw",
+        "selectedTrackYtId": pathToYtVideo + "z8rtBgxvAfw",
         "isAGem": false
     },
     {
@@ -3549,7 +3577,7 @@ const albums = [
         "cover": pathToCovers + "/the_long_hello_the_long_hello.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.SOFT, criteria.C_FOLK],
         "selectedTrackTitle": "Fairhazel Gardens",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=DiiPTWZiJJ0",
+        "selectedTrackYtId": pathToYtVideo + "DiiPTWZiJJ0",
         "isAGem": false
     },
     {
@@ -3561,7 +3589,7 @@ const albums = [
         "cover": pathToCovers + "/low_flying_aircraft_low_flying_aircraft.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.C_ELECTRO],
         "selectedTrackTitle": "Poolside",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=7sspuSlsL1Q",
+        "selectedTrackYtId": pathToYtVideo + "7sspuSlsL1Q",
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -3576,7 +3604,7 @@ const albums = [
         "cover": pathToCovers + "/ml_bongers_project_pacific_prison.jpg",
         "criteria": [criteria.STORYLINE, criteria.TRANSITION, criteria.SOUND_COLLAGES, criteria.C_ELECTRO],
         "selectedTrackTitle": "A Deadly Smile",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=px1CIxbSN0o",
+        "selectedTrackYtId": pathToYtVideo + "px1CIxbSN0o",
         "isAGem": false
     },
     {
@@ -3588,7 +3616,7 @@ const albums = [
         "cover": pathToCovers + "/magic_spell_is_there_anywhere_a_gas_station.jpg",
         "criteria": [criteria.JAM, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO],
         "selectedTrackTitle": "Turkish Invasion",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=3RHzfQQn1Zs",
+        "selectedTrackYtId": pathToYtVideo + "3RHzfQQn1Zs",
         "isAGem": false
     },
     {
@@ -3600,7 +3628,7 @@ const albums = [
         "cover": pathToCovers + "/magma_magma.jpg",
         "criteria": [criteria.STORYLINE, criteria.EXPERIMENTAL, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_JAZZ, criteria.SPECTACULAR, criteria.ZEUHL, criteria.ROCK_OPERA],
         "selectedTrackTitle": "Kobaïa",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=TAtaaxb2TVU",
+        "selectedTrackYtId": pathToYtVideo + "TAtaaxb2TVU",
         "isAGem": false
     },
     {
@@ -3612,7 +3640,7 @@ const albums = [
         "cover": pathToCovers + "/magma_1001_centigrades.jpg",
         "criteria": [criteria.STORYLINE, criteria.EXPERIMENTAL, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_JAZZ, criteria.SPECTACULAR, criteria.ZEUHL, criteria.ROCK_OPERA],
         "selectedTrackTitle": "Ki Ïahl Ö Lïahk",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=gbVas9ZMVgk",
+        "selectedTrackYtId": pathToYtVideo + "gbVas9ZMVgk",
         "isAGem": false
     },
     {
@@ -3624,7 +3652,7 @@ const albums = [
         "cover": pathToCovers + "/magma_mekanik_destruktiw_kommandoh.jpg",
         "criteria": [criteria.STORYLINE, criteria.EXPERIMENTAL, criteria.SYMPHONIC, criteria.C_JAZZ, criteria.SPECTACULAR, criteria.ZEUHL, criteria.ROCK_OPERA],
         "selectedTrackTitle": "Da Zeuhl Ẁortz Mëkanïk",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=B5UZVtUC3V0",
+        "selectedTrackYtId": pathToYtVideo + "B5UZVtUC3V0",
         "isAGem": true,
         "description": "TODO"
     },
@@ -3635,9 +3663,9 @@ const albums = [
         "year": 1974,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/magma_wurdah_itah.jpg",
-        "criteria": [5, criteria.TRANSITION, criteria.SYMPHONIC, criteria.C_JAZZ, criteria.SPECTACULAR, criteria.ZEUHL, criteria.ROCK_OPERA, criteria.SOUNDTRACK],
+        "criteria": [criteria.EXPERIMENTAL, criteria.TRANSITION, criteria.SYMPHONIC, criteria.C_JAZZ, criteria.SPECTACULAR, criteria.ZEUHL, criteria.ROCK_OPERA, criteria.SOUNDTRACK],
         "selectedTrackTitle": "De Zeuhl Ündazïr",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=8rRdPY9fTdU",
+        "selectedTrackYtId": pathToYtVideo + "8rRdPY9fTdU",
         "isAGem": false
     },
     {
@@ -3649,7 +3677,7 @@ const albums = [
         "cover": pathToCovers + "/mahavishnu_orchestra_the_inner_mounting_flame.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.UNCOMMON_INSTRUMENTS, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "A Lotus On Irish Streams",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=1m5V8zbyR2M",
+        "selectedTrackYtId": pathToYtVideo + "1m5V8zbyR2M",
         "isAGem": true,
         "description": "TODO"
     },
@@ -3662,7 +3690,7 @@ const albums = [
         "cover": pathToCovers + "/mahavishnu_orchestra_birds_of_fire.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.UNCOMMON_INSTRUMENTS, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Sanctuary",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=d08lMTHzYdY",
+        "selectedTrackYtId": pathToYtVideo + "d08lMTHzYdY",
         "isAGem": false
     },
     {
@@ -3674,7 +3702,7 @@ const albums = [
         "cover": pathToCovers + "/mahavishnu_orchestra_between_nothingness_and_eternity.jpg",
         "criteria": [4, criteria.INSTRUMENTAL, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.LIVE, criteria.UNCOMMON_INSTRUMENTS, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "La Mère De La Mer",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=8YrPXjladAw",
+        "selectedTrackYtId": pathToYtVideo + "8YrPXjladAw",
         "isAGem": false
     },
     {
@@ -3686,7 +3714,7 @@ const albums = [
         "cover": pathToCovers + "/mahavishnu_orchestra_apocalypse.jpg",
         "criteria": [4, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.UNCOMMON_INSTRUMENTS, criteria.BLENDS, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Hymn To Him",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=M9eegi9dd6g",
+        "selectedTrackYtId": pathToYtVideo + "M9eegi9dd6g",
         "isAGem": false
     },
     {
@@ -3698,7 +3726,7 @@ const albums = [
         "cover": pathToCovers + "/mahavishnu_orchestra_visions_of_emerald_beyond.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.UNCOMMON_INSTRUMENTS, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Lila's Dance",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=ZSh0nmretso",
+        "selectedTrackYtId": pathToYtVideo + "ZSh0nmretso",
         "isAGem": false
     },
     {
@@ -3710,7 +3738,7 @@ const albums = [
         "cover": pathToCovers + "/mahogany_rush_maxoom.jpg",
         "criteria": [criteria.JAM, criteria.C_PSYCHEDELIC, criteria.ROCK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Buddy",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=zvHYArrWQ",
+        "selectedTrackYtId": pathToYtVideo + "zvHYArrWQ",
         "isAGem": false
     },
     {
@@ -3722,7 +3750,7 @@ const albums = [
         "cover": pathToCovers + "/mahogany_rush_child_of_the_novelty.jpg",
         "criteria": [criteria.JAM, criteria.C_PSYCHEDELIC, criteria.ROCK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Child Of The Novelty",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=4fVfpcHMxWg",
+        "selectedTrackYtId": pathToYtVideo + "4fVfpcHMxWg",
         "isAGem": false
     },
     {
@@ -3734,7 +3762,7 @@ const albums = [
         "cover": pathToCovers + "/mahogany_rush_strange_universe.jpg",
         "criteria": [criteria.JAM, criteria.C_PSYCHEDELIC, criteria.ROCK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Strange Universe",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=gbuNknh5lhI",
+        "selectedTrackYtId": pathToYtVideo + "gbuNknh5lhI",
         "isAGem": false
     },
     {
@@ -3746,7 +3774,7 @@ const albums = [
         "cover": pathToCovers + "/man_man.jpg",
         "criteria": [criteria.JAM, criteria.C_PSYCHEDELIC, criteria.ROCK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Would The Christians Wait Five Minutes? The Lions Are Having A Draw",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=9fCs_QsrcSU",
+        "selectedTrackYtId": pathToYtVideo + "9fCs_QsrcSU",
         "isAGem": false
     },
     {
@@ -3758,7 +3786,7 @@ const albums = [
         "cover": pathToCovers + "/man_do_you_like_it_here_now_are_you_settling_in.jpg",
         "criteria": [criteria.JAM, criteria.ROCK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "All Good Clean Fun",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=PllGouNiXlo",
+        "selectedTrackYtId": pathToYtVideo + "PllGouNiXlo",
         "isAGem": false
     },
     {
@@ -3770,7 +3798,7 @@ const albums = [
         "cover": pathToCovers + "/man_be_good_to_yourself_at_least_once_a_day.jpg",
         "criteria": [criteria.JAM, criteria.ROCK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "C'mon",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=pZIg-fJU7vI",
+        "selectedTrackYtId": pathToYtVideo + "pZIg-fJU7vI",
         "isAGem": false
     },
     {
@@ -3782,7 +3810,7 @@ const albums = [
         "cover": pathToCovers + "/marillion_script_for_a_jesters_tear.jpg",
         "criteria": [criteria.ROCK_OPERA, criteria.ART_POP],
         "selectedTrackTitle": "Forgotten Sons",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=RtiUoEbwD7Q",
+        "selectedTrackYtId": pathToYtVideo + "RtiUoEbwD7Q",
         "isAGem": false
     },
     {
@@ -3794,7 +3822,7 @@ const albums = [
         "cover": pathToCovers + "/marillion_fugazi.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.GLITTER, criteria.ROCK_OPERA, criteria.ART_POP],
         "selectedTrackTitle": "Punch & Judy",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=OWrwYsSt6OE",
+        "selectedTrackYtId": pathToYtVideo + "OWrwYsSt6OE",
         "isAGem": false
     },
     {
@@ -3806,7 +3834,7 @@ const albums = [
         "cover": pathToCovers + "/marillion_misplaced_childhood.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.TRANSITION, criteria.ROCK_OPERA, criteria.ART_POP],
         "selectedTrackTitle": "Blind Curve",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=5aMaGblvd5o",
+        "selectedTrackYtId": pathToYtVideo + "5aMaGblvd5o",
         "isAGem": false
     },
     {
@@ -3818,7 +3846,7 @@ const albums = [
         "cover": pathToCovers + "/marillion_clutching_at_straws.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.TRANSITION, criteria.ROCK_OPERA, criteria.ART_POP],
         "selectedTrackTitle": "Just For The Record",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=Q79xkgIXhmU",
+        "selectedTrackYtId": pathToYtVideo + "Q79xkgIXhmU",
         "isAGem": false
     },
     {
@@ -3830,7 +3858,7 @@ const albums = [
         "cover": pathToCovers + "/matching_mole_matching_mole.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.C_PSYCHEDELIC, criteria.C_JAZZ],
         "selectedTrackTitle": "Part Of The Dance",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=7pvk1eIhFeM",
+        "selectedTrackYtId": pathToYtVideo + "7pvk1eIhFeM",
         "isAGem": false
     },
     {
@@ -3842,7 +3870,7 @@ const albums = [
         "cover": pathToCovers + "/matching_mole_little_red_record.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.C_PSYCHEDELIC, criteria.C_JAZZ],
         "selectedTrackTitle": "Brandy As In Benj",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=3pRLir_Evds",
+        "selectedTrackYtId": pathToYtVideo + "3pRLir_Evds",
         "isAGem": false
     },
     {
@@ -3854,7 +3882,7 @@ const albums = [
         "cover": pathToCovers + "/may_blitz_may_blitz.jpg",
         "criteria": [criteria.SOFT, criteria.C_PSYCHEDELIC],
         "selectedTrackTitle": "Tomorrow May Come",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=-JKaFlLHcQ8",
+        "selectedTrackYtId": pathToYtVideo + "-JKaFlLHcQ8",
         "isAGem": false
     },
     {
@@ -3866,7 +3894,7 @@ const albums = [
         "cover": pathToCovers + "/may_blitz_the_2nd_of_may.jpg",
         "criteria": [criteria.JAM, criteria.C_PSYCHEDELIC, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Snakes And Ladders",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=OKy6SGSGQbw",
+        "selectedTrackYtId": pathToYtVideo + "OKy6SGSGQbw",
         "isAGem": false
     },
     {
@@ -3878,7 +3906,7 @@ const albums = [
         "cover": pathToCovers + "/michel_madore_le_komuso_a_cordes.jpg",
         "criteria": [criteria.INSTRUMENTAL, criteria.C_PSYCHEDELIC, criteria.C_JAZZ],
         "selectedTrackTitle": "Calligraphie",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=MMnA_1jYPCU",
+        "selectedTrackYtId": pathToYtVideo + "MMnA_1jYPCU",
         "isAGem": false
     },
     {
@@ -3890,7 +3918,7 @@ const albums = [
         "cover": pathToCovers + "/michel_madore_la_chambre_nuptiale.jpg",
         "criteria": [criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.AMBIENT, criteria.SOUND_COLLAGES, criteria.C_PSYCHEDELIC, criteria.ELECTRO, criteria.SOUNDTRACK],
         "selectedTrackTitle": "Les Anges Qui Passent",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=-XR_7DT0E-c",
+        "selectedTrackYtId": pathToYtVideo + "-XR_7DT0E-c",
         "isAGem": false
     },
     {
@@ -3902,7 +3930,7 @@ const albums = [
         "cover": pathToCovers + "/mike_oldfield_hergest_ridge.jpg",
         "criteria": [criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.UNCOMMON_INSTRUMENTS, criteria.C_ELECTRO, criteria.C_FOLK, criteria.FANFARE],
         "selectedTrackTitle": "Hergest Ridge (Part I)",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=DPQPYwWgxTY",
+        "selectedTrackYtId": pathToYtVideo + "DPQPYwWgxTY",
         "isAGem": false
     },
     {
@@ -3914,7 +3942,7 @@ const albums = [
         "cover": pathToCovers + "/mike_oldfield_ommadawn.jpg",
         "criteria": [criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.UNCOMMON_INSTRUMENTS, criteria.C_ELECTRO, criteria.C_FOLK, criteria.FANFARE],
         "selectedTrackTitle": "Ommadawn (Part I)",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=vShVl_Xd_Tc",
+        "selectedTrackYtId": pathToYtVideo + "vShVl_Xd_Tc",
         "isAGem": false
     },
     {
@@ -3926,7 +3954,7 @@ const albums = [
         "cover": pathToCovers + "/miklagard_miklagard.jpg",
         "criteria": [criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.SWEDISH_SUNG],
         "selectedTrackTitle": "Soldaten",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=qcLbMdv1Ht0",
+        "selectedTrackYtId": pathToYtVideo + "qcLbMdv1Ht0",
         "isAGem": false
     },
     {
@@ -3938,7 +3966,7 @@ const albums = [
         "cover": pathToCovers + "/the_moody_blues_days_of_future_passed.jpg",
         "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.SYMPHONIC, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.ROCK_OPERA],
         "selectedTrackTitle": "Evening: The Sunset / Twilight Time",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=C012iKu9s-8",
+        "selectedTrackYtId": pathToYtVideo + "C012iKu9s-8",
         "isAGem": false
     },
     {
@@ -3950,7 +3978,7 @@ const albums = [
         "cover": pathToCovers + "/the_moody_blues_in_search_of_the_lost_chord.jpg",
         "criteria": [criteria.CONCEPT, criteria.C_PSYCHEDELIC, criteria.FOLK],
         "selectedTrackTitle": "The Actor",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=29ihZ_TbFqY",
+        "selectedTrackYtId": pathToYtVideo + "29ihZ_TbFqY",
         "isAGem": false
     },
     {
@@ -3962,7 +3990,7 @@ const albums = [
         "cover": pathToCovers + "/museo_rosenbach_zarathustra.jpg",
         "criteria": [criteria.CONCEPT, criteria.TRANSITION, criteria.SYMPHONIC, criteria.SPECTACULAR, criteria.ITALIAN_SUNG, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "Zarathustra I: L'ultimo Uomo",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=uC9hegZIC2g",
+        "selectedTrackYtId": pathToYtVideo + "uC9hegZIC2g",
         "isAGem": true,
         "description": "TODO"
     },
@@ -3978,7 +4006,7 @@ const albums = [
         "cover": pathToCovers + "/national_health_national_health.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.C_ELECTRO, criteria.C_FOLK, criteria.SOPHISTICATED],
         "selectedTrackTitle": "Tenemos Roads",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=vj9ZUHju7JE",
+        "selectedTrackYtId": pathToYtVideo + "vj9ZUHju7JE",
         "isAGem": false
     },
     {
@@ -3990,7 +4018,7 @@ const albums = [
         "cover": pathToCovers + "/national_health_of_queues_and_cures.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.C_ELECTRO, criteria.C_FOLK, criteria.SOPHISTICATED],
         "selectedTrackTitle": "Squarer For Maud",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=BeHheJ3kqYI",
+        "selectedTrackYtId": pathToYtVideo + "BeHheJ3kqYI",
         "isAGem": true,
         "description": "TODO"
     },
@@ -4003,7 +4031,7 @@ const albums = [
         "cover": pathToCovers + "/national_health_ds_al_coda.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.C_ELECTRO, criteria.C_FOLK, criteria.SOPHISTICATED],
         "selectedTrackTitle": "Black Hat",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=mYGh1aejZiA",
+        "selectedTrackYtId": pathToYtVideo + "mYGh1aejZiA",
         "isAGem": false
     },
     {
@@ -4015,7 +4043,7 @@ const albums = [
         "cover": pathToCovers + "/nautilus_space_storm.jpg",
         "criteria": [criteria.ROCK],
         "selectedTrackTitle": "Saturday Night",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=aDK_D0S87_k",
+        "selectedTrackYtId": pathToYtVideo + "aDK_D0S87_k",
         "isAGem": false
     },
     {
@@ -4027,7 +4055,7 @@ const albums = [
         "cover": pathToCovers + "/nazareth_hair_of_the_dog.jpg",
         "criteria": [criteria.JAM, criteria.ROCK, criteria.HEAVY],
         "selectedTrackTitle": "Please Don't Judas Me",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=PdiIu1RwGhA",
+        "selectedTrackYtId": pathToYtVideo + "PdiIu1RwGhA",
         "isAGem": false
     },
     {
@@ -4039,7 +4067,7 @@ const albums = [
         "cover": pathToCovers + "/nazareth_close_enough_for_rock_n_roll.jpg",
         "criteria": [criteria.JAM, criteria.ROCK, criteria.HEAVY],
         "selectedTrackTitle": "Telegram",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=xRgZlEVzAss",
+        "selectedTrackYtId": pathToYtVideo + "xRgZlEVzAss",
         "isAGem": false
     },
     {
@@ -4051,7 +4079,7 @@ const albums = [
         "cover": pathToCovers + "/nightwinds_nightwinds.jpg",
         "criteria": [criteria.GLITTER, criteria.C_ELECTRO],
         "selectedTrackTitle": "As The Crow Flies",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=EmtT_l7MYsE",
+        "selectedTrackYtId": pathToYtVideo + "EmtT_l7MYsE",
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -4066,7 +4094,7 @@ const albums = [
         "cover": pathToCovers + "/ozric_tentacles_pungent_effulgent.jpg",
         "criteria": [criteria.INSTRUMENTAL, criteria.JAM, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.JAZZY_GROOVY, criteria.ELECTRO, criteria.SPACY],
         "selectedTrackTitle": "Phalarn Dawn",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=UQCYvIbznkw",
+        "selectedTrackYtId": pathToYtVideo + "UQCYvIbznkw",
         "isAGem": false
     },
     {
@@ -4078,7 +4106,7 @@ const albums = [
         "cover": pathToCovers + "/ozric_tentacles_erpland.jpg",
         "criteria": [criteria.INSTRUMENTAL, criteria.JAM, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.JAZZY_GROOVY, criteria.ELECTRO, criteria.SPACY],
         "selectedTrackTitle": "Crackerblocks",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=ZjtfdisDhuo",
+        "selectedTrackYtId": pathToYtVideo + "ZjtfdisDhuo",
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -4093,7 +4121,7 @@ const albums = [
         "cover": pathToCovers + "/pangee_hymnemonde.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO],
         "selectedTrackTitle": "Cataracte",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=TVkcSh3COMc",
+        "selectedTrackYtId": pathToYtVideo + "TVkcSh3COMc",
         "isAGem": false
     },
     {
@@ -4105,7 +4133,7 @@ const albums = [
         "cover": pathToCovers + "/peter_gabriel_car.jpg",
         "criteria": [criteria.ART_POP],
         "selectedTrackTitle": "Here Comes The Flood",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=vb7htoJAK7g",
+        "selectedTrackYtId": pathToYtVideo + "vb7htoJAK7g",
         "isAGem": false
     },
     {
@@ -4117,7 +4145,7 @@ const albums = [
         "cover": pathToCovers + "/pink_floyd_the_piper_at_the_gates_of_dawn.jpg",
         "criteria": [criteria.C_PSYCHEDELIC, criteria.FUNNY],
         "selectedTrackTitle": "Interstellar Overdrive",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=4o2sA0vpA-4",
+        "selectedTrackYtId": pathToYtVideo + "4o2sA0vpA-4",
         "isAGem": false
     },
     {
@@ -4129,7 +4157,7 @@ const albums = [
         "cover": pathToCovers + "/pink_floyd_a_saucerful_of_secrets.jpg",
         "criteria": [criteria.C_PSYCHEDELIC],
         "selectedTrackTitle": "Set The Controls For The Heart Of The Sun",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=bbWOmh_rRq0",
+        "selectedTrackYtId": pathToYtVideo + "bbWOmh_rRq0",
         "isAGem": false
     },
     {
@@ -4141,7 +4169,7 @@ const albums = [
         "cover": pathToCovers + "/pink_floyd_ummagumma.jpg",
         "criteria": [criteria.TRANSITION, criteria.SOUND_COLLAGES, criteria.C_PSYCHEDELIC, criteria.C_FOLK],
         "selectedTrackTitle": "The Narrow Way",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=85Iz-_xigS8",
+        "selectedTrackYtId": pathToYtVideo + "85Iz-_xigS8",
         "isAGem": false
     },
     {
@@ -4153,7 +4181,7 @@ const albums = [
         "cover": pathToCovers + "/pink_floyd_more.jpg",
         "criteria": [criteria.C_PSYCHEDELIC, criteria.C_FOLK, criteria.PATCHWORK, criteria.SOUNDTRACK],
         "selectedTrackTitle": "Cymbaline",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=ZM5iopSs_rI",
+        "selectedTrackYtId": pathToYtVideo + "ZM5iopSs_rI",
         "isAGem": false
     },
     {
@@ -4165,7 +4193,7 @@ const albums = [
         "cover": pathToCovers + "/pink_floyd_atom_heart_mother.jpg",
         "criteria": [criteria.CONCEPT, criteria.EXPERIMENTAL, criteria.LENGHTY_TRACKS, criteria.SOUND_COLLAGES, criteria.BLENDS, criteria.C_PSYCHEDELIC, criteria.C_FOLK],
         "selectedTrackTitle": "Atom Heart Mother",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=yusGUGTVAyw",
+        "selectedTrackYtId": pathToYtVideo + "yusGUGTVAyw",
         "isAGem": false
     },
     {
@@ -4175,9 +4203,9 @@ const albums = [
         "year": 1971,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/pink_floyd_meddle.jpg",
-        "criteria": [5, criteria.LENGHTY_TRACKS, criteria.SOUND_COLLAGES, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO, criteria.C_FOLK],
+        "criteria": [criteria.EXPERIMENTAL, criteria.LENGHTY_TRACKS, criteria.SOUND_COLLAGES, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO, criteria.C_FOLK],
         "selectedTrackTitle": "A Pillow Of Winds",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=uThZ1uuLLWM",
+        "selectedTrackYtId": pathToYtVideo + "uThZ1uuLLWM",
         "isAGem": false
     },
     {
@@ -4189,7 +4217,7 @@ const albums = [
         "cover": pathToCovers + "/pink_floyd_obscured_by_clouds.jpg",
         "criteria": [criteria.ROCK, criteria.SOUNDTRACK],
         "selectedTrackTitle": "When You're In",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=6vr07uuBjg4",
+        "selectedTrackYtId": pathToYtVideo + "6vr07uuBjg4",
         "isAGem": false
     },
     {
@@ -4201,7 +4229,7 @@ const albums = [
         "cover": pathToCovers + "/pink_floyd_dark_side_of_the_moon.jpg",
         "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.TRANSITION, criteria.SOFT, criteria.SOUND_COLLAGES, criteria.C_ELECTRO],
         "selectedTrackTitle": "Time",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=rL3AgkwbYgo",
+        "selectedTrackYtId": pathToYtVideo + "rL3AgkwbYgo",
         "isAGem": true,
         "description": "TODO"
     },
@@ -4214,7 +4242,7 @@ const albums = [
         "cover": pathToCovers + "/pink_floyd_wish_you_were_here.jpg",
         "criteria": [criteria.JAM, criteria.LENGHTY_TRACKS, criteria.SOUND_COLLAGES, criteria.C_ELECTRO, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "Welcome To The Machine",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=lt-udg9zQSE",
+        "selectedTrackYtId": pathToYtVideo + "lt-udg9zQSE",
         "isAGem": false
     },
     {
@@ -4226,7 +4254,7 @@ const albums = [
         "cover": pathToCovers + "/pink_floyd_animals.jpg",
         "criteria": [criteria.CONCEPT, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.SOUND_COLLAGES, criteria.C_FOLK],
         "selectedTrackTitle": "Sheep",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=UqlsVZ1zxMk",
+        "selectedTrackYtId": pathToYtVideo + "UqlsVZ1zxMk",
         "isAGem": true,
         "description": "TODO"
     },
@@ -4239,7 +4267,7 @@ const albums = [
         "cover": pathToCovers + "/pink_floyd_the_wall.jpg",
         "criteria": [criteria.CONCEPT, criteria.TRANSITION, criteria.SOUND_COLLAGES, criteria.BLENDS, criteria.SPECTACULAR, criteria.ROCK_OPERA, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "The Trial",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=4fa7AtI1msk",
+        "selectedTrackYtId": pathToYtVideo + "4fa7AtI1msk",
         "isAGem": false
     },
     {
@@ -4251,7 +4279,7 @@ const albums = [
         "cover": pathToCovers + "/pink_floyd_the_final_cut.jpg",
         "criteria": [criteria.STORYLINE, criteria.TRANSITION, criteria.SOUND_COLLAGES, criteria.ROCK_OPERA, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "Your Possible Pasts",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=E-ve_sgdgZs",
+        "selectedTrackYtId": pathToYtVideo + "E-ve_sgdgZs",
         "isAGem": false
     },
     {
@@ -4263,7 +4291,7 @@ const albums = [
         "cover": pathToCovers + "/plat_du_jour_plat_du_jour.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.FRENCH_SUNG, criteria.HEAVY, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Zilbra",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=NnSnwsz9aXs",
+        "selectedTrackYtId": pathToYtVideo + "NnSnwsz9aXs",
         "isAGem": false
     },
     {
@@ -4275,7 +4303,7 @@ const albums = [
         "cover": pathToCovers + "/pulsar_pollen.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO, criteria.HUMBLE, criteria.FRENCH_SUNG],
         "selectedTrackTitle": "Apaisement",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=21D_sVa_-p8",
+        "selectedTrackYtId": pathToYtVideo + "21D_sVa_-p8",
         "isAGem": false
     },
     {
@@ -4287,7 +4315,7 @@ const albums = [
         "cover": pathToCovers + "/pulsar_the_strands_of_the_future.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO, criteria.HUMBLE, criteria.FRENCH_SUNG],
         "selectedTrackTitle": "The Strands Of The Future",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=KpL5htneI-c",
+        "selectedTrackYtId": pathToYtVideo + "KpL5htneI-c",
         "isAGem": true,
         "description": "TODO"
     },
@@ -4300,7 +4328,7 @@ const albums = [
         "cover": pathToCovers + "/pulsar_halloween.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO, criteria.HUMBLE, criteria.FRENCH_SUNG],
         "selectedTrackTitle": "Halloween (Part I)",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=2yD0VxZgobo",
+        "selectedTrackYtId": pathToYtVideo + "2yD0VxZgobo",
         "isAGem": false
     },
     {
@@ -4312,7 +4340,7 @@ const albums = [
         "cover": pathToCovers + "/pythagoras_journey_to_the_vast_unknown.jpg",
         "criteria": [criteria.INSTRUMENTAL, criteria.JAM, criteria.AMBIENT, criteria.C_PSYCHEDELIC, criteria.ELECTRO],
         "selectedTrackTitle": "Journey To The Vast Unknown (Part II)",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=qLWSAGAjUqw",
+        "selectedTrackYtId": pathToYtVideo + "qLWSAGAjUqw",
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -4327,7 +4355,7 @@ const albums = [
         "cover": pathToCovers + "/quatermass_quatermass.jpg",
         "criteria": [criteria.ROCK, criteria.HEAVY],
         "selectedTrackTitle": "Gemini",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=8tU5T4kGI2E",
+        "selectedTrackYtId": pathToYtVideo + "8tU5T4kGI2E",
         "isAGem": false
     },
     {
@@ -4339,7 +4367,7 @@ const albums = [
         "cover": pathToCovers + "/queen_queen_II.jpg",
         "criteria": [criteria.STORYLINE, criteria.TRANSITION, criteria.SYMPHONIC, criteria.BLENDS, criteria.ROCK_OPERA, criteria.FANFARE],
         "selectedTrackTitle": "The March Of The Black Queen",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=SoBMhx_ap_g",
+        "selectedTrackYtId": pathToYtVideo + "SoBMhx_ap_g",
         "isAGem": false
     },
     {
@@ -4351,7 +4379,7 @@ const albums = [
         "cover": pathToCovers + "/queen_sheer_heart_attack.jpg",
         "criteria": [criteria.TRANSITION, criteria.BLENDS, criteria.ROCK_OPERA, criteria.FANFARE],
         "selectedTrackTitle": "In The Lap Of The Gods... Revisited",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=ieXcPZC0MJk",
+        "selectedTrackYtId": pathToYtVideo + "ieXcPZC0MJk",
         "isAGem": false
     },
     {
@@ -4363,7 +4391,7 @@ const albums = [
         "cover": pathToCovers + "/queen_a_night_at_the_opera.jpg",
         "criteria": [criteria.BLENDS, criteria.ROCK_OPERA, criteria.FANFARE, criteria.ART_POP],
         "selectedTrackTitle": "Bohemian Rhapsody",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=fJ9rUzIMcZQ",
+        "selectedTrackYtId": pathToYtVideo + "fJ9rUzIMcZQ",
         "isAGem": false
     },
     {
@@ -4375,7 +4403,7 @@ const albums = [
         "cover": pathToCovers + "/queen_a_day_at_the_races.jpg",
         "criteria": [criteria.BLENDS, criteria.ROCK_OPERA, criteria.FANFARE, criteria.ART_POP],
         "selectedTrackTitle": "Somebody To Love",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=kijpcUv-b8M",
+        "selectedTrackYtId": pathToYtVideo + "kijpcUv-b8M",
         "isAGem": false
     },
     {
@@ -4387,7 +4415,7 @@ const albums = [
         "cover": pathToCovers + "/quicksilver_messenger_service_happy_trails.jpg",
         "criteria": [criteria.INSTRUMENTAL, criteria.JAM, criteria.LIVE, criteria.ROCK],
         "selectedTrackTitle": "When Do You Love",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=Rng54UMoxy8",
+        "selectedTrackYtId": pathToYtVideo + "Rng54UMoxy8",
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -4402,7 +4430,7 @@ const albums = [
         "cover": pathToCovers + "/rainbow_rainbow.jpg",
         "criteria": [criteria.JAM, criteria.ROCK, criteria.HEAVY],
         "selectedTrackTitle": "Catch The Rainbow",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=p3VgV31vmUE",
+        "selectedTrackYtId": pathToYtVideo + "p3VgV31vmUE",
         "isAGem": false
     },
     {
@@ -4414,7 +4442,7 @@ const albums = [
         "cover": pathToCovers + "/rainbow_rising.jpg",
         "criteria": [criteria.JAM, criteria.ROCK, criteria.SPECTACULAR, criteria.HEAVY],
         "selectedTrackTitle": "Stargazer",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=rVXy1OhaERY",
+        "selectedTrackYtId": pathToYtVideo + "rVXy1OhaERY",
         "isAGem": false
     },
     {
@@ -4426,7 +4454,7 @@ const albums = [
         "cover": pathToCovers + "/rainbow_long_live_rock_n_roll.jpg",
         "criteria": [criteria.JAM, criteria.ROCK, criteria.SPECTACULAR, criteria.HEAVY],
         "selectedTrackTitle": "Gates Of Babylon",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=MHCdCbTxypU",
+        "selectedTrackYtId": pathToYtVideo + "MHCdCbTxypU",
         "isAGem": false
     },
     {
@@ -4438,7 +4466,7 @@ const albums = [
         "cover": pathToCovers + "/ralph_lundsten_shangri_la.jpg",
         "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.TRANSITION, criteria.SOFT, criteria.AMBIENT, criteria.C_PSYCHEDELIC, criteria.ELECTRO],
         "selectedTrackTitle": "Shangri-La",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=Gg0dopo1q4U",
+        "selectedTrackYtId": pathToYtVideo + "Gg0dopo1q4U",
         "isAGem": false
     },
     {
@@ -4450,7 +4478,7 @@ const albums = [
         "cover": pathToCovers + "/ralph_lundsten_ralph_lundstens_universe.jpg",
         "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.TRANSITION, criteria.SOFT, criteria.AMBIENT, criteria.C_PSYCHEDELIC, criteria.ELECTRO],
         "selectedTrackTitle": "The Blue Planet",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=nc207RhZQDQ",
+        "selectedTrackYtId": pathToYtVideo + "nc207RhZQDQ",
         "isAGem": false
     },
     {
@@ -4462,7 +4490,7 @@ const albums = [
         "cover": pathToCovers + "/ralph_lundsten_discophrenia.jpg",
         "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.SOFT, criteria.AMBIENT, criteria.C_PSYCHEDELIC, criteria.JAZZY_GROOVY, criteria.ELECTRO],
         "selectedTrackTitle": "Discophrenia",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=wgWUJBJ4Tt8",
+        "selectedTrackYtId": pathToYtVideo + "wgWUJBJ4Tt8",
         "isAGem": false
     },
     {
@@ -4474,7 +4502,7 @@ const albums = [
         "cover": pathToCovers + "/ralph_lundsten_alpha_ralpha_boulevard.jpg",
         "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.SOFT, criteria.AMBIENT, criteria.C_PSYCHEDELIC, criteria.ELECTRO],
         "selectedTrackTitle": "Alpha Ralpha Boulevard",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=uKL5tj0FHDk",
+        "selectedTrackYtId": pathToYtVideo + "uKL5tj0FHDk",
         "isAGem": false
     },
     {
@@ -4510,7 +4538,7 @@ const albums = [
         "cover": pathToCovers + "/ramses_la_leyla.jpg",
         "criteria": [criteria.SOFT, criteria.C_ELECTRO, criteria.HUMBLE],
         "selectedTrackTitle": "La Leyla",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=FmiSuG7PuVs",
+        "selectedTrackYtId": pathToYtVideo + "FmiSuG7PuVs",
         "isAGem": false
     },
     {
@@ -4522,7 +4550,7 @@ const albums = [
         "cover": pathToCovers + "/ramses_eternity_rise.jpg",
         "criteria": [criteria.SOFT, criteria.C_ELECTRO, criteria.HUMBLE],
         "selectedTrackTitle": "Only Yesterday",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=KYfxukQkw10",
+        "selectedTrackYtId": pathToYtVideo + "KYfxukQkw10",
         "isAGem": false
     },
     {
@@ -4546,7 +4574,7 @@ const albums = [
         "cover": pathToCovers + "/raymond_vincent_metronomics.jpg",
         "criteria": [criteria.INSTRUMENTAL, criteria.C_FOLK, criteria.PATCHWORK],
         "selectedTrackTitle": "La Mouette",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=5g1Ppivoqu0",
+        "selectedTrackYtId": pathToYtVideo + "5g1Ppivoqu0",
         "isAGem": false
     },
     {
@@ -4558,7 +4586,7 @@ const albums = [
         "cover": pathToCovers + "/return_to_forever_return_to_forever.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Crystal Silence",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=69rjdr7SR0Q",
+        "selectedTrackYtId": pathToYtVideo + "69rjdr7SR0Q",
         "isAGem": false
     },
     {
@@ -4570,7 +4598,7 @@ const albums = [
         "cover": pathToCovers + "/return_to_forever_light_as_a_feather.jpg",
         "criteria": [criteria.JAM, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Spain",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=a_OEJ0wqt2g",
+        "selectedTrackYtId": pathToYtVideo + "a_OEJ0wqt2g",
         "isAGem": false
     },
     {
@@ -4582,7 +4610,7 @@ const albums = [
         "cover": pathToCovers + "/return_to_forever_hymn_of_the_seventh_galaxy.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "After The Cosmic Rain",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=MWPo6oqHvJ8",
+        "selectedTrackYtId": pathToYtVideo + "MWPo6oqHvJ8",
         "isAGem": false
     },
     {
@@ -4594,7 +4622,7 @@ const albums = [
         "cover": pathToCovers + "/return_to_forever_where_have_i_known_you_before.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Song To The Pharoah Kings",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=q-XDtjCwS9Q",
+        "selectedTrackYtId": pathToYtVideo + "q-XDtjCwS9Q",
         "isAGem": false
     },
     {
@@ -4606,7 +4634,7 @@ const albums = [
         "cover": pathToCovers + "/return_to_forever_no_mystery.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Celebration Suite (Part I)",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=LBawRSufDlU",
+        "selectedTrackYtId": pathToYtVideo + "LBawRSufDlU",
         "isAGem": false
     },
     {
@@ -4618,7 +4646,7 @@ const albums = [
         "cover": pathToCovers + "/return_to_forever_romantic_warrior.jpg",
         "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Duel Of The Jester And The Tyrant",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=sa21WPH4_U4",
+        "selectedTrackYtId": pathToYtVideo + "sa21WPH4_U4",
         "isAGem": true,
         "description": "TODO"
     },
@@ -4631,7 +4659,7 @@ const albums = [
         "cover": pathToCovers + "/return_to_forever_musicmagic.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.JAM, criteria.UNCOMMON_INSTRUMENTS, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "The Endless Night",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=STXJFzaAj0U",
+        "selectedTrackYtId": pathToYtVideo + "STXJFzaAj0U",
         "isAGem": false
     },
     {
@@ -4643,7 +4671,7 @@ const albums = [
         "cover": pathToCovers + "/robert_connolly_plateau.jpg",
         "criteria": [criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.C_ELECTRO],
         "selectedTrackTitle": "Journey",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=c4t_ThUzI48",
+        "selectedTrackYtId": pathToYtVideo + "c4t_ThUzI48",
         "isAGem": false
     },
     {
@@ -4655,7 +4683,7 @@ const albums = [
         "cover": pathToCovers + "/roger_glover_the_butterfly_ball_and_the_grasshoppers_feast.jpg",
         "criteria": [criteria.STORYLINE, criteria.ODD_RHYTHM, criteria.TRANSITION, criteria.BLENDS, criteria.PATCHWORK, criteria.ROCK_OPERA, criteria.FANFARE],
         "selectedTrackTitle": "Love Is All",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=YK2Pltm8ZsQ",
+        "selectedTrackYtId": pathToYtVideo + "YK2Pltm8ZsQ",
         "isAGem": true,
         "description": "TODO"
     },
@@ -4668,7 +4696,7 @@ const albums = [
         "cover": pathToCovers + "/roger_waters_and_ron_geesin_music_from_the_body.jpg",
         "criteria": [criteria.CONCEPT, criteria.EXPERIMENTAL, criteria.TRANSITION, criteria.SOFT, criteria.UNCOMMON_INSTRUMENTS, criteria.SOUND_COLLAGES, criteria.C_PSYCHEDELIC, criteria.C_FOLK, criteria.PATCHWORK, criteria.SOUNDTRACK],
         "selectedTrackTitle": "The Womb Bit",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=vR-PDPS1-Pg",
+        "selectedTrackYtId": pathToYtVideo + "vR-PDPS1-Pg",
         "isAGem": false
     },
     {
@@ -4680,7 +4708,7 @@ const albums = [
         "cover": pathToCovers + "/roy_wood_boulders.jpg",
         "criteria": [criteria.ART_POP, criteria.C_FOLK, criteria.FANFARE, criteria.FUNNY, criteria.BAROQUE],
         "selectedTrackTitle": "Miss Clarke And The Computer",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=BTxp7cqrQjA",
+        "selectedTrackYtId": pathToYtVideo + "BTxp7cqrQjA",
         "isAGem": false
     },
     {
@@ -4692,7 +4720,7 @@ const albums = [
         "cover": pathToCovers + "/roy_wood_mustard.jpg",
         "criteria": [criteria.ART_POP, criteria.BLENDS, criteria.BAROQUE, criteria.C_PSYCHEDELIC],
         "selectedTrackTitle": "Get On Down Home",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=6n5Y25fE-f0",
+        "selectedTrackYtId": pathToYtVideo + "6n5Y25fE-f0",
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -4707,7 +4735,7 @@ const albums = [
         "cover": pathToCovers + "/santana_caravanserai.jpg",
         "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.TRANSITION, criteria.AMBIENT, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Waves Within",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=VGbSw8dHR3w",
+        "selectedTrackYtId": pathToYtVideo + "VGbSw8dHR3w",
         "isAGem": true,
         "description": "TODO"
     },
@@ -4720,7 +4748,7 @@ const albums = [
         "cover": pathToCovers + "/santana_borboletta.jpg",
         "criteria": [criteria.JAM, criteria.TRANSITION, criteria.UNCOMMON_INSTRUMENTS, criteria.C_JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Canto De Los Flores",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=vlWO_F2D2tw",
+        "selectedTrackYtId": pathToYtVideo + "vlWO_F2D2tw",
         "isAGem": false
     },
     {
@@ -4732,7 +4760,7 @@ const albums = [
         "cover": pathToCovers + "/schicke_fuhrs_and_frohling_symphonic_pictures.jpg",
         "criteria": [criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_PSYCHEDELIC, criteria.ELECTRO],
         "selectedTrackTitle": "Pictures",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=xvnRkJdbm6w",
+        "selectedTrackYtId": pathToYtVideo + "xvnRkJdbm6w",
         "isAGem": false
     },
     {
@@ -4744,7 +4772,7 @@ const albums = [
         "cover": pathToCovers + "/schicke_fuhrs_and_frohling_sunburst.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.C_ELECTRO],
         "selectedTrackTitle": "Troja",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=1AfQ2w-fY40",
+        "selectedTrackYtId": pathToYtVideo + "1AfQ2w-fY40",
         "isAGem": false
     },
     {
@@ -4756,7 +4784,7 @@ const albums = [
         "cover": pathToCovers + "/semiramis_dedicato_a_frazz.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.SYMPHONIC, criteria.SPECTACULAR, criteria.ITALIAN_SUNG],
         "selectedTrackTitle": "Luna Park",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=T2PVgfv0OR4",
+        "selectedTrackYtId": pathToYtVideo + "T2PVgfv0OR4",
         "isAGem": true,
         "description": "TODO"
     },
@@ -4769,7 +4797,7 @@ const albums = [
         "cover": pathToCovers + "/serge_ramses_secret.jpg",
         "criteria": [criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.AMBIENT, criteria.ELECTRO],
         "selectedTrackTitle": "Secret",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=3K0UOKOdDvE",
+        "selectedTrackYtId": pathToYtVideo + "3K0UOKOdDvE",
         "isAGem": false
     },
     {
@@ -4781,7 +4809,7 @@ const albums = [
         "cover": pathToCovers + "/shakti_natural_elements.jpg",
         "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.ORIENTAL, criteria.UNCOMMON_INSTRUMENTS, criteria.C_JAZZ, criteria.C_FOLK],
         "selectedTrackTitle": "Mind Ecology",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=d_DajSHROJA",
+        "selectedTrackYtId": pathToYtVideo + "d_DajSHROJA",
         "isAGem": true,
         "description": "TODO"
     },
@@ -4794,7 +4822,7 @@ const albums = [
         "cover": pathToCovers + "/sir_lord_baltimore_kingdom_come.jpg",
         "criteria": [criteria.JAM, criteria.ROCK, criteria.HEAVY, criteria.OCCULT],
         "selectedTrackTitle": "Master Heartache",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=wQSz64rU9mM",
+        "selectedTrackYtId": pathToYtVideo + "wQSz64rU9mM",
         "isAGem": false
     },
     {
@@ -4806,7 +4834,7 @@ const albums = [
         "cover": pathToCovers + "/sloche_jun_oeil.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.SYMPHONIC, criteria.C_PSYCHEDELIC, criteria.FRENCH_SUNG, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "J'un Oeil",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=Kng5yZJyMj0",
+        "selectedTrackYtId": pathToYtVideo + "Kng5yZJyMj0",
         "isAGem": false
     },
     {
@@ -4818,7 +4846,7 @@ const albums = [
         "cover": pathToCovers + "/sloche_stadacone.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.SYMPHONIC, criteria.C_PSYCHEDELIC, criteria.FRENCH_SUNG, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Stadaconé",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=GlkUhrk8MZg",
+        "selectedTrackYtId": pathToYtVideo + "GlkUhrk8MZg",
         "isAGem": true,
         "description": "TODO"
     },
@@ -4829,9 +4857,9 @@ const albums = [
         "year": 1970,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/soft_machine_third.jpg",
-        "criteria": [5, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO, criteria.JAZZ],
+        "criteria": [criteria.EXPERIMENTAL, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO, criteria.JAZZ],
         "selectedTrackTitle": "Slightly All The Time",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=4RwLgA9U_3I",
+        "selectedTrackYtId": pathToYtVideo + "4RwLgA9U_3I",
         "isAGem": false
     },
     {
@@ -4843,7 +4871,7 @@ const albums = [
         "cover": pathToCovers + "/spirogyra_st_radigunds.jpg",
         "criteria": [criteria.C_PSYCHEDELIC, criteria.FOLK],
         "selectedTrackTitle": "The Duke Of Beaufoot",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=D1jNLR9tjXE",
+        "selectedTrackYtId": pathToYtVideo + "D1jNLR9tjXE",
         "isAGem": false
     },
     {
@@ -4855,7 +4883,7 @@ const albums = [
         "cover": pathToCovers + "/spirogyra_old_boot_wine.jpg",
         "criteria": [criteria.C_PSYCHEDELIC, criteria.FOLK],
         "selectedTrackTitle": "A Canterbury Tale",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=o7Z5SIYACAU",
+        "selectedTrackYtId": pathToYtVideo + "o7Z5SIYACAU",
         "isAGem": false
     },
     {
@@ -4867,7 +4895,7 @@ const albums = [
         "cover": pathToCovers + "/spirogyra_bells_boots_and_shambles.jpg",
         "criteria": [criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.FOLK],
         "selectedTrackTitle": "Old Boot Wine",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=-Q0rh2uESWY",
+        "selectedTrackYtId": pathToYtVideo + "-Q0rh2uESWY",
         "isAGem": false
     },
     {
@@ -4879,7 +4907,7 @@ const albums = [
         "cover": pathToCovers + "/spring_spring.jpg",
         "criteria": [criteria.GLITTER, criteria.C_FOLK, criteria.ROCK],
         "selectedTrackTitle": "Golden Fleece",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=BuP9_sMgu8I",
+        "selectedTrackYtId": pathToYtVideo + "BuP9_sMgu8I",
         "isAGem": false
     },
     {
@@ -4891,7 +4919,7 @@ const albums = [
         "cover": pathToCovers + "/starcastle_starcastle.jpg",
         "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.GLITTER, criteria.C_ELECTRO, criteria.SPECTACULAR],
         "selectedTrackTitle": "Elliptical Seasons",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=sSZepYc219Y",
+        "selectedTrackYtId": pathToYtVideo + "sSZepYc219Y",
         "isAGem": false
     },
     {
@@ -4903,7 +4931,7 @@ const albums = [
         "cover": pathToCovers + "/starcastle_fountains_of_light.jpg",
         "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.GLITTER, criteria.C_ELECTRO, criteria.SPECTACULAR],
         "selectedTrackTitle": "Silver Winds",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=0tmM4X3HnDk",
+        "selectedTrackYtId": pathToYtVideo + "0tmM4X3HnDk",
         "isAGem": false
     },
     {
@@ -4915,7 +4943,7 @@ const albums = [
         "cover": pathToCovers + "/starcastle_citadel.jpg",
         "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.GLITTER, criteria.C_ELECTRO, criteria.SPECTACULAR],
         "selectedTrackTitle": "Wings Of White",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=Z8qyuL_wpXQ",
+        "selectedTrackYtId": pathToYtVideo + "Z8qyuL_wpXQ",
         "isAGem": false
     },
     {
@@ -4927,7 +4955,7 @@ const albums = [
         "cover": pathToCovers + "/sunhouse_sunhouse.jpg",
         "criteria": [criteria.INSTRUMENTAL, criteria.JAM, criteria.SOFT, criteria.C_JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Don't Skimp With Us",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=1ABQLe-KfEo",
+        "selectedTrackYtId": pathToYtVideo + "1ABQLe-KfEo",
         "isAGem": false
     },
     {
@@ -4951,7 +4979,7 @@ const albums = [
         "cover": pathToCovers + "/supertramp_indelibly_stamped.jpg",
         "criteria": [criteria.ROCK, criteria.ART_POP],
         "selectedTrackTitle": "Travelled",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=OzihNqVYElA",
+        "selectedTrackYtId": pathToYtVideo + "OzihNqVYElA",
         "isAGem": false
     },
     {
@@ -4963,7 +4991,7 @@ const albums = [
         "cover": pathToCovers + "/supertramp_crime_of_the_century.jpg",
         "criteria": [criteria.CONCEPT, criteria.SOFT, criteria.BLENDS, criteria.C_JAZZ, criteria.ROCK_OPERA, 47, criteria.ART_POP],
         "selectedTrackTitle": "Rudy",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=gxW3s_Qk1dk",
+        "selectedTrackYtId": pathToYtVideo + "gxW3s_Qk1dk",
         "isAGem": true,
         "description": "Rick Davies and Roger Hodgson composed heavy-hearted songs to create one of the most subtle, most magnificient, most moving albums we could imagine, with intense vocals and lyrics as desperate as the cover. The album is a theater of unregular song structures and piano-driven melodies, where the other instruments complete parts here and there so that almost every song is a climax itself."
     },
@@ -4976,7 +5004,7 @@ const albums = [
         "cover": pathToCovers + "/supertramp_crisis_what_crisis.jpg",
         "criteria": [criteria.SOFT, 47, criteria.ART_POP],
         "selectedTrackTitle": "Another Man's Woman",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=MUPwN0MtY1Y",
+        "selectedTrackYtId": pathToYtVideo + "MUPwN0MtY1Y",
         "isAGem": false
     },
     {
@@ -4988,7 +5016,7 @@ const albums = [
         "cover": pathToCovers + "/supertramp_even_in_the_quietest_moments.jpg",
         "criteria": [criteria.SOFT, 47, criteria.ART_POP],
         "selectedTrackTitle": "Even In The Quietest Moments",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=7CXcMPdVXp4",
+        "selectedTrackYtId": pathToYtVideo + "7CXcMPdVXp4",
         "isAGem": false
     },
     {
@@ -5000,7 +5028,7 @@ const albums = [
         "cover": pathToCovers + "/sweet_smoke_just_a_poke.jpg",
         "criteria": [criteria.JAM, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Baby Night",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=s6L8ZCAt3DA",
+        "selectedTrackYtId": pathToYtVideo + "s6L8ZCAt3DA",
         "isAGem": true,
         "description": "TODO"
     },
@@ -5013,7 +5041,7 @@ const albums = [
         "cover": pathToCovers + "/sweet_smoke_darkness_to_light.jpg",
         "criteria": [criteria.LENGHTY_TRACKS, criteria.ORIENTAL, criteria.SOUND_COLLAGES, criteria.C_PSYCHEDELIC, criteria.C_FOLK],
         "selectedTrackTitle": "Baby Night",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=s6L8ZCAt3DA",
+        "selectedTrackYtId": pathToYtVideo + "s6L8ZCAt3DA",
         "isAGem": false
     },
     {
@@ -5025,7 +5053,7 @@ const albums = [
         "cover": pathToCovers + "/sweetwater_just_for_you.jpg",
         "criteria": [criteria.SOFT, criteria.JAZZY_GROOVY, criteria.FOLK],
         "selectedTrackTitle": "Song Of Romeo",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=_LXdlWNrItQ",
+        "selectedTrackYtId": pathToYtVideo + "_LXdlWNrItQ",
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -5040,7 +5068,7 @@ const albums = [
         "cover": pathToCovers + "/tangerine_dream_phaedra.jpg",
         "criteria": [criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.AMBIENT, criteria.C_PSYCHEDELIC, criteria.ELECTRO],
         "selectedTrackTitle": "Sequent 'C'",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=Jb_hDcNr5KQ",
+        "selectedTrackYtId": pathToYtVideo + "Jb_hDcNr5KQ",
         "isAGem": false
     },
     {
@@ -5052,7 +5080,7 @@ const albums = [
         "cover": pathToCovers + "/tangerine_dream_rubycon.jpg",
         "criteria": [criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.AMBIENT, criteria.C_PSYCHEDELIC, criteria.ELECTRO],
         "selectedTrackTitle": "Rubycon (Part I)",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=4xl6zlD_hlE",
+        "selectedTrackYtId": pathToYtVideo + "4xl6zlD_hlE",
         "isAGem": false
     },
     {
@@ -5064,7 +5092,7 @@ const albums = [
         "cover": pathToCovers + "/tangerine_dream_ricochet.jpg",
         "criteria": [criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.LIVE, criteria.AMBIENT, criteria.C_PSYCHEDELIC, criteria.ELECTRO],
         "selectedTrackTitle": "Ricochet (Part II)",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=XCsJOaPDJUE",
+        "selectedTrackYtId": pathToYtVideo + "XCsJOaPDJUE",
         "isAGem": false
     },
     {
@@ -5076,7 +5104,7 @@ const albums = [
         "cover": pathToCovers + "/tangerine_dream_stratosfear.jpg",
         "criteria": [criteria.INSTRUMENTAL, criteria.SOFT, criteria.AMBIENT, criteria.C_PSYCHEDELIC, criteria.ELECTRO],
         "selectedTrackTitle": "Stratosfear",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=2w8VsvJ40sM",
+        "selectedTrackYtId": pathToYtVideo + "2w8VsvJ40sM",
         "isAGem": false
     },
     {
@@ -5088,7 +5116,7 @@ const albums = [
         "cover": pathToCovers + "/tea_and_symphony_an_asylum_for_the_musically_insane.jpg",
         "criteria": [criteria.C_PSYCHEDELIC, criteria.FUNNY, criteria.FOLK],
         "selectedTrackTitle": "Sometime",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=91xllZBR8ps",
+        "selectedTrackYtId": pathToYtVideo + "91xllZBR8ps",
         "isAGem": false
     },
     {
@@ -5100,7 +5128,7 @@ const albums = [
         "cover": pathToCovers + "/tea_and_symphony_jo_sago.jpg",
         "criteria": [criteria.STORYLINE, criteria.UNCOMMON_INSTRUMENTS, criteria.JAZZY_GROOVY, criteria.ROCK_OPERA, criteria.FOLK],
         "selectedTrackTitle": "Yourself",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=YlyCN0xb37g",
+        "selectedTrackYtId": pathToYtVideo + "YlyCN0xb37g",
         "isAGem": false
     },
     {
@@ -5112,7 +5140,7 @@ const albums = [
         "cover": pathToCovers + "/thalassa_suffer_and_misery.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.GLITTER, criteria.SOFT, criteria.C_ELECTRO],
         "selectedTrackTitle": "Far From Me",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=o6IZVtde0Es",
+        "selectedTrackYtId": pathToYtVideo + "o6IZVtde0Es",
         "isAGem": false
     },
     {
@@ -5124,7 +5152,7 @@ const albums = [
         "cover": pathToCovers + "/titus_groan_titus_groan.jpg",
         "criteria": [criteria.ROCK],
         "selectedTrackTitle": "It Wasn't For You",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=7QC1hQyn8-0",
+        "selectedTrackYtId": pathToYtVideo + "7QC1hQyn8-0",
         "isAGem": false
     },
     {
@@ -5136,7 +5164,7 @@ const albums = [
         "cover": pathToCovers + "/trapeze_trapeze.jpg",
         "criteria": [criteria.SOFT, criteria.FOLK],
         "selectedTrackTitle": "The Giant's Dead Hoorah!",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=zqekc2zaw9A",
+        "selectedTrackYtId": pathToYtVideo + "zqekc2zaw9A",
         "isAGem": false
     },
     {
@@ -5148,7 +5176,7 @@ const albums = [
         "cover": pathToCovers + "/trefle_reflet.jpg",
         "criteria": [criteria.STORYLINE, criteria.FRENCH_SUNG, criteria.ROCK_OPERA, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "L'appel Du Temps",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=sGMIO4h7XMY",
+        "selectedTrackYtId": pathToYtVideo + "sGMIO4h7XMY",
         "isAGem": false
     },
     {
@@ -5160,7 +5188,7 @@ const albums = [
         "cover": pathToCovers + "/triumvirat_mediterranean_tales.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_ELECTRO, criteria.SPECTACULAR],
         "selectedTrackTitle": "Across The Waters",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=msni0_j51IU",
+        "selectedTrackYtId": pathToYtVideo + "msni0_j51IU",
         "isAGem": false
     },
     {
@@ -5172,7 +5200,7 @@ const albums = [
         "cover": pathToCovers + "/triumvirat_illusions_on_a_double_dimple.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_ELECTRO, criteria.SPECTACULAR],
         "selectedTrackTitle": "Mister Ten Percent",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=7VAA7M5nXx8",
+        "selectedTrackYtId": pathToYtVideo + "7VAA7M5nXx8",
         "isAGem": false
     },
     {
@@ -5184,7 +5212,7 @@ const albums = [
         "cover": pathToCovers + "/triumvirat_spartacus.jpg",
         "criteria": [criteria.CONCEPT, criteria.ELECTRO, criteria.ART_POP],
         "selectedTrackTitle": "The March To The Eternal City",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=TmTZpQYMzN8",
+        "selectedTrackYtId": pathToYtVideo + "TmTZpQYMzN8",
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -5199,7 +5227,7 @@ const albums = [
         "cover": pathToCovers + "/ultimate_spinach_ultimate_spinach.jpg",
         "criteria": [criteria.C_PSYCHEDELIC, criteria.ROCK],
         "selectedTrackTitle": "Ego Trip",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=uIy3WOK2-iY",
+        "selectedTrackYtId": pathToYtVideo + "uIy3WOK2-iY",
         "isAGem": false
     },
     {    
@@ -5211,7 +5239,7 @@ const albums = [
         "cover": pathToCovers + "/ultimate_spinach_behold_and_see.jpg",
         "criteria": [criteria.JAM, criteria.C_PSYCHEDELIC, criteria.ROCK],
         "selectedTrackTitle": "Mind Flowers",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=eoj6au1h6m0",
+        "selectedTrackYtId": pathToYtVideo + "eoj6au1h6m0",
         "isAGem": false
     },
     {
@@ -5223,7 +5251,7 @@ const albums = [
         "cover": pathToCovers + "/urban_sax_urban_sax.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.EXPERIMENTAL, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.AMBIENT, criteria.C_PSYCHEDELIC, criteria.JAZZ],
         "selectedTrackTitle": "Urban Sax (Part I)",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=q01oHWFqVqM",
+        "selectedTrackYtId": pathToYtVideo + "q01oHWFqVqM",
         "isAGem": false
     },
     {
@@ -5235,7 +5263,7 @@ const albums = [
         "cover": pathToCovers + "/uriah_heep_demons_and_wizards.jpg",
         "criteria": [criteria.ROCK, criteria.HEAVY],
         "selectedTrackTitle": "The Spell",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=w5L-AOGt7qw",
+        "selectedTrackYtId": pathToYtVideo + "w5L-AOGt7qw",
         "isAGem": false
     },
     {
@@ -5247,7 +5275,7 @@ const albums = [
         "cover": pathToCovers + "/uriah_heep_the_magicians_birthday.jpg",
         "criteria": [criteria.ROCK, criteria.HEAVY],
         "selectedTrackTitle": "The Magician's Birthday",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=apWKh3D9oVw",
+        "selectedTrackYtId": pathToYtVideo + "apWKh3D9oVw",
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -5262,7 +5290,7 @@ const albums = [
         "cover": pathToCovers + "/van_der_graaf_generator_the_aerosol_grey_machine.jpg",
         "criteria": [criteria.C_PSYCHEDELIC, criteria.C_FOLK],
         "selectedTrackTitle": "Octopus",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=N91EyGMzvgc",
+        "selectedTrackYtId": pathToYtVideo + "N91EyGMzvgc",
         "isAGem": false
     },
     {
@@ -5274,7 +5302,7 @@ const albums = [
         "cover": pathToCovers + "/van_der_graaf_generator_the_least_that_we_can_do_is_wave_to_each_other.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.SYMPHONIC, criteria.C_JAZZ, criteria.C_FOLK],
         "selectedTrackTitle": "After The Flood",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=oJUu9-s15PQ",
+        "selectedTrackYtId": pathToYtVideo + "oJUu9-s15PQ",
         "isAGem": false
     },
     {
@@ -5286,7 +5314,7 @@ const albums = [
         "cover": pathToCovers + "/van_der_graaf_generator_h_to_he_who_am_the_only_one.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_JAZZ],
         "selectedTrackTitle": "The Emperor In His War Room",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=4wtUFJPGE0I",
+        "selectedTrackYtId": pathToYtVideo + "4wtUFJPGE0I",
         "isAGem": false
     },
     {
@@ -5298,7 +5326,7 @@ const albums = [
         "cover": pathToCovers + "/van_der_graaf_generator_pawn_hearts.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_JAZZ],
         "selectedTrackTitle": "Lemmings",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=_Earfbot_uI",
+        "selectedTrackYtId": pathToYtVideo + "_Earfbot_uI",
         "isAGem": false
     },
     {
@@ -5310,7 +5338,7 @@ const albums = [
         "cover": pathToCovers + "/van_der_graaf_generator_godbluff.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Arrow",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=s_o5tMza1og",
+        "selectedTrackYtId": pathToYtVideo + "s_o5tMza1og",
         "isAGem": false
     },
     {
@@ -5322,7 +5350,7 @@ const albums = [
         "cover": pathToCovers + "/van_der_graaf_generator_still_life.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_JAZZ],
         "selectedTrackTitle": "Childlike Faith In Childhood's End",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=x16-qZJmpKA",
+        "selectedTrackYtId": pathToYtVideo + "x16-qZJmpKA",
         "isAGem": false
     },
     {
@@ -5334,7 +5362,7 @@ const albums = [
         "cover": pathToCovers + "/van_der_graaf_generator_world_record.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.SYMPHONIC, criteria.C_JAZZ],
         "selectedTrackTitle": "Meurglys III, The Songwriter's Guild",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=Xo4IWcGrbbQ",
+        "selectedTrackYtId": pathToYtVideo + "Xo4IWcGrbbQ",
         "isAGem": false
     },
     {
@@ -5346,7 +5374,7 @@ const albums = [
         "cover": pathToCovers + "/van_der_graaf_generator_the_quiet_zone_the_pleasure_dome.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.SYMPHONIC, criteria.C_JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "The Sphinx In The Face",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=Xo4IWcGrbbQ",
+        "selectedTrackYtId": pathToYtVideo + "Xo4IWcGrbbQ",
         "isAGem": false
     },
     {
@@ -5358,7 +5386,7 @@ const albums = [
         "cover": pathToCovers + "/vangelis_albedo_039.jpg",
         "criteria": [criteria.INSTRUMENTAL, criteria.SYMPHONIC, criteria.ELECTRO],
         "selectedTrackTitle": "Pulstar",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=G1cQnhOxqXw",
+        "selectedTrackYtId": pathToYtVideo + "G1cQnhOxqXw",
         "isAGem": false
     },
     {
@@ -5370,7 +5398,7 @@ const albums = [
         "cover": pathToCovers + "/vangelis_spiral.jpg",
         "criteria": [criteria.INSTRUMENTAL, criteria.SYMPHONIC, criteria.ELECTRO],
         "selectedTrackTitle": "Spiral",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=iW_qGMRmJAw",
+        "selectedTrackYtId": pathToYtVideo + "iW_qGMRmJAw",
         "isAGem": false
     },
     {
@@ -5380,9 +5408,9 @@ const albums = [
         "year": 1978,
         "country": regions.GREECE,
         "cover": pathToCovers + "/vangelis_beaubourg.jpg",
-        "criteria": [5, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.ELECTRO],
+        "criteria": [criteria.EXPERIMENTAL, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.ELECTRO],
         "selectedTrackTitle": "Beaubourg (Part I)",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=iW_qGMRmJAw",
+        "selectedTrackYtId": pathToYtVideo + "iW_qGMRmJAw",
         "isAGem": false
     },
     {
@@ -5394,7 +5422,7 @@ const albums = [
         "cover": pathToCovers + "/visitor_2035_visitor_2035.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.C_ELECTRO, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Center Of The Winds",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=7DMy4F3GDiM",
+        "selectedTrackYtId": pathToYtVideo + "7DMy4F3GDiM",
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -5409,7 +5437,7 @@ const albums = [
         "cover": pathToCovers + "/warhorse_warhorse.jpg",
         "criteria": [criteria.ROCK, criteria.HEAVY, criteria.OCCULT],
         "selectedTrackTitle": "Woman Of The Devil",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=zgWyveaejwI",
+        "selectedTrackYtId": pathToYtVideo + "zgWyveaejwI",
         "isAGem": false
     },
     {
@@ -5421,7 +5449,7 @@ const albums = [
         "cover": pathToCovers + "/weather_report_black_market.jpg",
         "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.JAM, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Herandu",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=_A4FqKg0c_A",
+        "selectedTrackYtId": pathToYtVideo + "_A4FqKg0c_A",
         "isAGem": true,
         "description": "TODO"
     },
@@ -5434,7 +5462,7 @@ const albums = [
         "cover": pathToCovers + "/weidorje_weidorje.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.C_ELECTRO, criteria.ZEUHL],
         "selectedTrackTitle": "Booldemug",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=3UyB0hlR6nw",
+        "selectedTrackYtId": pathToYtVideo + "3UyB0hlR6nw",
         "isAGem": false
     },
     {
@@ -5446,7 +5474,7 @@ const albums = [
         "cover": pathToCovers + "/windchase_symphinity.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.JAM, criteria.GLITTER, criteria.SOUND_COLLAGES],
         "selectedTrackTitle": "Glad To Be Alive",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=grqGzuSak2s",
+        "selectedTrackYtId": pathToYtVideo + "grqGzuSak2s",
         "isAGem": true,
         "description": "TODO"
     },
@@ -5459,7 +5487,7 @@ const albums = [
         "cover": pathToCovers + "/winterhawk_revival.jpg",
         "criteria": [criteria.JAM, criteria.ROCK, criteria.HEAVY],
         "selectedTrackTitle": "Period Of Change",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=zDW3m-LaaRc",
+        "selectedTrackYtId": pathToYtVideo + "zDW3m-LaaRc",
         "isAGem": false
     },
     {
@@ -5471,7 +5499,7 @@ const albums = [
         "cover": pathToCovers + "/wishbone_ash_pilgrimage.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.JAM, criteria.ROCK],
         "selectedTrackTitle": "Valediction",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=PILotugu-s4",
+        "selectedTrackYtId": pathToYtVideo + "PILotugu-s4",
         "isAGem": false
     },
     {
@@ -5483,7 +5511,7 @@ const albums = [
         "cover": pathToCovers + "/wishbone_ash_argus.jpg",
         "criteria": [criteria.JAM, criteria.ROCK],
         "selectedTrackTitle": "Sometime World",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=kvLVSPPLZZY",
+        "selectedTrackYtId": pathToYtVideo + "kvLVSPPLZZY",
         "isAGem": false
     },
     {
@@ -5495,7 +5523,7 @@ const albums = [
         "cover": pathToCovers + "/wizzard_wizzard_brew.jpg",
         "criteria": [criteria.JAM, criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.ROCK, criteria.HEAVY, criteria.FANFARE],
         "selectedTrackTitle": "Meet Me At The Jailhouse",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=sBzeB36zYvU",
+        "selectedTrackYtId": pathToYtVideo + "sBzeB36zYvU",
         "isAGem": false
     },
     {
@@ -5507,7 +5535,7 @@ const albums = [
         "cover": pathToCovers + "/wizzo_band_super_active_wizzo.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.C_JAZZ, criteria.HEAVY, criteria.FANFARE],
         "selectedTrackTitle": "Waitin' At This Door",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=I_Udqw806sA",
+        "selectedTrackYtId": pathToYtVideo + "I_Udqw806sA",
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -5525,7 +5553,7 @@ const albums = [
         "cover": pathToCovers + "/yes_yes.jpg",
         "criteria": [criteria.GLITTER, criteria.ROCK],
         "selectedTrackTitle": "Beyond & Before",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=YFcxNnKZGNU",
+        "selectedTrackYtId": pathToYtVideo + "YFcxNnKZGNU",
         "isAGem": false
     },
     {
@@ -5537,7 +5565,7 @@ const albums = [
         "cover": pathToCovers + "/yes_time_and_a_word.jpg",
         "criteria": [criteria.GLITTER, criteria.ROCK],
         "selectedTrackTitle": "Astral Traveller",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=q0aXTN_AeKw",
+        "selectedTrackYtId": pathToYtVideo + "q0aXTN_AeKw",
         "isAGem": false
     },
     {
@@ -5549,7 +5577,7 @@ const albums = [
         "cover": pathToCovers + "/yes_the_yes_album.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.GLITTER],
         "selectedTrackTitle": "Starship Trooper",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=DKftiJS30Cs",
+        "selectedTrackYtId": pathToYtVideo + "DKftiJS30Cs",
         "isAGem": false
     },
     {
@@ -5561,7 +5589,7 @@ const albums = [
         "cover": pathToCovers + "/yes_fragile.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.EXPERIMENTAL, criteria.GLITTER, criteria.SYMPHONIC, criteria.SOUND_COLLAGES, criteria.BLENDS, criteria.SPECTACULAR, criteria.PATCHWORK],
         "selectedTrackTitle": "Roundabout",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=-Tdu4uKSZ3M",
+        "selectedTrackYtId": pathToYtVideo + "-Tdu4uKSZ3M",
         "isAGem": false
     },
     {
@@ -5573,7 +5601,7 @@ const albums = [
         "cover": pathToCovers + "/yes_close_to_the_edge.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.LENGHTY_TRACKS, criteria.GLITTER, criteria.SYMPHONIC, criteria.BLENDS, criteria.SPECTACULAR],
         "selectedTrackTitle": "Siberian Khatru",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=r0HnIr6jYWU",
+        "selectedTrackYtId": pathToYtVideo + "r0HnIr6jYWU",
         "isAGem": true,
         "description": "TODO"
     },
@@ -5586,7 +5614,7 @@ const albums = [
         "cover": pathToCovers + "/yes_tales_from_topographic_oceans.jpg",
         "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.EXPERIMENTAL, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.ORIENTAL, criteria.C_PSYCHEDELIC, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "The Ancient",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=fMoE_2lV-bk",
+        "selectedTrackYtId": pathToYtVideo + "fMoE_2lV-bk",
         "isAGem": false
     },
     {
@@ -5598,7 +5626,7 @@ const albums = [
         "cover": pathToCovers + "/yes_relayer.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.LENGHTY_TRACKS, criteria.GLITTER, criteria.SYMPHONIC, criteria.BLENDS, criteria.SPECTACULAR],
         "selectedTrackTitle": "The Gates Of Delirium",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=EdmUAsU2eXI",
+        "selectedTrackYtId": pathToYtVideo + "EdmUAsU2eXI",
         "isAGem": false
     },
     {
@@ -5610,7 +5638,7 @@ const albums = [
         "cover": pathToCovers + "/yes_going_for_the_one.jpg",
         "criteria": [criteria.GLITTER, criteria.BLENDS, criteria.SPECTACULAR],
         "selectedTrackTitle": "Going For The One",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=f9GAkA7W5Qg",
+        "selectedTrackYtId": pathToYtVideo + "f9GAkA7W5Qg",
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -5625,7 +5653,7 @@ const albums = [
         "cover": pathToCovers + "/zanov_moebius_256_301.jpg",
         "criteria": [criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.AMBIENT, criteria.C_PSYCHEDELIC, criteria.ELECTRO],
         "selectedTrackTitle": "Plénitude",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=QCs2wJBMTv4",
+        "selectedTrackYtId": pathToYtVideo + "QCs2wJBMTv4",
         "isAGem": false
     },
     {
@@ -5637,7 +5665,7 @@ const albums = [
         "cover": pathToCovers + "/zanov_in_course_of_time.jpg",
         "criteria": [criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.AMBIENT, criteria.ELECTRO],
         "selectedTrackTitle": "Lost Message",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=sYzgqOIkVS8",
+        "selectedTrackYtId": pathToYtVideo + "sYzgqOIkVS8",
         "isAGem": false
     },
     {
@@ -5649,7 +5677,7 @@ const albums = [
         "cover": pathToCovers + "/zoo_zoo.jpg",
         "criteria": [criteria.JAM, criteria.ROCK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Cold Night",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=2gI_mUCPHO0",
+        "selectedTrackYtId": pathToYtVideo + "2gI_mUCPHO0",
         "isAGem": false
     },
     {
@@ -5661,7 +5689,7 @@ const albums = [
         "cover": pathToCovers + "/zyma_thoughts.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.JAM, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Businessman",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=jnE_gq9_R84",
+        "selectedTrackYtId": pathToYtVideo + "jnE_gq9_R84",
         "isAGem": false
     },
     {
@@ -5673,7 +5701,7 @@ const albums = [
         "cover": pathToCovers + "/zyma_brave_new_world.jpg",
         "criteria": [criteria.SOFT, criteria.C_JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Colours",
-        "selectedTrackYtId": "https://www.youtube.com/watch?v=OJbotZE5lV4"
+        "selectedTrackYtId": pathToYtVideo + "OJbotZE5lV4"
     }
 ];
 
