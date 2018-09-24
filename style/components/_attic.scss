@@ -3,7 +3,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: $headerHeight + $borderThick + $albumHeight + 50px 20px 50px 20px;
+    padding: $headerHeight + $borderThick + 50px 20px 50px 20px;
 
     // Dirty hack
     #player {
@@ -19,26 +19,25 @@
         &:hover {
             .album-infos {
                 opacity: 1;
-                top: $albumHeight;
                 cursor: pointer;
             }
         }
         .album-infos {
-            font-size: 1.2rem;
-            position: relative;
-            // top: (220px * 0.5) + (78px * 0.5);
-            // margin-top: -(220px * 0.5) - (78px * 0.5);
-            top: $albumHeight * 2;
-            margin-top: -$albumHeight * 2;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            height: $albumHeight; // Syncrhonize value
+            height: 100%;
+            width: 100%;
+            font-size: $mainFontSizeSmall;
             text-align: center;
             background: rgba(0, 0, 0, 0.7);
             opacity: 0;
-            transition: top 0.2s, opacity 0.2s;
+            transition: opacity 0.2s;
             .album-rating {
                 font-style: italic;
                 font-weight: bold;

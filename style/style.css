@@ -383,10 +383,14 @@ header #menu button.button-active {
 }
 
 #albumVue .content .album-cover-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 45px;
   width: 300px;
   height: 300px;
   border: solid 5px #a18a54;
-  margin: 45px;
+  width: auto;
 }
 
 #albumVue .content .album-cover-wrapper img {
@@ -457,7 +461,7 @@ header #menu button.button-active {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 379px 20px 50px 20px;
+  padding: 159px 20px 50px 20px;
 }
 
 #atticVue #player {
@@ -479,15 +483,15 @@ header #menu button.button-active {
 
 #atticVue .album-wrapper:hover .album-infos {
   opacity: 1;
-  top: 220px;
   cursor: pointer;
 }
 
 #atticVue .album-wrapper .album-infos {
-  font-size: 1.2rem;
-  position: relative;
-  top: 440px;
-  margin-top: -440px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -501,12 +505,14 @@ header #menu button.button-active {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 220px;
+  height: 100%;
+  width: 100%;
+  font-size: 20px;
   text-align: center;
   background: rgba(0, 0, 0, 0.7);
   opacity: 0;
-  -webkit-transition: top 0.2s, opacity 0.2s;
-  transition: top 0.2s, opacity 0.2s;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
 }
 
 #atticVue .album-wrapper .album-infos .album-rating {
