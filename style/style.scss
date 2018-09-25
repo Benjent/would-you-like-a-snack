@@ -2,28 +2,7 @@
 // @import url('https://fonts.googleapis.com/css?family=Archivo+Narrow');
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 
-// Basics
-@import 'basics/reset';
-@import 'basics/colors';
-@import 'basics/values';
-@import 'basics/mixins';
-
-// Components
-@import 'components/loading';
-@import 'components/link';
-@import 'components/button';
-@import 'components/vinyl';
-@import 'components/searchbar';
-@import 'components/header';
-
-// Vues
-@import 'components/album';
-@import 'components/timeline';
-@import 'components/attic';
-@import 'components/gems';
-@import 'components/subgenres';
-@import 'components/stats';
-@import 'components/about';
+@import 'gatherer';
 
 // Style
 body {

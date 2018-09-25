@@ -747,6 +747,7 @@ header #menu button.button-active {
 #aboutVue .me-wrapper .me {
   width: 200px;
   border: solid 4px #a18a54;
+  border-radius: 20px;
 }
 
 #aboutVue .me-wrapper .me-description {
