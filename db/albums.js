@@ -2626,6 +2626,7 @@ const albums = [
         "criteria": [criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.C_FOLK, criteria.ELECTRO],
         "selectedTrackTitle": "Ammerland",
         "selectedTrackYtId": pathToYtVideo + "RV0RD6SthNI",
+        "spotifyId": "",
         "isAGem": false
     },
     {
@@ -2638,6 +2639,7 @@ const albums = [
         "criteria": [criteria.INSTRUMENTAL, criteria.JAM, criteria.C_FOLK, criteria.ELECTRO],
         "selectedTrackTitle": "Morning Bird",
         "selectedTrackYtId": pathToYtVideo + "RV0RD6SthNI",
+        "spotifyId": "",
         "isAGem": false
     },
     {
@@ -2650,6 +2652,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.JAM, criteria.ROCK],
         "selectedTrackTitle": "Country Boy",
         "selectedTrackYtId": pathToYtVideo + "odP44_gNdNU",
+        "spotifyId": pathToSpotifyAlbum + "3GEM70tfeO6PD5MvaxXe4c",
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -2665,6 +2668,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.TRANSITION, criteria.SOFT, criteria.UNCOMMON_INSTRUMENTS],
         "selectedTrackTitle": "The Serpent",
         "selectedTrackYtId": pathToYtVideo + "_lUJ9f0B3jo",
+        "spotifyId": pathToSpotifyAlbum + "525nWIZPd0L525Jo7EljVB",
         "isAGem": false
     },
     {
@@ -2677,6 +2681,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.SYMPHONIC, criteria.SPECTACULAR, criteria.ROCK_OPERA, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "Dusk",
         "selectedTrackYtId": pathToYtVideo + "R8fq7djQAnQ",
+        "spotifyId": pathToSpotifyAlbum + "0mKr6PDMuhTEWatlw5a4hl",
         "isAGem": true,
         "description": "TODO"
     },
@@ -2690,6 +2695,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.SYMPHONIC, criteria.SPECTACULAR, criteria.ROCK_OPERA, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "Harold The Barrel",
         "selectedTrackYtId": pathToYtVideo + "qT7k7keej0k",
+        "spotifyId": pathToSpotifyAlbum + "6hCrozhHxZ2kKQwc1qTPIB",
         "isAGem": false
     },
     {
@@ -2702,6 +2708,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.SPECTACULAR, criteria.ROCK_OPERA, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "Get 'Em Out By Friday",
         "selectedTrackYtId": pathToYtVideo + "Kp-TwWnn0dk",
+        "spotifyId": pathToSpotifyAlbum + "1P9AuGH530Oy9JEW5XVuxo",
         "isAGem": false
     },
     {
@@ -2714,6 +2721,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.SPECTACULAR, criteria.ROCK_OPERA, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "Firth Of Fifth",
         "selectedTrackYtId": pathToYtVideo + "SD5engyVXe0",
+        "spotifyId": pathToSpotifyAlbum + "2tSRe2rkdJvZWMOIZpu6lk",
         "isAGem": true,
         "description": "TODO"
     },
@@ -2727,6 +2735,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.TRANSITION, criteria.ROCK_OPERA, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "Fly On A Windshield",
         "selectedTrackYtId": pathToYtVideo + "k9X2QtzCvBQ",
+        "spotifyId": pathToSpotifyAlbum + "6kuKRIu6YGYxQLwasTL3Gx",
         "isAGem": false
     },
     {
@@ -2739,6 +2748,7 @@ const albums = [
         "criteria": [47, criteria.ART_POP],
         "selectedTrackTitle": "Mad Mad Moon",
         "selectedTrackYtId": pathToYtVideo + "IQ_U4XkAarE",
+        "spotifyId": pathToSpotifyAlbum + "6gzQHMfNleYdrw5PDkLxBv",
         "isAGem": false
     },
     {
@@ -2751,6 +2761,7 @@ const albums = [
         "criteria": [47, criteria.ART_POP],
         "selectedTrackTitle": "Blood On The Rooftops",
         "selectedTrackYtId": pathToYtVideo + "EeZRdd_1b4g",
+        "spotifyId": pathToSpotifyAlbum + "4CgleVVe43iVPsmWh7Mydo",
         "isAGem": false
     },
     {
@@ -2763,6 +2774,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.C_FOLK, criteria.SOPHISTICATED],
         "selectedTrackTitle": "Nothing At All",
         "selectedTrackYtId": pathToYtVideo + "XIlG0TmxzTs",
+        "spotifyId": pathToSpotifyAlbum + "74Ocu3SLMQ1SD9uGAR8dVe",
         "isAGem": false
     },
     {
@@ -2775,6 +2787,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.C_FOLK, criteria.SOPHISTICATED],
         "selectedTrackTitle": "Pantagruel's Nativity",
         "selectedTrackYtId": pathToYtVideo + "ODWYJyJh6cg",
+        "spotifyId": pathToSpotifyAlbum + "7sMpdqLgCDDGMx7NE3rf3o",
         "isAGem": false
     },
     {
@@ -2787,6 +2800,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.C_JAZZ, criteria.C_FOLK, criteria.SOPHISTICATED],
         "selectedTrackTitle": "Peel The Paint",
         "selectedTrackYtId": pathToYtVideo + "SIl5RCLNy1E",
+        "spotifyId": pathToSpotifyAlbum + "4wJZXbfVqi4q4NntTUEz9o",
         "isAGem": false
     },
     {
@@ -2799,6 +2813,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.C_JAZZ, criteria.C_FOLK, criteria.SOPHISTICATED],
         "selectedTrackTitle": "The Boys In The Band",
         "selectedTrackYtId": pathToYtVideo + "BTet3C_afKA",
+        "spotifyId": pathToSpotifyAlbum + "3zrWDaBwnrobMeSdMmUham",
         "isAGem": false
     },
     {
@@ -2811,6 +2826,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.C_JAZZ, criteria.C_FOLK, criteria.SOPHISTICATED],
         "selectedTrackTitle": "In A Glass House",
         "selectedTrackYtId": pathToYtVideo + "cgUpLcnLkxs",
+        "spotifyId": pathToSpotifyAlbum + "3XIbbhpEsyqlxggk7qJNcH",
         "isAGem": false
     },
     {
@@ -2823,6 +2839,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.C_JAZZ, criteria.C_FOLK, criteria.SOPHISTICATED],
         "selectedTrackTitle": "Aspirations",
         "selectedTrackYtId": pathToYtVideo + "d8tpBYUIvTk",
+        "spotifyId": pathToSpotifyAlbum + "29OQeJSa3kVeo4E8HLb4Az",
         "isAGem": false
     },
     {
@@ -2835,6 +2852,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.C_JAZZ, criteria.C_FOLK, criteria.SOPHISTICATED],
         "selectedTrackTitle": "His Last Voyage",
         "selectedTrackYtId": pathToYtVideo + "hqyTDtgSmm4",
+        "spotifyId": pathToSpotifyAlbum + "0q8Qt2dk9NL0F35BmrImUA",
         "isAGem": false
     },
     {
@@ -2847,6 +2865,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.C_JAZZ, criteria.C_FOLK],
         "selectedTrackTitle": "Long Live Man Dead",
         "selectedTrackYtId": pathToYtVideo + "N7c00SXMNaQ",
+        "spotifyId": pathToSpotifyAlbum + "5vgx9FXyHl6XzC4ao0gNaS",
         "isAGem": false
     },
     {
@@ -2859,6 +2878,7 @@ const albums = [
         "criteria": [criteria.C_JAZZ, criteria.C_FOLK],
         "selectedTrackTitle": "Lady Lake",
         "selectedTrackYtId": pathToYtVideo + "3LdNEFRkbGk",
+        "spotifyId": pathToSpotifyAlbum + "4BE2lbxqHkUHTA5mlHWnGQ",
         "isAGem": false
     },
     {
@@ -2871,6 +2891,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.SYMPHONIC, criteria.SOUNDTRACK],
         "selectedTrackTitle": "Roller",
         "selectedTrackYtId": pathToYtVideo + "X_hHhhE4suU",
+        "spotifyId": pathToSpotifyAlbum + "0f4XuQuCuuL570i4anZtrK",
         "isAGem": false
     },
     {
@@ -2883,6 +2904,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.JAM, criteria.TRANSITION, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.C_ELECTRO, criteria.FUNNY, criteria.JAZZY_GROOVY, criteria.SPACY],
         "selectedTrackTitle": "Fohat Digs Holes In Space",
         "selectedTrackYtId": pathToYtVideo + "Pk1jsxcXWqE",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -2895,6 +2917,7 @@ const albums = [
         "criteria": [criteria.STORYLINE, criteria.ODD_RHYTHM, criteria.JAM, criteria.TRANSITION, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.C_ELECTRO, criteria.FUNNY, criteria.JAZZY_GROOVY, criteria.SPACY],
         "selectedTrackTitle": "Flying Teapot",
         "selectedTrackYtId": pathToYtVideo + "SIgzP4Rj0Ns",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": true,
         "description": "TODO"
     },
@@ -2908,6 +2931,7 @@ const albums = [
         "criteria": [criteria.STORYLINE, criteria.ODD_RHYTHM, criteria.TRANSITION, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO, criteria.PATCHWORK, criteria.SPACY],
         "selectedTrackTitle": "Oily Way",
         "selectedTrackYtId": pathToYtVideo + "xZWW1ClYxYo",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -2920,6 +2944,7 @@ const albums = [
         "criteria": [criteria.STORYLINE, criteria.TRANSITION, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.C_ELECTRO, criteria.JAZZY_GROOVY, criteria.SPACY],
         "selectedTrackTitle": "Master Builder",
         "selectedTrackYtId": pathToYtVideo + "CKfTKNp_yUI",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -2932,6 +2957,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.SOFT, criteria.UNCOMMON_INSTRUMENTS, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Mandrake",
         "selectedTrackYtId": pathToYtVideo + "Ks9YscGny8g",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -2944,6 +2970,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.SOFT, criteria.UNCOMMON_INSTRUMENTS, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Percolations",
         "selectedTrackYtId": pathToYtVideo + "G0tsWMzmr-c",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": true,
         "description": "TODO"
     },
@@ -2957,6 +2984,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.SOFT, criteria.UNCOMMON_INSTRUMENTS, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Golden Dilemma",
         "selectedTrackYtId": pathToYtVideo + "59jLXceqQsc",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -2969,6 +2997,7 @@ const albums = [
         "criteria": [criteria.JAM, criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.C_FOLK, criteria.ROCK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Alligator",
         "selectedTrackYtId": pathToYtVideo + "eNJTIU8b8Yk",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -2981,6 +3010,7 @@ const albums = [
         "criteria": [criteria.JAM, criteria.C_PSYCHEDELIC, criteria.C_FOLK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Blues For Allah / Sand Castles And Glass Camels / Unusual Occurrences In The Desert",
         "selectedTrackYtId": pathToYtVideo + "Ss1_Xu7YBrM",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -2993,6 +3023,7 @@ const albums = [
         "criteria": [criteria.JAM, criteria.LENGHTY_TRACKS, criteria.C_FOLK, criteria.ROCK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Terrapin Station",
         "selectedTrackYtId": pathToYtVideo + "3I7CLy70WtI",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3005,6 +3036,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.UNCOMMON_INSTRUMENTS, criteria.C_FOLK, criteria.MEDIEVAL, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Second Spasm",
         "selectedTrackYtId": pathToYtVideo + "EcBm-GbbEyI",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3017,6 +3049,7 @@ const albums = [
         "criteria": [criteria.JAM, criteria.C_JAZZ, criteria.C_FOLK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "The Wanderer",
         "selectedTrackYtId": pathToYtVideo + "EcBm-TXBjM9ts11w",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -3032,6 +3065,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.GLITTER, criteria.SOFT, criteria.C_JAZZ, criteria.C_ELECTRO, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Starborne",
         "selectedTrackYtId": pathToYtVideo + "7eMlI4MzQks",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3044,6 +3078,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.GLITTER, criteria.SOFT, criteria.C_JAZZ, criteria.C_ELECTRO, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Morning Sun",
         "selectedTrackYtId": pathToYtVideo + "g9B_P36s_-A",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3056,6 +3091,7 @@ const albums = [
         "criteria": [criteria.SOFT, criteria.FOLK],
         "selectedTrackTitle": "Un Musicien Parmi Tant D'autres",
         "selectedTrackYtId": pathToYtVideo + "KkDNsKPLXaM",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3068,6 +3104,7 @@ const albums = [
         "criteria": [criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.C_JAZZ, criteria.C_FOLK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Depuis L'automne",
         "selectedTrackYtId": pathToYtVideo + "sCkkxr7tS7c",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": true,
         "description": "TODO"
     },
@@ -3081,6 +3118,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_JAZZ, criteria.C_FOLK, criteria.ROCK_OPERA, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "Le Premier Ciel",
         "selectedTrackYtId": pathToYtVideo + "G8qda-s8Yks",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3093,6 +3131,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.SOFT, criteria.C_JAZZ, criteria.FUNNY, criteria.PATCHWORK],
         "selectedTrackTitle": "Son Of \"There's No Place Like Homerton\"",
         "selectedTrackYtId": pathToYtVideo + "Qk04cGkff44",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3105,6 +3144,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.C_JAZZ, criteria.FUNNY],
         "selectedTrackTitle": "Mumps",
         "selectedTrackYtId": pathToYtVideo + "h_MUajIs9Vs",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3117,6 +3157,7 @@ const albums = [
         "criteria": [criteria.JAM, criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO, criteria.HEAVY, criteria.SPACY],
         "selectedTrackTitle": "Masters Of The Universe",
         "selectedTrackYtId": pathToYtVideo + "X3W7ch0oLeA",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3129,6 +3170,7 @@ const albums = [
         "criteria": [criteria.JAM, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO, criteria.HEAVY, criteria.SPACY],
         "selectedTrackTitle": "Time We Left This World Today",
         "selectedTrackYtId": pathToYtVideo + "X5SRYtPLDLI",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3141,6 +3183,7 @@ const albums = [
         "criteria": [criteria.JAM, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO, criteria.HEAVY, criteria.SPACY],
         "selectedTrackTitle": "The Psychedelic Warlords",
         "selectedTrackYtId": pathToYtVideo + "MvHtfoqcDss",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3153,6 +3196,7 @@ const albums = [
         "criteria": [criteria.JAM, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO, criteria.HEAVY, criteria.SPACY],
         "selectedTrackTitle": "Assault And Battery / The Golden Void",
         "selectedTrackYtId": pathToYtVideo + "1UIYMxZRLf0",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3165,6 +3209,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.EXPERIMENTAL, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.JAZZ],
         "selectedTrackTitle": "Amygdala",
         "selectedTrackYtId": pathToYtVideo + "t4e-Zq6kPk4",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3177,6 +3222,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.EXPERIMENTAL, criteria.LENGHTY_TRACKS, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.JAZZ],
         "selectedTrackTitle": "Half Asleep/Half Awake",
         "selectedTrackYtId": pathToYtVideo + "DDLqUcUls6s",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3189,6 +3235,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.EXPERIMENTAL, criteria.LENGHTY_TRACKS, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.JAZZ],
         "selectedTrackTitle": "Beautiful As The Moon - Terrible As An Army With Banners",
         "selectedTrackYtId": pathToYtVideo + "374qf7xCFkY",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3201,6 +3248,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.SOFT, criteria.C_ELECTRO, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Butterfly",
         "selectedTrackYtId": pathToYtVideo + "knbmKDUYDXc",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -3216,6 +3264,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.C_JAZZ],
         "selectedTrackTitle": "The Raven",
         "selectedTrackYtId": pathToYtVideo + "Q09vwl1A9CY",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3228,6 +3277,7 @@ const albums = [
         "criteria": [criteria.UNCOMMON_INSTRUMENTS, criteria.FOLK],
         "selectedTrackTitle": "Dandelion Blues",
         "selectedTrackYtId": pathToYtVideo + "QF2pR4hq02k",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3240,6 +3290,7 @@ const albums = [
         "criteria": [criteria.ORIENTAL, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.FOLK],
         "selectedTrackTitle": "Painting Box",
         "selectedTrackYtId": pathToYtVideo + "UoQ3tmohEX4",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3252,6 +3303,7 @@ const albums = [
         "criteria": [criteria.LENGHTY_TRACKS, criteria.ORIENTAL, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.FOLK],
         "selectedTrackTitle": "A Very Cellular Song",
         "selectedTrackYtId": pathToYtVideo + "-90rrjR6Wvk",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3264,6 +3316,7 @@ const albums = [
         "criteria": [criteria.ORIENTAL, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.FOLK],
         "selectedTrackTitle": "Job's Tears",
         "selectedTrackYtId": pathToYtVideo + "Dd5yq76q51c",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3276,6 +3329,7 @@ const albums = [
         "criteria": [criteria.ORIENTAL, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.FOLK],
         "selectedTrackTitle": "Cousin Caterpillar",
         "selectedTrackYtId": pathToYtVideo + "nu0brlGGQ2Y",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3288,6 +3342,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.SOPHISTICATED],
         "selectedTrackTitle": "Zero",
         "selectedTrackYtId": pathToYtVideo + "JY4fRFeJOoE",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": true,
         "desciprion": "TODO"
     },
@@ -3304,6 +3359,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.SOFT, criteria.ORIENTAL, criteria.UNCOMMON_INSTRUMENTS],
         "selectedTrackTitle": "Sundial Song",
         "selectedTrackYtId": pathToYtVideo + "0JqujXC4HgQ",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3316,6 +3372,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.SOFT, criteria.ORIENTAL, criteria.UNCOMMON_INSTRUMENTS, criteria.C_JAZZ],
         "selectedTrackTitle": "Water Curtain Cave",
         "selectedTrackYtId": pathToYtVideo + "eNV_7E2P_ok",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3328,6 +3385,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.SOFT, criteria.ORIENTAL, criteria.UNCOMMON_INSTRUMENTS],
         "selectedTrackTitle": "Morning Hymn",
         "selectedTrackYtId": pathToYtVideo + "ArrIZD5Hklc",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3340,6 +3398,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.TRANSITION, criteria.SOFT, criteria.ORIENTAL, criteria.AMBIENT, criteria.UNCOMMON_INSTRUMENTS, criteria.C_JAZZ],
         "selectedTrackTitle": "Mountain Of Fruit And Flowers",
         "selectedTrackYtId": pathToYtVideo + "P02f9snizbE",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3352,6 +3411,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.TRANSITION, criteria.SOFT, criteria.ORIENTAL, criteria.AMBIENT, criteria.UNCOMMON_INSTRUMENTS, criteria.C_JAZZ],
         "selectedTrackTitle": "Waves (Part II)",
         "selectedTrackYtId": pathToYtVideo + "uGYpyLxDzlk",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3364,6 +3424,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.TRANSITION, criteria.SOFT, criteria.ORIENTAL, criteria.AMBIENT, criteria.UNCOMMON_INSTRUMENTS, criteria.C_JAZZ],
         "selectedTrackTitle": "Wind Song",
         "selectedTrackYtId": pathToYtVideo + "y4m76cJXZmo",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false,
     },
     {
@@ -3376,6 +3437,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.TRANSITION, criteria.SOFT, criteria.ORIENTAL, criteria.AMBIENT, criteria.UNCOMMON_INSTRUMENTS, criteria.C_JAZZ],
         "selectedTrackTitle": "Heaven Stone",
         "selectedTrackYtId": pathToYtVideo + "e0-VIz5MINU",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": true,
         "description": "TODO"
     },
@@ -3389,6 +3451,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.SOFT, criteria.AMBIENT, criteria.ELECTRO],
         "selectedTrackTitle": "Oxygène (Part IV)",
         "selectedTrackYtId": pathToYtVideo + "P_I2ch8_TXc",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": true,
         "description": "TODO"
     },
@@ -3402,6 +3465,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.SOFT, criteria.AMBIENT, criteria.ELECTRO],
         "selectedTrackTitle": "Équinoxe (Part IV)",
         "selectedTrackYtId": pathToYtVideo + "fpWNimba344",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3414,6 +3478,7 @@ const albums = [
         "criteria": [criteria.C_PSYCHEDELIC, criteria.FOLK],
         "selectedTrackTitle": "Lather",
         "selectedTrackYtId": pathToYtVideo + "e0-9WF4FF8QrQE",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3426,6 +3491,7 @@ const albums = [
         "criteria": [criteria.JAM, criteria.FOLK],
         "selectedTrackTitle": "Bourée",
         "selectedTrackYtId": pathToYtVideo + "N2RNe2jwHE0",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3438,6 +3504,7 @@ const albums = [
         "criteria": [criteria.JAM, criteria.FOLK],
         "selectedTrackTitle": "For Michael Collins, Jeffrey and Me",
         "selectedTrackYtId": pathToYtVideo + "b2GTNhmPbtg",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3450,6 +3517,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.JAM, criteria.FOLK],
         "selectedTrackTitle": "Aqualung",
         "selectedTrackYtId": pathToYtVideo + "B0jMPI_pUec",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3462,6 +3530,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.ROCK_OPERA, criteria.FOLK],
         "selectedTrackTitle": "Thick As A Brick (Part I)",
         "selectedTrackYtId": pathToYtVideo + "l21p4Id40cU",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": true,
         "description": "TODO"
     },
@@ -3475,6 +3544,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.ROCK_OPERA, criteria.FOLK],
         "selectedTrackTitle": "A Passion Play (Part I)",
         "selectedTrackYtId": pathToYtVideo + "gB_Ago8wDb8",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3487,6 +3557,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.FOLK],
         "selectedTrackTitle": "Baker St. Muse",
         "selectedTrackYtId": pathToYtVideo + "B-7yVIJ7wE4",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3499,6 +3570,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.FOLK],
         "selectedTrackTitle": "Velvet Green",
         "selectedTrackYtId": pathToYtVideo + "JG77YHX5yYE",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3511,6 +3583,7 @@ const albums = [
         "criteria": [criteria.JAM, criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.ROCK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Burning Of The Midnight Lamp",
         "selectedTrackYtId": pathToYtVideo + "j60OzzR7mMk",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -3526,6 +3599,7 @@ const albums = [
         "criteria": [criteria.INSTRUMENTAL, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.ORIENTAL, criteria.AMBIENT, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC],
         "selectedTrackTitle": "Ras Lila",
         "selectedTrackYtId": pathToYtVideo + "eNTd_BY_zsI",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3538,6 +3612,7 @@ const albums = [
         "criteria": [criteria.JAM, criteria.C_FOLK, criteria.ROCK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "The Time Is Near",
         "selectedTrackYtId": pathToYtVideo + "SIm_uYzdcsA",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3550,6 +3625,7 @@ const albums = [
         "criteria": [criteria.JAM, criteria.C_FOLK, criteria.ROCK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Theme Song / En Route",
         "selectedTrackYtId": pathToYtVideo + "76upSLEWHL8",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3562,6 +3638,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, 7],
         "selectedTrackTitle": "Stranded",
         "selectedTrackYtId": pathToYtVideo + "tHkYXKlwB9s",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3574,6 +3651,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "The Court Of The Crimson King",
         "selectedTrackYtId": pathToYtVideo + "gvCmtHDDuu0",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": true,
         "description": "TODO"
     },
@@ -3587,6 +3665,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "In The Wake Of Poseidon",
         "selectedTrackYtId": pathToYtVideo + "J1JjOpXsJ7A",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3599,6 +3678,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.C_JAZZ],
         "selectedTrackTitle": "Cirkus",
         "selectedTrackYtId": pathToYtVideo + "IYHjPE9ByS4",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3611,6 +3691,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "Islands",
         "selectedTrackYtId": pathToYtVideo + "8UUWBCXa21Y",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3623,6 +3704,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.C_JAZZ],
         "selectedTrackTitle": "Book Of Saturday",
         "selectedTrackYtId": "",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3635,6 +3717,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.C_JAZZ],
         "selectedTrackTitle": "Fracture",
         "selectedTrackYtId": pathToYtVideo + "ZaD7gk7BTwU",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3647,6 +3730,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "Starless",
         "selectedTrackYtId": pathToYtVideo + "OfR6_V91fG8",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": true,
         "description": "TODO"
     },
@@ -3660,6 +3744,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.C_ELECTRO, criteria.ROCK],
         "selectedTrackTitle": "Frame By Frame",
         "selectedTrackYtId": "",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3672,6 +3757,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.C_ELECTRO, criteria.ROCK],
         "selectedTrackTitle": "Waiting Man",
         "selectedTrackYtId": "",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3684,6 +3770,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO, criteria.ROCK],
         "selectedTrackTitle": "Three Of A Perfect Pair",
         "selectedTrackYtId": "",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3696,11 +3783,51 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.TRANSITION, criteria.SYMPHONIC, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.SOPHISTICATED],
         "selectedTrackTitle": "VROOOM",
         "selectedTrackYtId": "",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     // ************************************************************************************ //
     // **************************************** L **************************************** //
     // ********************************************************************************** //
+    {
+        "id": "led_zeppelin_led_zeppelin",
+        "title": "Led Zeppelin",
+        "artist": "Led Zeppelin",
+        "year": 1969,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/led_zeppelin_led_zeppelin.jpg",
+        "criteria": [criteria.ROCK, criteria.C_PSYCHEDELIC, criteria.JAM],
+        "selectedTrackTitle": "Dazed And Confused",
+        "selectedTrackYtId": pathToYtVideo + "-rmtJ6-EY1E",
+        "spotifyId": pathToSpotifyAlbum + "3ycjBixZf7S3WpC5WZhhUK",
+        "isAGem": true
+    },
+    {
+        "id": "led_zeppelin_led_zeppelin_ii",
+        "title": "Led Zeppelin II",
+        "artist": "Led Zeppelin",
+        "year": 1969,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/led_zeppelin_led_zeppelin_ii.jpg",
+        "criteria": [criteria.ROCK, criteria.C_FOLK],
+        "selectedTrackTitle": "What Is And What Should Never Be",
+        "selectedTrackYtId": pathToYtVideo + "jrqMdja4eYs",
+        "spotifyId": pathToSpotifyAlbum + "70lQYZtypdCALtFVlQAcvx",
+        "isAGem": true
+    },
+    {
+        "id": "led_zeppelin_led_zeppelin_iii",
+        "title": "Led Zeppelin III",
+        "artist": "Led Zeppelin",
+        "year": 1970,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/led_zeppelin_led_zeppelin_iii.jpg",
+        "criteria": [criteria.ODD_RHYTHM, criteria.FOLK],
+        "selectedTrackTitle": "Celebration Day",
+        "selectedTrackYtId": pathToYtVideo + "KMQdiHIZgSo",
+        "spotifyId": pathToSpotifyAlbum + "1u5BsuBK45mLwrbqdASN3g",
+        "isAGem": false
+    },
     {
         "id": "led_zeppelin_led_zeppelin_iv",
         "title": "Led Zeppelin IV",
@@ -3711,6 +3838,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.UNCOMMON_INSTRUMENTS, criteria.C_FOLK, criteria.ROCK],
         "selectedTrackTitle": "Four Sticks",
         "selectedTrackYtId": pathToYtVideo + "T8GP2j7NdSo",
+        "spotifyId": pathToSpotifyAlbum + "5EyIDBAqhnlkAHqvPRwdbX",
         "isAGem": true,
         "description": "TODO"
     },
@@ -3724,6 +3852,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.BLENDS, criteria.ROCK],
         "selectedTrackTitle": "No Quarter",
         "selectedTrackYtId": pathToYtVideo + "Pu94mWlgzMY",
+        "spotifyId": pathToSpotifyAlbum + "5phxHbK2GSr7hEu4orLywP",
         "isAGem": false
     },
     {
@@ -3736,6 +3865,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.JAM, criteria.ROCK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Ten Years Gone",
         "selectedTrackYtId": pathToYtVideo + "kWbO9a1_Z3U",
+        "spotifyId": pathToSpotifyAlbum + "0ovKDDAHiTwg4AEjKdgdWo",
         "isAGem": false
     },
     {
@@ -3748,6 +3878,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.JAM, criteria.ROCK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Achilles Last Stand",
         "selectedTrackYtId": pathToYtVideo + "Rf1I9htJk",
+        "spotifyId": pathToSpotifyAlbum + "3xiPkaTzfC48CcsXYgz5v0",
         "isAGem": false
     },
     {
@@ -3760,6 +3891,7 @@ const albums = [
         "criteria": [criteria.INSTRUMENTAL, criteria.SOFT, criteria.UNCOMMON_INSTRUMENTS],
         "selectedTrackTitle": "Cold In Fingers",
         "selectedTrackYtId": pathToYtVideo + "ZCx4ENGwjFM",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3772,6 +3904,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.GLITTER, criteria.ITALIAN_SUNG],
         "selectedTrackTitle": "Forse Le Lucciole Non Si Amano Più",
         "selectedTrackYtId": pathToYtVideo + "QbaJfSEehns",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3784,6 +3917,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.SOFT, criteria.C_ELECTRO, criteria.SPANISH_SUNG, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Pueblito",
         "selectedTrackYtId": pathToYtVideo + "z8rtBgxvAfw",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3796,6 +3930,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.SOFT, criteria.C_FOLK],
         "selectedTrackTitle": "Fairhazel Gardens",
         "selectedTrackYtId": pathToYtVideo + "DiiPTWZiJJ0",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3808,6 +3943,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.C_ELECTRO],
         "selectedTrackTitle": "Poolside",
         "selectedTrackYtId": pathToYtVideo + "7sspuSlsL1Q",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -3823,6 +3959,7 @@ const albums = [
         "criteria": [criteria.STORYLINE, criteria.TRANSITION, criteria.SOUND_COLLAGES, criteria.C_ELECTRO],
         "selectedTrackTitle": "A Deadly Smile",
         "selectedTrackYtId": pathToYtVideo + "px1CIxbSN0o",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3835,6 +3972,7 @@ const albums = [
         "criteria": [criteria.JAM, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO],
         "selectedTrackTitle": "Turkish Invasion",
         "selectedTrackYtId": pathToYtVideo + "3RHzfQQn1Zs",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3847,6 +3985,7 @@ const albums = [
         "criteria": [criteria.STORYLINE, criteria.EXPERIMENTAL, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_JAZZ, criteria.SPECTACULAR, criteria.ZEUHL, criteria.ROCK_OPERA],
         "selectedTrackTitle": "Kobaïa",
         "selectedTrackYtId": pathToYtVideo + "TAtaaxb2TVU",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3859,6 +3998,7 @@ const albums = [
         "criteria": [criteria.STORYLINE, criteria.EXPERIMENTAL, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_JAZZ, criteria.SPECTACULAR, criteria.ZEUHL, criteria.ROCK_OPERA],
         "selectedTrackTitle": "Ki Ïahl Ö Lïahk",
         "selectedTrackYtId": pathToYtVideo + "gbVas9ZMVgk",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3871,6 +4011,7 @@ const albums = [
         "criteria": [criteria.STORYLINE, criteria.EXPERIMENTAL, criteria.SYMPHONIC, criteria.C_JAZZ, criteria.SPECTACULAR, criteria.ZEUHL, criteria.ROCK_OPERA],
         "selectedTrackTitle": "Da Zeuhl Ẁortz Mëkanïk",
         "selectedTrackYtId": pathToYtVideo + "B5UZVtUC3V0",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": true,
         "description": "TODO"
     },
@@ -3884,6 +4025,7 @@ const albums = [
         "criteria": [criteria.EXPERIMENTAL, criteria.TRANSITION, criteria.SYMPHONIC, criteria.C_JAZZ, criteria.SPECTACULAR, criteria.ZEUHL, criteria.ROCK_OPERA, criteria.SOUNDTRACK],
         "selectedTrackTitle": "De Zeuhl Ündazïr",
         "selectedTrackYtId": pathToYtVideo + "8rRdPY9fTdU",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3896,6 +4038,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.UNCOMMON_INSTRUMENTS, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "A Lotus On Irish Streams",
         "selectedTrackYtId": pathToYtVideo + "1m5V8zbyR2M",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": true,
         "description": "TODO"
     },
@@ -3909,6 +4052,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.UNCOMMON_INSTRUMENTS, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Sanctuary",
         "selectedTrackYtId": pathToYtVideo + "d08lMTHzYdY",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3921,6 +4065,7 @@ const albums = [
         "criteria": [4, criteria.INSTRUMENTAL, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.LIVE, criteria.UNCOMMON_INSTRUMENTS, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "La Mère De La Mer",
         "selectedTrackYtId": pathToYtVideo + "8YrPXjladAw",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3933,6 +4078,7 @@ const albums = [
         "criteria": [4, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.UNCOMMON_INSTRUMENTS, criteria.BLENDS, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Hymn To Him",
         "selectedTrackYtId": pathToYtVideo + "M9eegi9dd6g",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3945,6 +4091,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.UNCOMMON_INSTRUMENTS, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Lila's Dance",
         "selectedTrackYtId": pathToYtVideo + "ZSh0nmretso",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3957,6 +4104,7 @@ const albums = [
         "criteria": [criteria.JAM, criteria.C_PSYCHEDELIC, criteria.ROCK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Buddy",
         "selectedTrackYtId": pathToYtVideo + "zvHYArrWQ",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3969,6 +4117,7 @@ const albums = [
         "criteria": [criteria.JAM, criteria.C_PSYCHEDELIC, criteria.ROCK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Child Of The Novelty",
         "selectedTrackYtId": pathToYtVideo + "4fVfpcHMxWg",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3981,6 +4130,7 @@ const albums = [
         "criteria": [criteria.JAM, criteria.C_PSYCHEDELIC, criteria.ROCK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Strange Universe",
         "selectedTrackYtId": pathToYtVideo + "gbuNknh5lhI",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -3993,6 +4143,7 @@ const albums = [
         "criteria": [criteria.JAM, criteria.C_PSYCHEDELIC, criteria.ROCK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Would The Christians Wait Five Minutes? The Lions Are Having A Draw",
         "selectedTrackYtId": pathToYtVideo + "9fCs_QsrcSU",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4005,6 +4156,7 @@ const albums = [
         "criteria": [criteria.JAM, criteria.ROCK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "All Good Clean Fun",
         "selectedTrackYtId": pathToYtVideo + "PllGouNiXlo",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4017,6 +4169,7 @@ const albums = [
         "criteria": [criteria.JAM, criteria.ROCK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "C'mon",
         "selectedTrackYtId": pathToYtVideo + "pZIg-fJU7vI",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4029,6 +4182,7 @@ const albums = [
         "criteria": [criteria.ROCK_OPERA, criteria.ART_POP],
         "selectedTrackTitle": "Forgotten Sons",
         "selectedTrackYtId": pathToYtVideo + "RtiUoEbwD7Q",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4041,6 +4195,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.GLITTER, criteria.ROCK_OPERA, criteria.ART_POP],
         "selectedTrackTitle": "Punch & Judy",
         "selectedTrackYtId": pathToYtVideo + "OWrwYsSt6OE",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4053,6 +4208,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.TRANSITION, criteria.ROCK_OPERA, criteria.ART_POP],
         "selectedTrackTitle": "Blind Curve",
         "selectedTrackYtId": pathToYtVideo + "5aMaGblvd5o",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4065,6 +4221,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.TRANSITION, criteria.ROCK_OPERA, criteria.ART_POP],
         "selectedTrackTitle": "Just For The Record",
         "selectedTrackYtId": pathToYtVideo + "Q79xkgIXhmU",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4077,6 +4234,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.C_PSYCHEDELIC, criteria.C_JAZZ],
         "selectedTrackTitle": "Part Of The Dance",
         "selectedTrackYtId": pathToYtVideo + "7pvk1eIhFeM",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4089,6 +4247,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.C_PSYCHEDELIC, criteria.C_JAZZ],
         "selectedTrackTitle": "Brandy As In Benj",
         "selectedTrackYtId": pathToYtVideo + "3pRLir_Evds",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4101,6 +4260,7 @@ const albums = [
         "criteria": [criteria.SOFT, criteria.C_PSYCHEDELIC],
         "selectedTrackTitle": "Tomorrow May Come",
         "selectedTrackYtId": pathToYtVideo + "-JKaFlLHcQ8",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4113,6 +4273,7 @@ const albums = [
         "criteria": [criteria.JAM, criteria.C_PSYCHEDELIC, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Snakes And Ladders",
         "selectedTrackYtId": pathToYtVideo + "OKy6SGSGQbw",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4125,6 +4286,7 @@ const albums = [
         "criteria": [criteria.INSTRUMENTAL, criteria.C_PSYCHEDELIC, criteria.C_JAZZ],
         "selectedTrackTitle": "Calligraphie",
         "selectedTrackYtId": pathToYtVideo + "MMnA_1jYPCU",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4137,6 +4299,7 @@ const albums = [
         "criteria": [criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.AMBIENT, criteria.SOUND_COLLAGES, criteria.C_PSYCHEDELIC, criteria.ELECTRO, criteria.SOUNDTRACK],
         "selectedTrackTitle": "Les Anges Qui Passent",
         "selectedTrackYtId": pathToYtVideo + "-XR_7DT0E-c",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4149,6 +4312,7 @@ const albums = [
         "criteria": [criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.UNCOMMON_INSTRUMENTS, criteria.C_ELECTRO, criteria.C_FOLK, criteria.FANFARE],
         "selectedTrackTitle": "Hergest Ridge (Part I)",
         "selectedTrackYtId": pathToYtVideo + "DPQPYwWgxTY",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4161,6 +4325,7 @@ const albums = [
         "criteria": [criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.UNCOMMON_INSTRUMENTS, criteria.C_ELECTRO, criteria.C_FOLK, criteria.FANFARE],
         "selectedTrackTitle": "Ommadawn (Part I)",
         "selectedTrackYtId": pathToYtVideo + "vShVl_Xd_Tc",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4173,6 +4338,7 @@ const albums = [
         "criteria": [criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.SWEDISH_SUNG],
         "selectedTrackTitle": "Soldaten",
         "selectedTrackYtId": pathToYtVideo + "qcLbMdv1Ht0",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4185,6 +4351,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.SYMPHONIC, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.ROCK_OPERA],
         "selectedTrackTitle": "Evening: The Sunset / Twilight Time",
         "selectedTrackYtId": pathToYtVideo + "C012iKu9s-8",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4197,6 +4364,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.C_PSYCHEDELIC, criteria.FOLK],
         "selectedTrackTitle": "The Actor",
         "selectedTrackYtId": pathToYtVideo + "29ihZ_TbFqY",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4209,6 +4377,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.TRANSITION, criteria.SYMPHONIC, criteria.SPECTACULAR, criteria.ITALIAN_SUNG, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "Zarathustra I: L'ultimo Uomo",
         "selectedTrackYtId": pathToYtVideo + "uC9hegZIC2g",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": true,
         "description": "TODO"
     },
@@ -4225,6 +4394,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.C_ELECTRO, criteria.C_FOLK, criteria.SOPHISTICATED],
         "selectedTrackTitle": "Tenemos Roads",
         "selectedTrackYtId": pathToYtVideo + "vj9ZUHju7JE",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4237,6 +4407,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.C_ELECTRO, criteria.C_FOLK, criteria.SOPHISTICATED],
         "selectedTrackTitle": "Squarer For Maud",
         "selectedTrackYtId": pathToYtVideo + "BeHheJ3kqYI",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": true,
         "description": "TODO"
     },
@@ -4250,6 +4421,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.C_ELECTRO, criteria.C_FOLK, criteria.SOPHISTICATED],
         "selectedTrackTitle": "Black Hat",
         "selectedTrackYtId": pathToYtVideo + "mYGh1aejZiA",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4262,6 +4434,7 @@ const albums = [
         "criteria": [criteria.ROCK],
         "selectedTrackTitle": "Saturday Night",
         "selectedTrackYtId": pathToYtVideo + "aDK_D0S87_k",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4274,6 +4447,7 @@ const albums = [
         "criteria": [criteria.JAM, criteria.ROCK, criteria.HEAVY],
         "selectedTrackTitle": "Please Don't Judas Me",
         "selectedTrackYtId": pathToYtVideo + "PdiIu1RwGhA",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4286,6 +4460,7 @@ const albums = [
         "criteria": [criteria.JAM, criteria.ROCK, criteria.HEAVY],
         "selectedTrackTitle": "Telegram",
         "selectedTrackYtId": pathToYtVideo + "xRgZlEVzAss",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4298,6 +4473,7 @@ const albums = [
         "criteria": [criteria.GLITTER, criteria.C_ELECTRO],
         "selectedTrackTitle": "As The Crow Flies",
         "selectedTrackYtId": pathToYtVideo + "EmtT_l7MYsE",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -4313,6 +4489,7 @@ const albums = [
         "criteria": [criteria.INSTRUMENTAL, criteria.JAM, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.JAZZY_GROOVY, criteria.ELECTRO, criteria.SPACY],
         "selectedTrackTitle": "Phalarn Dawn",
         "selectedTrackYtId": pathToYtVideo + "UQCYvIbznkw",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4325,6 +4502,7 @@ const albums = [
         "criteria": [criteria.INSTRUMENTAL, criteria.JAM, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.JAZZY_GROOVY, criteria.ELECTRO, criteria.SPACY],
         "selectedTrackTitle": "Crackerblocks",
         "selectedTrackYtId": pathToYtVideo + "ZjtfdisDhuo",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -4340,6 +4518,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO],
         "selectedTrackTitle": "Cataracte",
         "selectedTrackYtId": pathToYtVideo + "TVkcSh3COMc",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4352,6 +4531,7 @@ const albums = [
         "criteria": [criteria.ART_POP],
         "selectedTrackTitle": "Here Comes The Flood",
         "selectedTrackYtId": pathToYtVideo + "vb7htoJAK7g",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4364,6 +4544,7 @@ const albums = [
         "criteria": [criteria.C_PSYCHEDELIC, criteria.FUNNY],
         "selectedTrackTitle": "Interstellar Overdrive",
         "selectedTrackYtId": pathToYtVideo + "4o2sA0vpA-4",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4376,6 +4557,7 @@ const albums = [
         "criteria": [criteria.C_PSYCHEDELIC],
         "selectedTrackTitle": "Set The Controls For The Heart Of The Sun",
         "selectedTrackYtId": pathToYtVideo + "bbWOmh_rRq0",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4388,6 +4570,7 @@ const albums = [
         "criteria": [criteria.TRANSITION, criteria.SOUND_COLLAGES, criteria.C_PSYCHEDELIC, criteria.C_FOLK],
         "selectedTrackTitle": "The Narrow Way",
         "selectedTrackYtId": pathToYtVideo + "85Iz-_xigS8",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4400,6 +4583,7 @@ const albums = [
         "criteria": [criteria.C_PSYCHEDELIC, criteria.C_FOLK, criteria.PATCHWORK, criteria.SOUNDTRACK],
         "selectedTrackTitle": "Cymbaline",
         "selectedTrackYtId": pathToYtVideo + "ZM5iopSs_rI",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4412,6 +4596,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.EXPERIMENTAL, criteria.LENGHTY_TRACKS, criteria.SOUND_COLLAGES, criteria.BLENDS, criteria.C_PSYCHEDELIC, criteria.C_FOLK],
         "selectedTrackTitle": "Atom Heart Mother",
         "selectedTrackYtId": pathToYtVideo + "yusGUGTVAyw",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4424,6 +4609,7 @@ const albums = [
         "criteria": [criteria.EXPERIMENTAL, criteria.LENGHTY_TRACKS, criteria.SOUND_COLLAGES, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO, criteria.C_FOLK],
         "selectedTrackTitle": "A Pillow Of Winds",
         "selectedTrackYtId": pathToYtVideo + "uThZ1uuLLWM",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4436,6 +4622,7 @@ const albums = [
         "criteria": [criteria.ROCK, criteria.SOUNDTRACK],
         "selectedTrackTitle": "When You're In",
         "selectedTrackYtId": pathToYtVideo + "6vr07uuBjg4",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4448,6 +4635,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.TRANSITION, criteria.SOFT, criteria.SOUND_COLLAGES, criteria.C_ELECTRO],
         "selectedTrackTitle": "Time",
         "selectedTrackYtId": pathToYtVideo + "rL3AgkwbYgo",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": true,
         "description": "TODO"
     },
@@ -4461,6 +4649,7 @@ const albums = [
         "criteria": [criteria.JAM, criteria.LENGHTY_TRACKS, criteria.SOUND_COLLAGES, criteria.C_ELECTRO, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "Welcome To The Machine",
         "selectedTrackYtId": pathToYtVideo + "lt-udg9zQSE",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4473,6 +4662,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.SOUND_COLLAGES, criteria.C_FOLK],
         "selectedTrackTitle": "Sheep",
         "selectedTrackYtId": pathToYtVideo + "UqlsVZ1zxMk",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": true,
         "description": "TODO"
     },
@@ -4486,6 +4676,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.TRANSITION, criteria.SOUND_COLLAGES, criteria.BLENDS, criteria.SPECTACULAR, criteria.ROCK_OPERA, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "The Trial",
         "selectedTrackYtId": pathToYtVideo + "4fa7AtI1msk",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4498,6 +4689,7 @@ const albums = [
         "criteria": [criteria.STORYLINE, criteria.TRANSITION, criteria.SOUND_COLLAGES, criteria.ROCK_OPERA, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "Your Possible Pasts",
         "selectedTrackYtId": pathToYtVideo + "E-ve_sgdgZs",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4510,6 +4702,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.FRENCH_SUNG, criteria.HEAVY, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Zilbra",
         "selectedTrackYtId": pathToYtVideo + "NnSnwsz9aXs",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4522,6 +4715,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO, criteria.HUMBLE, criteria.FRENCH_SUNG],
         "selectedTrackTitle": "Apaisement",
         "selectedTrackYtId": pathToYtVideo + "21D_sVa_-p8",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4534,6 +4728,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO, criteria.HUMBLE, criteria.FRENCH_SUNG],
         "selectedTrackTitle": "The Strands Of The Future",
         "selectedTrackYtId": pathToYtVideo + "KpL5htneI-c",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": true,
         "description": "TODO"
     },
@@ -4547,6 +4742,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO, criteria.HUMBLE, criteria.FRENCH_SUNG],
         "selectedTrackTitle": "Halloween (Part I)",
         "selectedTrackYtId": pathToYtVideo + "2yD0VxZgobo",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4559,6 +4755,7 @@ const albums = [
         "criteria": [criteria.INSTRUMENTAL, criteria.JAM, criteria.AMBIENT, criteria.C_PSYCHEDELIC, criteria.ELECTRO],
         "selectedTrackTitle": "Journey To The Vast Unknown (Part II)",
         "selectedTrackYtId": pathToYtVideo + "qLWSAGAjUqw",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -4574,18 +4771,20 @@ const albums = [
         "criteria": [criteria.ROCK, criteria.HEAVY],
         "selectedTrackTitle": "Gemini",
         "selectedTrackYtId": pathToYtVideo + "8tU5T4kGI2E",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
-        "id": "queen_queen_II",
+        "id": "queen_queen_ii",
         "title": "Queen II",
         "artist": "Queen",
         "year": 1974,
         "country": regions.ENGLAND,
-        "cover": pathToCovers + "/queen_queen_II.jpg",
+        "cover": pathToCovers + "/queen_queen_ii.jpg",
         "criteria": [criteria.STORYLINE, criteria.TRANSITION, criteria.SYMPHONIC, criteria.BLENDS, criteria.ROCK_OPERA, criteria.FANFARE],
         "selectedTrackTitle": "The March Of The Black Queen",
         "selectedTrackYtId": pathToYtVideo + "SoBMhx_ap_g",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4598,6 +4797,7 @@ const albums = [
         "criteria": [criteria.TRANSITION, criteria.BLENDS, criteria.ROCK_OPERA, criteria.FANFARE],
         "selectedTrackTitle": "In The Lap Of The Gods... Revisited",
         "selectedTrackYtId": pathToYtVideo + "ieXcPZC0MJk",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4610,6 +4810,7 @@ const albums = [
         "criteria": [criteria.BLENDS, criteria.ROCK_OPERA, criteria.FANFARE, criteria.ART_POP],
         "selectedTrackTitle": "Bohemian Rhapsody",
         "selectedTrackYtId": pathToYtVideo + "fJ9rUzIMcZQ",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4622,6 +4823,7 @@ const albums = [
         "criteria": [criteria.BLENDS, criteria.ROCK_OPERA, criteria.FANFARE, criteria.ART_POP],
         "selectedTrackTitle": "Somebody To Love",
         "selectedTrackYtId": pathToYtVideo + "kijpcUv-b8M",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4634,6 +4836,7 @@ const albums = [
         "criteria": [criteria.INSTRUMENTAL, criteria.JAM, criteria.LIVE, criteria.ROCK],
         "selectedTrackTitle": "When Do You Love",
         "selectedTrackYtId": pathToYtVideo + "Rng54UMoxy8",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -4649,6 +4852,7 @@ const albums = [
         "criteria": [criteria.JAM, criteria.ROCK, criteria.HEAVY],
         "selectedTrackTitle": "Catch The Rainbow",
         "selectedTrackYtId": pathToYtVideo + "p3VgV31vmUE",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4661,6 +4865,7 @@ const albums = [
         "criteria": [criteria.JAM, criteria.ROCK, criteria.SPECTACULAR, criteria.HEAVY],
         "selectedTrackTitle": "Stargazer",
         "selectedTrackYtId": pathToYtVideo + "rVXy1OhaERY",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4673,6 +4878,7 @@ const albums = [
         "criteria": [criteria.JAM, criteria.ROCK, criteria.SPECTACULAR, criteria.HEAVY],
         "selectedTrackTitle": "Gates Of Babylon",
         "selectedTrackYtId": pathToYtVideo + "MHCdCbTxypU",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4685,6 +4891,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.TRANSITION, criteria.SOFT, criteria.AMBIENT, criteria.C_PSYCHEDELIC, criteria.ELECTRO],
         "selectedTrackTitle": "Shangri-La",
         "selectedTrackYtId": pathToYtVideo + "Gg0dopo1q4U",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4697,6 +4904,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.TRANSITION, criteria.SOFT, criteria.AMBIENT, criteria.C_PSYCHEDELIC, criteria.ELECTRO],
         "selectedTrackTitle": "The Blue Planet",
         "selectedTrackYtId": pathToYtVideo + "nc207RhZQDQ",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4709,6 +4917,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.SOFT, criteria.AMBIENT, criteria.C_PSYCHEDELIC, criteria.JAZZY_GROOVY, criteria.ELECTRO],
         "selectedTrackTitle": "Discophrenia",
         "selectedTrackYtId": pathToYtVideo + "wgWUJBJ4Tt8",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4721,6 +4930,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.SOFT, criteria.AMBIENT, criteria.C_PSYCHEDELIC, criteria.ELECTRO],
         "selectedTrackTitle": "Alpha Ralpha Boulevard",
         "selectedTrackYtId": pathToYtVideo + "uKL5tj0FHDk",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4733,6 +4943,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.SYMPHONIC, criteria.SOFT, criteria.AMBIENT, criteria.ELECTRO],
         "selectedTrackTitle": "Himmelens Port",
         "selectedTrackYtId": "",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4745,6 +4956,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.SOFT, criteria.AMBIENT, criteria.C_PSYCHEDELIC, criteria.JAZZY_GROOVY, criteria.ELECTRO],
         "selectedTrackTitle": "Time Storm",
         "selectedTrackYtId": "",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4757,6 +4969,7 @@ const albums = [
         "criteria": [criteria.SOFT, criteria.C_ELECTRO, criteria.HUMBLE],
         "selectedTrackTitle": "La Leyla",
         "selectedTrackYtId": pathToYtVideo + "FmiSuG7PuVs",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4769,6 +4982,7 @@ const albums = [
         "criteria": [criteria.SOFT, criteria.C_ELECTRO, criteria.HUMBLE],
         "selectedTrackTitle": "Only Yesterday",
         "selectedTrackYtId": pathToYtVideo + "KYfxukQkw10",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4781,6 +4995,7 @@ const albums = [
         "criteria": [criteria.SOFT, criteria.C_ELECTRO, criteria.HUMBLE],
         "selectedTrackTitle": "Across The Everglades",
         "selectedTrackYtId": "",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4793,6 +5008,7 @@ const albums = [
         "criteria": [criteria.INSTRUMENTAL, criteria.C_FOLK, criteria.PATCHWORK],
         "selectedTrackTitle": "La Mouette",
         "selectedTrackYtId": pathToYtVideo + "5g1Ppivoqu0",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4805,6 +5021,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Crystal Silence",
         "selectedTrackYtId": pathToYtVideo + "69rjdr7SR0Q",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4817,6 +5034,7 @@ const albums = [
         "criteria": [criteria.JAM, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Spain",
         "selectedTrackYtId": pathToYtVideo + "a_OEJ0wqt2g",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4829,6 +5047,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "After The Cosmic Rain",
         "selectedTrackYtId": pathToYtVideo + "MWPo6oqHvJ8",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4841,6 +5060,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Song To The Pharoah Kings",
         "selectedTrackYtId": pathToYtVideo + "q-XDtjCwS9Q",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4853,6 +5073,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Celebration Suite (Part I)",
         "selectedTrackYtId": pathToYtVideo + "LBawRSufDlU",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4865,6 +5086,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Duel Of The Jester And The Tyrant",
         "selectedTrackYtId": pathToYtVideo + "sa21WPH4_U4",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": true,
         "description": "TODO"
     },
@@ -4878,6 +5100,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.JAM, criteria.UNCOMMON_INSTRUMENTS, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "The Endless Night",
         "selectedTrackYtId": pathToYtVideo + "STXJFzaAj0U",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4890,6 +5113,7 @@ const albums = [
         "criteria": [criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.C_ELECTRO],
         "selectedTrackTitle": "Journey",
         "selectedTrackYtId": pathToYtVideo + "c4t_ThUzI48",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4902,6 +5126,7 @@ const albums = [
         "criteria": [criteria.STORYLINE, criteria.ODD_RHYTHM, criteria.TRANSITION, criteria.BLENDS, criteria.PATCHWORK, criteria.ROCK_OPERA, criteria.FANFARE],
         "selectedTrackTitle": "Love Is All",
         "selectedTrackYtId": pathToYtVideo + "YK2Pltm8ZsQ",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": true,
         "description": "TODO"
     },
@@ -4915,6 +5140,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.EXPERIMENTAL, criteria.TRANSITION, criteria.SOFT, criteria.UNCOMMON_INSTRUMENTS, criteria.SOUND_COLLAGES, criteria.C_PSYCHEDELIC, criteria.C_FOLK, criteria.PATCHWORK, criteria.SOUNDTRACK],
         "selectedTrackTitle": "The Womb Bit",
         "selectedTrackYtId": pathToYtVideo + "vR-PDPS1-Pg",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4927,6 +5153,7 @@ const albums = [
         "criteria": [criteria.ART_POP, criteria.C_FOLK, criteria.FANFARE, criteria.FUNNY, criteria.BAROQUE],
         "selectedTrackTitle": "Miss Clarke And The Computer",
         "selectedTrackYtId": pathToYtVideo + "BTxp7cqrQjA",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4939,6 +5166,7 @@ const albums = [
         "criteria": [criteria.ART_POP, criteria.BLENDS, criteria.BAROQUE, criteria.C_PSYCHEDELIC],
         "selectedTrackTitle": "Get On Down Home",
         "selectedTrackYtId": pathToYtVideo + "6n5Y25fE-f0",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -4954,6 +5182,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.TRANSITION, criteria.AMBIENT, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Waves Within",
         "selectedTrackYtId": pathToYtVideo + "VGbSw8dHR3w",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": true,
         "description": "TODO"
     },
@@ -4967,6 +5196,7 @@ const albums = [
         "criteria": [criteria.JAM, criteria.TRANSITION, criteria.UNCOMMON_INSTRUMENTS, criteria.C_JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Canto De Los Flores",
         "selectedTrackYtId": pathToYtVideo + "vlWO_F2D2tw",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4979,6 +5209,7 @@ const albums = [
         "criteria": [criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_PSYCHEDELIC, criteria.ELECTRO],
         "selectedTrackTitle": "Pictures",
         "selectedTrackYtId": pathToYtVideo + "xvnRkJdbm6w",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -4991,6 +5222,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.C_ELECTRO],
         "selectedTrackTitle": "Troja",
         "selectedTrackYtId": pathToYtVideo + "1AfQ2w-fY40",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5003,6 +5235,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.SYMPHONIC, criteria.SPECTACULAR, criteria.ITALIAN_SUNG],
         "selectedTrackTitle": "Luna Park",
         "selectedTrackYtId": pathToYtVideo + "T2PVgfv0OR4",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": true,
         "description": "TODO"
     },
@@ -5016,6 +5249,7 @@ const albums = [
         "criteria": [criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.AMBIENT, criteria.ELECTRO],
         "selectedTrackTitle": "Secret",
         "selectedTrackYtId": pathToYtVideo + "3K0UOKOdDvE",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5028,6 +5262,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.ORIENTAL, criteria.UNCOMMON_INSTRUMENTS, criteria.C_JAZZ, criteria.C_FOLK],
         "selectedTrackTitle": "Mind Ecology",
         "selectedTrackYtId": pathToYtVideo + "d_DajSHROJA",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": true,
         "description": "TODO"
     },
@@ -5041,6 +5276,7 @@ const albums = [
         "criteria": [criteria.JAM, criteria.ROCK, criteria.HEAVY, criteria.OCCULT],
         "selectedTrackTitle": "Master Heartache",
         "selectedTrackYtId": pathToYtVideo + "wQSz64rU9mM",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5053,6 +5289,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.SYMPHONIC, criteria.C_PSYCHEDELIC, criteria.FRENCH_SUNG, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "J'un Oeil",
         "selectedTrackYtId": pathToYtVideo + "Kng5yZJyMj0",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5065,6 +5302,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.SYMPHONIC, criteria.C_PSYCHEDELIC, criteria.FRENCH_SUNG, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Stadaconé",
         "selectedTrackYtId": pathToYtVideo + "GlkUhrk8MZg",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": true,
         "description": "TODO"
     },
@@ -5078,6 +5316,7 @@ const albums = [
         "criteria": [criteria.EXPERIMENTAL, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO, criteria.JAZZ],
         "selectedTrackTitle": "Slightly All The Time",
         "selectedTrackYtId": pathToYtVideo + "4RwLgA9U_3I",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5090,6 +5329,7 @@ const albums = [
         "criteria": [criteria.C_PSYCHEDELIC, criteria.FOLK],
         "selectedTrackTitle": "The Duke Of Beaufoot",
         "selectedTrackYtId": pathToYtVideo + "D1jNLR9tjXE",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5102,6 +5342,7 @@ const albums = [
         "criteria": [criteria.C_PSYCHEDELIC, criteria.FOLK],
         "selectedTrackTitle": "A Canterbury Tale",
         "selectedTrackYtId": pathToYtVideo + "o7Z5SIYACAU",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5114,6 +5355,7 @@ const albums = [
         "criteria": [criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.FOLK],
         "selectedTrackTitle": "Old Boot Wine",
         "selectedTrackYtId": pathToYtVideo + "-Q0rh2uESWY",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5126,6 +5368,7 @@ const albums = [
         "criteria": [criteria.GLITTER, criteria.C_FOLK, criteria.ROCK],
         "selectedTrackTitle": "Golden Fleece",
         "selectedTrackYtId": pathToYtVideo + "BuP9_sMgu8I",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5138,6 +5381,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.GLITTER, criteria.C_ELECTRO, criteria.SPECTACULAR],
         "selectedTrackTitle": "Elliptical Seasons",
         "selectedTrackYtId": pathToYtVideo + "sSZepYc219Y",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5150,6 +5394,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.GLITTER, criteria.C_ELECTRO, criteria.SPECTACULAR],
         "selectedTrackTitle": "Silver Winds",
         "selectedTrackYtId": pathToYtVideo + "0tmM4X3HnDk",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5162,6 +5407,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.GLITTER, criteria.C_ELECTRO, criteria.SPECTACULAR],
         "selectedTrackTitle": "Wings Of White",
         "selectedTrackYtId": pathToYtVideo + "Z8qyuL_wpXQ",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5174,6 +5420,7 @@ const albums = [
         "criteria": [criteria.INSTRUMENTAL, criteria.JAM, criteria.SOFT, criteria.C_JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Don't Skimp With Us",
         "selectedTrackYtId": pathToYtVideo + "1ABQLe-KfEo",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5186,6 +5433,7 @@ const albums = [
         "criteria": [criteria.JAM, criteria.SOFT, criteria.ROCK, criteria.ART_POP],
         "selectedTrackTitle": "Words Unspoken",
         "selectedTrackYtId": "",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5198,6 +5446,7 @@ const albums = [
         "criteria": [criteria.ROCK, criteria.ART_POP],
         "selectedTrackTitle": "Travelled",
         "selectedTrackYtId": pathToYtVideo + "OzihNqVYElA",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5210,6 +5459,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.SOFT, criteria.BLENDS, criteria.C_JAZZ, criteria.ROCK_OPERA, 47, criteria.ART_POP],
         "selectedTrackTitle": "Rudy",
         "selectedTrackYtId": pathToYtVideo + "gxW3s_Qk1dk",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": true,
         "description": "Rick Davies and Roger Hodgson composed heavy-hearted songs to create one of the most subtle, most magnificient, most moving albums we could imagine, with intense vocals and lyrics as desperate as the cover. The album is a theater of unregular song structures and piano-driven melodies, where the other instruments complete parts here and there so that almost every song is a climax itself."
     },
@@ -5223,6 +5473,7 @@ const albums = [
         "criteria": [criteria.SOFT, 47, criteria.ART_POP],
         "selectedTrackTitle": "Another Man's Woman",
         "selectedTrackYtId": pathToYtVideo + "MUPwN0MtY1Y",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5235,6 +5486,7 @@ const albums = [
         "criteria": [criteria.SOFT, 47, criteria.ART_POP],
         "selectedTrackTitle": "Even In The Quietest Moments",
         "selectedTrackYtId": pathToYtVideo + "7CXcMPdVXp4",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5247,6 +5499,7 @@ const albums = [
         "criteria": [criteria.JAM, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Baby Night",
         "selectedTrackYtId": pathToYtVideo + "s6L8ZCAt3DA",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": true,
         "description": "TODO"
     },
@@ -5260,6 +5513,7 @@ const albums = [
         "criteria": [criteria.LENGHTY_TRACKS, criteria.ORIENTAL, criteria.SOUND_COLLAGES, criteria.C_PSYCHEDELIC, criteria.C_FOLK],
         "selectedTrackTitle": "Baby Night",
         "selectedTrackYtId": pathToYtVideo + "s6L8ZCAt3DA",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5272,6 +5526,7 @@ const albums = [
         "criteria": [criteria.SOFT, criteria.JAZZY_GROOVY, criteria.FOLK],
         "selectedTrackTitle": "Song Of Romeo",
         "selectedTrackYtId": pathToYtVideo + "_LXdlWNrItQ",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -5287,6 +5542,7 @@ const albums = [
         "criteria": [criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.AMBIENT, criteria.C_PSYCHEDELIC, criteria.ELECTRO],
         "selectedTrackTitle": "Sequent 'C'",
         "selectedTrackYtId": pathToYtVideo + "Jb_hDcNr5KQ",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5299,6 +5555,7 @@ const albums = [
         "criteria": [criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.AMBIENT, criteria.C_PSYCHEDELIC, criteria.ELECTRO],
         "selectedTrackTitle": "Rubycon (Part I)",
         "selectedTrackYtId": pathToYtVideo + "4xl6zlD_hlE",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5311,6 +5568,7 @@ const albums = [
         "criteria": [criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.LIVE, criteria.AMBIENT, criteria.C_PSYCHEDELIC, criteria.ELECTRO],
         "selectedTrackTitle": "Ricochet (Part II)",
         "selectedTrackYtId": pathToYtVideo + "XCsJOaPDJUE",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5323,6 +5581,7 @@ const albums = [
         "criteria": [criteria.INSTRUMENTAL, criteria.SOFT, criteria.AMBIENT, criteria.C_PSYCHEDELIC, criteria.ELECTRO],
         "selectedTrackTitle": "Stratosfear",
         "selectedTrackYtId": pathToYtVideo + "2w8VsvJ40sM",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5335,6 +5594,7 @@ const albums = [
         "criteria": [criteria.C_PSYCHEDELIC, criteria.FUNNY, criteria.FOLK],
         "selectedTrackTitle": "Sometime",
         "selectedTrackYtId": pathToYtVideo + "91xllZBR8ps",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5347,6 +5607,7 @@ const albums = [
         "criteria": [criteria.STORYLINE, criteria.UNCOMMON_INSTRUMENTS, criteria.JAZZY_GROOVY, criteria.ROCK_OPERA, criteria.FOLK],
         "selectedTrackTitle": "Yourself",
         "selectedTrackYtId": pathToYtVideo + "YlyCN0xb37g",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5359,6 +5620,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.GLITTER, criteria.SOFT, criteria.C_ELECTRO],
         "selectedTrackTitle": "Far From Me",
         "selectedTrackYtId": pathToYtVideo + "o6IZVtde0Es",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5371,6 +5633,7 @@ const albums = [
         "criteria": [criteria.ROCK],
         "selectedTrackTitle": "It Wasn't For You",
         "selectedTrackYtId": pathToYtVideo + "7QC1hQyn8-0",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5383,6 +5646,7 @@ const albums = [
         "criteria": [criteria.SOFT, criteria.FOLK],
         "selectedTrackTitle": "The Giant's Dead Hoorah!",
         "selectedTrackYtId": pathToYtVideo + "zqekc2zaw9A",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5395,6 +5659,7 @@ const albums = [
         "criteria": [criteria.STORYLINE, criteria.FRENCH_SUNG, criteria.ROCK_OPERA, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "L'appel Du Temps",
         "selectedTrackYtId": pathToYtVideo + "sGMIO4h7XMY",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5407,6 +5672,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_ELECTRO, criteria.SPECTACULAR],
         "selectedTrackTitle": "Across The Waters",
         "selectedTrackYtId": pathToYtVideo + "msni0_j51IU",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5419,6 +5685,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_ELECTRO, criteria.SPECTACULAR],
         "selectedTrackTitle": "Mister Ten Percent",
         "selectedTrackYtId": pathToYtVideo + "7VAA7M5nXx8",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5431,6 +5698,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.ELECTRO, criteria.ART_POP],
         "selectedTrackTitle": "The March To The Eternal City",
         "selectedTrackYtId": pathToYtVideo + "TmTZpQYMzN8",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -5446,6 +5714,7 @@ const albums = [
         "criteria": [criteria.C_PSYCHEDELIC, criteria.ROCK],
         "selectedTrackTitle": "Ego Trip",
         "selectedTrackYtId": pathToYtVideo + "uIy3WOK2-iY",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {    
@@ -5458,6 +5727,7 @@ const albums = [
         "criteria": [criteria.JAM, criteria.C_PSYCHEDELIC, criteria.ROCK],
         "selectedTrackTitle": "Mind Flowers",
         "selectedTrackYtId": pathToYtVideo + "eoj6au1h6m0",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5470,6 +5740,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.EXPERIMENTAL, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.AMBIENT, criteria.C_PSYCHEDELIC, criteria.JAZZ],
         "selectedTrackTitle": "Urban Sax (Part I)",
         "selectedTrackYtId": pathToYtVideo + "q01oHWFqVqM",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5482,6 +5753,7 @@ const albums = [
         "criteria": [criteria.ROCK, criteria.HEAVY],
         "selectedTrackTitle": "The Spell",
         "selectedTrackYtId": pathToYtVideo + "w5L-AOGt7qw",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5494,6 +5766,7 @@ const albums = [
         "criteria": [criteria.ROCK, criteria.HEAVY],
         "selectedTrackTitle": "The Magician's Birthday",
         "selectedTrackYtId": pathToYtVideo + "apWKh3D9oVw",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -5509,6 +5782,7 @@ const albums = [
         "criteria": [criteria.C_PSYCHEDELIC, criteria.C_FOLK],
         "selectedTrackTitle": "Octopus",
         "selectedTrackYtId": pathToYtVideo + "N91EyGMzvgc",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5521,6 +5795,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.SYMPHONIC, criteria.C_JAZZ, criteria.C_FOLK],
         "selectedTrackTitle": "After The Flood",
         "selectedTrackYtId": pathToYtVideo + "oJUu9-s15PQ",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5533,6 +5808,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_JAZZ],
         "selectedTrackTitle": "The Emperor In His War Room",
         "selectedTrackYtId": pathToYtVideo + "4wtUFJPGE0I",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5545,6 +5821,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_JAZZ],
         "selectedTrackTitle": "Lemmings",
         "selectedTrackYtId": pathToYtVideo + "_Earfbot_uI",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5557,6 +5834,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Arrow",
         "selectedTrackYtId": pathToYtVideo + "s_o5tMza1og",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5569,6 +5847,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_JAZZ],
         "selectedTrackTitle": "Childlike Faith In Childhood's End",
         "selectedTrackYtId": pathToYtVideo + "x16-qZJmpKA",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5581,6 +5860,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.SYMPHONIC, criteria.C_JAZZ],
         "selectedTrackTitle": "Meurglys III, The Songwriter's Guild",
         "selectedTrackYtId": pathToYtVideo + "Xo4IWcGrbbQ",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5593,6 +5873,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.SYMPHONIC, criteria.C_JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "The Sphinx In The Face",
         "selectedTrackYtId": pathToYtVideo + "Xo4IWcGrbbQ",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5605,6 +5886,7 @@ const albums = [
         "criteria": [criteria.INSTRUMENTAL, criteria.SYMPHONIC, criteria.ELECTRO],
         "selectedTrackTitle": "Pulstar",
         "selectedTrackYtId": pathToYtVideo + "G1cQnhOxqXw",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5617,6 +5899,7 @@ const albums = [
         "criteria": [criteria.INSTRUMENTAL, criteria.SYMPHONIC, criteria.ELECTRO],
         "selectedTrackTitle": "Spiral",
         "selectedTrackYtId": pathToYtVideo + "iW_qGMRmJAw",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5629,6 +5912,7 @@ const albums = [
         "criteria": [criteria.EXPERIMENTAL, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.ELECTRO],
         "selectedTrackTitle": "Beaubourg (Part I)",
         "selectedTrackYtId": pathToYtVideo + "iW_qGMRmJAw",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5641,6 +5925,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.C_ELECTRO, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Center Of The Winds",
         "selectedTrackYtId": pathToYtVideo + "7DMy4F3GDiM",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -5656,6 +5941,7 @@ const albums = [
         "criteria": [criteria.ROCK, criteria.HEAVY, criteria.OCCULT],
         "selectedTrackTitle": "Woman Of The Devil",
         "selectedTrackYtId": pathToYtVideo + "zgWyveaejwI",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5668,6 +5954,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.JAM, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Herandu",
         "selectedTrackYtId": pathToYtVideo + "_A4FqKg0c_A",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": true,
         "description": "TODO"
     },
@@ -5681,6 +5968,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.C_ELECTRO, criteria.ZEUHL],
         "selectedTrackTitle": "Booldemug",
         "selectedTrackYtId": pathToYtVideo + "3UyB0hlR6nw",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5693,6 +5981,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.JAM, criteria.GLITTER, criteria.SOUND_COLLAGES],
         "selectedTrackTitle": "Glad To Be Alive",
         "selectedTrackYtId": pathToYtVideo + "grqGzuSak2s",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": true,
         "description": "TODO"
     },
@@ -5706,6 +5995,7 @@ const albums = [
         "criteria": [criteria.JAM, criteria.ROCK, criteria.HEAVY],
         "selectedTrackTitle": "Period Of Change",
         "selectedTrackYtId": pathToYtVideo + "zDW3m-LaaRc",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5718,6 +6008,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.JAM, criteria.ROCK],
         "selectedTrackTitle": "Valediction",
         "selectedTrackYtId": pathToYtVideo + "PILotugu-s4",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5730,6 +6021,7 @@ const albums = [
         "criteria": [criteria.JAM, criteria.ROCK],
         "selectedTrackTitle": "Sometime World",
         "selectedTrackYtId": pathToYtVideo + "kvLVSPPLZZY",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5742,6 +6034,7 @@ const albums = [
         "criteria": [criteria.JAM, criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.ROCK, criteria.HEAVY, criteria.FANFARE],
         "selectedTrackTitle": "Meet Me At The Jailhouse",
         "selectedTrackYtId": pathToYtVideo + "sBzeB36zYvU",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5754,6 +6047,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.C_JAZZ, criteria.HEAVY, criteria.FANFARE],
         "selectedTrackTitle": "Waitin' At This Door",
         "selectedTrackYtId": pathToYtVideo + "I_Udqw806sA",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -5772,6 +6066,7 @@ const albums = [
         "criteria": [criteria.GLITTER, criteria.ROCK],
         "selectedTrackTitle": "Beyond & Before",
         "selectedTrackYtId": pathToYtVideo + "YFcxNnKZGNU",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5784,6 +6079,7 @@ const albums = [
         "criteria": [criteria.GLITTER, criteria.ROCK],
         "selectedTrackTitle": "Astral Traveller",
         "selectedTrackYtId": pathToYtVideo + "q0aXTN_AeKw",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5796,6 +6092,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.GLITTER],
         "selectedTrackTitle": "Starship Trooper",
         "selectedTrackYtId": pathToYtVideo + "DKftiJS30Cs",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5808,6 +6105,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.EXPERIMENTAL, criteria.GLITTER, criteria.SYMPHONIC, criteria.SOUND_COLLAGES, criteria.BLENDS, criteria.SPECTACULAR, criteria.PATCHWORK],
         "selectedTrackTitle": "Roundabout",
         "selectedTrackYtId": pathToYtVideo + "-Tdu4uKSZ3M",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5820,6 +6118,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.LENGHTY_TRACKS, criteria.GLITTER, criteria.SYMPHONIC, criteria.BLENDS, criteria.SPECTACULAR],
         "selectedTrackTitle": "Siberian Khatru",
         "selectedTrackYtId": pathToYtVideo + "r0HnIr6jYWU",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": true,
         "description": "TODO"
     },
@@ -5833,6 +6132,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.EXPERIMENTAL, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.ORIENTAL, criteria.C_PSYCHEDELIC, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "The Ancient",
         "selectedTrackYtId": pathToYtVideo + "fMoE_2lV-bk",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5845,6 +6145,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.LENGHTY_TRACKS, criteria.GLITTER, criteria.SYMPHONIC, criteria.BLENDS, criteria.SPECTACULAR],
         "selectedTrackTitle": "The Gates Of Delirium",
         "selectedTrackYtId": pathToYtVideo + "EdmUAsU2eXI",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5857,6 +6158,7 @@ const albums = [
         "criteria": [criteria.GLITTER, criteria.BLENDS, criteria.SPECTACULAR],
         "selectedTrackTitle": "Going For The One",
         "selectedTrackYtId": pathToYtVideo + "f9GAkA7W5Qg",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -5872,6 +6174,7 @@ const albums = [
         "criteria": [criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.AMBIENT, criteria.C_PSYCHEDELIC, criteria.ELECTRO],
         "selectedTrackTitle": "Plénitude",
         "selectedTrackYtId": pathToYtVideo + "QCs2wJBMTv4",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5884,6 +6187,7 @@ const albums = [
         "criteria": [criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.AMBIENT, criteria.ELECTRO],
         "selectedTrackTitle": "Lost Message",
         "selectedTrackYtId": pathToYtVideo + "sYzgqOIkVS8",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5896,6 +6200,7 @@ const albums = [
         "criteria": [criteria.JAM, criteria.ROCK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Cold Night",
         "selectedTrackYtId": pathToYtVideo + "2gI_mUCPHO0",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5908,6 +6213,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.JAM, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Businessman",
         "selectedTrackYtId": pathToYtVideo + "jnE_gq9_R84",
+        "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
     },
     {
@@ -5919,7 +6225,9 @@ const albums = [
         "cover": pathToCovers + "/zyma_brave_new_world.jpg",
         "criteria": [criteria.SOFT, criteria.C_JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Colours",
-        "selectedTrackYtId": pathToYtVideo + "OJbotZE5lV4"
+        "selectedTrackYtId": pathToYtVideo + "OJbotZE5lV4",
+        "spotifyId": pathToSpotifyAlbum + "todo",
+        "isAGem": false
     }
 ];
 
