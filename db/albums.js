@@ -110,6 +110,19 @@ const albums = [
         "isAGem": false
     },
     {
+        "id": "the_alan_parsons_project_the_turn_of_a_friendly_card",
+        "title": "The Turn Of A Friendly Card",
+        "artist": "The Alan Parsons Project",
+        "year": 1980,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/the_alan_parsons_project_the_turn_of_a_friendly_card.jpg",
+        "criteria": [criteria.CONCEPT, criteria.GLITTER, criteria.SOFT, criteria.ART_POP, criteria.ORCHESTRAL_PARTS],
+        "selectedTrackTitle": "The Ace Of Swords",
+        "selectedTrackYtId": pathToYtVideo + "mmxqzqk-Ouc",
+        "spotifyId": pathToSpotifyAlbum + "6nRIzDO8r11ba93abrhlzZ",
+        "isAGem": false
+    },
+    {
         "id": "the_alan_parsons_project_eye_in_the_sky",
         "title": "Eye In The Sky",
         "artist": "The Alan Parsons Project",
@@ -354,6 +367,7 @@ const albums = [
         "criteria": [criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.MEDIEVAL, criteria.FOLK],
         "selectedTrackTitle": "Which Way The Wind Blows",
         "selectedTrackYtId": pathToYtVideo + "E-zErxaZxh8",
+        "spotifyId": pathToSpotifyAlbum + "5Iobarqw2ercTb5otXGkiV",
         "isAGem": false
     },
     {
@@ -366,6 +380,7 @@ const albums = [
         "criteria": [criteria.SOFT, criteria.FOLK],
         "selectedTrackTitle": "Birdsong And Reprise",
         "selectedTrackYtId": pathToYtVideo + "tSEqbHSUZJU",
+        "spotifyId": pathToSpotifyAlbum + "2CkOxyCAwfey7JZLQfudpS",
         "isAGem": false
     },
     {
@@ -378,6 +393,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.EXPERIMENTAL, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.TRANSITION, criteria.SYMPHONIC, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO, criteria.PATCHWORK, criteria.OCCULT],
         "selectedTrackTitle": "The Lamb",
         "selectedTrackYtId": pathToYtVideo + "hbTHgL4pu_A",
+        "spotifyId": pathToSpotifyAlbum + "4MB7X1urqItzKWFI73dyhb",
         "isAGem": false
     },
     {
@@ -390,6 +406,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.FRENCH_SUNG],
         "selectedTrackTitle": "Le Chamadère",
         "selectedTrackYtId": pathToYtVideo + "6v5NjAeKNE0",
+        "spotifyId": pathToSpotifyAlbum + "2Cx64WunNXSSrvi21T9bb4",
         "isAGem": false
     },
     {
@@ -402,6 +419,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.EXPERIMENTAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.UNCOMMON_INSTRUMENTS, criteria.SOUND_COLLAGES, criteria.C_PSYCHEDELIC, criteria.JAZZ],
         "selectedTrackTitle": "L'abbattimento Dello Zeppelin",
         "selectedTrackYtId": pathToYtVideo + "433wf2jDkhA",
+        "spotifyId": pathToSpotifyAlbum + "4YLKvXEwd8vCNpZ7MN36YS",
         "isAGem": false
     },
     {
@@ -414,6 +432,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.EXPERIMENTAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.SOUND_COLLAGES, criteria.C_PSYCHEDELIC, criteria.JAZZ],
         "selectedTrackTitle": "Cometa Rossa",
         "selectedTrackYtId": pathToYtVideo + "KuTOacIIf-I",
+        "spotifyId": pathToSpotifyAlbum + "28tx6X6UX0IhqzTUiXUkld",
         "isAGem": false
     },
     {
@@ -426,6 +445,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.EXPERIMENTAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.C_PSYCHEDELIC, criteria.JAZZ],
         "selectedTrackTitle": "Megalopoli",
         "selectedTrackYtId": pathToYtVideo + "VVugC2gOMFs",
+        "spotifyId": pathToSpotifyAlbum + "5eOTf1CZgRvs3X3OtIxlwK",
         "isAGem": false
     },
     {
@@ -438,6 +458,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.EXPERIMENTAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.C_PSYCHEDELIC, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Diforisma Urbano",
         "selectedTrackYtId": pathToYtVideo + "zrX2WtAMPLU",
+        "spotifyId": pathToSpotifyAlbum + "4V42k78uHSPQk7Y6CR6e6H",
         "isAGem": false
     },
     {
@@ -635,7 +656,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.JAM, criteria.LIVE, criteria.ROCK, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "Fountain",
         "selectedTrackYtId": pathToYtVideo + "To2NXcCRC58",
-        "spotifyId": "https://open.spotify.com/embed/album/3AC9IACTZlwBvyJJKwiPl4",
+        "spotifyId": pathToSpotifyAlbum + "3AC9IACTZlwBvyJJKwiPl4",
         "isAGem": false
     },
     {
@@ -2103,7 +2124,7 @@ const albums = [
         "criteria": [criteria.EXPERIMENTAL, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.FUNNY],
         "selectedTrackTitle": "Who Are The Brain Police?",
         "selectedTrackYtId": pathToYtVideo + "DuABc9ZNtrA",
-        "spotifyId": "https://open.spotify.com/embed/album/3PZXB9NBWf11eDS72JCGaY",
+        "spotifyId": pathToSpotifyAlbum + "3PZXB9NBWf11eDS72JCGaY",
         "isAGem": false
     },
     {
@@ -2299,6 +2320,7 @@ const albums = [
         "criteria": [criteria.JAM, criteria.LIVE, criteria.C_PSYCHEDELIC, criteria.FUNNY],
         "selectedTrackTitle": "Muffin Man",
         "selectedTrackYtId": pathToYtVideo + "8CGO9I8rmkE",
+        "spotifyId": pathToSpotifyAlbum + "2Z39MzRC9Jh5eBt7dcJsdL",
         "isAGem": false
     },
     {
@@ -2311,6 +2333,7 @@ const albums = [
         "criteria": [criteria.C_PSYCHEDELIC, criteria.ROCK, criteria.FUNNY],
         "selectedTrackTitle": "Zoot Allures",
         "selectedTrackYtId": pathToYtVideo + "fdQmhhi5cLI",
+        "spotifyId": pathToSpotifyAlbum + "3rxfGp9OzH5jjEDX1nFqJc",
         "isAGem": false
     },
     {
@@ -2323,6 +2346,7 @@ const albums = [
         "criteria": [criteria.JAM, criteria.LENGHTY_TRACKS, criteria.LIVE, criteria.C_JAZZ, criteria.FUNNY],
         "selectedTrackTitle": "Honey, Don't You Want A Man Like Me?",
         "selectedTrackYtId": pathToYtVideo + "QsrSIQM4ZTk",
+        "spotifyId": pathToSpotifyAlbum + "314RKua1JQwMfZOKD3pUXV",
         "isAGem": false
     },
     {
@@ -2335,6 +2359,7 @@ const albums = [
         "criteria": [criteria.STORYLINE, criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.C_JAZZ, criteria.FUNNY],
         "selectedTrackTitle": "RDNZL",
         "selectedTrackYtId": pathToYtVideo + "ZlwLNcBD68k",
+        "spotifyId": pathToSpotifyAlbum + "2Z39MzRC9Jh5eBt7dcJsdL",
         "isAGem": false
     },
     {
@@ -2347,6 +2372,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.C_PSYCHEDELIC, criteria.C_JAZZ],
         "selectedTrackTitle": "The Ocean Is The Ultimate Solution",
         "selectedTrackYtId": pathToYtVideo + "zCNRgfkeWXs",
+        "spotifyId": pathToSpotifyAlbum + "4mxbiUjBnnamJdxtF26VbX",
         "isAGem": false
     },
     {
@@ -2359,6 +2385,7 @@ const albums = [
         "criteria": [criteria.JAM, criteria.LIVE, criteria.SOUND_COLLAGES, criteria.C_PSYCHEDELIC, criteria.ROCK, criteria.FUNNY, criteria.HEAVY, criteria.PATCHWORK],
         "selectedTrackTitle": "City Of Tiny Lites",
         "selectedTrackYtId": pathToYtVideo + "cMe7ZFMBGdo",
+        "spotifyId": pathToSpotifyAlbum + "4hBKoHOpEvQ6g4CQFsEAdU",
         "isAGem": false
     },
     {
@@ -2371,6 +2398,7 @@ const albums = [
         "criteria": [criteria.STORYLINE, criteria.ODD_RHYTHM, criteria.TRANSITION, criteria.BLENDS, criteria.FUNNY, criteria.JAZZY_GROOVY, criteria.ROCK_OPERA],
         "selectedTrackTitle": "A Token Of My Extreme",
         "selectedTrackYtId": pathToYtVideo + "tnSF36PBxbk",
+        "spotifyId": pathToSpotifyAlbum + "6uJkCskko3O83SRYWQVsjS",
         "isAGem": true,
         "description": "Joe, a young guitarist, forms a band in his garage in a world repressed by the Central Scrutinizer, a clunky flying saucer whose role is to enforce the law. Frank Zappa presents Joe's story and struggles in this dystopian society, through music blending many genres, though very Pop Rock-driven (mocking the Rock fashion of the late 70's), and comical lyrics."
     },
@@ -2384,6 +2412,7 @@ const albums = [
         "criteria": [12, criteria.BLENDS, criteria.FUNNY, criteria.FANFARE],
         "selectedTrackTitle": "Why Don't You Like Me",
         "selectedTrackYtId": pathToYtVideo + "emEOePwK0ok",
+        "spotifyId": pathToSpotifyAlbum + "2phI9hXkfvn8DeBiqbZu4I",
         "isAGem": false
     },
     {
