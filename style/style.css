@@ -729,6 +729,42 @@ header #menu button.button-active {
   text-align: justify;
 }
 
+#aboutVue .me-wrapper {
+  float: right;
+  margin-left: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+#aboutVue .me-wrapper .me {
+  width: 200px;
+  border: solid 4px #a18a54;
+  border-radius: 20px;
+}
+
+#aboutVue .me-wrapper .me-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  font-style: italic;
+}
+
+#aboutVue .me-wrapper .me-description .arrow {
+  width: 40px;
+  margin: 10px;
+}
+
 body {
   font-family: 'Oswald', sans-serif;
   font-size: 25px;
