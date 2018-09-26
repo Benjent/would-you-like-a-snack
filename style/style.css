@@ -463,10 +463,6 @@ header #menu button.button-active {
   padding: 159px 20px 50px 20px;
 }
 
-#atticVue #player {
-  display: none;
-}
-
 #atticVue .album-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -512,6 +508,9 @@ header #menu button.button-active {
   opacity: 0;
   -webkit-transition: opacity 0.2s;
   transition: opacity 0.2s;
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 #atticVue .album-wrapper .album-infos .album-rating {
@@ -522,8 +521,7 @@ header #menu button.button-active {
 }
 
 #atticVue .album-wrapper img {
-  height: 220px;
-  width: 220px;
+  width: 100%;
 }
 
 #atticVue .album-wrapper img:hover {
@@ -817,6 +815,11 @@ body {
     height: 260px;
     border: solid 4px #a18a54;
     margin: 20px;
+  }
+  #atticVue .album-wrapper {
+    height: 180px;
+    width: 180px;
+    font-size: 12px;
   }
   #gemsVue .album-wrapper .album-cover {
     height: 260px;
