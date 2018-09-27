@@ -1604,7 +1604,7 @@ const albums = [
         "artist": "Crack The Sky",
         "year": 1976,
         "country": regions.USA,
-        "cover": pathToCovers + "/animal_notes_crack_the_sky.jpg",
+        "cover": pathToCovers + "/crack_the_sky_animal_notes.jpg",
         "criteria": [criteria.ROCK, criteria.ODD_RHYTHM, criteria.ORCHESTRAL_PARTS],
         "selectedTrackTitle": "Rangers At Midnight",
         "selectedTrackYtId": pathToYtVideo + "ZWUS7CxH4YY",
@@ -1617,11 +1617,11 @@ const albums = [
         "artist": "Crack The Sky",
         "year": 1979,
         "country": regions.USA,
-        "cover": pathToCovers + "/safety_in_numbers_crack_the_sky.jpg",
+        "cover": pathToCovers + "/crack_the_sky_safety_in_numbers.jpg",
         "criteria": [criteria.ROCK, criteria.ODD_RHYTHM],
         "selectedTrackTitle": "Nuclear Apathy",
         "selectedTrackYtId": pathToYtVideo + "x8_aIHXWkH0",
-        "spotifyId": pathToSpotifyAlbum + "6wqdqwHrlRodsUQBdBHWTH",
+        "spotifyId": pathToSpotifyAlbum + "6YyUimOKdv94um4jD71U1B",
         "isAGem": false
     },
     {

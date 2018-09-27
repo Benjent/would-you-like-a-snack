@@ -144,7 +144,7 @@ const subgenres = [
         "description": "TODO",
         "mostRepresentativeAlbum": getAlbumById("roger_glover_the_butterfly_ball_and_the_grasshoppers_feast"),
         "albums": [
-            getAlbumById("queen_queen_II"),
+            getAlbumById("queen_queen_ii"),
             getAlbumById("the_crazy_world_of_arthur_brown_the_crazy_world_of_arthur_brown"),
             getAlbumById("frank_zappa_joes_garage"),
             getAlbumById("roy_wood_mustard"),
