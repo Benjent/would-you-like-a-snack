@@ -5555,7 +5555,7 @@ const albums = [
         "criteria": [criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.AMBIENT, criteria.C_PSYCHEDELIC, criteria.ELECTRO],
         "selectedTrackTitle": "Sequent 'C'",
         "selectedTrackYtId": pathToYtVideo + "Jb_hDcNr5KQ",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "7KRXWeJYBkyUmwOFTayiQk",
         "isAGem": false
     },
     {
@@ -5568,7 +5568,7 @@ const albums = [
         "criteria": [criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.AMBIENT, criteria.C_PSYCHEDELIC, criteria.ELECTRO],
         "selectedTrackTitle": "Rubycon (Part I)",
         "selectedTrackYtId": pathToYtVideo + "4xl6zlD_hlE",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "61BhEQyumLEqrRVREfQabB",
         "isAGem": false
     },
     {
@@ -5581,7 +5581,7 @@ const albums = [
         "criteria": [criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.LIVE, criteria.AMBIENT, criteria.C_PSYCHEDELIC, criteria.ELECTRO],
         "selectedTrackTitle": "Ricochet (Part II)",
         "selectedTrackYtId": pathToYtVideo + "XCsJOaPDJUE",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "6iPUDn0rAVYuojEyEU0VJP",
         "isAGem": false
     },
     {
@@ -5594,7 +5594,7 @@ const albums = [
         "criteria": [criteria.INSTRUMENTAL, criteria.SOFT, criteria.AMBIENT, criteria.C_PSYCHEDELIC, criteria.ELECTRO],
         "selectedTrackTitle": "Stratosfear",
         "selectedTrackYtId": pathToYtVideo + "2w8VsvJ40sM",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "3gwpouV58Wxl0kd5OIT8m7",
         "isAGem": false
     },
     {
@@ -5607,7 +5607,7 @@ const albums = [
         "criteria": [criteria.C_PSYCHEDELIC, criteria.FUNNY, criteria.FOLK],
         "selectedTrackTitle": "Sometime",
         "selectedTrackYtId": pathToYtVideo + "91xllZBR8ps",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "5QNTy5elpS2oC2mrVmfNo1",
         "isAGem": false
     },
     {
@@ -5620,7 +5620,7 @@ const albums = [
         "criteria": [criteria.STORYLINE, criteria.UNCOMMON_INSTRUMENTS, criteria.JAZZY_GROOVY, criteria.ROCK_OPERA, criteria.FOLK],
         "selectedTrackTitle": "Yourself",
         "selectedTrackYtId": pathToYtVideo + "YlyCN0xb37g",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": "",
         "isAGem": false
     },
     {
@@ -5633,7 +5633,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.GLITTER, criteria.SOFT, criteria.C_ELECTRO],
         "selectedTrackTitle": "Far From Me",
         "selectedTrackYtId": pathToYtVideo + "o6IZVtde0Es",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": "",
         "isAGem": false
     },
     {
@@ -5646,7 +5646,7 @@ const albums = [
         "criteria": [criteria.ROCK],
         "selectedTrackTitle": "It Wasn't For You",
         "selectedTrackYtId": pathToYtVideo + "7QC1hQyn8-0",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "0mlj4Hjj145o9dJIc3dm1w",
         "isAGem": false
     },
     {
@@ -5659,7 +5659,7 @@ const albums = [
         "criteria": [criteria.SOFT, criteria.FOLK],
         "selectedTrackTitle": "The Giant's Dead Hoorah!",
         "selectedTrackYtId": pathToYtVideo + "zqekc2zaw9A",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": "",
         "isAGem": false
     },
     {
@@ -5672,7 +5672,7 @@ const albums = [
         "criteria": [criteria.STORYLINE, criteria.FRENCH_SUNG, criteria.ROCK_OPERA, criteria.TOUCHING_VOCALS],
         "selectedTrackTitle": "L'appel Du Temps",
         "selectedTrackYtId": pathToYtVideo + "sGMIO4h7XMY",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": "",
         "isAGem": false
     },
     {
@@ -5685,7 +5685,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_ELECTRO, criteria.SPECTACULAR],
         "selectedTrackTitle": "Across The Waters",
         "selectedTrackYtId": pathToYtVideo + "msni0_j51IU",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "2gu5catUel9XVrQT7FQhU8",
         "isAGem": false
     },
     {
@@ -5698,7 +5698,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_ELECTRO, criteria.SPECTACULAR],
         "selectedTrackTitle": "Mister Ten Percent",
         "selectedTrackYtId": pathToYtVideo + "7VAA7M5nXx8",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "1KDrZ0BG6DN9odiHb9sE25",
         "isAGem": false
     },
     {
@@ -5711,7 +5711,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.ELECTRO, criteria.ART_POP],
         "selectedTrackTitle": "The March To The Eternal City",
         "selectedTrackYtId": pathToYtVideo + "TmTZpQYMzN8",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "5CV4ZQy6NS9GcpMUAGZhYE",
         "isAGem": false
     },
     // ************************************************************************************ //
