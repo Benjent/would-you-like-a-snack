@@ -59,6 +59,11 @@ Vue.component('album', {
 
                 <div class="album-criteria">
                     <div
+                        class="album-gem"
+                        v-if="selectedAlbum.isAGem">
+                        This album is a must-hear
+                    </div>
+                    <div
                         class="album-criterium"
                         v-for="criterium in computedCriteria">
                         {{criterium}}
