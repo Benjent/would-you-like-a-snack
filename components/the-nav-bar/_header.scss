@@ -10,8 +10,7 @@ header {
     z-index: 1;
     top: 0;
     width: 100vw;
-    // background: $black;
-    // background: linear-gradient(141deg, $black 0%, $ocean 10%, $brown 90%);
+    
     background: linear-gradient(141deg, $ocean 10%, $brown 90%);
     border-bottom: solid $borderThick $gold;
     padding: 0 20px;

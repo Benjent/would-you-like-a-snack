@@ -1,0 +1,33 @@
+.checkbox-wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+
+    .checkbox-slot {
+        position: relative;
+        display: block;
+        top: 0;
+        left: 0;
+        height: 25px;
+        width: 25px;
+        background: $black;
+        border: solid 2px $gold;
+        margin-right: 10px;
+    }
+
+    &.checked {
+        .checkbox-slot {
+            background-color: $gold;
+        }
+    }
+
+    &:hover .checkbox-slot {
+        background: linear-gradient(141deg, $ocean 10%, $brown 90%);
+    }
+
+    label {
+        cursor: pointer;
+    }
+  
+}
