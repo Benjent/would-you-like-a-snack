@@ -5,9 +5,9 @@
 
     @include vue;
     display: flex;
+    overflow: hidden;
 
     #filter {
-
         left: 0;
         bottom: 0;
 
@@ -30,7 +30,7 @@
         .filter-panel {
             width: $filterPanelWidth;
             border-right: solid $borderThick $gold;
-            padding: 15px 20px;
+            padding: 25px 20px 15px 20px;
             position: relative; // TODO remove when dev over
             z-index: 2; // TODO remove when dev over
             box-sizing: border-box;
