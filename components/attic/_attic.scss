@@ -1,9 +1,30 @@
 #atticVue {
     $albumHeight: 220px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: $headerHeight + $borderThick + 50px 20px 50px 20px;
+    $filterWidth: 400px;
+
+    #filter {
+        position: fixed;
+        z-index: 1;
+
+        left: 0;
+        top: $headerHeight + $borderThick + 24px;
+        bottom: 0;
+        width: filterWidth;
+
+        background: linear-gradient(141deg, $ocean 10%, $brown 90%);
+        border-right: solid $borderThick $gold;
+        padding: 5px;
+        box-sizing: border-box;
+        overflow-y: scroll;
+    }
+
+    #albumList {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: $headerHeight + $borderThick + 50px 0 50px 0;
+        margin-left: $filterWidth;
+    }
 
     .album-wrapper {
         display: flex;
