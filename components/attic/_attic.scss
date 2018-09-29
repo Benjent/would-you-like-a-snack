@@ -1,21 +1,49 @@
 #atticVue {
     $albumHeight: 220px;
-    $filterWidth: 400px;
+    $filterNavWidth: 250px;
+    $filterPanelWidth: 300px;
 
     #filter {
         position: fixed;
-        z-index: 1;
 
         left: 0;
         top: $headerHeight + $borderThick + 24px;
         bottom: 0;
-        width: filterWidth;
 
         background: linear-gradient(141deg, $ocean 10%, $brown 90%);
-        border-right: solid $borderThick $gold;
-        padding: 5px;
         box-sizing: border-box;
-        overflow-y: scroll;
+        display: flex;
+
+        .filter-nav {
+            width: $filterNavWidth;
+            border-right: solid $borderThick $gold;
+            box-sizing: border-box;
+
+            .filter-nav-item {
+                cursor: pointer;
+                border-bottom: solid 1px $gold;
+                padding: 15px 20px;
+            }
+        }
+
+        .filter-panel {
+            width: $filterPanelWidth;
+            border-right: solid $borderThick $gold;
+            padding: 15px 20px;
+            position: relative; // TODO remove when dev over
+            z-index: 2; // TODO remove when dev over
+            box-sizing: border-box;
+
+            .checkbox-wrapper {
+                margin: 0 5px;
+            }
+            .radio-wrapper {
+                margin: 0 5px;
+            }
+            .filter-panel-bundle {
+                margin-bottom: 30px;
+            }
+        }
     }
 
     #albumList {
@@ -23,7 +51,7 @@
         flex-wrap: wrap;
         justify-content: center;
         padding: $headerHeight + $borderThick + 50px 0 50px 0;
-        margin-left: $filterWidth;
+        margin-left: $filterNavWidth + $filterPanelWidth + $borderThick * 2;
     }
 
     .album-wrapper {

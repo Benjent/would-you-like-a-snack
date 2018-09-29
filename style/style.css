@@ -154,6 +154,42 @@ button:hover {
   cursor: pointer;
 }
 
+.radio-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.radio-wrapper .radio-slot {
+  position: relative;
+  display: block;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background: #030504;
+  border: solid 2px #a18a54;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.radio-wrapper.checked .radio-slot {
+  background-color: #a18a54;
+}
+
+.radio-wrapper:hover .radio-slot {
+  background: linear-gradient(141deg, #1c3a3e 10%, #674e47 90%);
+}
+
+.radio-wrapper label {
+  cursor: pointer;
+}
+
 @-webkit-keyframes spinning {
   from {
     -webkit-transform: rotate(0deg);
@@ -435,6 +471,10 @@ header #menu button.button-active {
   display: block;
 }
 
+#albumVue .content .album-gem {
+  font-size: 30px;
+}
+
 #albumVue .content .album-criteria {
   width: 45%;
 }
@@ -491,17 +531,50 @@ header #menu button.button-active {
 
 #atticVue #filter {
   position: fixed;
-  z-index: 1;
   left: 0;
   top: 133px;
   bottom: 0;
-  width: filterWidth;
   background: linear-gradient(141deg, #1c3a3e 10%, #674e47 90%);
-  border-right: solid 6px #a18a54;
-  padding: 5px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  overflow-y: scroll;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#atticVue #filter .filter-nav {
+  width: 250px;
+  border-right: solid 6px #a18a54;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#atticVue #filter .filter-nav .filter-nav-item {
+  cursor: pointer;
+  border-bottom: solid 1px #a18a54;
+  padding: 15px 20px;
+}
+
+#atticVue #filter .filter-panel {
+  width: 300px;
+  border-right: solid 6px #a18a54;
+  padding: 15px 20px;
+  position: relative;
+  z-index: 2;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#atticVue #filter .filter-panel .checkbox-wrapper {
+  margin: 0 5px;
+}
+
+#atticVue #filter .filter-panel .radio-wrapper {
+  margin: 0 5px;
+}
+
+#atticVue #filter .filter-panel .filter-panel-bundle {
+  margin-bottom: 30px;
 }
 
 #atticVue #albumList {
@@ -514,7 +587,7 @@ header #menu button.button-active {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 159px 0 50px 0;
-  margin-left: 400px;
+  margin-left: 562px;
 }
 
 #atticVue .album-wrapper {
