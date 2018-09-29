@@ -50,13 +50,13 @@ const criteria = {
     // Album structure
     LENGHTY_TRACKS: "Lengthy tracks",
     PATCHWORK: "Patchwork of tracks",
-    TRANSITION: "Tracks have transition",
+    TRANSITION: "Tracks have transitions",
     SYMPHONIC: "Symphonic",
 
     // Album era-sound
-    CRISPY_SIXTIES: "Crispy 60' sound",
-    SOFT_SEVENTIES: "Soft late 70' sound",
-    NEO_EIGHTIES: "Neo 80' sound",
+    CRISPY_SIXTIES: "Crispy 60s sound",
+    SOFT_SEVENTIES: "Soft late 70s sound",
+    NEO_EIGHTIES: "Neo 80s sound",
 
     // Album loudness
     SOFT: "Rather soft",
@@ -126,6 +126,8 @@ const criteriaOrder = [
     criteria.FANFARE,
     criteria.SPACY,
     criteria.GLITTER,
+    criteria.ORIENTAL,
+    criteria.AMBIENT,
 
     // Album structure
     criteria.LENGHTY_TRACKS,
@@ -147,8 +149,6 @@ const criteriaOrder = [
     // Temperature
     criteria.FUNNY,
     criteria.TOUCHING_VOCALS,
-    criteria.ORIENTAL,
-    criteria.AMBIENT,
 
     // Miscellaneous
     criteria.UNCOMMON_INSTRUMENTS,

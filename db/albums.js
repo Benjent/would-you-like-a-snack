@@ -3803,6 +3803,20 @@ const albums = [
     // **************************************** L **************************************** //
     // ********************************************************************************** //
     {
+        "id": "laurent_thibault_mais_on_ne_peut_pas_rever_tout_le_temps",
+        "title": "Mais On Ne Peut Pas Rêver Tout Le Temps",
+        "artist": "Laurent Thibault",
+        "year": 1978,
+        "country": regions.FRANCE,
+        "cover": pathToCovers + "/laurent_thibault_mais_on_ne_peut_pas_rever_tout_le_temps.jpg",
+        "criteria": [criteria.CONCEPT, criteria.ZEUHL, criteria.C_JAZZ, criteria.INSTRUMENTAL, criteria.AMBIENT, criteria.SYMPHONIC, criteria.ORIENTAL, criteria.SOUND_COLLAGES],
+        "selectedTrackTitle": "Orée",
+        "selectedTrackYtId": pathToYtVideo + "Nzt0_aLyzvg",
+        "spotifyId": pathToSpotifyAlbum + "5t4R4xvdXFf9NykpZkN8NN",
+        "isAGem": true,
+        "description": "TODO"
+    },
+    {
         "id": "led_zeppelin_led_zeppelin",
         "title": "Led Zeppelin",
         "artist": "Led Zeppelin",
@@ -3813,7 +3827,7 @@ const albums = [
         "selectedTrackTitle": "Dazed And Confused",
         "selectedTrackYtId": pathToYtVideo + "-rmtJ6-EY1E",
         "spotifyId": pathToSpotifyAlbum + "3ycjBixZf7S3WpC5WZhhUK",
-        "isAGem": true
+        "isAGem": false
     },
     {
         "id": "led_zeppelin_led_zeppelin_ii",
@@ -3826,7 +3840,7 @@ const albums = [
         "selectedTrackTitle": "What Is And What Should Never Be",
         "selectedTrackYtId": pathToYtVideo + "jrqMdja4eYs",
         "spotifyId": pathToSpotifyAlbum + "70lQYZtypdCALtFVlQAcvx",
-        "isAGem": true
+        "isAGem": false
     },
     {
         "id": "led_zeppelin_led_zeppelin_iii",
