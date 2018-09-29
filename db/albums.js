@@ -4407,7 +4407,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.C_ELECTRO, criteria.C_FOLK, criteria.SOPHISTICATED],
         "selectedTrackTitle": "Tenemos Roads",
         "selectedTrackYtId": pathToYtVideo + "vj9ZUHju7JE",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "6NMlE5KSAEtg110RKNdh2J",
         "isAGem": false
     },
     {
@@ -4420,7 +4420,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.C_ELECTRO, criteria.C_FOLK, criteria.SOPHISTICATED],
         "selectedTrackTitle": "Squarer For Maud",
         "selectedTrackYtId": pathToYtVideo + "BeHheJ3kqYI",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "7fSqgzucVPinisWaIhcklO",
         "isAGem": true,
         "description": "TODO"
     },
@@ -4434,7 +4434,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.C_ELECTRO, criteria.C_FOLK, criteria.SOPHISTICATED],
         "selectedTrackTitle": "Black Hat",
         "selectedTrackYtId": pathToYtVideo + "mYGh1aejZiA",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": "",
         "isAGem": false
     },
     {
@@ -4447,7 +4447,7 @@ const albums = [
         "criteria": [criteria.ROCK],
         "selectedTrackTitle": "Saturday Night",
         "selectedTrackYtId": pathToYtVideo + "aDK_D0S87_k",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": "",
         "isAGem": false
     },
     {
@@ -4460,7 +4460,7 @@ const albums = [
         "criteria": [criteria.JAM, criteria.ROCK, criteria.HEAVY],
         "selectedTrackTitle": "Please Don't Judas Me",
         "selectedTrackYtId": pathToYtVideo + "PdiIu1RwGhA",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "5naYBHiMro7E0MVPmhhYHP",
         "isAGem": false
     },
     {
@@ -4473,7 +4473,7 @@ const albums = [
         "criteria": [criteria.JAM, criteria.ROCK, criteria.HEAVY],
         "selectedTrackTitle": "Telegram",
         "selectedTrackYtId": pathToYtVideo + "xRgZlEVzAss",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "6P3mt9QSzK9pygefaZwfl8",
         "isAGem": false
     },
     {
@@ -4486,7 +4486,7 @@ const albums = [
         "criteria": [criteria.GLITTER, criteria.C_ELECTRO],
         "selectedTrackTitle": "As The Crow Flies",
         "selectedTrackYtId": pathToYtVideo + "EmtT_l7MYsE",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": "",
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -4502,7 +4502,7 @@ const albums = [
         "criteria": [criteria.INSTRUMENTAL, criteria.JAM, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.JAZZY_GROOVY, criteria.ELECTRO, criteria.SPACY],
         "selectedTrackTitle": "Phalarn Dawn",
         "selectedTrackYtId": pathToYtVideo + "UQCYvIbznkw",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "0HycOOGYBfZ7yimWbmYQPO",
         "isAGem": false
     },
     {
@@ -4515,7 +4515,7 @@ const albums = [
         "criteria": [criteria.INSTRUMENTAL, criteria.JAM, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.JAZZY_GROOVY, criteria.ELECTRO, criteria.SPACY],
         "selectedTrackTitle": "Crackerblocks",
         "selectedTrackYtId": pathToYtVideo + "ZjtfdisDhuo",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "5YzktS5LIcW8YwDpZH06Gz",
         "isAGem": false
     },
     // ************************************************************************************ //
