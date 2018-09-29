@@ -5195,7 +5195,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.TRANSITION, criteria.AMBIENT, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Waves Within",
         "selectedTrackYtId": pathToYtVideo + "VGbSw8dHR3w",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "0abfpuzzbTUNxasNmX04RU",
         "isAGem": true,
         "description": "TODO"
     },
@@ -5209,7 +5209,7 @@ const albums = [
         "criteria": [criteria.JAM, criteria.TRANSITION, criteria.UNCOMMON_INSTRUMENTS, criteria.C_JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Canto De Los Flores",
         "selectedTrackYtId": pathToYtVideo + "vlWO_F2D2tw",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "2SurTgYPtoCJSn7103Uuvk",
         "isAGem": false
     },
     {
@@ -5222,7 +5222,7 @@ const albums = [
         "criteria": [criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SYMPHONIC, criteria.C_PSYCHEDELIC, criteria.ELECTRO],
         "selectedTrackTitle": "Pictures",
         "selectedTrackYtId": pathToYtVideo + "xvnRkJdbm6w",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "1Moy8pZZekoPN0Kow0t7o0",
         "isAGem": false
     },
     {
@@ -5235,7 +5235,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.C_ELECTRO],
         "selectedTrackTitle": "Troja",
         "selectedTrackYtId": pathToYtVideo + "1AfQ2w-fY40",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "3oWKEuO0zzzfcZrKWI4Gqr",
         "isAGem": false
     },
     {
@@ -5248,7 +5248,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.SYMPHONIC, criteria.SPECTACULAR, criteria.ITALIAN_SUNG],
         "selectedTrackTitle": "Luna Park",
         "selectedTrackYtId": pathToYtVideo + "T2PVgfv0OR4",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "0BWTfsFWL3TuBXZ2dBA7GV",
         "isAGem": true,
         "description": "TODO"
     },
@@ -5262,7 +5262,7 @@ const albums = [
         "criteria": [criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.AMBIENT, criteria.ELECTRO],
         "selectedTrackTitle": "Secret",
         "selectedTrackYtId": pathToYtVideo + "3K0UOKOdDvE",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": "",
         "isAGem": false
     },
     {
@@ -5275,7 +5275,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.ORIENTAL, criteria.UNCOMMON_INSTRUMENTS, criteria.C_JAZZ, criteria.C_FOLK],
         "selectedTrackTitle": "Mind Ecology",
         "selectedTrackYtId": pathToYtVideo + "d_DajSHROJA",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "05RPG1hN35ucYL4BqEBZdn",
         "isAGem": true,
         "description": "TODO"
     },
@@ -5289,7 +5289,7 @@ const albums = [
         "criteria": [criteria.JAM, criteria.ROCK, criteria.HEAVY, criteria.OCCULT],
         "selectedTrackTitle": "Master Heartache",
         "selectedTrackYtId": pathToYtVideo + "wQSz64rU9mM",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "0VfnxBAij0kKr71OK47BBW",
         "isAGem": false
     },
     {
@@ -5302,7 +5302,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.SYMPHONIC, criteria.C_PSYCHEDELIC, criteria.FRENCH_SUNG, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "J'un Oeil",
         "selectedTrackYtId": pathToYtVideo + "Kng5yZJyMj0",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": "",
         "isAGem": false
     },
     {
@@ -5315,7 +5315,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.SYMPHONIC, criteria.C_PSYCHEDELIC, criteria.FRENCH_SUNG, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Stadaconé",
         "selectedTrackYtId": pathToYtVideo + "GlkUhrk8MZg",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": "",
         "isAGem": true,
         "description": "TODO"
     },
@@ -5329,7 +5329,7 @@ const albums = [
         "criteria": [criteria.EXPERIMENTAL, criteria.INSTRUMENTAL, criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO, criteria.JAZZ],
         "selectedTrackTitle": "Slightly All The Time",
         "selectedTrackYtId": pathToYtVideo + "4RwLgA9U_3I",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "111J9nxmdhyHSLNHeAL1jO",
         "isAGem": false
     },
     {
@@ -5342,7 +5342,7 @@ const albums = [
         "criteria": [criteria.C_PSYCHEDELIC, criteria.FOLK],
         "selectedTrackTitle": "The Duke Of Beaufoot",
         "selectedTrackYtId": pathToYtVideo + "D1jNLR9tjXE",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "5JhbxkXzy1o2RcX14CCwZP",
         "isAGem": false
     },
     {
@@ -5355,7 +5355,7 @@ const albums = [
         "criteria": [criteria.C_PSYCHEDELIC, criteria.FOLK],
         "selectedTrackTitle": "A Canterbury Tale",
         "selectedTrackYtId": pathToYtVideo + "o7Z5SIYACAU",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "7dlDI9sU90DvAJKwaQYGRj",
         "isAGem": false
     },
     {
@@ -5368,7 +5368,7 @@ const albums = [
         "criteria": [criteria.LENGHTY_TRACKS, criteria.C_PSYCHEDELIC, criteria.FOLK],
         "selectedTrackTitle": "Old Boot Wine",
         "selectedTrackYtId": pathToYtVideo + "-Q0rh2uESWY",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": "",
         "isAGem": false
     },
     {
@@ -5381,7 +5381,7 @@ const albums = [
         "criteria": [criteria.GLITTER, criteria.C_FOLK, criteria.ROCK],
         "selectedTrackTitle": "Golden Fleece",
         "selectedTrackYtId": pathToYtVideo + "BuP9_sMgu8I",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "1GX1Mo7djCEq2ZAM2pokGR",
         "isAGem": false
     },
     {
@@ -5394,7 +5394,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.GLITTER, criteria.C_ELECTRO, criteria.SPECTACULAR],
         "selectedTrackTitle": "Elliptical Seasons",
         "selectedTrackYtId": pathToYtVideo + "sSZepYc219Y",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "1fxW4E9zQ5RIIc4k1aPZRy",
         "isAGem": false
     },
     {
@@ -5407,7 +5407,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.GLITTER, criteria.C_ELECTRO, criteria.SPECTACULAR],
         "selectedTrackTitle": "Silver Winds",
         "selectedTrackYtId": pathToYtVideo + "0tmM4X3HnDk",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "6ZtNHnRzacahYX1NeHxiU0",
         "isAGem": false
     },
     {
@@ -5420,7 +5420,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.GLITTER, criteria.C_ELECTRO, criteria.SPECTACULAR],
         "selectedTrackTitle": "Wings Of White",
         "selectedTrackYtId": pathToYtVideo + "Z8qyuL_wpXQ",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "6r7XlOEXPFtVrJy4mTi0eP",
         "isAGem": false
     },
     {
@@ -5433,7 +5433,7 @@ const albums = [
         "criteria": [criteria.INSTRUMENTAL, criteria.JAM, criteria.SOFT, criteria.C_JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Don't Skimp With Us",
         "selectedTrackYtId": pathToYtVideo + "1ABQLe-KfEo",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": "",
         "isAGem": false
     },
     {
@@ -5446,7 +5446,7 @@ const albums = [
         "criteria": [criteria.JAM, criteria.SOFT, criteria.ROCK, criteria.ART_POP],
         "selectedTrackTitle": "Words Unspoken",
         "selectedTrackYtId": "",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "3ma2d5Gk3oc9ffDTT3fOeF",
         "isAGem": false
     },
     {
@@ -5459,7 +5459,7 @@ const albums = [
         "criteria": [criteria.ROCK, criteria.ART_POP],
         "selectedTrackTitle": "Travelled",
         "selectedTrackYtId": pathToYtVideo + "OzihNqVYElA",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "1YTdN3xvwgVdkdKZq6jMH3",
         "isAGem": false
     },
     {
@@ -5472,7 +5472,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.SOFT, criteria.BLENDS, criteria.C_JAZZ, criteria.ROCK_OPERA, 47, criteria.ART_POP],
         "selectedTrackTitle": "Rudy",
         "selectedTrackYtId": pathToYtVideo + "gxW3s_Qk1dk",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "2wrHaulTgqqkVKx0k7Kq4r",
         "isAGem": true,
         "description": "Rick Davies and Roger Hodgson composed heavy-hearted songs to create one of the most subtle, most magnificient, most moving albums we could imagine, with intense vocals and lyrics as desperate as the cover. The album is a theater of unregular song structures and piano-driven melodies, where the other instruments complete parts here and there so that almost every song is a climax itself."
     },
@@ -5486,7 +5486,7 @@ const albums = [
         "criteria": [criteria.SOFT, 47, criteria.ART_POP],
         "selectedTrackTitle": "Another Man's Woman",
         "selectedTrackYtId": pathToYtVideo + "MUPwN0MtY1Y",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "5Fliz4RQcDktb93l1uYDka",
         "isAGem": false
     },
     {
@@ -5499,7 +5499,7 @@ const albums = [
         "criteria": [criteria.SOFT, 47, criteria.ART_POP],
         "selectedTrackTitle": "Even In The Quietest Moments",
         "selectedTrackYtId": pathToYtVideo + "7CXcMPdVXp4",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "4X87hQ57jTYQTcYTaJWK5w",
         "isAGem": false
     },
     {
@@ -5512,7 +5512,7 @@ const albums = [
         "criteria": [criteria.JAM, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Baby Night",
         "selectedTrackYtId": pathToYtVideo + "s6L8ZCAt3DA",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": "",
         "isAGem": true,
         "description": "TODO"
     },
@@ -5526,7 +5526,7 @@ const albums = [
         "criteria": [criteria.LENGHTY_TRACKS, criteria.ORIENTAL, criteria.SOUND_COLLAGES, criteria.C_PSYCHEDELIC, criteria.C_FOLK],
         "selectedTrackTitle": "Baby Night",
         "selectedTrackYtId": pathToYtVideo + "s6L8ZCAt3DA",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": "",
         "isAGem": false
     },
     {
@@ -5539,7 +5539,7 @@ const albums = [
         "criteria": [criteria.SOFT, criteria.JAZZY_GROOVY, criteria.FOLK],
         "selectedTrackTitle": "Song Of Romeo",
         "selectedTrackYtId": pathToYtVideo + "_LXdlWNrItQ",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "76AQ8HRZ2ANKMbH2Wpr5bb",
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -6277,6 +6277,7 @@ Neu!
 Faust
 Premiata Forneria Marconi
 Procol Harum
+Soft Machine
 Strawbs 
 */
 
