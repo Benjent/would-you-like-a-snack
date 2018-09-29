@@ -9,7 +9,6 @@
     #filter {
 
         left: 0;
-        // top: $headerHeight + $borderThick + 24px;
         bottom: 0;
 
         background: linear-gradient(141deg, $ocean 10%, $brown 90%);
@@ -58,11 +57,13 @@
     }
 
     .album-wrapper {
+        $numberOfAlbumsPerRow: 8;
         display: flex;
         flex-direction: column;
         position: relative;
-        height: $albumHeight;
-        width: $albumHeight;
+        // height: $albumHeight;
+        // width: $albumHeight;
+        width: 100% / $numberOfAlbumsPerRow;
         &:hover {
             .album-infos {
                 opacity: 1;

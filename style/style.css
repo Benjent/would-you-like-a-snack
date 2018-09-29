@@ -611,8 +611,7 @@ header #menu button.button-active {
       -ms-flex-direction: column;
           flex-direction: column;
   position: relative;
-  height: 220px;
-  width: 220px;
+  width: 12.5%;
 }
 
 #atticVue .album-wrapper:hover .album-infos {
