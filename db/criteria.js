@@ -54,9 +54,9 @@ const criteria = {
     SYMPHONIC: "Symphonic",
 
     // Album era-sound
-    CRISPY_SIXTIES: "Crispy sixties' sound",
-    SOFT_SEVENTIES: "Soft late seventies' sound",
-    NEO_EIGHTIES: "Neo eighties' sound",
+    CRISPY_SIXTIES: "Crispy 60' sound",
+    SOFT_SEVENTIES: "Soft late 70' sound",
+    NEO_EIGHTIES: "Neo 80' sound",
 
     // Album loudness
     SOFT: "Rather soft",

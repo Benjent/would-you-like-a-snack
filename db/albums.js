@@ -5096,7 +5096,7 @@ const albums = [
         "year": 1976,
         "country": regions.USA,
         "cover": pathToCovers + "/return_to_forever_romantic_warrior.jpg",
-        "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.JAZZ, criteria.JAZZY_GROOVY],
+        "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.LENGHTY_TRACKS, criteria.SOFT, criteria.JAZZ, criteria.JAZZY_GROOVY, criteria.MEDIEVAL],
         "selectedTrackTitle": "Duel Of The Jester And The Tyrant",
         "selectedTrackYtId": pathToYtVideo + "sa21WPH4_U4",
         "spotifyId": pathToSpotifyAlbum + "todo",
@@ -6276,4 +6276,13 @@ Faust
 Premiata Forneria Marconi
 Procol Harum
 Strawbs 
+*/
+
+// TODO update albums with new criteria (scrispy sound etc)
+// TODO consider adding criteria :
+/*
+influencial
+religion-related
+ahead-of-its-time
+helped define prog genre/subgenre
 */
