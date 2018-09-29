@@ -1,3 +1,15 @@
+@mixin vue {
+    // $computedTopPadding: $headerHeight + $borderThick + 24px;
+    // $computedTopPadding: $headerHeight + 
+    // padding: $computedTopPadding 0 50px 0;
+    height: 100vh - $headerHeight;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-top: $headerHeight;
+    width: 100%;
+    // padding-top: 20px;
+}
+
 @mixin albumCover {
     // width: 300px;
     height: 300px;

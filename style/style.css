@@ -2,6 +2,7 @@
 body {
   border: 0;
   margin: 0;
+  overflow: hidden !important;
 }
 
 h1 {
@@ -318,6 +319,7 @@ button:hover {
 }
 
 header {
+  height: 15vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -375,10 +377,11 @@ header #menu button.button-active {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 103px;
+  height: 85vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-top: 15vh;
+  width: 100%;
 }
 
 #albumVue .buttons {
@@ -529,10 +532,19 @@ header #menu button.button-active {
           box-sizing: border-box;
 }
 
+#atticVue {
+  height: 85vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-top: 15vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 #atticVue #filter {
-  position: fixed;
   left: 0;
-  top: 133px;
   bottom: 0;
   background: linear-gradient(141deg, #1c3a3e 10%, #674e47 90%);
   -webkit-box-sizing: border-box;
@@ -586,8 +598,8 @@ header #menu button.button-active {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 159px 0 50px 0;
-  margin-left: 562px;
+  overflow-y: scroll;
+  width: 100%;
 }
 
 #atticVue .album-wrapper {
@@ -663,13 +675,14 @@ header #menu button.button-active {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 133px 20px 50px 20px;
+  height: 85vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-top: 15vh;
+  width: 100%;
 }
 
 #gemsVue .album-wrapper {
@@ -731,13 +744,14 @@ header #menu button.button-active {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 133px 20px 50px 20px;
+  height: 85vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-top: 15vh;
+  width: 100%;
 }
 
 #subgenresVue .subgenre-wrapper {
@@ -800,9 +814,11 @@ header #menu button.button-active {
 }
 
 #statsVue {
-  margin: 0 auto;
-  padding: 153px 20px 50px 20px;
-  width: 60vw;
+  height: 85vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-top: 15vh;
+  width: 100%;
   text-align: justify;
 }
 
@@ -824,9 +840,9 @@ header #menu button.button-active {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 #statsVue .tables .gauge-column {
@@ -845,10 +861,24 @@ header #menu button.button-active {
 }
 
 #aboutVue {
-  margin: 0 auto;
-  padding: 153px 20px 50px 20px;
-  width: 60vw;
+  height: 85vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-top: 15vh;
+  width: 100%;
   text-align: justify;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#aboutVue .content {
+  width: 60%;
 }
 
 #aboutVue .me-wrapper {
@@ -981,9 +1011,6 @@ body {
     height: 260px;
     border: solid 4px #a18a54;
     margin: 20px;
-  }
-  #atticVue {
-    padding-top: 133px;
   }
   #timelineVue .album-wrapper .album-year {
     font-size: 15px;
