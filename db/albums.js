@@ -960,7 +960,7 @@ const albums = [
         "selectedTrackYtId": pathToYtVideo + "13BeI93Vuqk",
         "spotifyId": pathToSpotifyAlbum + "132qAo1cDiEJdA3fv4xyNK",
         "isAGem": true,
-        "description": "TODO"
+        "description": "The album is the quintessence of what is traditional Doom music and defines on a larger note Heavy Metal. Toni Iommi and Geezer Butler borrow psychedelic elements and groove touch to compose the music, wrapped with Bill Ward's prompt drumming. While not being a Prog-core album, Paranoid smells occult music and its sound is definitely influenced by the genre."
     },
     {
         "id": "black_sabbath_master_of_reality",
@@ -3745,7 +3745,7 @@ const albums = [
         "selectedTrackYtId": pathToYtVideo + "OfR6_V91fG8",
         "spotifyId": "",
         "isAGem": true,
-        "description": "TODO"
+        "description": "The band uses a crushing sound and dissonant riffs to install a nerve-racking mood throughout the album. Soft moments are rare, just enough to take our breath, so that it feels that the album drives us in its hypnotic dark race, where the end is a magnificent music representation of despair."
     },
     {
         "id": "king_crimson_discipline",
