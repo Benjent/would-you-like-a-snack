@@ -31,8 +31,6 @@
             width: $filterPanelWidth;
             border-right: solid $borderThick $gold;
             padding: 25px 20px 15px 20px;
-            position: relative; // TODO remove when dev over
-            z-index: 2; // TODO remove when dev over
             box-sizing: border-box;
 
             .checkbox-wrapper {
