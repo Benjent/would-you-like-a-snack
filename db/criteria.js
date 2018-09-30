@@ -48,7 +48,7 @@ const criteria = {
     GLITTER: "Star-symphonic",
 
     // Album structure
-    LENGHTY_TRACKS: "Lengthy tracks",
+    LENGTHY_TRACKS: "Lengthy tracks",
     PATCHWORK: "Patchwork of tracks",
     TRANSITION: "Tracks have transitions",
     SYMPHONIC: "Symphonic",
@@ -130,7 +130,7 @@ const criteriaOrder = [
     criteria.AMBIENT,
 
     // Album structure
-    criteria.LENGHTY_TRACKS,
+    criteria.LENGTHY_TRACKS,
     criteria.PATCHWORK,
     criteria.TRANSITION,
     criteria.SYMPHONIC,

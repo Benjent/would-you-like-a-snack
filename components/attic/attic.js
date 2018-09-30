@@ -276,7 +276,7 @@ Vue.component('attic', {
             // Style panel
             [
                 {
-                    "criterium": this.db.criteria.ODD_RHYTHM_SIGNATURES,
+                    "criterium": this.db.criteria.ODD_RHYTHM,
                     "panel": "Style",
                     "string": "Odd rhythm signatures",
                     "checked": false,
@@ -372,7 +372,7 @@ Vue.component('attic', {
                 {
                     "criterium": this.db.criteria.LENGTHY_TRACKS,
                     "panel": "Album structuration",
-                    "string": "Lengty tracks",
+                    "string": "Lengthy tracks",
                     "checked": false,
                     "isRadio": false,
                 },
@@ -405,21 +405,24 @@ Vue.component('attic', {
                     "panel": "Era sound",
                     "string": "Crispy 60s",
                     "checked": false,
-                    "isRadio": false,
+                    "isRadio": true,
+                    "radioFamily": "eraSound"
                 },
                 {
                     "criterium": this.db.criteria.SOFT_SEVENTIES,
                     "panel": "Era sound",
                     "string": "Soft late 70s",
                     "checked": false,
-                    "isRadio": false,
+                    "isRadio": true,
+                    "radioFamily": "eraSound"
                 },
                 {
                     "criterium": this.db.criteria.NEO_EIGHTIES,
                     "panel": "Era sound",
                     "string": "Neo 80s",
                     "checked": false,
-                    "isRadio": false,
+                    "isRadio": true,
+                    "radioFamily": "eraSound"
                 },
             ],
             // Loudness
@@ -443,7 +446,7 @@ Vue.component('attic', {
                 {
                     "criterium": this.db.criteria.HUMBLE,
                     "panel": "Loudness",
-                    "string": "Rather soft",
+                    "string": "Humble",
                     "checked": false,
                     "isRadio": true,
                     "radioFamily": "humbleSpectacular"
@@ -451,7 +454,7 @@ Vue.component('attic', {
                 {
                     "criterium": this.db.criteria.SPECTACULAR,
                     "panel": "Loudness",
-                    "string": "Rather heavy",
+                    "string": "Spectacular",
                     "checked": false,
                     "isRadio": true,
                     "radioFamily": "humbleSpectacular"
@@ -495,7 +498,7 @@ Vue.component('attic', {
                     "isRadio": false,
                 },
                 {
-                    "criterium": this.db.criteria.BAROQUE_VIBES,
+                    "criterium": this.db.criteria.BAROQUE,
                     "panel": "Miscellaneous",
                     "string": "Baroque vibes",
                     "checked": false,
