@@ -2,14 +2,14 @@ Vue.component('checkbox', {
     template: `
         <div
             class="checkbox-wrapper"
-            v-bind:class="{ 'isRadio': isRadio, 'checked': checked }"
-            v-on:click="toggleFilterItem(filterItem)">
+            v-bind:class="{ 'isRadio': filterItem.isRadio, 'checked': filterItem.checked }"
+            v-on:click="$emit('checkbox-clicked', filterItem)">
 
             <span class="checkbox-slot"></span>
-            <label>{{label}}</label>
+            <label>{{filterItem.string}}</label>
         </div>
     `,
-    props: ['label', 'isRadio', 'checked'],
+    props: ['filterItem'],
     data: function () {
         return {}
     }
