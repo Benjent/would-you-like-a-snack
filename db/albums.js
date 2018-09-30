@@ -260,9 +260,9 @@ const albums = [
         "year": 1976,
         "country": regions.USA,
         "cover": pathToCovers + "/ambrosia_somewhere_ive_never_travelled.jpg",
-        "criteria": [criteria.ODD_RHYTHM, criteria.TRANSITION, criteria.GLITTER, criteria.UNCOMMON_INSTRUMENTS, criteria.ROCK, criteria.ART_POP],
-        "selectedTrackTitle": "The Brunt",
-        "selectedTrackYtId": pathToYtVideo + "3y4-rbRYszY",
+        "criteria": [criteria.ODD_RHYTHM, criteria.TRANSITION, criteria.GLITTER, criteria.UNCOMMON_INSTRUMENTS, criteria.ROCK, criteria.ART_POP, criteria.ORCHESTRAL_PARTS],
+        "selectedTrackTitle": "Cowboy Star",
+        "selectedTrackYtId": pathToYtVideo + "Jmwg5X1FwrY",
         "spotifyId": pathToSpotifyAlbum + "6WgShBCsr36H9L2AObtjT7",
         "isAGem": false
     },
@@ -6255,6 +6255,22 @@ const albums = [
         "selectedTrackYtId": pathToYtVideo + "OJbotZE5lV4",
         "spotifyId": pathToSpotifyAlbum + "todo",
         "isAGem": false
+    },
+    // ************************************************************************************ //
+    // **************************************** 0 **************************************** //
+    // ********************************************************************************** //
+    {
+        "id": "three_to_the_power_of_three",
+        "title": "...To The Power Of Three",
+        "artist": "3",
+        "year": 1988,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/three_to_the_power_of_three.jpg",
+        "criteria": [criteria.ROCK, criteria.C_ELECTRO, criteria.GLITTER, criteria.NEO_EIGHTIES, criteria.SPECTACULAR],
+        "selectedTrackTitle": "Desde La Vida",
+        "selectedTrackYtId": pathToYtVideo + "todo",
+        "spotifyId": pathToSpotifyAlbum + "todo",
+        "isAGem": false
     }
 ];
 
@@ -6296,10 +6312,12 @@ Strawbs
 */
 
 // TODO update albums with new criteria (late 70's notamment)
+// TODO split misc sections avec qqc comme arrangements
 // TODO consider adding criteria :
 /*
 influencial
 religion-related
 ahead-of-its-time
 helped define prog genre/subgenre
+large asset of instruùents
 */
