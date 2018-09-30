@@ -1,3 +1,29 @@
+Vue.directive('resize', {
+    bind: function () {
+        this.handler = function () {
+            var width = document.getElementById("albumList").offsetWidth
+
+            if (this.width === width) {
+
+            }
+            else {
+                // console.log(this.width, width)
+                this.width = width
+                // this.vm.$get(this.expression)
+            }
+        }.bind(this)
+
+        window.addEventListener('resize', this.handler)
+    },
+    update: function (newValue, oldValue) {
+
+    },
+    unbind: function () {
+        window.removeEventListener('resize', this.handler)
+    }
+})
+
+
 Vue.component('attic', {
     template: `
         <section id="atticVue">
@@ -32,10 +58,11 @@ Vue.component('attic', {
 
             </div>
 
-            <section id="albumList">
+            <section id="albumList" v-resize="changed()">
 
                 <div
                     class="album-wrapper"
+                    :style="{ width: albumWrapperSize + 'px', height: albumWrapperSize + 'px' }"
                     v-for="album in db.albums"
                     v-bind:album-id="album.id"
                     v-on:click="$emit('album-click', album)">
@@ -510,18 +537,31 @@ Vue.component('attic', {
 
         return {
             selectedNavItem: "",
-            filterModel: filter
+            filterModel: filter,
+            albumListWidth: 0
         }
     },
     computed: {
         navItems() {
             return ["Type", "Language", "Theme", "Main genre", "Contains elements of", "Style", "Album structuration", "Era sound", "Loudness", "Miscellaneous"]
         },
-        filterArray() {
-            return [];
-        },
+        albumWrapperSize() {
+            const nbOfAlbumsPerRow = 8;
+            const albumWrapperSize = Math.floor(this.albumListWidth / nbOfAlbumsPerRow);
+
+            return albumWrapperSize;
+        }
+    },
+    mounted: function () {
+        this.albumListWidth = document.getElementById("albumList").clientWidth;
     },
     methods: {
+        changed() {
+            if(document.getElementById("albumList")) {
+                this.albumListWidth = document.getElementById("albumList").clientWidth;
+                console.log(this.albumListWidth)
+            }
+        },
         selectNavItem(item) {
             // this.selectedNavItem = item == this.selectedNavItem ? "" : item; // Allow reset to close filter panel
             if(this.selectedNavItem == item) {

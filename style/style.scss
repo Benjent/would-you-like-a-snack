@@ -50,6 +50,27 @@ body {
             }
         }
     }
+
+    #atticVue {
+        #filter {
+            .filter-nav {
+                width: 220px;
+            }
+            .filter-panel {
+                width: 220px;
+                font-size: $mainFontSizeSmall;
+                .checkbox-slot {
+                    width: 15px;
+                    height: 15px;
+                }
+            }
+        }
+        .album-wrapper {
+            // height: 180px;
+            // width: 180px;
+            font-size: 12px;
+        }
+    }
 }
 
 @media (max-width: 1100px) {
@@ -86,14 +107,6 @@ body {
                 @include albumCoverMedium;
                 margin: 20px;
             }
-        }
-    }
-
-    #atticVue {
-        .album-wrapper {
-            height: 180px;
-            width: 180px;
-            font-size: 12px;
         }
     }
 
@@ -136,7 +149,10 @@ body {
     }
 
     #atticVue {
-        // padding-top: $headerHeight + 30px;
+        .filter-nav,
+        .filter-panel {
+            width: 200px;
+        }
     }
 
     #timelineVue {
