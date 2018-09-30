@@ -5741,7 +5741,7 @@ const albums = [
         "criteria": [criteria.C_PSYCHEDELIC, criteria.ROCK, criteria.CRISPY_SIXTIES],
         "selectedTrackTitle": "Ego Trip",
         "selectedTrackYtId": pathToYtVideo + "uIy3WOK2-iY",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "3g1Dzj83jWRcQMCtmLHTka",
         "isAGem": false
     },
     {    
@@ -5754,7 +5754,7 @@ const albums = [
         "criteria": [criteria.JAM, criteria.C_PSYCHEDELIC, criteria.ROCK, criteria.CRISPY_SIXTIES],
         "selectedTrackTitle": "Mind Flowers",
         "selectedTrackYtId": pathToYtVideo + "eoj6au1h6m0",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "2eulQiPbWqjUOTYgJBJ61T",
         "isAGem": false
     },
     {
@@ -5767,7 +5767,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.EXPERIMENTAL, criteria.INSTRUMENTAL, criteria.LENGTHY_TRACKS, criteria.AMBIENT, criteria.C_PSYCHEDELIC, criteria.JAZZ],
         "selectedTrackTitle": "Urban Sax (Part I)",
         "selectedTrackYtId": pathToYtVideo + "q01oHWFqVqM",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "71YRJRyqklF7a8maAe8COJ",
         "isAGem": false
     },
     {
@@ -5780,7 +5780,7 @@ const albums = [
         "criteria": [criteria.ROCK, criteria.HEAVY],
         "selectedTrackTitle": "The Spell",
         "selectedTrackYtId": pathToYtVideo + "w5L-AOGt7qw",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "0kOW78XBGL598LEvB2JjAz",
         "isAGem": false
     },
     {
@@ -5793,7 +5793,7 @@ const albums = [
         "criteria": [criteria.ROCK, criteria.HEAVY],
         "selectedTrackTitle": "The Magician's Birthday",
         "selectedTrackYtId": pathToYtVideo + "apWKh3D9oVw",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "7mfX6R2LiMxljsvL1jFndR",
         "isAGem": false
     },
     // ************************************************************************************ //
