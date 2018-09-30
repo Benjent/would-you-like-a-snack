@@ -35,7 +35,8 @@ albumsSortedByYear.sort(Utils.sortByYear);
 const Db = {
     albums: albums,
     artists: artists,
-    criteria: criteriaOrder,
+    criteria: criteria,
+    criteriaOrder: criteriaOrder,
     albumsPerYear: albumsPerYear,
     albumsPerCountry: albumsPerCountry,
     gemsNb: gemsNb,
