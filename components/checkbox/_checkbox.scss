@@ -16,14 +16,26 @@
         margin-right: 10px;
     }
 
+    &.isRadio {
+        .checkbox-slot {
+            border-radius: 50%;
+        }
+    }
+
     &.checked {
         .checkbox-slot {
-            background-color: $gold;
+            background: $gold;
         }
     }
 
     &:hover .checkbox-slot {
         background: linear-gradient(141deg, $ocean 10%, $brown 90%);
+    }
+    &.checked:hover {
+        // Keep gold state if checked to avoid confusion
+        .checkbox-slot {
+            background: $gold;
+        }
     }
 
     label {

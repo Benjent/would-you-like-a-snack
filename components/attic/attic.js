@@ -3,21 +3,32 @@ Vue.component('attic', {
         <section id="atticVue">
 
             <div id="filter">
-                <p>Filter UI & UX is a work in progress</p>
-                <div
-                    class="criteria-wrapper"
-                    v-for="criterium in this.filter">
-
+                <nav class="filter-nav">
                     <div
-                        class="checkbox-wrapper"
-                        v-on:click="toggleFilterCriterium($event.currentTarget, criterium)">
-
-                        <span class="checkbox-slot"></span>
-                        <label>{{criterium}}</label>
-
+                        class="filter-nav-item"
+                        v-for="item in navItems"
+                        v-on:click="selectNavItem(item)">
+                        {{item}}
                     </div>
+                </nav>
+                <section
+                    class="filter-panel"
+                    v-if="selectedNavItem">
 
-                </div>
+                    <template v-for="filterPanel in filterModel">
+                        <template
+                            v-for="filterItem in filterPanel"
+                            v-if="selectedNavItem == filterItem.panel">
+
+                            <checkbox
+                                v-bind:filter-item="filterItem"
+                                v-on:checkbox-clicked="toggleFilterItem(filterItem)">
+                            </checkbox>
+                        </template>
+                    </template>
+
+                </section>
+
             </div>
 
             <section id="albumList">
@@ -66,47 +77,540 @@ Vue.component('attic', {
     `,
     props: ['db'],
     data: function () {
+
+        const filter = [
+            // Type panel
+            [
+                {
+                    "criterium": this.db.criteria.CONCEPT,
+                    "panel": "Type",
+                    "string": "Concept album",
+                    "checked": false,
+                    "isRadio": true,
+                    "radioFamily": "type",
+                },
+                {
+                    "criterium": this.db.criteria.STORYLINE,
+                    "panel": "Type",
+                    "string": "Storyline",
+                    "checked": false,
+                    "isRadio": true,
+                    "radioFamily": "type",
+                },
+                {
+                    "criterium": this.db.criteria.SOUNDTRACK,
+                    "panel": "Type",
+                    "string": "Soundtrack album",
+                    "checked": false,
+                    "isRadio": true,
+                    "radioFamily": "type",
+                },
+                {
+                    "criterium": this.db.criteria.LIVE,
+                    "panel": "Type",
+                    "string": "Live album",
+                    "checked": false,
+                    "isRadio": false,
+                },
+            ],
+            // Language panel
+            [
+                {
+                    "criterium": this.db.criteria.FRENCH_SUNG,
+                    "panel": "Language",
+                    "string": "French",
+                    "checked": false,
+                    "isRadio": true,
+                    "radioFamily": "language",
+                },
+                {
+                    "criterium": this.db.criteria.ITALIAN_SUNG,
+                    "panel": "Language",
+                    "string": "Italian",
+                    "checked": false,
+                    "isRadio": true,
+                    "radioFamily": "language",
+                },
+                {
+                    "criterium": this.db.criteria.SPANISH_SUNG,
+                    "panel": "Language",
+                    "string": "Spanish",
+                    "checked": false,
+                    "isRadio": true,
+                    "radioFamily": "language",
+                },
+                {
+                    "criterium": this.db.criteria.SWEDISH_SUNG,
+                    "panel": "Language",
+                    "string": "Swedish",
+                    "checked": false,
+                    "isRadio": true,
+                    "radioFamily": "language",
+                },
+                {
+                    "criterium": this.db.criteria.ZEUHL,
+                    "panel": "Language",
+                    "string": "Zeuhl",
+                    "checked": false,
+                    "isRadio": true,
+                    "radioFamily": "language",
+                },
+            ],
+            // Theme panel
+            [
+                {
+                    "criterium": this.db.criteria.SCI_FI,
+                    "panel": "Theme",
+                    "string": "Sci-fi",
+                    "checked": false,
+                    "isRadio": true,
+                    "radioFamily": "theme",
+                },
+                {
+                    "criterium": this.db.criteria.FANTASY,
+                    "panel": "Theme",
+                    "string": "Fantasy",
+                    "checked": false,
+                    "isRadio": true,
+                    "radioFamily": "theme",
+                },
+                {
+                    "criterium": this.db.criteria.MEDIEVAL,
+                    "panel": "Theme",
+                    "string": "Medieval",
+                    "checked": false,
+                    "isRadio": true,
+                    "radioFamily": "theme",
+                },
+                {
+                    "criterium": this.db.criteria.OCCULT,
+                    "panel": "Theme",
+                    "string": "Occult",
+                    "checked": false,
+                    "isRadio": true,
+                    "radioFamily": "theme",
+                },
+            ],
+            // Main genre panel
+            [
+                {
+                    "criterium": this.db.criteria.ROCK,
+                    "panel": "Main genre",
+                    "string": "Rock",
+                    "checked": false,
+                    "isRadio": true,
+                    "radioFamily": "mainGenre",
+                },
+                {
+                    "criterium": this.db.criteria.JAZZ,
+                    "panel": "Main genre",
+                    "string": "Jazz",
+                    "checked": false,
+                    "isRadio": true,
+                    "radioFamily": "mainGenre",
+                },
+                {
+                    "criterium": this.db.criteria.FOLK,
+                    "panel": "Main genre",
+                    "string": "Folk",
+                    "checked": false,
+                    "isRadio": true,
+                    "radioFamily": "mainGenre",
+                },
+                {
+                    "criterium": this.db.criteria.ELECTRO,
+                    "panel": "Main genre",
+                    "string": "Electro",
+                    "checked": false,
+                    "isRadio": true,
+                    "radioFamily": "mainGenre",
+                },
+                {
+                    "criterium": this.db.criteria.ART_POP,
+                    "panel": "Main genre",
+                    "string": "Art Pop",
+                    "checked": false,
+                    "isRadio": true,
+                    "radioFamily": "mainGenre",
+                },
+            ],
+            // Contains elements of panel
+            [
+                {
+                    "criterium": this.db.criteria.C_JAZZ,
+                    "panel": "Contains elements of",
+                    "string": "Jazz",
+                    "checked": false,
+                    "isRadio": false,
+                },
+                {
+                    "criterium": this.db.criteria.C_FOLK,
+                    "panel": "Contains elements of",
+                    "string": "Folk",
+                    "checked": false,
+                    "isRadio": false,
+                },
+                {
+                    "criterium": this.db.criteria.C_ELECTRO,
+                    "panel": "Contains elements of",
+                    "string": "Electro",
+                    "checked": false,
+                    "isRadio": false,
+                },
+                {
+                    "criterium": this.db.criteria.C_PSYCHEDELIC,
+                    "panel": "Contains elements of",
+                    "string": "Psychedelism",
+                    "checked": false,
+                    "isRadio": false,
+                },
+                {
+                    "criterium": this.db.criteria.BLENDS,
+                    "panel": "Contains elements of",
+                    "string": "Many music genres",
+                    "checked": false,
+                    "isRadio": true,
+                    "radioFamily": "blends"
+                },
+            ],
+            // Style panel
+            [
+                {
+                    "criterium": this.db.criteria.ODD_RHYTHM,
+                    "panel": "Style",
+                    "string": "Odd rhythm signatures",
+                    "checked": false,
+                    "isRadio": false,
+                },
+                {
+                    "criterium": this.db.criteria.TECHNICAL,
+                    "panel": "Style",
+                    "string": "Technical",
+                    "checked": false,
+                    "isRadio": false,
+                },
+                {
+                    "criterium": this.db.criteria.INSTRUMENTAL,
+                    "panel": "Style",
+                    "string": "Mainly instrumental",
+                    "checked": false,
+                    "isRadio": false,
+                },
+                {
+                    "criterium": this.db.criteria.EXPERIMENTAL,
+                    "panel": "Style",
+                    "string": "Experimental",
+                    "checked": false,
+                    "isRadio": false,
+                },
+                {
+                    "criterium": this.db.criteria.JAM,
+                    "panel": "Style",
+                    "string": "Jam-oriented",
+                    "checked": false,
+                    "isRadio": false,
+                },
+                {
+                    "criterium": this.db.criteria.SOPHISTICATED,
+                    "panel": "Style",
+                    "string": "Sophisticated",
+                    "checked": false,
+                    "isRadio": false,
+                },
+                {
+                    "criterium": this.db.criteria.JAZZY_GROOVY,
+                    "panel": "Style",
+                    "string": "Jazzy groovy",
+                    "checked": false,
+                    "isRadio": false,
+                },
+                {
+                    "criterium": this.db.criteria.ROCK_OPERA,
+                    "panel": "Style",
+                    "string": "Rock opera",
+                    "checked": false,
+                    "isRadio": false,
+                },
+                {
+                    "criterium": this.db.criteria.FANFARE,
+                    "panel": "Style",
+                    "string": "Fanfare",
+                    "checked": false,
+                    "isRadio": false,
+                },
+                {
+                    "criterium": this.db.criteria.SPACY,
+                    "panel": "Style",
+                    "string": "Spacy",
+                    "checked": false,
+                    "isRadio": false,
+                },
+                {
+                    "criterium": this.db.criteria.GLITTER,
+                    "panel": "Style",
+                    "string": "Star-symphonic",
+                    "checked": false,
+                    "isRadio": false,
+                },
+                {
+                    "criterium": this.db.criteria.AMBIENT,
+                    "panel": "Style",
+                    "string": "Ambient",
+                    "checked": false,
+                    "isRadio": false,
+                },
+                {
+                    "criterium": this.db.criteria.ORIENTAL,
+                    "panel": "Style",
+                    "string": "Oriental",
+                    "checked": false,
+                    "isRadio": false,
+                },
+            ],
+            // Album structuration
+            [
+                {
+                    "criterium": this.db.criteria.LENGTHY_TRACKS,
+                    "panel": "Album structuration",
+                    "string": "Lengthy tracks",
+                    "checked": false,
+                    "isRadio": false,
+                },
+                {
+                    "criterium": this.db.criteria.PATCHWORK,
+                    "panel": "Album structuration",
+                    "string": "Patchwork of tracks",
+                    "checked": false,
+                    "isRadio": false,
+                },
+                {
+                    "criterium": this.db.criteria.TRANSITION,
+                    "panel": "Album structuration",
+                    "string": "Tracks have transitions",
+                    "checked": false,
+                    "isRadio": false,
+                },
+                {
+                    "criterium": this.db.criteria.SYMPHONIC,
+                    "panel": "Album structuration",
+                    "string": "Symphonic",
+                    "checked": false,
+                    "isRadio": false,
+                },
+            ],
+            // Era sound
+            [
+                {
+                    "criterium": this.db.criteria.CRISPY_SIXTIES,
+                    "panel": "Era sound",
+                    "string": "Crispy 60s",
+                    "checked": false,
+                    "isRadio": true,
+                    "radioFamily": "eraSound"
+                },
+                {
+                    "criterium": this.db.criteria.SOFT_SEVENTIES,
+                    "panel": "Era sound",
+                    "string": "Soft late 70s",
+                    "checked": false,
+                    "isRadio": true,
+                    "radioFamily": "eraSound"
+                },
+                {
+                    "criterium": this.db.criteria.NEO_EIGHTIES,
+                    "panel": "Era sound",
+                    "string": "Neo 80s",
+                    "checked": false,
+                    "isRadio": true,
+                    "radioFamily": "eraSound"
+                },
+            ],
+            // Loudness
+            [
+                {
+                    "criterium": this.db.criteria.SOFT,
+                    "panel": "Loudness",
+                    "string": "Rather soft",
+                    "checked": false,
+                    "isRadio": true,
+                    "radioFamily": "softHeavy"
+                },
+                {
+                    "criterium": this.db.criteria.HEAVY,
+                    "panel": "Loudness",
+                    "string": "Rather heavy",
+                    "checked": false,
+                    "isRadio": true,
+                    "radioFamily": "softHeavy"
+                },
+                {
+                    "criterium": this.db.criteria.HUMBLE,
+                    "panel": "Loudness",
+                    "string": "Humble",
+                    "checked": false,
+                    "isRadio": true,
+                    "radioFamily": "humbleSpectacular"
+                },
+                {
+                    "criterium": this.db.criteria.SPECTACULAR,
+                    "panel": "Loudness",
+                    "string": "Spectacular",
+                    "checked": false,
+                    "isRadio": true,
+                    "radioFamily": "humbleSpectacular"
+                },
+            ],
+            // Miscellaneous
+            [
+                {
+                    "criterium": this.db.criteria.FUNNY,
+                    "panel": "Miscellaneous",
+                    "string": "Funny",
+                    "checked": false,
+                    "isRadio": false,
+                },
+                {
+                    "criterium": this.db.criteria.TOUCHING_VOCALS,
+                    "panel": "Miscellaneous",
+                    "string": "Touching vocals",
+                    "checked": false,
+                    "isRadio": false,
+                },
+                {
+                    "criterium": this.db.criteria.UNCOMMON_INSTRUMENTS,
+                    "panel": "Miscellaneous",
+                    "string": "Uncommon instruments",
+                    "checked": false,
+                    "isRadio": false,
+                },
+                {
+                    "criterium": this.db.criteria.SOUND_COLLAGES,
+                    "panel": "Miscellaneous",
+                    "string": "Uses sound collages",
+                    "checked": false,
+                    "isRadio": false,
+                },
+                {
+                    "criterium": this.db.criteria.ORCHESTRAL_PARTS,
+                    "panel": "Miscellaneous",
+                    "string": "Orchestral parts",
+                    "checked": false,
+                    "isRadio": false,
+                },
+                {
+                    "criterium": this.db.criteria.BAROQUE,
+                    "panel": "Miscellaneous",
+                    "string": "Baroque vibes",
+                    "checked": false,
+                    "isRadio": false,
+                },
+            ]
+        ];
+
         return {
-            filter: this.db.criteria
+            selectedNavItem: "",
+            filterModel: filter
         }
     },
     computed: {
+        navItems() {
+            return ["Type", "Language", "Theme", "Main genre", "Contains elements of", "Style", "Album structuration", "Era sound", "Loudness", "Miscellaneous"]
+        },
         filterArray() {
             return [];
-        }
+        },
     },
     methods: {
-        toggleFilterCriterium: function(htmlCheckbox, criteriumString) {
-            htmlCheckbox.classList.contains("checked") ? htmlCheckbox.classList.remove("checked") : htmlCheckbox.classList.add("checked");
+        selectNavItem(item) {
+            // this.selectedNavItem = item == this.selectedNavItem ? "" : item; // Allow reset to close filter panel
+            if(this.selectedNavItem == item) {
+                this.selectedNavItem = "";
+            } else {
+                this.selectedNavItem = item;
+            }
+        },
+        toggleFilterItem(filterItem) {
+            // filterItem is the whole object
+            const indexOfFilterPanel = this.navItems.indexOf(filterItem.panel); 
 
-            this.filterArray.includes(criteriumString) ? this.filterArray.splice( this.filterArray.indexOf(criteriumString), 1 ) : this.filterArray.push(criteriumString);
+            for(let i = 0; i < this.filterModel[indexOfFilterPanel].length; i++) {
+                const filterModelItem = this.filterModel[indexOfFilterPanel][i];
+                if(filterItem.criterium == filterModelItem.criterium) {
+                    this.handleRadioCases(filterItem);
+                    filterModelItem.checked = !filterModelItem.checked;
+                    this.applyFilter();
+                    return;
+                }
+            }
+        },
+        handleRadioCases(filterItem) {
 
-            this.applyFilter();
+            const indexOfFilterPanel = this.navItems.indexOf(filterItem.panel); // TODO make sure this is syncrhonized if filter nav items order is updated
+            const panelCheckboxes = this.filterModel[indexOfFilterPanel];
+
+            // 'Blends many music genres' case
+            if(filterItem.criterium == this.db.criteria.BLENDS) {
+                // const specialRadioCase = ["Contains Jazz elements", "Contains Folk elements", "Contains electronic elements", "Contains psychedelic elements"];
+
+                for(let i = 0; i < panelCheckboxes.length; i++) {
+                    panelCheckboxes[i].checked = false;
+                }
+
+            // 'Blends many music genres' case (opposite)
+            } else if(filterItem.criterium == this.db.criteria.C_JAZZ
+                        || filterItem.criterium == this.db.criteria.C_FOLK
+                        || filterItem.criterium == this.db.criteria.C_ELECTRO
+                        || filterItem.criterium == this.db.criteria.C_PSYCHEDELIC) {
+
+                for(let i = 0; i < panelCheckboxes.length; i++) {
+                    if(panelCheckboxes[i].criterium == this.db.criteria.BLENDS) {
+                        panelCheckboxes[i].checked = false;
+                        break;
+                    }
+                }
+
+            // Standard cases
+            } else {
+                for(let i = 0; i < panelCheckboxes.length; i++) {
+                    if(panelCheckboxes[i].isRadio) {
+                        if(filterItem.criterium != panelCheckboxes[i].criterium && panelCheckboxes[i].radioFamily == filterItem.radioFamily) {
+                            // Not self but same radio family
+                            panelCheckboxes[i].checked = false; // Reset
+                        }
+                    }
+                }
+            }
         },
         applyFilter: function() {
             // For each album
             for(let i = 0; i < this.db.albums.length; i++) {
                 const album = this.db.albums[i];
+                let nbOfCheckedCriteria = 0;
                 let nbOfMatchingCriteria = 0;
                 // For each filter criteria
-                for(let j = 0; j < this.filterArray.length; j++) {
-                    const criteria = this.filterArray[j];
-                    // If criterium matches
-                    if(album.criteria.includes(criteria)) {
-                        nbOfMatchingCriteria++;
+                for(let j = 0; j < this.filterModel.length; j++) {
+                    for(let k = 0; k < this.filterModel[j].length; k++) {
+                        const filterItem = this.filterModel[j][k];
+                        if(filterItem.checked) {
+                            nbOfCheckedCriteria++
+                            // If criterium matches
+                            if(album.criteria.includes(filterItem.criterium)) {
+                                nbOfMatchingCriteria++;
+                            }
+                        }
                     }
                 }
 
-                const albumsToHandleDisplay = document.querySelectorAll("[album-id=" + album.id + "]");
-                for(let j = 0; j < albumsToHandleDisplay.length; j++) {
-                    if(nbOfMatchingCriteria == this.filterArray.length) {
+                const elementsToHandleDisplay = document.querySelectorAll("[album-id=" + album.id + "]");
+                for(let j = 0; j < elementsToHandleDisplay.length; j++) {
+                    if(nbOfMatchingCriteria == nbOfCheckedCriteria) {
                         // Quite dirty, but it seems that all criteria match
-                        if(albumsToHandleDisplay[j].classList.contains("hidden")) {
-                            albumsToHandleDisplay[j].classList.remove("hidden");
+                        if(elementsToHandleDisplay[j].classList.contains("hidden")) {
+                            elementsToHandleDisplay[j].classList.remove("hidden");
                         }
                     } else {
-                        if(!albumsToHandleDisplay[j].classList.contains("hidden")) {
-                            albumsToHandleDisplay[j].classList.add("hidden");
+                        if(!elementsToHandleDisplay[j].classList.contains("hidden")) {
+                            elementsToHandleDisplay[j].classList.add("hidden");
                         }
                     }
                 }

@@ -5,7 +5,8 @@ $pathToImg: "../assets/img";
 $borderThin: 3px;
 // $borderMedium: 5px;
 $borderThick: $borderThin * 2;
-$headerHeight: 100px + $borderThin;
+// $headerHeight: 100px + $borderThin;
+$headerHeight: 15vh; // Does not include menu overflow
 
 // Font sizes
 $headerFontSize: 50px;

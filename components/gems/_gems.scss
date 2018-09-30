@@ -1,9 +1,8 @@
 #gemsVue {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    padding: $headerHeight + 30px 20px 50px 20px;
+    @include vue;
 
     .album-wrapper {
         display: flex;

@@ -7,7 +7,7 @@ Vue.component('subgenres', {
 
                 <img
                     class="album-cover most-representative"
-                    v-bind:albumId="subgenre.mostRepresentativeAlbum.id"
+                    v-bind:album-id="subgenre.mostRepresentativeAlbum.id"
                     v-on:click="$emit('album-click', subgenre.mostRepresentativeAlbum)"
                     v-bind:src=subgenre.mostRepresentativeAlbum.cover alt="">
 
@@ -21,7 +21,7 @@ Vue.component('subgenres', {
                         <img
                             class="album-cover"
                             v-for="album in subgenre.albums"
-                            v-bind:albumId="album.id"
+                            v-bind:album-id="album.id"
                             v-on:click="$emit('album-click', album)"
                             v-bind:src=album.cover alt="">
                     </div>

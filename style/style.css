@@ -2,6 +2,7 @@
 body {
   border: 0;
   margin: 0;
+  overflow: hidden !important;
 }
 
 h1 {
@@ -119,41 +120,6 @@ button:hover {
           animation: GradientWave 0.2s ease;
 }
 
-.checkbox-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  position: relative;
-  cursor: pointer;
-}
-
-.checkbox-wrapper .checkbox-slot {
-  position: relative;
-  display: block;
-  top: 0;
-  left: 0;
-  height: 25px;
-  width: 25px;
-  background: #030504;
-  border: solid 2px #a18a54;
-  margin-right: 10px;
-}
-
-.checkbox-wrapper.checked .checkbox-slot {
-  background-color: #a18a54;
-}
-
-.checkbox-wrapper:hover .checkbox-slot {
-  background: linear-gradient(141deg, #1c3a3e 10%, #674e47 90%);
-}
-
-.checkbox-wrapper label {
-  cursor: pointer;
-}
-
 @-webkit-keyframes spinning {
   from {
     -webkit-transform: rotate(0deg);
@@ -201,6 +167,49 @@ button:hover {
   z-index: -1;
   -webkit-filter: grayscale(20%);
           filter: grayscale(20%);
+}
+
+.checkbox-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.checkbox-wrapper .checkbox-slot {
+  position: relative;
+  display: block;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background: #030504;
+  border: solid 2px #a18a54;
+  margin-right: 10px;
+}
+
+.checkbox-wrapper.isRadio .checkbox-slot {
+  border-radius: 50%;
+}
+
+.checkbox-wrapper.checked .checkbox-slot {
+  background: #a18a54;
+}
+
+.checkbox-wrapper:hover .checkbox-slot {
+  background: linear-gradient(141deg, #1c3a3e 10%, #674e47 90%);
+}
+
+.checkbox-wrapper.checked:hover .checkbox-slot {
+  background: #a18a54;
+}
+
+.checkbox-wrapper label {
+  cursor: pointer;
 }
 
 .search-wrapper {
@@ -282,6 +291,7 @@ button:hover {
 }
 
 header {
+  height: 15vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -339,10 +349,11 @@ header #menu button.button-active {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 103px;
+  height: 85vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-top: 15vh;
+  width: 100%;
 }
 
 #albumVue .buttons {
@@ -435,6 +446,10 @@ header #menu button.button-active {
   display: block;
 }
 
+#albumVue .content .album-gem {
+  font-size: 30px;
+}
+
 #albumVue .content .album-criteria {
   width: 45%;
 }
@@ -489,19 +504,60 @@ header #menu button.button-active {
           box-sizing: border-box;
 }
 
+#atticVue {
+  height: 85vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-top: 15vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+}
+
 #atticVue #filter {
-  position: fixed;
-  z-index: 1;
   left: 0;
-  top: 133px;
   bottom: 0;
-  width: filterWidth;
   background: linear-gradient(141deg, #1c3a3e 10%, #674e47 90%);
-  border-right: solid 6px #a18a54;
-  padding: 5px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  overflow-y: scroll;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#atticVue #filter .filter-nav {
+  width: 250px;
+  border-right: solid 6px #a18a54;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#atticVue #filter .filter-nav .filter-nav-item {
+  cursor: pointer;
+  border-bottom: solid 1px #a18a54;
+  padding: 15px 20px;
+}
+
+#atticVue #filter .filter-panel {
+  width: 300px;
+  border-right: solid 6px #a18a54;
+  padding: 25px 20px 15px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#atticVue #filter .filter-panel .checkbox-wrapper {
+  margin: 0 5px;
+}
+
+#atticVue #filter .filter-panel .radio-wrapper {
+  margin: 0 5px;
+}
+
+#atticVue #filter .filter-panel .filter-panel-bundle {
+  margin-bottom: 30px;
 }
 
 #atticVue #albumList {
@@ -513,8 +569,8 @@ header #menu button.button-active {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 159px 0 50px 0;
-  margin-left: 400px;
+  overflow-y: scroll;
+  width: 100%;
 }
 
 #atticVue .album-wrapper {
@@ -526,8 +582,7 @@ header #menu button.button-active {
       -ms-flex-direction: column;
           flex-direction: column;
   position: relative;
-  height: 220px;
-  width: 220px;
+  width: 12.5%;
 }
 
 #atticVue .album-wrapper:hover .album-infos {
@@ -590,13 +645,14 @@ header #menu button.button-active {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 133px 20px 50px 20px;
+  height: 85vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-top: 15vh;
+  width: 100%;
 }
 
 #gemsVue .album-wrapper {
@@ -658,13 +714,14 @@ header #menu button.button-active {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 133px 20px 50px 20px;
+  height: 85vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-top: 15vh;
+  width: 100%;
 }
 
 #subgenresVue .subgenre-wrapper {
@@ -727,10 +784,23 @@ header #menu button.button-active {
 }
 
 #statsVue {
-  margin: 0 auto;
-  padding: 153px 20px 50px 20px;
-  width: 60vw;
+  height: 85vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-top: 15vh;
+  width: 100%;
   text-align: justify;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#statsVue .content {
+  width: 60%;
+  padding-top: 20px;
 }
 
 #statsVue .numbers {
@@ -751,9 +821,9 @@ header #menu button.button-active {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 #statsVue .tables .gauge-column {
@@ -772,10 +842,25 @@ header #menu button.button-active {
 }
 
 #aboutVue {
-  margin: 0 auto;
-  padding: 153px 20px 50px 20px;
-  width: 60vw;
+  height: 85vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-top: 15vh;
+  width: 100%;
   text-align: justify;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#aboutVue .content {
+  width: 60%;
+  padding-top: 50px;
 }
 
 #aboutVue .me-wrapper {
@@ -908,9 +993,6 @@ body {
     height: 260px;
     border: solid 4px #a18a54;
     margin: 20px;
-  }
-  #atticVue {
-    padding-top: 133px;
   }
   #timelineVue .album-wrapper .album-year {
     font-size: 15px;

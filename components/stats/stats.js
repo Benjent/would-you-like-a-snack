@@ -1,40 +1,42 @@
 Vue.component('stats', {
     template: `
         <section id="statsVue">
-            <div class="numbers">
-                <span>{{artists.length}} artists</span>
-                <span>{{albums.length}} albums</span>
-                <span>{{gemsNb}} must-hear albums</span>
-            </div>
-            <div class="tables">
-                <table>
-                    <thead>
-                        <th>Year</th>
-                        <th class="gauge-column">Number of albums</th>
-                    </thead>
-                    <tbody>
-                        <tr class="albumsPerCategory" v-for="(item, year) in albumsPerYearWithRatio">
-                            <td class="albumsPerCategory-year">{{year}}</td>
-                            <td class="albumsPerCategory-nbOfAlbums">
-                                <div class="gauge" :style="{width: item.ratioPercent}">{{item.nbOfAlbums}}</div>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-                <table>
-                    <thead>
-                        <th>Country</th>
-                        <th class="gauge-column">Number of albums</th>
-                    </thead>
-                    <tbody>
-                        <tr class="albumsPerCategory" v-for="item in albumsPerCountryWithRatio">
-                            <td class="albumsPerCategory-country">{{item.country}}</td>
-                            <td class="albumsPerCategory-nbOfAlbums">
-                                <div class="gauge" :style="{width: item.ratioPercent}">{{item.nbOfAlbums}}</div>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+            <div class="content">
+                <div class="numbers">
+                    <span>{{artists.length}} artists</span>
+                    <span>{{albums.length}} albums</span>
+                    <span>{{gemsNb}} must-hear albums</span>
+                </div>
+                <div class="tables">
+                    <table>
+                        <thead>
+                            <th>Year</th>
+                            <th class="gauge-column">Number of albums</th>
+                        </thead>
+                        <tbody>
+                            <tr class="albumsPerCategory" v-for="(item, year) in albumsPerYearWithRatio">
+                                <td class="albumsPerCategory-year">{{year}}</td>
+                                <td class="albumsPerCategory-nbOfAlbums">
+                                    <div class="gauge" :style="{width: item.ratioPercent}">{{item.nbOfAlbums}}</div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table>
+                        <thead>
+                            <th>Country</th>
+                            <th class="gauge-column">Number of albums</th>
+                        </thead>
+                        <tbody>
+                            <tr class="albumsPerCategory" v-for="item in albumsPerCountryWithRatio">
+                                <td class="albumsPerCategory-country">{{item.country}}</td>
+                                <td class="albumsPerCategory-nbOfAlbums">
+                                    <div class="gauge" :style="{width: item.ratioPercent}">{{item.nbOfAlbums}}</div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </section>
     `,
