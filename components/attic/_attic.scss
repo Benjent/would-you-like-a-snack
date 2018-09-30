@@ -24,6 +24,11 @@
                 cursor: pointer;
                 border-bottom: solid 1px $gold;
                 padding: 15px 20px;
+
+                &.filter-nav-item-active {
+                    background: $gold;
+                    color: $black;
+                }
             }
         }
 

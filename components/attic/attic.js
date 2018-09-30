@@ -7,6 +7,7 @@ Vue.component('attic', {
                     <div
                         class="filter-nav-item"
                         v-for="item in navItems"
+                        v-bind:class="{'filter-nav-item-active': selectedNavItem == item}"
                         v-on:click="selectNavItem(item)">
                         {{item}}
                     </div>

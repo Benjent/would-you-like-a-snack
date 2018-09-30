@@ -540,6 +540,11 @@ header #menu button.button-active {
   padding: 15px 20px;
 }
 
+#atticVue #filter .filter-nav .filter-nav-item.filter-nav-item-active {
+  background: #a18a54;
+  color: #030504;
+}
+
 #atticVue #filter .filter-panel {
   width: 300px;
   border-right: solid 6px #a18a54;
