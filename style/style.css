@@ -326,7 +326,7 @@ header #menu {
   display: -ms-flexbox;
   display: flex;
   position: relative;
-  top: 30px;
+  top: 3vh;
 }
 
 header #menu button {
@@ -935,6 +935,12 @@ body {
   body {
     font-size: 20px;
   }
+  header {
+    height: 11.5vh;
+  }
+  header #menu {
+    top: 2vh;
+  }
   #gemsVue .album-wrapper .album-infos .album-title {
     font-size: 26px;
   }
@@ -958,12 +964,16 @@ body {
 }
 
 @media (max-width: 1100px) {
+  header {
+    height: 9vh;
+  }
   header #snackHeader {
     font-size: 32px;
     margin: 5px 0 -15px 0;
   }
   header #menu {
     font-size: 15px;
+    top: 2.5vh;
   }
   .search-wrapper #searchBar {
     width: 200px;
