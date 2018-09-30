@@ -5809,7 +5809,7 @@ const albums = [
         "criteria": [criteria.C_PSYCHEDELIC, criteria.C_FOLK, criteria.CRISPY_SIXTIES],
         "selectedTrackTitle": "Octopus",
         "selectedTrackYtId": pathToYtVideo + "N91EyGMzvgc",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": "",
         "isAGem": false
     },
     {
@@ -5822,7 +5822,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.SYMPHONIC, criteria.C_JAZZ, criteria.C_FOLK],
         "selectedTrackTitle": "After The Flood",
         "selectedTrackYtId": pathToYtVideo + "oJUu9-s15PQ",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "5GuP6isw4DZpsTaucdWkC5",
         "isAGem": false
     },
     {
@@ -5835,7 +5835,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.LENGTHY_TRACKS, criteria.SYMPHONIC, criteria.C_JAZZ],
         "selectedTrackTitle": "The Emperor In His War Room",
         "selectedTrackYtId": pathToYtVideo + "4wtUFJPGE0I",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "4kpBJuFpZBIuw4PQVxrN4t",
         "isAGem": false
     },
     {
@@ -5848,7 +5848,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.LENGTHY_TRACKS, criteria.SYMPHONIC, criteria.C_JAZZ],
         "selectedTrackTitle": "Lemmings",
         "selectedTrackYtId": pathToYtVideo + "_Earfbot_uI",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "5Lrsef2F6ZHNC5yIUEJouw",
         "isAGem": false
     },
     {
@@ -5861,7 +5861,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.JAM, criteria.LENGTHY_TRACKS, criteria.SYMPHONIC, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Arrow",
         "selectedTrackYtId": pathToYtVideo + "s_o5tMza1og",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "4irlewoGTUPndEinKcavLF",
         "isAGem": false
     },
     {
@@ -5874,7 +5874,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.LENGTHY_TRACKS, criteria.SYMPHONIC, criteria.C_JAZZ],
         "selectedTrackTitle": "Childlike Faith In Childhood's End",
         "selectedTrackYtId": pathToYtVideo + "x16-qZJmpKA",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "3RpOWx6c96pAbtE28GMApV",
         "isAGem": false
     },
     {
@@ -5887,7 +5887,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.SYMPHONIC, criteria.C_JAZZ],
         "selectedTrackTitle": "Meurglys III, The Songwriter's Guild",
         "selectedTrackYtId": pathToYtVideo + "Xo4IWcGrbbQ",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "0kmpQ28yR2OJqnUxhjfRLU",
         "isAGem": false
     },
     {
@@ -5900,7 +5900,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.SYMPHONIC, criteria.C_JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "The Sphinx In The Face",
         "selectedTrackYtId": pathToYtVideo + "Xo4IWcGrbbQ",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "0LkqdSpczzwdC2VlGrMDRB",
         "isAGem": false
     },
     {
@@ -5913,7 +5913,7 @@ const albums = [
         "criteria": [criteria.INSTRUMENTAL, criteria.SYMPHONIC, criteria.ELECTRO],
         "selectedTrackTitle": "Pulstar",
         "selectedTrackYtId": pathToYtVideo + "G1cQnhOxqXw",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "7M2EhhKnJYcmluPNzmB35N",
         "isAGem": false
     },
     {
@@ -5926,7 +5926,7 @@ const albums = [
         "criteria": [criteria.INSTRUMENTAL, criteria.SYMPHONIC, criteria.ELECTRO],
         "selectedTrackTitle": "Spiral",
         "selectedTrackYtId": pathToYtVideo + "iW_qGMRmJAw",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "6Tz3gRyPvHv8eDT5RZ2xXX",
         "isAGem": false
     },
     {
@@ -5939,7 +5939,7 @@ const albums = [
         "criteria": [criteria.EXPERIMENTAL, criteria.INSTRUMENTAL, criteria.LENGTHY_TRACKS, criteria.SYMPHONIC, criteria.ELECTRO],
         "selectedTrackTitle": "Beaubourg (Part I)",
         "selectedTrackYtId": pathToYtVideo + "iW_qGMRmJAw",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": pathToSpotifyAlbum + "4wC0IlgUIbgVdUm0jH5mPU",
         "isAGem": false
     },
     {
@@ -5952,7 +5952,7 @@ const albums = [
         "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.C_ELECTRO, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Center Of The Winds",
         "selectedTrackYtId": pathToYtVideo + "7DMy4F3GDiM",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": "",
         "isAGem": false
     },
     // ************************************************************************************ //
