@@ -66,7 +66,9 @@
         position: relative;
         // height: $albumHeight;
         // width: $albumHeight;
-        // width: 100% / $numberOfAlbumsPerRow;
+        height: auto;
+        min-height: 100% / $numberOfAlbumsPerRow;
+        width: 100% / $numberOfAlbumsPerRow;
         font-size: 17px;
         
         &:hover {
@@ -95,8 +97,8 @@
             .album-rating {
                 font-style: italic;
                 font-weight: bold;
-                border-top: solid;
-                border-bottom: solid;
+                border-top: solid 1px;
+                border-bottom: solid 1px;
             }
         }
         img {

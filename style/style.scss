@@ -66,8 +66,10 @@ body {
             }
         }
         .album-wrapper {
-            // height: 180px;
-            // width: 180px;
+            $numberOfAlbumsPerRow: 7;
+            height: auto;
+            min-height: 100% / $numberOfAlbumsPerRow;
+            width: 100% / $numberOfAlbumsPerRow;
             font-size: 12px;
         }
     }
@@ -123,7 +125,31 @@ body {
                 font-size: $menuFontSizeSmall;
             }
         }
+        .album-wrapper {
+            $numberOfAlbumsPerRow: 6;
+            height: auto;
+            min-height: 100% / $numberOfAlbumsPerRow;
+            width: 100% / $numberOfAlbumsPerRow;
+        }
     }
+}
+
+@media (max-width: 900px) {
+
+    #atticVue {
+        .album-wrapper {
+            $numberOfAlbumsPerRow: 5;
+            height: auto;
+            min-height: 100% / $numberOfAlbumsPerRow;
+            width: 100% / $numberOfAlbumsPerRow;
+            .album-infos {
+                .album-rating {
+                    font-weight: normal;
+                }
+            }
+        }
+    }
+
 }
 
 // ********** HEIGHT ********** //

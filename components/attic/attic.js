@@ -61,7 +61,6 @@ Vue.component('attic', {
 
                 <div
                     class="album-wrapper"
-                    :style="{ width: albumWrapperSize + 'px', height: albumWrapperSize + 'px' }"
                     v-for="album in db.albums"
                     v-bind:album-id="album.id"
                     v-on:click="$emit('album-click', album)">
