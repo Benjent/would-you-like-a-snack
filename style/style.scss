@@ -121,8 +121,15 @@ body {
         #filter {
             width: 250px;
             font-size: $menuFontSizeSmall;
+            .filter-nav-item {
+                padding: 8px 15px;
+            }
             .filter-panel {
                 font-size: $menuFontSizeSmall;
+                padding: 8px;
+                .checkbox-wrapper {
+                    margin-bottom: 5px;
+                }
             }
         }
         .album-wrapper {

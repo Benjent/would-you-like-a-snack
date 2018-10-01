@@ -988,8 +988,15 @@ body {
     width: 250px;
     font-size: 15px;
   }
+  #atticVue #filter .filter-nav-item {
+    padding: 8px 15px;
+  }
   #atticVue #filter .filter-panel {
     font-size: 15px;
+    padding: 8px;
+  }
+  #atticVue #filter .filter-panel .checkbox-wrapper {
+    margin-bottom: 5px;
   }
   #atticVue .album-wrapper {
     height: auto;
