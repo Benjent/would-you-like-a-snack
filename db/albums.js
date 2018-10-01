@@ -5983,7 +5983,7 @@ const albums = [
         "selectedTrackYtId": pathToYtVideo + "_A4FqKg0c_A",
         "spotifyId": pathToSpotifyAlbum + "2OJTGgC8JfbpohsInwv6u5",
         "isAGem": true,
-        "description": "TODO"
+        "description": "A fully instrumental album that draws influences from African music. The chemistry between the musicians is perceptible as the tracks come one after another all equally groovy, masterly sketching a mellow mood, making the album a reference in the Jazz Fusion school."
     },
     {
         "id": "weidorje_weidorje",
@@ -6310,6 +6310,8 @@ Procol Harum
 Soft Machine
 Strawbs 
 */
+
+// TODO we can't unclick blends many music genre
 
 // TODO update albums with new criteria (late 70's notamment)
 // TODO split misc sections avec qqc comme arrangements

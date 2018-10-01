@@ -29,32 +29,31 @@ Vue.component('attic', {
         <section id="atticVue">
 
             <div id="filter">
-                <nav class="filter-nav">
+
+                <template v-for="(filterSection, index) in filterModel">
                     <div
                         class="filter-nav-item"
-                        v-for="item in navItems"
-                        v-bind:class="{'filter-nav-item-active': selectedNavItem == item}"
-                        v-on:click="selectNavItem(item)">
-                        {{item}}
+                        v-bind:class="{'filter-nav-item-active': selectedNavItem == navItems[index]}"
+                        v-on:click="selectNavItem(navItems[index])">
+                        {{navItems[index]}}
                     </div>
-                </nav>
-                <section
-                    class="filter-panel"
-                    v-if="selectedNavItem">
 
-                    <template v-for="filterPanel in filterModel">
+                    <div
+                        class="filter-panel">
+
                         <template
-                            v-for="filterItem in filterPanel"
-                            v-if="selectedNavItem == filterItem.panel">
-
+                            v-for="filterItem in filterSection">
+    
                             <checkbox
                                 v-bind:filter-item="filterItem"
                                 v-on:checkbox-clicked="toggleFilterItem(filterItem)">
                             </checkbox>
                         </template>
-                    </template>
+                        
+                    </div>
 
-                </section>
+
+                </template>
 
             </div>
 
@@ -564,11 +563,11 @@ Vue.component('attic', {
         },
         selectNavItem(item) {
             // this.selectedNavItem = item == this.selectedNavItem ? "" : item; // Allow reset to close filter panel
-            if(this.selectedNavItem == item) {
-                this.selectedNavItem = "";
-            } else {
-                this.selectedNavItem = item;
-            }
+            // if(this.selectedNavItem == item) {
+            //     this.selectedNavItem = "";
+            // } else {
+            //     this.selectedNavItem = item;
+            // }
         },
         toggleFilterItem(filterItem) {
             // filterItem is the whole object

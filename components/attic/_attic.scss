@@ -1,7 +1,7 @@
 #atticVue {
     $albumHeight: 220px;
     $filterNavWidth: 250px;
-    $filterPanelWidth: 250px;
+    $filterPanelWidth: 350px;
 
     @include vue;
     display: flex;
@@ -14,32 +14,33 @@
         background: linear-gradient(141deg, $ocean 10%, $brown 90%);
         box-sizing: border-box;
         display: flex;
+        flex-direction: column;
 
-        .filter-nav {
-            width: $filterNavWidth;
-            border-right: solid $borderThick $gold;
-            box-sizing: border-box;
+        width: $filterPanelWidth;
+        border-right: solid $borderThick $gold;
+        box-sizing: border-box;
+        overflow-y: auto;
+        overflow-x: hidden;
 
-            .filter-nav-item {
-                cursor: pointer;
-                border-bottom: solid 1px $gold;
-                padding: 15px 20px;
+        .filter-nav-item {
+            // cursor: pointer;
+            border-bottom: solid 1px $gold;
+            padding: 15px 20px;
 
-                &:hover {
-                    background: $gold;
-                    color: $black;
-                }
+            &:hover {
+                // background: $gold;
+                // color: $black;
+            }
 
-                &.filter-nav-item-active {
-                    background: $gold;
-                    color: $black;
-                }
+            &.filter-nav-item-active {
+                background: $gold;
+                color: $black;
             }
         }
 
         .filter-panel {
-            width: $filterPanelWidth;
-            border-right: solid $borderThick $gold;
+            // width: $filterPanelWidth;
+            // border-right: solid $borderThick $gold;
             padding: 15px;
             box-sizing: border-box;
 
