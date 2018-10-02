@@ -1,7 +1,6 @@
 #atticVue {
     $albumHeight: 220px;
-    $filterNavWidth: 250px;
-    $filterPanelWidth: 350px;
+    $filterPanelWidth: 360px;
 
     @include vue;
     display: flex;

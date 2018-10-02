@@ -530,7 +530,7 @@ header #menu button.button-active {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 350px;
+  width: 360px;
   border-right: solid 6px #a18a54;
   box-sizing: border-box;
   overflow-y: auto;
