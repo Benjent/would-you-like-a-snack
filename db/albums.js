@@ -267,6 +267,19 @@ const albums = [
         "isAGem": false
     },
     {
+        "id": "andrew_lloyd_webber_and_tim_rice_jesus_christ_superstar",
+        "title": "Jesus Christ Superstar",
+        "artist": "Andrew Lloyd Webber & Tim Rice",
+        "year": 1970,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/andrew_lloyd_webber_and_tim_rice_jesus_christ_superstar.jpg",
+        "criteria": [criteria.ROCK_OPERA, criteria.FANFARE, criteria.ORCHESTRAL_PARTS, criteria.TRANSITION, criteria.CONCEPT, criteria.SOUNDTRACK],
+        "selectedTrackTitle": "Gethsemane",
+        "selectedTrackYtId": pathToYtVideo + "Azawb907Bjg",
+        "spotifyId": pathToSpotifyAlbum + "4nntZWXeeFVGgdcbAPcKg1",
+        "isAGem": false
+    },
+    {
         "id": "ange_caricatures",
         "title": "Caricatures",
         "artist": "Ange",
@@ -5528,7 +5541,7 @@ const albums = [
         "selectedTrackYtId": pathToYtVideo + "s6L8ZCAt3DA",
         "spotifyId": "",
         "isAGem": true,
-        "description": "TODO"
+        "description": "Two big smooth tracks in the middle Jazz and Rock music, heavily influenced by psychedelism and groove, with hummed vocals. Both tracks are split into sections with rhythm variations and modality changes, but still perfectly flows from start to finish. The music is warm, rousing, captivating - when not completely mezmerizing."
     },
     {
         "id": "sweet_smoke_darkness_to_light",

@@ -568,6 +568,7 @@ header #menu button.button-active {
           justify-content: center;
   -ms-flex-line-pack: baseline;
       align-content: baseline;
+  overflow-x: hidden;
   overflow-y: scroll;
   width: 100%;
 }
