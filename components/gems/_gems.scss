@@ -28,6 +28,7 @@
             flex-direction: column;
             .album-title {
                 font-size: $specialInfoFontSize;
+                cursor: pointer;
             }
             .album-description {
                 font-style: italic;
