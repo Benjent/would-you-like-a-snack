@@ -2696,7 +2696,7 @@ const albums = [
         "selectedTrackYtId": pathToYtVideo + "R8fq7djQAnQ",
         "spotifyId": pathToSpotifyAlbum + "0mKr6PDMuhTEWatlw5a4hl",
         "isAGem": true,
-        "description": "TODO"
+        "description": "A cold mood surrounds the music with a few happy fantasy moments. Peter Gabriel's theatrical vocals fit the sophisticated sections of Anthony Phillips's and Michael Rutherford's folk guitars as well as Anthony Banks's and John Mayhew's unleashed symphonic keyboards and drums. A lot of thoughts have been given to render the calm moments a little bit sweet but distant."
     },
     {
         "id": "genesis_nursery_cryme",

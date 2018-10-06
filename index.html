@@ -42,10 +42,6 @@
                 v-on:album-click="setAlbumVueAndSelectAlbum">
             </the-nav-bar>
 
-            <div id="spinningVinylWrapper">
-                <img class="spinning-vinyl spinning" src="assets/img/vinyle_gold.png" alt="">
-            </div>
-
             <component
                 v-bind:is="currentVue"
                 v-bind:selected-album="selectedAlbum"
