@@ -3344,7 +3344,7 @@ const albums = [
         "selectedTrackYtId": pathToYtVideo + "JY4fRFeJOoE",
         "spotifyId": "",
         "isAGem": true,
-        "desciprion": "TODO"
+        "description": "TODO"
     },
     // ************************************************************************************ //
     // **************************************** J **************************************** //
@@ -3666,7 +3666,7 @@ const albums = [
         "selectedTrackYtId": pathToYtVideo + "gvCmtHDDuu0",
         "spotifyId": "",
         "isAGem": true,
-        "description": "TODO"
+        "description": "A lunatic album that starts with a strident sound but then inverts the mood with soft songs to ultimately display a memorable symphonic performance. The soft parts are held by Greg Lake's vocals and Ian McDonald's flute and clarinet, while Robert Fripp and Michael Giles implicitely put Jazz in the compositions. Just like the cover of the schizoid man, when focusing on specific parts, a veriety of emotions can be interpreted, but overall, an abandonned feeling leaves the biggest trace in the listening experience."
     },
     {
         "id": "king_crimson_in_the_wake_of_poseidon",
@@ -5155,7 +5155,7 @@ const albums = [
         "selectedTrackYtId": pathToYtVideo + "YK2Pltm8ZsQ",
         "spotifyId": pathToSpotifyAlbum + "0qyBo8KTEcKMyXVgahZ1Ps",
         "isAGem": true,
-        "description": "TODO"
+        "description": "Roger Glover gathered a lot of music performers to create a Rock Opera based on the eponym children's poem. This results in a colorful and enthusiastic piece with as much vocals as there are characters, and folkloric instruments to carry the cliché of old fantasy storybooks."
     },
     {
         "id": "roger_waters_and_ron_geesin_music_from_the_body",

@@ -699,6 +699,7 @@ header #menu button.button-active {
 
 #gemsVue .album-wrapper .album-infos .album-title {
   font-size: 30px;
+  cursor: pointer;
 }
 
 #gemsVue .album-wrapper .album-infos .album-description {
