@@ -6010,7 +6010,7 @@ const albums = [
         "selectedTrackYtId": pathToYtVideo + "grqGzuSak2s",
         "spotifyId": "",
         "isAGem": true,
-        "description": "TODO"
+        "description": "Electronic elements are used to throw the music in a sci-fi symphonic world, with groovy basslines and orchestral arrangements. Mario Millo and Toivo Pilt composed the album so that listening to it feels like naively exploring new horizons, sometimes mysterious, with rhythm changes inducing speed changes."
     },
     {
         "id": "winterhawk_revival",
@@ -6312,6 +6312,7 @@ Strawbs
 */
 
 // TODO we can't unclick blends many music genre
+// TODO faire un from the same artist
 
 // TODO update albums with new criteria (late 70's notamment)
 // TODO split misc sections avec qqc comme arrangements
