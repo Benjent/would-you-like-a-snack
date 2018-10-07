@@ -2186,7 +2186,7 @@ const albums = [
         "year": 1973,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/emerson_lake_and_palmer_brain_salad_surgery.jpg",
-        "criteria": [4, criteria.TRANSITION, criteria.SYMPHONIC, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO],
+        "criteria": [criteria.TECHNICAL, criteria.TRANSITION, criteria.SYMPHONIC, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO],
         "selectedTrackTitle": "Still... You Turn Me On",
         "selectedTrackYtId": pathToYtVideo + "_8VHHcd0M_o",
         "spotifyId": pathToSpotifyAlbum + "1wTqdsmCCQQLCQjXZM3H59",
@@ -3625,6 +3625,19 @@ const albums = [
         "spotifyId": pathToSpotifyAlbum + "5z090LQztiqh13wYspQvKQ",
         "isAGem": false
     },
+    {
+        "id": "jupiter_sunset_jupiter_sunset",
+        "title": "Jupiter Sunset",
+        "artist": "Jupiter Sunset",
+        "year": 1970,
+        "country": regions.FRANCE,
+        "cover": pathToCovers + "/jupiter_sunset_jupiter_sunset.jpg",
+        "criteria": [criteria.ART_POP, criteria.FANTASY, criteria.C_FOLK, criteria.BAROQUE],
+        "selectedTrackTitle": "Highway Man",
+        "selectedTrackYtId": pathToYtVideo + "YuWpihpk9eA",
+        "spotifyId": "",
+        "isAGem": false
+    },
     // ************************************************************************************ //
     // **************************************** K **************************************** //
     // ********************************************************************************** //
@@ -4115,7 +4128,7 @@ const albums = [
         "year": 1973,
         "country": regions.USA,
         "cover": pathToCovers + "/mahavishnu_orchestra_between_nothingness_and_eternity.jpg",
-        "criteria": [4, criteria.INSTRUMENTAL, criteria.JAM, criteria.LENGTHY_TRACKS, criteria.LIVE, criteria.UNCOMMON_INSTRUMENTS, criteria.JAZZ, criteria.JAZZY_GROOVY],
+        "criteria": [criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.JAM, criteria.LENGTHY_TRACKS, criteria.LIVE, criteria.UNCOMMON_INSTRUMENTS, criteria.JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "La Mère De La Mer",
         "selectedTrackYtId": pathToYtVideo + "8YrPXjladAw",
         "spotifyId": pathToSpotifyAlbum + "1SkdtzukyNIq2wTUiVeyuk",
@@ -4128,7 +4141,7 @@ const albums = [
         "year": 1974,
         "country": regions.USA,
         "cover": pathToCovers + "/mahavishnu_orchestra_apocalypse.jpg",
-        "criteria": [4, criteria.INSTRUMENTAL, criteria.LENGTHY_TRACKS, criteria.SYMPHONIC, criteria.UNCOMMON_INSTRUMENTS, criteria.BLENDS, criteria.JAZZY_GROOVY],
+        "criteria": [criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.LENGTHY_TRACKS, criteria.SYMPHONIC, criteria.UNCOMMON_INSTRUMENTS, criteria.BLENDS, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Hymn To Him",
         "selectedTrackYtId": pathToYtVideo + "M9eegi9dd6g",
         "spotifyId": pathToSpotifyAlbum + "2LYPJHnU2WC7RbHXvJxXZX",
@@ -6336,7 +6349,6 @@ Soft Machine
 Strawbs 
 */
 
-// TODO we can't unclick blends many music genre
 // TODO faire un from the same artist
 // TODO filter by country
 // TODO filter by year
