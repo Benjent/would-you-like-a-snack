@@ -600,7 +600,12 @@ Vue.component('attic', {
                 // const specialRadioCase = ["Contains Jazz elements", "Contains Folk elements", "Contains electronic elements", "Contains psychedelic elements"];
 
                 for(let i = 0; i < panelCheckboxes.length; i++) {
-                    panelCheckboxes[i].checked = false;
+                    if(panelCheckboxes[i].criterium == this.db.criteria.BLENDS) {
+                        // Toggle
+                        // panelCheckboxes[i].checked = !panelCheckboxes[i].checked; // This is done just before
+                    } else {
+                        panelCheckboxes[i].checked = false;
+                    }
                 }
 
             // 'Blends many music genres' case (opposite)

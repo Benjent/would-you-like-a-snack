@@ -3635,7 +3635,7 @@ const albums = [
         "criteria": [criteria.ART_POP, criteria.FANTASY, criteria.C_FOLK, criteria.BAROQUE],
         "selectedTrackTitle": "Highway Man",
         "selectedTrackYtId": pathToYtVideo + "YuWpihpk9eA",
-        "spotifyId": pathToSpotifyAlbum + "",
+        "spotifyId": "",
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -6349,7 +6349,6 @@ Soft Machine
 Strawbs 
 */
 
-// TODO we can't unclick blends many music genre
 // TODO faire un from the same artist
 // TODO filter by country
 // TODO filter by year
