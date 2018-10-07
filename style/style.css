@@ -143,13 +143,16 @@ button:hover {
 }
 
 #spinningVinylWrapper {
-  overflow: hidden;
-  position: fixed;
-  top: 0;
-  width: 100vw;
-  height: 100vh;
+  position: absolute;
+  overflow-x: visible;
+  overflow-y: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 300px;
+  right: 0;
+  height: 100%;
   z-index: -1;
-  display: none;
 }
 
 #spinningVinylWrapper .spinning {
@@ -158,13 +161,10 @@ button:hover {
 }
 
 #spinningVinylWrapper .spinning-vinyl {
-  position: absolute;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-  top: -100px;
-  bottom: 0;
-  z-index: -1;
+  position: relative;
+  top: 40%;
+  height: 180%;
+  opacity: 0.8;
   -webkit-filter: grayscale(20%);
           filter: grayscale(20%);
 }
@@ -568,6 +568,7 @@ header #menu button.button-active {
           justify-content: center;
   -ms-flex-line-pack: baseline;
       align-content: baseline;
+  overflow-x: hidden;
   overflow-y: scroll;
   width: 100%;
 }

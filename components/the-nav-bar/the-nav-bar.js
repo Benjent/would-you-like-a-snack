@@ -45,6 +45,11 @@ Vue.component('the-nav-bar', {
                     v-on:album-click="handleSearchbarAlbumClick">
                 </searchbar>
             </div>
+            <div id="spinningVinylWrapper">
+                <img
+                    class="spinning-vinyl spinning"
+                    :src="vinylPath"/>
+            </div>
         </header> 
     `,
     props: ['currentVue', 'db'],
@@ -56,5 +61,10 @@ Vue.component('the-nav-bar', {
         handleSearchbarAlbumClick: function(album) {
             this.$emit('album-click', album);
         }
+    },
+    computed: {
+        vinylPath() {
+            return pathToImg + "/vinyle_gold.png"
+        },
     }
 })

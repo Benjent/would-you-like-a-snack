@@ -216,6 +216,14 @@ Vue.component('attic', {
                     "isRadio": true,
                     "radioFamily": "theme",
                 },
+                {
+                    "criterium": this.db.criteria.SPIRITUAL,
+                    "panel": "Theme",
+                    "string": "Spiritual",
+                    "checked": false,
+                    "isRadio": true,
+                    "radioFamily": "theme",
+                },
             ],
             // Main genre panel
             [
