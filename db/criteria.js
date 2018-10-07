@@ -13,10 +13,11 @@ const criteria = {
     ZEUHL: "Zeuhl",
     
     // Theme
-    SCI_FI: "Sci-fi touch",
-    FANTASY: "Fantasy touch",
-    MEDIEVAL: "Medieval touch",
+    SCI_FI: "Sci-fi-influenced",
+    FANTASY: "Fantasy-influenced",
+    MEDIEVAL: "Medieval-influenced",
     OCCULT: "Occult",
+    SPIRITUAL: "Spiritual",
 
     // Genre-based
     ROCK: "Rock-based with a Prog touch",
@@ -97,6 +98,7 @@ const criteriaOrder = [
     criteria.FANTASY,
     criteria.MEDIEVAL,
     criteria.OCCULT,
+    criteria.SPIRITUAL,
 
     // Genre-based
     criteria.ROCK,
