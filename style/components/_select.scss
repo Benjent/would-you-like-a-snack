@@ -1,0 +1,28 @@
+.select-wrapper {
+    display: flex;
+    position: relative;
+    select {
+        width: 100%;
+        padding: 5px 10px;
+        border: solid 2px $gold;
+        background: $black;
+        font-size: $mainFontSizeSmall;
+        option {
+            
+        }
+    
+    }
+    &::after {
+        content: '';
+        display: block;
+        position: relative;
+        top: 14px;
+        right: 30px;
+        width: 10px;
+        height: 10px;
+        border: solid 2px $gold;
+        border-left: none;
+        border-top: none;
+        transform: rotate(45deg);
+    }
+}

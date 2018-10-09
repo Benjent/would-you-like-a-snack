@@ -4530,6 +4530,33 @@ const albums = [
         "isAGem": false
     },
     {
+        "id": "nektar_journey_to_the_centre_of_the_eye",
+        "title": "Journey To The Centre Of The Eye",
+        "artist": "Nektar",
+        "year": 1971,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/nektar_journey_to_the_centre_of_the_eye.jpg",
+        "criteria": [criteria.HEAVY, criteria.CONCEPT, criteria.TRANSITION, criteria.SCI_FI, criteria.SYMPHONIC, criteria.C_PSYCHEDELIC, criteria.SPACY],
+        "selectedTrackTitle": "It's All In The Mind",
+        "selectedTrackYtId": pathToYtVideo + "bwv2qOWvBNc",
+        "spotifyId": pathToSpotifyAlbum + "4rel9GvJIiVBx3m3680Kqz",
+        "isAGem": false
+    },
+    {
+        "id": "nektar_a_tab_in_the_ocean",
+        "title": "A Tab In The Ocean",
+        "artist": "Nektar",
+        "year": 1972,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/nektar_a_tab_in_the_ocean.jpg",
+        "criteria": [criteria.HEAVY, criteria.SYMPHONIC, criteria.JAZZY_GROOVY, criteria.JAM, criteria.LENGTHY_TRACKS, criteria.TRANSITION],
+        "selectedTrackTitle": "Desolation Valley",
+        "selectedTrackYtId": pathToYtVideo + "9Tu65PeEqdE",
+        "spotifyId": pathToSpotifyAlbum + "7Iq2CLAPWXPK0W2dQhhqMY",
+        "isAGem": true,
+        "description": "TODO"
+    },
+    {
         "id": "nightwinds_nightwinds",
         "title": "Nightwinds",
         "artist": "Nightwinds",
@@ -4598,6 +4625,33 @@ const albums = [
         "selectedTrackTitle": "Here Comes The Flood",
         "selectedTrackYtId": pathToYtVideo + "vb7htoJAK7g",
         "spotifyId": pathToSpotifyAlbum + "0kDFjyfGFtiIMXlxJ120Ok",
+        "isAGem": false
+    },
+    {
+        "id": "picchio_dal_pozzo_picchio_dal_pozzo",
+        "title": "Picchio Dal Pozzo",
+        "artist": "Picchio Dal Pozzo",
+        "year": 1976,
+        "country": regions.ITALY,
+        "cover": pathToCovers + "/picchio_dal_pozzo_picchio_dal_pozzo.jpg",
+        "criteria": [criteria.ITALIAN_SUNG, criteria.C_JAZZ, criteria.C_PSYCHEDELIC, criteria.ODD_RHYTHM, criteria.UNCOMMON_INSTRUMENTS, criteria.INSTRUMENTAL, criteria.SYMPHONIC],
+        "selectedTrackTitle": "La Bolla",
+        "selectedTrackYtId": pathToYtVideo + "zkdN_QXh5e4",
+        "spotifyId": "",
+        "isAGem": true,
+        "description": "TODO"
+    },
+    {
+        "id": "picchio_dal_pozzo_abbiamo_tutti_i_suoi_problemi",
+        "title": "Abbiamo Tutti I Suoi Problemi",
+        "artist": "Picchio Dal Pozzo",
+        "year": 1980,
+        "country": regions.ITALY,
+        "cover": pathToCovers + "/picchio_dal_pozzo_abbiamo_tutti_i_suoi_problemi.jpg",
+        "criteria": [criteria.ITALIAN_SUNG, criteria.EXPERIMENTAL, criteria.C_JAZZ, criteria.C_PSYCHEDELIC, criteria.ODD_RHYTHM, criteria.LENGTHY_TRACKS, criteria.PATCHWORK],
+        "selectedTrackTitle": "Moderno Ballabile (Richiesta Con Dedica)",
+        "selectedTrackYtId": pathToYtVideo + "hU0B-K-Me1Q",
+        "spotifyId": "",
         "isAGem": false
     },
     {
@@ -4769,6 +4823,84 @@ const albums = [
         "selectedTrackTitle": "Zilbra",
         "selectedTrackYtId": pathToYtVideo + "NnSnwsz9aXs",
         "spotifyId": "",
+        "isAGem": false
+    },
+    {
+        "id": "premiata_forneria_marconi_storia_di_un_minuto",
+        "title": "Storia Di Un Minuto",
+        "artist": "Premiata Forneria Marconi",
+        "year": 1972,
+        "country": regions.ITALY,
+        "cover": pathToCovers + "/premiata_forneria_marconi_storia_di_un_minuto.jpg",
+        "criteria": [criteria.ITALIAN_SUNG, criteria.MEDIEVAL, criteria.BAROQUE, criteria.SYMPHONIC, criteria.C_JAZZ, criteria.C_FOLK],
+        "selectedTrackTitle": "Dove... Quando... (Parte I)",
+        "selectedTrackYtId": pathToYtVideo + "5qa0029LAbo",
+        "spotifyId": pathToSpotifyAlbum + "51pz4wvc0BPtjnGCWjxX91",
+        "isAGem": false
+    },
+    {
+        "id": "premiata_forneria_marconi_per_un_amico",
+        "title": "Per Un Amico",
+        "artist": "Premiata Forneria Marconi",
+        "year": 1972,
+        "country": regions.ITALY,
+        "cover": pathToCovers + "/premiata_forneria_marconi_per_un_amico.jpg",
+        "criteria": [criteria.ITALIAN_SUNG, criteria.MEDIEVAL, criteria.BAROQUE, criteria.SYMPHONIC, criteria.C_JAZZ, criteria.C_FOLK, criteria.ODD_RHYTHM, criteria.UNCOMMON_INSTRUMENTS],
+        "selectedTrackTitle": "Per Un Amico",
+        "selectedTrackYtId": pathToYtVideo + "gDWKIgopUSI",
+        "spotifyId": pathToSpotifyAlbum + "1NeJ0QqKv002iYDiOCaUOA",
+        "isAGem": false
+    },
+    {
+        "id": "premiata_forneria_marconi_lisola_di_niente",
+        "title": "L'isola Di Niente",
+        "artist": "Premiata Forneria Marconi",
+        "year": 1974,
+        "country": regions.ITALY,
+        "cover": pathToCovers + "/premiata_forneria_marconi_lisola_di_niente.jpg",
+        "criteria": [criteria.ITALIAN_SUNG, criteria.SYMPHONIC, criteria.C_FOLK, criteria.MEDIEVAL],
+        "selectedTrackTitle": "La Luna Nuova",
+        "selectedTrackYtId": pathToYtVideo + "JzjoIRPtuWo",
+        "spotifyId": pathToSpotifyAlbum + "7bXJzll4GUEOGqX1YshA8C",
+        "isAGem": false
+    },
+    {
+        "id": "premiata_forneria_marconi_chocolate_kings",
+        "title": "Chocolate Kings",
+        "artist": "Premiata Forneria Marconi",
+        "year": 1975,
+        "country": regions.ITALY,
+        "cover": pathToCovers + "/premiata_forneria_marconi_chocolate_kings.jpg",
+        "criteria": [criteria.ODD_RHYTHM, criteria.SYMPHONIC, criteria.C_FOLK, criteria.C_JAZZ],
+        "selectedTrackTitle": "Harlequin",
+        "selectedTrackYtId": pathToYtVideo + "SAL0LInPlx8",
+        "spotifyId": pathToSpotifyAlbum + "3FTBY9sW29JfLjAZHndgyY",
+        "isAGem": false
+    },
+    {
+        "id": "premiata_forneria_marconi_jet_lag",
+        "title": "Jet Lag",
+        "artist": "Premiata Forneria Marconi",
+        "year": 1977,
+        "country": regions.ITALY,
+        "cover": pathToCovers + "/premiata_forneria_marconi_jet_lag.jpg",
+        "criteria": [criteria.ODD_RHYTHM, criteria.SYMPHONIC, criteria.C_FOLK, criteria.C_JAZZ],
+        "selectedTrackTitle": "Jet Lag",
+        "selectedTrackYtId": pathToYtVideo + "URDMIQLVqu8",
+        "spotifyId": pathToSpotifyAlbum + "1F8ppE674Bik93kRyqaEly",
+        "isAGem": false
+    },
+    {
+        "id": "premiata_forneria_marconi_passpartu",
+        "title": "Passpartù",
+        "artist": "Premiata Forneria Marconi",
+        "year": 1978,
+        "country": regions.ITALY,
+        "cover": pathToCovers + "/premiata_forneria_marconi_passpartu.jpg",
+        "criteria": [criteria.ITALIAN_SUNG, criteria.MEDIEVAL, criteria.ODD_RHYTHM, criteria.C_FOLK],
+        "selectedTrackTitle": "Viene Il Santo",
+        "selectedTrackYtId": pathToYtVideo + "syj_fJmucaE",
+        "spotifyId": pathToSpotifyAlbum + "2JNaih64nuuvmaDDkPKGFL",
         "isAGem": false
     },
     {
@@ -6332,6 +6464,7 @@ Can
 Curved Air
 Delirium    
 ELO  
+Faust
 Fruupp  
 Gryphon
 Hawkwind
@@ -6339,16 +6472,15 @@ Iron Claw
 Jane  
 Kraftwerk  
 Man
-Mike oldfield
-Nektar   
+Mike Oldfield
 Neu!
-Faust
 Premiata Forneria Marconi
 Procol Harum
 Soft Machine
-Strawbs 
+Strawbs
+UFO
 */
-
+// TODO parse tout le Prog introuvable et renseigner ici
 // TODO faire un from the same artist
 // TODO filter by country
 // TODO filter by year
