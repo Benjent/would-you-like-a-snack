@@ -4549,12 +4549,25 @@ const albums = [
         "year": 1972,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/nektar_a_tab_in_the_ocean.jpg",
-        "criteria": [criteria.HEAVY, criteria.SYMPHONIC, criteria.JAZZY_GROOVY, criteria.JAM, criteria.LENGTHY_TRACKS, criteria.TRANSITION],
+        "criteria": [criteria.SPECTACULAR, criteria.SYMPHONIC, criteria.JAZZY_GROOVY, criteria.JAM, criteria.LENGTHY_TRACKS, criteria.TRANSITION],
         "selectedTrackTitle": "Desolation Valley",
         "selectedTrackYtId": pathToYtVideo + "9Tu65PeEqdE",
         "spotifyId": pathToSpotifyAlbum + "7Iq2CLAPWXPK0W2dQhhqMY",
         "isAGem": true,
         "description": "TODO"
+    },
+    {
+        "id": "nektar_sounds_like_this",
+        "title": "...Sounds Like This",
+        "artist": "Nektar",
+        "year": 1973,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/nektar_sounds_like_this.jpg",
+        "criteria": [criteria.ROCK, criteria.SPECTACULAR, criteria.SYMPHONIC, criteria.JAM, criteria.LENGTHY_TRACKS],
+        "selectedTrackTitle": "A Day In The Life Of A Preacher",
+        "selectedTrackYtId": pathToYtVideo + "S3F_t43v2oI",
+        "spotifyId": pathToSpotifyAlbum + "4zz8OO6V7gAdmoVOndIB25",
+        "isAGem": false
     },
     {
         "id": "nightwinds_nightwinds",
