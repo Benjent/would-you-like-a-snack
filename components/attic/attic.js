@@ -30,11 +30,24 @@ Vue.component('attic', {
 
             <div id="filter">
 
+                <div class="filter-nav-item">
+                    Region
+                </div>
+
+                <div class="filter-panel">
+                    <select
+                        v-model="selectedRegion"
+                        v-on:change="selectRegion()">
+                        <option value="All" selected>All</option>
+                        <option
+                            v-for="(albums, country) in db.albumsPerCountry"
+                            :value="country">{{country}}</option>
+                    </select>
+                </div>
+
                 <template v-for="(filterSection, index) in filterModel">
                     <div
-                        class="filter-nav-item"
-                        v-bind:class="{'filter-nav-item-active': selectedNavItem == navItems[index]}"
-                        v-on:click="selectNavItem(navItems[index])">
+                        class="filter-nav-item">
                         {{navItems[index]}}
                     </div>
 
@@ -542,7 +555,7 @@ Vue.component('attic', {
         ];
 
         return {
-            selectedNavItem: "",
+            selectedRegion: "All",
             filterModel: filter,
             albumListWidth: 0
         }
@@ -568,13 +581,8 @@ Vue.component('attic', {
                 console.log(this.albumListWidth)
             }
         },
-        selectNavItem(item) {
-            // this.selectedNavItem = item == this.selectedNavItem ? "" : item; // Allow reset to close filter panel
-            // if(this.selectedNavItem == item) {
-            //     this.selectedNavItem = "";
-            // } else {
-            //     this.selectedNavItem = item;
-            // }
+        selectRegion() {
+            this.applyFilter();
         },
         toggleFilterItem(filterItem) {
             // filterItem is the whole object
@@ -653,6 +661,7 @@ Vue.component('attic', {
                     }
                 }
 
+                // Query selector all to get also the overlay which holds the album-id
                 const elementsToHandleDisplay = document.querySelectorAll("[album-id=" + album.id + "]");
                 for(let j = 0; j < elementsToHandleDisplay.length; j++) {
                     if(nbOfMatchingCriteria == nbOfCheckedCriteria) {
@@ -661,7 +670,17 @@ Vue.component('attic', {
                             elementsToHandleDisplay[j].classList.remove("hidden");
                         }
                     } else {
+                        // Hide
                         if(!elementsToHandleDisplay[j].classList.contains("hidden")) {
+                            elementsToHandleDisplay[j].classList.add("hidden");
+                        }
+                    }
+
+                    // Criteria are checked, now check for the region
+                    if(!elementsToHandleDisplay[j].classList.contains("hidden")) {
+                        // Element is displayed...
+                        if(this.selectedRegion != "All" && album.country != this.selectedRegion) {
+                            // ...But its region does not match, so hide it
                             elementsToHandleDisplay[j].classList.add("hidden");
                         }
                     }

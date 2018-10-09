@@ -10,7 +10,8 @@ h1 {
 }
 
 button,
-input {
+input,
+select {
   background: none;
   border: 0;
   color: inherit;
@@ -25,7 +26,8 @@ input {
 }
 
 button::-moz-focus-inner,
-input::-moz-focus-inner {
+input::-moz-focus-inner,
+select::-moz-focus-inner {
   border: none;
 }
 
@@ -118,6 +120,14 @@ button:hover {
   background-position: 100%;
   -webkit-animation: GradientWave 0.2s ease;
           animation: GradientWave 0.2s ease;
+}
+
+select {
+  width: 100%;
+  padding: 5px 10px;
+  border: solid 2px #a18a54;
+  background: #030504;
+  font-size: 20px;
 }
 
 @-webkit-keyframes spinning {
