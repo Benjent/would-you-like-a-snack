@@ -4543,6 +4543,20 @@ const albums = [
         "isAGem": false
     },
     {
+        "id": "nektar_a_tab_in_the_ocean",
+        "title": "A Tab In The Ocean",
+        "artist": "Nektar",
+        "year": 1972,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/nektar_a_tab_in_the_ocean.jpg",
+        "criteria": [criteria.HEAVY, criteria.SYMPHONIC, criteria.JAZZY_GROOVY, criteria.JAM, criteria.LENGTHY_TRACKS, criteria.TRANSITION],
+        "selectedTrackTitle": "Desolation Valley",
+        "selectedTrackYtId": pathToYtVideo + "9Tu65PeEqdE",
+        "spotifyId": pathToSpotifyAlbum + "7Iq2CLAPWXPK0W2dQhhqMY",
+        "isAGem": true,
+        "description": "TODO"
+    },
+    {
         "id": "nightwinds_nightwinds",
         "title": "Nightwinds",
         "artist": "Nightwinds",
