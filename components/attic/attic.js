@@ -35,14 +35,17 @@ Vue.component('attic', {
                 </div>
 
                 <div class="filter-panel">
-                    <select
-                        v-model="selectedRegion"
-                        v-on:change="selectRegion()">
-                        <option value="All" selected>All</option>
-                        <option
-                            v-for="(albums, country) in db.albumsPerCountry"
-                            :value="country">{{country}}</option>
-                    </select>
+                    <div class="select-wrapper">
+                        <select
+                            class="test"
+                            v-model="selectedRegion"
+                            v-on:change="selectRegion()">
+                            <option value="All" selected>All</option>
+                            <option
+                                v-for="(albums, country) in db.albumsPerCountry"
+                                :value="country">{{country}}</option>
+                        </select>
+                    </div>
                 </div>
 
                 <template v-for="(filterSection, index) in filterModel">
