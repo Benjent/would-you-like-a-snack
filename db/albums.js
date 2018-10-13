@@ -92,7 +92,7 @@ const albums = [
         "criteria": [criteria.CONCEPT, criteria.TRANSITION, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO, criteria.JAZZY_GROOVY, criteria.ART_POP, criteria.SCI_FI],
         "selectedTrackTitle": "I Robot",
         "selectedTrackYtId": pathToYtVideo + "u7oAuba3Ekg",
-        "spotifyId": pathToSpotifyAlbum + "4QKtovzVkwFs4yRKBMOLrv",
+        "spotifyId": pathToSpotifyAlbum + "2vtMi0d0613jhp85klO9eb",
         "isAGem": true,
         "description": "Alan Parsons and Eric Woolfson managed to blend pop ballads with sci-fi lyrics - inspired by Isaac Asimov's Robot Trilogy - with spectacular arrangements, drawing the best out of electronic music from the late 70's and what was about to be disco music."
     },
