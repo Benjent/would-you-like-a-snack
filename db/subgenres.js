@@ -172,6 +172,7 @@ const subgenres = [
         "description": "TODO",
         "mostRepresentativeAlbum": getAlbumById("semiramis_dedicato_a_frazz"),
         "albums": [
+            getAlbumById("ange_au_dela_du_delire")
         ]
     },
     {
@@ -179,7 +180,8 @@ const subgenres = [
         "description": "TODO",
         "mostRepresentativeAlbum": getAlbumById("hawkwind_doremi_fasol_latido"),
         "albums": [
-            // "ozric"
+            getAlbumById("nektar_a_tab_in_the_ocean"),
+            getAlbumById("ozric_tentacles_strangeitude"),
         ]
     },
     {

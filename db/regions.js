@@ -6,6 +6,7 @@ const regions = {
     CANADA: "Canada",
     DENMARK: "Denmark",
     ENGLAND: "England",
+    INDIA: "India",
     ITALY: "Italy",
     FRANCE: "France",
     GERMANY: "Germany",
