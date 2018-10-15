@@ -41,7 +41,8 @@ const Db = {
     albumsPerCountry: albumsPerCountry,
     gemsNb: gemsNb,
     albumsSortedByYear: albumsSortedByYear,
-    subgenres: subgenres
+    subgenres: subgenres,
+    regions: regions
 }
 
 // Other
