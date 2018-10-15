@@ -42,8 +42,8 @@ Vue.component('attic', {
                             v-on:change="selectRegion()">
                             <option value="All" selected>All</option>
                             <option
-                                v-for="(albums, country) in db.albumsPerCountry"
-                                :value="country">{{country}}</option>
+                                v-for="region in db.regions"
+                                :value="region">{{region}}</option>
                         </select>
                     </div>
                 </div>
