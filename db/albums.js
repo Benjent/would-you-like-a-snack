@@ -1758,13 +1758,26 @@ const albums = [
         "isAGem": false
     },
     {
+        "id": "deep_purple_shades_of_deep_purple",
+        "title": "Shades Of Deep Purple",
+        "artist": "Deep Purple",
+        "year": 1968,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/deep_purple_shades_of_deep_purple.jpg",
+        "criteria": [criteria.JAM, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO, criteria.CRISPY_SIXTIES],
+        "selectedTrackTitle": "Hush",
+        "selectedTrackYtId": pathToYtVideo + "W1PNvopXjbg",
+        "spotifyId": pathToSpotifyAlbum + "3VV3uHT9dEGPbgQJQRMAEy",
+        "isAGem": false
+    },
+    {
         "id": "deep_purple_the_book_of_taliesyn",
         "title": "The Book Of Taliesyn",
         "artist": "Deep Purple",
         "year": 1968,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/deep_purple_the_book_of_taliesyn.jpg",
-        "criteria": [criteria.JAM, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO],
+        "criteria": [criteria.JAM, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO, criteria.CRISPY_SIXTIES],
         "selectedTrackTitle": "Listen, Learn, Read On",
         "selectedTrackYtId": pathToYtVideo + "uYZaXo4jOu0",
         "spotifyId": pathToSpotifyAlbum + "4pFFGEuoEmxtOTbp22tva9",
@@ -1777,10 +1790,36 @@ const albums = [
         "year": 1969,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/deep_purple_deep_purple.jpg",
-        "criteria": [criteria.JAM, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO],
+        "criteria": [criteria.JAM, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO, criteria.CRISPY_SIXTIES],
         "selectedTrackTitle": "April",
         "selectedTrackYtId": pathToYtVideo + "2eRTQnSzoUI",
         "spotifyId": pathToSpotifyAlbum + "4vjBkjJeJByK2swq4DnuPc",
+        "isAGem": false
+    },
+    {
+        "id": "deep_purple_in_rock",
+        "title": "In Rock",
+        "artist": "Deep Purple",
+        "year": 1970,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/deep_purple_in_rock.jpg",
+        "criteria": [criteria.JAM, criteria.ROCK, criteria.HEAVY],
+        "selectedTrackTitle": "Child In Time",
+        "selectedTrackYtId": pathToYtVideo + "PfAWReBmxEs",
+        "spotifyId": pathToSpotifyAlbum + "3llL1qaL2RvtyQAthAuRFS",
+        "isAGem": false
+    },
+    {
+        "id": "deep_purple_fireball",
+        "title": "Fireball",
+        "artist": "Deep Purple",
+        "year": 1971,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/deep_purple_fireball.jpg",
+        "criteria": [criteria.JAM, criteria.ROCK, criteria.HEAVY],
+        "selectedTrackTitle": "Fools",
+        "selectedTrackYtId": pathToYtVideo + "Se8srYEdi2I",
+        "spotifyId": pathToSpotifyAlbum + "3oitf8NRK5tSDhCRVcOewu",
         "isAGem": false
     },
     {
@@ -4395,6 +4434,19 @@ const albums = [
         "isAGem": false
     },
     {
+        "id": "mike_oldfield_tubular_bells",
+        "title": "Tubular Bells",
+        "artist": "Mike Oldfield",
+        "year": 1973,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/mike_oldfield_tubular_bells.jpg",
+        "criteria": [criteria.INSTRUMENTAL, criteria.LENGTHY_TRACKS, criteria.SYMPHONIC, criteria.UNCOMMON_INSTRUMENTS, criteria.ODD_RHYTHM, criteria.C_FOLK, criteria.SOFT, criteria.AMBIENT],
+        "selectedTrackTitle": "Tubular Bells (Part II)",
+        "selectedTrackYtId": pathToYtVideo + "4pfzuFvFIeI",
+        "spotifyId": pathToSpotifyAlbum + "0a3YQpBnRzJzNktOjb6Dum",
+        "isAGem": false
+    },
+    {
         "id": "mike_oldfield_hergest_ridge",
         "title": "Hergest Ridge",
         "artist": "Mike Oldfield",
@@ -6688,6 +6740,7 @@ Procol Harum
 Soft Machine
 Strawbs
 UFO
+The Who
 */
 // TODO parse tout le Prog introuvable et renseigner ici
 // TODO faire un from the same artist
