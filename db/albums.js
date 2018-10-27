@@ -3678,6 +3678,45 @@ const albums = [
         "isAGem": false
     },
     {
+        "id": "journey_journey",
+        "title": "Journey",
+        "artist": "Journey",
+        "year": 1975,
+        "country": regions.USA,
+        "cover": pathToCovers + "/journey_journey.jpg",
+        "criteria": [criteria.JAM, criteria.ROCK, criteria.JAZZY_GROOVY],
+        "selectedTrackTitle": "Topaz",
+        "selectedTrackYtId": pathToYtVideo + "4xGRVRS_bFI",
+        "spotifyId": pathToSpotifyAlbum + "28NkOYgAmfDMjecduDX7lL",
+        "isAGem": false
+    },
+    {
+        "id": "journey_look_into_the_future",
+        "title": "Look Into The Future",
+        "artist": "Journey",
+        "year": 1976,
+        "country": regions.USA,
+        "cover": pathToCovers + "/journey_look_into_the_future.jpeg",
+        "criteria": [criteria.JAM, criteria.ROCK],
+        "selectedTrackTitle": "You're On Your Own",
+        "selectedTrackYtId": pathToYtVideo + "9po0EWpsP0U",
+        "spotifyId": pathToSpotifyAlbum + "4cjthZg9EZT2Hik5XecWQl",
+        "isAGem": false
+    },
+    {
+        "id": "journey_next",
+        "title": "Next",
+        "artist": "Journey",
+        "year": 1977,
+        "country": regions.USA,
+        "cover": pathToCovers + "/journey_next.jpeg",
+        "criteria": [criteria.JAM, criteria.ROCK, criteria.ODD_RHYTHM],
+        "selectedTrackTitle": "I Would Find You",
+        "selectedTrackYtId": pathToYtVideo + "BS0uwItV9Wc",
+        "spotifyId": pathToSpotifyAlbum + "35GpNAlZhihN2jUm7WL7uH",
+        "isAGem": false
+    },
+    {
         "id": "jupiter_sunset_jupiter_sunset",
         "title": "Jupiter Sunset",
         "artist": "Jupiter Sunset",
@@ -4778,6 +4817,32 @@ const albums = [
         "selectedTrackTitle": "Maggio",
         "selectedTrackYtId": pathToYtVideo + "545vO52c6L4",
         "spotifyId": pathToSpotifyAlbum + "5z7CzpuMKLitcaImOHLlse",
+        "isAGem": false
+    },
+    {
+        "id": "le_orme_smogmagica",
+        "title": "Smogmagica",
+        "artist": "Le Orme",
+        "year": 1975,
+        "country": regions.ITALY,
+        "cover": pathToCovers + "/le_orme_smogmagica.jpg",
+        "criteria": [criteria.ITALIAN_SUNG, criteria.ROCK, criteria.SOFT],
+        "selectedTrackTitle": "Los Angeles",
+        "selectedTrackYtId": pathToYtVideo + "qJbcammNuxk",
+        "spotifyId": pathToSpotifyAlbum + "7vDdyzWZYngIZY2vV3yZ3A",
+        "isAGem": false
+    },
+    {
+        "id": "le_orme_verita_nascoste",
+        "title": "Verità Nascoste",
+        "artist": "Le Orme",
+        "year": 1976,
+        "country": regions.ITALY,
+        "cover": pathToCovers + "/le_orme_verita_nascoste.jpg",
+        "criteria": [criteria.ITALIAN_SUNG, criteria.BAROQUE, criteria.C_ELECTRO],
+        "selectedTrackTitle": "I Salmoni",
+        "selectedTrackYtId": pathToYtVideo + "tNJMjTrsJo4",
+        "spotifyId": pathToSpotifyAlbum + "7fy1FcHHNysfY7wRSp2vIi",
         "isAGem": false
     },
     {
