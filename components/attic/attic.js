@@ -510,50 +510,53 @@ Vue.component('attic', {
                     "radioFamily": "humbleSpectacular"
                 },
             ],
-            // Miscellaneous
+            // Arrangement
             [
                 {
-                    "criterium": this.db.criteria.FUNNY,
-                    "panel": "Miscellaneous",
-                    "string": "Funny",
-                    "checked": false,
-                    "isRadio": false,
-                },
-                {
-                    "criterium": this.db.criteria.TOUCHING_VOCALS,
-                    "panel": "Miscellaneous",
-                    "string": "Touching vocals",
-                    "checked": false,
-                    "isRadio": false,
-                },
-                {
                     "criterium": this.db.criteria.UNCOMMON_INSTRUMENTS,
-                    "panel": "Miscellaneous",
+                    "panel": "Arrangement",
                     "string": "Uncommon instruments",
                     "checked": false,
                     "isRadio": false,
                 },
                 {
                     "criterium": this.db.criteria.SOUND_COLLAGES,
-                    "panel": "Miscellaneous",
+                    "panel": "Arrangement",
                     "string": "Uses sound collages",
                     "checked": false,
                     "isRadio": false,
                 },
                 {
                     "criterium": this.db.criteria.ORCHESTRAL_PARTS,
-                    "panel": "Miscellaneous",
+                    "panel": "Arrangement",
                     "string": "Orchestral parts",
                     "checked": false,
                     "isRadio": false,
                 },
                 {
                     "criterium": this.db.criteria.BAROQUE,
-                    "panel": "Miscellaneous",
+                    "panel": "Arrangement",
                     "string": "Baroque vibes",
                     "checked": false,
                     "isRadio": false,
+                }
+            ],
+            // Temper
+            [
+                {
+                    "criterium": this.db.criteria.FUNNY,
+                    "panel": "Temper",
+                    "string": "Funny",
+                    "checked": false,
+                    "isRadio": false,
                 },
+                {
+                    "criterium": this.db.criteria.TOUCHING_VOCALS,
+                    "panel": "Temper",
+                    "string": "Touching vocals",
+                    "checked": false,
+                    "isRadio": false,
+                }
             ]
         ];
 
@@ -565,7 +568,7 @@ Vue.component('attic', {
     },
     computed: {
         navItems() {
-            return ["Type", "Language", "Theme", "Main genre", "Contains elements of", "Style", "Album structuration", "Era sound", "Loudness", "Miscellaneous"]
+            return ["Type", "Language", "Theme", "Main genre", "Contains elements of", "Style", "Album structuration", "Era sound", "Loudness", "Arrangement", "Temper"]
         },
         albumWrapperSize() {
             const nbOfAlbumsPerRow = 8;
