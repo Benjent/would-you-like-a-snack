@@ -7,6 +7,7 @@ const criteria = {
     
     // Language
     FRENCH_SUNG: "French sung",
+    GERMAN_SUNG: "German sung",
     ITALIAN_SUNG: "Italian sung",
     SPANISH_SUNG: "Spanish sung",
     SWEDISH_SUNG: "Swedish sung",
@@ -88,6 +89,7 @@ const criteriaOrder = [
     
     // Language
     criteria.FRENCH_SUNG,
+    criteria.GERMAN_SUNG,
     criteria.ITALIAN_SUNG,
     criteria.SPANISH_SUNG,
     criteria.SWEDISH_SUNG,
