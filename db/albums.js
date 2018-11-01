@@ -286,7 +286,7 @@ const albums = [
         "year": 1970,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/andrew_lloyd_webber_and_tim_rice_jesus_christ_superstar.jpg",
-        "criteria": [criteria.ROCK_OPERA, criteria.FANFARE, criteria.ORCHESTRAL_PARTS, criteria.TRANSITION, criteria.CONCEPT, criteria.SOUNDTRACK, criteria.SPIRITUAL],
+        "criteria": [criteria.ROCK_OPERA, criteria.FANFARE, criteria.ORCHESTRAL_PARTS, criteria.TRANSITION, criteria.STORYLINE, criteria.SOUNDTRACK, criteria.SPIRITUAL],
         "selectedTrackTitle": "Gethsemane",
         "selectedTrackYtId": pathToYtVideo + "Azawb907Bjg",
         "spotifyId": pathToSpotifyAlbum + "4nntZWXeeFVGgdcbAPcKg1",
@@ -3929,6 +3929,45 @@ const albums = [
         "spotifyId": "",
         "isAGem": false
     },
+    {
+        "id": "klaatu_3_47_est",
+        "title": "3:47 EST",
+        "artist": "Klaatu",
+        "year": 1976,
+        "country": regions.CANADA,
+        "cover": pathToCovers + "/klaatu_3_47_est.jpg",
+        "criteria": [criteria.SYMPHONIC, criteria.C_ELECTRO, criteria.SOUND_COLLAGES, criteria.ART_POP, criteria.ROCK_OPERA, criteria.UNCOMMON_INSTRUMENTS, criteria.FANFARE, criteria.BAROQUE],
+        "selectedTrackTitle": "Little Neutrino",
+        "selectedTrackYtId": pathToYtVideo + "yk0Is8-gGSQ",
+        "spotifyId": pathToSpotifyAlbum + "58UcN7f8fECrlCmmLgbDAT",
+        "isAGem": false
+    },
+    {
+        "id": "klaatu_hope",
+        "title": "Hope",
+        "artist": "Klaatu",
+        "year": 1977,
+        "country": regions.CANADA,
+        "cover": pathToCovers + "/klaatu_hope.jpg",
+        "criteria": [criteria.SYMPHONIC, criteria.ORCHESTRAL_PARTS, criteria.ART_POP, criteria.ROCK_OPERA, criteria.BAROQUE],
+        "selectedTrackTitle": "Around The Universe In Eighty Days",
+        "selectedTrackYtId": pathToYtVideo + "3-_PQZfRL_o",
+        "spotifyId": pathToSpotifyAlbum + "6LEiIksxaQiQ6uHLKtOKQK",
+        "isAGem": false
+    },
+    {
+        "id": "klaatu_sir_army_suit",
+        "title": "Sir Army Suit",
+        "artist": "Klaatu",
+        "year": 1978,
+        "country": regions.CANADA,
+        "cover": pathToCovers + "/klaatu_sir_army_suit.jpg",
+        "criteria": [criteria.ART_POP, criteria.HEAVY, criteria.BAROQUE, criteria.SOFT_SEVENTIES, criteria.ELECTRO],
+        "selectedTrackTitle": "Perpetual Motion Machine",
+        "selectedTrackYtId": pathToYtVideo + "zFQ6UySenbU",
+        "spotifyId": pathToSpotifyAlbum + "3ion6KUuAZ8j6Hi53fphDY",
+        "isAGem": false
+    },
     // ************************************************************************************ //
     // **************************************** L **************************************** //
     // ********************************************************************************** //
@@ -4647,6 +4686,32 @@ const albums = [
         "isAGem": false
     },
     {
+        "id": "neil_young_harvest",
+        "title": "Harvest",
+        "artist": "Neil Young",
+        "year": 1972,
+        "country": regions.CANADA,
+        "cover": pathToCovers + "/neil_young_harvest.jpeg",
+        "criteria": [criteria.ROCK, criteria.C_FOLK, criteria.ODD_RHYTHM, criteria.ORCHESTRAL_PARTS, criteria.TOUCHING_VOCALS],
+        "selectedTrackTitle": "There's A World",
+        "selectedTrackYtId": pathToYtVideo + "mVHQSvcSa6o",
+        "spotifyId": pathToSpotifyAlbum + "1pHo7X82cTObgZll65R1rW",
+        "isAGem": true
+    },
+    {
+        "id": "neil_young_on_the_beach",
+        "title": "On The Beach",
+        "artist": "Neil Young",
+        "year": 1974,
+        "country": regions.CANADA,
+        "cover": pathToCovers + "/neil_young_on_the_beach.jpg",
+        "criteria": [criteria.ROCK, criteria.C_FOLK, criteria.TOUCHING_VOCALS],
+        "selectedTrackTitle": "On The Beach",
+        "selectedTrackYtId": pathToYtVideo + "CKgj1FNToWY",
+        "spotifyId": pathToSpotifyAlbum + "4uXg1lAzlcr1CJWLwekgaM",
+        "isAGem": false
+    },
+    {
         "id": "nektar_journey_to_the_centre_of_the_eye",
         "title": "Journey To The Centre Of The Eye",
         "artist": "Nektar",
@@ -4843,6 +4908,45 @@ const albums = [
         "selectedTrackTitle": "I Salmoni",
         "selectedTrackYtId": pathToYtVideo + "tNJMjTrsJo4",
         "spotifyId": pathToSpotifyAlbum + "7fy1FcHHNysfY7wRSp2vIi",
+        "isAGem": false
+    },
+    {
+        "id": "le_orme_storia_o_leggenda",
+        "title": "Storia O Leggenda",
+        "artist": "Le Orme",
+        "year": 1977,
+        "country": regions.ITALY,
+        "cover": pathToCovers + "/le_orme_storia_o_leggenda.jpg",
+        "criteria": [criteria.ITALIAN_SUNG, criteria.ODD_RHYTHM, criteria.SYMPHONIC, criteria.C_ELECTRO],
+        "selectedTrackTitle": "Il Musicista",
+        "selectedTrackYtId": pathToYtVideo + "RxRLGvy5100",
+        "spotifyId": pathToSpotifyAlbum + "07u1l1ZqhTJP4Lla3IWTsg",
+        "isAGem": false
+    },
+    {
+        "id": "le_orme_florian",
+        "title": "Florian",
+        "artist": "Le Orme",
+        "year": 1979,
+        "country": regions.ITALY,
+        "cover": pathToCovers + "/le_orme_florian.jpg",
+        "criteria": [criteria.ITALIAN_SUNG, criteria.C_JAZZ, criteria.UNCOMMON_INSTRUMENTS, criteria.SYMPHONIC, criteria.SOPHISTICATED, criteria.BAROQUE, criteria.ODD_RHYTHM, criteria.C_FOLK],
+        "selectedTrackTitle": "El Gran Senser",
+        "selectedTrackYtId": pathToYtVideo + "CJnQhh9mDKk",
+        "spotifyId": pathToSpotifyAlbum + "6WcVcaQBtTXxZ1jhsTnLWy",
+        "isAGem": false
+    },
+    {
+        "id": "le_orme_piccola_rapsodia_dellape",
+        "title": "Piccola Rapsodia Dell'ape",
+        "artist": "Le Orme",
+        "year": 1980,
+        "country": regions.ITALY,
+        "cover": pathToCovers + "/le_orme_piccola_rapsodia_dellape.jpg",
+        "criteria": [criteria.ITALIAN_SUNG, criteria.SOFT, criteria.C_FOLK, criteria.BAROQUE],
+        "selectedTrackTitle": "La Mia Sposa Bianca",
+        "selectedTrackYtId": pathToYtVideo + "CLjVS9qaBFU",
+        "spotifyId": pathToSpotifyAlbum + "0Ovf12VCmKdUDMeFZujUSN",
         "isAGem": false
     },
     {
@@ -5614,6 +5718,19 @@ const albums = [
         "isAGem": false
     },
     {
+        "id": "la_revolution_francaise_la_revolution_francaise",
+        "title": "La Révolution Française",
+        "artist": "La Révolution Française",
+        "year": 1973,
+        "country": regions.FRANCE,
+        "cover": pathToCovers + "/la_revolution_francaise_la_revolution_francaise.jpg",
+        "criteria": [criteria.FRENCH_SUNG, criteria.ODD_RHYTHM, criteria.SPECTACULAR, criteria.ROCK_OPERA, criteria.PATCHWORK, criteria.STORYLINE, criteria.ORCHESTRAL_PARTS, criteria.TRANSITION, criteria.FANFARE],
+        "selectedTrackTitle": "Le Procès De Louis XVI : Réquisitoire / Exécution",
+        "selectedTrackYtId": pathToYtVideo + "o97Xff6ReYw",
+        "spotifyId": pathToSpotifyAlbum + "6K6SzeA8aDcF4eib3uH1A9",
+        "isAGem": false
+    },
+    {
         "id": "robert_connolly_plateau",
         "title": "Plateau",
         "artist": "Robert Connolly",
@@ -6144,6 +6261,19 @@ const albums = [
         "selectedTrackTitle": "It Wasn't For You",
         "selectedTrackYtId": pathToYtVideo + "7QC1hQyn8-0",
         "spotifyId": pathToSpotifyAlbum + "0mlj4Hjj145o9dJIc3dm1w",
+        "isAGem": false
+    },
+    {
+        "id": "tortilla_flat_fur_ein_3_4_stundchen",
+        "title": "Für Ein 3/4 Stündchen",
+        "artist": "Tortilla Flat",
+        "year": 1974,
+        "country": regions.GERMANY,
+        "cover": pathToCovers + "/tortilla_flat_fur_ein_3_4_stundchen.jpg",
+        "criteria": [criteria.INSTRUMENTAL, criteria.C_JAZZ, criteria.JAM, criteria.GERMAN_SUNG, criteria.JAZZY_GROOVY],
+        "selectedTrackTitle": "Rumpelstilzchen",
+        "selectedTrackYtId": pathToYtVideo + "7FCB5Xqd-Y4",
+        "spotifyId": "",
         "isAGem": false
     },
     {
@@ -6792,6 +6922,7 @@ ELO
 ESKATON
 Faust
 Fruupp  
+George Duke
 Gryphon
 Hawkwind
 Iron Claw
@@ -6802,6 +6933,7 @@ Mike Oldfield
 Neu!
 Premiata Forneria Marconi
 Procol Harum
+Ralph Lundsten
 Soft Machine
 Strawbs
 UFO
