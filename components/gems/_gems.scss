@@ -1,5 +1,5 @@
 #gemsVue {
-    display: flex;
+    // display: flex; // Fucks up chrome
     flex-direction: column;
     align-items: center;
     @include vue;
@@ -9,6 +9,7 @@
         border-bottom: solid 1px;
         width: 80%;
         padding: 100px;
+        margin: 0 auto; // Thx chrome
         &:last-of-type {
             border: none;
         }
