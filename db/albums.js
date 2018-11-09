@@ -1120,6 +1120,20 @@ const albums = [
         "description": "TODO"
     },
     {
+        "id": "buckethead_giant_robot",
+        "title": "Giant Robot",
+        "artist": "Buckethead",
+        "year": 1994,
+        "country": regions.USA,
+        "cover": pathToCovers + "/buckethead_giant_robot.jpg",
+        "criteria": [criteria.HEAVY, criteria.STORYLINE, criteria.EXPERIMENTAL, criteria.ORCHESTRAL_PARTS, criteria.ODD_RHYTHM, criteria.BLENDS, criteria.SCI_FI, criteria.FUNNY, criteria.TECHNICAL, criteria.TRANSITION, criteria.PATCHWORK, criteria.SOUND_COLLAGES],
+        "selectedTrackTitle": "Last Train To Bucketheadland",
+        "selectedTrackYtId": pathToYtVideo + "Qv5acpSl9lA",
+        "spotifyId": pathToSpotifyAlbum + "7fczxHO7GneRABGdbji84e",
+        "isAGem": true,
+        "description": "TODO"
+    },
+    {
         "id": "budgie_budgie",
         "title": "Budgie",
         "artist": "Budgie",
@@ -1690,6 +1704,19 @@ const albums = [
         "isAGem": false
     },
     {
+        "id": "cry_freedom_volcano",
+        "title": "Volcano",
+        "artist": "Cry Freedom",
+        "year": 1976,
+        "country": regions.GERMANY,
+        "cover": pathToCovers + "/cry_freedom_volcano.jpg",
+        "criteria": [criteria.C_JAZZ, criteria.JAZZY_GROOVY, criteria.JAM, criteria.ODD_RHYTHM, criteria.INSTRUMENTAL],
+        "selectedTrackTitle": "Volcano",
+        "selectedTrackYtId": pathToYtVideo + "voCMXJ1P1ig",
+        "spotifyId": "",
+        "isAGem": false
+    },
+    {
         "id": "curved_air_air_cut",
         "title": "Air Cut",
         "artist": "Curved Air",
@@ -2022,6 +2049,45 @@ const albums = [
         "isAGem": false
     },
     {
+        "id": "electric_light_orchestra_on_the_third_day",
+        "title": "On The Third Day",
+        "artist": "Electric Light Orchestra",
+        "year": 1973,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/electric_light_orchestra_on_the_third_day.jpg",
+        "criteria": [criteria.TRANSITION, criteria.BAROQUE, criteria.ROCK_OPERA, criteria.ART_POP, criteria.SYMPHONIC, criteria.C_ELECTRO, criteria.ORCHESTRAL_PARTS],
+        "selectedTrackTitle": "New World Rising",
+        "selectedTrackYtId": pathToYtVideo + "vSoL8WdgI_Y",
+        "spotifyId": pathToSpotifyAlbum + "4U3gNrULmJ7m12b6APsvm3",
+        "isAGem": false
+    },
+    {
+        "id": "electric_light_orchestra_face_the_music",
+        "title": "Face The Music",
+        "artist": "Electric Light Orchestra",
+        "year": 1975,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/electric_light_orchestra_face_the_music.jpg",
+        "criteria": [criteria.SOUND_COLLAGES, criteria.ORCHESTRAL_PARTS, criteria.ART_POP, criteria.BAROQUE, criteria.C_ELECTRO],
+        "selectedTrackTitle": "Fire On High",
+        "selectedTrackYtId": pathToYtVideo + "Yt6o03K_y54",
+        "spotifyId": pathToSpotifyAlbum + "7BU9d77tqAw7W26V6waEpt",
+        "isAGem": false
+    },
+    {
+        "id": "electric_light_orchestra_a_new_world_record",
+        "title": "A New World Record",
+        "artist": "Electric Light Orchestra",
+        "year": 1976,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/electric_light_orchestra_a_new_world_record.jpg",
+        "criteria": [criteria.ORCHESTRAL_PARTS, criteria.ART_POP, criteria.TRANSITION, criteria.ROCK_OPERA, criteria.BAROQUE],
+        "selectedTrackTitle": "Livin' Thing",
+        "selectedTrackYtId": pathToYtVideo + "lvBOZCrJsAI",
+        "spotifyId": pathToSpotifyAlbum + "7a35UzxXYuKQGMGImyB0Un",
+        "isAGem": false
+    },
+    {
         "id": "electric_light_orchestra_out_of_the_blue",
         "title": "Out Of The Blue",
         "artist": "Electric Light Orchestra",
@@ -2032,6 +2098,19 @@ const albums = [
         "selectedTrackTitle": "Mr. Blue Sky",
         "selectedTrackYtId": pathToYtVideo + "aQUlA8Hcv4s",
         "spotifyId": pathToSpotifyAlbum + "3usnShwygMXVZB4IV5dwnU",
+        "isAGem": false
+    },
+    {
+        "id": "electric_light_orchestra_discovery",
+        "title": "Discovery",
+        "artist": "Electric Light Orchestra",
+        "year": 1979,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/electric_light_orchestra_discovery.jpg",
+        "criteria": [criteria.FANFARE, criteria.C_ELECTRO, criteria.ART_POP, criteria.ROCK_OPERA],
+        "selectedTrackTitle": "The Diary Of Horace Wimp",
+        "selectedTrackYtId": pathToYtVideo + "PFU9HYyMVxQ",
+        "spotifyId": pathToSpotifyAlbum + "2SlLJQ2VAa1thmcRiVuXrb",
         "isAGem": false
     },
     {
@@ -2177,6 +2256,32 @@ const albums = [
         "selectedTrackTitle": "End Of An Odyssey",
         "selectedTrackYtId": pathToYtVideo + "MCr4WoovspA",
         "spotifyId": pathToSpotifyAlbum + "24xpef77qNidD1GoWXBHLf",
+        "isAGem": false
+    },
+    {
+        "id": "elton_john_empty_sky",
+        "title": "Empty Sky",
+        "artist": "Elton John",
+        "year": 1969,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/elton_john_empty_sky.jpg",
+        "criteria": [criteria.ART_POP, criteria.BAROQUE, criteria.TOUCHING_VOCALS],
+        "selectedTrackTitle": "Sails",
+        "selectedTrackYtId": pathToYtVideo + "2F4iV_GuiXw",
+        "spotifyId": pathToSpotifyAlbum + "2AWW5zXJBwLeroqj9D5oWV",
+        "isAGem": false
+    },
+    {
+        "id": "elton_john_elton_john",
+        "title": "Elton John",
+        "artist": "Elton John",
+        "year": 1970,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/elton_john_elton_john.jpg",
+        "criteria": [criteria.ART_POP, criteria.BAROQUE, criteria.TOUCHING_VOCALS, criteria.ORCHESTRAL_PARTS],
+        "selectedTrackTitle": "The King Must Die",
+        "selectedTrackYtId": pathToYtVideo + "9OHa8pAXJBs",
+        "spotifyId": pathToSpotifyAlbum + "7dtLYwLOdYQa2S8Vjeuxci",
         "isAGem": false
     },
     {
@@ -3966,6 +4071,32 @@ const albums = [
         "selectedTrackTitle": "Perpetual Motion Machine",
         "selectedTrackYtId": pathToYtVideo + "zFQ6UySenbU",
         "spotifyId": pathToSpotifyAlbum + "3ion6KUuAZ8j6Hi53fphDY",
+        "isAGem": false
+    },
+    {
+        "id": "klaatu_endangered_species",
+        "title": "Endangered Species",
+        "artist": "Klaatu",
+        "year": 1980,
+        "country": regions.CANADA,
+        "cover": pathToCovers + "/klaatu_endangered_species.jpg",
+        "criteria": [criteria.ROCK],
+        "selectedTrackTitle": "All Good Things",
+        "selectedTrackYtId": pathToYtVideo + "bNFCKfyOKcc",
+        "spotifyId": pathToSpotifyAlbum + "0e8o4qrveZYeoFDQc9ygoL",
+        "isAGem": false
+    },
+    {
+        "id": "klaatu_magentalane",
+        "title": "Magentalane",
+        "artist": "Klaatu",
+        "year": 1981,
+        "country": regions.CANADA,
+        "cover": pathToCovers + "/klaatu_magentalane.jpg",
+        "criteria": [criteria.ART_POP, criteria.C_ELECTRO, criteria.BAROQUE],
+        "selectedTrackTitle": "todo",
+        "selectedTrackYtId": pathToYtVideo + "todo",
+        "spotifyId": pathToSpotifyAlbum + "67voFne6CSj4rpdeFbgmbu",
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -6840,6 +6971,19 @@ const albums = [
         "criteria": [criteria.INSTRUMENTAL, criteria.LENGTHY_TRACKS, criteria.SOFT, criteria.AMBIENT, criteria.ELECTRO],
         "selectedTrackTitle": "Lost Message",
         "selectedTrackYtId": pathToYtVideo + "sYzgqOIkVS8",
+        "spotifyId": "",
+        "isAGem": false
+    },
+    {
+        "id": "zomby_woof_riding_on_a_tear",
+        "title": "Riding On A Tear",
+        "artist": "Zomby Woof",
+        "year": 1977,
+        "country": regions.GERMANY,
+        "cover": pathToCovers + "/zomby_woof_riding_on_a_tear.jpg",
+        "criteria": [criteria.SYMPHONIC, criteria.GLITTER, criteria.SPECTACULAR, criteria.TRANSITION, criteria.C_ELECTRO, criteria.JAZZY_GROOVY],
+        "selectedTrackTitle": "Dora's Drive",
+        "selectedTrackYtId": pathToYtVideo + "3EX1EpVA3_I",
         "spotifyId": "",
         "isAGem": false
     },
