@@ -286,7 +286,7 @@ const albums = [
         "year": 1970,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/andrew_lloyd_webber_and_tim_rice_jesus_christ_superstar.jpg",
-        "criteria": [criteria.ROCK_OPERA, criteria.FANFARE, criteria.ORCHESTRAL_PARTS, criteria.TRANSITION, criteria.STORYLINE, criteria.SOUNDTRACK, criteria.SPIRITUAL],
+        "criteria": [criteria.ROCK_OPERA, criteria.FANFARE, criteria.ORCHESTRAL_PARTS, criteria.TRANSITION, criteria.STORYLINE, criteria.SOUNDTRACK, criteria.SPIRITUAL, criteria.ODD_RHYTHM],
         "selectedTrackTitle": "Gethsemane",
         "selectedTrackYtId": pathToYtVideo + "Azawb907Bjg",
         "spotifyId": pathToSpotifyAlbum + "4nntZWXeeFVGgdcbAPcKg1",
@@ -657,6 +657,20 @@ const albums = [
         "selectedTrackYtId": pathToYtVideo + "BgEINKJeztQ",
         "spotifyId": "",
         "isAGem": false
+    },
+    {
+        "id": "automat_automat",
+        "title": "Automat",
+        "artist": "Automat",
+        "year": 1978,
+        "country": regions.ITALY,
+        "cover": pathToCovers + "/automat_automat.jpg",
+        "criteria": [criteria.ELECTRO, criteria.SYMPHONIC, criteria.SCI_FI, criteria.INSTRUMENTAL, criteria.TRANSITION],
+        "selectedTrackTitle": "Automat II: (The) Advance",
+        "selectedTrackYtId": pathToYtVideo + "OlvnpFzqcxs",
+        "spotifyId": "",
+        "isAGem": true,
+        "description": "TODO"
     },
     {
         "id": "axis_axis",
@@ -1600,6 +1614,33 @@ const albums = [
         "isAGem": false
     },
     {
+        "id": "circus_circus",
+        "title": "Circus",
+        "artist": "Circus",
+        "year": 1976,
+        "country": regions.SWITZERLAND,
+        "cover": pathToCovers + "/circus_circus.jpg",
+        "criteria": [criteria.LENGTHY_TRACKS, criteria.SOFT, criteria.C_JAZZ, criteria.SOPHISTICATED, criteria.UNCOMMON_INSTRUMENTS],
+        "selectedTrackTitle": "todo",
+        "selectedTrackYtId": pathToYtVideo + "todo",
+        "spotifyId": "",
+        "isAGem": false
+    },
+    {
+        "id": "circus_movin_on",
+        "title": "Movin' On",
+        "artist": "Circus",
+        "year": 1977,
+        "country": regions.SWITZERLAND,
+        "cover": pathToCovers + "/circus_movin_on.jpg",
+        "criteria": [criteria.LENGTHY_TRACKS, criteria.SOFT, criteria.C_JAZZ, criteria.JAZZY_GROOVY, criteria.SOPHISTICATED, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC],
+        "selectedTrackTitle": "Movin' On",
+        "selectedTrackYtId": pathToYtVideo + "pQ3rUM4gIN4",
+        "spotifyId": "",
+        "isAGem": true,
+        "description": "TODO"
+    },
+    {
         "id": "coma_financial_tycoon",
         "title": "Financial Tycoon",
         "artist": "Coma",
@@ -2285,6 +2326,19 @@ const albums = [
         "isAGem": false
     },
     {
+        "id": "elton_john_tumbleweed_connection",
+        "title": "Tumbleweed Connection",
+        "artist": "Elton John",
+        "year": 1970,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/elton_john_tumbleweed_connection.jpg",
+        "criteria": [criteria.ART_POP],
+        "selectedTrackTitle": "Love Song",
+        "selectedTrackYtId": pathToYtVideo + "8Ri96HlRCKI",
+        "spotifyId": pathToSpotifyAlbum + "03zfU3IwWmymKoaWnwFNaY",
+        "isAGem": false
+    },
+    {
         "id": "emerson_lake_and_palmer_emerson_lake_and_palmer",
         "title": "Emerson, Lake & Palmer",
         "artist": "Emerson, Lake & Palmer",
@@ -2378,6 +2432,19 @@ const albums = [
     // ************************************************************************************ //
     // **************************************** F **************************************** //
     // ********************************************************************************** //
+    {
+        "id": "fantasy_paint_a_picture",
+        "title": "Paint A Picture",
+        "artist": "Fantasy",
+        "year": 1973,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/fantasy_paint_a_picture.jpg",
+        "criteria": [criteria.C_FOLK, criteria.BAROQUE, criteria.ART_POP, criteria.FANTASY],
+        "selectedTrackTitle": "Gnome Song",
+        "selectedTrackYtId": pathToYtVideo + "601zRoKuHUg",
+        "spotifyId": "",
+        "isAGem": false
+    },
     {
         "id": "faust_faust",
         "title": "Faust",
@@ -2780,10 +2847,23 @@ const albums = [
         "year": 1988,
         "country": regions.USA,
         "cover": pathToCovers + "/frank_zappa_broadway_the_hard_way.jpg",
-        "criteria": [12, criteria.BLENDS, criteria.FUNNY, criteria.FANFARE, criteria.NEO_EIGHTIES],
+        "criteria": [criteria.LIVE, criteria.BLENDS, criteria.FUNNY, criteria.FANFARE, criteria.NEO_EIGHTIES],
         "selectedTrackTitle": "Why Don't You Like Me",
         "selectedTrackYtId": pathToYtVideo + "emEOePwK0ok",
         "spotifyId": pathToSpotifyAlbum + "2phI9hXkfvn8DeBiqbZu4I",
+        "isAGem": false
+    },
+    {
+        "id": "french_lick_glider",
+        "title": "Glider",
+        "artist": "French Lick",
+        "year": 1978,
+        "country": regions.FRANCE,
+        "cover": pathToCovers + "/french_lick_glider.jpg",
+        "criteria": [criteria.C_ELECTRO, criteria.HUMBLE, criteria.C_PSYCHEDELIC, criteria.JAZZY_GROOVY, criteria.SOUND_COLLAGES],
+        "selectedTrackTitle": "Glider",
+        "selectedTrackYtId": pathToYtVideo + "c8DF-Xhg3JQ",
+        "spotifyId": "",
         "isAGem": false
     },
     {
@@ -3652,6 +3732,19 @@ const albums = [
         "isAGem": false
     },
     {
+        "id": "jefferson_airplane_after_bathing_at_baxters",
+        "title": "After Bathing At Baxter's",
+        "artist": "Jefferson Airplane",
+        "year": 1967,
+        "country": regions.USA,
+        "cover": pathToCovers + "/jefferson_airplane_after_bathing_at_baxters.jpg",
+        "criteria": [criteria.ROCK, criteria.C_PSYCHEDELIC, criteria.C_FOLK, criteria.CRISPY_SIXTIES, criteria.TRANSITION, criteria.ODD_RHYTHM],
+        "selectedTrackTitle": "The Ballad Of You & Me & Pooneil",
+        "selectedTrackYtId": pathToYtVideo + "d1RgUO5E9fw",
+        "spotifyId": pathToSpotifyAlbum + "4YYeywv0sLkLAGbJuKJIdi",
+        "isAGem": false
+    },
+    {
         "id": "jefferson_airplane_crown_of_creation",
         "title": "Crown Of Creation",
         "artist": "Jefferson Airplane",
@@ -3662,6 +3755,19 @@ const albums = [
         "selectedTrackTitle": "Lather",
         "selectedTrackYtId": pathToYtVideo + "e0-9WF4FF8QrQE",
         "spotifyId": pathToSpotifyAlbum + "2xVKQMP0eudZlSnJwVhhPu",
+        "isAGem": false
+    },
+    {
+        "id": "jefferson_airplane_volunteers",
+        "title": "Volunteers",
+        "artist": "Jefferson Airplane",
+        "year": 1969,
+        "country": regions.USA,
+        "cover": pathToCovers + "/jefferson_airplane_volunteers.jpg",
+        "criteria": [criteria.ART_POP, criteria.CRISPY_SIXTIES, criteria.JAM],
+        "selectedTrackTitle": "Hey Frederick",
+        "selectedTrackYtId": pathToYtVideo + "w25xghugIdg",
+        "spotifyId": pathToSpotifyAlbum + "5SxBU3zQaLOq5eapsG3jFQ",
         "isAGem": false
     },
     {
@@ -4827,7 +4933,8 @@ const albums = [
         "selectedTrackTitle": "There's A World",
         "selectedTrackYtId": pathToYtVideo + "mVHQSvcSa6o",
         "spotifyId": pathToSpotifyAlbum + "1pHo7X82cTObgZll65R1rW",
-        "isAGem": true
+        "isAGem": true,
+        "description": "TODO"
     },
     {
         "id": "neil_young_on_the_beach",
@@ -6945,9 +7052,48 @@ const albums = [
         "spotifyId": pathToSpotifyAlbum + "2U4JHXMiBxsKH4dnYEQg2g",
         "isAGem": false
     },
+    {
+        "id": "yezda_urfa_boris",
+        "title": "Boris",
+        "artist": "Yezda Urfa",
+        "year": 1975,
+        "country": regions.USA,
+        "cover": pathToCovers + "/yezda_urfa_boris.jpg",
+        "criteria": [criteria.FUNNY, criteria.LENGTHY_TRACKS, criteria.ODD_RHYTHM, criteria.SYMPHONIC, criteria.TECHNICAL, criteria.SPECTACULAR, criteria.SOPHISTICATED, criteria.C_JAZZ, criteria.C_ELECTRO],
+        "selectedTrackTitle": "The Basis Of Dubenglazy While Dirk Does The Dance",
+        "selectedTrackYtId": pathToYtVideo + "XKK8kdDVMag",
+        "spotifyId": "",
+        "isAGem": false
+    },
+    {
+        "id": "yezda_urfa_sacred_baboon",
+        "title": "Sacred Baboon",
+        "artist": "Yezda Urfa",
+        "year": 1989,
+        "country": regions.USA,
+        "cover": pathToCovers + "/yezda_urfa_sacred_baboon.jpg",
+        "criteria": [criteria.FUNNY, criteria.ODD_RHYTHM, criteria.SYMPHONIC, criteria.TECHNICAL, criteria.SPECTACULAR, criteria.SOPHISTICATED, criteria.C_JAZZ, criteria.C_ELECTRO],
+        "selectedTrackTitle": "To-Ta In The Moya",
+        "selectedTrackYtId": pathToYtVideo + "E4nOCeMnAjk",
+        "spotifyId": pathToSpotifyAlbum + "4HRPz0VvEfPEhuitH73oSs",
+        "isAGem": false
+    },
     // ************************************************************************************ //
     // **************************************** Z **************************************** //
     // ********************************************************************************** //
+    {
+        "id": "zabu_my_coffins_ready",
+        "title": "My Coffin's Ready",
+        "artist": "Zabu",
+        "year": 1972,
+        "country": regions.FRANCE,
+        "cover": pathToCovers + "/zabu_my_coffins_ready.jpg",
+        "criteria": [criteria.ROCK, criteria.JAM],
+        "selectedTrackTitle": "Silent Angel",
+        "selectedTrackYtId": pathToYtVideo + "2Mc8kReoSGk",
+        "spotifyId": pathToSpotifyAlbum + "0KN0lcNi5VlvApiP1tqQ5T",
+        "isAGem": false
+    },
     {
         "id": "zanov_moebius_256_301",
         "title": "Moebius 256 301",
@@ -6981,11 +7127,12 @@ const albums = [
         "year": 1977,
         "country": regions.GERMANY,
         "cover": pathToCovers + "/zomby_woof_riding_on_a_tear.jpg",
-        "criteria": [criteria.SYMPHONIC, criteria.GLITTER, criteria.SPECTACULAR, criteria.TRANSITION, criteria.C_ELECTRO, criteria.JAZZY_GROOVY],
+        "criteria": [criteria.SYMPHONIC, criteria.GLITTER, criteria.SPECTACULAR, criteria.TRANSITION, criteria.C_ELECTRO, criteria.JAZZY_GROOVY, criteria.SPACY],
         "selectedTrackTitle": "Dora's Drive",
         "selectedTrackYtId": pathToYtVideo + "3EX1EpVA3_I",
         "spotifyId": "",
-        "isAGem": false
+        "isAGem": true,
+        "description": "TODO"
     },
     {
         "id": "zoo_zoo",
@@ -7082,6 +7229,7 @@ Soft Machine
 Strawbs
 UFO
 The Who
+Willie nelson phases stages
 */
 // TODO parse tout le Prog introuvable et renseigner ici
 // TODO faire un from the same artist
