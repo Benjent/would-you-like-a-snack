@@ -830,7 +830,6 @@ header #menu button.button-active {
 }
 
 #statsVue .content {
-  width: 60%;
   padding-top: 20px;
 }
 
@@ -844,32 +843,75 @@ header #menu button.button-active {
   margin: 20px 0 50px 0;
 }
 
-#statsVue .tables {
+#statsVue .charts {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-#statsVue .tables .gauge-column {
-  width: 400px;
+#statsVue .charts .histogram {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 300px;
+  margin-bottom: 150px;
 }
 
-#statsVue .tables .albumsPerCategory .albumsPerCategory-nbOfAlbums {
+#statsVue .charts .albumsPerCategory {
+  height: 100%;
+}
+
+#statsVue .charts .albumsPerCategory .albumsPerCategory-nbOfAlbums {
   padding: 5px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
-#statsVue .tables .albumsPerCategory .albumsPerCategory-nbOfAlbums .gauge {
+#statsVue .charts .albumsPerCategory .albumsPerCategory-nbOfAlbums .gauge {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: 0px 6px;
-  min-width: 7%;
+  min-height: 30px;
+  width: 25px;
   background: #a18a54;
   color: #030504;
+}
+
+#statsVue .charts .albumsPerCategory .albumsPerCategory-legend {
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+  -webkit-writing-mode: sideways-lr;
+      -ms-writing-mode: sideways-lr;
+          writing-mode: sideways-lr;
+  position: relative;
+  margin-top: 20px;
 }
 
 #aboutVue {
@@ -985,6 +1027,18 @@ body {
     min-height: 14.28571%;
     width: 14.28571%;
     font-size: 12px;
+  }
+  #statsVue .charts .histogram {
+    font-size: 12px;
+  }
+  #statsVue .charts .albumsPerCategory .albumsPerCategory-nbOfAlbums .gauge {
+    padding: 0px 3px;
+    min-height: 10px;
+    width: 15px;
+    text-align: center;
+  }
+  #statsVue .charts .albumsPerCategory .albumsPerCategory-legend {
+    margin-top: 8px;
   }
 }
 
