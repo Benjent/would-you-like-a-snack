@@ -459,7 +459,7 @@ header #menu button.button-active {
 }
 
 #albumVue .content .album-metadata .youtube-logo {
-  width: 150px;
+  width: 100px;
   margin-top: 10px;
 }
 
@@ -592,6 +592,9 @@ header #menu button.button-active {
 
 #atticVue #filter .filter-panel #resetFilterButton {
   width: 100%;
+  padding: 5px 10px;
+  border: solid 2px #a18a54;
+  font-size: 20px;
 }
 
 #atticVue #filter .filter-panel .checkbox-wrapper {
