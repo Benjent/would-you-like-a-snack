@@ -5309,6 +5309,19 @@ const albums = [
         "isAGem": false
     },
     {
+        "id": "pierre_henry_urban_sax_paradise_lost",
+        "title": "Paradise Lost",
+        "artist": "Pierre Henry & Urban Sax",
+        "year": 1982,
+        "country": regions.FRANCE,
+        "cover": pathToCovers + "/pierre_henry_urban_sax_paradise_lost.jpg",
+        "criteria": [criteria.ELECTRO, criteria.INSTRUMENTAL, criteria.SPACY, criteria.C_PSYCHEDELIC, criteria.EXPERIMENTAL],
+        "selectedTrackTitle": "todo",
+        "selectedTrackYtId": pathToYtVideo + "todo",
+        "spotifyId": "",
+        "isAGem": false
+    },
+    {
         "id": "pink_floyd_the_piper_at_the_gates_of_dawn",
         "title": "The Piper At The Gates Of Dawn",
         "artist": "Pink Floyd",
@@ -6355,6 +6368,19 @@ const albums = [
         "isAGem": false
     },
     {
+        "id": "sway_human_carnage",
+        "title": "Human Carnage",
+        "artist": "Sway",
+        "year": 1979,
+        "country": regions.BELGIUM,
+        "cover": pathToCovers + "/sway_human_carnage.jpg",
+        "criteria": [criteria.HUMBLE, criteria.TRANSITION, criteria.C_PSYCHEDELIC, criteria.FUNNY, criteria.C_FOLK],
+        "selectedTrackTitle": "Why",
+        "selectedTrackYtId": pathToYtVideo + "veqv9LfOsj0",
+        "spotifyId": "",
+        "isAGem": false
+    },
+    {
         "id": "sweet_smoke_just_a_poke",
         "title": "Just A Poke",
         "artist": "Sweet Smoke",
@@ -6397,6 +6423,46 @@ const albums = [
     // ************************************************************************************ //
     // **************************************** T **************************************** //
     // ********************************************************************************** //
+    {
+        "id": "tai_phong_tai_phong",
+        "title": "Taï Phong",
+        "artist": "Taï Phong",
+        "year": 1975,
+        "country": regions.FRANCE,
+        "cover": pathToCovers + "/tai_phong_tai_phong.jpg",
+        "criteria": [criteria.GLITTER, criteria.SYMPHONIC],
+        "selectedTrackTitle": "Fields Of Gold",
+        "selectedTrackYtId": pathToYtVideo + "todo",
+        "spotifyId": pathToSpotifyAlbum + "3Z8DubxAWENlQd3pxJOKZE",
+        "isAGem": false
+    },
+    {
+        "id": "tai_phong_windows",
+        "title": "Windows",
+        "artist": "Taï Phong",
+        "year": 1976,
+        "country": regions.FRANCE,
+        "cover": pathToCovers + "/tai_phong_windows.jpg",
+        "criteria": [criteria.GLITTER, criteria.SYMPHONIC, criteria.JAZZY_GROOVY],
+        "selectedTrackTitle": "When It's The Season",
+        "selectedTrackYtId": pathToYtVideo + "todo",
+        "spotifyId": pathToSpotifyAlbum + "3pN57NmhgB98rHwk8b0VJr",
+        "isAGem": true,
+        "description": "todo"
+    },
+    {
+        "id": "tai_phong_last_flight",
+        "title": "Last Flight",
+        "artist": "Taï Phong",
+        "year": 1979,
+        "country": regions.FRANCE,
+        "cover": pathToCovers + "/tai_phong_last_flight.jpg",
+        "criteria": [criteria.GLITTER, criteria.SYMPHONIC, criteria.JAZZY_GROOVY, criteria.JAM, criteria.C_JAZZ, criteria.SOFT_SEVENTIES, criteria.ART_POP],
+        "selectedTrackTitle": "todo",
+        "selectedTrackYtId": pathToYtVideo + "todo",
+        "spotifyId": pathToSpotifyAlbum + "5GsJLsUq8x3DklXymqiDub",
+        "isAGem": false
+    },
     {
         "id": "tangerine_dream_phaedra",
         "title": "Phaedra",
@@ -6850,6 +6916,19 @@ const albums = [
         "isAGem": false
     },
     {
+        "id": "welcome_welcome",
+        "title": "Welcome",
+        "artist": "Welcome",
+        "year": 1976,
+        "country": regions.SWITZERLAND,
+        "cover": pathToCovers + "/welcome_welcome.jpg",
+        "criteria": [criteria.SYMPHONIC, criteria.GLITTER, criteria.JAZZY_GROOVY],
+        "selectedTrackTitle": "Chain Of Days",
+        "selectedTrackYtId": pathToYtVideo + "41Wa9Nbketo",
+        "spotifyId": "",
+        "isAGem": false
+    },
+    {
         "id": "white_wing_white_wing",
         "title": "White Wing",
         "artist": "White Wing",
@@ -6861,6 +6940,19 @@ const albums = [
         "selectedTrackYtId": pathToYtVideo + "tl6ARn_xyWA",
         "spotifyId": "",
         "isAGem": false
+    },
+    {
+        "id": "willie_nelson_phases_and_stages",
+        "title": "Phases And Stages",
+        "artist": "Willie Nelson",
+        "year": 1974,
+        "country": regions.USA,
+        "cover": pathToCovers + "/willie_nelson_phases_and_stages.jpg",
+        "criteria": [criteria.FOLK, criteria.SOFT, criteria.CONCEPT, criteria.HUMBLE],
+        "selectedTrackTitle": "Phases And Stages (Theme) / Walkin'",
+        "selectedTrackYtId": pathToYtVideo + "mET2R6XUBEo",
+        "spotifyId": pathToSpotifyAlbum + "2UUGvJBpRoOQFwDLtq8KCP",
+        "isAGem": false,
     },
     {
         "id": "windchase_symphinity",
@@ -6947,6 +7039,19 @@ const albums = [
     // ************************************************************************************ //
     // **************************************** Y **************************************** //
     // ********************************************************************************** //
+    {
+        "id": "year_one_year_one",
+        "title": "Year One",
+        "artist": "Year One",
+        "year": 1971,
+        "country": regions.USA,
+        "cover": pathToCovers + "/year_one_year_one.jpg",
+        "criteria": [criteria.ODD_RHYTHM, criteria.C_FOLK],
+        "selectedTrackTitle": "todo",
+        "selectedTrackYtId": pathToYtVideo + "todo",
+        "spotifyId": "",
+        "isAGem": false
+    },
     {
         "id": "yes_yes",
         "title": "Yes",
@@ -7076,7 +7181,8 @@ const albums = [
         "selectedTrackTitle": "To-Ta In The Moya",
         "selectedTrackYtId": pathToYtVideo + "E4nOCeMnAjk",
         "spotifyId": pathToSpotifyAlbum + "4HRPz0VvEfPEhuitH73oSs",
-        "isAGem": false
+        "isAGem": true,
+        "description": "todo"
     },
     // ************************************************************************************ //
     // **************************************** Z **************************************** //
@@ -7203,6 +7309,7 @@ function getAlbumById(id) {
 
 // Below is the list of prog artists that I listened and should be part of this project
 // TODO fill some discographies of artists that are already here
+// TODO reset filter
 /*  
 The allman brothers band sur l'album Win, Lose or Draw a High Falls
 Banco Del Mutuo Soccorso
@@ -7229,7 +7336,6 @@ Soft Machine
 Strawbs
 UFO
 The Who
-Willie nelson phases stages
 */
 // TODO parse tout le Prog introuvable et renseigner ici
 // TODO faire un from the same artist

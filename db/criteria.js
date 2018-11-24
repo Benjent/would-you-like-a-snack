@@ -47,7 +47,7 @@ const criteria = {
     ROCK_OPERA: "Rock opera",
     FANFARE: "Fanfare",
     SPACY: "Spacy",
-    GLITTER: "Star-symphonic",
+    GLITTER: "Glittering",
 
     // Album structure
     LENGTHY_TRACKS: "Lengthy tracks",
