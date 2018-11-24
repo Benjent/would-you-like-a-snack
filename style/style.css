@@ -590,6 +590,10 @@ header #menu button.button-active {
           box-sizing: border-box;
 }
 
+#atticVue #filter .filter-panel #resetFilterButton {
+  width: 100%;
+}
+
 #atticVue #filter .filter-panel .checkbox-wrapper {
   margin-bottom: 10px;
 }

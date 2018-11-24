@@ -30,6 +30,14 @@ Vue.component('attic', {
 
             <div id="filter">
 
+                <div class="filter-panel">
+                    <button
+                        id="resetFilterButton"
+                        v-on:click="resetFilter()">
+                        Reset filter
+                    </button>
+                </div>
+
                 <div class="filter-nav-item">
                     Region
                 </div>
@@ -584,7 +592,7 @@ Vue.component('attic', {
         changed() {
             if(document.getElementById("albumList")) {
                 this.albumListWidth = document.getElementById("albumList").clientWidth;
-                console.log(this.albumListWidth)
+                // console.log(this.albumListWidth)
             }
         },
         selectRegion() {
@@ -690,6 +698,24 @@ Vue.component('attic', {
                             elementsToHandleDisplay[j].classList.add("hidden");
                         }
                     }
+                }
+            }
+        },
+        resetFilter: function() {
+            // Reset region
+            this.selectedRegion = "All";
+            // Reset criteria
+            for(let i = 0; i < this.filterModel.length; i++) {
+                for(let j = 0; j < this.filterModel[i].length; j++) {
+                    const filterItem = this.filterModel[i][j];
+                    filterItem.checked = false;
+                }
+            }
+            // Query selector all to get also the overlay which holds the album-id
+            const elementsToDisplay = document.querySelectorAll("[album-id]");
+            for(let i = 0; i < elementsToDisplay.length; i++) {
+                if(elementsToDisplay[i].classList.contains("hidden")) {
+                    elementsToDisplay[i].classList.remove("hidden");
                 }
             }
         }
