@@ -458,6 +458,11 @@ header #menu button.button-active {
   font-style: italic;
 }
 
+#albumVue .content .album-metadata .youtube-logo {
+  width: 150px;
+  margin-top: 10px;
+}
+
 #albumVue .content .album-metadata #player {
   display: block;
   border: solid 3px #a18a54;
