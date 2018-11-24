@@ -40,7 +40,10 @@ Vue.component('album', {
                         v-if="selectedAlbum.selectedTrackYtId"
                         v-bind:href=selectedAlbum.selectedTrackYtId
                         target="_blank">
-                        <div class="album-selected-track-url">Listen on YouTube</div>
+                        <img
+                            class="youtube-logo"
+                            v-bind:src=youTubePath
+                            alt="">
                     </a>
 
                 </div>
@@ -114,6 +117,9 @@ Vue.component('album', {
                 return null
             }
         },
+        youTubePath() {
+            return pathToImg + "/logos/yt_logo_gold.png"
+        }
     },
     methods: {
         randomizeAlbum: function() {

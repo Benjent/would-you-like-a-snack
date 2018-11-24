@@ -54,7 +54,10 @@
             .album-selected-track {
                 font-style: italic;
             }
-
+            .youtube-logo {
+                width: 150px;
+                margin-top: 10px;
+            }
             #player {
                 display: block;
                 border: solid 3px $gold;
