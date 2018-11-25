@@ -45,7 +45,6 @@ Vue.component('attic', {
                 <div class="filter-panel">
                     <div class="select-wrapper">
                         <select
-                            class="test"
                             v-model="selectedRegion"
                             v-on:change="selectRegion()">
                             <option value="All" selected>All</option>
