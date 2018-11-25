@@ -2,6 +2,7 @@
 const artists = [];
 const albumsPerYear = {};
 const albumsPerCountry = {};
+const criteriaOccurences = {};
 let gemsNb = 0;
 
 for (let i = 0; i < albums.length; i++) {
@@ -26,6 +27,16 @@ for (let i = 0; i < albums.length; i++) {
     // Albums per country
     const country = albums[i].country;
     albumsPerCountry[country] ? albumsPerCountry[country]++ : albumsPerCountry[country] = 1;
+
+    // Most used criteria
+    for (let j = 0; j < albums[i].criteria.length; j++) {
+        const criterium = albums[i].criteria[j];
+        if(criteriaOccurences.hasOwnProperty(criterium)) {
+            criteriaOccurences[criterium]++;
+        } else {
+            criteriaOccurences[criterium] = 0;
+        }
+    }
 }
 
 const albumsSortedByYear = albums.slice(0);
@@ -39,6 +50,7 @@ const Db = {
     criteriaOrder: criteriaOrder,
     albumsPerYear: albumsPerYear,
     albumsPerCountry: albumsPerCountry,
+    criteriaOccurences: criteriaOccurences,
     gemsNb: gemsNb,
     albumsSortedByYear: albumsSortedByYear,
     subgenres: subgenres,
