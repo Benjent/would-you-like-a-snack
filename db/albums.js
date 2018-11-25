@@ -1,5 +1,4 @@
 
-// TODO penser à faire une Map ?
 const albums = [
     // ************************************************************************************ //
     // **************************************** A **************************************** //
@@ -1621,8 +1620,8 @@ const albums = [
         "country": regions.SWITZERLAND,
         "cover": pathToCovers + "/circus_circus.jpg",
         "criteria": [criteria.LENGTHY_TRACKS, criteria.SOFT, criteria.C_JAZZ, criteria.SOPHISTICATED, criteria.UNCOMMON_INSTRUMENTS],
-        "selectedTrackTitle": "todo",
-        "selectedTrackYtId": pathToYtVideo + "todo",
+        "selectedTrackTitle": "Room For Sale",
+        "selectedTrackYtId": pathToYtVideo + "I8th6nqa3QY",
         "spotifyId": "",
         "isAGem": false
     },
@@ -1764,7 +1763,7 @@ const albums = [
         "year": 1973,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/curved_air_air_cut.jpg",
-        "criteria": [21],
+        "criteria": [criteria.C_FOLK],
         "selectedTrackTitle": "Metamorphosis",
         "selectedTrackYtId": pathToYtVideo + "uZAImsmFGhk",
         "spotifyId": pathToSpotifyAlbum + "7vnkaleSG6USdg0B8QYOEH",
@@ -2032,8 +2031,8 @@ const albums = [
         "country": regions.USA,
         "cover": pathToCovers + "/easter_island_easter_island.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.HEAVY, criteria.C_JAZZ, criteria.SYMPHONIC],
-        "selectedTrackTitle": "todo",
-        "selectedTrackYtId": pathToYtVideo + "todo",
+        "selectedTrackTitle": "Face To Face",
+        "selectedTrackYtId": pathToYtVideo + "UL50QdzUqMY",
         "spotifyId": "",
         "isAGem": false
     },
@@ -3944,6 +3943,72 @@ const albums = [
     // **************************************** K **************************************** //
     // ********************************************************************************** //
     {
+        "id": "kaipa_kaipa",
+        "title": "Kaipa",
+        "artist": "Kaipa",
+        "year": 1975,
+        "country": regions.SWEDEN,
+        "cover": pathToCovers + "/kaipa_kaipa.jpg",
+        "criteria": [criteria.SWEDISH_SUNG, criteria.SYMPHONIC, criteria.SOFT],
+        "selectedTrackTitle": "Ankaret",
+        "selectedTrackYtId": pathToYtVideo + "BUGsZtn_NlI",
+        "spotifyId": pathToSpotifyAlbum + "14kr4VwmaiVRlX2LBe4dhM",
+        "isAGem": true,
+        "description": "TODO"
+    },
+    {
+        "id": "kaipa_inget_nytt_under_solen",
+        "title": "Inget Nytt Under Solen",
+        "artist": "Kaipa",
+        "year": 1976,
+        "country": regions.SWEDEN,
+        "cover": pathToCovers + "/kaipa_inget_nytt_under_solen.jpg",
+        "criteria": [criteria.SWEDISH_SUNG, criteria.SYMPHONIC, criteria.INSTRUMENTAL, criteria.SPECTACULAR],
+        "selectedTrackTitle": "Skenet Bedrar",
+        "selectedTrackYtId": pathToYtVideo + "ldWKu5ueUgY",
+        "spotifyId": pathToSpotifyAlbum + "5c2ynbV1R5rJo1PFXQoJVL",
+        "isAGem": false
+    },
+    {
+        "id": "kaipa_solo",
+        "title": "Solo",
+        "artist": "Kaipa",
+        "year": 1977,
+        "country": regions.SWEDEN,
+        "cover": pathToCovers + "/kaipa_solo.jpg",
+        "criteria": [criteria.SWEDISH_SUNG, criteria.SYMPHONIC, criteria.ODD_RHYTHM, criteria.JAM],
+        "selectedTrackTitle": "Den Skrattande Grevinnan",
+        "selectedTrackYtId": pathToYtVideo + "vHB1M84hj3I",
+        "spotifyId": pathToSpotifyAlbum + "6XcFdQkodBjuft1XeQHVMu",
+        "isAGem": false
+    },
+    {
+        "id": "kaipa_hander",
+        "title": "Händer",
+        "artist": "Kaipa",
+        "year": 1980,
+        "country": regions.SWEDEN,
+        "cover": pathToCovers + "/kaipa_hander.jpg",
+        "criteria": [criteria.SWEDISH_SUNG, criteria.NEO_EIGHTIES, criteria.ART_POP, criteria.SOFT, criteria.C_ELECTRO],
+        "selectedTrackTitle": "Regn",
+        "selectedTrackYtId": pathToYtVideo + "CQxtSXrR-OI",
+        "spotifyId": "",
+        "isAGem": false
+    },
+    {
+        "id": "kaipa_nattdjurstid",
+        "title": "Nattdjurstid",
+        "artist": "Kaipa",
+        "year": 1982,
+        "country": regions.SWEDEN,
+        "cover": pathToCovers + "/kaipa_nattdjurstid.jpg",
+        "criteria": [criteria.SWEDISH_SUNG, criteria.NEO_EIGHTIES, criteria.ART_POP, criteria.SOFT, criteria.C_ELECTRO],
+        "selectedTrackTitle": "Identitetskris",
+        "selectedTrackYtId": pathToYtVideo + "qgR4tDGDyG4",
+        "spotifyId": pathToSpotifyAlbum + "17gyX2CBsza4InyWaKICjw",
+        "isAGem": false
+    },
+    {
         "id": "kanguru_dreaming",
         "title": "Dreaming",
         "artist": "Kanguru",
@@ -3954,6 +4019,19 @@ const albums = [
         "selectedTrackTitle": "Ras Lila",
         "selectedTrackYtId": pathToYtVideo + "eNTd_BY_zsI",
         "spotifyId": "",
+        "isAGem": false
+    },
+    {
+        "id": "kate_bush_the_kick_inside",
+        "title": "The Kick Inside",
+        "artist": "Kate Bush",
+        "year": 1978,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/kate_bush_the_kick_inside.jpg",
+        "criteria": [criteria.ART_POP, criteria.SOFT, criteria.TRANSITION],
+        "selectedTrackTitle": "Strange Phenomena",
+        "selectedTrackYtId": pathToYtVideo + "r6NvNBpwQj0",
+        "spotifyId": pathToSpotifyAlbum + "5NKTuBLCYhN0OwqFiGdXd1",
         "isAGem": false
     },
     {
@@ -3989,7 +4067,7 @@ const albums = [
         "year": 1972,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/khan_space_shanty.jpg",
-        "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, 7],
+        "criteria": [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM],
         "selectedTrackTitle": "Stranded",
         "selectedTrackYtId": pathToYtVideo + "tHkYXKlwB9s",
         "spotifyId": pathToSpotifyAlbum + "75sMiBX4FEfaAdbKNBxPfK",
@@ -4200,8 +4278,8 @@ const albums = [
         "country": regions.CANADA,
         "cover": pathToCovers + "/klaatu_magentalane.jpg",
         "criteria": [criteria.ART_POP, criteria.C_ELECTRO, criteria.BAROQUE],
-        "selectedTrackTitle": "todo",
-        "selectedTrackYtId": pathToYtVideo + "todo",
+        "selectedTrackTitle": "Maybe I'll Move To Mars",
+        "selectedTrackYtId": pathToYtVideo + "qDH3bsXoLWs",
         "spotifyId": pathToSpotifyAlbum + "67voFne6CSj4rpdeFbgmbu",
         "isAGem": false
     },
@@ -5188,6 +5266,19 @@ const albums = [
         "isAGem": false
     },
     {
+        "id": "ose_adonia",
+        "title": "Adonia",
+        "artist": "Ose",
+        "year": 1978,
+        "country": regions.FRANCE,
+        "cover": pathToCovers + "/ose_adonia.jpg",
+        "criteria": [criteria.ELECTRO, criteria.SCI_FI, criteria.SPACY, criteria.LENGTHY_TRACKS, criteria.INSTRUMENTAL],
+        "selectedTrackTitle": "Approche Sur A",
+        "selectedTrackYtId": pathToYtVideo + "4C5YRamG-iE",
+        "spotifyId": "",
+        "isAGem": false
+    },
+    {
         "id": "ozric_tentacles_pungent_effulgent",
         "title": "Pungent Effulgent",
         "artist": "Ozric Tentacles",
@@ -5315,9 +5406,9 @@ const albums = [
         "year": 1982,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/pierre_henry_urban_sax_paradise_lost.jpg",
-        "criteria": [criteria.ELECTRO, criteria.INSTRUMENTAL, criteria.SPACY, criteria.C_PSYCHEDELIC, criteria.EXPERIMENTAL],
-        "selectedTrackTitle": "todo",
-        "selectedTrackYtId": pathToYtVideo + "todo",
+        "criteria": [criteria.ELECTRO, criteria.INSTRUMENTAL, criteria.SPACY, criteria.C_PSYCHEDELIC, criteria.EXPERIMENTAL, criteria.C_JAZZ],
+        "selectedTrackTitle": "Gate Of paradise",
+        "selectedTrackYtId": pathToYtVideo + "fGXP-CS0EHU",
         "spotifyId": "",
         "isAGem": false
     },
@@ -6432,7 +6523,7 @@ const albums = [
         "cover": pathToCovers + "/tai_phong_tai_phong.jpg",
         "criteria": [criteria.GLITTER, criteria.SYMPHONIC],
         "selectedTrackTitle": "Fields Of Gold",
-        "selectedTrackYtId": pathToYtVideo + "todo",
+        "selectedTrackYtId": "",
         "spotifyId": pathToSpotifyAlbum + "3Z8DubxAWENlQd3pxJOKZE",
         "isAGem": false
     },
@@ -6445,10 +6536,10 @@ const albums = [
         "cover": pathToCovers + "/tai_phong_windows.jpg",
         "criteria": [criteria.GLITTER, criteria.SYMPHONIC, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "When It's The Season",
-        "selectedTrackYtId": pathToYtVideo + "todo",
+        "selectedTrackYtId": pathToYtVideo + "aT1ngm-ADkY",
         "spotifyId": pathToSpotifyAlbum + "3pN57NmhgB98rHwk8b0VJr",
         "isAGem": true,
-        "description": "todo"
+        "description": "TODO"
     },
     {
         "id": "tai_phong_last_flight",
@@ -6458,8 +6549,8 @@ const albums = [
         "country": regions.FRANCE,
         "cover": pathToCovers + "/tai_phong_last_flight.jpg",
         "criteria": [criteria.GLITTER, criteria.SYMPHONIC, criteria.JAZZY_GROOVY, criteria.JAM, criteria.C_JAZZ, criteria.SOFT_SEVENTIES, criteria.ART_POP],
-        "selectedTrackTitle": "todo",
-        "selectedTrackYtId": pathToYtVideo + "todo",
+        "selectedTrackTitle": "Last Flight",
+        "selectedTrackYtId": pathToYtVideo + "LoGhi9weBO8",
         "spotifyId": pathToSpotifyAlbum + "5GsJLsUq8x3DklXymqiDub",
         "isAGem": false
     },
@@ -7047,8 +7138,8 @@ const albums = [
         "country": regions.USA,
         "cover": pathToCovers + "/year_one_year_one.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.C_FOLK],
-        "selectedTrackTitle": "todo",
-        "selectedTrackYtId": pathToYtVideo + "todo",
+        "selectedTrackTitle": "E = MC²",
+        "selectedTrackYtId": pathToYtVideo + "clf0byl9gyU",
         "spotifyId": "",
         "isAGem": false
     },
@@ -7182,7 +7273,7 @@ const albums = [
         "selectedTrackYtId": pathToYtVideo + "E4nOCeMnAjk",
         "spotifyId": pathToSpotifyAlbum + "4HRPz0VvEfPEhuitH73oSs",
         "isAGem": true,
-        "description": "todo"
+        "description": "TODO"
     },
     // ************************************************************************************ //
     // **************************************** Z **************************************** //
@@ -7276,7 +7367,7 @@ const albums = [
         "criteria": [criteria.SOFT, criteria.C_JAZZ, criteria.JAZZY_GROOVY, criteria.SOFT_SEVENTIES],
         "selectedTrackTitle": "Colours",
         "selectedTrackYtId": pathToYtVideo + "OJbotZE5lV4",
-        "spotifyId": pathToSpotifyAlbum + "todo",
+        "spotifyId": "",
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -7309,7 +7400,6 @@ function getAlbumById(id) {
 
 // Below is the list of prog artists that I listened and should be part of this project
 // TODO fill some discographies of artists that are already here
-// TODO reset filter
 /*  
 The allman brothers band sur l'album Win, Lose or Draw a High Falls
 Banco Del Mutuo Soccorso
@@ -7339,10 +7429,8 @@ The Who
 */
 // TODO parse tout le Prog introuvable et renseigner ici
 // TODO faire un from the same artist
-// TODO filter by country
 // TODO filter by year
 // TODO update albums with new criteria (late 70's notamment)
-// TODO split misc sections avec qqc comme arrangements
 // TODO consider adding criteria :
 /*
 influencial
