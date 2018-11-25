@@ -66,7 +66,7 @@ const subgenres = [
             getAlbumById("the_beatles_yellow_submarine"),
             getAlbumById("pink_floyd_the_piper_at_the_gates_of_dawn"),
             getAlbumById("fantasy_paint_a_picture"),
-            // Procol Harum
+            // todo Procol Harum
         ],
         "criteria": [criteria.C_FOLK, criteria.C_ELECTRO, criteria.FANTASY, criteria.BAROQUE, criteria.ORCHESTRAL_PARTS, criteria.ART_POP, criteria.FANFARE]
     },
@@ -75,8 +75,10 @@ const subgenres = [
         "description": "TODO description",
         "mostRepresentativeAlbum": getAlbumById("spirogyra_old_boot_wine"),
         "albums": [
+            getAlbumById("comus_first_utterance"),
+            getAlbumById("tea_and_symphony_jo_sago"),
         ],
-        "criteria": [criteria.FOLK, criteria.FANTASY, criteria.SOFT, criteria.HUMBLE, criteria.C_PSYCHEDELIC]
+        "criteria": [criteria.FOLK, criteria.FANTASY, criteria.SOFT, criteria.HUMBLE, criteria.C_PSYCHEDELIC, criteria.BAROQUE]
     },
     {
         "name": "Glitter",
@@ -173,10 +175,8 @@ const subgenres = [
         "description": "TODO description",
         "mostRepresentativeAlbum": getAlbumById("kaipa_kaipa"),
         "albums": [
-            getAlbumById("alphataurus_alphataurus"),
             getAlbumById("camel_moonmadness"),
             getAlbumById("canamii_concept"),
-            getAlbumById("circus_movin_on"),
             getAlbumById("emerson_lake_and_palmer_emerson_lake_and_palmer"),
             getAlbumById("focus_moving_waves"),
             getAlbumById("fuchsia_fuchsia"),
@@ -188,7 +188,6 @@ const subgenres = [
             getAlbumById("miklagard_miklagard"),
             getAlbumById("pink_floyd_dark_side_of_the_moon"),
             getAlbumById("robert_connolly_plateau"),
-            getAlbumById("zyma_brave_new_world"),
         ],
         "criteria": [criteria.SYMPHONIC, criteria.SPECTACULAR, criteria.SOPHISTICATED, criteria.TECHNICAL, criteria.C_JAZZ, criteria.C_ELECTRO, criteria.ODD_RHYTHM]
     },
@@ -245,7 +244,8 @@ const subgenres = [
         "description": "TODO description",
         "mostRepresentativeAlbum": getAlbumById("magma_mekanik_destruktiw_kommandoh"),
         "albums": [
-            getAlbumById("weidorje_weidorje")
+            getAlbumById("weidorje_weidorje"),
+            getAlbumById("laurent_thibault_mais_on_ne_peut_pas_rever_tout_le_temps"),
         ],
         "criteria": [criteria.ZEUHL, criteria.SPECTACULAR, criteria.ROCK_OPERA, criteria.SCI_FI, criteria.LENGTHY_TRACKS, criteria.CONCEPT, criteria.C_PSYCHEDELIC, criteria.EXPERIMENTAL, criteria.FANFARE, criteria.C_JAZZ, criteria.SYMPHONIC]
     }
