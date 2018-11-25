@@ -1,7 +1,7 @@
 const subgenres = [
     {
         "name": "Art Pop / Crossover Prog",
-        "description": "TODO",
+        "description": "TODO description",
         "mostRepresentativeAlbum": getAlbumById("supertramp_crime_of_the_century"),
         "albums": [
             getAlbumById("peter_gabriel_car"),
@@ -13,7 +13,7 @@ const subgenres = [
     },
     {
         "name": "Avant-Prog / Experimental",
-        "description": "TODO",
+        "description": "TODO description",
         "mostRepresentativeAlbum": getAlbumById("henry_cow_legend"),
         "albums": [
             getAlbumById("area_arbeit_macht_frei"),
@@ -25,7 +25,7 @@ const subgenres = [
     },
     {
         "name": "Canterbury School / Folk Rock",
-        "description": "TODO",
+        "description": "TODO description",
         "mostRepresentativeAlbum": getAlbumById("caravan_in_the_land_of_grey_and_pink"),
         "albums": [
             getAlbumById("national_health_national_health"),
@@ -36,7 +36,7 @@ const subgenres = [
     },
     {
         "name": "Eclectic",
-        "description": "TODO",
+        "description": "TODO description",
         "mostRepresentativeAlbum": getAlbumById("gentle_giant_acquiring_the_taste"),
         "albums": [
             getAlbumById("king_crimson_red"),
@@ -47,7 +47,7 @@ const subgenres = [
     },
     {
         "name": "Electro Rock",
-        "description": "TODO",
+        "description": "TODO description",
         "mostRepresentativeAlbum": getAlbumById("electric_light_orchestra_time"),
         "albums": [
             getAlbumById("asia_asia"),
@@ -59,7 +59,7 @@ const subgenres = [
     },
     {
         "name": "Fantasy / Baroque",
-        "description": "TODO",
+        "description": "TODO description",
         "mostRepresentativeAlbum": getAlbumById("deep_purple_the_book_of_taliesyn"),
         "albums": [
             getAlbumById("the_moody_blues_days_of_future_passed"),
@@ -72,7 +72,7 @@ const subgenres = [
     },
     {
         "name": "Folk",
-        "description": "TODO",
+        "description": "TODO description",
         "mostRepresentativeAlbum": getAlbumById("spirogyra_old_boot_wine"),
         "albums": [
         ],
@@ -80,7 +80,7 @@ const subgenres = [
     },
     {
         "name": "Glitter",
-        "description": "TODO",
+        "description": "TODO description",
         "mostRepresentativeAlbum": getAlbumById("windchase_symphinity"),
         "albums": [
             getAlbumById("starcastle_starcastle"),
@@ -92,7 +92,7 @@ const subgenres = [
     },
     {
         "name": "Heavy",
-        "description": "TODO",
+        "description": "TODO description",
         "mostRepresentativeAlbum": getAlbumById("uriah_heep_demons_and_wizards"),
         "albums": [
             getAlbumById("rainbow_rising"),
@@ -103,7 +103,7 @@ const subgenres = [
     },
     {
         "name": "Jazz Rock / Jazz Fusion",
-        "description": "TODO",
+        "description": "TODO description",
         "mostRepresentativeAlbum": getAlbumById("frank_zappa_hot_rats"),
         "albums": [
             getAlbumById("return_to_forever_romantic_warrior"),
@@ -115,7 +115,7 @@ const subgenres = [
     },
     {
         "name": "New Age / Electronic Ambient",
-        "description": "TODO",
+        "description": "TODO description",
         "mostRepresentativeAlbum": getAlbumById("jean_michel_jarre_oxygene"),
         "albums": [
             getAlbumById("zanov_in_course_of_time"),
@@ -129,7 +129,7 @@ const subgenres = [
     },
     {
         "name": "Neo-Prog",
-        "description": "TODO",
+        "description": "TODO description",
         "mostRepresentativeAlbum": getAlbumById("marillion_script_for_a_jesters_tear"),
         "albums": [
             getAlbumById("king_crimson_three_of_a_perfect_pair"),
@@ -142,7 +142,7 @@ const subgenres = [
     },
     {
         "name": "Occult / Heavy",
-        "description": "TODO",
+        "description": "TODO description",
         "mostRepresentativeAlbum": getAlbumById("black_widow_sacrifice"),
         "albums": [
             getAlbumById("black_sabbath_black_sabbath"),
@@ -155,7 +155,7 @@ const subgenres = [
     },
     {
         "name": "Opera Rock / Fanfare",
-        "description": "TODO",
+        "description": "TODO description",
         "mostRepresentativeAlbum": getAlbumById("roger_glover_the_butterfly_ball_and_the_grasshoppers_feast"),
         "albums": [
             getAlbumById("queen_queen_ii"),
@@ -170,7 +170,7 @@ const subgenres = [
     },
     {
         "name": "Progcore / Small Symphonic",
-        "description": "TODO",
+        "description": "TODO description",
         "mostRepresentativeAlbum": getAlbumById("kaipa_kaipa"),
         "albums": [
             getAlbumById("alphataurus_alphataurus"),
@@ -194,7 +194,7 @@ const subgenres = [
     },
     {
         "name": "Psychedelic",
-        "description": "TODO",
+        "description": "TODO description",
         "mostRepresentativeAlbum": getAlbumById("gong_flying_teapot"),
         "albums": [
             getAlbumById("can_tago_mago"),
@@ -210,26 +210,26 @@ const subgenres = [
     },
     {
         "name": "Renaissance",
-        "description": "TODO",
+        "description": "TODO description",
         "mostRepresentativeAlbum": getAlbumById("semiramis_dedicato_a_frazz"),
         "albums": [
             getAlbumById("ange_au_dela_du_delire")
         ],
-        "criteria": []
+        "criteria": [criteria.MEDIEVAL, criteria.C_JAZZ, criteria.C_FOLK, criteria.ODD_RHYTHM, criteria.FANFARE, criteria.SYMPHONIC, criteria.SPECTACULAR, criteria.BAROQUE]
     },
     {
         "name": "Space Rock",
-        "description": "TODO",
+        "description": "TODO description",
         "mostRepresentativeAlbum": getAlbumById("hawkwind_doremi_fasol_latido"),
         "albums": [
             getAlbumById("nektar_a_tab_in_the_ocean"),
             getAlbumById("ozric_tentacles_strangeitude"),
         ],
-        "criteria": []
+        "criteria": [criteria.SPACY, criteria.SCI_FI, criteria.ROCK, criteria.C_ELECTRO, criteria.C_PSYCHEDELIC, criteria.INSTRUMENTAL, criteria.LENGTHY_TRACKS, criteria.HEAVY, criteria.AMBIENT]
     },
     {
         "name": "Symphonic",
-        "description": "TODO",
+        "description": "TODO description",
         "mostRepresentativeAlbum": getAlbumById("yes_close_to_the_edge"),
         "albums": [
             getAlbumById("mike_oldfield_hergest_ridge"),
@@ -238,11 +238,11 @@ const subgenres = [
             getAlbumById("emerson_lake_and_palmer_tarkus"),
             getAlbumById("eloy_ocean")
         ],
-        "criteria": []
+        "criteria": [criteria.SYMPHONIC, criteria.CONCEPT, criteria.SCI_FI, criteria.FANTASY, criteria.C_JAZZ, criteria.C_ELECTRO, criteria.TECHNICAL, criteria.LENGTHY_TRACKS, criteria.ODD_RHYTHM, criteria.ROCK_OPERA, criteria.GLITTER, criteria.SPECTACULAR, criteria.ORCHESTRAL_PARTS]
     },
     {
         "name": "Zeuhl",
-        "description": "TODO",
+        "description": "TODO description",
         "mostRepresentativeAlbum": getAlbumById("magma_mekanik_destruktiw_kommandoh"),
         "albums": [
             getAlbumById("weidorje_weidorje")
