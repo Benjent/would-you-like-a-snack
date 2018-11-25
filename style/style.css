@@ -771,7 +771,6 @@ header #menu button.button-active {
   display: -ms-flexbox;
   display: flex;
   border-bottom: solid 1px;
-  width: 80%;
   padding: 100px;
   margin: 0 auto;
 }
@@ -788,10 +787,34 @@ header #menu button.button-active {
   text-align: right;
 }
 
+#subgenresVue .subgenre-wrapper:nth-child(even) .subgenre-albums {
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+#subgenresVue .subgenre-wrapper .subgenre-albums {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#subgenresVue .subgenre-wrapper .subgenre-albums .album-cover {
+  height: 130px;
+  border: solid 3px #a18a54;
+  cursor: pointer;
+  margin: 0 20px 37px 20px;
+}
+
 #subgenresVue .subgenre-wrapper .most-representative {
   height: 300px;
   border: solid 5px #a18a54;
-  margin: 0 30px;
+  margin: 0 20px;
   cursor: pointer;
   display: block;
   -webkit-box-shadow: 0px 0px 500px -50px #a18a54;
@@ -806,6 +829,11 @@ header #menu button.button-active {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding: 0 20px;
+}
+
+#subgenresVue .subgenre-wrapper .subgenre-infos .subgenre-name {
+  font-size: 30px;
 }
 
 #subgenresVue .subgenre-wrapper .subgenre-infos .subgenre-description {
@@ -814,16 +842,13 @@ header #menu button.button-active {
   margin: auto 50px;
 }
 
-#subgenresVue .subgenre-wrapper .subgenre-infos .albums {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+#subgenresVue .subgenre-wrapper .subgenre-infos .subgenre-criteria {
+  display: block;
+  font-size: 20px;
 }
 
-#subgenresVue .subgenre-wrapper .subgenre-infos .albums .album-cover {
-  width: 120px;
-  height: 120px;
-  cursor: pointer;
+#subgenresVue .subgenre-wrapper .subgenre-infos .subgenre-criteria .criterium {
+  font-style: italic;
 }
 
 #statsVue {
