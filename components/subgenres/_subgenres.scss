@@ -7,7 +7,7 @@
     .subgenre-wrapper {
         display: flex;
         border-bottom: solid 1px;
-        width: 80%;
+        // width: 80%;
         padding: 100px;
         margin: 0 auto; // Thx chrome
         &:last-of-type {
@@ -16,10 +16,24 @@
         &:nth-child(even) {
             flex-direction: row-reverse;
             text-align: right;
+            .subgenre-albums {
+                justify-content: left;
+            }
+        }
+
+        .subgenre-albums {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            .album-cover {
+                @include albumCoverSmall;
+                cursor: pointer;
+                margin: 0 20px 37px 20px;
+            }
         }
         .most-representative {
             @include albumCover;
-            margin: 0 30px;
+            margin: 0 20px;
             cursor: pointer;
             display: block;
             box-shadow: 0px 0px 500px -50px $gold;
@@ -27,19 +41,22 @@
         .subgenre-infos {
             display: flex;
             flex-direction: column;
+            padding: 0 20px;
+            .subgenre-name {
+                font-size: $specialInfoFontSize;
+            }
             .subgenre-description {
                 font-style: italic;
                 font-size: 1.6rem;
                 margin: auto 50px;
             }
-            .albums {
-                display: flex;
-                .album-cover {
-                    width: 120px;
-                    height: 120px;
-                    cursor: pointer;
+            .subgenre-criteria {
+                display: block;
+                font-size: $mainFontSizeSmall;
+                .criterium {
+                    font-style: italic;
                 }
             }
-        }
+        }    
     }
 }

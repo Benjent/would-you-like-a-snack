@@ -26,6 +26,18 @@ Vue.component('stats', {
                             <div class="albumsPerCategory-legend">{{item.country}}</div>
                         </div>
                     </div>
+                    <caption>30 greatest criteria occurences</caption>
+                    <div class="histogram">
+                        <div
+                            class="albumsPerCategory"
+                            v-for="(item, index) in criteriaOccurencesWithRatio"
+                            v-if="index < 30">
+                            <div class="albumsPerCategory-nbOfAlbums">
+                                <div class="gauge" :style="{height: item.ratioPercent}">{{item.nbOfOccurences}}</div>
+                            </div>
+                            <div class="albumsPerCategory-legend">{{item.criterium}}</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -35,6 +47,7 @@ Vue.component('stats', {
             albums: albums,
             albumsPerYear: albumsPerYear,
             albumsPerCountry: albumsPerCountry,
+            criteriaOccurences: criteriaOccurences,
             gemsNb: gemsNb,
             artists: artists
         }
@@ -83,23 +96,74 @@ Vue.component('stats', {
                     ratio: ratio,
                     ratioPercent: (ratio * 100).toString() + "%",
                 });
-          };
+            };
     
-          // Sort in alphabetical order
-          albumsPerCountryWithRatio.sort(function(a, b){
-            const countryA = a.country.toLowerCase()
-            const countryB = b.country.toLowerCase();
-    
-            if (countryA < countryB) {// Sort string ascending
-              return -1;
-            }
-            if (countryA > countryB) {
-              return 1;
-            }
-            return 0 // Default return value (no sorting)
-          })
+            // Sort in alphabetical order
+            //   albumsPerCountryWithRatio.sort(function(a, b){
+            //     const countryA = a.country.toLowerCase()
+            //     const countryB = b.country.toLowerCase();
+        
+            //     if (countryA < countryB) {// Sort string ascending
+            //       return -1;
+            //     }
+            //     if (countryA > countryB) {
+            //       return 1;
+            //     }
+            //     return 0 // Default return value (no sorting)
+            //   })
+            // Sort in DESC
+            albumsPerCountryWithRatio.sort(function(a, b){
+                const countryA = a.nbOfAlbums
+                const countryB = b.nbOfAlbums;
+        
+                if (countryA > countryB) {
+                return -1;
+                }
+                if (countryA < countryB) {
+                return 1;
+                }
+                return 0 // Default return value (no sorting)
+            })
     
           return albumsPerCountryWithRatio;
+        },
+        criteriaOccurencesWithRatio() {
+    
+            const obj = this.criteriaOccurences;
+            const arr = Object.keys( obj ).map(function ( key ) { return obj[key]; });
+            const max = Math.max.apply( null, arr );
+            const min = 0;
+        
+            const criteriaOccurencesWithRatio = [];
+        
+            for(criterium in this.criteriaOccurences) {
+
+                const nbOfOccurences = this.criteriaOccurences[criterium];
+                const ratio = (nbOfOccurences - min) / (max - min);
+        
+                criteriaOccurencesWithRatio.push({
+                    criterium: criterium,
+                    nbOfOccurences: nbOfOccurences, 
+                    ratio: ratio,
+                    ratioPercent: (ratio * 100).toString() + "%",
+                });
+            };
+
+            // Sort in DESC
+            criteriaOccurencesWithRatio.sort(function(a, b){
+                const criteriumA = a.nbOfOccurences
+                const criteriumB = b.nbOfOccurences;
+        
+                if (criteriumA > criteriumB) {
+                return -1;
+                }
+                if (criteriumA < criteriumB) {
+                return 1;
+                }
+                return 0 // Default return value (no sorting)
+            })
+    
+          return criteriaOccurencesWithRatio;
         }
     }
 })
