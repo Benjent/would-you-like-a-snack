@@ -59,7 +59,7 @@ const subgenres = [
     },
     {
         "name": "Fantasy / Baroque",
-        "description": "TODO description",
+        "description": "This short-lived subgenre was influenced by the late 60's British style of blending Pop Rock with Classical instrumentations with a small touch of psychedelism. It often includes bluesy guitar solos and some extended jams, but is overall known for its fake harpsichord sound, string arrengements and easy melodies.",
         "mostRepresentativeAlbum": getAlbumById("deep_purple_the_book_of_taliesyn"),
         "albums": [
             getAlbumById("the_moody_blues_days_of_future_passed"),
