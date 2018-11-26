@@ -1,7 +1,7 @@
 const subgenres = [
     {
         "name": "Art Pop / Crossover Prog",
-        "description": "TODO description",
+        "description": "This subgenre will adapt to the music trends when they change. It is lyrics-oriented, vocals are often theatrical; a lot of attention is given to the arrangement to create complex layers of instruments. Albums are almost always well produced, with a distinctive use of the piano. As it follows what is popular, the genre is present throughout all the Prog years, with a Rock influence during all the 70's and a heavy reliance on any kind of electronic music during the 80's and the 90's, resulting in a softer sound.",
         "mostRepresentativeAlbum": getAlbumById("supertramp_crime_of_the_century"),
         "albums": [
             getAlbumById("peter_gabriel_car"),

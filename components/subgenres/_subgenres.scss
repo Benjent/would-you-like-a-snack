@@ -25,6 +25,7 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: flex-end;
+            align-content: baseline;
             .album-cover {
                 @include albumCoverSmall;
                 cursor: pointer;
@@ -47,8 +48,9 @@
             }
             .subgenre-description {
                 font-style: italic;
-                font-size: 1.6rem;
-                margin: auto 50px;
+                font-size: $mainFontSizeSmall;
+                margin: 0;
+                max-width: 800px;
             }
             .subgenre-criteria {
                 display: block;
