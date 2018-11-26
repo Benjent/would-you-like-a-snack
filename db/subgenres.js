@@ -77,6 +77,8 @@ const subgenres = [
         "albums": [
             getAlbumById("comus_first_utterance"),
             getAlbumById("tea_and_symphony_jo_sago"),
+            getAlbumById("fuchsia_fuchsia"),
+
         ],
         "criteria": [criteria.FOLK, criteria.FANTASY, criteria.SOFT, criteria.HUMBLE, criteria.C_PSYCHEDELIC, criteria.BAROQUE]
     },
@@ -99,7 +101,10 @@ const subgenres = [
         "albums": [
             getAlbumById("rainbow_rising"),
             getAlbumById("winterhawk_revival"),
-            getAlbumById("badger_one_live_badger")
+            getAlbumById("badger_one_live_badger"),
+            getAlbumById("nazareth_hair_of_the_dog"),
+            getAlbumById("budgie_bandolier")
+
         ],
         "criteria": [criteria.HEAVY, criteria.ROCK, criteria.JAM, criteria.FANTASY, criteria.ODD_RHYTHM]
     },
@@ -179,7 +184,6 @@ const subgenres = [
             getAlbumById("canamii_concept"),
             getAlbumById("emerson_lake_and_palmer_emerson_lake_and_palmer"),
             getAlbumById("focus_moving_waves"),
-            getAlbumById("fuchsia_fuchsia"),
             getAlbumById("genesis_a_trick_of_the_tail"),
             getAlbumById("gnidrolog_lady_lake"),
             getAlbumById("harmonium_si_on_avait_besoin_dune_cinquieme_saison"),
@@ -217,8 +221,25 @@ const subgenres = [
         "criteria": [criteria.MEDIEVAL, criteria.C_JAZZ, criteria.C_FOLK, criteria.ODD_RHYTHM, criteria.FANFARE, criteria.SYMPHONIC, criteria.SPECTACULAR, criteria.BAROQUE]
     },
     {
-        "name": "Space Rock",
+        "name": "Rock",
         "description": "TODO description",
+        "mostRepresentativeAlbum": getAlbumById("titus_groan_titus_groan"),
+        "albums": [
+            getAlbumById("fuzzy_duck_fuzzy_duck"),
+            getAlbumById("deep_purple_machine_head"),
+            getAlbumById("atomic_rooster_in_hearing_of_atomic_rooster"),
+            getAlbumById("man_be_good_to_yourself_at_least_once_a_day"),
+            getAlbumById("grateful_dead_terrapin_station"),
+            getAlbumById("klaatu_hope"),
+            getAlbumById("journey_journey"),
+            getAlbumById("led_zeppelin_led_zeppelin_iv"),
+            getAlbumById("guns_and_butter_guns_and_butter"),
+        ],
+        "criteria": [criteria.ROCK, criteria.C_FOLK, criteria.ODD_RHYTHM, criteria.JAM, criteria.JAZZY_GROOVY, criteria.HEAVY]
+    },
+    {
+        "name": "Space Rock",
+        "description": "Often heavy, this subgenre is based on hypnotic loops and intense electronic effects to create a spacy immersion. Tracks are moderately long to give the music time to take off, musicians to experiment with sound effects and play around with theme and variations.",
         "mostRepresentativeAlbum": getAlbumById("hawkwind_doremi_fasol_latido"),
         "albums": [
             getAlbumById("nektar_a_tab_in_the_ocean"),
