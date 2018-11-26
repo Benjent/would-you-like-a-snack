@@ -1653,6 +1653,33 @@ const albums = [
         "isAGem": false
     },
     {
+        "id": "comus_first_utterance",
+        "title": "First Utterance",
+        "artist": "Comus",
+        "year": 1971,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/comus_first_utterance.jpg",
+        "criteria": [criteria.FOLK, criteria.BAROQUE, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.LENGTHY_TRACKS, criteria.SYMPHONIC],
+        "selectedTrackTitle": "The Herald",
+        "selectedTrackYtId": pathToYtVideo + "ZlX1OUfds3Q",
+        "spotifyId": "",
+        "isAGem": true,
+        "description": "TODO"
+    },
+    {
+        "id": "comus_to_keep_from_crying",
+        "title": "To Keep From Crying",
+        "artist": "Comus",
+        "year": 1974,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/comus_to_keep_from_crying.jpg",
+        "criteria": [criteria.FOLK, criteria.BAROQUE, criteria.C_PSYCHEDELIC, criteria.C_ELECTRO],
+        "selectedTrackTitle": "To Keep From Crying",
+        "selectedTrackYtId": pathToYtVideo + "e0mOOfJQCR0",
+        "spotifyId": "",
+        "isAGem": false
+    },
+    {
         "id": "coven_witchcraft_destroys_minds_and_reaps_souls",
         "title": "Witchcraft Destroys Minds & Reaps Souls",
         "artist": "Coven",
@@ -4071,6 +4098,32 @@ const albums = [
         "selectedTrackTitle": "Houdini",
         "selectedTrackYtId": pathToYtVideo + "McCTH9C9o34",
         "spotifyId": pathToSpotifyAlbum + "1gRJsaJ7ExC9Q9YdB9ZMC5",
+        "isAGem": false
+    },
+    {
+        "id": "kate_bush_hounds_of_love",
+        "title": "Hounds Of Love",
+        "artist": "Kate Bush",
+        "year": 1985,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/kate_bush_hounds_of_love.jpg",
+        "criteria": [criteria.ART_POP, criteria.SOFT, criteria.BAROQUE, criteria.ODD_RHYTHM, criteria.C_ELECTRO, criteria.SOUND_COLLAGES],
+        "selectedTrackTitle": "Hello Earth",
+        "selectedTrackYtId": pathToYtVideo + "0S0zNFzK_ns",
+        "spotifyId": pathToSpotifyAlbum + "5BWl0bB1q0TqyFmkBEupZy",
+        "isAGem": false
+    },
+    {
+        "id": "kate_bush_the_sensual_world",
+        "title": "The Sensual World",
+        "artist": "Kate Bush",
+        "year": 1989,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/kate_bush_the_sensual_world.jpg",
+        "criteria": [criteria.ART_POP, criteria.SOFT, criteria.BAROQUE, criteria.ODD_RHYTHM, criteria.C_ELECTRO, criteria.SOUND_COLLAGES],
+        "selectedTrackTitle": "The Fog",
+        "selectedTrackYtId": pathToYtVideo + "RIgK6-tmPao",
+        "spotifyId": pathToSpotifyAlbum + "0Bk6rV33JObdtOpjJg0vIy",
         "isAGem": false
     },
     {
@@ -7470,6 +7523,8 @@ The Who
 // TODO faire un from the same artist
 // TODO filter by year
 // TODO update albums with new criteria (late 70's notamment)
+// TODO refact subgenres and absolute gems (db en props encore)
+// TODO create components for histograms and tables
 // TODO consider adding criteria :
 /*
 influencial

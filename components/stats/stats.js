@@ -38,6 +38,22 @@ Vue.component('stats', {
                             <div class="albumsPerCategory-legend">{{item.criterium}}</div>
                         </div>
                     </div>
+                    <div class="table">
+                        <div
+                            class="row"
+                            v-for="(obj, year) in mostUsedCriteriaPerYear">
+                            <div class="legend">
+                                {{year}}
+                            </div>
+                            <div
+                                class="data"
+                                v-for="(item, occurenceIndex) in obj"
+                                v-if="occurenceIndex < 3">
+                                {{item.criterium}}
+                                <span v-if="occurenceIndex < 2">-</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -48,6 +64,7 @@ Vue.component('stats', {
             albumsPerYear: albumsPerYear,
             albumsPerCountry: albumsPerCountry,
             criteriaOccurences: criteriaOccurences,
+            mostUsedCriteriaPerYear: mostUsedCriteriaPerYear,
             gemsNb: gemsNb,
             artists: artists
         }
