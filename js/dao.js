@@ -3,6 +3,7 @@ const artists = [];
 const albumsPerYear = {};
 const albumsPerCountry = {};
 const criteriaOccurences = {};
+const mostUsedCriteriaPerYear = {};
 let gemsNb = 0;
 
 for (let i = 0; i < albums.length; i++) {
@@ -36,11 +37,40 @@ for (let i = 0; i < albums.length; i++) {
         } else {
             criteriaOccurences[criterium] = 0;
         }
+
+        // Per year
+        const year = albums[i].year;
+        if(!mostUsedCriteriaPerYear.hasOwnProperty(year)) {
+            mostUsedCriteriaPerYear[year] = [];
+            mostUsedCriteriaPerYear[year].push({
+                criterium: criterium,
+                occurences: 1,
+            });
+        } else {
+            let isFirstOccurence = true;
+            for (let k = 0; k < mostUsedCriteriaPerYear[year].length; k++) {
+                if(mostUsedCriteriaPerYear[year][k].criterium === criterium) {
+                    mostUsedCriteriaPerYear[year][k].occurences++;
+                    isFirstOccurence = false;
+                    break;
+                }
+            }
+            if(isFirstOccurence) {
+                mostUsedCriteriaPerYear[year].push({
+                    criterium: criterium,
+                    occurences: 1,
+                });
+            }
+        }
     }
 }
 
 const albumsSortedByYear = albums.slice(0);
 albumsSortedByYear.sort(Utils.sortByYear);
+
+for (let [year, obj] of Object.entries(mostUsedCriteriaPerYear)){
+    obj.sort(Utils.sortByOccurences);
+}
 
 // USE THIS OBJECT IN SNACK TO SIMULATE THE DB
 const Db = {
@@ -51,6 +81,7 @@ const Db = {
     albumsPerYear: albumsPerYear,
     albumsPerCountry: albumsPerCountry,
     criteriaOccurences: criteriaOccurences,
+    mostUsedCriteriaPerYear: mostUsedCriteriaPerYear,
     gemsNb: gemsNb,
     albumsSortedByYear: albumsSortedByYear,
     subgenres: subgenres,

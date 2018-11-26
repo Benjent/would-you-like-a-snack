@@ -7523,6 +7523,8 @@ The Who
 // TODO faire un from the same artist
 // TODO filter by year
 // TODO update albums with new criteria (late 70's notamment)
+// TODO refact subgenres and absolute gems (db en props encore)
+// TODO create components for histograms and tables
 // TODO consider adding criteria :
 /*
 influencial

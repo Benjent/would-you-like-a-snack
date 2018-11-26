@@ -28,6 +28,19 @@
             // overflow-x: auto;
             // overflow-y: visible;
         }
+        .table {
+            .row {
+                display: flex;
+                .legend {
+                    margin-right: 30px;
+                    width: 50px;
+                    display: block;
+                }
+                .data {
+
+                }
+            }
+        }
         .albumsPerCategory {
             height: 100%;
             .albumsPerCategory-nbOfAlbums {

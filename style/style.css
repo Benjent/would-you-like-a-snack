@@ -907,6 +907,18 @@ header #menu button.button-active {
   margin-bottom: 150px;
 }
 
+#statsVue .charts .table .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#statsVue .charts .table .row .legend {
+  margin-right: 30px;
+  width: 50px;
+  display: block;
+}
+
 #statsVue .charts .albumsPerCategory {
   height: 100%;
 }

@@ -31,5 +31,13 @@ const Utils = {
         if (albumA.year > albumB.year)
           return 1;
         return 0;
-      }
+    },
+
+    sortByOccurences: function(criteriumA, criteriumB) {
+        if (criteriumA.occurences > criteriumB.occurences)
+          return -1;
+        if (criteriumA.occurences < criteriumB.occurences)
+          return 1;
+        return 0;
+    }
 }
