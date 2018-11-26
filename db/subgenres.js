@@ -258,11 +258,11 @@ const subgenres = [
             getAlbumById("emerson_lake_and_palmer_tarkus"),
             getAlbumById("eloy_ocean")
         ],
-        "criteria": [criteria.SYMPHONIC, criteria.CONCEPT, criteria.SCI_FI, criteria.FANTASY, criteria.C_JAZZ, criteria.C_ELECTRO, criteria.TECHNICAL, criteria.LENGTHY_TRACKS, criteria.ODD_RHYTHM, criteria.ROCK_OPERA, criteria.GLITTER, criteria.SPECTACULAR, criteria.ORCHESTRAL_PARTS]
+        "criteria": [criteria.SYMPHONIC, criteria.CONCEPT, criteria.SCI_FI, criteria.FANTASY, criteria.C_JAZZ, criteria.C_ELECTRO, criteria.TECHNICAL, criteria.LENGTHY_TRACKS, criteria.ODD_RHYTHM, criteria.ROCK_OPERA, criteria.SPECTACULAR, criteria.ORCHESTRAL_PARTS]
     },
     {
         "name": "Zeuhl",
-        "description": "TODO description",
+        "description": "This subgenre draws its name from the language invented by Christian Vander and is closely related to the French scene of the early 70's. It defines music that on one hand is spectacular, like a Rock opera, with heavy percussions and intense, mezmerizing eerie chants; and on the other hand is spiritual, celestial, cosmic, forseeing dystopian scenes. Albums are structured as symphonies with long tracks that tell stories for most cases.",
         "mostRepresentativeAlbum": getAlbumById("magma_mekanik_destruktiw_kommandoh"),
         "albums": [
             getAlbumById("weidorje_weidorje"),
