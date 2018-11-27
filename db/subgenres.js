@@ -1,7 +1,7 @@
 const subgenres = [
     {
         "name": "Art Pop / Crossover Prog",
-        "description": "TODO description",
+        "description": "This subgenre will adapt to the music trends when they change. It is lyrics-oriented, vocals are often theatrical; a lot of attention is given to the arrangement to create complex layers of instruments. Albums are almost always well produced, with a distinctive use of the piano. As it follows what is popular, the genre is present throughout all the Prog years, with a Rock influence during all the 70's and a heavy reliance on any kind of electronic music during the 80's and the 90's, resulting in a softer sound.",
         "mostRepresentativeAlbum": getAlbumById("supertramp_crime_of_the_century"),
         "albums": [
             getAlbumById("peter_gabriel_car"),
@@ -59,7 +59,7 @@ const subgenres = [
     },
     {
         "name": "Fantasy / Baroque",
-        "description": "TODO description",
+        "description": "This short-lived subgenre was influenced by the late 60's British style of blending Pop Rock with Classical instrumentations with a small touch of psychedelism. It often includes bluesy guitar solos and some extended jams, but is overall known for its fake harpsichord sound, string arrengements and easy melodies.",
         "mostRepresentativeAlbum": getAlbumById("deep_purple_the_book_of_taliesyn"),
         "albums": [
             getAlbumById("the_moody_blues_days_of_future_passed"),
@@ -77,6 +77,9 @@ const subgenres = [
         "albums": [
             getAlbumById("comus_first_utterance"),
             getAlbumById("tea_and_symphony_jo_sago"),
+            getAlbumById("fuchsia_fuchsia"),
+            getAlbumById("love_forever_changes"),
+
         ],
         "criteria": [criteria.FOLK, criteria.FANTASY, criteria.SOFT, criteria.HUMBLE, criteria.C_PSYCHEDELIC, criteria.BAROQUE]
     },
@@ -99,7 +102,10 @@ const subgenres = [
         "albums": [
             getAlbumById("rainbow_rising"),
             getAlbumById("winterhawk_revival"),
-            getAlbumById("badger_one_live_badger")
+            getAlbumById("badger_one_live_badger"),
+            getAlbumById("nazareth_hair_of_the_dog"),
+            getAlbumById("budgie_bandolier")
+
         ],
         "criteria": [criteria.HEAVY, criteria.ROCK, criteria.JAM, criteria.FANTASY, criteria.ODD_RHYTHM]
     },
@@ -179,7 +185,6 @@ const subgenres = [
             getAlbumById("canamii_concept"),
             getAlbumById("emerson_lake_and_palmer_emerson_lake_and_palmer"),
             getAlbumById("focus_moving_waves"),
-            getAlbumById("fuchsia_fuchsia"),
             getAlbumById("genesis_a_trick_of_the_tail"),
             getAlbumById("gnidrolog_lady_lake"),
             getAlbumById("harmonium_si_on_avait_besoin_dune_cinquieme_saison"),
@@ -217,8 +222,25 @@ const subgenres = [
         "criteria": [criteria.MEDIEVAL, criteria.C_JAZZ, criteria.C_FOLK, criteria.ODD_RHYTHM, criteria.FANFARE, criteria.SYMPHONIC, criteria.SPECTACULAR, criteria.BAROQUE]
     },
     {
-        "name": "Space Rock",
+        "name": "Rock",
         "description": "TODO description",
+        "mostRepresentativeAlbum": getAlbumById("titus_groan_titus_groan"),
+        "albums": [
+            getAlbumById("fuzzy_duck_fuzzy_duck"),
+            getAlbumById("deep_purple_machine_head"),
+            getAlbumById("atomic_rooster_in_hearing_of_atomic_rooster"),
+            getAlbumById("man_be_good_to_yourself_at_least_once_a_day"),
+            getAlbumById("grateful_dead_terrapin_station"),
+            getAlbumById("klaatu_hope"),
+            getAlbumById("journey_journey"),
+            getAlbumById("led_zeppelin_led_zeppelin_iv"),
+            getAlbumById("guns_and_butter_guns_and_butter"),
+        ],
+        "criteria": [criteria.ROCK, criteria.C_FOLK, criteria.ODD_RHYTHM, criteria.JAM, criteria.JAZZY_GROOVY, criteria.HEAVY]
+    },
+    {
+        "name": "Space Rock",
+        "description": "Often heavy, this subgenre is based on hypnotic loops and intense electronic effects to create a spacy immersion. Tracks are moderately long to give the music time to take off, musicians to experiment with sound effects and play around with theme and variations.",
         "mostRepresentativeAlbum": getAlbumById("hawkwind_doremi_fasol_latido"),
         "albums": [
             getAlbumById("nektar_a_tab_in_the_ocean"),
@@ -237,11 +259,11 @@ const subgenres = [
             getAlbumById("emerson_lake_and_palmer_tarkus"),
             getAlbumById("eloy_ocean")
         ],
-        "criteria": [criteria.SYMPHONIC, criteria.CONCEPT, criteria.SCI_FI, criteria.FANTASY, criteria.C_JAZZ, criteria.C_ELECTRO, criteria.TECHNICAL, criteria.LENGTHY_TRACKS, criteria.ODD_RHYTHM, criteria.ROCK_OPERA, criteria.GLITTER, criteria.SPECTACULAR, criteria.ORCHESTRAL_PARTS]
+        "criteria": [criteria.SYMPHONIC, criteria.CONCEPT, criteria.SCI_FI, criteria.FANTASY, criteria.C_JAZZ, criteria.C_ELECTRO, criteria.TECHNICAL, criteria.LENGTHY_TRACKS, criteria.ODD_RHYTHM, criteria.ROCK_OPERA, criteria.SPECTACULAR, criteria.ORCHESTRAL_PARTS]
     },
     {
         "name": "Zeuhl",
-        "description": "TODO description",
+        "description": "This subgenre draws its name from the language invented by Christian Vander and is closely related to the French scene of the early 70's. It defines music that on one hand is spectacular, like a Rock opera, with heavy percussions and intense, mezmerizing eerie chants; and on the other hand is spiritual, celestial, cosmic, forseeing dystopian scenes. Albums are structured as symphonies with long tracks that tell stories for most cases.",
         "mostRepresentativeAlbum": getAlbumById("magma_mekanik_destruktiw_kommandoh"),
         "albums": [
             getAlbumById("weidorje_weidorje"),

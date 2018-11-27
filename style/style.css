@@ -787,6 +787,12 @@ header #menu button.button-active {
   text-align: right;
 }
 
+#subgenresVue .subgenre-wrapper:nth-child(even) .subgenre-infos {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
 #subgenresVue .subgenre-wrapper:nth-child(even) .subgenre-albums {
   -webkit-box-pack: left;
       -ms-flex-pack: left;
@@ -802,6 +808,8 @@ header #menu button.button-active {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  -ms-flex-line-pack: baseline;
+      align-content: baseline;
 }
 
 #subgenresVue .subgenre-wrapper .subgenre-albums .album-cover {
@@ -838,8 +846,10 @@ header #menu button.button-active {
 
 #subgenresVue .subgenre-wrapper .subgenre-infos .subgenre-description {
   font-style: italic;
-  font-size: 1.6rem;
-  margin: auto 50px;
+  font-size: 20px;
+  text-align: justify;
+  margin: 0;
+  max-width: 800px;
 }
 
 #subgenresVue .subgenre-wrapper .subgenre-infos .subgenre-criteria {

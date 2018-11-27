@@ -3758,6 +3758,19 @@ const albums = [
         "isAGem": false
     },
     {
+        "id": "jefferson_airplane_surrealistic_pillow",
+        "title": "Surrealistic Pillow",
+        "artist": "Jefferson Airplane",
+        "year": 1967,
+        "country": regions.USA,
+        "cover": pathToCovers + "/jefferson_airplane_surrealistic_pillow.jpg",
+        "criteria": [criteria.ROCK, criteria.C_PSYCHEDELIC, criteria.C_FOLK, criteria.CRISPY_SIXTIES, criteria.SOFT],
+        "selectedTrackTitle": "White Rabbit",
+        "selectedTrackYtId": pathToYtVideo + "WANNqr-vcx0",
+        "spotifyId": pathToSpotifyAlbum + "2m8DWhADf8ui1MDNAmjX8I",
+        "isAGem": false
+    },
+    {
         "id": "jefferson_airplane_after_bathing_at_baxters",
         "title": "After Bathing At Baxter's",
         "artist": "Jefferson Airplane",
@@ -4107,7 +4120,7 @@ const albums = [
         "year": 1985,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/kate_bush_hounds_of_love.jpg",
-        "criteria": [criteria.ART_POP, criteria.SOFT, criteria.BAROQUE, criteria.ODD_RHYTHM, criteria.C_ELECTRO, criteria.SOUND_COLLAGES],
+        "criteria": [criteria.ART_POP, criteria.SOFT, criteria.ODD_RHYTHM, criteria.C_ELECTRO, criteria.SOUND_COLLAGES],
         "selectedTrackTitle": "Hello Earth",
         "selectedTrackYtId": pathToYtVideo + "0S0zNFzK_ns",
         "spotifyId": pathToSpotifyAlbum + "5BWl0bB1q0TqyFmkBEupZy",
@@ -4120,10 +4133,23 @@ const albums = [
         "year": 1989,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/kate_bush_the_sensual_world.jpg",
-        "criteria": [criteria.ART_POP, criteria.SOFT, criteria.BAROQUE, criteria.ODD_RHYTHM, criteria.C_ELECTRO, criteria.SOUND_COLLAGES],
+        "criteria": [criteria.ART_POP, criteria.SOFT, criteria.ODD_RHYTHM, criteria.C_ELECTRO, criteria.SOUND_COLLAGES],
         "selectedTrackTitle": "The Fog",
         "selectedTrackYtId": pathToYtVideo + "RIgK6-tmPao",
         "spotifyId": pathToSpotifyAlbum + "0Bk6rV33JObdtOpjJg0vIy",
+        "isAGem": false
+    },
+    {
+        "id": "kate_bush_the_red_shoes",
+        "title": "The Red Shoes",
+        "artist": "Kate Bush",
+        "year": 1993,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/kate_bush_the_red_shoes.jpg",
+        "criteria": [criteria.ART_POP, criteria.SOFT, criteria.C_ELECTRO],
+        "selectedTrackTitle": "Lily",
+        "selectedTrackYtId": pathToYtVideo + "MWaqPOnR5wU",
+        "spotifyId": pathToSpotifyAlbum + "72MmcinutOLOAMic13Edb6",
         "isAGem": false
     },
     {
@@ -4534,6 +4560,45 @@ const albums = [
         "selectedTrackTitle": "Fairhazel Gardens",
         "selectedTrackYtId": pathToYtVideo + "DiiPTWZiJJ0",
         "spotifyId": "",
+        "isAGem": false
+    },
+    {
+        "id": "love_da_capo",
+        "title": "Da Capo",
+        "artist": "Love",
+        "year": 1966,
+        "country": regions.USA,
+        "cover": pathToCovers + "/love_da_capo.jpg",
+        "criteria": [criteria.ODD_RHYTHM, criteria.BAROQUE, criteria.LENGTHY_TRACKS, criteria.ROCK, criteria.SOFT, criteria.JAM, criteria.CRISPY_SIXTIES],
+        "selectedTrackTitle": "Orange Skies",
+        "selectedTrackYtId": pathToYtVideo + "qPFQeFaIpOw",
+        "spotifyId": pathToSpotifyAlbum + "47inaDdXEosHHrQc2nT7aK",
+        "isAGem": false
+    },
+    {
+        "id": "love_forever_changes",
+        "title": "Forever Changes",
+        "artist": "Love",
+        "year": 1967,
+        "country": regions.USA,
+        "cover": pathToCovers + "/love_forever_changes.jpg",
+        "criteria": [criteria.BAROQUE, criteria.FOLK, criteria.SOFT, criteria.CRISPY_SIXTIES],
+        "selectedTrackTitle": "The Red Telephone",
+        "selectedTrackYtId": pathToYtVideo + "NXa8IXvaW0I",
+        "spotifyId": pathToSpotifyAlbum + "6myt0Ez6hGJIPQeZKgY8um",
+        "isAGem": false
+    },
+    {
+        "id": "love_four_sail",
+        "title": "Four Sail",
+        "artist": "Love",
+        "year": 1969,
+        "country": regions.USA,
+        "cover": pathToCovers + "/love_four_sail.jpg",
+        "criteria": [criteria.BAROQUE, criteria.CRISPY_SIXTIES],
+        "selectedTrackTitle": "Nothing",
+        "selectedTrackYtId": pathToYtVideo + "1yw9Wi2Soqs",
+        "spotifyId": pathToSpotifyAlbum + "76ScmtC5mzRPO5QKvkP6J5",
         "isAGem": false
     },
     {
@@ -6549,6 +6614,20 @@ const albums = [
         "selectedTrackYtId": pathToYtVideo + "7CXcMPdVXp4",
         "spotifyId": pathToSpotifyAlbum + "4X87hQ57jTYQTcYTaJWK5w",
         "isAGem": false
+    },
+    {
+        "id": "surprise_assault_on_merryland",
+        "title": "Assault On Merryland",
+        "artist": "Surprise",
+        "year": 1977,
+        "country": regions.USA,
+        "cover": pathToCovers + "/surprise_assault_on_merryland.jpg",
+        "criteria": [criteria.STORYLINE, criteria.SYMPHONIC, criteria.C_ELECTRO, criteria.C_FOLK, criteria.FANTASY, criteria.GLITTER, criteria.HEAVY],
+        "selectedTrackTitle": "The Acrobat Between The Stars",
+        "selectedTrackYtId": pathToYtVideo + "9TBwXA_llX0",
+        "spotifyId": "",
+        "isAGem": true,
+        "description": "TODO"
     },
     {
         "id": "sway_human_carnage",
