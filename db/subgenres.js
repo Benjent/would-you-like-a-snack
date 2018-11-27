@@ -78,6 +78,7 @@ const subgenres = [
             getAlbumById("comus_first_utterance"),
             getAlbumById("tea_and_symphony_jo_sago"),
             getAlbumById("fuchsia_fuchsia"),
+            getAlbumById("love_forever_changes"),
 
         ],
         "criteria": [criteria.FOLK, criteria.FANTASY, criteria.SOFT, criteria.HUMBLE, criteria.C_PSYCHEDELIC, criteria.BAROQUE]
