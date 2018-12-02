@@ -857,6 +857,20 @@ const albums = [
         "isAGem": false
     },
     {
+        "id": "il_baricentro_sconcerto",
+        "title": "Sconcerto",
+        "artist": "Il Baricentro",
+        "year": 1976,
+        "country": regions.ITALY,
+        "cover": pathToCovers + "/il_baricentro_sconcerto.jpg",
+        "criteria": [criteria.ODD_RHYTHM, criteria.JAZZY_GROOVY, criteria.C_JAZZ, criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.SOFT],
+        "selectedTrackTitle": "Sconcerto",
+        "selectedTrackYtId": pathToYtVideo + "Jd14cRO3k_4",
+        "spotifyId": "",
+        "isAGem": true,
+        "description": "TODO"
+    },
+    {
         "id": "be_bop_deluxe_axe_victim",
         "title": "Axe Victim",
         "artist": "Be-Bop Deluxe",
@@ -909,6 +923,19 @@ const albums = [
         "isAGem": false
     },
     {
+        "id": "the_beatles_revolver",
+        "title": "Revolver",
+        "artist": "The Beatles",
+        "year": 1966,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/the_beatles_revolver.jpg",
+        "criteria": [criteria.C_PSYCHEDELIC, criteria.BAROQUE, criteria.CRISPY_SIXTIES],
+        "selectedTrackTitle": "Eleanor Rigby",
+        "selectedTrackYtId": pathToYtVideo + "HuS5NuXRb5Y",
+        "spotifyId": pathToSpotifyAlbum + "3PRoXYsngSwjEQWR5PsHWR",
+        "isAGem": false
+    },
+    {
         "id": "the_beatles_sgt_peppers_lonely_hearts_club_band",
         "title": "Sgt. Pepper's Lonely Hearts Club Band",
         "artist": "The Beatles",
@@ -919,6 +946,19 @@ const albums = [
         "selectedTrackTitle": "A Day In The Life",
         "selectedTrackYtId": pathToYtVideo + "usNsCeOV4GM",
         "spotifyId": pathToSpotifyAlbum + "6QaVfG1pHYl1z15ZxkvVDW",
+        "isAGem": false
+    },
+    {
+        "id": "the_beatles_magical_mystery_tour",
+        "title": "Magical Mystery Tour",
+        "artist": "The Beatles",
+        "year": 1967,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/the_beatles_magical_mystery_tour.jpg",
+        "criteria": [criteria.CONCEPT, criteria.BLENDS, criteria.FUNNY, criteria.FANFARE, criteria.C_PSYCHEDELIC],
+        "selectedTrackTitle": "Strawberry Fields Forever",
+        "selectedTrackYtId": pathToYtVideo + "8UQK-UcRezE",
+        "spotifyId": pathToSpotifyAlbum + "2BtE7qm1qzM80p9vLSiXkj",
         "isAGem": false
     },
     {
@@ -3540,6 +3580,32 @@ const albums = [
         "spotifyId": pathToSpotifyAlbum + "00Uf5PRAinCJ0oiCX1Cv2k",
         "isAGem": false
     },
+    {
+        "id": "herbie_hancock_man_child",
+        "title": "Man-Child",
+        "artist": "Herbie Hancock",
+        "year": 1975,
+        "country": regions.USA,
+        "cover": pathToCovers + "/herbie_hancock_man_child.jpg",
+        "criteria": [criteria.INSTRUMENTAL, criteria.JAM, criteria.SOFT, criteria.C_ELECTRO, criteria.JAZZ, criteria.JAZZY_GROOVY],
+        "selectedTrackTitle": "Bubbles",
+        "selectedTrackYtId": pathToYtVideo + "4uNaOnO876s",
+        "spotifyId": pathToSpotifyAlbum + "5ez9bb1h1hOLV8Wb5YCmkj",
+        "isAGem": false
+    },
+    {
+        "id": "herbie_hancock_secrets",
+        "title": "Secrets",
+        "artist": "Herbie Hancock",
+        "year": 1976,
+        "country": regions.USA,
+        "cover": pathToCovers + "/herbie_hancock_secrets.jpg",
+        "criteria": [criteria.INSTRUMENTAL, criteria.JAM, criteria.SOFT, criteria.C_ELECTRO, criteria.JAZZ, criteria.JAZZY_GROOVY],
+        "selectedTrackTitle": "Gentle Thoughts",
+        "selectedTrackYtId": pathToYtVideo + "JwfsrD792jk",
+        "spotifyId": pathToSpotifyAlbum + "13rwtqLWF1jl1NEDhgbYsw",
+        "isAGem": false
+    },
     // ************************************************************************************ //
     // **************************************** I **************************************** //
     // ********************************************************************************** //
@@ -3964,6 +4030,19 @@ const albums = [
         "selectedTrackTitle": "I Would Find You",
         "selectedTrackYtId": pathToYtVideo + "BS0uwItV9Wc",
         "spotifyId": pathToSpotifyAlbum + "35GpNAlZhihN2jUm7WL7uH",
+        "isAGem": false
+    },
+    {
+        "id": "july_july",
+        "title": "July",
+        "artist": "July",
+        "year": 1968,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/july_july.jpg",
+        "criteria": [criteria.ROCK, criteria.C_PSYCHEDELIC, criteria.CRISPY_SIXTIES],
+        "selectedTrackTitle": "Jolly Mary",
+        "selectedTrackYtId": pathToYtVideo + "YuWpihpk9eA",
+        "spotifyId": "",
         "isAGem": false
     },
     {
@@ -4899,7 +4978,7 @@ const albums = [
         "year": 1972,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/matching_mole_matching_mole.jpg",
-        "criteria": [criteria.ODD_RHYTHM, criteria.C_PSYCHEDELIC, criteria.C_JAZZ],
+        "criteria": [criteria.ODD_RHYTHM, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.TRANSITION, criteria.FUNNY],
         "selectedTrackTitle": "Part Of The Dance",
         "selectedTrackYtId": pathToYtVideo + "7pvk1eIhFeM",
         "spotifyId": pathToSpotifyAlbum + "24Z8SaFvPzP8IE6b1Dzj94",
@@ -4912,7 +4991,7 @@ const albums = [
         "year": 1972,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/matching_mole_little_red_record.jpg",
-        "criteria": [criteria.ODD_RHYTHM, criteria.C_PSYCHEDELIC, criteria.C_JAZZ],
+        "criteria": [criteria.ODD_RHYTHM, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.TRANSITION, criteria.FUNNY, criteria.INSTRUMENTAL],
         "selectedTrackTitle": "Brandy As In Benj",
         "selectedTrackYtId": pathToYtVideo + "3pRLir_Evds",
         "spotifyId": pathToSpotifyAlbum + "0Qwo3GaODDq65v6xKWKqne",
@@ -7598,6 +7677,7 @@ Strawbs
 UFO
 The Who
 */
+// TODO section album covers per designer
 // TODO parse tout le Prog introuvable et renseigner ici
 // TODO faire un from the same artist
 // TODO filter by year

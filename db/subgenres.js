@@ -30,7 +30,8 @@ const subgenres = [
         "albums": [
             getAlbumById("national_health_national_health"),
             getAlbumById("jethro_tull_thick_as_a_brick"),
-            getAlbumById("camel_camel")
+            getAlbumById("camel_camel"),
+            getAlbumById("matching_mole_matching_mole"),
         ],
         "criteria": [criteria.FOLK, criteria.C_FOLK, criteria.C_JAZZ, criteria.JAM, criteria.JAZZY_GROOVY, criteria.SOFT, criteria.FUNNY]
     },
@@ -117,7 +118,8 @@ const subgenres = [
             getAlbumById("return_to_forever_romantic_warrior"),
             getAlbumById("weather_report_black_market"),
             getAlbumById("gong_gazeuse"),
-            getAlbumById("herbie_hancock_thrust")
+            getAlbumById("herbie_hancock_thrust"),
+            getAlbumById("il_baricentro_sconcerto"),
         ],
         "criteria": [criteria.JAZZ, criteria.INSTRUMENTAL, criteria.UNCOMMON_INSTRUMENTS, criteria.JAZZY_GROOVY, criteria.C_ELECTRO, criteria.ODD_RHYTHM, criteria.SOFT]
     },
@@ -217,9 +219,10 @@ const subgenres = [
         "description": "TODO description",
         "mostRepresentativeAlbum": getAlbumById("semiramis_dedicato_a_frazz"),
         "albums": [
-            getAlbumById("ange_au_dela_du_delire")
+            getAlbumById("arti_mestieri_giro_di_valzer_per_domani"),
+            getAlbumById("ange_au_dela_du_delire"),
         ],
-        "criteria": [criteria.MEDIEVAL, criteria.C_JAZZ, criteria.C_FOLK, criteria.ODD_RHYTHM, criteria.FANFARE, criteria.SYMPHONIC, criteria.SPECTACULAR, criteria.BAROQUE]
+        "criteria": [criteria.MEDIEVAL, criteria.C_JAZZ, criteria.C_FOLK, criteria.ODD_RHYTHM, criteria.FANFARE, criteria.SYMPHONIC, criteria.SPECTACULAR, criteria.BAROQUE, criteria.TECHNICAL]
     },
     {
         "name": "Rock",
