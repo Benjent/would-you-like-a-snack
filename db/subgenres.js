@@ -111,6 +111,18 @@ const subgenres = [
         "criteria": [criteria.HEAVY, criteria.ROCK, criteria.JAM, criteria.FANTASY, criteria.ODD_RHYTHM]
     },
     {
+        "name": "Impressionism / Ambient Rock",
+        "description": "TODO description",
+        "mostRepresentativeAlbum": getAlbumById("jade_warrior_waves"),
+        "albums": [
+            getAlbumById("didier_bonin_larbre_verre"),
+            getAlbumById("carlos_santana_and_alice_coltrane_illuminations"),
+            getAlbumById("brave_new_world_impressions_on_reading_aldous_huxley"),
+            getAlbumById("camel_the_snow_goose"),
+        ],
+        "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.AMBIENT, criteria.UNCOMMON_INSTRUMENTS, criteria.LENGTHY_TRACKS, criteria.SOFT]
+    },
+    {
         "name": "Jazz Rock / Jazz Fusion",
         "description": "TODO description",
         "mostRepresentativeAlbum": getAlbumById("frank_zappa_hot_rats"),
@@ -124,7 +136,7 @@ const subgenres = [
         "criteria": [criteria.JAZZ, criteria.INSTRUMENTAL, criteria.UNCOMMON_INSTRUMENTS, criteria.JAZZY_GROOVY, criteria.C_ELECTRO, criteria.ODD_RHYTHM, criteria.SOFT]
     },
     {
-        "name": "New Age / Electronic Ambient",
+        "name": "New Age / Ambient Electronic",
         "description": "TODO description",
         "mostRepresentativeAlbum": getAlbumById("jean_michel_jarre_oxygene"),
         "albums": [

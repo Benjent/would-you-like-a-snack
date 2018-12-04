@@ -929,7 +929,7 @@ const albums = [
         "year": 1966,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/the_beatles_revolver.jpg",
-        "criteria": [criteria.C_PSYCHEDELIC, criteria.BAROQUE, criteria.CRISPY_SIXTIES],
+        "criteria": [criteria.C_PSYCHEDELIC, criteria.BAROQUE, criteria.CRISPY_SIXTIES, criteria.ORIENTAL, criteria.UNCOMMON_INSTRUMENTS, criteria.ROCK],
         "selectedTrackTitle": "Eleanor Rigby",
         "selectedTrackYtId": pathToYtVideo + "HuS5NuXRb5Y",
         "spotifyId": pathToSpotifyAlbum + "3PRoXYsngSwjEQWR5PsHWR",
@@ -955,7 +955,7 @@ const albums = [
         "year": 1967,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/the_beatles_magical_mystery_tour.jpg",
-        "criteria": [criteria.CONCEPT, criteria.BLENDS, criteria.FUNNY, criteria.FANFARE, criteria.C_PSYCHEDELIC],
+        "criteria": [criteria.CONCEPT, criteria.BLENDS, criteria.FUNNY, criteria.FANFARE, criteria.C_PSYCHEDELIC, criteria.SOUND_COLLAGES],
         "selectedTrackTitle": "Strawberry Fields Forever",
         "selectedTrackYtId": pathToYtVideo + "8UQK-UcRezE",
         "spotifyId": pathToSpotifyAlbum + "2BtE7qm1qzM80p9vLSiXkj",
@@ -1970,6 +1970,20 @@ const albums = [
         "isAGem": false
     },
     {
+        "id": "didier_bonin_larbre_verre",
+        "title": "L'arbre Verre",
+        "artist": "Didier Bonin",
+        "year": 1979,
+        "country": regions.FRANCE,
+        "cover": pathToCovers + "/didier_bonin_larbre_verre.jpg",
+        "criteria": [criteria.SYMPHONIC, criteria.C_FOLK, criteria.C_ELECTRO, criteria.LENGTHY_TRACKS, criteria.SOFT, criteria.AMBIENT, criteria.INSTRUMENTAL],
+        "selectedTrackTitle": "L'arbre Verre (Part I)",
+        "selectedTrackYtId": pathToYtVideo + "KJqwcDU4ebA",
+        "spotifyId": "",
+        "isAGem": true,
+        "description": "TODO"
+    },
+    {
         "id": "dominique_guiot_lunivers_de_la_mer",
         "title": "L'univers De La Mer",
         "artist": "Dominique Guiot",
@@ -2467,6 +2481,19 @@ const albums = [
         "selectedTrackTitle": "Still... You Turn Me On",
         "selectedTrackYtId": pathToYtVideo + "_8VHHcd0M_o",
         "spotifyId": pathToSpotifyAlbum + "1wTqdsmCCQQLCQjXZM3H59",
+        "isAGem": false
+    },
+    {
+        "id": "emerson_lake_and_powell_emerson_lake_and_powell",
+        "title": "Emerson, Lake & Powell",
+        "artist": "Emerson, Lake & Powell",
+        "year": 1986,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/emerson_lake_and_powell_emerson_lake_and_powell.jpg",
+        "criteria": [criteria.ELECTRO, criteria.GLITTER, criteria.NEO_EIGHTIES, criteria.SPECTACULAR, criteria.C_JAZZ, criteria.ODD_RHYTHM],
+        "selectedTrackTitle": "The Score",
+        "selectedTrackYtId": pathToYtVideo + "n0Oz9Eqouc4",
+        "spotifyId": pathToSpotifyAlbum + "2YKjFHhp52XE2ot0u2GZsh",
         "isAGem": false
     },
     {
