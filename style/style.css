@@ -362,6 +362,10 @@ header #menu {
   top: 3vh;
 }
 
+header #menu :last-child {
+  border-bottom-right-radius: 25px;
+}
+
 header #menu button {
   width: auto;
   border-right-width: 0;
@@ -371,6 +375,10 @@ header #menu button.button-active {
   color: #030504;
   background: #a18a54;
   pointer-events: none;
+}
+
+header #menu button:first-of-type {
+  border-top-left-radius: 25px;
 }
 
 #albumVue {
@@ -429,6 +437,7 @@ header #menu button.button-active {
 
 #albumVue .buttons #randomButton {
   margin: 0 50px;
+  border-radius: 15px;
 }
 
 #albumVue .content {
@@ -540,6 +549,8 @@ header #menu button.button-active {
   border: solid 3px #a18a54;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  border-radius: 15px;
+  border-bottom-left-radius: 0;
 }
 
 #atticVue {
@@ -594,6 +605,7 @@ header #menu button.button-active {
   width: 100%;
   padding: 5px 10px;
   border: solid 2px #a18a54;
+  border-radius: 15px;
   font-size: 20px;
 }
 
@@ -1013,7 +1025,7 @@ header #menu button.button-active {
 #aboutVue .me-wrapper .me {
   width: 200px;
   border: solid 4px #a18a54;
-  border-radius: 20px;
+  border-radius: 15px;
 }
 
 #aboutVue .me-wrapper .me-description {

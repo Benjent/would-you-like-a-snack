@@ -19,7 +19,7 @@
         .me {
             width: 200px;
             border: solid 4px $gold;
-            border-radius: 20px;
+            border-radius: $borderRadius;
         }
         .me-description {
             display: flex;
