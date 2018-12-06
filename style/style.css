@@ -362,7 +362,7 @@ header #menu {
   top: 3vh;
 }
 
-header #menu :last-child {
+header #menu #searchBar {
   border-bottom-right-radius: 25px;
 }
 

@@ -26,7 +26,7 @@ header {
         display: flex;
         position: relative;
         top: 3vh;
-        :last-child {
+        #searchBar {
             border-bottom-right-radius: 25px;
         }
         button {
