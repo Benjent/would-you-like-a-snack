@@ -2631,6 +2631,19 @@ const albums = [
         "isAGem": false
     },
     {
+        "id": "foehn_faeria",
+        "title": "Faëria",
+        "artist": "Fœhn",
+        "year": 1985,
+        "country": regions.FRANCE,
+        "cover": pathToCovers + "/foehn_faeria.jpg",
+        "criteria": [criteria.INSTRUMENTAL, criteria.FRENCH_SUNG, criteria.SOFT, criteria.JAZZ, criteria.C_ELECTRO, criteria.SOFT_SEVENTIES, criteria.JAZZY_GROOVY],
+        "selectedTrackTitle": "Nomade",
+        "selectedTrackYtId": pathToYtVideo + "rpEh26gFtrI",
+        "spotifyId": "",
+        "isAGem": false
+    },
+    {
         "id": "frank_zappa_freak_out",
         "title": "Freak Out!",
         "artist": "Frank Zappa",
@@ -6933,6 +6946,32 @@ const albums = [
         "selectedTrackTitle": "It Wasn't For You",
         "selectedTrackYtId": pathToYtVideo + "7QC1hQyn8-0",
         "spotifyId": pathToSpotifyAlbum + "0mlj4Hjj145o9dJIc3dm1w",
+        "isAGem": false
+    },
+    {
+        "id": "tontos_expanding_head_band_zero_time",
+        "title": "Zero Time",
+        "artist": "Tonto's Expanding Head Band",
+        "year": 1971,
+        "country": regions.USA,
+        "cover": pathToCovers + "/tontos_expanding_head_band_zero_time.jpg",
+        "criteria": [criteria.ELECTRO, criteria.INSTRUMENTAL, criteria.C_PSYCHEDELIC],
+        "selectedTrackTitle": "Timewhys",
+        "selectedTrackYtId": pathToYtVideo + "NqSrswia1-E",
+        "spotifyId": pathToSpotifyAlbum + "1TIAU6CbjQCF6LJ7uTj7O6",
+        "isAGem": false
+    },
+    {
+        "id": "tontos_expanding_head_band_its_about_time",
+        "title": "It's About Time",
+        "artist": "Tonto's Expanding Head Band",
+        "year": 1974,
+        "country": regions.USA,
+        "cover": pathToCovers + "/tontos_expanding_head_band_its_about_time.jpg",
+        "criteria": [criteria.ELECTRO, criteria.INSTRUMENTAL, criteria.C_PSYCHEDELIC, criteria.SOFT, criteria.UNCOMMON_INSTRUMENTS],
+        "selectedTrackTitle": "The Boatman",
+        "selectedTrackYtId": pathToYtVideo + "R1Bv9UCqbD4",
+        "spotifyId": "",
         "isAGem": false
     },
     {
