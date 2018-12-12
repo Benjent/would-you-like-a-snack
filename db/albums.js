@@ -4,6 +4,19 @@ const albums = [
     // **************************************** A **************************************** //
     // ********************************************************************************** //
     {
+        "id": "abedul_nosotros",
+        "title": "Nosotros",
+        "artist": "Abedul",
+        "year": 1979,
+        "country": regions.SPAIN,
+        "cover": pathToCovers + "/abedul_nosotros.jpg",
+        "criteria": [criteria.SPANISH_SUNG, criteria.GLITTER, criteria.JAZZY_GROOVY, criteria.C_ELECTRO],
+        "selectedTrackTitle": "Impresión",
+        "selectedTrackYtId": pathToYtVideo + "5nuQdTG_9VM",
+        "spotifyId": "",
+        "isAGem": false
+    },
+    {
         "id": "acqua_fragile_acqua_fragile",
         "title": "Acqua Fragile",
         "artist": "Acqua Fragile",
@@ -1982,6 +1995,97 @@ const albums = [
         "spotifyId": "",
         "isAGem": true,
         "description": "TODO"
+    },
+    {
+        "id": "dixie_dregs_the_great_spectacular",
+        "title": "The Great Spectacular",
+        "artist": "Dixie Dregs",
+        "year": 1976,
+        "country": regions.USA,
+        "cover": pathToCovers + "/dixie_dregs_the_great_spectacular.jpg",
+        "criteria": [criteria.JAM, criteria.JAZZY_GROOVY, criteria.C_FOLK, criteria.C_JAZZ, criteria.INSTRUMENTAL],
+        "selectedTrackTitle": "T.O. Witcher",
+        "selectedTrackYtId": pathToYtVideo + "2f5WYEtPaSk",
+        "spotifyId": "",
+        "isAGem": false
+    },
+    {
+        "id": "dixie_dregs_free_fall",
+        "title": "Free Fall",
+        "artist": "Dixie Dregs",
+        "year": 1977,
+        "country": regions.USA,
+        "cover": pathToCovers + "/dixie_dregs_free_fall.jpg",
+        "criteria": [criteria.JAM, criteria.JAZZY_GROOVY, criteria.C_FOLK, criteria.C_JAZZ, criteria.INSTRUMENTAL],
+        "selectedTrackTitle": "Cruise Control",
+        "selectedTrackYtId": pathToYtVideo + "fD9j0VfX7QU",
+        "spotifyId": pathToSpotifyAlbum + "6WtQ7NpP9nZV7cBybTiL4c",
+        "isAGem": false
+    },
+    {
+        "id": "dixie_dregs_what_if",
+        "title": "What If",
+        "artist": "Dixie Dregs",
+        "year": 1978,
+        "country": regions.USA,
+        "cover": pathToCovers + "/dixie_dregs_what_if.jpg",
+        "criteria": [criteria.JAM, criteria.JAZZY_GROOVY, criteria.C_FOLK, criteria.C_JAZZ, criteria.INSTRUMENTAL],
+        "selectedTrackTitle": "Odyssey",
+        "selectedTrackYtId": pathToYtVideo + "QGxKUXxxu4o",
+        "spotifyId": pathToSpotifyAlbum + "0atxEFs8IDbVyULoh7ZSO5",
+        "isAGem": false
+    },
+    {
+        "id": "dixie_dregs_night_of_the_living_dregs",
+        "title": "Night Of The Living Dregs",
+        "artist": "Dixie Dregs",
+        "year": 1979,
+        "country": regions.USA,
+        "cover": pathToCovers + "/dixie_dregs_night_of_the_living_dregs.jpg",
+        "criteria": [criteria.JAM, criteria.JAZZY_GROOVY, criteria.C_FOLK, criteria.C_JAZZ, criteria.INSTRUMENTAL],
+        "selectedTrackTitle": "Long Slow Distance",
+        "selectedTrackYtId": pathToYtVideo + "Z00EnPmQ6Gs",
+        "spotifyId": pathToSpotifyAlbum + "0W7QN7tY0I4g1FqnqD85S5",
+        "isAGem": false
+    },
+    {
+        "id": "dixie_dregs_dregs_of_the_earth",
+        "title": "Dregs Of The Earth",
+        "artist": "Dixie Dregs",
+        "year": 1980,
+        "country": regions.USA,
+        "cover": pathToCovers + "/dixie_dregs_dregs_of_the_earth.jpg",
+        "criteria": [criteria.JAM, criteria.JAZZY_GROOVY, criteria.C_FOLK, criteria.C_JAZZ, criteria.INSTRUMENTAL, criteria.ODD_RHYTHM],
+        "selectedTrackTitle": "Hereafter",
+        "selectedTrackYtId": pathToYtVideo + "AGm4URovuyA",
+        "spotifyId": pathToSpotifyAlbum + "4hAbKjSBpLISpz4Ikt1cj2",
+        "isAGem": false
+    },
+    {
+        "id": "dixie_dregs_unsung_heroes",
+        "title": "Unsung Heroes",
+        "artist": "Dixie Dregs",
+        "year": 1981,
+        "country": regions.USA,
+        "cover": pathToCovers + "/dixie_dregs_unsung_heroes.jpg",
+        "criteria": [criteria.JAM, criteria.JAZZY_GROOVY, criteria.C_FOLK, criteria.C_JAZZ, criteria.INSTRUMENTAL, criteria.ODD_RHYTHM],
+        "selectedTrackTitle": "Divivded We Stand",
+        "selectedTrackYtId": pathToYtVideo + "R0xTQdHZxQg",
+        "spotifyId": pathToSpotifyAlbum + "6QpuasuxcyZRJyilH9NNts",
+        "isAGem": false
+    },
+    {
+        "id": "dixie_dregs_industry_standards",
+        "title": "Unsung Heroes",
+        "artist": "Dixie Dregs",
+        "year": 1982,
+        "country": regions.USA,
+        "cover": pathToCovers + "/dixie_dregs_industry_standards.jpg",
+        "criteria": [criteria.JAM, criteria.JAZZY_GROOVY, criteria.ROCK, criteria.C_FOLK, criteria.C_JAZZ, criteria.INSTRUMENTAL],
+        "selectedTrackTitle": "Vitamin Q",
+        "selectedTrackYtId": pathToYtVideo + "ya6rxcp2mFE",
+        "spotifyId": pathToSpotifyAlbum + "46tkcegUrEPfU1Nl0ElZDC",
+        "isAGem": false
     },
     {
         "id": "dominique_guiot_lunivers_de_la_mer",
@@ -6968,7 +7072,7 @@ const albums = [
         "year": 1974,
         "country": regions.USA,
         "cover": pathToCovers + "/tontos_expanding_head_band_its_about_time.jpg",
-        "criteria": [criteria.ELECTRO, criteria.INSTRUMENTAL, criteria.C_PSYCHEDELIC, criteria.SOFT, criteria.UNCOMMON_INSTRUMENTS],
+        "criteria": [criteria.ELECTRO, criteria.INSTRUMENTAL, criteria.C_PSYCHEDELIC, criteria.SOFT, criteria.UNCOMMON_INSTRUMENTS, criteria.TRANSITION],
         "selectedTrackTitle": "The Boatman",
         "selectedTrackYtId": pathToYtVideo + "R1Bv9UCqbD4",
         "spotifyId": "",
@@ -7757,4 +7861,22 @@ history-related
 ahead-of-its-time
 helped define prog genre/subgenre
 large asset of instruùents
+*/
+
+// TODO designers
+/*
+Dan Pearce (gryphon)
+Patrick Woodroffe (budgie et the sentinel)
+Paul Whitehead (genesis)
+Marcus Keef (black sabb, warhorse)
+Philippe Huart (ange)
+Kim Poor (steve hacket)
+Mark Wilkinson (marillion)
+Hugh Syme (rush)
+Mike Doud (led zep, supertrm)
+Phil Travers (moody blues)
+Tony Wright (traffic)
+Betty Swanwick (genesis)
+Colin Elgie (genesis)
+Anne Marie Anderson (fuchsia caravan)
 */
