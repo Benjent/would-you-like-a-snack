@@ -233,6 +233,7 @@ const subgenres = [
         "albums": [
             getAlbumById("arti_mestieri_giro_di_valzer_per_domani"),
             getAlbumById("ange_au_dela_du_delire"),
+            getAlbumById("banco_del_mutuo_soccorso_darwin"),
         ],
         "criteria": [criteria.MEDIEVAL, criteria.C_JAZZ, criteria.C_FOLK, criteria.ODD_RHYTHM, criteria.FANFARE, criteria.SYMPHONIC, criteria.SPECTACULAR, criteria.BAROQUE, criteria.TECHNICAL]
     },
