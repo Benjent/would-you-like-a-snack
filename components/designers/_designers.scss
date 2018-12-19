@@ -1,0 +1,71 @@
+#designersVue {
+    // display: flex; // Fucks up chrome
+    flex-direction: column;
+    align-items: center;
+    @include vue;
+
+    .designer-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        padding: 40px;
+        margin: 0 auto; // Thx chrome
+
+        .designer-name {
+            font-size: $specialInfoFontSize;
+            padding-bottom: 30px;
+        }
+
+        .border-wrapper {
+            border-top: solid 1px;
+            padding: 0 50px;
+        }
+        .designer-albums {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            .album-wrapper {
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                // height: $albumHeight;
+                // width: $albumHeight;
+                height: auto;
+                font-size: 17px;
+                &:hover {
+                    .album-infos {
+                        opacity: 1;
+                        cursor: pointer;
+                    }
+                }
+                .album-infos {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    height: 100%;
+                    width: 100%;
+                    text-align: center;
+                    background: rgba(0, 0, 0, 0.7);
+                    opacity: 0;
+                    transition: opacity 0.2s;
+                    padding: 5px;
+                    box-sizing: border-box;
+                }
+                .album-cover {
+                    width: 200px;
+                    box-shadow: 0px 0px 500px -50px $gold;
+                    &:hover {
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -3,7 +3,7 @@ Vue.component('subgenres', {
         <section id="subgenresVue">
             <div
                 class="subgenre-wrapper"
-                v-for="subgenre in subgenres">
+                v-for="subgenre in db.subgenres">
 
                 <div class="subgenre-albums">
                     <img
@@ -39,9 +39,9 @@ Vue.component('subgenres', {
             </div>
         </section>
     `,
+    props: ['db'],
     data: function () {
         return {
-            subgenres: subgenres
         }
     }
 })

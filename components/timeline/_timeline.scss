@@ -43,6 +43,8 @@
             margin-right: -$albumYearWidth;
             border: solid $borderThin $gold;
             box-sizing: border-box;
+            border-radius: $borderRadius;
+            border-bottom-left-radius: 0;
         }
     }
 }

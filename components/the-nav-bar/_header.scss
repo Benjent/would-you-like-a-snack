@@ -26,6 +26,9 @@ header {
         display: flex;
         position: relative;
         top: 3vh;
+        #searchBar {
+            border-bottom-right-radius: 25px;
+        }
         button {
             width: auto;
             border-right-width: 0;
@@ -33,6 +36,9 @@ header {
                 color: $black;
                 background: $gold;
                 pointer-events: none;
+            }
+            &:first-of-type {
+                border-top-left-radius: 25px;
             }
             &:last-of-type {
                 // border-right-width: $borderThin; // No need if searchbar is at the end of the menu

@@ -30,7 +30,8 @@ const subgenres = [
         "albums": [
             getAlbumById("national_health_national_health"),
             getAlbumById("jethro_tull_thick_as_a_brick"),
-            getAlbumById("camel_camel")
+            getAlbumById("camel_camel"),
+            getAlbumById("matching_mole_matching_mole"),
         ],
         "criteria": [criteria.FOLK, criteria.C_FOLK, criteria.C_JAZZ, criteria.JAM, criteria.JAZZY_GROOVY, criteria.SOFT, criteria.FUNNY]
     },
@@ -110,6 +111,18 @@ const subgenres = [
         "criteria": [criteria.HEAVY, criteria.ROCK, criteria.JAM, criteria.FANTASY, criteria.ODD_RHYTHM]
     },
     {
+        "name": "Impressionism / Ambient Rock",
+        "description": "TODO description",
+        "mostRepresentativeAlbum": getAlbumById("jade_warrior_waves"),
+        "albums": [
+            getAlbumById("didier_bonin_larbre_verre"),
+            getAlbumById("carlos_santana_and_alice_coltrane_illuminations"),
+            getAlbumById("brave_new_world_impressions_on_reading_aldous_huxley"),
+            getAlbumById("camel_the_snow_goose"),
+        ],
+        "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.AMBIENT, criteria.UNCOMMON_INSTRUMENTS, criteria.LENGTHY_TRACKS, criteria.SOFT]
+    },
+    {
         "name": "Jazz Rock / Jazz Fusion",
         "description": "TODO description",
         "mostRepresentativeAlbum": getAlbumById("frank_zappa_hot_rats"),
@@ -117,12 +130,13 @@ const subgenres = [
             getAlbumById("return_to_forever_romantic_warrior"),
             getAlbumById("weather_report_black_market"),
             getAlbumById("gong_gazeuse"),
-            getAlbumById("herbie_hancock_thrust")
+            getAlbumById("herbie_hancock_thrust"),
+            getAlbumById("il_baricentro_sconcerto"),
         ],
         "criteria": [criteria.JAZZ, criteria.INSTRUMENTAL, criteria.UNCOMMON_INSTRUMENTS, criteria.JAZZY_GROOVY, criteria.C_ELECTRO, criteria.ODD_RHYTHM, criteria.SOFT]
     },
     {
-        "name": "New Age / Electronic Ambient",
+        "name": "New Age / Ambient Electronic",
         "description": "TODO description",
         "mostRepresentativeAlbum": getAlbumById("jean_michel_jarre_oxygene"),
         "albums": [
@@ -217,9 +231,11 @@ const subgenres = [
         "description": "TODO description",
         "mostRepresentativeAlbum": getAlbumById("semiramis_dedicato_a_frazz"),
         "albums": [
-            getAlbumById("ange_au_dela_du_delire")
+            getAlbumById("arti_mestieri_giro_di_valzer_per_domani"),
+            getAlbumById("ange_au_dela_du_delire"),
+            getAlbumById("banco_del_mutuo_soccorso_darwin"),
         ],
-        "criteria": [criteria.MEDIEVAL, criteria.C_JAZZ, criteria.C_FOLK, criteria.ODD_RHYTHM, criteria.FANFARE, criteria.SYMPHONIC, criteria.SPECTACULAR, criteria.BAROQUE]
+        "criteria": [criteria.MEDIEVAL, criteria.C_JAZZ, criteria.C_FOLK, criteria.ODD_RHYTHM, criteria.FANFARE, criteria.SYMPHONIC, criteria.SPECTACULAR, criteria.BAROQUE, criteria.TECHNICAL]
     },
     {
         "name": "Rock",

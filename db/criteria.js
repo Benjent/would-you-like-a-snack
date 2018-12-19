@@ -57,6 +57,7 @@ const criteria = {
 
     // Album era-sound
     CRISPY_SIXTIES: "Crispy 60s sound",
+    GREASY_SEVENTIES: "Greasy early 70s sound",
     SOFT_SEVENTIES: "Soft late 70s sound",
     NEO_EIGHTIES: "Neo 80s sound",
 
@@ -74,6 +75,7 @@ const criteria = {
 
     // Miscellaneous
     UNCOMMON_INSTRUMENTS: "Uncommon instruments",
+    FEMALE: "Female vocals",
     SOUND_COLLAGES: "Uses sound collages",
     ORCHESTRAL_PARTS: "Orchestral parts",
     BAROQUE: "Baroque vibes"
@@ -141,6 +143,7 @@ const criteriaOrder = [
 
     // Album era-sound
     criteria.CRISPY_SIXTIES,
+    criteria.GREASY_SEVENTIES,
     criteria.SOFT_SEVENTIES,
     criteria.NEO_EIGHTIES,
 
@@ -156,7 +159,8 @@ const criteriaOrder = [
 
     // Miscellaneous
     criteria.UNCOMMON_INSTRUMENTS,
+    criteria.FEMALE,
     criteria.SOUND_COLLAGES,
     criteria.ORCHESTRAL_PARTS,
-    criteria.BAROQUE
+    criteria.BAROQUE,
 ]
