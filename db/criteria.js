@@ -75,6 +75,7 @@ const criteria = {
 
     // Miscellaneous
     UNCOMMON_INSTRUMENTS: "Uncommon instruments",
+    FEMALE: "Female vocals",
     SOUND_COLLAGES: "Uses sound collages",
     ORCHESTRAL_PARTS: "Orchestral parts",
     BAROQUE: "Baroque vibes"
@@ -158,7 +159,8 @@ const criteriaOrder = [
 
     // Miscellaneous
     criteria.UNCOMMON_INSTRUMENTS,
+    criteria.FEMALE,
     criteria.SOUND_COLLAGES,
     criteria.ORCHESTRAL_PARTS,
-    criteria.BAROQUE
+    criteria.BAROQUE,
 ]
