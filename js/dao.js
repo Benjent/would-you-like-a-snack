@@ -1,5 +1,6 @@
 // Artists
 const artists = [];
+const designers = {};
 const albumsPerYear = {};
 const albumsPerCountry = {};
 const criteriaOccurences = {};
@@ -14,6 +15,17 @@ for (let i = 0; i < albums.length; i++) {
     // Artists
     if (!artists.includes(albums[i].artist)) {
         artists.push(albums[i].artist);
+    }
+
+    // Designers
+    for (let j = 0; j < albums[i].designers.length; j++) {
+        const designer = albums[i].designers[j];
+        if (!designers[designer]) {
+            designers[designer] = {};
+            designers[designer].name = designer;
+            designers[designer].works = [];
+        }
+        designers[designer].works.push(albums[i]);
     }
 
     // Gems
@@ -85,7 +97,8 @@ const Db = {
     gemsNb: gemsNb,
     albumsSortedByYear: albumsSortedByYear,
     subgenres: subgenres,
-    regions: regions
+    regions: regions,
+    designers: designers
 }
 
 // Other
