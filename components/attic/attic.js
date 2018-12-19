@@ -466,6 +466,14 @@ Vue.component('attic', {
                     "radioFamily": "eraSound"
                 },
                 {
+                    "criterium": this.db.criteria.GREASY_SEVENTIES,
+                    "panel": "Era sound",
+                    "string": "Greasy early 70s",
+                    "checked": false,
+                    "isRadio": true,
+                    "radioFamily": "eraSound"
+                },
+                {
                     "criterium": this.db.criteria.SOFT_SEVENTIES,
                     "panel": "Era sound",
                     "string": "Soft late 70s",
@@ -523,6 +531,13 @@ Vue.component('attic', {
                     "criterium": this.db.criteria.UNCOMMON_INSTRUMENTS,
                     "panel": "Arrangement",
                     "string": "Uncommon instruments",
+                    "checked": false,
+                    "isRadio": false,
+                },
+                {
+                    "criterium": this.db.criteria.FEMALE,
+                    "panel": "Arrangement",
+                    "string": "Female vocals",
                     "checked": false,
                     "isRadio": false,
                 },
