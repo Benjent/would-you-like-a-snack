@@ -84,6 +84,14 @@ for (let [year, obj] of Object.entries(mostUsedCriteriaPerYear)){
     obj.sort(Utils.sortByOccurences);
 }
 
+const designersSortedByCoverNumber = [];
+for (const designer in designers) {
+    designersSortedByCoverNumber.push([designer, designers[designer]]);
+}
+designersSortedByCoverNumber.sort(function(a, b) {
+    return b[1].works.length - a[1].works.length;
+});
+
 // USE THIS OBJECT IN SNACK TO SIMULATE THE DB
 const Db = {
     albums: albums,
@@ -98,7 +106,7 @@ const Db = {
     albumsSortedByYear: albumsSortedByYear,
     subgenres: subgenres,
     regions: regions,
-    designers: designers
+    designers: designersSortedByCoverNumber
 }
 
 // Other
