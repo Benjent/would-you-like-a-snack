@@ -3,7 +3,7 @@ Vue.component('searchbar', {
         <div class="search-wrapper">
             <input
                 id="searchBar"
-                placeholder="Search by album, artist or year..."
+                placeholder="Search by album, artist, designer or year..."
                 v-model="currentSearch"
                 v-on:input="search($event.target.value)">
             <img
@@ -51,7 +51,7 @@ Vue.component('searchbar', {
                 const keyWords = search.split(' ');
                 
                 for(let i = 0; i < this.db.albums.length; i++) {
-                    const album = this.db.albums[i];
+                    const album = JSON.parse(JSON.stringify(this.db.albums[i]));
                     let allKeyWordsMatch = true;
                     
                     // Check for album presence in result
@@ -66,10 +66,22 @@ Vue.component('searchbar', {
                             const albumTitle = album.title.toLowerCase();
                             const artist = album.artist.toLowerCase();
                             const year = album.year.toString();
+                            const designers = album.designers.splice(0);
+                            let isDesignerMatch = false;
+
+                            for(let k = 0; k < designers.length; k++) {
+                                const designer = designers[k].toLowerCase();
+                                if(designer.includes(keyWords[j])) {
+                                    // At least one keyword matches one designer
+                                    isDesignerMatch = true;
+                                    break;
+                                }
+                            }
 
                             if(albumTitle.includes(keyWords[j])
                                 || artist.includes(keyWords[j])
-                                || year.includes(keyWords[j])) {
+                                || year.includes(keyWords[j])
+                                || isDesignerMatch) {
 
                                 // At least one keyword matches
                             } else {

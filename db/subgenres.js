@@ -13,7 +13,7 @@ const subgenres = [
     },
     {
         "name": "Avant-Prog / Experimental",
-        "description": "TODO description",
+        "description": "The boundaries of music of this subgenre are pushed to challenge the listener's mind with unpleasant melodies, sounds, odd vocals, uncommon use of instruments and song destructurations. While the aim of the albums is not to be as enjoyable as usual, albums are overflowed with creativity and specific usage of sounds that design unsettling emotions but disgusting beauty. Avant-Prog was popular in the very late 60's and early 70's as the counterculture movement gained spotlight at this time.",
         "mostRepresentativeAlbum": getAlbumById("henry_cow_legend"),
         "albums": [
             getAlbumById("area_arbeit_macht_frei"),
