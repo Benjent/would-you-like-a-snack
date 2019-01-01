@@ -483,6 +483,35 @@ const albums = [
         "isAGem": false
     },
     {
+        "id": "aquarelle_sous_un_arbre",
+        "title": "Sous Un Arbre",
+        "artist": "Aquarelle",
+        "year": 1977,
+        "country": regions.QUEBEC,
+        "cover": pathToCovers + "/aquarelle_sous_un_arbre.jpg",
+        "criteria": [criteria.C_JAZZ, criteria.INSTRUMENTAL, criteria.UNCOMMON_INSTRUMENTS, criteria.SYMPHONIC, criteria.JAM, criteria.JAZZY_GROOVY, criteria.ART_POP],
+        "selectedTrackTitle": "Françoise",
+        "selectedTrackYtId": pathToYtVideo + "-XvTr31-8Jc",
+        "spotifyId": "",
+        "designers": ["Ariel Borremans", "Louis Legrand"],
+        "isAGem": true,
+        "description": "TODO"
+    },
+    {
+        "id": "aquarelle_live_a_montreux",
+        "title": "Live À Montreux",
+        "artist": "Aquarelle",
+        "year": 1978,
+        "country": regions.QUEBEC,
+        "cover": pathToCovers + "/aquarelle_live_a_montreux.jpg",
+        "criteria": [criteria.LIVE, criteria.C_JAZZ, criteria.INSTRUMENTAL, criteria.FEMALE, criteria.UNCOMMON_INSTRUMENTS, criteria.JAM, criteria.JAZZY_GROOVY],
+        "selectedTrackTitle": "Second Réveil",
+        "selectedTrackYtId": pathToYtVideo + "z14-cnRNWYc",
+        "spotifyId": "",
+        "designers": [],
+        "isAGem": false
+    },
+    {
         "id": "arachnoid_arachnoid",
         "title": "Arachnoïd",
         "artist": "Arachnoïd",
@@ -1282,7 +1311,7 @@ const albums = [
         "year": 1970,
         "country": regions.SCOTLAND,
         "cover": pathToCovers + "/beggars_opera_act_one.jpg",
-        "criteria": [criteria.BAROQUE, criteria.JAM, criteria.SYMPHONIC, criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.FUNNY, criteria.SPECTACULAR],
+        "criteria": [criteria.BAROQUE, criteria.JAM, criteria.SYMPHONIC, criteria.ODD_RHYTHM, criteria.TECHNICAL, criteria.FUNNY, criteria.SPECTACULAR, criteria.GREASY_SEVENTIES],
         "selectedTrackTitle": "Light Cavalry",
         "selectedTrackYtId": pathToYtVideo + "Ya4j0H118Dk",
         "spotifyId": pathToSpotifyAlbum + "4jEST0dVzQf0fktAQdv3Ap",
@@ -1310,13 +1339,27 @@ const albums = [
         "year": 1972,
         "country": regions.SCOTLAND,
         "cover": pathToCovers + "/beggars_opera_pathfinder.jpg",
-        "criteria": [criteria.BAROQUE, criteria.SYMPHONIC],
+        "criteria": [criteria.BAROQUE, criteria.SYMPHONIC, criteria.C_PSYCHEDELIC],
         "selectedTrackTitle": "MacArthur Park",
         "selectedTrackYtId": pathToYtVideo + "IJxyUaPy1gg",
         "spotifyId": pathToSpotifyAlbum + "2mlUZg01eeMUqzOApUvc38",
         "designers": ["Bloomsbury Group", "Peter Goodfellow"],
         "isAGem": true,
         "description": "TODO"
+    },
+    {
+        "id": "beggars_opera_get_your_dog_off_me",
+        "title": "Get Your Dog Off Me!",
+        "artist": "Beggars Opera",
+        "year": 1973,
+        "country": regions.SCOTLAND,
+        "cover": pathToCovers + "/beggars_opera_get_your_dog_off_me.jpg",
+        "criteria": [criteria.BAROQUE, criteria.ROCK, criteria.C_FOLK],
+        "selectedTrackTitle": "Classical Gas",
+        "selectedTrackYtId": pathToYtVideo + "qffjCEdNBCY",
+        "spotifyId": pathToSpotifyAlbum + "4yTh3ywWvevStqgk0W0ud6",
+        "designers": ["Brian Adams", "Pete Brown"],
+        "isAGem": false
     },
     {
         "id": "black_sabbath_black_sabbath",
@@ -4508,6 +4551,34 @@ const albums = [
         "description": "TODO"
     },
     {
+        "id": "jade_warrior_horizen",
+        "title": "Horizen",
+        "artist": "Jade Warrior",
+        "year": 1984,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/jade_warrior_horizen.jpg",
+        "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.SOFT, criteria.ORIENTAL, criteria.AMBIENT, criteria.SPIRITUAL, criteria.C_ELECTRO, criteria.SYMPHONIC],
+        "selectedTrackTitle": "Grey Lake, Red Mountain",
+        "selectedTrackYtId": pathToYtVideo + "cj4NILH-fO8",
+        "spotifyId": "",
+        "designers": [],
+        "isAGem": false
+    },
+    {
+        "id": "jade_warrior_at_peace",
+        "title": "At Peace",
+        "artist": "Jade Warrior",
+        "year": 1989,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/jade_warrior_at_peace.jpg",
+        "criteria": [criteria.CONCEPT, criteria.INSTRUMENTAL, criteria.SOFT, criteria.ORIENTAL, criteria.AMBIENT, criteria.UNCOMMON_INSTRUMENTS, criteria.SPIRITUAL, criteria.ELECTRO, criteria.SOUND_COLLAGES],
+        "selectedTrackTitle": "At Peace",
+        "selectedTrackYtId": pathToYtVideo + "On75rWUd3Xc",
+        "spotifyId": "",
+        "designers": [],
+        "isAGem": false
+    },
+    {
         "id": "jean_michel_jarre_oxygene",
         "title": "Oxygène",
         "artist": "Jean Michel Jarre",
@@ -5431,45 +5502,17 @@ const albums = [
         "isAGem": false
     },
     {
-        "id": "love_da_capo",
-        "title": "Da Capo",
-        "artist": "Love",
-        "year": 1966,
-        "country": regions.USA,
-        "cover": pathToCovers + "/love_da_capo.jpg",
-        "criteria": [criteria.ODD_RHYTHM, criteria.BAROQUE, criteria.LENGTHY_TRACKS, criteria.ROCK, criteria.SOFT, criteria.JAM, criteria.CRISPY_SIXTIES],
-        "selectedTrackTitle": "Orange Skies",
-        "selectedTrackYtId": pathToYtVideo + "qPFQeFaIpOw",
-        "spotifyId": pathToSpotifyAlbum + "47inaDdXEosHHrQc2nT7aK",
-        "designers": ["William S. Harvey"],
-        "isAGem": false
-    },
-    {
         "id": "love_forever_changes",
         "title": "Forever Changes",
         "artist": "Love",
         "year": 1967,
         "country": regions.USA,
         "cover": pathToCovers + "/love_forever_changes.jpg",
-        "criteria": [criteria.BAROQUE, criteria.FOLK, criteria.SOFT, criteria.CRISPY_SIXTIES],
+        "criteria": [criteria.FOLK, criteria.CRISPY_SIXTIES, criteria.SOFT, criteria.BAROQUE],
         "selectedTrackTitle": "The Red Telephone",
         "selectedTrackYtId": pathToYtVideo + "NXa8IXvaW0I",
         "spotifyId": pathToSpotifyAlbum + "6myt0Ez6hGJIPQeZKgY8um",
-        "designers": ["Bob Pepper", "William S. Harvey"],
-        "isAGem": false
-    },
-    {
-        "id": "love_four_sail",
-        "title": "Four Sail",
-        "artist": "Love",
-        "year": 1969,
-        "country": regions.USA,
-        "cover": pathToCovers + "/love_four_sail.jpg",
-        "criteria": [criteria.BAROQUE, criteria.CRISPY_SIXTIES],
-        "selectedTrackTitle": "Nothing",
-        "selectedTrackYtId": pathToYtVideo + "1yw9Wi2Soqs",
-        "spotifyId": pathToSpotifyAlbum + "76ScmtC5mzRPO5QKvkP6J5",
-        "designers": ["William S. Harvey", "Peter Schaumann"],
+        "designers": ["William S. Harvey", "Bob Pepper"],
         "isAGem": false
     },
     {
@@ -8693,7 +8736,6 @@ function getAlbumById(id) {
 // Below is the list of prog artists that I listened and should be part of this project
 // TODO fill some discographies of artists that are already here
 /*  
-The allman brothers band sur l'album Win, Lose or Draw a High Falls
 Can   
 Curved Air
 Delirium    
@@ -8718,7 +8760,6 @@ Strawbs
 UFO
 The Who
 */
-// TODO section album covers per designer
 // TODO parse tout le Prog introuvable et renseigner ici
 // TODO faire un from the same artist
 // TODO filter by year

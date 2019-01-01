@@ -4,16 +4,17 @@ Vue.component('designers', {
         
             <div
                 class="designer-wrapper"
-                v-for="designer in db.designers">
+                v-for="designer in db.designers"
+                v-if="designer[1].works.length > 1">
 
-                <span class="designer-name">{{designer.name}}</span>
+                <span class="designer-name">{{designer[1].name}}</span>
 
                 <div class="border-wrapper">
 
                     <div class="designer-albums">
                         <div
                             class="album-wrapper"
-                            v-for="album in designer.works"
+                            v-for="album in designer[1].works"
                             v-bind:album-id="album.id"
                             v-on:click="$emit('album-click', album)">
 

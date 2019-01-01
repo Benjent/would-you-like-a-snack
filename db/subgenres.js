@@ -145,7 +145,8 @@ const subgenres = [
             getAlbumById("ralph_lundsten_alpha_ralpha_boulevard"),
             getAlbumById("anna_sjalv_tredje_tussilago_fanfara"),
             getAlbumById("vangelis_beaubourg"),
-            getAlbumById("pythagoras_journey_to_the_vast_unknown")
+            getAlbumById("jade_warrior_at_peace"),
+            getAlbumById("pythagoras_journey_to_the_vast_unknown"),
         ],
         "criteria": [criteria.ELECTRO, criteria.AMBIENT, criteria.EXPERIMENTAL, criteria.INSTRUMENTAL, criteria.SOFT, criteria.C_PSYCHEDELIC, criteria.SCI_FI, criteria.SOUND_COLLAGES]
     },
