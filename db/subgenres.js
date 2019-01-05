@@ -36,6 +36,15 @@ const subgenres = [
         "criteria": [criteria.FOLK, criteria.C_FOLK, criteria.C_JAZZ, criteria.JAM, criteria.JAZZY_GROOVY, criteria.SOFT, criteria.FUNNY]
     },
     {
+        "name": "Classical",
+        "description": "TODO description",
+        "mostRepresentativeAlbum": getAlbumById("beggars_opera_act_one"),
+        "albums": [
+            getAlbumById("the_nice_ars_longa_vita_brevis"),
+        ],
+        "criteria": [criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.ODD_RHYTHM, criteria.ORCHESTRAL_PARTS, criteria.FANFARE, criteria.SYMPHONIC, criteria.BAROQUE, criteria.SPECTACULAR]
+    },
+    {
         "name": "Eclectic",
         "description": "TODO description",
         "mostRepresentativeAlbum": getAlbumById("gentle_giant_acquiring_the_taste"),

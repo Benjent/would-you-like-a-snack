@@ -13,6 +13,7 @@ const regions = {
     GREECE: "Greece",
     INDIA: "India",
     NETHERLANDS: "Netherlands",
+    NORTHERN_IRELAND: "Northern Ireland",
     QUEBEC: "Québec",
     SCOTLAND: "Scotland",
     SOUTH_AFRICA: "South Africa",

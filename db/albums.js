@@ -6290,7 +6290,7 @@ const albums = [
         "year": 1968,
         "country": regions.UK,
         "cover": pathToCovers + "/the_nice_ars_longa_vita_brevis.jpg",
-        "criteria": [criteria.BAROQUE, criteria.CRISPY_SIXTIES, criteria.HEAVY, criteria.SPECTACULAR, criteria.C_PSYCHEDELIC, criteria.SYMPHONIC, criteria.FUNNY, criteria.LENGTHY_TRACKS, criteria.JAM],
+        "criteria": [criteria.BAROQUE, criteria.CRISPY_SIXTIES, criteria.HEAVY, criteria.SPECTACULAR, criteria.C_PSYCHEDELIC, criteria.SYMPHONIC, criteria.FUNNY, criteria.LENGTHY_TRACKS, criteria.JAM, criteria.ORCHESTRAL_PARTS],
         "selectedTrackTitle": "Ars Longa Vita Brevis",
         "selectedTrackYtId": pathToYtVideo + "TC9cJLHeO00",
         "spotifyId": pathToSpotifyAlbum + "3ygsp68ybDKo4jrwBMLrLA",
@@ -7650,6 +7650,34 @@ const albums = [
         "selectedTrackYtId": pathToYtVideo + "Z8qyuL_wpXQ",
         "spotifyId": pathToSpotifyAlbum + "6r7XlOEXPFtVrJy4mTi0eP",
         "designers": ["Hildebrandt"],
+        "isAGem": false
+    },
+    {
+        "id": "stud_stud",
+        "title": "Stud",
+        "artist": "Stud",
+        "year": 1971,
+        "country": regions.NORTHERN_IRELAND,
+        "cover": pathToCovers + "/stud_stud.jpg",
+        "criteria": [criteria.C_FOLK, criteria.JAM, criteria.INSTRUMENTAL, criteria.JAZZY_GROOVY],
+        "selectedTrackTitle": "Horizon",
+        "selectedTrackYtId": pathToYtVideo + "cqCWn9FV-84",
+        "spotifyId": pathToSpotifyAlbum + "6r7XlOEXPFtVrJy4mTi0eP",
+        "designers": ["Anne Marie Anderson"],
+        "isAGem": false
+    },
+    {
+        "id": "stud_september",
+        "title": "September",
+        "artist": "Stud",
+        "year": 1972,
+        "country": regions.NORTHERN_IRELAND,
+        "cover": pathToCovers + "/stud_september.jpg",
+        "criteria": [criteria.FOLK, criteria.JAM, criteria.JAZZY_GROOVY, criteria.SOFT],
+        "selectedTrackTitle": "Samurai",
+        "selectedTrackYtId": pathToYtVideo + "j72O14jFDGQ",
+        "spotifyId": "",
+        "designers": [],
         "isAGem": false
     },
     {
