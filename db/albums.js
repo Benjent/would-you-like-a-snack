@@ -1362,6 +1362,20 @@ const albums = [
         "isAGem": false
     },
     {
+        "id": "beggars_opera_sagittary",
+        "title": "Sagittary",
+        "artist": "Beggars Opera",
+        "year": 1974,
+        "country": regions.SCOTLAND,
+        "cover": pathToCovers + "/beggars_opera_sagittary.jpg",
+        "criteria": [criteria.BAROQUE, criteria.C_ELECTRO, criteria.ROCK],
+        "selectedTrackTitle": "Simplicity",
+        "selectedTrackYtId": pathToYtVideo + "7-d_DkFWXO0",
+        "spotifyId": pathToSpotifyAlbum + "46UG4YCjgl6CrWMCrvYvTI",
+        "designers": ["Mouche"],
+        "isAGem": false
+    },
+    {
         "id": "black_sabbath_black_sabbath",
         "title": "Black Sabbath",
         "artist": "Black Sabbath",
@@ -2004,6 +2018,20 @@ const albums = [
         "designers": ["Michael Wood", "Retina Circus"],
         "isAGem": true,
         "description": "TODO"
+    },
+    {
+        "id": "carlos_santana_and_john_mclaughlin_love_devotion_surrender",
+        "title": "Love Devotion Surrender",
+        "artist": "Carlos Santana & John McLaughlin",
+        "year": 1973,
+        "country": regions.USA,
+        "cover": pathToCovers + "/carlos_santana_and_john_mclaughlin_love_devotion_surrender.jpg",
+        "criteria": [criteria.INSTRUMENTAL, criteria.LENGTHY_TRACKS, criteria.ORIENTAL, criteria.SPIRITUAL, criteria.JAM, criteria.TECHNICAL, criteria.C_JAZZ],
+        "selectedTrackTitle": "The Life Divine",
+        "selectedTrackYtId": pathToYtVideo + "vmM2qXDS9wc",
+        "spotifyId": pathToSpotifyAlbum + "3tWbGgFyhyPsRcAWhZDb7p",
+        "designers": ["Ashok"],
+        "isAGem": false
     },
     {
         "id": "carmen_fandagos_in_space",
@@ -6242,6 +6270,34 @@ const albums = [
         "isAGem": false
     },
     {
+        "id": "the_nice_the_thoughts_of_emerlist_davjack",
+        "title": "The Thoughts Of Emerlist Davjack",
+        "artist": "The Nice",
+        "year": 1967,
+        "country": regions.UK,
+        "cover": pathToCovers + "/the_nice_the_thoughts_of_emerlist_davjack.jpg",
+        "criteria": [criteria.BAROQUE, criteria.CRISPY_SIXTIES, criteria.HEAVY, criteria.SPECTACULAR, criteria.C_PSYCHEDELIC, criteria.SYMPHONIC],
+        "selectedTrackTitle": "The Cry Of Eugene",
+        "selectedTrackYtId": pathToYtVideo + "A6KARjX8NWc",
+        "spotifyId": pathToSpotifyAlbum + "3PTutcLYaYrk2G71tKIVCL",
+        "designers": ["Derek Burton", "Gered Mankowitz"],
+        "isAGem": false
+    },
+    {
+        "id": "the_nice_ars_longa_vita_brevis",
+        "title": "Ars Longa Vita Brevis",
+        "artist": "The Nice",
+        "year": 1968,
+        "country": regions.UK,
+        "cover": pathToCovers + "/the_nice_ars_longa_vita_brevis.jpg",
+        "criteria": [criteria.BAROQUE, criteria.CRISPY_SIXTIES, criteria.HEAVY, criteria.SPECTACULAR, criteria.C_PSYCHEDELIC, criteria.SYMPHONIC, criteria.FUNNY, criteria.LENGTHY_TRACKS, criteria.JAM],
+        "selectedTrackTitle": "Ars Longa Vita Brevis",
+        "selectedTrackYtId": pathToYtVideo + "TC9cJLHeO00",
+        "spotifyId": pathToSpotifyAlbum + "3ygsp68ybDKo4jrwBMLrLA",
+        "designers": ["Gered Mankowitz"],
+        "isAGem": false
+    },
+    {
         "id": "nightwinds_nightwinds",
         "title": "Nightwinds",
         "artist": "Nightwinds",
@@ -8760,6 +8816,7 @@ Strawbs
 UFO
 The Who
 */
+// TODO use VueX/Store for selected album and view
 // TODO parse tout le Prog introuvable et renseigner ici
 // TODO faire un from the same artist
 // TODO filter by year
@@ -8778,32 +8835,10 @@ large asset of instruments
 // TODO designers
 // TODO refact this, just add a field for each album, containing an array of designers and loop over it in vue
 /*
-{
-        "name": "John Pasche",
-        "picture": pathToDesignerPictures + "todo",
-        "works": [
-            // the who et isotope
-        ]
-    },
-    {
-        "name": "Storm Thorgerson (Hipgnosis collective)",
-        "picture": pathToDesignerPictures + "todo",
-        "works": [
-            // ufo
-        ]
-    }
-    // {
-    //     "name": "Stanley Mouse Miller",
-    //     "picture": pathToDesignerPictures + "todo",
-    //     "works": [
-    //         getAlbumById("todo")
-    //     ]
-    // },
-Patrick Woodroffe (budgie et the sentinel)
+Stanley Mouse Miller
+John Pasche(the who, isotope)
+Patrick Woodroffe (the sentinel)
 Kim Poor (steve hacket)
 Hugh Syme (rush)
-Mike Doud (led zep, supertrm)
 Tony Wright (traffic)
-Betty Swanwick (genesis)
-Colin Elgie (genesis)
 */
