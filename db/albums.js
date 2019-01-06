@@ -8844,6 +8844,8 @@ Strawbs
 UFO
 The Who
 */
+// TODO fix search by designer case-sensitive
+// TODO fix album view arrow not clickable cause no width or height
 // TODO use VueX/Store for selected album and view
 // TODO parse tout le Prog introuvable et renseigner ici
 // TODO faire un from the same artist

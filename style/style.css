@@ -528,27 +528,19 @@ button:hover {
       align-self: center;
 }
 
-#albumVue .buttons .arrow-wrapper {
-  height: 50px;
-  width: 50px;
-}
-
-#albumVue .buttons .arrow-wrapper:hover {
+#albumVue .buttons .arrowWrapper:hover {
   border-radius: 50%;
-}
-
-#albumVue .buttons .arrow-wrapper .arrow {
-  height: 100%;
-  width: 100%;
-}
-
-#albumVue .buttons .arrow-wrapper .arrow:hover {
   cursor: pointer;
 }
 
-#albumVue .buttons .arrow-wrapper .arrow-next {
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+#albumVue .buttons .arrowWrapper .arrow--previous {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+#albumVue .buttons .arrowWrapper .arrow--next {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
 }
 
 #albumVue .buttons #randomButton {

@@ -3,13 +3,13 @@ Vue.component('album', {
         <section id="albumVue">
             <div class="buttons">
 
-                <div class="arrow-wrapper">
-                    <img
-                        class="arrow arrow-previous"
+                <div class="arrowWrapper">
+                    <arrow
+                        class="arrow--previous"
                         v-if="previousAlbum"
                         v-bind:album-id="previousAlbum.id"
-                        v-on:click="$emit('album-click', previousAlbum)"
-                        v-bind:src=arrowPath alt="">
+                        v-on:click="$emit('album-click', previousAlbum)">
+                    </arrow>
                 </div>
 
                 <button
@@ -18,13 +18,13 @@ Vue.component('album', {
                     Surprise me
                 </button>
 
-                <div class="arrow-wrapper">
-                    <img
-                        class="arrow arrow-next"
+                <div class="arrowWrapper">
+                    <arrow
+                        class="arrow--next"
                         v-if="nextAlbum"
                         v-bind:album-id="nextAlbum.id"
-                        v-on:click="$emit('album-click', nextAlbum)"
-                        v-bind:src=arrowPath alt="">
+                        v-on:click="$emit('album-click', nextAlbum)">
+                    </arrow>
                 </div>
             </div>
 

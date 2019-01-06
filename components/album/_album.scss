@@ -11,25 +11,18 @@
         align-items: center;
         align-self: center;
 
-        .arrow-wrapper {
+        .arrowWrapper {
             // Arrow wrapper is needed to always center even if an arrow is missing
-            height: 50px;
-            width: 50px;
-            // @include button;
             &:hover {
                 // Workaround because we load an img not directly an svg element
                 border-radius: 50%;
-                // @include button-hover;
+                cursor: pointer;
             }
-            .arrow {
-                height: 100%;
-                width: 100%;
-                &:hover {
-                    cursor: pointer;
-                }
+            .arrow--previous {
+                transform: rotate(-90deg);
             }
-            .arrow-next {
-                transform: rotate(180deg);
+            .arrow--next {
+                transform: rotate(90deg);
             }
         }
 
