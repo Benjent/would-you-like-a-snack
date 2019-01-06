@@ -7,11 +7,12 @@ Vue.component('searchbar', {
                 placeholder="Search by album, artist, designer or year..."
                 v-model="currentSearch"
                 v-on:input="search($event.target.value)">
-            <img
+            <div
                 class="searchBar__reset"
                 v-on:click="resetSearch"
                 v-if="currentSearch"
                 v-bind:src="crossPath">
+            </div>
             <div
                 class="searchBar__result"
                 v-if="matchingAlbums.length > 0">

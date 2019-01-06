@@ -11,9 +11,6 @@ Vue.component('about', {
                         v-bind:src="mePath">
                     <div class="me-description">
                         <span>The face of a sane man</span>
-                        <img
-                            class="arrow"
-                            v-bind:src="arrowPath">
                     </div>
                 </div>
                 

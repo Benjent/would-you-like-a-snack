@@ -30,13 +30,32 @@ $borderRadius: 30px;
     }
 
     &__reset {
+        $crossSize: 26px;
         position: absolute;
-        top: 33px;
-        right: 18px;
-        width: 35px;
-        height: 35px;
-        align-self: end;
-        cursor: pointer;
+        right: $crossSize;
+        top: 38px;
+        width: $crossSize;
+        height: $crossSize;
+        // opacity: 0.3;
+        &:hover {
+            opacity: 1;
+            cursor: pointer;
+        }
+        &:before, &:after {
+            content: '';
+            position: absolute;
+            left: 12px;
+            height: 22px;
+            width: 2px;
+            background-color: $primary;
+        }
+        &:before {
+            transform: rotate(45deg);
+        }
+        &:after {
+            transform: rotate(-45deg);
+        }
+          
     }
 
     &__result {
