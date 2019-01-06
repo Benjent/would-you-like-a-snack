@@ -1,6 +1,6 @@
 Vue.component('gems', {
     template: `
-        <section id="gemsVue">
+        <section id="gemsVue" data-simplebar>
             <div
                 class="album-wrapper"
                 v-for="album in db.albumsSortedByYear"

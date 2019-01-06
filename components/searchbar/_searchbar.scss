@@ -1,64 +1,91 @@
-.search-wrapper {
-    $searchBarWidth: 300px;
-    position: relative;
+$searchBarWidth: 300px;
+$borderRadius: 30px;
+
+.searchBar {
     // Fix flex display bug in most browsers
     display: flex;
     flex-direction: column;
-    // max-height: 500px;
-    #searchBar {
+    height: 40px;
+
+    background: $secondary;
+    color: $primary;
+
+    border-bottom: solid 1px $primary;
+    &__input {
         width: $searchBarWidth;
-        box-sizing: border-box;
         height: 100%;
-        font-size: $mainFontSizeSmall;
-        background: linear-gradient($black 10%, $ocean 90%);
-        border: solid $borderThin $gold;
+
+        box-sizing: border-box;
+        
         padding: 5px 10px;
-        color: $gold;
+        // border: solid 2px $primary;
+        // border-top-left-radius: $borderRadius;
+        // border-top-right-radius: $borderRadius;
+        
+        font-size: $mainFontSizeSmall;
+        
+        &:empty {
+            // border-radius: $borderRadius;
+        }
     }
 
-    #resetSearch {
+    &__reset {
         position: absolute;
-        top: 10px;
-        right: 5px;
-        cursor: pointer;
+        top: 33px;
+        right: 18px;
         width: 35px;
         height: 35px;
         align-self: end;
+        cursor: pointer;
     }
 
-    #searchResult {
-        // height: 100%; 
-        max-height: 300px;               
-        width: $searchBarWidth;
-        box-sizing: border-box;
-        position: absolute;
-        top: 50px;
-        z-index: 5;
-        background: $black;
-        overflow-x: hidden;
-        overflow-y: auto;
-        border: solid $borderThin $gold;
-        // padding-right: 20px;
-        font-size: $mainFontSizeSmall;
+    &__result {
+        position: relative;
+        // top: 1px;
+        top: 11px;
+    }
+}
 
-        .search-result-item {
-            display: flex;
-            align-items: center;
-            &:hover {
-                cursor: pointer;
-                background: $gold;
-                color: $black;
-            }
-            .album-cover {
-                width: 30px;
-                height: 30px;
-                margin-right: 5px;
-            }
-            .album-title {
-                white-space: nowrap;
-                text-overflow: ellipsis;
-                overflow-x: hidden;
-            }
+.searchResult {
+    // height: 100%; 
+    max-height: 300px;               
+    width: $searchBarWidth;
+    box-sizing: border-box;
+    position: absolute;
+    // top: 50px;
+    z-index: 5;
+    background: $secondary;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border: solid 2px $primary;
+    border-top: none;
+    // padding-right: 20px;
+    font-size: $mainFontSizeSmall;
+    border-bottom-left-radius: $borderRadius;
+    border-bottom-right-radius: $borderRadius;
+    &__item {
+        display: flex;
+        align-items: center;
+        &:hover {
+            cursor: pointer;
+            background: $primary;
+            color: $black;
         }
+    }
+}
+
+.albumLine {
+    display: flex;
+    &__cover {
+        // width: 30px;
+        // height: 30px;
+        width: 36px;
+        height: 36px;
+        margin-right: 5px;
+    }
+    &__title {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow-x: hidden;
     }
 }

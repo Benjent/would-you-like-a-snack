@@ -1,6 +1,6 @@
 Vue.component('subgenres', {
     template: `
-        <section id="subgenresVue">
+        <section id="subgenresVue" data-simplebar>
             <div
                 class="subgenre-wrapper"
                 v-for="subgenre in db.subgenres">

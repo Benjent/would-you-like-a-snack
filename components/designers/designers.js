@@ -1,6 +1,6 @@
 Vue.component('designers', {
     template: `
-        <section id="designersVue">
+        <section id="designersVue" data-simplebar>
         
             <div
                 class="designer-wrapper"

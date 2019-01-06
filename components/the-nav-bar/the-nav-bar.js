@@ -1,66 +1,70 @@
 Vue.component('the-nav-bar', {
     template: `
-        <header>
+        <header class="header">
 
             <h1
-                id="snackHeader"
+                class="header__headline"
                 v-on:click="$emit('set-current-vue', 'album')">
                 Would you like a snack
             </h1>
 
-            <div id="menu">
-                <button
-                    id="atticButton"
-                    v-bind:class="{'button-active': currentVue == 'attic'}"
-                    v-on:click="$emit('set-current-vue', 'attic')">
-                    What's in the attic
-                </button>
-                <button
-                    id="gemsButton"
-                    v-bind:class="{'button-active': currentVue == 'gems'}"
-                    v-on:click="$emit('set-current-vue', 'gems')">
-                    Absolute gems
-                </button>
-                <button
-                    id="subgenresButton"
-                    v-bind:class="{'button-active': currentVue == 'subgenres'}"
-                    v-on:click="$emit('set-current-vue', 'subgenres')">
-                    Subgenres
-                </button>
-                <button
-                    id="designersButton"
-                    v-bind:class="{'button-active': currentVue == 'designers'}"
-                    v-on:click="$emit('set-current-vue', 'designers')">
-                    Designers
-                </button>
-                <button
-                    id="statsButton"
-                    v-bind:class="{'button-active': currentVue == 'stats'}"
-                    v-on:click="$emit('set-current-vue', 'stats')">
-                    Stats
-                </button>
-                <button
-                    id="aboutButton"
-                    v-bind:class="{'button-active': currentVue == 'about'}"
-                    v-on:click="$emit('set-current-vue', 'about')">
-                    About the project
-                </button>
+            <div class="header__menu">
 
-                <searchbar
-                    v-bind:db="db"
-                    v-on:album-click="handleSearchbarAlbumClick">
-                </searchbar>
+                <div class="menu">
+                    <div
+                        class="menu__button"
+                        :class="{'menu__button--active': currentVue == item.id}"
+                        v-for="item in menuDefinition"
+                        v-on:click="$emit('set-current-vue', item.id)">
+                        
+                        <div class="text">{{item.text}}</div>
+                        <arrow v-if="currentVue == item.id"></arrow>
+                        
+                    </div>
+                </div>
+
             </div>
-            <div id="spinningVinylWrapper">
-                <img
-                    class="spinning-vinyl spinning"
-                    :src="vinylPath"/>
-            </div>
+
+            <searchbar
+                class="header__searchbar"
+                v-bind:db="db"
+                v-on:album-click="handleSearchbarAlbumClick">
+            </searchbar>
         </header> 
     `,
     props: ['currentVue', 'db'],
     data: function () {
         return {
+            menuDefinition: {
+                attic: {
+                    id: "attic",
+                    text: "What's in the attic"
+                },
+                discographies: {
+                    id: "discographies",
+                    text: "Discographies"
+                },
+                gems: {
+                    id: "gems",
+                    text: "Gems"
+                },
+                subgenres: {
+                    id: "subgenres",
+                    text: "Subgenres"
+                },
+                designers: {
+                    id: "designers",
+                    text: "Designers"
+                },
+                stats: {
+                    id: "stats",
+                    text: "Stats"
+                },
+                about: {
+                    id: "about",
+                    text: "About the project"
+                }
+            }
         }
     },
     methods: {

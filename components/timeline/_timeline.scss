@@ -8,15 +8,15 @@
     overflow-y: hidden;
     position: fixed;
     bottom: 0;
-    // border-top: solid $borderThick $gold;
+    // border-top: solid $borderThick $primary;
     // cursor: grab;
     .album-wrapper {
         display: contents;
         .album-placeholder {
             height: $timelineHeight;
             width: $timelineHeight;
-            background: $gold;
-            border-top: solid $borderThick $gold;
+            background: $primary;
+            border-top: solid $borderThick $primary;
             margin-top: 20px;
             display: block;
             .album-cover {
@@ -36,12 +36,12 @@
             text-align: center;
             z-index: 1;
             background: $black;
-            color: $gold;
+            color: $primary;
             padding: 5px 20px;
             display: table;
             width: $albumYearWidth;
             margin-right: -$albumYearWidth;
-            border: solid $borderThin $gold;
+            border: solid $borderThin $primary;
             box-sizing: border-box;
             border-radius: $borderRadius;
             border-bottom-left-radius: 0;

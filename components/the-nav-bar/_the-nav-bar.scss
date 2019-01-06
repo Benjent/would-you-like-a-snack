@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    height: 100px;
+    width: 100vw;
+    
+    background: $secondary;
+    border-bottom: solid 2px $primary;
+    padding: 0 20px;
+    box-sizing: border-box;
+
+    &__headline {
+        font-size: 30px;
+        // margin: 10px 0 -10px 0;
+        cursor: pointer;
+    }
+
+    &__menu {
+        height: 100%;
+        font-size: 20px;
+    }
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    &__button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+        margin: 0 20px;
+        &:hover {
+            cursor: pointer;
+        }
+        &--active {
+            // color: $black;
+            // background: $primary;
+            pointer-events: none;
+        }
+        .text {
+            padding-top: 30px;
+        }
+    }
+}

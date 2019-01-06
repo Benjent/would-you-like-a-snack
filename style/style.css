@@ -47,8 +47,8 @@ select::-moz-focus-inner {
   bottom: 0;
   height: 5px;
   width: 200px;
-  background: #fff;
-  border: 1px solid #a18a54;
+  background: #fff8f8;
+  border: 1px solid #d6be94;
   overflow: hidden;
 }
 
@@ -68,7 +68,7 @@ select::-moz-focus-inner {
   right: 100%;
   height: 100%;
   width: 100%;
-  background: #a18a54;
+  background: #d6be94;
 }
 
 .pace.pace-inactive {
@@ -79,12 +79,17 @@ select::-moz-focus-inner {
   opacity: 0;
 }
 
+.simplebar-scrollbar::before {
+  background: #d6be94 !important;
+  opacity: 1 !important;
+}
+
 a {
-  color: #d7e4da;
+  color: #375456;
 }
 
 a:hover, a:focus {
-  color: #d7e4da;
+  color: #375456;
 }
 
 @-webkit-keyframes GradientWave {
@@ -106,16 +111,16 @@ a:hover, a:focus {
 }
 
 button {
-  background: #030504;
+  background: #375456;
   background-size: 400%;
-  border: solid 3px #a18a54;
+  border: solid 3px #d6be94;
   padding: 5px 20px;
   display: block;
 }
 
 button:hover {
   cursor: pointer;
-  background: linear-gradient(141deg, #030504 0%, #1c3a3e 70%, #674e47 90%);
+  background: linear-gradient(141deg, #375456 0%, #375456 70%, #674e47 90%);
   background-size: 250%;
   background-position: 100%;
   -webkit-animation: GradientWave 0.2s ease;
@@ -132,8 +137,8 @@ button:hover {
 .select-wrapper select {
   width: 100%;
   padding: 5px 10px;
-  border: solid 2px #a18a54;
-  background: #030504;
+  border: solid 2px #d6be94;
+  background: #375456;
   font-size: 20px;
 }
 
@@ -145,7 +150,7 @@ button:hover {
   right: 30px;
   width: 10px;
   height: 10px;
-  border: solid 2px #a18a54;
+  border: solid 2px #d6be94;
   border-left: none;
   border-top: none;
   -webkit-transform: rotate(45deg);
@@ -201,6 +206,25 @@ button:hover {
           filter: grayscale(20%);
 }
 
+.arrow {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid #d6be94;
+}
+
+.arrow .arrow__inside {
+  width: 0;
+  height: 0;
+  border-left: 18px solid transparent;
+  border-right: 18px solid transparent;
+  border-bottom: 18px solid #375456;
+  position: relative;
+  right: 18px;
+  top: 4px;
+}
+
 .checkbox-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -220,7 +244,7 @@ button:hover {
   height: 25px;
   width: 25px;
   background: #030504;
-  border: solid 2px #a18a54;
+  border: solid 2px #d6be94;
   margin-right: 10px;
 }
 
@@ -229,23 +253,22 @@ button:hover {
 }
 
 .checkbox-wrapper.checked .checkbox-slot {
-  background: #a18a54;
+  background: #d6be94;
 }
 
 .checkbox-wrapper:hover .checkbox-slot {
-  background: linear-gradient(141deg, #1c3a3e 10%, #674e47 90%);
+  background: linear-gradient(141deg, #375456 10%, #674e47 90%);
 }
 
 .checkbox-wrapper.checked:hover .checkbox-slot {
-  background: #a18a54;
+  background: #d6be94;
 }
 
 .checkbox-wrapper label {
   cursor: pointer;
 }
 
-.search-wrapper {
-  position: relative;
+.searchBar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -253,49 +276,56 @@ button:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  height: 40px;
+  background: #375456;
+  color: #d6be94;
+  border-bottom: solid 1px #d6be94;
 }
 
-.search-wrapper #searchBar {
+.searchBar__input {
   width: 300px;
+  height: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  height: 100%;
-  font-size: 20px;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #030504), color-stop(90%, #1c3a3e));
-  background: linear-gradient(#030504 10%, #1c3a3e 90%);
-  border: solid 3px #a18a54;
   padding: 5px 10px;
-  color: #a18a54;
+  font-size: 20px;
 }
 
-.search-wrapper #resetSearch {
+.searchBar__reset {
   position: absolute;
-  top: 10px;
-  right: 5px;
-  cursor: pointer;
+  top: 33px;
+  right: 18px;
   width: 35px;
   height: 35px;
   -ms-flex-item-align: end;
       -ms-grid-row-align: end;
       align-self: end;
+  cursor: pointer;
 }
 
-.search-wrapper #searchResult {
+.searchBar__result {
+  position: relative;
+  top: 11px;
+}
+
+.searchResult {
   max-height: 300px;
   width: 300px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   position: absolute;
-  top: 50px;
   z-index: 5;
-  background: #030504;
+  background: #375456;
   overflow-x: hidden;
   overflow-y: auto;
-  border: solid 3px #a18a54;
+  border: solid 2px #d6be94;
+  border-top: none;
   font-size: 20px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
 
-.search-wrapper #searchResult .search-result-item {
+.searchResult__item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -304,81 +334,97 @@ button:hover {
           align-items: center;
 }
 
-.search-wrapper #searchResult .search-result-item:hover {
+.searchResult__item:hover {
   cursor: pointer;
-  background: #a18a54;
+  background: #d6be94;
   color: #030504;
 }
 
-.search-wrapper #searchResult .search-result-item .album-cover {
-  width: 30px;
-  height: 30px;
+.albumLine {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.albumLine__cover {
+  width: 36px;
+  height: 36px;
   margin-right: 5px;
 }
 
-.search-wrapper #searchResult .search-result-item .album-title {
+.albumLine__title {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow-x: hidden;
 }
 
-header {
-  height: 15vh;
-  min-height: 90px;
+.header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: fixed;
-  z-index: 1;
-  top: 0;
+  height: 100px;
   width: 100vw;
-  background: linear-gradient(141deg, #1c3a3e 10%, #674e47 90%);
-  border-bottom: solid 6px #a18a54;
+  background: #375456;
+  border-bottom: solid 2px #d6be94;
   padding: 0 20px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
-header #snackHeader {
-  margin: 10px 0 -10px 0;
+.header__headline {
+  font-size: 30px;
   cursor: pointer;
 }
 
-header #menu {
+.header__menu {
+  height: 100%;
+  font-size: 20px;
+}
+
+.menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: relative;
-  top: 3vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
 }
 
-header #menu #searchBar {
-  border-bottom-right-radius: 25px;
+.menu__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+  margin: 0 20px;
 }
 
-header #menu button {
-  width: auto;
-  border-right-width: 0;
+.menu__button:hover {
+  cursor: pointer;
 }
 
-header #menu button.button-active {
-  color: #030504;
-  background: #a18a54;
+.menu__button--active {
   pointer-events: none;
 }
 
-header #menu button:first-of-type {
-  border-top-left-radius: 25px;
+.menu__button .text {
+  padding-top: 30px;
 }
 
 #albumVue {
@@ -390,11 +436,10 @@ header #menu button:first-of-type {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 85vh;
+  height: calc(100vh - 11vh);
+  width: 100%;
   overflow-y: auto;
   overflow-x: hidden;
-  margin-top: 15vh;
-  width: 100%;
 }
 
 #albumVue .buttons {
@@ -437,7 +482,7 @@ header #menu button:first-of-type {
 
 #albumVue .buttons #randomButton {
   margin: 0 50px;
-  border-radius: 15px;
+  border-radius: 30px;
 }
 
 #albumVue .content {
@@ -474,7 +519,7 @@ header #menu button:first-of-type {
 
 #albumVue .content .album-metadata #player {
   display: block;
-  border: solid 3px #a18a54;
+  border: solid 3px #d6be94;
   margin-top: 14px;
 }
 
@@ -484,7 +529,7 @@ header #menu button:first-of-type {
   display: flex;
   margin: 45px;
   height: 300px;
-  border: solid 5px #a18a54;
+  border: solid 5px #d6be94;
   width: auto;
 }
 
@@ -523,8 +568,8 @@ header #menu button:first-of-type {
 #timelineVue .album-wrapper .album-placeholder {
   height: 23vh;
   width: 23vh;
-  background: #a18a54;
-  border-top: solid 6px #a18a54;
+  background: #d6be94;
+  border-top: solid 6px #d6be94;
   margin-top: 20px;
   display: block;
 }
@@ -541,34 +586,32 @@ header #menu button:first-of-type {
   text-align: center;
   z-index: 1;
   background: #030504;
-  color: #a18a54;
+  color: #d6be94;
   padding: 5px 20px;
   display: table;
   width: 95px;
   margin-right: -95px;
-  border: solid 3px #a18a54;
+  border: solid 3px #d6be94;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  border-radius: 15px;
+  border-radius: 30px;
   border-bottom-left-radius: 0;
 }
 
 #atticVue {
-  height: 85vh;
+  height: calc(100vh - 11vh);
+  width: 100%;
   overflow-y: auto;
   overflow-x: hidden;
-  margin-top: 15vh;
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   overflow: hidden;
 }
 
-#atticVue #filter {
+#atticVue .filterSection {
   left: 0;
   bottom: 0;
-  background: linear-gradient(141deg, #1c3a3e 10%, #674e47 90%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   display: -webkit-box;
@@ -579,41 +622,38 @@ header #menu button:first-of-type {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 360px;
-  border-right: solid 6px #a18a54;
+  border-right: solid 6px #d6be94;
   box-sizing: border-box;
   overflow-y: auto;
   overflow-x: hidden;
 }
 
-#atticVue #filter .filter-nav-item {
-  border-bottom: solid 1px #a18a54;
+#atticVue .filterSection__title {
+  font-size: 22px;
   padding: 15px 20px;
+  border-bottom: solid 1px #d6be94;
 }
 
-#atticVue #filter .filter-nav-item.filter-nav-item-active {
-  background: #a18a54;
-  color: #030504;
-}
-
-#atticVue #filter .filter-panel {
+#atticVue .filterSection__panel {
   padding: 15px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
-#atticVue #filter .filter-panel #resetFilterButton {
+#atticVue .filterSection__panel #resetFilterButton {
   width: 100%;
   padding: 5px 10px;
-  border: solid 2px #a18a54;
-  border-radius: 15px;
+  border: solid 2px #d6be94;
+  border-radius: 30px;
   font-size: 20px;
 }
 
-#atticVue #filter .filter-panel .checkbox-wrapper {
+#atticVue .filterSection__panel .checkbox-wrapper {
   margin-bottom: 10px;
+  font-size: 18px;
 }
 
-#atticVue #albumList {
+#atticVue .albumSection {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -703,11 +743,10 @@ header #menu button:first-of-type {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 85vh;
+  height: calc(100vh - 11vh);
+  width: 100%;
   overflow-y: auto;
   overflow-x: hidden;
-  margin-top: 15vh;
-  width: 100%;
 }
 
 #gemsVue .album-wrapper {
@@ -734,12 +773,10 @@ header #menu button:first-of-type {
 
 #gemsVue .album-wrapper .album-cover {
   height: 300px;
-  border: solid 5px #a18a54;
+  border: solid 5px #d6be94;
   margin: 0 30px;
   cursor: pointer;
   display: block;
-  -webkit-box-shadow: 0px 0px 500px -50px #a18a54;
-          box-shadow: 0px 0px 500px -50px #a18a54;
 }
 
 #gemsVue .album-wrapper .album-infos {
@@ -771,11 +808,10 @@ header #menu button:first-of-type {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 85vh;
+  height: calc(100vh - 11vh);
+  width: 100%;
   overflow-y: auto;
   overflow-x: hidden;
-  margin-top: 15vh;
-  width: 100%;
 }
 
 #subgenresVue .subgenre-wrapper {
@@ -826,19 +862,17 @@ header #menu button:first-of-type {
 
 #subgenresVue .subgenre-wrapper .subgenre-albums .album-cover {
   height: 130px;
-  border: solid 3px #a18a54;
+  border: solid 3px #d6be94;
   cursor: pointer;
   margin: 0 20px 37px 20px;
 }
 
 #subgenresVue .subgenre-wrapper .most-representative {
   height: 300px;
-  border: solid 5px #a18a54;
+  border: solid 5px #d6be94;
   margin: 0 20px;
   cursor: pointer;
   display: block;
-  -webkit-box-shadow: 0px 0px 500px -50px #a18a54;
-          box-shadow: 0px 0px 500px -50px #a18a54;
 }
 
 #subgenresVue .subgenre-wrapper .subgenre-infos {
@@ -881,11 +915,10 @@ header #menu button:first-of-type {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 85vh;
+  height: calc(100vh - 11vh);
+  width: 100%;
   overflow-y: auto;
   overflow-x: hidden;
-  margin-top: 15vh;
-  width: 100%;
 }
 
 #designersVue .designer-wrapper {
@@ -976,8 +1009,6 @@ header #menu button:first-of-type {
 
 #designersVue .designer-wrapper .designer-albums .album-wrapper .album-cover {
   width: 200px;
-  -webkit-box-shadow: 0px 0px 500px -50px #a18a54;
-          box-shadow: 0px 0px 500px -50px #a18a54;
 }
 
 #designersVue .designer-wrapper .designer-albums .album-wrapper .album-cover:hover {
@@ -985,11 +1016,10 @@ header #menu button:first-of-type {
 }
 
 #statsVue {
-  height: 85vh;
+  height: calc(100vh - 11vh);
+  width: 100%;
   overflow-y: auto;
   overflow-x: hidden;
-  margin-top: 15vh;
-  width: 100%;
   text-align: justify;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1080,7 +1110,7 @@ header #menu button:first-of-type {
   padding: 0px 6px;
   min-height: 30px;
   width: 25px;
-  background: #a18a54;
+  background: #d6be94;
   color: #030504;
 }
 
@@ -1097,11 +1127,10 @@ header #menu button:first-of-type {
 }
 
 #aboutVue {
-  height: 85vh;
+  height: calc(100vh - 11vh);
+  width: 100%;
   overflow-y: auto;
   overflow-x: hidden;
-  margin-top: 15vh;
-  width: 100%;
   text-align: justify;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -1135,8 +1164,8 @@ header #menu button:first-of-type {
 
 #aboutVue .me-wrapper .me {
   width: 200px;
-  border: solid 4px #a18a54;
-  border-radius: 15px;
+  border: solid 4px #d6be94;
+  border-radius: 30px;
 }
 
 #aboutVue .me-wrapper .me-description {
@@ -1157,10 +1186,8 @@ header #menu button:first-of-type {
 body {
   font-family: 'Oswald', sans-serif;
   font-size: 25px;
-  color: #a18a54;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #030504), color-stop(90%, #1c3a3e));
-  background: linear-gradient(#030504 10%, #1c3a3e 90%);
-  background-attachment: fixed;
+  color: #d6be94;
+  background: #375456;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1243,12 +1270,12 @@ body {
   }
   #albumVue .content .album-cover-wrapper {
     height: 260px;
-    border: solid 4px #a18a54;
+    border: solid 4px #d6be94;
     margin: 20px;
   }
   #gemsVue .album-wrapper .album-cover {
     height: 260px;
-    border: solid 4px #a18a54;
+    border: solid 4px #d6be94;
   }
   #atticVue #filter {
     width: 250px;
@@ -1297,7 +1324,7 @@ body {
   }
   #albumVue .content .album-cover-wrapper {
     height: 260px;
-    border: solid 4px #a18a54;
+    border: solid 4px #d6be94;
     margin: 20px;
   }
   #atticVue .filter-nav,
@@ -1314,7 +1341,7 @@ body {
 @media (max-height: 600px) {
   #albumVue .content .album-cover-wrapper {
     height: 130px;
-    border: solid 3px #a18a54;
+    border: solid 3px #d6be94;
     margin: 20px;
   }
   #albumVue .content .album-metadata {

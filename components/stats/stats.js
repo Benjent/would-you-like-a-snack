@@ -1,6 +1,6 @@
 Vue.component('stats', {
     template: `
-        <section id="statsVue">
+        <section id="statsVue" data-simplebar>
             <div class="content">
                 <div class="numbers">
                     <span>{{artists.length}} artists</span>

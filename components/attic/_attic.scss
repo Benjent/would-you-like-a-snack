@@ -6,58 +6,48 @@
     display: flex;
     overflow: hidden;
 
-    #filter {
+    .filterSection {
         left: 0;
         bottom: 0;
 
-        background: linear-gradient(141deg, $ocean 10%, $brown 90%);
         box-sizing: border-box;
         display: flex;
         flex-direction: column;
 
         width: $filterPanelWidth;
-        border-right: solid $borderThick $gold;
+        border-right: solid $borderThick $primary;
         box-sizing: border-box;
         overflow-y: auto;
         overflow-x: hidden;
 
-        .filter-nav-item {
-            // cursor: pointer;
-            border-bottom: solid 1px $gold;
+        &__title {
+            font-size: 22px;
             padding: 15px 20px;
-
-            &:hover {
-                // background: $gold;
-                // color: $black;
-            }
-
-            &.filter-nav-item-active {
-                background: $gold;
-                color: $black;
-            }
+            border-bottom: solid 1px $primary;
         }
 
-        .filter-panel {
+        &__panel {
             // width: $filterPanelWidth;
-            // border-right: solid $borderThick $gold;
+            // border-right: solid $borderThick $primary;
             padding: 15px;
             box-sizing: border-box;
 
             #resetFilterButton {
                 width: 100%;
                 padding: 5px 10px;
-                border: solid 2px $gold;
+                border: solid 2px $primary;
                 border-radius: $borderRadius;
                 font-size: $mainFontSizeSmall;
             }
 
             .checkbox-wrapper {
                 margin-bottom: 10px;
+                font-size: 18px;
             }
         }
     }
 
-    #albumList {
+    .albumSection {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;

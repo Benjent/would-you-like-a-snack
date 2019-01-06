@@ -1,36 +1,11 @@
-Vue.directive('resize', {
-    bind: function () {
-        this.handler = function () {
-            var width = document.getElementById("albumList").offsetWidth
-
-            if (this.width === width) {
-
-            }
-            else {
-                // console.log(this.width, width)
-                this.width = width
-                // this.vm.$get(this.expression)
-            }
-        }.bind(this)
-
-        window.addEventListener('resize', this.handler)
-    },
-    update: function (newValue, oldValue) {
-
-    },
-    unbind: function () {
-        window.removeEventListener('resize', this.handler)
-    }
-})
-
 
 Vue.component('attic', {
     template: `
         <section id="atticVue">
 
-            <div id="filter">
+            <section class="filterSection" data-simplebar>
 
-                <div class="filter-panel">
+                <div class="filterSection__panel">
                     <button
                         id="resetFilterButton"
                         v-on:click="resetFilter()">
@@ -38,11 +13,11 @@ Vue.component('attic', {
                     </button>
                 </div>
 
-                <div class="filter-nav-item">
+                <div class="filterSection__title">
                     Region
                 </div>
 
-                <div class="filter-panel">
+                <div class="filterSection__panel">
                     <div class="select-wrapper">
                         <select
                             v-model="selectedRegion"
@@ -57,12 +32,12 @@ Vue.component('attic', {
 
                 <template v-for="(filterSection, index) in filterModel">
                     <div
-                        class="filter-nav-item">
+                        class="filterSection__title">
                         {{navItems[index]}}
                     </div>
 
                     <div
-                        class="filter-panel">
+                        class="filterSection__panel">
 
                         <template
                             v-for="filterItem in filterSection">
@@ -78,9 +53,9 @@ Vue.component('attic', {
 
                 </template>
 
-            </div>
+            </section>
 
-            <section id="albumList" v-resize="changed()">
+            <section id="albumList" class="albumSection">
 
                 <div
                     class="album-wrapper"
