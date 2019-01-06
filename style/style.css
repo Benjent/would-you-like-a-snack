@@ -784,6 +784,7 @@ button:hover {
   width: 300px;
   min-width: 300px;
   overflow-y: auto;
+  overflow-x: hidden;
   padding: 15px;
   border-right: solid 2px #d6be94;
   font-size: 18px;
@@ -810,7 +811,7 @@ button:hover {
           transform: rotate(90deg);
 }
 
-#discographiesVue .contentSection {
+#discographiesVue .discographySection {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -818,37 +819,29 @@ button:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  overflow-y: auto;
+  width: 178px;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-x: hidden;
 }
 
-#discographiesVue .contentSection .discographySection {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 150px;
-  *width: 100%;
-  overflow-x: auto;
-  overflow-y: hidden;
+#discographiesVue .discographySection .albumCover {
+  width: 120px;
+  height: 120px;
+  border-right: solid 2px #d6be94;
 }
 
-#discographiesVue .contentSection .discographySection .arrow {
-  position: relative;
-  top: 60px;
-  right: 10px;
-  margin-right: -40px;
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+#discographiesVue .discographySection .albumCover:last-of-type {
+  border-bottom: solid 2px #d6be94;
 }
 
-#discographiesVue .contentSection .discographySection .albumCover {
-  width: 150px;
-  height: 150px;
-}
-
-#discographiesVue .contentSection .discographySection .albumCover:hover {
+#discographiesVue .discographySection .albumCover:hover {
   cursor: pointer;
 }
 
-#discographiesVue .albumVue {
+#discographiesVue .albumSection {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -861,51 +854,82 @@ button:hover {
   width: 100%;
 }
 
-#discographiesVue .albumVue .album-metadata {
+#discographiesVue .albumSection .logo {
+  width: 100px;
+}
+
+#discographiesVue .albumSection .logo:hover {
+  cursor: pointer;
+}
+
+#discographiesVue .albumSection .albumData {
   text-align: right;
   width: 45%;
 }
 
-#discographiesVue .albumVue .album-metadata .album-title {
+#discographiesVue .albumSection .albumData__title {
   font-style: italic;
   font-size: 30px;
 }
 
-#discographiesVue .albumVue .album-metadata .album-selected-track {
+#discographiesVue .albumSection .albumData__selectedTrack {
   font-style: italic;
 }
 
-#discographiesVue .albumVue .album-metadata .youtube-logo {
+#discographiesVue .albumSection .albumData .logo-youtube {
   width: 100px;
   margin-top: 10px;
 }
 
-#discographiesVue .albumVue .album-metadata #player {
-  display: block;
-  border: solid 3px #d6be94;
-  margin-top: 14px;
-}
-
-#discographiesVue .albumVue .album-cover-wrapper {
+#discographiesVue .albumSection .sleeve {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin: 45px;
-  height: 300px;
-  border: solid 5px #d6be94;
   width: auto;
 }
 
-#discographiesVue .albumVue .album-cover-wrapper img {
+#discographiesVue .albumSection .sleeve__albumCover {
   height: 100%;
   display: block;
+  border: solid 3px #d6be94;
 }
 
-#discographiesVue .albumVue .album-gem {
+#discographiesVue .albumSection .sleeve__player {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#discographiesVue .albumSection .sleeve__player .playerLogos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-bottom: 8px;
+}
+
+#discographiesVue .albumSection .sleeve__player .player {
+  width: 250px;
+  height: 250px;
+  border: solid 3px #d6be94;
+  border-left: none;
+}
+
+#discographiesVue .albumSection .album-gem {
   font-size: 30px;
 }
 
-#discographiesVue .albumVue .album-criteria {
+#discographiesVue .albumSection .album-criteria {
   width: 45%;
 }
 

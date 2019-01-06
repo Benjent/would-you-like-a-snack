@@ -12,7 +12,7 @@
         min-width: 300px;
         // box-sizing: border-box;
         overflow-y: auto;
-        // overflow-x: hidden;
+        overflow-x: hidden;
         padding: 15px;
         border-right: solid 2px $primary;
         font-size: 18px;
@@ -33,72 +33,89 @@
         }
     }
 
-    .contentSection {
+    .discographySection {
         display: flex;
         flex-direction: column;
-        .discographySection {
-            display: flex;
-            height: 150px;*width: 100%;
-            overflow-x: auto;
-            overflow-y: hidden;
-            // padding-bottom: 17px;
-    
-            .arrow {
-                position: relative;
-                top: 60px;
-                right: 10px;
-                margin-right: -40px;
-                transform: rotate(90deg);
+        overflow-y: auto;
+        width: 178px;
+        height: 100%;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        
+        .albumCover {
+            width: 120px;
+            height: 120px;
+            border-right: solid 2px $primary;
+            &:last-of-type {
+                border-bottom: solid 2px $primary;
             }
-            
-            .albumCover {
-                width: 150px;
-                height: 150px;
-                &:hover {
-                    cursor: pointer;
-                }
+            &:hover {
+                cursor: pointer;
             }
         }
     }
 
-    .albumVue {
+    .albumSection {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 100%;
 
-        .album-metadata {
+        .logo {
+            width: 100px;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        .albumData {
             text-align: right;
             width: 45%;
-            .album-title {
+            &__title {
                 font-style: italic;
                 font-size: $specialInfoFontSize;
             }
-            .album-selected-track {
+            &__selectedTrack {
                 font-style: italic;
             }
-            .youtube-logo {
+
+            .logo-youtube {
                 width: 100px;
                 margin-top: 10px;
             }
-            #player {
-                display: block;
-                border: solid 3px $primary;
-                margin-top: 14px;
-            }
+            
         }
     
-        .album-cover-wrapper {
+        .sleeve {
             display: flex;
             margin: 45px;
-            @include albumCover;
             width: auto;
-            img {
+            &__albumCover {
                 // width: 100%;
                 height: 100%;
                 // margin:45px;
                 // border: solid 5px $primary;
                 display: block;
+                border: solid 3px $primary;
+
+            }
+            &__player {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+
+                .playerLogos {
+                    display: flex;
+                    justify-content: space-evenly;
+                    margin-bottom: 8px;
+
+                }
+                .player {
+                    width: 250px;
+                    height: 250px;
+                    border: solid 3px $primary;
+                    border-left: none;
+                }
             }
         }
 
