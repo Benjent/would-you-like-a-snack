@@ -733,57 +733,7 @@ button:hover {
   min-height: 12.5%;
   width: 12.5%;
   font-size: 17px;
-}
-
-#atticVue .album-wrapper:hover .album-infos {
-  opacity: 1;
-  cursor: pointer;
-}
-
-#atticVue .album-wrapper .album-infos {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 100%;
-  width: 100%;
-  text-align: center;
-  background: rgba(0, 0, 0, 0.7);
-  opacity: 0;
-  -webkit-transition: opacity 0.2s;
-  transition: opacity 0.2s;
-  padding: 5px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-#atticVue .album-wrapper .album-infos .album-rating {
-  font-style: italic;
-  font-weight: bold;
-  border-top: solid 1px;
-  border-bottom: solid 1px;
-}
-
-#atticVue .album-wrapper img {
-  width: 100%;
-}
-
-#atticVue .album-wrapper img:hover {
-  cursor: pointer;
+  margin-bottom: -5px;
 }
 
 #gemsVue {

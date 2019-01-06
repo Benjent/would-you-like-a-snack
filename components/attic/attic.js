@@ -63,36 +63,11 @@ Vue.component('attic', {
                     v-bind:album-id="album.id"
                     v-on:click="$emit('album-click', album)">
 
-                    <div
-                        class="album-infos"
-                        v-bind:album-id="album.id">
+                    <album-thumb
+                        v-bind:album="album">
+    
+                    </album-thumb>
 
-                        <span
-                            class="album-artist"
-                            v-bind:album-id="album.id">
-                            {{album.artist}}
-                        </span>
-                        <span
-                            class="album-title"
-                            v-bind:album-id="album.id">
-                            {{album.title}}
-                        </span>
-                        <span
-                            class="album-year"
-                            v-bind:album-id="album.id">
-                            {{album.year}}
-                        </span>
-                        <span
-                            class="album-rating"
-                            v-if="album.isAGem"
-                            v-bind:album-id="album.id">
-                            This is a must-hear
-                        </span>
-                        
-                    </div>
-
-                    <img class="album" v-bind:src=album.cover alt="">
-                
                 </div>
 
             </section>
