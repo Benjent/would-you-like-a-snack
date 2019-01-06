@@ -1126,7 +1126,7 @@ button:hover {
   padding-top: 50px;
 }
 
-#aboutVue .me-wrapper {
+#aboutVue .me {
   float: right;
   margin-left: 45px;
   display: -webkit-box;
@@ -1136,18 +1136,18 @@ button:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-#aboutVue .me-wrapper .me {
+#aboutVue .me__photo {
   width: 200px;
   border: solid 4px #d6be94;
   border-radius: 30px;
 }
 
-#aboutVue .me-wrapper .me-description {
+#aboutVue .me__description {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

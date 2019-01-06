@@ -5,12 +5,12 @@ Vue.component('about', {
             <div class="content">
                 <h2>Hi!</h2>
             
-                <div class="me-wrapper">
+                <div class="me">
                     <img
-                        class="me"
+                        class="me__photo"
                         v-bind:src="mePath">
-                    <div class="me-description">
-                        <span>The face of a sane man</span>
+                    <div class="me__description">
+                        The face of a sane man
                     </div>
                 </div>
                 
