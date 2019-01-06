@@ -4,15 +4,28 @@
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
     border-bottom: 20px solid $primary;
+
     .arrow__inside {
         width: 0; 
         height: 0; 
         border-left: 18px solid transparent;
         border-right: 18px solid transparent;
         border-bottom: 18px solid $secondary;
-
+        
         position: relative;
         right: 18px;
         top: 4px;
+    }
+    
+    &.small {
+        border-left: 14px solid transparent;
+        border-right: 14px solid transparent;
+        border-bottom: 14px solid $primary;
+        .arrow__inside {
+            border-left: 12px solid transparent;
+            border-right: 12px solid transparent;
+            border-bottom: 12px solid $secondary;
+            right: 12px;
+        }
     }
 }

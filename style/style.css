@@ -225,6 +225,19 @@ button:hover {
   top: 4px;
 }
 
+.arrow.small {
+  border-left: 14px solid transparent;
+  border-right: 14px solid transparent;
+  border-bottom: 14px solid #d6be94;
+}
+
+.arrow.small .arrow__inside {
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-bottom: 12px solid #375456;
+  right: 12px;
+}
+
 .checkbox-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -685,7 +698,7 @@ button:hover {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 360px;
-  border-right: solid 6px #d6be94;
+  border-right: solid 2px #d6be94;
   box-sizing: border-box;
   overflow-y: auto;
   overflow-x: hidden;
@@ -746,6 +759,154 @@ button:hover {
   width: 12.5%;
   font-size: 17px;
   margin-bottom: -5px;
+}
+
+#discographiesVue {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: calc(100vh - 11vh);
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#discographiesVue .artistsSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  min-width: 300px;
+  overflow-y: auto;
+  padding: 15px;
+  border-right: solid 2px #d6be94;
+  font-size: 18px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#discographiesVue .artistsSection .artist:hover {
+  cursor: pointer;
+}
+
+#discographiesVue .artistsSection .artist--selected {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 22px;
+}
+
+#discographiesVue .artistsSection .artist .arrow {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+#discographiesVue .contentSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#discographiesVue .contentSection .discographySection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 150px;
+  *width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+#discographiesVue .contentSection .discographySection .arrow {
+  position: relative;
+  top: 60px;
+  right: 10px;
+  margin-right: -40px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+#discographiesVue .contentSection .discographySection .albumCover {
+  width: 150px;
+  height: 150px;
+}
+
+#discographiesVue .contentSection .discographySection .albumCover:hover {
+  cursor: pointer;
+}
+
+#discographiesVue .albumVue {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+#discographiesVue .albumVue .album-metadata {
+  text-align: right;
+  width: 45%;
+}
+
+#discographiesVue .albumVue .album-metadata .album-title {
+  font-style: italic;
+  font-size: 30px;
+}
+
+#discographiesVue .albumVue .album-metadata .album-selected-track {
+  font-style: italic;
+}
+
+#discographiesVue .albumVue .album-metadata .youtube-logo {
+  width: 100px;
+  margin-top: 10px;
+}
+
+#discographiesVue .albumVue .album-metadata #player {
+  display: block;
+  border: solid 3px #d6be94;
+  margin-top: 14px;
+}
+
+#discographiesVue .albumVue .album-cover-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 45px;
+  height: 300px;
+  border: solid 5px #d6be94;
+  width: auto;
+}
+
+#discographiesVue .albumVue .album-cover-wrapper img {
+  height: 100%;
+  display: block;
+}
+
+#discographiesVue .albumVue .album-gem {
+  font-size: 30px;
+}
+
+#discographiesVue .albumVue .album-criteria {
+  width: 45%;
 }
 
 #gemsVue {

@@ -1,0 +1,114 @@
+#discographiesVue {
+    display: flex;
+    @include vue;
+
+    .artistsSection {
+        display: flex;
+        flex-direction: column;
+        left: 0;
+        bottom: 0;
+        // height: 100vh;
+        width: 300px;
+        min-width: 300px;
+        // box-sizing: border-box;
+        overflow-y: auto;
+        // overflow-x: hidden;
+        padding: 15px;
+        border-right: solid 2px $primary;
+        font-size: 18px;
+        box-sizing: border-box;
+
+        .artist {
+            &:hover {
+                cursor: pointer;
+            }
+            &--selected {
+                display: flex;
+                align-items: center;
+                font-size: 22px;
+            }
+            .arrow {
+                transform: rotate(90deg);
+            }
+        }
+    }
+
+    .contentSection {
+        display: flex;
+        flex-direction: column;
+        .discographySection {
+            display: flex;
+            height: 150px;*width: 100%;
+            overflow-x: auto;
+            overflow-y: hidden;
+            // padding-bottom: 17px;
+    
+            .arrow {
+                position: relative;
+                top: 60px;
+                right: 10px;
+                margin-right: -40px;
+                transform: rotate(90deg);
+            }
+            
+            .albumCover {
+                width: 150px;
+                height: 150px;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .albumVue {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+        .album-metadata {
+            text-align: right;
+            width: 45%;
+            .album-title {
+                font-style: italic;
+                font-size: $specialInfoFontSize;
+            }
+            .album-selected-track {
+                font-style: italic;
+            }
+            .youtube-logo {
+                width: 100px;
+                margin-top: 10px;
+            }
+            #player {
+                display: block;
+                border: solid 3px $primary;
+                margin-top: 14px;
+            }
+        }
+    
+        .album-cover-wrapper {
+            display: flex;
+            margin: 45px;
+            @include albumCover;
+            width: auto;
+            img {
+                // width: 100%;
+                height: 100%;
+                // margin:45px;
+                // border: solid 5px $primary;
+                display: block;
+            }
+        }
+
+        .album-gem {
+            font-size: $specialInfoFontSize;
+        }
+    
+        .album-criteria {
+            width: 45%;
+        }
+    }
+
+}

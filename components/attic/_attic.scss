@@ -15,7 +15,7 @@
         flex-direction: column;
 
         width: $filterPanelWidth;
-        border-right: solid $borderThick $primary;
+        border-right: solid 2px $primary;
         box-sizing: border-box;
         overflow-y: auto;
         overflow-x: hidden;
