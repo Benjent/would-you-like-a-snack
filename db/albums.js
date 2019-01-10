@@ -9315,6 +9315,21 @@ const albums = [
         "isAGem": false
     },
     {
+        "id": "zanov_green_ray",
+        "title": "Green Ray",
+        "artist": "Zanov",
+        "year": 1977,
+        "country": regions.FRANCE,
+        "cover": pathToCovers + "/zanov_green_ray.jpg",
+        "criteria": [criteria.INSTRUMENTAL, criteria.LENGTHY_TRACKS, criteria.SOFT, criteria.AMBIENT, criteria.C_PSYCHEDELIC, criteria.ELECTRO],
+        "selectedTrackTitle": "Green Ray",
+        "selectedTrackYtId": "PgHTz5T9Hpk",
+        "spotifyId": "",
+        "deezerId": "",
+        "designers": [],
+        "isAGem": false
+    },
+    {
         "id": "zanov_moebius_256_301",
         "title": "Moebius 256 301",
         "artist": "Zanov",
@@ -9421,6 +9436,21 @@ const albums = [
         "spotifyId": "2LEJ4JpSDbMK3M9RNGEYCC",
         "deezerId": "",
         "designers": ["Cream"],
+        "isAGem": false
+    },
+    {
+        "id": "eight_o_one_eight_o_one_live",
+        "title": "801 Live",
+        "artist": "801",
+        "year": 1976,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/eight_o_one_eight_o_one_live.jpg",
+        "criteria": [criteria.LIVE, criteria.JAZZY_GROOVY, criteria.C_ELECTRO, criteria.C_PSYCHEDELIC, criteria.SOFT_SEVENTIES, criteria.ODD_RHYTHM, criteria.JAM],
+        "selectedTrackTitle": "todo",
+        "selectedTrackYtId": "todo",
+        "spotifyId": "6jTcrXW3mOPSDlQrnekktc",
+        "deezerId": "1252017",
+        "designers": ["Richard Wallis"],
         "isAGem": false
     }
 ];
