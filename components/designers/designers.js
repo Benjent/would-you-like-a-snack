@@ -16,11 +16,11 @@ Vue.component('designers', {
                         <div
                             class="album-wrapper"
                             v-for="album in designer[1].works"
-                            v-bind:album-id="album.id"
+                            :album-id="album.id"
                             v-on:click="$emit('album-click', album)">
 
                             <album-thumb
-                                v-bind:album="album"
+                                :album="album"
                                 v-on:click="$emit('album-click', album)">
             
                             </album-thumb>

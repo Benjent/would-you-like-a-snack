@@ -3,112 +3,130 @@ Vue.component('discographies', {
     template: `
         <section id="discographiesVue">
 
-            <section class="artistsSection" data-simplebar>
+            <section class="artists" data-simplebar>
                 <div
-                    class="artist"
-                    :class="{'artist--selected': artist == selectedArtist}"
+                    class="artists__item"
+                    :class="{'artists__item--selected': artist == selectedArtist}"
                     v-for="artist in db.artists"
                     v-on:click="setSelectedArtist(artist)">
 
                     <arrow
-                        class="arrow"
-                        v-bind:size="'small'"
+                        class="artists__arrow"
+                        :size="'small'"
                         v-if="artist == selectedArtist">
                     </arrow>
+
                     {{artist}}
                     
                 </div>
             </section>
 
-            <section class="discographySection" simple-bar>
+            <section class="discography">
 
                 <img
-                    class="albumCover"
+                    class="discography__item"
                     v-for="album in db.albums"
                     v-if="album.artist == selectedArtist"
-                    v-bind:src=album.cover
+                    :src=album.cover
                     v-on:click="$emit('album-click', album)"
                     alt="">
                 
             </section>
             
-            <section class="albumSection">
-                <div class="albumData">
+            <section class="album-presentation">
 
-                    <div class="albumData__title">{{selectedAlbum.title}}</div>
-                    <div class="albumData__year">{{selectedAlbum.year}}</div>
-                    <div class="albumData__country">{{selectedAlbum.country}}</div>
-                    <div>Selected track: <span class="albumData__selectedTrack">{{selectedAlbum.selectedTrackTitle}}</span></div>
-                    <a
-                        v-if="selectedAlbum.selectedTrackYtId"
-                        v-bind:href="youtubePath"
-                        target="_blank">
-                        <img
-                            class="logo logo-youtube"
-                            v-bind:src=youtubeLogoPath
-                            alt="">
-                    </a>
+                <h2 class="album-presentation__header">
+
+                    <arrow class="album-presentation__arrow"></arrow>
+
+                    <span class="album-presentation__title">{{selectedAlbum.title}}</span> by {{selectedAlbum.artist}}
+                </h2>
+
+                <div class="album-presentation__content">
+                    <img
+                        class="album-presentation__cover"
+                        :src=selectedAlbum.cover
+                        alt="">
+
+                    <div class="album-data">
+
+                        <div class="album-data__year">{{selectedAlbum.year}}</div>
+                        <div class="album-data__country">{{selectedAlbum.country}}</div>
+                        <div class="album-data__selectedTrack">
+                            Selected track: <span class="album-data__name">{{selectedAlbum.selectedTrackTitle}}</span>
+                            <a
+                                v-if="selectedAlbum.selectedTrackYtId"
+                                :href="youtubePath"
+                                target="_blank">
+                                <img
+                                    class="album-data__logo logo"
+                                    :src=youtubeLogoPath
+                                    alt="">
+                            </a>
+                        </div>
+                        <div class="album-data__criteria">
+                            <div
+                                class="album-data__criterium--gem"
+                                v-if="selectedAlbum.isAGem">
+                                This album is a must-hear
+                            </div>
+                            <div
+                                class="album-data__criterium"
+                                v-for="criterium in computedCriteria">
+                                {{criterium}}
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
 
-                <div class="sleeve">
+                <div class="album-presentation__players">
 
-                    <img
-                        class="sleeve__albumCover"
-                        v-bind:src=selectedAlbum.cover
-                        alt="">
+                    <div class="players">
 
-                    <div
-                        class="sleeve__player"
-                        v-if="selectedAlbum.spotifyId || selectedAlbum.deezerId">
-
-                        <div class="playerLogos">
+                        <div class="players__header">
                             <img
-                                class="logo logo-spotify"
+                                class="logo"
                                 v-if="selectedAlbum.spotifyId"
-                                v-bind:src=spotifyLogoPath
+                                :src=spotifyLogoPath
                                 v-on:click="setSelectedPlayer('spotify')"
                                 alt="">
                             <img
-                                class="logo logo-deezer"
+                                class="logo"
                                 v-if="selectedAlbum.deezerId"
-                                v-bind:src=deezerLogoPath
+                                :src=deezerLogoPath
                                 v-on:click="setSelectedPlayer('deezer')"
                                 alt="">
                         </div>
-                        <iframe
-                            id="spotifyPlayer"
-                            class="player"
-                            v-if="selectedAlbum.spotifyId && selectedPlayer == 'spotify'"
-                            v-bind:src="spotifyPath"
-                            frameborder="0"
-                            allowtransparency="true"
-                            allow="encrypted-media">
-                        </iframe>
-                        <iframe
-                            id="deezerPlayer"
-                            v-if="selectedAlbum.deezerId  && selectedPlayer == 'deezer'"
-                            class="player"
-                            scrolling="no"
-                            frameborder="0"
-                            allowTransparency="true"
-                            v-bind:src="deezerPath">
-                        </iframe>
+
+                        <div
+                            class="players__content"
+                            v-if="selectedAlbum.spotifyId || selectedAlbum.deezerId">
+                            
+                            <iframe
+                                id="spotifyPlayer"
+                                class="players__item"
+                                v-if="selectedAlbum.spotifyId && selectedPlayer == 'spotify'"
+                                :src=spotifyPath
+                                frameborder="0"
+                                allowtransparency="true"
+                                allow="encrypted-media">
+                            </iframe>
+                            <iframe
+                                id="deezerPlayer"
+                                v-if="selectedAlbum.deezerId  && selectedPlayer == 'deezer'"
+                                class="players__item"
+                                scrolling="no"
+                                frameborder="0"
+                                allowTransparency="true"
+                                :src=deezerPath>
+                            </iframe>
+                        </div>
+
                     </div>
+
                 </div>
 
-                <div class="album-criteria">
-                    <div
-                        class="album-gem"
-                        v-if="selectedAlbum.isAGem">
-                        This album is a must-hear
-                    </div>
-                    <div
-                        class="album-criterium"
-                        v-for="criterium in computedCriteria">
-                        {{criterium}}
-                    </div>
-                </div>
             </section>
 
         </section>

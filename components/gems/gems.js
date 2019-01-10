@@ -8,16 +8,16 @@ Vue.component('gems', {
                 
                 <img
                     class="album-cover"
-                    v-bind:album-id="album.id"
+                    :album-id="album.id"
                     v-on:click="$emit('album-click', album)"
-                    v-bind:src=album.cover alt="">
+                    :src=album.cover alt="">
                 
                 <div
                     class="album-infos">
 
                     <span
                         class="album-title"
-                        v-bind:album-id="album.id"
+                        :album-id="album.id"
                         v-on:click="$emit('album-click', album)">
                         {{album.artist}} - {{album.title}} ({{album.year}})
                     </span>

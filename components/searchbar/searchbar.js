@@ -11,7 +11,7 @@ Vue.component('searchbar', {
                 class="searchBar__reset"
                 v-on:click="resetSearch"
                 v-if="currentSearch"
-                v-bind:src="crossPath">
+                :src="crossPath">
             </div>
             <div
                 class="searchBar__result"
@@ -28,7 +28,7 @@ Vue.component('searchbar', {
                         <div class="albumLine">
                             <img
                                 class="albumLine__cover"
-                                v-bind:src="album.cover" />
+                                :src="album.cover" />
                             <div class="albumLine__title">
                                 {{album.title}}
                             </div>

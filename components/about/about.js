@@ -8,7 +8,7 @@ Vue.component('about', {
                 <div class="me">
                     <img
                         class="me__photo"
-                        v-bind:src="mePath">
+                        :src="mePath">
                     <div class="me__description">
                         The face of a sane man
                     </div>

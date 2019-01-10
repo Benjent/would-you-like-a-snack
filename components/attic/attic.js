@@ -43,7 +43,7 @@ Vue.component('attic', {
                             v-for="filterItem in filterSection">
     
                             <checkbox
-                                v-bind:filter-item="filterItem"
+                                :filter-item="filterItem"
                                 v-on:checkbox-clicked="toggleFilterItem(filterItem)">
                             </checkbox>
                         </template>
@@ -60,11 +60,11 @@ Vue.component('attic', {
                 <div
                     class="album-wrapper"
                     v-for="album in db.albums"
-                    v-bind:album-id="album.id"
+                    :album-id="album.id"
                     v-on:click="$emit('album-click', album)">
 
                     <album-thumb
-                        v-bind:album="album">
+                        :album="album">
     
                     </album-thumb>
 

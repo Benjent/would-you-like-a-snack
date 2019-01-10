@@ -771,7 +771,15 @@ button:hover {
   overflow-x: hidden;
 }
 
-#discographiesVue .artistsSection {
+#discographiesVue .logo {
+  width: 100px;
+}
+
+#discographiesVue .logo:hover {
+  cursor: pointer;
+}
+
+#discographiesVue .artists {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -785,18 +793,18 @@ button:hover {
   min-width: 300px;
   overflow-y: auto;
   overflow-x: hidden;
-  padding: 15px;
-  border-right: solid 2px #d6be94;
-  font-size: 18px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  border-right: solid 2px #d6be94;
+  padding: 15px;
+  font-size: 18px;
 }
 
-#discographiesVue .artistsSection .artist:hover {
+#discographiesVue .artists__item:hover {
   cursor: pointer;
 }
 
-#discographiesVue .artistsSection .artist--selected {
+#discographiesVue .artists__item--selected {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -806,12 +814,12 @@ button:hover {
   font-size: 22px;
 }
 
-#discographiesVue .artistsSection .artist .arrow {
+#discographiesVue .artists__arrow {
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
 }
 
-#discographiesVue .discographySection {
+#discographiesVue .discography {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -820,82 +828,29 @@ button:hover {
       -ms-flex-direction: column;
           flex-direction: column;
   overflow-y: auto;
+  overflow-x: hidden;
   width: 178px;
   height: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  overflow-x: hidden;
+  margin-right: 50px;
 }
 
-#discographiesVue .discographySection .albumCover {
+#discographiesVue .discography__item {
   width: 120px;
   height: 120px;
   border-right: solid 2px #d6be94;
 }
 
-#discographiesVue .discographySection .albumCover:last-of-type {
+#discographiesVue .discography__item:last-of-type {
   border-bottom: solid 2px #d6be94;
 }
 
-#discographiesVue .discographySection .albumCover:hover {
+#discographiesVue .discography__item:hover {
   cursor: pointer;
 }
 
-#discographiesVue .albumSection {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 100%;
-}
-
-#discographiesVue .albumSection .logo {
-  width: 100px;
-}
-
-#discographiesVue .albumSection .logo:hover {
-  cursor: pointer;
-}
-
-#discographiesVue .albumSection .albumData {
-  text-align: right;
-  width: 45%;
-}
-
-#discographiesVue .albumSection .albumData__title {
-  font-style: italic;
-  font-size: 30px;
-}
-
-#discographiesVue .albumSection .albumData__selectedTrack {
-  font-style: italic;
-}
-
-#discographiesVue .albumSection .albumData .logo-youtube {
-  width: 100px;
-  margin-top: 10px;
-}
-
-#discographiesVue .albumSection .sleeve {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 45px;
-  width: auto;
-}
-
-#discographiesVue .albumSection .sleeve__albumCover {
-  height: 100%;
-  display: block;
-  border: solid 3px #d6be94;
-}
-
-#discographiesVue .albumSection .sleeve__player {
+#discographiesVue .album-presentation {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -903,34 +858,106 @@ button:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  width: 100%;
 }
 
-#discographiesVue .albumSection .sleeve__player .playerLogos {
+#discographiesVue .album-presentation__header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#discographiesVue .album-presentation__title {
+  font-style: italic;
+  margin-right: 10px;
+}
+
+#discographiesVue .album-presentation__arrow {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+#discographiesVue .album-presentation__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#discographiesVue .album-presentation__cover {
+  display: block;
+  width: 300px;
+  height: 300px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: solid 3px #d6be94;
+}
+
+#discographiesVue .album-presentation .album-data__selectedTrack {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 20px;
+}
+
+#discographiesVue .album-presentation .album-data__name {
+  margin-left: 10px;
+  margin-right: 20px;
+  font-style: italic;
+}
+
+#discographiesVue .album-presentation .album-data__logo {
+  width: 100px;
+  margin-top: 10px;
+}
+
+#discographiesVue .album-presentation .album-data__criteria {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 150px;
+  margin-top: 40px;
+  border-left: solid 3px;
+  padding-left: 20px;
+}
+
+#discographiesVue .album-presentation .album-data__criterium {
+  margin-right: 50px;
+}
+
+#discographiesVue .album-presentation .album-data__criterium--gem {
+  font-size: 20px;
+}
+
+#discographiesVue .album-presentation__players .players {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  width: 300px;
   margin-bottom: 8px;
 }
 
-#discographiesVue .albumSection .sleeve__player .player {
-  width: 250px;
-  height: 250px;
+#discographiesVue .album-presentation__players .players__item {
+  height: 300px;
   border: solid 3px #d6be94;
-  border-left: none;
-}
-
-#discographiesVue .albumSection .album-gem {
-  font-size: 30px;
-}
-
-#discographiesVue .albumSection .album-criteria {
-  width: 45%;
 }
 
 #gemsVue {

@@ -27,7 +27,7 @@ Vue.component('the-nav-bar', {
 
             <searchbar
                 class="header__searchbar"
-                v-bind:db="db"
+                :db="db"
                 v-on:album-click="handleSearchbarAlbumClick">
             </searchbar>
         </header> 
