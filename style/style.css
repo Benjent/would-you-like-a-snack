@@ -956,6 +956,7 @@ button:hover {
 }
 
 #discographiesVue .album-presentation__players .players__item {
+  width: 500px;
   height: 300px;
   border: solid 3px #d6be94;
 }
