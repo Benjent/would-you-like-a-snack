@@ -859,25 +859,8 @@ button:hover {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 100%;
-}
-
-#discographiesVue .album-presentation__header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-#discographiesVue .album-presentation__title {
-  font-style: italic;
-  margin-right: 10px;
-}
-
-#discographiesVue .album-presentation__arrow {
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+  margin-top: 50px;
+  font-size: 20px;
 }
 
 #discographiesVue .album-presentation__content {
@@ -893,6 +876,16 @@ button:hover {
   margin-right: 20px;
   margin-bottom: 20px;
   border: solid 3px #d6be94;
+}
+
+#discographiesVue .album-presentation .album-data__title {
+  font-size: 30px;
+  font-style: italic;
+}
+
+#discographiesVue .album-presentation .album-data__arrow {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
 }
 
 #discographiesVue .album-presentation .album-data__selectedTrack {
@@ -912,7 +905,7 @@ button:hover {
 }
 
 #discographiesVue .album-presentation .album-data__logo {
-  width: 100px;
+  width: 80px;
   margin-top: 10px;
 }
 
@@ -926,8 +919,8 @@ button:hover {
           flex-direction: column;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  height: 150px;
-  margin-top: 40px;
+  height: 100px;
+  margin-top: 20px;
   border-left: solid 3px;
   padding-left: 20px;
 }

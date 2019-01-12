@@ -35,13 +35,6 @@ Vue.component('discographies', {
             
             <section class="album-presentation">
 
-                <h2 class="album-presentation__header">
-
-                    <arrow class="album-presentation__arrow"></arrow>
-
-                    <span class="album-presentation__title">{{selectedAlbum.title}}</span> by {{selectedAlbum.artist}}
-                </h2>
-
                 <div class="album-presentation__content">
                     <img
                         class="album-presentation__cover"
@@ -50,6 +43,8 @@ Vue.component('discographies', {
 
                     <div class="album-data">
 
+                        <div class="album-data__artist">{{selectedAlbum.artist}}</div>
+                        <div class="album-data__title">{{selectedAlbum.title}}</div>
                         <div class="album-data__year">{{selectedAlbum.year}}</div>
                         <div class="album-data__country">{{selectedAlbum.country}}</div>
                         <div class="album-data__selectedTrack">
