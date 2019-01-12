@@ -29,7 +29,7 @@ const albums = [
         "selectedTrackTitle": "Morning Comes",
         "selectedTrackYtId": "kUrl0QQyO3w",
         "spotifyId": "1RtXq36VbQGluE5E2YJuV3",
-        "deezerId": "",
+        "deezerId": "111183",
         "designers": [],
         "isAGem": false
     },
@@ -44,7 +44,7 @@ const albums = [
         "selectedTrackTitle": "Professor",
         "selectedTrackYtId": "kHeIgl7WMvY",
         "spotifyId": "11hyZEEfhJE60wcWnBr5ng",
-        "deezerId": "",
+        "deezerId": "8240238",
         "designers": [],
         "isAGem": true,
         "description": "TODO"
@@ -120,7 +120,7 @@ const albums = [
         "selectedTrackTitle": "The Raven",
         "selectedTrackYtId": "YAE1XTvKLXA",
         "spotifyId": "4QKtovzVkwFs4yRKBMOLrv",
-        "deezerId": "",
+        "deezerId": "72170232",
         "designers": ["Hipgnosis"],
         "isAGem": false
     },
@@ -135,7 +135,7 @@ const albums = [
         "selectedTrackTitle": "I Robot",
         "selectedTrackYtId": "u7oAuba3Ekg",
         "spotifyId": "2vtMi0d0613jhp85klO9eb",
-        "deezerId": "",
+        "deezerId": "42207301",
         "designers": ["Hipgnosis"],
         "isAGem": true,
         "description": "Alan Parsons and Eric Woolfson managed to blend pop ballads with sci-fi lyrics - inspired by Isaac Asimov's Robot Trilogy - with spectacular arrangements, drawing the best out of electronic music from the late 70's and what was about to be disco music."
@@ -151,7 +151,7 @@ const albums = [
         "selectedTrackTitle": "Hyper-Gamma-Spaces",
         "selectedTrackYtId": "Am5Rloqqk0U",
         "spotifyId": "33lGtVb2m0lY8ftdJQLi8f",
-        "deezerId": "",
+        "deezerId": "1420970",
         "designers": ["Hipgnosis"],
         "isAGem": false
     },
@@ -166,7 +166,7 @@ const albums = [
         "selectedTrackTitle": "Secret Garden",
         "selectedTrackYtId": "7nqx1arGbJ4",
         "spotifyId": "5ZICh7iFpmgreWvpU9Og4G",
-        "deezerId": "",
+        "deezerId": "1420972",
         "designers": ["Hipgnosis"],
         "isAGem": false
     },
@@ -181,7 +181,7 @@ const albums = [
         "selectedTrackTitle": "The Ace Of Swords",
         "selectedTrackYtId": "mmxqzqk-Ouc",
         "spotifyId": "6nRIzDO8r11ba93abrhlzZ",
-        "deezerId": "",
+        "deezerId": "116258",
         "designers": [],
         "isAGem": false
     },
@@ -196,7 +196,7 @@ const albums = [
         "selectedTrackTitle": "Silence And I",
         "selectedTrackYtId": "76n_uE_W31A",
         "spotifyId": "4BGd9BmpePqeSfHLeYiCDr",
-        "deezerId": "",
+        "deezerId": "1207401",
         "designers": ["Hipgnosis"],
         "isAGem": false
     },
