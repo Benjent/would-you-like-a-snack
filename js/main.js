@@ -8,7 +8,7 @@ const selectedAlbumId = Utils.randomize(albums.length);
 const numberOfAlbumsInRandomVue = 11;
 
 const defaultValues = {
-  currentVue: "album",
+  currentVue: "discographies",
   selectedAlbum: Utils.selectDefaultAlbum(selectedAlbumId, albums),
   randomAlbums: getRandomAlbumsByLength(numberOfAlbumsInRandomVue, selectedAlbumId).slice(0)
 }
