@@ -14,18 +14,23 @@
         <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
         <!-- <script src="https://cdn.rawgit.com/asvd/dragscroll/master/dragscroll.js"></script> -->
         <script src="js/lib/pace.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.css">
+        <script src="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.js"></script>
 
         <!-- Standalone utils -->
         <script src="js/utils/paths.js"></script>
         <script src="js/utils/utils.js"></script>
 
         <!-- Components -->
+        <script src="components/arrow/arrow.js"></script>
         <script src="components/checkbox/checkbox.js"></script>
+        <script src="components/album-thumb/album-thumb.js"></script>
         <script src="components/searchbar/searchbar.js"></script>
         <script src="components/the-nav-bar/the-nav-bar.js"></script>
         <script src="components/album/album.js"></script>
         <script src="components/timeline/timeline.js"></script>
         <script src="components/attic/attic.js"></script>
+        <script src="components/discographies/discographies.js"></script>
         <script src="components/gems/gems.js"></script>
         <script src="components/subgenres/subgenres.js"></script>
         <script src="components/designers/designers.js"></script>
@@ -37,16 +42,16 @@
         <div id="indexVue">
 
             <the-nav-bar
-                v-bind:current-vue="currentVue"
-                v-bind:db="db"
+                :current-vue="currentVue"
+                :db="db"
                 v-on:set-current-vue="setCurrentVue"
                 v-on:album-click="setAlbumVueAndSelectAlbum">
             </the-nav-bar>
 
             <component
-                v-bind:is="currentVue"
-                v-bind:selected-album="selectedAlbum"
-                v-bind:db="db"
+                :is="currentVue"
+                :selected-album="selectedAlbum"
+                :db="db"
                 v-on:album-click="setAlbumVueAndSelectAlbum">
             </component>
 

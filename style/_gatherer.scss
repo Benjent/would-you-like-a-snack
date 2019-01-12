@@ -1,23 +1,29 @@
 // Basics
 @import 'basics/reset';
 @import 'basics/colors';
-@import 'basics/values';
-@import 'basics/mixins';
+@import 'basics/var';
+@import 'basics/helpers';
+
+// Libs
+@import 'components/loading';
+@import 'components/simplebar';
 
 // Components
-@import 'components/loading';
 @import 'components/link';
 @import 'components/button';
 @import 'components/select';
 @import 'components/vinyl';
+@import '../components/arrow/arrow';
 @import '../components/checkbox/checkbox';
+@import '../components/album-thumb/album-thumb';
 @import '../components/searchbar/searchbar';
-@import '../components/the-nav-bar/header';
+@import '../components/the-nav-bar/the-nav-bar';
 
 // Vues
 @import '../components/album/album';
 @import '../components/timeline/timeline';
 @import '../components/attic/attic';
+@import '../components/discographies/discographies';
 @import '../components/gems/gems';
 @import '../components/subgenres/subgenres';
 @import '../components/designers/designers';

@@ -2,7 +2,7 @@ Vue.component('checkbox', {
     template: `
         <div
             class="checkbox-wrapper"
-            v-bind:class="{ 'isRadio': filterItem.isRadio, 'checked': filterItem.checked }"
+            :class="{ 'isRadio': filterItem.isRadio, 'checked': filterItem.checked }"
             v-on:click="$emit('checkbox-clicked', filterItem)">
 
             <span class="checkbox-slot"></span>

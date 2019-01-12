@@ -3,13 +3,13 @@ Vue.component('album', {
         <section id="albumVue">
             <div class="buttons">
 
-                <div class="arrow-wrapper">
-                    <img
-                        class="arrow arrow-previous"
+                <div class="arrowWrapper">
+                    <arrow
+                        class="arrow--previous"
                         v-if="previousAlbum"
-                        v-bind:album-id="previousAlbum.id"
-                        v-on:click="$emit('album-click', previousAlbum)"
-                        v-bind:src=arrowPath alt="">
+                        :album-id="previousAlbum.id"
+                        v-on:click="$emit('album-click', previousAlbum)">
+                    </arrow>
                 </div>
 
                 <button
@@ -18,13 +18,13 @@ Vue.component('album', {
                     Surprise me
                 </button>
 
-                <div class="arrow-wrapper">
-                    <img
-                        class="arrow arrow-next"
+                <div class="arrowWrapper">
+                    <arrow
+                        class="arrow--next"
                         v-if="nextAlbum"
-                        v-bind:album-id="nextAlbum.id"
-                        v-on:click="$emit('album-click', nextAlbum)"
-                        v-bind:src=arrowPath alt="">
+                        :album-id="nextAlbum.id"
+                        v-on:click="$emit('album-click', nextAlbum)">
+                    </arrow>
                 </div>
             </div>
 
@@ -38,22 +38,22 @@ Vue.component('album', {
                     <div>Selected track: <span class="album-selected-track">{{selectedAlbum.selectedTrackTitle}}</span></div>
                     <a
                         v-if="selectedAlbum.selectedTrackYtId"
-                        v-bind:href=selectedAlbum.selectedTrackYtId
+                        :href=selectedAlbum.selectedTrackYtId
                         target="_blank">
                         <img
                             class="youtube-logo"
-                            v-bind:src=youTubePath
+                            :src=youTubePath
                             alt="">
                     </a>
 
                 </div>
 
                 <div class="album-cover-wrapper">
-                    <img v-bind:src=selectedAlbum.cover alt="">
+                    <img :src=selectedAlbum.cover alt="">
                     <iframe
                         id="spotifyPlayer"
                         v-if="selectedAlbum.spotifyId"
-                        v-bind:src="selectedAlbum.spotifyId"
+                        :src="selectedAlbum.spotifyId"
                         frameborder="0"
                         allowtransparency="true"
                         allow="encrypted-media">
@@ -75,8 +75,8 @@ Vue.component('album', {
             </div>
 
             <timeline
-                v-bind:selected-album="selectedAlbum"
-                v-bind:db="db"
+                :selected-album="selectedAlbum"
+                :db="db"
                 v-on:album-click="handleTimelineAlbumClick">
             </timeline>
 
