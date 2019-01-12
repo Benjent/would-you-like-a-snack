@@ -2,28 +2,27 @@
     // $computedTopPadding: $headerHeight + $borderThick + 24px;
     // $computedTopPadding: $headerHeight + 
     // padding: $computedTopPadding 0 50px 0;
-    height: 100vh - $headerHeight;
+    height: calc(100vh - 11vh); // Dirty fix to prevent scrollbar to overlap header
+    width: 100%;
     overflow-y: auto;
     overflow-x: hidden;
-    margin-top: $headerHeight;
-    width: 100%;
     // padding-top: 20px;
 }
 
 @mixin albumCover {
     // width: 300px;
     height: 300px;
-    border: solid 5px $gold;
+    border: solid 5px $primary;
 }
 
 @mixin albumCoverMedium {
     // width: 260px;
     height: 260px;
-    border: solid 4px $gold;
+    border: solid 4px $primary;
 }
 
 @mixin albumCoverSmall {
     // width: 130px;
     height: 130px;
-    border: solid 3px $gold;
+    border: solid 3px $primary;
 }

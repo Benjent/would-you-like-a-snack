@@ -4,8 +4,8 @@
     select {
         width: 100%;
         padding: 5px 10px;
-        border: solid 2px $gold;
-        background: $black;
+        border: solid 2px $primary;
+        background: $secondary;
         font-size: $mainFontSizeSmall;
         option {
             
@@ -20,7 +20,7 @@
         right: 30px;
         width: 10px;
         height: 10px;
-        border: solid 2px $gold;
+        border: solid 2px $primary;
         border-left: none;
         border-top: none;
         transform: rotate(45deg);

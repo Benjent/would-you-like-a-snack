@@ -12,7 +12,7 @@
         height: 25px;
         width: 25px;
         background: $black;
-        border: solid 2px $gold;
+        border: solid 2px $primary;
         margin-right: 10px;
     }
 
@@ -24,17 +24,17 @@
 
     &.checked {
         .checkbox-slot {
-            background: $gold;
+            background: $primary;
         }
     }
 
     &:hover .checkbox-slot {
-        background: linear-gradient(141deg, $ocean 10%, $brown 90%);
+        background: linear-gradient(141deg, $secondary 10%, $ternary 90%);
     }
     &.checked:hover {
         // Keep gold state if checked to avoid confusion
         .checkbox-slot {
-            background: $gold;
+            background: $primary;
         }
     }
 

@@ -1,0 +1,39 @@
+.albumThumb {
+
+    &:hover {
+        .albumInfos {
+            opacity: 1;
+            cursor: pointer;
+        }
+    }
+    .albumInfos {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.7);
+        opacity: 0;
+        transition: opacity 0.2s;
+        padding: 5px;
+        box-sizing: border-box;
+        &__rating {
+            font-style: italic;
+            font-weight: bold;
+            border-top: solid 1px;
+            border-bottom: solid 1px;
+        }
+    }
+    .albumCover {
+        width: 100%;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

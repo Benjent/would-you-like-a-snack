@@ -20,8 +20,8 @@ Vue.component('timeline', {
                 <div class="album-placeholder">
                     <img
                         class="album-cover"
-                        v-bind:album-id="album.id"
-                        v-bind:src=album.cover
+                        :album-id="album.id"
+                        :src=album.cover
                         v-on:click="$emit('album-click', album)"
                         alt="">
                 </div>
