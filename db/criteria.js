@@ -6,6 +6,7 @@ const criteria = {
     LIVE: "Live album",
     
     // Language
+    CROATIAN_SUNG: "Croatian sung",
     FRENCH_SUNG: "French sung",
     GERMAN_SUNG: "German sung",
     ITALIAN_SUNG: "Italian sung",
@@ -90,6 +91,7 @@ const criteriaOrder = [
     criteria.LIVE,
     
     // Language
+    criteria.CROATIAN_SUNG,
     criteria.FRENCH_SUNG,
     criteria.GERMAN_SUNG,
     criteria.ITALIAN_SUNG,
