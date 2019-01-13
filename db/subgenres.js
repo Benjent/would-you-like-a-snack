@@ -217,6 +217,7 @@ const subgenres = [
             getAlbumById("miklagard_miklagard"),
             getAlbumById("pink_floyd_dark_side_of_the_moon"),
             getAlbumById("robert_connolly_plateau"),
+            getAlbumById("indian_summer_indian_summer")
         ],
         "criteria": [criteria.SYMPHONIC, criteria.SPECTACULAR, criteria.SOPHISTICATED, criteria.TECHNICAL, criteria.C_JAZZ, criteria.C_ELECTRO, criteria.ODD_RHYTHM]
     },
