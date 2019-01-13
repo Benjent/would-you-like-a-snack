@@ -152,7 +152,6 @@ Vue.component('discographies', {
         },
         deezerPath() {
             return "http://www.deezer.com/plugins/player?autoplay=false&playlist=true&width=700&height=240&cover=true&type=album&id=" + this.selectedAlbum.deezerId;
-
         },
         youtubeLogoPath() {
             return pathToImg + "/logos/yt_logo_gold.png"

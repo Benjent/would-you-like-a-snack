@@ -4,12 +4,6 @@ Vue.component('album', {
             <div class="buttons">
 
                 <div class="arrowWrapper">
-                    <arrow
-                        class="arrow--previous"
-                        v-if="previousAlbum"
-                        :album-id="previousAlbum.id"
-                        v-on:click="$emit('album-click', previousAlbum)">
-                    </arrow>
                 </div>
 
                 <button
@@ -19,30 +13,24 @@ Vue.component('album', {
                 </button>
 
                 <div class="arrowWrapper">
-                    <arrow
-                        class="arrow--next"
-                        v-if="nextAlbum"
-                        :album-id="nextAlbum.id"
-                        v-on:click="$emit('album-click', nextAlbum)">
-                    </arrow>
                 </div>
             </div>
 
             <div class="content">
                 <div class="album-metadata">
 
-                    <div class="album-title">{{selectedAlbum.title}}</div>
                     <div class="album-artist">{{selectedAlbum.artist}}</div>
+                    <div class="album-title">{{selectedAlbum.title}}</div>
                     <div class="album-year">{{selectedAlbum.year}}</div>
                     <div class="album-country">{{selectedAlbum.country}}</div>
                     <div>Selected track: <span class="album-selected-track">{{selectedAlbum.selectedTrackTitle}}</span></div>
                     <a
                         v-if="selectedAlbum.selectedTrackYtId"
-                        :href=selectedAlbum.selectedTrackYtId
+                        :href=youtubePath
                         target="_blank">
                         <img
                             class="youtube-logo"
-                            :src=youTubePath
+                            :src=youtubeLogoPath
                             alt="">
                     </a>
 
@@ -50,14 +38,6 @@ Vue.component('album', {
 
                 <div class="album-cover-wrapper">
                     <img :src=selectedAlbum.cover alt="">
-                    <iframe
-                        id="spotifyPlayer"
-                        v-if="selectedAlbum.spotifyId"
-                        :src="selectedAlbum.spotifyId"
-                        frameborder="0"
-                        allowtransparency="true"
-                        allow="encrypted-media">
-                    </iframe>
                 </div>
 
                 <div class="album-criteria">
@@ -103,6 +83,16 @@ Vue.component('album', {
 
             return computedCriteria;
         },
+        youtubePath() {
+            return "https://www.youtube.com/watch?v=" + this.selectedAlbum.selectedTrackYtId;
+        },
+        spotifyPath() {
+            return "https://open.spotify.com/embed/album/" + this.selectedAlbum.spotifyId;
+        },
+        deezerPath() {
+            return "http://www.deezer.com/plugins/player?autoplay=false&playlist=true&width=700&height=240&cover=true&type=album&id=" + this.selectedAlbum.deezerId;
+
+        },
         previousAlbum() {
             if(this.selectedAlbum.index > 0 && this.db.albums[this.selectedAlbum.index - 1].artist == this.selectedAlbum.artist) {
                 return this.db.albums[this.selectedAlbum.index - 1];
@@ -117,7 +107,7 @@ Vue.component('album', {
                 return null
             }
         },
-        youTubePath() {
+        youtubeLogoPath() {
             return pathToImg + "/logos/yt_logo_gold.png"
         }
     },

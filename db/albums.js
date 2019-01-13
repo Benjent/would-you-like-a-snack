@@ -29,7 +29,7 @@ const albums = [
         "selectedTrackTitle": "Morning Comes",
         "selectedTrackYtId": "kUrl0QQyO3w",
         "spotifyId": "1RtXq36VbQGluE5E2YJuV3",
-        "deezerId": "",
+        "deezerId": "111183",
         "designers": [],
         "isAGem": false
     },
@@ -44,7 +44,7 @@ const albums = [
         "selectedTrackTitle": "Professor",
         "selectedTrackYtId": "kHeIgl7WMvY",
         "spotifyId": "11hyZEEfhJE60wcWnBr5ng",
-        "deezerId": "",
+        "deezerId": "8240238",
         "designers": [],
         "isAGem": true,
         "description": "TODO"
@@ -120,7 +120,7 @@ const albums = [
         "selectedTrackTitle": "The Raven",
         "selectedTrackYtId": "YAE1XTvKLXA",
         "spotifyId": "4QKtovzVkwFs4yRKBMOLrv",
-        "deezerId": "",
+        "deezerId": "72170232",
         "designers": ["Hipgnosis"],
         "isAGem": false
     },
@@ -135,7 +135,7 @@ const albums = [
         "selectedTrackTitle": "I Robot",
         "selectedTrackYtId": "u7oAuba3Ekg",
         "spotifyId": "2vtMi0d0613jhp85klO9eb",
-        "deezerId": "",
+        "deezerId": "42207301",
         "designers": ["Hipgnosis"],
         "isAGem": true,
         "description": "Alan Parsons and Eric Woolfson managed to blend pop ballads with sci-fi lyrics - inspired by Isaac Asimov's Robot Trilogy - with spectacular arrangements, drawing the best out of electronic music from the late 70's and what was about to be disco music."
@@ -151,7 +151,7 @@ const albums = [
         "selectedTrackTitle": "Hyper-Gamma-Spaces",
         "selectedTrackYtId": "Am5Rloqqk0U",
         "spotifyId": "33lGtVb2m0lY8ftdJQLi8f",
-        "deezerId": "",
+        "deezerId": "1420970",
         "designers": ["Hipgnosis"],
         "isAGem": false
     },
@@ -166,7 +166,7 @@ const albums = [
         "selectedTrackTitle": "Secret Garden",
         "selectedTrackYtId": "7nqx1arGbJ4",
         "spotifyId": "5ZICh7iFpmgreWvpU9Og4G",
-        "deezerId": "",
+        "deezerId": "1420972",
         "designers": ["Hipgnosis"],
         "isAGem": false
     },
@@ -181,7 +181,7 @@ const albums = [
         "selectedTrackTitle": "The Ace Of Swords",
         "selectedTrackYtId": "mmxqzqk-Ouc",
         "spotifyId": "6nRIzDO8r11ba93abrhlzZ",
-        "deezerId": "",
+        "deezerId": "116258",
         "designers": [],
         "isAGem": false
     },
@@ -196,7 +196,7 @@ const albums = [
         "selectedTrackTitle": "Silence And I",
         "selectedTrackYtId": "76n_uE_W31A",
         "spotifyId": "4BGd9BmpePqeSfHLeYiCDr",
-        "deezerId": "",
+        "deezerId": "1207401",
         "designers": ["Hipgnosis"],
         "isAGem": false
     },
@@ -226,7 +226,7 @@ const albums = [
         "selectedTrackTitle": "Alma Mater",
         "selectedTrackYtId": "",
         "spotifyId": "0zKjnOsXxs63unPR6TWoHq",
-        "deezerId": "",
+        "deezerId": "86986",
         "designers": ["Craig Braun"],
         "isAGem": false
     },
@@ -241,7 +241,7 @@ const albums = [
         "selectedTrackTitle": "Hello Hooray",
         "selectedTrackYtId": "80bqSzONHP4",
         "spotifyId": "70vRcyvFfGc3rwaETxzjHC",
-        "deezerId": "",
+        "deezerId": "86966",
         "designers": ["Pacific Eye & Ear"],
         "isAGem": false
     },
@@ -256,7 +256,7 @@ const albums = [
         "selectedTrackTitle": "Hard Hearted Alice",
         "selectedTrackYtId": "",
         "spotifyId": "4NYhlYA28LAzzElE3HSSfp",
-        "deezerId": "",
+        "deezerId": "927096",
         "designers": ["Pacific Eye & Ear"],
         "isAGem": false
     },
@@ -271,7 +271,7 @@ const albums = [
         "selectedTrackTitle": "Nurse Rozetta",
         "selectedTrackYtId": "R-h13lDzGNo",
         "spotifyId": "7FFpqmbQxj3u4Q7aLGNox0",
-        "deezerId": "",
+        "deezerId": "365508",
         "designers": ["Pacific Eye & Ear"],
         "isAGem": false
     },
@@ -332,7 +332,7 @@ const albums = [
         "selectedTrackTitle": "Time Waits For No One",
         "selectedTrackYtId": "kXrWEDW0I7Q",
         "spotifyId": "4WLSlSsZR6RZSaZm2ZB1WI",
-        "deezerId": "",
+        "deezerId": "381675",
         "designers": ["Eddie Douglas"],
         "isAGem": false
     },
@@ -347,7 +347,7 @@ const albums = [
         "selectedTrackTitle": "Cowboy Star",
         "selectedTrackYtId": "Jmwg5X1FwrY",
         "spotifyId": "6WgShBCsr36H9L2AObtjT7",
-        "deezerId": "",
+        "deezerId": "381676",
         "designers": ["Hogin McMurtrie"],
         "isAGem": false
     },
@@ -377,7 +377,7 @@ const albums = [
         "selectedTrackTitle": "Dignité",
         "selectedTrackYtId": "C9u3KWEi7Us",
         "spotifyId": "4naH2uTFiUQ4L7D2zktDcx",
-        "deezerId": "",
+        "deezerId": "6495472",
         "designers": ["Claude Delorme"],
         "isAGem": false
     },
@@ -392,7 +392,7 @@ const albums = [
         "selectedTrackTitle": "Aujourd'hui C'est La Fête Chez L'apprenti Sorcier",
         "selectedTrackYtId": "f2S7J9eXuTQ",
         "spotifyId": "5KnZloSevoATYhQeX7t0e0",
-        "deezerId": "",
+        "deezerId": "238682",
         "designers": ["Jacques Wyrss"],
         "isAGem": false
     },
@@ -407,7 +407,7 @@ const albums = [
         "selectedTrackTitle": "Les Longues Nuits D'Isaac",
         "selectedTrackYtId": "L7EezMJrnRM",
         "spotifyId": "3X6ZYhmu0k29UmNw2zcCrL",
-        "deezerId": "",
+        "deezerId": "647133",
         "designers": ["Philippe Huart", "Phil Umbdenstock"],
         "isAGem": false
     },
@@ -422,7 +422,7 @@ const albums = [
         "selectedTrackTitle": "Sur La Trace Des Fées",
         "selectedTrackYtId": "F9z4OCHE7t8",
         "spotifyId": "6C7B51NLYoIefaLAwsdFP7",
-        "deezerId": "",
+        "deezerId": "647132",
         "designers": ["Philippe Huart", "Phil Umbdenstock"],
         "isAGem": false
     },
@@ -437,7 +437,7 @@ const albums = [
         "selectedTrackTitle": "Au Café Du Colibri",
         "selectedTrackYtId": "JjU8A0DReMo",
         "spotifyId": "3EqySsFNjDWa6xORz8apbS",
-        "deezerId": "",
+        "deezerId": "433657",
         "designers": ["Philippe Huart", "Phil Umbdenstock"],
         "isAGem": false
     },
@@ -452,7 +452,7 @@ const albums = [
         "selectedTrackTitle": "Réveille-Toi",
         "selectedTrackYtId": "F_66uMKNZC8",
         "spotifyId": "28yxlTAC4piWK2l9hGsNZF",
-        "deezerId": "",
+        "deezerId": "6495473",
         "designers": ["Phil Umbdenstock"],
         "isAGem": false
     },
@@ -482,7 +482,7 @@ const albums = [
         "selectedTrackTitle": "Which Way The Wind Blows",
         "selectedTrackYtId": "E-zErxaZxh8",
         "spotifyId": "5Iobarqw2ercTb5otXGkiV",
-        "deezerId": "",
+        "deezerId": "10241040",
         "designers": ["Peter Cross"],
         "isAGem": false
     },
@@ -497,7 +497,7 @@ const albums = [
         "selectedTrackTitle": "Birdsong And Reprise",
         "selectedTrackYtId": "tSEqbHSUZJU",
         "spotifyId": "2CkOxyCAwfey7JZLQfudpS",
-        "deezerId": "",
+        "deezerId": "12273426",
         "designers": ["Peter Cross"],
         "isAGem": false
     },
@@ -512,7 +512,7 @@ const albums = [
         "selectedTrackTitle": "The Lamb",
         "selectedTrackYtId": "hbTHgL4pu_A",
         "spotifyId": "4MB7X1urqItzKWFI73dyhb",
-        "deezerId": "",
+        "deezerId": "160253",
         "designers": [],
         "isAGem": false
     },
@@ -558,7 +558,7 @@ const albums = [
         "selectedTrackTitle": "Le Chamadère",
         "selectedTrackYtId": "6v5NjAeKNE0",
         "spotifyId": "2Cx64WunNXSSrvi21T9bb4",
-        "deezerId": "",
+        "deezerId": "46220",
         "designers": [],
         "isAGem": false
     },
@@ -573,7 +573,7 @@ const albums = [
         "selectedTrackTitle": "L'abbattimento Dello Zeppelin",
         "selectedTrackYtId": "433wf2jDkhA",
         "spotifyId": "4YLKvXEwd8vCNpZ7MN36YS",
-        "deezerId": "",
+        "deezerId": "7036485",
         "designers": [],
         "isAGem": false
     },
@@ -588,7 +588,7 @@ const albums = [
         "selectedTrackTitle": "Cometa Rossa",
         "selectedTrackYtId": "KuTOacIIf-I",
         "spotifyId": "28tx6X6UX0IhqzTUiXUkld",
-        "deezerId": "",
+        "deezerId": "7036486",
         "designers": ["Edoardo Sivelli"],
         "isAGem": false
     },
@@ -603,7 +603,7 @@ const albums = [
         "selectedTrackTitle": "Megalopoli",
         "selectedTrackYtId": "VVugC2gOMFs",
         "spotifyId": "5eOTf1CZgRvs3X3OtIxlwK",
-        "deezerId": "",
+        "deezerId": "7041040",
         "designers": ["Edoardo Sivelli", "Gian Michele Monti"],
         "isAGem": false
     },
@@ -618,7 +618,7 @@ const albums = [
         "selectedTrackTitle": "Diforisma Urbano",
         "selectedTrackYtId": "zrX2WtAMPLU",
         "spotifyId": "4V42k78uHSPQk7Y6CR6e6H",
-        "deezerId": "",
+        "deezerId": "7043105",
         "designers": [],
         "isAGem": false
     },
@@ -633,7 +633,7 @@ const albums = [
         "selectedTrackTitle": "Le Chant D'Orphée",
         "selectedTrackYtId": "vzmYFSSPfeQ",
         "spotifyId": "",
-        "deezerId": "",
+        "deezerId": "75684032",
         "designers": ["Pierre Fonvieille"],
         "isAGem": false
     },
@@ -648,7 +648,7 @@ const albums = [
         "selectedTrackTitle": "Positivo/Negativo",
         "selectedTrackYtId": "DC_K3w6gi2Q",
         "spotifyId": "0mWgW1Cyapnw02hgmzVmUo",
-        "deezerId": "",
+        "deezerId": "7960556",
         "designers": [],
         "isAGem": true,
         "description": "Gigi Venegoni gathers music virtuosi to create music where the bass guitar and the vibraphone share the room while the guitar and the violin plays frantic melodies over Furio Chirico's fast-paced drumming style. The band handles textures with a wide asset of instruments but very few vocal parts, and play around tempo variations to create the surprise, with just enough time to rest."
@@ -664,7 +664,7 @@ const albums = [
         "selectedTrackTitle": "Valzer Per Domani",
         "selectedTrackYtId": "NDBj39DGVRw",
         "spotifyId": "0MWPagPbiIwXn4cZ7epZXy",
-        "deezerId": "",
+        "deezerId": "7960580",
         "designers": [],
         "isAGem": true,
         "description": "TODO"
@@ -680,7 +680,7 @@ const albums = [
         "selectedTrackTitle": "Torino Nella Mente",
         "selectedTrackYtId": "skOYf_P1BP4",
         "spotifyId": "3a70VEfnYooKrBl7wunaqF",
-        "deezerId": "",
+        "deezerId": "7991810",
         "designers": [],
         "isAGem": false
     },
@@ -695,7 +695,7 @@ const albums = [
         "selectedTrackTitle": "Time Again",
         "selectedTrackYtId": "YCWNYKRtRFs",
         "spotifyId": "5TkfP3cqWgeBvCugPeiGNl",
-        "deezerId": "",
+        "deezerId": "69833112",
         "designers": ["Roger Dean"],
         "isAGem": false
     },
@@ -710,7 +710,7 @@ const albums = [
         "selectedTrackTitle": "The Heat Goes On",
         "selectedTrackYtId": "Hbw3HA3lMMU",
         "spotifyId": "0MdsnpmztQLrbUDzXZeT8v",
-        "deezerId": "",
+        "deezerId": "216407",
         "designers": ["Roger Dean"],
         "isAGem": false
     },
@@ -725,7 +725,7 @@ const albums = [
         "selectedTrackTitle": "Go",
         "selectedTrackYtId": "9TiGDuI9d6Y",
         "spotifyId": "4vWbvwBYgwtDUVMVx5DtNe",
-        "deezerId": "",
+        "deezerId": "121093",
         "designers": ["Roger Dean"],
         "isAGem": false
     },
@@ -740,7 +740,7 @@ const albums = [
         "selectedTrackTitle": "Death Walks Behind You",
         "selectedTrackYtId": "8yO7l6TmIRI",
         "spotifyId": "1uWBDKlPHk1ciEepU3I0R5",
-        "deezerId": "",
+        "deezerId": "437326",
         "designers": ["Hamish & Gustav"],
         "isAGem": false
     },
@@ -755,7 +755,7 @@ const albums = [
         "selectedTrackTitle": "Breakthrough",
         "selectedTrackYtId": "lgqFPcKpfEg",
         "spotifyId": "2sNiQfJzbFl5DCw27YiI9f",
-        "deezerId": "",
+        "deezerId": "424777",
         "designers": ["Mike Gill", "Roger Dean"],
         "isAGem": false
     },
@@ -1485,6 +1485,36 @@ const albums = [
         "spotifyId": "6e4SjRDk3F5h9AiwrjJkNO",
         "deezerId": "7063730",
         "designers": [],
+        "isAGem": false
+    },
+    {
+        "id": "bijelo_dugme_kad_bi_bio_bijelo_dugme",
+        "title": "Kad Bi' Bio Bijelo Dugme",
+        "artist": "Bijelo Dugme",
+        "year": 1974,
+        "country": regions.BOSNIA_AND_HERZEGOVINA,
+        "cover": pathToCovers + "/bijelo_dugme_kad_bi_bio_bijelo_dugme.jpg",
+        "criteria": [criteria.CROATIAN_SUNG, criteria.ROCK, criteria.JAM, criteria.HEAVY],
+        "selectedTrackTitle": "Kad Bi' Bio Bijelo Dugme",
+        "selectedTrackYtId": "TesdVZePtDQ",
+        "spotifyId": "6lq5cjE0UcsofDrmJMqQIQ",
+        "deezerId": "2262011",
+        "designers": ["Dragan S. Stefanović"],
+        "isAGem": false
+    },
+    {
+        "id": "bijelo_dugme_sta_bi_dao_da_si_na_mom_mjestu",
+        "title": "Šta Bi Dao Da Si Na Mom Mjestu",
+        "artist": "Bijelo Dugme",
+        "year": 1975,
+        "country": regions.BOSNIA_AND_HERZEGOVINA,
+        "cover": pathToCovers + "/bijelo_dugme_sta_bi_dao_da_si_na_mom_mjestu.jpg",
+        "criteria": [criteria.CROATIAN_SUNG, criteria.ROCK, criteria.JAM, criteria.HEAVY],
+        "selectedTrackTitle": "Šta Bi Dao Da Si Na Mom Mjestu",
+        "selectedTrackYtId": "5a1C49OF718",
+        "spotifyId": "6WabuP2U4iMHDiGVsCTIko",
+        "deezerId": "2262211",
+        "designers": ["Dragan S. Stefanović"],
         "isAGem": false
     },
     {
@@ -4849,6 +4879,22 @@ const albums = [
         "deezerId": "",
         "designers": ["Diogenic Attempts Ltd"],
         "isAGem": false
+    },
+    {
+        "id": "indian_summer_indian_summer",
+        "title": "Indian Summer",
+        "artist": "Indian Summer",
+        "year": 1971,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/indian_summer_indian_summer.jpg",
+        "criteria": [criteria.JAM, criteria.JAZZY_GROOVY, criteria.C_JAZZ, criteria.TECHNICAL],
+        "selectedTrackTitle": "Half Changed Again",
+        "selectedTrackYtId": "rGRs6ZwzBcY",
+        "spotifyId": "",
+        "deezerId": "",
+        "designers": ["Marcus Keef"],
+        "isAGem": true,
+        "description": "TODO"
     },
     {
         "id": "island_pictures",
@@ -9578,6 +9624,7 @@ The Who
 // TODO create components for histograms and tables
 // TODO consider adding criteria :
 /*
+bluesy
 influencial
 history-related
 ahead-of-its-time

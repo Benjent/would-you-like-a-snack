@@ -50,7 +50,7 @@ var indexVue = new Vue({
     },
     setAlbumVueAndSelectAlbum: function(album) {
       this.selectedAlbum = album;
-      this.setCurrentVue("discographies");
+      this.setCurrentVue("album");
     }
   }
 })

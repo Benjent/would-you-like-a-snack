@@ -581,7 +581,7 @@ button:hover {
 
 #albumVue .content .album-metadata .album-title {
   font-style: italic;
-  font-size: 30px;
+  font-size: 33px;
 }
 
 #albumVue .content .album-metadata .album-selected-track {
@@ -630,48 +630,44 @@ button:hover {
       -ms-flex-align: start;
           align-items: flex-start;
   width: 100vw;
-  height: 23vh;
-  overflow-x: scroll;
-  overflow-y: hidden;
   position: fixed;
   bottom: 0;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
-#timelineVue .album-wrapper {
+#timelineVue .album {
   display: contents;
 }
 
-#timelineVue .album-wrapper .album-placeholder {
-  height: 23vh;
-  width: 23vh;
-  background: #d6be94;
-  border-top: solid 6px #d6be94;
-  margin-top: 20px;
+#timelineVue .album__cover {
   display: block;
+  width: 160px;
+  height: 160px;
+  background: #d6be94;
+  margin-top: 20px;
+  border-top: solid 6px #d6be94;
 }
 
-#timelineVue .album-wrapper .album-placeholder .album-cover {
-  height: 100%;
-}
-
-#timelineVue .album-wrapper .album-placeholder .album-cover:hover {
+#timelineVue .album__cover:hover {
   cursor: pointer;
 }
 
-#timelineVue .album-wrapper .album-year {
-  text-align: center;
-  z-index: 1;
-  background: #030504;
-  color: #d6be94;
-  padding: 5px 20px;
+#timelineVue .album__year {
   display: table;
-  width: 95px;
-  margin-right: -95px;
-  border: solid 3px #d6be94;
+  width: 75px;
+  z-index: 1;
+  background: #375456;
+  color: #d6be94;
+  margin-right: -75px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  border: solid 2px #d6be94;
   border-radius: 30px;
   border-bottom-left-radius: 0;
+  padding: 2px 15px;
+  font-size: 16px;
+  text-align: center;
 }
 
 #atticVue {

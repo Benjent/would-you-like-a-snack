@@ -3,6 +3,7 @@ const regions = {
     AUSTRALIA: "Australia",
     BELGIUM: "Belgium",
     BOLIVIA: "Bolivia",
+    BOSNIA_AND_HERZEGOVINA: "Bosnia and Herzegovina",
     CANADA: "Canada",
     DENMARK: "Denmark",
     ENGLAND: "England",
