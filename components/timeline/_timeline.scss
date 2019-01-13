@@ -1,50 +1,52 @@
 #timelineVue {
-    $timelineHeight: 23vh;
     display: flex;
     align-items: flex-start;
+
     width: 100vw;
-    height: $timelineHeight;
-    overflow-x: scroll;
-    overflow-y: hidden;
+
     position: fixed;
     bottom: 0;
-    // border-top: solid $borderThick $primary;
-    // cursor: grab;
-    .album-wrapper {
+
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+    .album {
         display: contents;
-        .album-placeholder {
-            height: $timelineHeight;
-            width: $timelineHeight;
-            background: $primary;
-            border-top: solid $borderThick $primary;
-            margin-top: 20px;
+
+        &__cover {
             display: block;
-            .album-cover {
-                // height: 180px;
-                // width: 180px;
-                height: 100%;
-                &:hover {
-                    cursor: pointer;
-                }
-            }
+
+            width: 160px;
+            height: 160px;
+
+            background: $primary;
+            margin-top: 20px;
+            border-top: solid $borderThick $primary;
+
+            &:hover { cursor: pointer; }
         }
-        .album-year {
-            $albumYearWidth: 95px;
-            // writing-mode: vertical-rl;
-            // // text-orientation: upright;
-            // transform: rotateZ(180deg);
-            text-align: center;
-            z-index: 1;
-            background: $black;
-            color: $primary;
-            padding: 5px 20px;
+
+        &__year {
+            $albumYearWidth: 75px;
+
             display: table;
+            
             width: $albumYearWidth;
+            z-index: 1;
+
+            background: $secondary;
+            color: $primary;
+            
             margin-right: -$albumYearWidth;
-            border: solid $borderThin $primary;
             box-sizing: border-box;
+            
+            border: solid 2px $primary;
             border-radius: $borderRadius;
             border-bottom-left-radius: 0;
+            padding: 2px 15px;
+
+            font-size: 16px;
+            text-align: center;
         }
     }
 }

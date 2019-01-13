@@ -63,9 +63,7 @@ Vue.component('attic', {
                     :album-id="album.id"
                     v-on:click="$emit('album-click', album)">
 
-                    <album-thumb
-                        :album="album">
-    
+                    <album-thumb :album="album">
                     </album-thumb>
 
                 </div>

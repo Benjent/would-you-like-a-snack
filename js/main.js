@@ -8,7 +8,7 @@ const selectedAlbumId = Utils.randomize(albums.length);
 const numberOfAlbumsInRandomVue = 11;
 
 const defaultValues = {
-  currentVue: "discographies",
+  currentVue: "album",
   selectedAlbum: Utils.selectDefaultAlbum(selectedAlbumId, albums),
   randomAlbums: getRandomAlbumsByLength(numberOfAlbumsInRandomVue, selectedAlbumId).slice(0)
 }
@@ -50,7 +50,7 @@ var indexVue = new Vue({
     },
     setAlbumVueAndSelectAlbum: function(album) {
       this.selectedAlbum = album;
-      this.setCurrentVue("discographies");
+      this.setCurrentVue("album");
     }
   }
 })
