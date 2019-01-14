@@ -52,7 +52,8 @@
                 :is="currentVue"
                 :selected-album="selectedAlbum"
                 :db="db"
-                v-on:album-click="setAlbumVueAndSelectAlbum">
+                v-on:album-click="setDiscographiesVueAndSelectAlbum"
+                v-on:album-click-surprise="setAlbumVueAndSelectAlbum">
             </component>
 
         </div>
