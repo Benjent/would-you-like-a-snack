@@ -816,7 +816,22 @@ const albums = [
         "selectedTrackYtId": "BgEINKJeztQ",
         "spotifyId": "",
         "deezerId": "",
-        "designers": ["Jacques Chabiron", ],
+        "designers": ["Jacques Chabiron"],
+        "isAGem": false
+    },
+    {
+        "id": "atoll_locean",
+        "title": "L'océan",
+        "artist": "Atoll",
+        "year": 1989,
+        "country": regions.FRANCE,
+        "cover": pathToCovers + "/atoll_locean.jpg",
+        "criteria": [criteria.FRENCH_SUNG, criteria.NEO_EIGHTIES, criteria.GLITTER, criteria.UNCOMMON_INSTRUMENTS, criteria.ODD_RHYTHM, criteria.C_ELECTRO],
+        "selectedTrackTitle": "Sahara (Part I)",
+        "selectedTrackYtId": "hXZ4YCtC8pE",
+        "spotifyId": "",
+        "deezerId": "437587",
+        "designers": [],
         "isAGem": false
     },
     {
@@ -1515,6 +1530,36 @@ const albums = [
         "spotifyId": "6WabuP2U4iMHDiGVsCTIko",
         "deezerId": "2262211",
         "designers": ["Dragan S. Stefanović"],
+        "isAGem": false
+    },
+    {
+        "id": "bijelo_dugme_eto_bas_hocu",
+        "title": "Eto! Baš Hoću!",
+        "artist": "Bijelo Dugme",
+        "year": 1976,
+        "country": regions.BOSNIA_AND_HERZEGOVINA,
+        "cover": pathToCovers + "/bijelo_dugme_eto_bas_hocu.jpg",
+        "criteria": [criteria.CROATIAN_SUNG, criteria.ROCK, criteria.JAM, criteria.FEMALE, criteria.JAZZY_GROOVY],
+        "selectedTrackTitle": "Sanjao Sam Noćas Da Te Nemam",
+        "selectedTrackYtId": "dPiH6om5ju8",
+        "spotifyId": "5EEQWKlpmwmmQWbZhBN2Fn",
+        "deezerId": "2262001",
+        "designers": ["Dragan S. Stefanović"],
+        "isAGem": false
+    },
+    {
+        "id": "bijelo_dugme_bitanga_i_princeza",
+        "title": "Bitanga I Princeza",
+        "artist": "Bijelo Dugme",
+        "year": 1979,
+        "country": regions.BOSNIA_AND_HERZEGOVINA,
+        "cover": pathToCovers + "/bijelo_dugme_bitanga_i_princeza.jpg",
+        "criteria": [criteria.CROATIAN_SUNG, criteria.ROCK, criteria.JAM, criteria.ORCHESTRAL_PARTS],
+        "selectedTrackTitle": "Sve Će To, Mila Moja, Prekriti Ruzmarin, Snjegovi I Šaš",
+        "selectedTrackYtId": "twwtAFFsfXY",
+        "spotifyId": "5CPVMGdQlqB27LCDZl705K",
+        "deezerId": "2261581",
+        "designers": ["Ivan Ivezić"],
         "isAGem": false
     },
     {
@@ -2311,6 +2356,22 @@ const albums = [
         "deezerId": "",
         "designers": ["Francine Massé"],
         "isAGem": false
+    },
+    {
+        "id": "climax_gusano_mecanico",
+        "title": "Gusano Mecánico",
+        "artist": "Climax",
+        "year": 1974,
+        "country": regions.BOLIVIA,
+        "cover": pathToCovers + "/climax_gusano_mecanico.jpg",
+        "criteria": [criteria.SPANISH_SUNG, criteria.UNCOMMON_INSTRUMENTS, criteria.JAZZY_GROOVY, criteria.GREASY_SEVENTIES, criteria.JAM, criteria.ODD_RHYTHM, criteria.C_JAZZ],
+        "selectedTrackTitle": "todo",
+        "selectedTrackYtId": "todo",
+        "spotifyId": "tpdp",
+        "deezerId": "tpdo",
+        "designers": ["todo"],
+        "isAGem": true,
+        "description": "TODO"
     },
     {
         "id": "coma_financial_tycoon",
@@ -9613,6 +9674,9 @@ Strawbs
 UFO
 The Who
 */
+// TODO new feature : album com^parison: sur une scale de 1 à 10, how much soubd alike ? et du coup ça rapproche énormément les albums entre eux, agnostic des artisres
+// TODO linker discogs
+// TODO lister instruments
 // TODO fix search by designer case-sensitive
 // TODO fix album view arrow not clickable cause no width or height
 // TODO use VueX/Store for selected album and view
