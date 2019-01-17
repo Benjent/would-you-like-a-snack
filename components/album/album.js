@@ -118,9 +118,7 @@ Vue.component('album', {
               albumId = Utils.randomize(this.db.albums.length); // Randomize id
             }
             const randomizedAlbum = albums[albumId];
-            this.$emit('album-click', randomizedAlbum);
-            // player.loadVideoById(this.selectedAlbum.selectedTrackYtId);
-            // player.stopVideo()
+            this.$emit('album-click-surprise', randomizedAlbum);
         },
         selectAlbumAndRandomize: function(album) {
             // Select
