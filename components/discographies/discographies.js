@@ -175,6 +175,13 @@ Vue.component('discographies', {
                     break;
                 }
             }
+
+            // Handle iframe
+            if (!this.selectedAlbum.spotifyId && this.selectedAlbum.deezerId) {
+                this.setSelectedPlayer("deezer");
+            } else if (!this.selectedAlbum.deezerId && this.selectedAlbum.spotifyId) {
+                this.setSelectedPlayer("spotify");
+            }
         },
         setSelectedPlayer(player) {
             this.selectedPlayer = player;
