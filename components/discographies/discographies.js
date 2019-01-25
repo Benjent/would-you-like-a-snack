@@ -47,6 +47,12 @@ Vue.component('discographies', {
                         <div class="album-data__title">{{selectedAlbum.title}}</div>
                         <div class="album-data__year">{{selectedAlbum.year}}</div>
                         <div class="album-data__country">{{selectedAlbum.country}}</div>
+                        <div class="album-data__designer" v-if="selectedAlbum.designers.length > 0">
+                            Cover by 
+                            <template v-for="(designer, index) in selectedAlbum.designers">
+                                {{designer}}<span v-if="index < selectedAlbum.designers.length - 1">, </span>
+                            </template>
+                        </div>
                         <div class="album-data__selectedTrack">
                             Selected track: <span class="album-data__name">{{selectedAlbum.selectedTrackTitle}}</span>
                             <a
