@@ -903,7 +903,7 @@ const albums = [
         "title": "First Base",
         "artist": "Babe Ruth",
         "year": 1972,
-        "country": regions.UK,
+        "country": regions.ENGLAND,
         "cover": pathToCovers + "/babe_ruth_first_base.jpg",
         "criteria": [criteria.HEAVY, criteria.FEMALE, criteria.ODD_RHYTHM, criteria.BAROQUE, criteria.JAM, criteria.ROCK],
         "selectedTrackTitle": "Black Dog",
@@ -918,7 +918,7 @@ const albums = [
         "title": "Amar Caballero",
         "artist": "Babe Ruth",
         "year": 1974,
-        "country": regions.UK,
+        "country": regions.ENGLAND,
         "cover": pathToCovers + "/babe_ruth_amar_caballero.jpg",
         "criteria": [criteria.FEMALE, criteria.BAROQUE, criteria.JAZZY_GROOVY, criteria.C_FOLK, criteria.ROCK, criteria.SOUND_COLLAGES],
         "selectedTrackTitle": "We Are Holding On",
@@ -933,7 +933,7 @@ const albums = [
         "title": "Babe Ruth",
         "artist": "Babe Ruth",
         "year": 1975,
-        "country": regions.UK,
+        "country": regions.ENGLAND,
         "cover": pathToCovers + "/babe_ruth_babe_ruth.jpg",
         "criteria": [criteria.FEMALE, criteria.JAZZY_GROOVY, criteria.JAM, criteria.ROCK],
         "selectedTrackTitle": "We People Darker Than Blue",
@@ -948,7 +948,7 @@ const albums = [
         "title": "Stealin' Home",
         "artist": "Babe Ruth",
         "year": 1975,
-        "country": regions.UK,
+        "country": regions.ENGLAND,
         "cover": pathToCovers + "/babe_ruth_stealin_home.jpg",
         "criteria": [criteria.FEMALE, criteria.JAM, criteria.ROCK],
         "selectedTrackTitle": "Tomorrow",
@@ -963,7 +963,7 @@ const albums = [
         "title": "Kid's Stuff",
         "artist": "Babe Ruth",
         "year": 1976,
-        "country": regions.UK,
+        "country": regions.ENGLAND,
         "cover": pathToCovers + "/babe_ruth_kids_stuff.jpg",
         "criteria": [criteria.FEMALE, criteria.ROCK, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Nickelodeon",
@@ -1560,6 +1560,21 @@ const albums = [
         "spotifyId": "5CPVMGdQlqB27LCDZl705K",
         "deezerId": "2261581",
         "designers": ["Ivan Ivezić"],
+        "isAGem": false
+    },
+    {
+        "id": "bijelo_dugme_dozivjeti_stotu",
+        "title": "Doživjeti Stotu",
+        "artist": "Bijelo Dugme",
+        "year": 1980,
+        "country": regions.BOSNIA_AND_HERZEGOVINA,
+        "cover": pathToCovers + "/bijelo_dugme_dozivjeti_stotu.jpg",
+        "criteria": [criteria.CROATIAN_SUNG, criteria.ROCK, criteria.SOFT_SEVENTIES, criteria.TOUCHING_VOCALS, criteria.FEMALE],
+        "selectedTrackTitle": "Pjesma Mom Mlađem Bratu",
+        "selectedTrackYtId": "iT3KmIr_0Aw",
+        "spotifyId": "5UX1Zc4ZhLyTF6nCduj4Fq",
+        "deezerId": "2261991",
+        "designers": ["Mirko Ilić"],
         "isAGem": false
     },
     {
@@ -3506,6 +3521,21 @@ const albums = [
         "selectedTrackYtId": "YRrKHFxLRh4",
         "spotifyId": "",
         "deezerId": "",
+        "designers": ["Stephane Dumont"],
+        "isAGem": false
+    },
+    {
+        "id": "et_cetera_et_cetera",
+        "title": "Et Cetera",
+        "artist": "Et Cetera",
+        "year": 1976,
+        "country": regions.FRANCE,
+        "cover": pathToCovers + "/et_cetera_et_cetera.jpg",
+        "criteria": [criteria.FRENCH_SUNG, criteria.C_JAZZ, criteria.JAZZY_GROOVY, criteria.C_ELECTRO, criteria.SOPHISTICATED, criteria.FEMALE, criteria.ODD_RHYTHM, criteria.SOFT_SEVENTIES],
+        "selectedTrackTitle": "L'âge Dort",
+        "selectedTrackYtId": "wtIpGZ0lwZI",
+        "spotifyId": "",
+        "deezerId": "7355877",
         "designers": ["Stephane Dumont"],
         "isAGem": false
     },
@@ -6897,7 +6927,7 @@ const albums = [
         "title": "The Thoughts Of Emerlist Davjack",
         "artist": "The Nice",
         "year": 1967,
-        "country": regions.UK,
+        "country": regions.ENGLAND,
         "cover": pathToCovers + "/the_nice_the_thoughts_of_emerlist_davjack.jpg",
         "criteria": [criteria.BAROQUE, criteria.CRISPY_SIXTIES, criteria.HEAVY, criteria.SPECTACULAR, criteria.C_PSYCHEDELIC, criteria.SYMPHONIC],
         "selectedTrackTitle": "The Cry Of Eugene",
@@ -6912,7 +6942,7 @@ const albums = [
         "title": "Ars Longa Vita Brevis",
         "artist": "The Nice",
         "year": 1968,
-        "country": regions.UK,
+        "country": regions.ENGLAND,
         "cover": pathToCovers + "/the_nice_ars_longa_vita_brevis.jpg",
         "criteria": [criteria.BAROQUE, criteria.CRISPY_SIXTIES, criteria.HEAVY, criteria.SPECTACULAR, criteria.C_PSYCHEDELIC, criteria.SYMPHONIC, criteria.FUNNY, criteria.LENGTHY_TRACKS, criteria.JAM, criteria.ORCHESTRAL_PARTS],
         "selectedTrackTitle": "Ars Longa Vita Brevis",
@@ -7183,6 +7213,36 @@ const albums = [
     // ************************************************************************************ //
     // **************************************** P **************************************** //
     // ********************************************************************************** //
+    {
+        "id": "paladin_paladin",
+        "title": "Paladin",
+        "artist": "Paladin",
+        "year": 1971,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/paladin_paladin.jpg",
+        "criteria": [criteria.JAZZY_GROOVY, criteria.JAM, criteria.ROCK],
+        "selectedTrackTitle": "Bad Times",
+        "selectedTrackYtId": "4xDnN1wDNo0",
+        "spotifyId": "",
+        "deezerId": "161772",
+        "designers": [],
+        "isAGem": false
+    },
+    {
+        "id": "paladin_charge",
+        "title": "Charge!",
+        "artist": "Paladin",
+        "year": 1972,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/paladin_charge.jpg",
+        "criteria": [criteria.JAZZY_GROOVY, criteria.JAM, criteria.ROCK],
+        "selectedTrackTitle": "Give Me Your Hand",
+        "selectedTrackYtId": "4IkkrkiNNGc",
+        "spotifyId": "56sMyp4iTiuSVsSzbjv2MX",
+        "deezerId": "",
+        "designers": ["Roger Dean"],
+        "isAGem": false
+    },
     {
         "id": "pangee_hymnemonde",
         "title": "Hymnemonde",
@@ -9674,6 +9734,7 @@ Strawbs
 UFO
 The Who
 */
+// TODO rotate arrow the other way round
 // TODO new feature : album com^parison: sur une scale de 1 à 10, how much soubd alike ? et du coup ça rapproche énormément les albums entre eux, agnostic des artisres
 // TODO linker discogs
 // TODO lister instruments
