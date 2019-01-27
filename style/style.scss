@@ -64,7 +64,7 @@ body {
         .album-wrapper {
             $numberOfAlbumsPerRow: 7;
             height: auto;
-            min-height: 100% / $numberOfAlbumsPerRow;
+            // min-height: 100% / $numberOfAlbumsPerRow;
             width: 100% / $numberOfAlbumsPerRow;
             font-size: 12px;
         }
@@ -152,7 +152,7 @@ body {
         .album-wrapper {
             $numberOfAlbumsPerRow: 6;
             height: auto;
-            min-height: 100% / $numberOfAlbumsPerRow;
+            // min-height: 100% / $numberOfAlbumsPerRow;
             width: 100% / $numberOfAlbumsPerRow;
         }
     }
@@ -164,7 +164,7 @@ body {
         .album-wrapper {
             $numberOfAlbumsPerRow: 5;
             height: auto;
-            min-height: 100% / $numberOfAlbumsPerRow;
+            // min-height: 100% / $numberOfAlbumsPerRow;
             width: 100% / $numberOfAlbumsPerRow;
             .album-infos {
                 .album-rating {

@@ -2,8 +2,9 @@
     // $computedTopPadding: $headerHeight + $borderThick + 24px;
     // $computedTopPadding: $headerHeight + 
     // padding: $computedTopPadding 0 50px 0;
-    height: calc(100vh - 6vh); // Dirty fix to prevent scrollbar to overlap header
     width: 100%;
+    height: 100%;
+    height: 94vh; // Dirty scroll
     overflow-y: auto;
     overflow-x: hidden;
     // padding-top: 20px;

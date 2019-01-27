@@ -3625,12 +3625,12 @@ const albums = [
         "year": 1977,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/first_aid_nostradamus.jpg",
-        "criteria": [criteria.STORYLINE, criteria.ROCK_OPERA, criteria.C_ELECTRO, criteria.SPECTACULAR, criteria.ORCHESTRAL_PARTS],
-        "selectedTrackTitle": "todo",
-        "selectedTrackYtId": "todo",
+        "criteria": [criteria.STORYLINE, criteria.ROCK_OPERA, criteria.C_ELECTRO, criteria.SPECTACULAR, criteria.ORCHESTRAL_PARTS, criteria.JAM],
+        "selectedTrackTitle": "Nostradamus",
+        "selectedTrackYtId": "R-Wveo0xfiQ",
         "spotifyId": "",
         "deezerId": "",
-        "designers": [" Paul Redway"],
+        "designers": ["Paul Redway"],
         "isAGem": false
     },
     {
@@ -7011,6 +7011,21 @@ const albums = [
         "spotifyId": "3ygsp68ybDKo4jrwBMLrLA",
         "deezerId": "",
         "designers": ["Gered Mankowitz"],
+        "isAGem": false
+    },
+    {
+        "id": "the_nice_nice",
+        "title": "Nice",
+        "artist": "The Nice",
+        "year": 1969,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/the_nice_nice.jpg",
+        "criteria": [criteria.BAROQUE, criteria.CRISPY_SIXTIES, criteria.HEAVY, criteria.SPECTACULAR, criteria.SYMPHONIC, criteria.FUNNY, criteria.JAM, criteria.ORCHESTRAL_PARTS],
+        "selectedTrackTitle": "Azreal Revisited",
+        "selectedTrackYtId": "xyuG-g8Ee84",
+        "spotifyId": "",
+        "deezerId": "",
+        "designers": ["todo"],
         "isAGem": false
     },
     {
