@@ -332,7 +332,7 @@ button:hover {
   cursor: pointer;
 }
 
-.searchBar {
+.search-bar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -346,7 +346,15 @@ button:hover {
   border-bottom: solid 1px #d6be94;
 }
 
-.searchBar__input {
+.search-bar .arrow {
+  z-index: 1;
+  margin: 0 auto;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  margin-bottom: -20px;
+}
+
+.search-bar__input {
   width: 300px;
   height: 100%;
   -webkit-box-sizing: border-box;
@@ -355,20 +363,20 @@ button:hover {
   font-size: 20px;
 }
 
-.searchBar__reset {
+.search-bar__reset {
   position: absolute;
-  right: 26px;
-  top: 38px;
-  width: 26px;
-  height: 26px;
+  right: 30px;
+  top: 20px;
+  width: 20px;
+  height: 20px;
 }
 
-.searchBar__reset:hover {
+.search-bar__reset:hover {
   opacity: 1;
   cursor: pointer;
 }
 
-.searchBar__reset:before, .searchBar__reset:after {
+.search-bar__reset:before, .search-bar__reset:after {
   content: '';
   position: absolute;
   left: 12px;
@@ -377,39 +385,38 @@ button:hover {
   background-color: #d6be94;
 }
 
-.searchBar__reset:before {
+.search-bar__reset:before {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
 }
 
-.searchBar__reset:after {
+.search-bar__reset:after {
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
 }
 
-.searchBar__result {
+.search-bar__result {
   position: relative;
   top: 11px;
 }
 
-.searchResult {
+.search-result {
+  position: absolute;
   max-height: 300px;
   width: 300px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  position: absolute;
-  z-index: 5;
+  border: solid 2px #d6be94;
+  border-top: none;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
   background: #375456;
   overflow-x: hidden;
   overflow-y: auto;
-  border: solid 2px #d6be94;
-  border-top: none;
   font-size: 20px;
-  border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;
 }
 
-.searchResult__item {
+.search-result__item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -418,25 +425,25 @@ button:hover {
           align-items: center;
 }
 
-.searchResult__item:hover {
+.search-result__item:hover {
   cursor: pointer;
   background: #d6be94;
   color: #030504;
 }
 
-.albumLine {
+.album-line {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.albumLine__cover {
+.album-line__cover {
   width: 36px;
   height: 36px;
   margin-right: 5px;
 }
 
-.albumLine__title {
+.album-line__title {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow-x: hidden;
@@ -452,7 +459,9 @@ button:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 100px;
+  position: relative;
+  z-index: 1;
+  height: 60px;
   width: 100vw;
   background: #375456;
   border-bottom: solid 2px #d6be94;
@@ -507,8 +516,13 @@ button:hover {
   pointer-events: none;
 }
 
+.menu__button--active .arrow {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
 .menu__button .text {
-  padding-top: 30px;
+  padding: 15px 0;
 }
 
 #albumVue {
@@ -520,45 +534,23 @@ button:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: calc(100vh - 11vh);
+  height: calc(100vh - 6vh);
   width: 100%;
   overflow-y: auto;
   overflow-x: hidden;
 }
 
-#albumVue .buttons {
-  margin-top: 100px;
+#albumVue button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -ms-flex-item-align: center;
       align-self: center;
-}
-
-#albumVue .buttons .arrowWrapper:hover {
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-#albumVue .buttons .arrowWrapper .arrow--previous {
-  -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg);
-}
-
-#albumVue .buttons .arrowWrapper .arrow--next {
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
-}
-
-#albumVue .buttons #randomButton {
-  margin: 0 50px;
   border-radius: 30px;
+}
+
+#albumVue #randomButton {
+  margin-top: 50px;
 }
 
 #albumVue .content {
@@ -671,7 +663,7 @@ button:hover {
 }
 
 #atticVue {
-  height: calc(100vh - 11vh);
+  height: calc(100vh - 6vh);
   width: 100%;
   overflow-y: auto;
   overflow-x: hidden;
@@ -761,7 +753,7 @@ button:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: calc(100vh - 11vh);
+  height: calc(100vh - 6vh);
   width: 100%;
   overflow-y: auto;
   overflow-x: hidden;
@@ -958,7 +950,7 @@ button:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: calc(100vh - 11vh);
+  height: calc(100vh - 6vh);
   width: 100%;
   overflow-y: auto;
   overflow-x: hidden;
@@ -1023,7 +1015,7 @@ button:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: calc(100vh - 11vh);
+  height: calc(100vh - 6vh);
   width: 100%;
   overflow-y: auto;
   overflow-x: hidden;
@@ -1130,7 +1122,7 @@ button:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: calc(100vh - 11vh);
+  height: calc(100vh - 6vh);
   width: 100%;
   overflow-y: auto;
   overflow-x: hidden;
@@ -1162,6 +1154,14 @@ button:hover {
   padding: 0 50px;
 }
 
+#designersVue .designer .border-wrapper .arrow {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  margin: 0 auto;
+  margin-bottom: -20px;
+  z-index: 1;
+}
+
 #designersVue .designer__albums {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1189,7 +1189,7 @@ button:hover {
 }
 
 #statsVue {
-  height: calc(100vh - 11vh);
+  height: calc(100vh - 6vh);
   width: 100%;
   overflow-y: auto;
   overflow-x: hidden;
@@ -1300,7 +1300,7 @@ button:hover {
 }
 
 #aboutVue {
-  height: calc(100vh - 11vh);
+  height: calc(100vh - 6vh);
   width: 100%;
   overflow-y: auto;
   overflow-x: hidden;

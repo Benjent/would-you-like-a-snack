@@ -20,7 +20,14 @@
         .border-wrapper {
             border-top: solid 2px;
             padding: 0 50px;
+            .arrow {
+                transform: rotate(180deg);
+                margin: 0 auto;
+                margin-bottom: -20px;
+                z-index: 1;
+            }
         }
+
         &__albums {
             display: flex;
             flex-wrap: wrap;
