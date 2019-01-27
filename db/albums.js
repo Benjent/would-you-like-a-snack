@@ -2525,6 +2525,21 @@ const albums = [
         "isAGem": false
     },
     {
+        "id": "cromagnon_orgasm",
+        "title": "Orgasm",
+        "artist": "Cromagnon",
+        "year": 1969,
+        "country": regions.USA,
+        "cover": pathToCovers + "/cromagnon_orgasm.jpg",
+        "criteria": [criteria.C_PSYCHEDELIC, criteria.TRANSITION, criteria.SOUND_COLLAGES, criteria.EXPERIMENTAL, criteria.UNCOMMON_INSTRUMENTS, criteria.CRISPY_SIXTIES, criteria.FUNNY, criteria.C_ELECTRO],
+        "selectedTrackTitle": "Crow Of The Black Tree",
+        "selectedTrackYtId": "mEHBnolYzPY",
+        "spotifyId": "",
+        "deezerId": "",
+        "designers": ["Howard Bernstein"],
+        "isAGem": false
+    },
+    {
         "id": "crucis_los_delirios_del_mariscal",
         "title": "Los Delirios Del Mariscal",
         "artist": "Crucis",
@@ -6756,18 +6771,48 @@ const albums = [
         "isAGem": false
     },
     {
+        "id": "nazareth_nazareth",
+        "title": "Nazareth",
+        "artist": "Nazareth",
+        "year": 1971,
+        "country": regions.SCOTLAND,
+        "cover": pathToCovers + "/nazareth_nazareth.jpg",
+        "criteria": [criteria.ROCK, criteria.GREASY_SEVENTIES, criteria.BAROQUE, criteria.ORCHESTRAL_PARTS],
+        "selectedTrackTitle": "The King Is Dead",
+        "selectedTrackYtId": "C7LkHCDS5-w",
+        "spotifyId": "59sGauuSIiMD5gjoqSy9uQ",
+        "deezerId": "15484780",
+        "designers": ["CCS"],
+        "isAGem": false
+    },
+    {
+        "id": "nazareth_exercises",
+        "title": "Exercises",
+        "artist": "Nazareth",
+        "year": 1972,
+        "country": regions.SCOTLAND,
+        "cover": pathToCovers + "/nazareth_exercises.jpg",
+        "criteria": [criteria.BAROQUE, criteria.FOLK, criteria.ORCHESTRAL_PARTS, criteria.UNCOMMON_INSTRUMENTS],
+        "selectedTrackTitle": "1692 Glencoe Massacre",
+        "selectedTrackYtId": "3syno-cGYpU",
+        "spotifyId": "2Hw7xx2dsRuQOWnyRrznkJ",
+        "deezerId": "15484774",
+        "designers": ["CCS"],
+        "isAGem": false
+    },
+    {
         "id": "nazareth_hair_of_the_dog",
         "title": "Hair Of The Dog",
         "artist": "Nazareth",
         "year": 1975,
         "country": regions.SCOTLAND,
         "cover": pathToCovers + "/nazareth_hair_of_the_dog.jpg",
-        "criteria": [criteria.JAM, criteria.ROCK, criteria.HEAVY, criteria.GREASY_SEVENTIES],
+        "criteria": [criteria.JAM, criteria.ROCK, criteria.HEAVY, criteria.GREASY_SEVENTIES, criteria.FEMALE],
         "selectedTrackTitle": "Please Don't Judas Me",
         "selectedTrackYtId": "PdiIu1RwGhA",
         "spotifyId": "5naYBHiMro7E0MVPmhhYHP",
         "deezerId": "",
-        "designers": [],
+        "designers": ["David Fairbrother Roe"],
         "isAGem": false
     },
     {
@@ -8530,7 +8575,7 @@ const albums = [
         "year": 1975,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/supertramp_crisis_what_crisis.jpg",
-        "criteria": [criteria.SOFT, criteria.TOUCHING_VOCALS, criteria.ART_POP, criteria.SOFT_SEVENTIES],
+        "criteria": [criteria.SOFT, criteria.TOUCHING_VOCALS, criteria.ART_POP, criteria.SOFT_SEVENTIES, criteria.ORCHESTRAL_PARTS],
         "selectedTrackTitle": "Another Man's Woman",
         "selectedTrackYtId": "MUPwN0MtY1Y",
         "spotifyId": "5Fliz4RQcDktb93l1uYDka",
@@ -9734,6 +9779,7 @@ Strawbs
 UFO
 The Who
 */
+// TODO subgenres should be specified in the album db not manually
 // TODO rotate arrow the other way round
 // TODO new feature : album com^parison: sur une scale de 1 à 10, how much soubd alike ? et du coup ça rapproche énormément les albums entre eux, agnostic des artisres
 // TODO linker discogs
