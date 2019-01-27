@@ -2155,7 +2155,7 @@ const albums = [
         "selectedTrackTitle": "Can't Be Long Now / Françoise / For Richard / Warlock",
         "selectedTrackYtId": "CcxS-HU2qH0",
         "spotifyId": "0Tnbc1TkUAvm4i05Ps3Doo",
-        "deezerId": "7243458",
+        "deezerId": "",
         "designers": ["Richard Zeff", "David Jupe"],
         "isAGem": false
     },
@@ -2170,7 +2170,7 @@ const albums = [
         "selectedTrackTitle": "Winter Wine",
         "selectedTrackYtId": "l2ZrJdmnHIw",
         "spotifyId": "6TWjon4uYsV2wu7QJTuKjd",
-        "deezerId": "231191",
+        "deezerId": "",
         "designers": ["Anne Marie Anderson"],
         "isAGem": true,
         "description": "TODO"
@@ -2186,7 +2186,7 @@ const albums = [
         "selectedTrackTitle": "The World Is Yours",
         "selectedTrackYtId": "F4yDoaCQ70g",
         "spotifyId": "1x9JWE9MyBdKPdNOH3FUK7",
-        "deezerId": "248971",
+        "deezerId": "",
         "designers": ["David Anstey", "ROC Advertising", "William Hogarth"],
         "isAGem": false
     },
@@ -2201,7 +2201,7 @@ const albums = [
         "selectedTrackTitle": "C'thlu Thlu",
         "selectedTrackYtId": "e8HIpQscvrs",
         "spotifyId": "24hZN3vZp65LbWSUxGo1AO",
-        "deezerId": "227834",
+        "deezerId": "",
         "designers": ["Mark Lawrence"],
         "isAGem": false
     },
@@ -2216,7 +2216,7 @@ const albums = [
         "selectedTrackTitle": "The Dabsong Conshirtoe",
         "selectedTrackYtId": "uMn4BDFiV-g",
         "spotifyId": "5SokYXtecgIhwPvVv4h0Pe",
-        "deezerId": "513565",
+        "deezerId": "",
         "designers": ["Hipgnosis", "Richard Evans"],
         "isAGem": false
     },
