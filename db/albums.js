@@ -1910,7 +1910,7 @@ const albums = [
         "selectedTrackTitle": "Freefall",
         "selectedTrackYtId": "Gcagz8epRN8",
         "spotifyId": "2DZEwt8Lhz6PuqxsJWF7Ap",
-        "deezerId": "",
+        "deezerId": "123830",
         "designers": ["Modula"],
         "isAGem": true,
         "description": "TODO"
@@ -1926,7 +1926,7 @@ const albums = [
         "selectedTrackTitle": "La Princesse Perdue",
         "selectedTrackYtId": "dhkWnxNzHig",
         "spotifyId": "6nGVPoLgC8GjhWXSp6tV8r",
-        "deezerId": "",
+        "deezerId": "67759572",
         "designers": ["Modula"],
         "isAGem": false
     },
@@ -1941,7 +1941,7 @@ const albums = [
         "selectedTrackTitle": "Air Born",
         "selectedTrackYtId": "JR4aCz-JZrY",
         "spotifyId": "6ex4lHnMDz5fHRTJNmuQHd",
-        "deezerId": "",
+        "deezerId": "123915",
         "designers": ["John Field"],
         "isAGem": true,
         "description": "Camel decides to explore a more cold but tender music through Peter Bardens' snow-white keyboard playing and Andrew Latimer's soothing guitar licks, along with Doug Ferguson's and Andy Ward's groovy but soft sections. This results in a relaxing sound veiled with odd rhythm, enchanting parts, resembling a lucid dream, with tracks reflecting the musicians' personnalities."
@@ -1957,7 +1957,7 @@ const albums = [
         "selectedTrackTitle": "Air Born",
         "selectedTrackYtId": "JR4aCz-JZrY",
         "spotifyId": "5P5NLKRmXqMZ5m3RQqzD5y",
-        "deezerId": "",
+        "deezerId": "124288",
         "designers": ["Bob Searles"],
         "isAGem": true,
         "description": "TODO"
@@ -1973,7 +1973,7 @@ const albums = [
         "selectedTrackTitle": "The Sleeper",
         "selectedTrackYtId": "MXEQhCd4HnU",
         "spotifyId": "4pFH2hiWMaT4X5pXZCygOq",
-        "deezerId": "",
+        "deezerId": "160200",
         "designers": ["Michael Munday", "Cream"],
         "isAGem": false
     },
@@ -1988,7 +1988,7 @@ const albums = [
         "selectedTrackTitle": "Hymn To Her",
         "selectedTrackYtId": "EGtky9Nlxhg",
         "spotifyId": "71FpdWandYromBNIF3szGx",
-        "deezerId": "",
+        "deezerId": "230732",
         "designers": ["Shoot That Tiger!"],
         "isAGem": false
     },
@@ -2003,7 +2003,7 @@ const albums = [
         "selectedTrackTitle": "Beached",
         "selectedTrackYtId": "GD-IY4LfGfc",
         "spotifyId": "04jXGK0QD3qlvyg9Q3xlh0",
-        "deezerId": "",
+        "deezerId": "240873",
         "designers": ["Bill Mayblin", "Bill Shaw", "Michael Munday"],
         "isAGem": false
     },
@@ -2018,7 +2018,7 @@ const albums = [
         "selectedTrackTitle": "Mary, Mary So Contrary",
         "selectedTrackYtId": "YefiMvJdjhY",
         "spotifyId": "2GXaLHeT6znG6x0U4y1U8h",
-        "deezerId": "",
+        "deezerId": "6958702",
         "designers": [],
         "isAGem": false
     },
@@ -2033,7 +2033,7 @@ const albums = [
         "selectedTrackTitle": "Mushroom",
         "selectedTrackYtId": "T_9LJCKOvQE",
         "spotifyId": "058qBjhg9yzbRGZCqOBX42",
-        "deezerId": "",
+        "deezerId": "6958716",
         "designers": ["Ulrich Eichberger"],
         "isAGem": false
     },
@@ -2048,7 +2048,7 @@ const albums = [
         "selectedTrackTitle": "Vitamin C",
         "selectedTrackYtId": "YmN9oHa3ZIQ",
         "spotifyId": "6Seo9dju2EMVYkUVUDlkXw",
-        "deezerId": "",
+        "deezerId": "6958701",
         "designers": [],
         "isAGem": false
     },
@@ -2063,7 +2063,7 @@ const albums = [
         "selectedTrackTitle": "Future Days",
         "selectedTrackYtId": "-JKb5xbYkYg",
         "spotifyId": "4a1QKRL1X9PlAX9wiiqmAm",
-        "deezerId": "",
+        "deezerId": "6958700",
         "designers": ["Igor Trauer", "Richard J. Rudow"],
         "isAGem": true,
         "description": "The band keeps on drifting away from the intense psychedelic music to embrace a more peaceful music, sometimes mesmerizing, sometimes percolating, sprinkled with Damo Suzuki's faded vocals. The album materializes a perfect warm soundscape in which we gladly relax."
@@ -2079,7 +2079,7 @@ const albums = [
         "selectedTrackTitle": "Come Sta, La Luna",
         "selectedTrackYtId": "",
         "spotifyId": "5Pk8S4ZT09S7ty8v8347xa",
-        "deezerId": "",
+        "deezerId": "6958708",
         "designers": ["Ulli Eichberger"],
         "isAGem": false
     },
@@ -2094,7 +2094,7 @@ const albums = [
         "selectedTrackTitle": "Rain",
         "selectedTrackYtId": "yutpOHSsdOA",
         "spotifyId": "7CYnGuXxlrFpitUatKH9dw",
-        "deezerId": "",
+        "deezerId": "66686782",
         "designers": ["Pad Graphics"],
         "isAGem": false
     },
@@ -2155,7 +2155,7 @@ const albums = [
         "selectedTrackTitle": "Can't Be Long Now / Françoise / For Richard / Warlock",
         "selectedTrackYtId": "CcxS-HU2qH0",
         "spotifyId": "0Tnbc1TkUAvm4i05Ps3Doo",
-        "deezerId": "",
+        "deezerId": "7243458",
         "designers": ["Richard Zeff", "David Jupe"],
         "isAGem": false
     },
@@ -2170,7 +2170,7 @@ const albums = [
         "selectedTrackTitle": "Winter Wine",
         "selectedTrackYtId": "l2ZrJdmnHIw",
         "spotifyId": "6TWjon4uYsV2wu7QJTuKjd",
-        "deezerId": "",
+        "deezerId": "231191",
         "designers": ["Anne Marie Anderson"],
         "isAGem": true,
         "description": "TODO"
@@ -2186,7 +2186,7 @@ const albums = [
         "selectedTrackTitle": "The World Is Yours",
         "selectedTrackYtId": "F4yDoaCQ70g",
         "spotifyId": "1x9JWE9MyBdKPdNOH3FUK7",
-        "deezerId": "",
+        "deezerId": "248971",
         "designers": ["David Anstey", "ROC Advertising", "William Hogarth"],
         "isAGem": false
     },
@@ -2201,7 +2201,7 @@ const albums = [
         "selectedTrackTitle": "C'thlu Thlu",
         "selectedTrackYtId": "e8HIpQscvrs",
         "spotifyId": "24hZN3vZp65LbWSUxGo1AO",
-        "deezerId": "",
+        "deezerId": "227834",
         "designers": ["Mark Lawrence"],
         "isAGem": false
     },
@@ -2216,7 +2216,7 @@ const albums = [
         "selectedTrackTitle": "The Dabsong Conshirtoe",
         "selectedTrackYtId": "uMn4BDFiV-g",
         "spotifyId": "5SokYXtecgIhwPvVv4h0Pe",
-        "deezerId": "",
+        "deezerId": "513565",
         "designers": ["Hipgnosis", "Richard Evans"],
         "isAGem": false
     },
