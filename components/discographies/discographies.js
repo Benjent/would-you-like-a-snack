@@ -43,18 +43,37 @@ Vue.component('discographies', {
 
                     <div class="album-data">
 
-                        <div class="album-data__artist">{{selectedAlbum.artist}}</div>
-                        <div class="album-data__title">{{selectedAlbum.title}}</div>
-                        <div class="album-data__year">{{selectedAlbum.year}}</div>
-                        <div class="album-data__country">{{selectedAlbum.country}}</div>
-                        <div class="album-data__designer" v-if="selectedAlbum.designers.length > 0">
-                            Cover by 
-                            <template v-for="(designer, index) in selectedAlbum.designers">
-                                {{designer}}<span v-if="index < selectedAlbum.designers.length - 1">, </span>
-                            </template>
+                        <div class="album-data__main-info">
+                            <div class="album-data__artist">{{selectedAlbum.artist}}</div>
+                            <div class="album-data__title">{{selectedAlbum.title}}</div>
                         </div>
-                        <div class="album-data__selectedTrack">
-                            Selected track: <span class="album-data__name">{{selectedAlbum.selectedTrackTitle}}</span>
+
+                        <div class="album-data__secondary-info">
+                            <div class="album-data__secondary-info__item">
+                                <div class="album-data__label">Release year</div>
+                                <div class="album-data__year">{{selectedAlbum.year}}</div>
+                            </div>
+
+                            <div class="album-data__secondary-info__item">
+                                <div class="album-data__label">Country</div>
+                                <div class="album-data__year">{{selectedAlbum.country}}</div>
+                            </div>
+
+                            <div class="album-data__secondary-info__item" v-if="selectedAlbum.designers.length > 0">
+                                <div class="album-data__designer" >
+                                    <div class="album-data__label">Cover by</div>
+                                    <template v-for="(designer, index) in selectedAlbum.designers">
+                                        {{designer}}<span v-if="index < selectedAlbum.designers.length - 1">, </span>
+                                    </template>
+                                </div>
+                            </div>
+
+                            <div class="album-data__secondary-info__item">
+                                <div class="album-data__label">Selected track</div>
+                                <div class="album-data__selected-track">{{selectedAlbum.selectedTrackTitle}}</div>
+                            </div>
+
+                            <div class="album-data__secondary-info__item">
                             <a
                                 v-if="selectedAlbum.selectedTrackYtId"
                                 :href="youtubePath"
@@ -64,7 +83,9 @@ Vue.component('discographies', {
                                     :src=youtubeLogoPath
                                     alt="">
                             </a>
+                            </div>
                         </div>
+                        
                         <div class="album-data__criteria">
                             <div
                                 class="album-data__criterium--gem"
