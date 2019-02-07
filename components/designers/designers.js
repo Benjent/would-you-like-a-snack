@@ -8,9 +8,9 @@ Vue.component('designers', {
                 v-if="designer[1].works.length > 1">
 
                 <span class="designer__name">{{designer[1].name}}</span>
-                <arrow></arrow>
-
+                
                 <div class="border-wrapper">
+                    <arrow></arrow>
 
                     <div class="designer__albums">
                         <div

@@ -1,27 +1,27 @@
 Vue.component('album-thumb', {
     template: `
-        <div class="albumThumb">
+        <div class="album-thumb">
             <div
-                class="albumInfos"
+                class="album-infos"
                 :album-id="album.id">
 
                 <span
-                    class="albumInfos__artist"
+                    class="album-infos__artist"
                     :album-id="album.id">
                     {{album.artist}}
                 </span>
                 <span
-                    class="albumInfos__title"
+                    class="album-infos__title"
                     :album-id="album.id">
                     {{album.title}}
                 </span>
                 <span
-                    class="albumInfos__year"
+                    class="album-infos__year"
                     :album-id="album.id">
                     {{album.year}}
                 </span>
                 <span
-                    class="albumInfos__rating"
+                    class="album-infos__rating"
                     v-if="album.isAGem"
                     :album-id="album.id">
                     This is a must-hear
@@ -29,7 +29,7 @@ Vue.component('album-thumb', {
                 
             </div>
 
-            <img class="albumCover" :src=album.cover alt="">
+            <img class="album-cover" :src=album.cover alt="">
         </div>
     `,
     props: ['album'],

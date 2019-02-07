@@ -1,35 +1,38 @@
 Vue.component('searchbar', {
     template: `
-        <div class="searchBar">
+        <div class="search-bar">
+
             <input
-                class="searchBar__input"
-                :class="{ 'searchBar__input--empty': currentSearch }"
+                class="search-bar__input"
+                :class="{ 'search-bar__input--empty': currentSearch }"
                 placeholder="Search by album, artist, designer or year..."
                 v-model="currentSearch"
                 v-on:input="search($event.target.value)">
+
             <div
-                class="searchBar__reset"
+                class="search-bar__reset"
                 v-on:click="resetSearch"
                 v-if="currentSearch"
                 :src="crossPath">
             </div>
+
             <div
-                class="searchBar__result"
+                class="search-bar__result"
                 v-if="matchingAlbums.length > 0">
 
                 <arrow></arrow>
 
-                <div class="searchResult">
+                <div class="search-result">
                     <div
-                        class="searchResult__item"
+                        class="search-result__item"
                         v-for="album in matchingAlbums"
                         v-on:click="selectSearchResult(album)">
 
-                        <div class="albumLine">
+                        <div class="album-line">
                             <img
-                                class="albumLine__cover"
+                                class="album-line__cover"
                                 :src="album.cover" />
-                            <div class="albumLine__title">
+                            <div class="album-line__title">
                                 {{album.title}}
                             </div>
                         </div>

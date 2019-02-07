@@ -1,20 +1,12 @@
 Vue.component('album', {
     template: `
         <section id="albumVue">
-            <div class="buttons">
 
-                <div class="arrowWrapper">
-                </div>
-
-                <button
-                    id="randomButton"
-                    v-on:click="randomizeAlbum">
-                    Surprise me
-                </button>
-
-                <div class="arrowWrapper">
-                </div>
-            </div>
+            <button
+                id="randomButton"
+                v-on:click="randomizeAlbum">
+                Surprise me
+            </button>
 
             <div class="content">
                 <div class="album-metadata">
@@ -23,6 +15,12 @@ Vue.component('album', {
                     <div class="album-title">{{selectedAlbum.title}}</div>
                     <div class="album-year">{{selectedAlbum.year}}</div>
                     <div class="album-country">{{selectedAlbum.country}}</div>
+                    <div class="album-designer" v-if="selectedAlbum.designers.length > 0">
+                        Cover by 
+                        <template v-for="(designer, index) in selectedAlbum.designers">
+                            {{designer}}<span v-if="index < selectedAlbum.designers.length - 1">, </span>
+                        </template>
+                    </div>
                     <div>Selected track: <span class="album-selected-track">{{selectedAlbum.selectedTrackTitle}}</span></div>
                     <a
                         v-if="selectedAlbum.selectedTrackYtId"
@@ -53,6 +51,12 @@ Vue.component('album', {
                     </div>
                 </div>
             </div>
+
+            <button
+                id="moreButton"
+                v-on:click="$emit('album-click', selectedAlbum)">
+                More infos
+            </button>
 
             <timeline
                 :selected-album="selectedAlbum"

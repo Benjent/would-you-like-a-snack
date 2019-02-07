@@ -3,9 +3,9 @@ Vue.component('attic', {
     template: `
         <section id="atticVue">
 
-            <section class="filterSection" data-simplebar>
+            <section class="filter-section" data-simplebar>
 
-                <div class="filterSection__panel">
+                <div class="filter-section__panel">
                     <button
                         id="resetFilterButton"
                         v-on:click="resetFilter()">
@@ -13,11 +13,11 @@ Vue.component('attic', {
                     </button>
                 </div>
 
-                <div class="filterSection__title">
+                <div class="filter-section__title">
                     Region
                 </div>
 
-                <div class="filterSection__panel">
+                <div class="filter-section__panel">
                     <div class="select-wrapper">
                         <select
                             v-model="selectedRegion"
@@ -32,12 +32,12 @@ Vue.component('attic', {
 
                 <template v-for="(filterSection, index) in filterModel">
                     <div
-                        class="filterSection__title">
+                        class="filter-section__title">
                         {{navItems[index]}}
                     </div>
 
                     <div
-                        class="filterSection__panel">
+                        class="filter-section__panel">
 
                         <template
                             v-for="filterItem in filterSection">
@@ -55,7 +55,7 @@ Vue.component('attic', {
 
             </section>
 
-            <section id="albumList" class="albumSection">
+            <section id="albumList" class="album-section">
 
                 <div
                     class="album-wrapper"

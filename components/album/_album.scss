@@ -4,32 +4,15 @@
     flex-direction: column;
     @include vue;
 
-    .buttons {
-        margin-top: 100px;
+    button {
         display: flex;
-        justify-content: center;
-        align-items: center;
         align-self: center;
 
-        .arrowWrapper {
-            // Arrow wrapper is needed to always center even if an arrow is missing
-            &:hover {
-                // Workaround because we load an img not directly an svg element
-                border-radius: 50%;
-                cursor: pointer;
-            }
-            .arrow--previous {
-                transform: rotate(-90deg);
-            }
-            .arrow--next {
-                transform: rotate(90deg);
-            }
-        }
+        border-radius: $borderRadius;
+    }
 
-        #randomButton {
-            margin: 0 50px;
-            border-radius: $borderRadius;
-        }
+    #randomButton {
+        margin-top: 50px;
     }
 
     .content {
@@ -43,7 +26,7 @@
             width: 45%;
             .album-title {
                 font-style: italic;
-                font-size: 33px;
+                font-size: 38px;
             }
             .album-selected-track {
                 font-style: italic;

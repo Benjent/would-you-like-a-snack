@@ -1,7 +1,7 @@
 $searchBarWidth: 300px;
 $borderRadius: 30px;
 
-.searchBar {
+.search-bar {
     // Fix flex display bug in most browsers
     display: flex;
     flex-direction: column;
@@ -11,6 +11,14 @@ $borderRadius: 30px;
     color: $primary;
 
     border-bottom: solid 1px $primary;
+
+    .arrow {
+        z-index: 1;
+        margin: 0 auto;
+        transform: rotate(180deg);
+        margin-bottom: -20px;
+    }
+
     &__input {
         width: $searchBarWidth;
         height: 100%;
@@ -18,29 +26,25 @@ $borderRadius: 30px;
         box-sizing: border-box;
         
         padding: 5px 10px;
-        // border: solid 2px $primary;
-        // border-top-left-radius: $borderRadius;
-        // border-top-right-radius: $borderRadius;
         
         font-size: $mainFontSizeSmall;
-        
-        &:empty {
-            // border-radius: $borderRadius;
-        }
     }
 
     &__reset {
-        $crossSize: 26px;
+        $crossSize: 20px;
+
         position: absolute;
-        right: $crossSize;
-        top: 38px;
+        right: 30px;
+        top: 20px;
+
         width: $crossSize;
         height: $crossSize;
-        // opacity: 0.3;
+
         &:hover {
             opacity: 1;
             cursor: pointer;
         }
+
         &:before, &:after {
             content: '';
             position: absolute;
@@ -49,42 +53,41 @@ $borderRadius: 30px;
             width: 2px;
             background-color: $primary;
         }
-        &:before {
-            transform: rotate(45deg);
-        }
-        &:after {
-            transform: rotate(-45deg);
-        }
+
+        &:before { transform: rotate(45deg); }
+
+        &:after { transform: rotate(-45deg); }
           
     }
 
     &__result {
         position: relative;
-        // top: 1px;
         top: 11px;
     }
 }
 
-.searchResult {
-    // height: 100%; 
+.search-result {
+    position: absolute;
+    
     max-height: 300px;               
     width: $searchBarWidth;
+
     box-sizing: border-box;
-    position: absolute;
-    // top: 50px;
-    z-index: 5;
-    background: $secondary;
-    overflow-x: hidden;
-    overflow-y: auto;
     border: solid 2px $primary;
     border-top: none;
-    // padding-right: 20px;
-    font-size: $mainFontSizeSmall;
     border-bottom-left-radius: $borderRadius;
     border-bottom-right-radius: $borderRadius;
+    background: $secondary;
+
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    font-size: $mainFontSizeSmall;
+
     &__item {
         display: flex;
         align-items: center;
+
         &:hover {
             cursor: pointer;
             background: $primary;
@@ -93,11 +96,9 @@ $borderRadius: 30px;
     }
 }
 
-.albumLine {
+.album-line {
     display: flex;
     &__cover {
-        // width: 30px;
-        // height: 30px;
         width: 36px;
         height: 36px;
         margin-right: 5px;
