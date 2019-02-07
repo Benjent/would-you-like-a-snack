@@ -2410,14 +2410,14 @@ const albums = [
         "year": 1971,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/comus_first_utterance.jpg",
-        "criteria": [criteria.FOLK, criteria.BAROQUE, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.LENGTHY_TRACKS, criteria.SYMPHONIC, criteria.FEMALE],
+        "criteria": [criteria.FOLK, criteria.BAROQUE, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.LENGTHY_TRACKS, criteria.SYMPHONIC, criteria.FEMALE, criteria.MEDIEVAL],
         "selectedTrackTitle": "The Herald",
         "selectedTrackYtId": "ZlX1OUfds3Q",
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Roger Wootton", "Glen Goring"],
         "isAGem": true,
-        "description": "TODO"
+        "description": "A dark fantasy atmosphere is present throughout the album, varying from wonderful, melancholic, bewitching acoustic instrumentals and possessed vocals by Roger Wootton and Andy Hellaby, painting music landscapes perfect for fatalistic folk stories from old tell-tale books."
     },
     {
         "id": "comus_to_keep_from_crying",
@@ -2589,6 +2589,21 @@ const albums = [
     // **************************************** D **************************************** //
     // ********************************************************************************** //
     {
+        "id": "dada_jyo",
+        "title": "Jyo",
+        "artist": "Dada",
+        "year": 1978,
+        "country": regions.JAPAN,
+        "cover": pathToCovers + "/dada_jyo.jpg",
+        "criteria": [criteria.LENGTHY_TRACKS, criteria.C_ELECTRO, criteria.AMBIENT, criteria.SOFT, criteria.C_PSYCHEDELIC, criteria.EXPERIMENTAL],
+        "selectedTrackTitle": "Yuuen • Inraku • Gaki",
+        "selectedTrackYtId": "5_CCgmvMULY",
+        "spotifyId": "",
+        "deezerId": "",
+        "designers": [],
+        "isAGem": false
+    },
+    {
         "id": "david_bowie_space_oddity",
         "title": "Space Oddity",
         "artist": "David Bowie",
@@ -2646,6 +2661,21 @@ const albums = [
         "spotifyId": "48D1hRORqJq52qsnUYZX56",
         "deezerId": "",
         "designers": ["Terry Pastor"],
+        "isAGem": false
+    },
+    {
+        "id": "david_cross_memos_from_purgatory",
+        "title": "Memos From Purgatory ",
+        "artist": "David Cross",
+        "year": 1989,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/david_cross_memos_from_purgatory.jpg",
+        "criteria": [criteria.NEO_EIGHTIES, criteria.INSTRUMENTAL, criteria.C_ELECTRO, criteria.C_JAZZ, criteria.UNCOMMON_INSTRUMENTS],
+        "selectedTrackTitle": "The First Policeman",
+        "selectedTrackYtId": "",
+        "spotifyId": "",
+        "deezerId": "",
+        "designers": [],
         "isAGem": false
     },
     {
@@ -3038,6 +3068,21 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "isAGem": false
+    },
+    {
+        "id": "dragonfly_dragonfly",
+        "title": "Dragonfly",
+        "artist": "Dragonfly",
+        "year": 1981,
+        "country": regions.SWITZERLAND,
+        "cover": pathToCovers + "/dragonfly_dragonfly.jpg",
+        "criteria": [criteria.ODD_RHYTHM, criteria.SYMPHONIC, criteria.C_ELECTRO, criteria.NEO_EIGHTIES, criteria.JAM, criteria.LENGTHY_TRACKS, criteria.GLITTER],
+        "selectedTrackTitle": "Dragonfly",
+        "selectedTrackYtId": "4iOTX-g3khQ",
+        "spotifyId": "",
+        "deezerId": "466860",
+        "designers": ["Georg Kozak"],
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -4421,6 +4466,36 @@ const albums = [
         "spotifyId": "0q8Qt2dk9NL0F35BmrImUA",
         "deezerId": "",
         "designers": ["Richard Evans"],
+        "isAGem": false
+    },
+    {
+        "id": "george_duke_feel",
+        "title": "Feel",
+        "artist": "George Duke",
+        "year": 1974,
+        "country": regions.USA,
+        "cover": pathToCovers + "/george_duke_feel.jpg",
+        "criteria": [criteria.JAZZ, criteria.JAM, criteria.SOFT, criteria.JAZZY_GROOVY, criteria.C_ELECTRO, criteria.INSTRUMENTAL, criteria.ODD_RHYTHM],
+        "selectedTrackTitle": "The Once Over",
+        "selectedTrackYtId": "DGZMACbTj5g",
+        "spotifyId": "1QhnNI715XeCP0jdXcAatN",
+        "deezerId": "1672135",
+        "designers": ["Sätty"],
+        "isAGem": false
+    },
+    {
+        "id": "george_duke_the_aura_will_prevail",
+        "title": "The Aura Will Prevail",
+        "artist": "George Duke",
+        "year": 1975,
+        "country": regions.USA,
+        "cover": pathToCovers + "/george_duke_the_aura_will_prevail.jpg",
+        "criteria": [criteria.JAZZ, criteria.JAM, criteria.SOFT, criteria.JAZZY_GROOVY, criteria.C_ELECTRO, criteria.ODD_RHYTHM],
+        "selectedTrackTitle": "For Love",
+        "selectedTrackYtId": "dk_RfQmV1Zg",
+        "spotifyId": "3eh1IRX651996u3aAJX9xU",
+        "deezerId": "10298722",
+        "designers": ["Sätty"],
         "isAGem": false
     },
     {
@@ -6286,6 +6361,51 @@ const albums = [
         "isAGem": false
     },
     {
+        "id": "magma_kohntarkosz",
+        "title": "Köhntarkösz",
+        "artist": "Magma",
+        "year": 1974,
+        "country": regions.FRANCE,
+        "cover": pathToCovers + "/magma_kohntarkosz.jpg",
+        "criteria": [criteria.SYMPHONIC, criteria.C_PSYCHEDELIC, criteria.SPECTACULAR, criteria.ZEUHL, criteria.ROCK_OPERA, criteria.LENGTHY_TRACKS, criteria.FEMALE, criteria.ODD_RHYTHM],
+        "selectedTrackTitle": "Köhntarkösz (Part I)",
+        "selectedTrackYtId": "rfqzFfVg-iA",
+        "spotifyId": "7k6xCjMzSg4WFFxRNDq7pm",
+        "deezerId": "44081",
+        "designers": ["Fabio Nicoli"],
+        "isAGem": false
+    },
+    {
+        "id": "magma_udu_wudu",
+        "title": "Üdü Ẁüdü",
+        "artist": "Magma",
+        "year": 1976,
+        "country": regions.FRANCE,
+        "cover": pathToCovers + "/magma_udu_wudu.jpg",
+        "criteria": [criteria.SYMPHONIC, criteria.C_JAZZ, criteria.C_ELECTRO, criteria.C_PSYCHEDELIC, criteria.SPECTACULAR, criteria.ZEUHL, criteria.ROCK_OPERA, criteria.FEMALE, criteria.LENGTHY_TRACKS],
+        "selectedTrackTitle": "Üdü Ẁüdü",
+        "selectedTrackYtId": "cSqsfVhcJSo",
+        "spotifyId": "3TOrYzTzra3GW7iqQmKpLC",
+        "deezerId": "21891",
+        "designers": ["Klaus Blasquiz"],
+        "isAGem": false
+    },
+    {
+        "id": "magma_attahk",
+        "title": "Attahk",
+        "artist": "Magma",
+        "year": 1978,
+        "country": regions.FRANCE,
+        "cover": pathToCovers + "/magma_attahk.jpg",
+        "criteria": [],
+        "selectedTrackTitle": "todo",
+        "selectedTrackYtId": "todo",
+        "spotifyId": "7CEoMKWc490SjtEMJ5va6D",
+        "deezerId": "44078",
+        "designers": ["H.R. Giger"],
+        "isAGem": false
+    },
+    {
         "id": "mahavishnu_orchestra_the_inner_mounting_flame",
         "title": "The Inner Mounting Flame",
         "artist": "Mahavishnu Orchestra",
@@ -7599,7 +7719,7 @@ const albums = [
         "year": 1983,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/pink_floyd_the_final_cut.jpg",
-        "criteria": [criteria.STORYLINE, criteria.TRANSITION, criteria.SOUND_COLLAGES, criteria.ROCK_OPERA, criteria.TOUCHING_VOCALS, criteria.NEO_EIGHTIES],
+        "criteria": [criteria.STORYLINE, criteria.TRANSITION, criteria.SOUND_COLLAGES, criteria.ROCK_OPERA, criteria.TOUCHING_VOCALS, criteria.NEO_EIGHTIES, criteria.ORCHESTRAL_PARTS],
         "selectedTrackTitle": "Your Possible Pasts",
         "selectedTrackYtId": "E-ve_sgdgZs",
         "spotifyId": "5ChHkKb5VhZe0pgQRsvpek",
