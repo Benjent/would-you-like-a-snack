@@ -14,10 +14,10 @@ Vue.component('attic', {
                 </div>
 
                 <div class="filter-section__title">
-                    Region
+                    Region & Year
                 </div>
 
-                <div class="filter-section__panel">
+                <div class="filter-section__panel" id="regionsYears">
                     <div class="select-wrapper">
                         <select
                             v-model="selectedRegion"
@@ -26,6 +26,16 @@ Vue.component('attic', {
                             <option
                                 v-for="region in db.regions"
                                 :value="region">{{region}}</option>
+                        </select>
+                    </div>
+                    <div class="select-wrapper">
+                        <select
+                            v-model="selectedYear"
+                            v-on:change="selectYear()">
+                            <option value="All" selected>All</option>
+                            <option
+                                v-for="year in years"
+                                :value="year">{{year}}</option>
                         </select>
                     </div>
                 </div>
@@ -531,7 +541,9 @@ Vue.component('attic', {
         ];
 
         return {
+            years: Object.keys(albumsPerYear),
             selectedRegion: "All",
+            selectedYear: "All",
             filterModel: filter,
             albumListWidth: 0
         }
@@ -558,6 +570,9 @@ Vue.component('attic', {
             }
         },
         selectRegion() {
+            this.applyFilter();
+        },
+        selectYear() {
             this.applyFilter();
         },
         toggleFilterItem(filterItem) {
@@ -655,8 +670,10 @@ Vue.component('attic', {
                     // Criteria are checked, now check for the region
                     if(!elementsToHandleDisplay[j].classList.contains("hidden")) {
                         // Element is displayed...
-                        if(this.selectedRegion != "All" && album.country != this.selectedRegion) {
-                            // ...But its region does not match, so hide it
+                        const noRegionsMatch = this.selectedRegion != "All" && album.country != this.selectedRegion;
+                        const noYearsMatch = this.selectedYear != "All" && album.year != parseInt(this.selectedYear, 10); 
+                        if(noRegionsMatch || noYearsMatch) {
+                            // ...But its region or year does not match, so hide it
                             elementsToHandleDisplay[j].classList.add("hidden");
                         }
                     }
@@ -666,6 +683,7 @@ Vue.component('attic', {
         resetFilter: function() {
             // Reset region
             this.selectedRegion = "All";
+            this.selectedYear = "All";
             // Reset criteria
             for(let i = 0; i < this.filterModel.length; i++) {
                 for(let j = 0; j < this.filterModel[i].length; j++) {
