@@ -2182,7 +2182,7 @@ const albums = [
         "year": 1972,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/caravan_waterloo_lily.jpg",
-        "criteria": [criteria.JAM, criteria.LENGTHY_TRACKS, criteria.SOFT, criteria.C_FOLK],
+        "criteria": [criteria.JAM, criteria.LENGTHY_TRACKS, criteria.SOFT, criteria.C_FOLK, criteria.ORCHESTRAL_PARTS, criteria.SYMPHONIC],
         "selectedTrackTitle": "The World Is Yours",
         "selectedTrackYtId": "F4yDoaCQ70g",
         "spotifyId": "1x9JWE9MyBdKPdNOH3FUK7",
@@ -2829,6 +2829,21 @@ const albums = [
         "isAGem": false
     },
     {
+        "id": "delired_cameleon_family_delired_cameleon_family",
+        "title": "Delired Cameleon Family",
+        "artist": "Delired Cameleon Family",
+        "year": 1975,
+        "country": regions.FRANCE,
+        "cover": pathToCovers + "/delired_cameleon_family_delired_cameleon_family.jpg",
+        "criteria": [criteria.C_PSYCHEDELIC, criteria.ORIENTAL, criteria.C_ELECTRO, criteria.UNCOMMON_INSTRUMENTS, criteria.INSTRUMENTAL, criteria.FRENCH_SUNG, criteria.JAZZY_GROOVY, criteria.SPACY],
+        "selectedTrackTitle": "Le Bœuf",
+        "selectedTrackYtId": "rogJ03cSDIk",
+        "spotifyId": "1gqEFwNPsA63LgXVh5xRxI",
+        "deezerId": "1359284",
+        "designers": ["Jean-Claude Michel"],
+        "isAGem": false
+    },
+    {
         "id": "didier_bonin_larbre_verre",
         "title": "L'arbre Verre",
         "artist": "Didier Bonin",
@@ -3084,6 +3099,22 @@ const albums = [
         "deezerId": "466860",
         "designers": ["Georg Kozak"],
         "isAGem": false
+    },
+    {
+        "id": "dun_eros",
+        "title": "Eros",
+        "artist": "Dün",
+        "year": 1981,
+        "country": regions.FRANCE,
+        "cover": pathToCovers + "/dun_eros.jpg",
+        "criteria": [criteria.INSTRUMENTAL, criteria.SYMPHONIC, criteria.SOPHISTICATED, criteria.C_JAZZ, criteria.UNCOMMON_INSTRUMENTS, criteria.ODD_RHYTHM, criteria.C_PSYCHEDELIC],
+        "selectedTrackTitle": "L'épice",
+        "selectedTrackYtId": "JBuV6kNVryQ",
+        "spotifyId": "1hN5JK7ET6vw4gQR5fnmj7",
+        "deezerId": "59636732",
+        "designers": ["Images Inées"],
+        "isAGem": true,
+        "description": "TODO"
     },
     // ************************************************************************************ //
     // **************************************** E **************************************** //
@@ -4466,6 +4497,21 @@ const albums = [
         "spotifyId": "0q8Qt2dk9NL0F35BmrImUA",
         "deezerId": "",
         "designers": ["Richard Evans"],
+        "isAGem": false
+    },
+    {
+        "id": "george_duke_faces_in_reflection",
+        "title": "Faces In Reflection",
+        "artist": "George Duke",
+        "year": 1974,
+        "country": regions.USA,
+        "cover": pathToCovers + "/george_duke_faces_in_reflection.jpg",
+        "criteria": [criteria.JAZZ, criteria.JAM, criteria.SOFT, criteria.JAZZY_GROOVY, criteria.C_ELECTRO, criteria.INSTRUMENTAL, criteria.ODD_RHYTHM, criteria.UNCOMMON_INSTRUMENTS],
+        "selectedTrackTitle": "Psychosomatic Dung",
+        "selectedTrackYtId": "j5eJUEayLWY",
+        "spotifyId": "27LrzDfCpvyhJw63OQz9cw",
+        "deezerId": "1672523",
+        "designers": ["Heinz Bähr"],
         "isAGem": false
     },
     {
@@ -6270,21 +6316,6 @@ const albums = [
     // **************************************** M **************************************** //
     // ********************************************************************************** //
     {
-        "id": "ml_bongers_project_pacific_prison",
-        "title": "Pacific Prison",
-        "artist": "M.L. Bongers Project",
-        "year": 1978,
-        "country": regions.GERMANY,
-        "cover": pathToCovers + "/ml_bongers_project_pacific_prison.jpg",
-        "criteria": [criteria.STORYLINE, criteria.TRANSITION, criteria.SOUND_COLLAGES, criteria.C_ELECTRO, criteria.SCI_FI, criteria.SOFT_SEVENTIES],
-        "selectedTrackTitle": "A Deadly Smile",
-        "selectedTrackYtId": "px1CIxbSN0o",
-        "spotifyId": "",
-        "deezerId": "",
-        "designers": ["Michel Verdbois"],
-        "isAGem": false
-    },
-    {
         "id": "magic_spell_is_there_anywhere_a_gas_station",
         "title": "Is There Anywhere A Gas Station?",
         "artist": "Magic Spell",
@@ -6367,9 +6398,9 @@ const albums = [
         "year": 1974,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/magma_kohntarkosz.jpg",
-        "criteria": [criteria.SYMPHONIC, criteria.C_PSYCHEDELIC, criteria.SPECTACULAR, criteria.ZEUHL, criteria.ROCK_OPERA, criteria.LENGTHY_TRACKS, criteria.FEMALE, criteria.ODD_RHYTHM],
-        "selectedTrackTitle": "Köhntarkösz (Part I)",
-        "selectedTrackYtId": "rfqzFfVg-iA",
+        "criteria": [criteria.EXPERIMENTAL, criteria.SYMPHONIC, criteria.C_JAZZ, criteria.C_PSYCHEDELIC, criteria.SPECTACULAR, criteria.ZEUHL, criteria.ROCK_OPERA, criteria.LENGTHY_TRACKS, criteria.FEMALE, criteria.ODD_RHYTHM],
+        "selectedTrackTitle": "Köhntarkösz (Part II)",
+        "selectedTrackYtId": "4h3yHBDRoek",
         "spotifyId": "7k6xCjMzSg4WFFxRNDq7pm",
         "deezerId": "44081",
         "designers": ["Fabio Nicoli"],
@@ -6397,9 +6428,9 @@ const albums = [
         "year": 1978,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/magma_attahk.jpg",
-        "criteria": [],
-        "selectedTrackTitle": "todo",
-        "selectedTrackYtId": "todo",
+        "criteria": [criteria.SYMPHONIC, criteria.JAZZ, criteria.JAZZY_GROOVY, criteria.ODD_RHYTHM, criteria.ZEUHL, criteria.ROCK_OPERA, criteria.UNCOMMON_INSTRUMENTS],
+        "selectedTrackTitle": "Rindë",
+        "selectedTrackYtId": "e26I9r4msLE",
         "spotifyId": "7CEoMKWc490SjtEMJ5va6D",
         "deezerId": "44078",
         "designers": ["H.R. Giger"],
@@ -6692,6 +6723,21 @@ const albums = [
         "isAGem": false
     },
     {
+        "id": "messengers_children_of_tomorrow",
+        "title": "Children Of Tomorrow",
+        "artist": "Messengers",
+        "year": 1977,
+        "country": regions.GERMANY,
+        "cover": pathToCovers + "/messengers_children_of_tomorrow.jpg",
+        "criteria": [criteria.FEMALE, criteria.C_JAZZ, criteria.JAZZY_GROOVY, criteria.ORCHESTRAL_PARTS],
+        "selectedTrackTitle": "Sacrewinsky",
+        "selectedTrackYtId": "SYVR1DcK8Eg",
+        "spotifyId": "",
+        "deezerId": "",
+        "designers": [],
+        "isAGem": false
+    },
+    {
         "id": "metropolis_metropolis",
         "title": "Metropolis",
         "artist": "Metropolis",
@@ -6842,6 +6888,21 @@ const albums = [
         "isAGem": true,
         "description": "TODO"
     },
+    {
+        "id": "ml_bongers_project_pacific_prison",
+        "title": "Pacific Prison",
+        "artist": "M.L. Bongers Project",
+        "year": 1978,
+        "country": regions.GERMANY,
+        "cover": pathToCovers + "/ml_bongers_project_pacific_prison.jpg",
+        "criteria": [criteria.STORYLINE, criteria.TRANSITION, criteria.SOUND_COLLAGES, criteria.C_ELECTRO, criteria.SCI_FI, criteria.SOFT_SEVENTIES],
+        "selectedTrackTitle": "A Deadly Smile",
+        "selectedTrackYtId": "px1CIxbSN0o",
+        "spotifyId": "",
+        "deezerId": "",
+        "designers": ["Michel Verdbois"],
+        "isAGem": false
+    },
     // ************************************************************************************ //
     // **************************************** N **************************************** //
     // ********************************************************************************** //
@@ -6934,6 +6995,21 @@ const albums = [
         "spotifyId": "2Hw7xx2dsRuQOWnyRrznkJ",
         "deezerId": "15484774",
         "designers": ["CCS"],
+        "isAGem": false
+    },
+    {
+        "id": "nazareth_rampant",
+        "title": "Rampant",
+        "artist": "Nazareth",
+        "year": 1974,
+        "country": regions.SCOTLAND,
+        "cover": pathToCovers + "/nazareth_rampant.jpg",
+        "criteria": [criteria.JAM, criteria.ROCK, criteria.HEAVY, criteria.GREASY_SEVENTIES],
+        "selectedTrackTitle": "Shapes Of Things / Space Safari",
+        "selectedTrackYtId": "t3_aDNVK_OE",
+        "spotifyId": "0QUDqPjTgUJ5rqyPGjhu8c",
+        "deezerId": "15485508",
+        "designers": ["Hipgnosis", "Joe Petagno"],
         "isAGem": false
     },
     {
@@ -9955,6 +10031,7 @@ function getAlbumById(id) {
     Premiata Forneria Marconi
     Procol Harum
     Ralph Lundsten
+    Santana
     Soft Machine
     Strawbs
     UFO
@@ -9978,16 +10055,15 @@ function getAlbumById(id) {
     Hugh Syme (rush)
     Tony Wright (traffic)
 */
+// TODO add subgenre : Groove, Jazz-Fusion avec Return to forvever(musicmagic) + messneger (children tomorrow) + foehn
 // TODO subgenres should be specified in the album db not manually
 // TODO new feature : album comparison: sur une scale de 1 à 10, how much soubd alike ? et du coup ça rapproche énormément les albums entre eux, agnostic des artisres
 // TODO linker discogs
 // TODO lister instruments
-// TODO fix search by designer case-sensitive
-// TODO fix album view arrow not clickable cause no width or height
 // TODO use VueX/Store for selected album and view
 // TODO parse tout le Prog introuvable et renseigner ici
 // TODO faire un from the same artist
-// TODO filter by year
+// TODO filter by year (range avec input min + max)
 // TODO update albums with new criteria (late 70's notamment)
 // TODO refact subgenres and absolute gems (db en props encore)
 // TODO create components for histograms and tables
