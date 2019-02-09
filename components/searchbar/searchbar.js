@@ -61,6 +61,11 @@ Vue.component('searchbar', {
             this.matchingAlbums = [];
             if(search) {
                 const keyWords = search.split(' ');
+
+                // Force lowercase
+                for(let j = 0; j < keyWords.length; j++) {
+                    keyWords[j] = keyWords[j].toLowerCase();
+                }
                 
                 for(let i = 0; i < this.db.albums.length; i++) {
                     const album = JSON.parse(JSON.stringify(this.db.albums[i]));
@@ -72,7 +77,7 @@ Vue.component('searchbar', {
                         break;
                     } else {
 
-                        // Check for album title, artists name or year
+                        // Check for album title, artists name, designer or year
                         for(let j = 0; j < keyWords.length; j++) {
 
                             const albumTitle = album.title.toLowerCase();
