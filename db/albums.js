@@ -373,7 +373,7 @@ const albums = [
         "year": 1972,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/ange_caricatures.jpg",
-        "criteria": [criteria.LENGTHY_TRACKS, criteria.GLITTER, criteria.C_PSYCHEDELIC, criteria.MEDIEVAL, criteria.FRENCH_SUNG, criteria.ROCK_OPERA, criteria.FANFARE],
+        "criteria": [criteria.LENGTHY_TRACKS, criteria.GLITTER, criteria.C_PSYCHEDELIC, criteria.MEDIEVAL, criteria.FRENCH_SUNG, criteria.ROCK_OPERA, criteria.FANFARE, criteria.RENAISSANCE],
         "selectedTrackTitle": "Dignité",
         "selectedTrackYtId": "C9u3KWEi7Us",
         "spotifyId": "4naH2uTFiUQ4L7D2zktDcx",
@@ -388,7 +388,7 @@ const albums = [
         "year": 1973,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/ange_le_cimetiere_des_arlequins.jpg",
-        "criteria": [criteria.GLITTER, criteria.C_PSYCHEDELIC, criteria.MEDIEVAL, criteria.FRENCH_SUNG, criteria.ROCK_OPERA, criteria.FANFARE],
+        "criteria": [criteria.GLITTER, criteria.C_PSYCHEDELIC, criteria.MEDIEVAL, criteria.FRENCH_SUNG, criteria.ROCK_OPERA, criteria.FANFARE, criteria.RENAISSANCE],
         "selectedTrackTitle": "Aujourd'hui C'est La Fête Chez L'apprenti Sorcier",
         "selectedTrackYtId": "f2S7J9eXuTQ",
         "spotifyId": "5KnZloSevoATYhQeX7t0e0",
@@ -403,7 +403,7 @@ const albums = [
         "year": 1974,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/ange_au_dela_du_delire.jpg",
-        "criteria": [criteria.ODD_RHYTHM, criteria.MEDIEVAL, criteria.FRENCH_SUNG, criteria.ROCK_OPERA, criteria.FANFARE, criteria.ART_POP],
+        "criteria": [criteria.ODD_RHYTHM, criteria.MEDIEVAL, criteria.FRENCH_SUNG, criteria.ROCK_OPERA, criteria.FANFARE, criteria.ART_POP, criteria.RENAISSANCE],
         "selectedTrackTitle": "Les Longues Nuits D'Isaac",
         "selectedTrackYtId": "L7EezMJrnRM",
         "spotifyId": "3X6ZYhmu0k29UmNw2zcCrL",
@@ -418,7 +418,7 @@ const albums = [
         "year": 1975,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/ange_emile_jacotey.jpg",
-        "criteria": [criteria.ODD_RHYTHM, criteria.MEDIEVAL, criteria.FRENCH_SUNG, criteria.ROCK_OPERA, criteria.FANFARE, criteria.ART_POP],
+        "criteria": [criteria.ODD_RHYTHM, criteria.MEDIEVAL, criteria.FRENCH_SUNG, criteria.ROCK_OPERA, criteria.FANFARE, criteria.ART_POP, criteria.RENAISSANCE],
         "selectedTrackTitle": "Sur La Trace Des Fées",
         "selectedTrackYtId": "F9z4OCHE7t8",
         "spotifyId": "6C7B51NLYoIefaLAwsdFP7",
@@ -433,7 +433,7 @@ const albums = [
         "year": 1976,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/ange_par_les_fils_de_mandrin.jpg",
-        "criteria": [criteria.ODD_RHYTHM, criteria.MEDIEVAL, criteria.FRENCH_SUNG, criteria.ROCK_OPERA, criteria.FANFARE, criteria.ART_POP],
+        "criteria": [criteria.ODD_RHYTHM, criteria.MEDIEVAL, criteria.FRENCH_SUNG, criteria.ROCK_OPERA, criteria.FANFARE, criteria.ART_POP, criteria.RENAISSANCE],
         "selectedTrackTitle": "Au Café Du Colibri",
         "selectedTrackYtId": "JjU8A0DReMo",
         "spotifyId": "3EqySsFNjDWa6xORz8apbS",
@@ -1055,7 +1055,7 @@ const albums = [
         "year": 1972,
         "country": regions.ITALY,
         "cover": pathToCovers + "/banco_del_mutuo_soccorso_banco_del_mutuo_soccorso.jpg",
-        "criteria": [criteria.ITALIAN_SUNG, criteria.ODD_RHYTHM, criteria.BAROQUE, criteria.C_FOLK, criteria.LENGTHY_TRACKS, criteria.SYMPHONIC, criteria.TOUCHING_VOCALS],
+        "criteria": [criteria.ITALIAN_SUNG, criteria.ODD_RHYTHM, criteria.BAROQUE, criteria.C_FOLK, criteria.LENGTHY_TRACKS, criteria.SYMPHONIC, criteria.TOUCHING_VOCALS, criteria.RENAISSANCE],
         "selectedTrackTitle": "Il Giardino Del Mago",
         "selectedTrackYtId": "rxRl3QauJqQ",
         "spotifyId": "",
@@ -1070,7 +1070,7 @@ const albums = [
         "year": 1972,
         "country": regions.ITALY,
         "cover": pathToCovers + "/banco_del_mutuo_soccorso_darwin.jpg",
-        "criteria": [criteria.ITALIAN_SUNG, criteria.CONCEPT, criteria.SYMPHONIC, criteria.C_ELECTRO, criteria.ODD_RHYTHM, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.BAROQUE, criteria.C_JAZZ, criteria.TOUCHING_VOCALS],
+        "criteria": [criteria.ITALIAN_SUNG, criteria.CONCEPT, criteria.SYMPHONIC, criteria.C_ELECTRO, criteria.ODD_RHYTHM, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.BAROQUE, criteria.C_JAZZ, criteria.TOUCHING_VOCALS, criteria.RENAISSANCE],
         "selectedTrackTitle": "750.000 Anni Fa... L'amore?",
         "selectedTrackYtId": "_nS4Kxjx1CA",
         "spotifyId": "0Ft1jEOyGY74ZgHb1FYO4U",
@@ -1085,7 +1085,7 @@ const albums = [
         "year": 1973,
         "country": regions.ITALY,
         "cover": pathToCovers + "/banco_del_mutuo_soccorso_io_sono_nato_libero.jpg",
-        "criteria": [criteria.ITALIAN_SUNG, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.ODD_RHYTHM, criteria.LENGTHY_TRACKS, criteria.BAROQUE, criteria.SYMPHONIC],
+        "criteria": [criteria.ITALIAN_SUNG, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.ODD_RHYTHM, criteria.LENGTHY_TRACKS, criteria.BAROQUE, criteria.SYMPHONIC, criteria.RENAISSANCE],
         "selectedTrackTitle": "Canto Nomade Per Un Prigionero Politico",
         "selectedTrackYtId": "G63SvySmzc4",
         "spotifyId": "0V7yj1nGYDsBjlMrsI5w5C",
@@ -1101,7 +1101,7 @@ const albums = [
         "year": 1976,
         "country": regions.ITALY,
         "cover": pathToCovers + "/banco_del_mutuo_soccorso_come_in_un_ultima_cena.jpg",
-        "criteria": [criteria.ITALIAN_SUNG, criteria.SYMPHONIC, criteria.ODD_RHYTHM, criteria.UNCOMMON_INSTRUMENTS, criteria.BAROQUE],
+        "criteria": [criteria.ITALIAN_SUNG, criteria.SYMPHONIC, criteria.ODD_RHYTHM, criteria.UNCOMMON_INSTRUMENTS, criteria.BAROQUE, criteria.RENAISSANCE],
         "selectedTrackTitle": "todo",
         "selectedTrackYtId": "todo",
         "spotifyId": "1WeTsUeoyJBDYiqdoCtO8I",
@@ -2182,7 +2182,7 @@ const albums = [
         "year": 1972,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/caravan_waterloo_lily.jpg",
-        "criteria": [criteria.JAM, criteria.LENGTHY_TRACKS, criteria.SOFT, criteria.C_FOLK],
+        "criteria": [criteria.JAM, criteria.LENGTHY_TRACKS, criteria.SOFT, criteria.C_FOLK, criteria.ORCHESTRAL_PARTS, criteria.SYMPHONIC],
         "selectedTrackTitle": "The World Is Yours",
         "selectedTrackYtId": "F4yDoaCQ70g",
         "spotifyId": "1x9JWE9MyBdKPdNOH3FUK7",
@@ -2231,7 +2231,7 @@ const albums = [
         "selectedTrackTitle": "Oneness",
         "selectedTrackYtId": "2zLSwiWz9Ws",
         "spotifyId": "4BtIIBfdDY4zqU5isUabhE",
-        "deezerId": "",
+        "deezerId": "1223356",
         "designers": ["Bob Venosa", "John Paul Jones"],
         "isAGem": false
     },
@@ -2246,7 +2246,7 @@ const albums = [
         "selectedTrackTitle": "Song For My Brother",
         "selectedTrackYtId": "z5nUNCTcZog",
         "spotifyId": "79RKfnrrbyVoxvKeX9wFKY",
-        "deezerId": "",
+        "deezerId": "1399985",
         "designers": ["Sri Chinmoy", "Tadanori Yokoo"],
         "isAGem": false
     },
@@ -2261,7 +2261,7 @@ const albums = [
         "selectedTrackTitle": "Bliss: The Eternal Row",
         "selectedTrackYtId": "Bp1gzeUnXWE",
         "spotifyId": "2uikR6eZ1HzoGH4Ki6eneU",
-        "deezerId": "",
+        "deezerId": "1214907",
         "designers": ["Michael Wood", "Retina Circus"],
         "isAGem": true,
         "description": "TODO"
@@ -2277,7 +2277,7 @@ const albums = [
         "selectedTrackTitle": "The Life Divine",
         "selectedTrackYtId": "vmM2qXDS9wc",
         "spotifyId": "3tWbGgFyhyPsRcAWhZDb7p",
-        "deezerId": "",
+        "deezerId": "116144",
         "designers": ["Ashok"],
         "isAGem": false
     },
@@ -2307,7 +2307,7 @@ const albums = [
         "selectedTrackTitle": "Foreigner Suite",
         "selectedTrackYtId": "KOC_LkgNAHU",
         "spotifyId": "3tHGLaibgszG59jDPHkw2Q",
-        "deezerId": "",
+        "deezerId": "228367",
         "designers": ["Roland Young"],
         "isAGem": false
     },
@@ -2380,13 +2380,13 @@ const albums = [
         "country": regions.BOLIVIA,
         "cover": pathToCovers + "/climax_gusano_mecanico.jpg",
         "criteria": [criteria.SPANISH_SUNG, criteria.UNCOMMON_INSTRUMENTS, criteria.JAZZY_GROOVY, criteria.GREASY_SEVENTIES, criteria.JAM, criteria.ODD_RHYTHM, criteria.C_JAZZ],
-        "selectedTrackTitle": "todo",
-        "selectedTrackYtId": "todo",
-        "spotifyId": "tpdp",
-        "deezerId": "tpdo",
-        "designers": ["todo"],
+        "selectedTrackTitle": "Cuerpo Eléctrico / Embrión De Reencarnación",
+        "selectedTrackYtId": "k4gyPqM4to8",
+        "spotifyId": "4FqEYeQKKIKwA6wJGVNd9Z",
+        "deezerId": "59636832",
+        "designers": [],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO tries to create riffs from rock influence"
     },
     {
         "id": "coma_financial_tycoon",
@@ -2395,13 +2395,14 @@ const albums = [
         "year": 1977,
         "country": regions.DENMARK,
         "cover": pathToCovers + "/coma_financial_tycoon.jpg",
-        "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.FUNNY, criteria.JAZZY_GROOVY],
-        "selectedTrackTitle": "Foreigner Suite",
+        "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.JAM, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.C_JAZZ, criteria.FUNNY, criteria.JAZZY_GROOVY, criteria.UNCOMMON_INSTRUMENTS],
+        "selectedTrackTitle": "Financial Tycoon 1",
         "selectedTrackYtId": "QOJXZbwHPNI",
         "spotifyId": "",
         "deezerId": "",
-        "designers": [],
-        "isAGem": false
+        "designers": ["Lars Rasmussen"],
+        "isAGem": true,
+        "description": "TODO I'm the slime en album"
     },
     {
         "id": "comus_first_utterance",
@@ -2445,7 +2446,7 @@ const albums = [
         "selectedTrackTitle": "The White Witch Of Rose Hall",
         "selectedTrackYtId": "TSKJ9C_QX18",
         "spotifyId": "60qYJ7btMyDbavVJnUXSoI",
-        "deezerId": "",
+        "deezerId": "437171",
         "designers": ["Jerry Griffith"],
         "isAGem": false
     },
@@ -2460,7 +2461,7 @@ const albums = [
         "selectedTrackTitle": "Ice",
         "selectedTrackYtId": "Ph1WHxSHJo8",
         "spotifyId": "3oWrChJHNsVTwezq4U5S0C",
-        "deezerId": "",
+        "deezerId": "1123765",
         "designers": ["Mary Walsh", "Susan Senk"],
         "isAGem": false
     },
@@ -2475,7 +2476,7 @@ const albums = [
         "selectedTrackTitle": "Rangers At Midnight",
         "selectedTrackYtId": "ZWUS7CxH4YY",
         "spotifyId": "19iuvORQN4g7YrYWyzXzVy",
-        "deezerId": "",
+        "deezerId": "1123764",
         "designers": ["Guy Billout"],
         "isAGem": false
     },
@@ -2490,7 +2491,7 @@ const albums = [
         "selectedTrackTitle": "Nuclear Apathy",
         "selectedTrackYtId": "x8_aIHXWkH0",
         "spotifyId": "6YyUimOKdv94um4jD71U1B",
-        "deezerId": "",
+        "deezerId": "1123766",
         "designers": ["Jay Maisel", "John Berg", "Nancy Greenberg"],
         "isAGem": false
     },
@@ -2505,7 +2506,7 @@ const albums = [
         "selectedTrackTitle": "Fire",
         "selectedTrackYtId": "FaHEusBG20c",
         "spotifyId": "2gu9Q6wy3ftQtg4lplR7SP",
-        "deezerId": "",
+        "deezerId": "160234",
         "designers": ["David King"],
         "isAGem": false
     },
@@ -2520,10 +2521,25 @@ const albums = [
         "selectedTrackTitle": "Mes",
         "selectedTrackYtId": "oeVNf_Ugpb8",
         "spotifyId": "7q4FDjboZh9zLPRqIxdWng",
-        "deezerId": "",
+        "deezerId": "1338052",
         "designers": ["Juan Oreste Gatti"],
         "isAGem": true,
         "description": "TODO"
+    },
+    {
+        "id": "crucis_los_delirios_del_mariscal",
+        "title": "Los Delirios Del Mariscal",
+        "artist": "Crucis",
+        "year": 1977,
+        "country": regions.ARGENTINA,
+        "cover": pathToCovers + "/crucis_los_delirios_del_mariscal.jpg",
+        "criteria": [criteria.ODD_RHYTHM, criteria.GLITTER, criteria.C_ELECTRO, criteria.SPANISH_SUNG],
+        "selectedTrackTitle": "No Me Separen De Mí",
+        "selectedTrackYtId": "XvdxYyYbc84",
+        "spotifyId": "1IQKV1zaM2GihjCXjZTdeJ",
+        "deezerId": "1338051",
+        "designers": ["Juan Oreste Gatti"],
+        "isAGem": false
     },
     {
         "id": "cromagnon_orgasm",
@@ -2535,24 +2551,9 @@ const albums = [
         "criteria": [criteria.C_PSYCHEDELIC, criteria.TRANSITION, criteria.SOUND_COLLAGES, criteria.EXPERIMENTAL, criteria.UNCOMMON_INSTRUMENTS, criteria.CRISPY_SIXTIES, criteria.FUNNY, criteria.C_ELECTRO],
         "selectedTrackTitle": "Crow Of The Black Tree",
         "selectedTrackYtId": "mEHBnolYzPY",
-        "spotifyId": "",
+        "spotifyId": "60StK3mTvlqeHhTGr9LS6Z",
         "deezerId": "",
         "designers": ["Howard Bernstein"],
-        "isAGem": false
-    },
-    {
-        "id": "crucis_los_delirios_del_mariscal",
-        "title": "Los Delirios Del Mariscal",
-        "artist": "Crucis",
-        "year": 1976,
-        "country": regions.ARGENTINA,
-        "cover": pathToCovers + "/crucis_los_delirios_del_mariscal.jpg",
-        "criteria": [criteria.ODD_RHYTHM, criteria.GLITTER, criteria.C_ELECTRO, criteria.SPANISH_SUNG],
-        "selectedTrackTitle": "No Me Separen De Mí",
-        "selectedTrackYtId": "XvdxYyYbc84",
-        "spotifyId": "1IQKV1zaM2GihjCXjZTdeJ",
-        "deezerId": "",
-        "designers": ["Juan Oreste Gatti"],
         "isAGem": false
     },
     {
@@ -2581,7 +2582,7 @@ const albums = [
         "selectedTrackTitle": "Metamorphosis",
         "selectedTrackYtId": "uZAImsmFGhk",
         "spotifyId": "7vnkaleSG6USdg0B8QYOEH",
-        "deezerId": "",
+        "deezerId": "53873132",
         "designers": ["Modula"],
         "isAGem": false
     },
@@ -2614,7 +2615,7 @@ const albums = [
         "selectedTrackTitle": "Space Oddity",
         "selectedTrackYtId": "iYYRH4apXDo",
         "spotifyId": "1ay9Z4R5ZYI2TY7WiDhNYQ",
-        "deezerId": "",
+        "deezerId": "11204784",
         "designers": ["Vernon Dewhurst"],
         "isAGem": false
     },
@@ -2629,7 +2630,7 @@ const albums = [
         "selectedTrackTitle": "The Width Of A Circle",
         "selectedTrackYtId": "s2L4hL2IvUk",
         "spotifyId": "4h9rWFWhgCSSrvIEQ0YhYG",
-        "deezerId": "",
+        "deezerId": "11205180",
         "designers": ["Marcus Keef"],
         "isAGem": false
     },
@@ -2644,7 +2645,7 @@ const albums = [
         "selectedTrackTitle": "Life On Mars?",
         "selectedTrackYtId": "v--IqqusnNQ",
         "spotifyId": "6fQElzBNTiEMGdIeY0hy5l",
-        "deezerId": "",
+        "deezerId": "11205658",
         "designers": ["George Underwood", "Terry Pastor"],
         "isAGem": false
     },
@@ -2659,7 +2660,7 @@ const albums = [
         "selectedTrackTitle": "Starman",
         "selectedTrackYtId": "EYQTGF1hXVI",
         "spotifyId": "48D1hRORqJq52qsnUYZX56",
-        "deezerId": "",
+        "deezerId": "11205422",
         "designers": ["Terry Pastor"],
         "isAGem": false
     },
@@ -2689,7 +2690,7 @@ const albums = [
         "selectedTrackTitle": "Hush",
         "selectedTrackYtId": "W1PNvopXjbg",
         "spotifyId": "3VV3uHT9dEGPbgQJQRMAEy",
-        "deezerId": "",
+        "deezerId": "300221",
         "designers": ["Les Weisbrich"],
         "isAGem": false
     },
@@ -2704,7 +2705,7 @@ const albums = [
         "selectedTrackTitle": "Listen, Learn, Read On",
         "selectedTrackYtId": "uYZaXo4jOu0",
         "spotifyId": "4pFFGEuoEmxtOTbp22tva9",
-        "deezerId": "",
+        "deezerId": "326086",
         "designers": ["John Vernon Lord"],
         "isAGem": false
     },
@@ -2734,7 +2735,7 @@ const albums = [
         "selectedTrackTitle": "Child In Time",
         "selectedTrackYtId": "PfAWReBmxEs",
         "spotifyId": "3llL1qaL2RvtyQAthAuRFS",
-        "deezerId": "",
+        "deezerId": "308821",
         "designers": ["Nesbit, Phipps & Froome", "Edwards Coletta Productions"],
         "isAGem": false
     },
@@ -2749,7 +2750,7 @@ const albums = [
         "selectedTrackTitle": "Fools",
         "selectedTrackYtId": "Se8srYEdi2I",
         "spotifyId": "3oitf8NRK5tSDhCRVcOewu",
-        "deezerId": "",
+        "deezerId": "302174",
         "designers": [],
         "isAGem": false
     },
@@ -2764,7 +2765,7 @@ const albums = [
         "selectedTrackTitle": "Lazy",
         "selectedTrackYtId": "STFWapwyqMo",
         "spotifyId": "32NQ56VZDTXSH3SMv4XSGN",
-        "deezerId": "",
+        "deezerId": "302224",
         "designers": ["Roger Glover", "John Coletta"],
         "isAGem": false
     },
@@ -2826,6 +2827,21 @@ const albums = [
         "spotifyId": "6cShl77TjfWE5uC2Qv7ryb",
         "deezerId": "364613",
         "designers": ["Castle, Chappell & Partners Limited", "Peter Williams"],
+        "isAGem": false
+    },
+    {
+        "id": "delired_cameleon_family_delired_cameleon_family",
+        "title": "Delired Cameleon Family",
+        "artist": "Delired Cameleon Family",
+        "year": 1975,
+        "country": regions.FRANCE,
+        "cover": pathToCovers + "/delired_cameleon_family_delired_cameleon_family.jpg",
+        "criteria": [criteria.C_PSYCHEDELIC, criteria.ORIENTAL, criteria.C_ELECTRO, criteria.UNCOMMON_INSTRUMENTS, criteria.INSTRUMENTAL, criteria.FRENCH_SUNG, criteria.JAZZY_GROOVY, criteria.SPACY],
+        "selectedTrackTitle": "Le Bœuf",
+        "selectedTrackYtId": "rogJ03cSDIk",
+        "spotifyId": "1gqEFwNPsA63LgXVh5xRxI",
+        "deezerId": "1359284",
+        "designers": ["Jean-Claude Michel"],
         "isAGem": false
     },
     {
@@ -2915,7 +2931,7 @@ const albums = [
         "selectedTrackTitle": "Hereafter",
         "selectedTrackYtId": "AGm4URovuyA",
         "spotifyId": "4hAbKjSBpLISpz4Ikt1cj2",
-        "deezerId": "",
+        "deezerId": "730021",
         "designers": ["Heather Harris", "Terry Taylor"],
         "isAGem": false
     },
@@ -2960,7 +2976,7 @@ const albums = [
         "selectedTrackTitle": "Les Deux Poissons",
         "selectedTrackYtId": "gOwuBTGwrco",
         "spotifyId": "",
-        "deezerId": "",
+        "deezerId": "84676702",
         "designers": ["Jacques Wyrss"],
         "isAGem": false
     },
@@ -2990,7 +3006,7 @@ const albums = [
         "selectedTrackTitle": "The End",
         "selectedTrackYtId": "JSUIQgEVDM4",
         "spotifyId": "1jWmEhn3ggaL6isoyLfwBn",
-        "deezerId": "",
+        "deezerId": "340878",
         "designers": ["William S. Harvey", "Guy Webster"],
         "isAGem": false
     },
@@ -3005,7 +3021,7 @@ const albums = [
         "selectedTrackTitle": "When The Music's Over",
         "selectedTrackYtId": "YkKRU1ajKFA",
         "spotifyId": "6v5IVMmY1IvWtbfnQoiFSf",
-        "deezerId": "",
+        "deezerId": "340880",
         "designers": ["William S. Harvey", "Joel Brodsky"],
         "isAGem": false
     },
@@ -3020,7 +3036,7 @@ const albums = [
         "selectedTrackTitle": "Yes, The River Knows",
         "selectedTrackYtId": "v6boHOX8r60",
         "spotifyId": "0qZTwrunzX3LG45PvRghmh",
-        "deezerId": "",
+        "deezerId": "381016",
         "designers": ["William S. Harvey", "Paul Farrara"],
         "isAGem": false
     },
@@ -3035,7 +3051,7 @@ const albums = [
         "selectedTrackTitle": "The Soft Parade",
         "selectedTrackYtId": "8p-AUo1w45w",
         "spotifyId": "75bLu4Ung5QbMdJYxx7wTI",
-        "deezerId": "",
+        "deezerId": "340879",
         "designers": ["William S. Harvey"],
         "isAGem": false
     },
@@ -3085,6 +3101,22 @@ const albums = [
         "designers": ["Georg Kozak"],
         "isAGem": false
     },
+    {
+        "id": "dun_eros",
+        "title": "Eros",
+        "artist": "Dün",
+        "year": 1981,
+        "country": regions.FRANCE,
+        "cover": pathToCovers + "/dun_eros.jpg",
+        "criteria": [criteria.INSTRUMENTAL, criteria.SYMPHONIC, criteria.SOPHISTICATED, criteria.C_JAZZ, criteria.UNCOMMON_INSTRUMENTS, criteria.ODD_RHYTHM, criteria.C_PSYCHEDELIC],
+        "selectedTrackTitle": "L'épice",
+        "selectedTrackYtId": "JBuV6kNVryQ",
+        "spotifyId": "1hN5JK7ET6vw4gQR5fnmj7",
+        "deezerId": "59636732",
+        "designers": ["Images Inées"],
+        "isAGem": true,
+        "description": "TODO"
+    },
     // ************************************************************************************ //
     // **************************************** E **************************************** //
     // ********************************************************************************** //
@@ -3114,7 +3146,7 @@ const albums = [
         "selectedTrackTitle": "Face To Face",
         "selectedTrackYtId": "UL50QdzUqMY",
         "spotifyId": "",
-        "deezerId": "",
+        "deezerId": "63044732",
         "designers": [],
         "isAGem": false
     },
@@ -3129,7 +3161,7 @@ const albums = [
         "selectedTrackTitle": "Symphony No. 2",
         "selectedTrackYtId": "gR1TYEOVpJ0",
         "spotifyId": "5pMUtQr5NeAS8nVhHDoNJg",
-        "deezerId": "",
+        "deezerId": "7730016",
         "designers": ["Trevor Key"],
         "isAGem": false
     },
@@ -3144,7 +3176,7 @@ const albums = [
         "selectedTrackTitle": "A Visit To Newport Hospital",
         "selectedTrackYtId": "DanChmmX4k0",
         "spotifyId": "",
-        "deezerId": "",
+        "deezerId": "57226532",
         "designers": ["Terry Yetton"],
         "isAGem": false
     },
@@ -3159,7 +3191,7 @@ const albums = [
         "selectedTrackTitle": "Enneagram",
         "selectedTrackYtId": "QS96H34Ywv4",
         "spotifyId": "",
-        "deezerId": "",
+        "deezerId": "58280522",
         "designers": ["Peter Chapman"],
         "isAGem": false
     },
@@ -3174,7 +3206,7 @@ const albums = [
         "selectedTrackTitle": "Castles",
         "selectedTrackYtId": "Tw9Ksxrm7hg",
         "spotifyId": "6xBz57CFwGO7ta0IGkF2QR",
-        "deezerId": "",
+        "deezerId": "8875695",
         "designers": [],
         "isAGem": false
     },
@@ -3189,7 +3221,7 @@ const albums = [
         "selectedTrackTitle": "New World Rising",
         "selectedTrackYtId": "vSoL8WdgI_Y",
         "spotifyId": "4U3gNrULmJ7m12b6APsvm3",
-        "deezerId": "",
+        "deezerId": "11674556",
         "designers": ["John Kehe"],
         "isAGem": false
     },
@@ -3204,7 +3236,7 @@ const albums = [
         "selectedTrackTitle": "Fire On High",
         "selectedTrackYtId": "Yt6o03K_y54",
         "spotifyId": "7BU9d77tqAw7W26V6waEpt",
-        "deezerId": "",
+        "deezerId": "11674498",
         "designers": ["Art Attack", "John Kehe", "Mick Haggerty"],
         "isAGem": false
     },
@@ -3219,7 +3251,7 @@ const albums = [
         "selectedTrackTitle": "Livin' Thing",
         "selectedTrackYtId": "lvBOZCrJsAI",
         "spotifyId": "7a35UzxXYuKQGMGImyB0Un",
-        "deezerId": "",
+        "deezerId": "11674580",
         "designers": ["John Kosh"],
         "isAGem": false
     },
@@ -3234,7 +3266,7 @@ const albums = [
         "selectedTrackTitle": "Mr. Blue Sky",
         "selectedTrackYtId": "aQUlA8Hcv4s",
         "spotifyId": "3usnShwygMXVZB4IV5dwnU",
-        "deezerId": "",
+        "deezerId": "11674696",
         "designers": ["John Kosh", "Ria Lewerke", "Shusei Nagaoka"],
         "isAGem": false
     },
@@ -3249,7 +3281,7 @@ const albums = [
         "selectedTrackTitle": "The Diary Of Horace Wimp",
         "selectedTrackYtId": "PFU9HYyMVxQ",
         "spotifyId": "2SlLJQ2VAa1thmcRiVuXrb",
-        "deezerId": "",
+        "deezerId": "11674502",
         "designers": ["Norman Moore", "Paul Gross"],
         "isAGem": false
     },
@@ -3264,7 +3296,7 @@ const albums = [
         "selectedTrackTitle": "Ticket To The Moon",
         "selectedTrackYtId": "CJdZTNLkpuA",
         "spotifyId": "4k1GJg2poyo6hwWLqJn9C2",
-        "deezerId": "",
+        "deezerId": "1413698",
         "designers": ["Guy Fery"],
         "isAGem": true,
         "description": "Jeff Lynne takes us into a futuristic romantic story where a man enters the year 2095 and compares his new life with his old one with nostalgia, in the same place that has now drastically changed. Each track borrows a lot of different musical styles such as Disco, New Wave and Reggae, but the album remains heavily Synth-Pop oriented with strong Electro-Rock roots."
@@ -3295,7 +3327,7 @@ const albums = [
         "selectedTrackTitle": "Inside",
         "selectedTrackYtId": "g9geep2yJjI",
         "spotifyId": "6mnhtrfvfW4kW6XrxCsD3T",
-        "deezerId": "",
+        "deezerId": "327442",
         "designers": ["Roberto Patelli"],
         "isAGem": false
     },
@@ -3310,7 +3342,7 @@ const albums = [
         "selectedTrackTitle": "Castle In The Air",
         "selectedTrackYtId": "K_oPTaKCjcY",
         "spotifyId": "7zhuy8vqMtMJF73gQN0lvi",
-        "deezerId": "",
+        "deezerId": "327443",
         "designers": ["Roberto Patelli"],
         "isAGem": false
     },
@@ -3325,7 +3357,7 @@ const albums = [
         "selectedTrackTitle": "The Bells Of Notre Dame",
         "selectedTrackYtId": "p9P8OlPZnrM",
         "spotifyId": "0eiGbiuC1sd5HITiGIUuAh",
-        "deezerId": "",
+        "deezerId": "327444",
         "designers": ["Kochlowski"],
         "isAGem": false
     },
@@ -3355,7 +3387,7 @@ const albums = [
         "selectedTrackTitle": "Poseidon's Creation",
         "selectedTrackYtId": "NIeO4IAhpGM",
         "spotifyId": "2dn0CYoFrWYBgaXc3YGiCk",
-        "deezerId": "",
+        "deezerId": "327392",
         "designers": ["Wojtek Siudmak"],
         "isAGem": true,
         "description": "TODO"
@@ -3371,7 +3403,7 @@ const albums = [
         "selectedTrackTitle": "Master Of Sensation",
         "selectedTrackYtId": "GzJ8a29jvMU",
         "spotifyId": "6XAES0j2QM7gPjLsEEKPVn",
-        "deezerId": "",
+        "deezerId": "327393",
         "designers": ["Winfried Reinbacher"],
         "isAGem": false
     },
@@ -3416,7 +3448,7 @@ const albums = [
         "selectedTrackTitle": "End Of An Odyssey",
         "selectedTrackYtId": "MCr4WoovspA",
         "spotifyId": "24xpef77qNidD1GoWXBHLf",
-        "deezerId": "",
+        "deezerId": "327389",
         "designers": ["Winfried Reinbacher"],
         "isAGem": false
     },
@@ -3431,7 +3463,7 @@ const albums = [
         "selectedTrackTitle": "Sails",
         "selectedTrackYtId": "2F4iV_GuiXw",
         "spotifyId": "2AWW5zXJBwLeroqj9D5oWV",
-        "deezerId": "",
+        "deezerId": "122253",
         "designers": ["Dave Larkham"],
         "isAGem": false
     },
@@ -3446,7 +3478,7 @@ const albums = [
         "selectedTrackTitle": "The King Must Die",
         "selectedTrackYtId": "9OHa8pAXJBs",
         "spotifyId": "7dtLYwLOdYQa2S8Vjeuxci",
-        "deezerId": "",
+        "deezerId": "122252",
         "designers": ["Jim Goff"],
         "isAGem": false
     },
@@ -3461,7 +3493,22 @@ const albums = [
         "selectedTrackTitle": "Love Song",
         "selectedTrackYtId": "8Ri96HlRCKI",
         "spotifyId": "03zfU3IwWmymKoaWnwFNaY",
-        "deezerId": "",
+        "deezerId": "247855",
+        "designers": ["David Larkham"],
+        "isAGem": false
+    },
+    {
+        "id": "elton_john_madman_across_the_water",
+        "title": "Madman Across The Water",
+        "artist": "Elton John",
+        "year": 1971,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/elton_john_madman_across_the_water.jpg",
+        "criteria": [criteria.ART_POP, criteria.ORCHESTRAL_PARTS, criteria.TOUCHING_VOCALS, criteria.C_FOLK],
+        "selectedTrackTitle": "Tiny Dancer",
+        "selectedTrackYtId": "yYcyacLRPNs",
+        "spotifyId": "2OZbaW9tgO62ndm375lFZr",
+        "deezerId": "1969081",
         "designers": ["David Larkham"],
         "isAGem": false
     },
@@ -3476,7 +3523,7 @@ const albums = [
         "selectedTrackTitle": "Take A Pebble",
         "selectedTrackYtId": "tVz35uXqFYw",
         "spotifyId": "4Q8vDc5lmB9SW9cgMDeQAJ",
-        "deezerId": "",
+        "deezerId": "13680764",
         "designers": ["Nic Dartnell"],
         "isAGem": false
     },
@@ -3491,7 +3538,7 @@ const albums = [
         "selectedTrackTitle": "Tarkus",
         "selectedTrackYtId": "WKNOlDtZluU",
         "spotifyId": "6mqJylLfGnLCXhdyMPBCRo",
-        "deezerId": "",
+        "deezerId": "13681070",
         "designers": ["William Neal"],
         "isAGem": false
     },
@@ -3506,7 +3553,7 @@ const albums = [
         "selectedTrackTitle": "The Sage",
         "selectedTrackYtId": "1gxAGj-Svcc",
         "spotifyId": "4mxTngMVhtDdDsFd8SPwo3",
-        "deezerId": "",
+        "deezerId": "13680812",
         "designers": ["William Neal"],
         "isAGem": false
     },
@@ -3521,7 +3568,7 @@ const albums = [
         "selectedTrackTitle": "Trilogy",
         "selectedTrackYtId": "-yB1rilcUGQ",
         "spotifyId": "4Swf9iftTTaoEPbPXyxxUQ",
-        "deezerId": "",
+        "deezerId": "14167544",
         "designers": ["Hipgnosis"],
         "isAGem": false
     },
@@ -3536,7 +3583,7 @@ const albums = [
         "selectedTrackTitle": "Still... You Turn Me On",
         "selectedTrackYtId": "_8VHHcd0M_o",
         "spotifyId": "1wTqdsmCCQQLCQjXZM3H59",
-        "deezerId": "",
+        "deezerId": "14167536",
         "designers": ["H.R. Giger"],
         "isAGem": false
     },
@@ -3611,7 +3658,7 @@ const albums = [
         "selectedTrackTitle": "Saxophonie",
         "selectedTrackYtId": "qZGjbv8k3Os",
         "spotifyId": "61x86KuqdUWOIQrgD4bQ7m",
-        "deezerId": "",
+        "deezerId": "67970622",
         "designers": ["Jacques Pineau", "Jean Lars"],
         "isAGem": false
     },
@@ -3629,7 +3676,7 @@ const albums = [
         "selectedTrackTitle": "Gnome Song",
         "selectedTrackYtId": "601zRoKuHUg",
         "spotifyId": "",
-        "deezerId": "",
+        "deezerId": "8769669",
         "designers": ["Larry Learmonth"],
         "isAGem": false
     },
@@ -3659,7 +3706,7 @@ const albums = [
         "selectedTrackTitle": "todo",
         "selectedTrackYtId": "todo",
         "spotifyId": "2oGSNsSEkxEar3UM2DQSER",
-        "deezerId": "",
+        "deezerId": "66522712",
         "designers": ["William Roberto Wilson"],
         "isAGem": false
     },
@@ -3689,7 +3736,7 @@ const albums = [
         "selectedTrackTitle": "Slaughter In Robot Village",
         "selectedTrackYtId": "vx-8oTLXkIvu7M",
         "spotifyId": "4x5Pm0srEYfYCZhrAmLytS",
-        "deezerId": "",
+        "deezerId": "6405224",
         "designers": ["Paul Till"],
         "isAGem": false
     },
@@ -3704,7 +3751,7 @@ const albums = [
         "selectedTrackTitle": "House Of The King",
         "selectedTrackYtId": "vx-g0C4iHTEJ9o",
         "spotifyId": "5AteSiIZMyjzqApnZw2xCb",
-        "deezerId": "",
+        "deezerId": "5939947",
         "designers": [],
         "isAGem": false
     },
@@ -3719,7 +3766,7 @@ const albums = [
         "selectedTrackTitle": "Janis",
         "selectedTrackYtId": "vx-JzRzsCss",
         "spotifyId": "3oUXNITVgUpdN2cUwH3hmS",
-        "deezerId": "",
+        "deezerId": "5939948",
         "designers": ["Terence Ibbott"],
         "isAGem": true,
         "description": "Directed by Thijs Van Leer's alchimistic ideas and Jan Akkerman's grandiose guitar playing, Moving Waves starts with a scatterbrained hit track, followed by blue and instrumental-driven music. It ends on an eruption of a pure progressive Rock, 22-minute symphony, using the best of the musician's abilities to create a fulfilling and magical grande finale."
@@ -3735,7 +3782,7 @@ const albums = [
         "selectedTrackTitle": "Sylvia",
         "selectedTrackYtId": "aig4mWJUpLw",
         "spotifyId": "3N4wCf74U6Ye2c2MbLr9hv",
-        "deezerId": "",
+        "deezerId": "5939949",
         "designers": ["Hamish Grimes"],
         "isAGem": false
     },
@@ -3750,7 +3797,7 @@ const albums = [
         "selectedTrackTitle": "La Cathédrale De Strasbourg",
         "selectedTrackYtId": "HowIDiFOHwY",
         "spotifyId": "4Oz0ciMpZcUiHzTRvhF0m0",
-        "deezerId": "",
+        "deezerId": "5939951",
         "designers": [],
         "isAGem": false
     },
@@ -3765,7 +3812,7 @@ const albums = [
         "selectedTrackTitle": "King Kong",
         "selectedTrackYtId": "26b_f-KriRQ",
         "spotifyId": "5l85gocvAwwBahXEM1xqHY",
-        "deezerId": "",
+        "deezerId": "59266712",
         "designers": [],
         "isAGem": false
     },
@@ -3795,7 +3842,7 @@ const albums = [
         "selectedTrackTitle": "Who Are The Brain Police?",
         "selectedTrackYtId": "DuABc9ZNtrA",
         "spotifyId": "3PZXB9NBWf11eDS72JCGaY",
-        "deezerId": "",
+        "deezerId": "5821251",
         "designers": ["Jack Anesh"],
         "isAGem": false
     },
@@ -3810,7 +3857,7 @@ const albums = [
         "selectedTrackTitle": "Invocation & Ritual Dance Of The Young Pumpkin",
         "selectedTrackYtId": "7gw2qqcsxlE",
         "spotifyId": "5quWwqogyMjzEXWgCVyvRP",
-        "deezerId": "",
+        "deezerId": "4241481",
         "designers": ["Ferenc Dobronyi", "Cal Schenkel", "Alice Ochs"],
         "isAGem": false
     },
@@ -3825,7 +3872,7 @@ const albums = [
         "selectedTrackTitle": "Duodenum",
         "selectedTrackYtId": "oylUODycgRA",
         "spotifyId": "5xF5RnNiPVOHQkNEXkFSLh",
-        "deezerId": "",
+        "deezerId": "5818091",
         "designers": ["Cal Schenkel"],
         "isAGem": false
     },
@@ -3840,7 +3887,7 @@ const albums = [
         "selectedTrackTitle": "Take Your Clothes Off When You Dance",
         "selectedTrackYtId": "Xsuk9S0XknE",
         "spotifyId": "3u1f0ziKFCkqcHUQ0AldCU",
-        "deezerId": "",
+        "deezerId": "5818401",
         "designers": ["Cal Schenkel"],
         "isAGem": false
     },
@@ -3855,7 +3902,7 @@ const albums = [
         "selectedTrackTitle": "The Dog Breath Variations",
         "selectedTrackYtId": "d_YSSPOFHYI",
         "spotifyId": "7lRcWdFIW2mrDOu0igcfR0",
-        "deezerId": "",
+        "deezerId": "5818981",
         "designers": ["Cal Schenkel"],
         "isAGem": false
     },
@@ -3870,7 +3917,7 @@ const albums = [
         "selectedTrackTitle": "Peaches En Regalia",
         "selectedTrackYtId": "zprYyWMcUGY",
         "spotifyId": "0WYYrC9My9rYWigac003hw",
-        "deezerId": "",
+        "deezerId": "5819501",
         "designers": ["Cal Schenkel"],
         "isAGem": false
     },
@@ -3885,7 +3932,7 @@ const albums = [
         "selectedTrackTitle": "Theme From Burnt Weeny Sandwich",
         "selectedTrackYtId": "vB-PYif7Fek",
         "spotifyId": "5sTtFC2SNK38bxG0XSfPLo",
-        "deezerId": "",
+        "deezerId": "4241531",
         "designers": ["Cal Schenkel"],
         "isAGem": false
     },
@@ -3900,7 +3947,7 @@ const albums = [
         "selectedTrackTitle": "The Eric Dolphy Memorial Barbecue",
         "selectedTrackYtId": "tLUxmYKvYBo",
         "spotifyId": "7zINPoNwb8ArQgUbq0wlUw",
-        "deezerId": "",
+        "deezerId": "4241541",
         "designers": ["Neon Park"],
         "isAGem": false
     },
@@ -3915,7 +3962,7 @@ const albums = [
         "selectedTrackTitle": "Rudy Wants To Buy Yez A Drink",
         "selectedTrackYtId": "ZCgmTFM23sA",
         "spotifyId": "5s6JIqQl2AjuKK7kGUu7xV",
-        "deezerId": "",
+        "deezerId": "4241551",
         "designers": ["Cal Schenkel", "Phil Franks"],
         "isAGem": false
     },
@@ -3945,7 +3992,7 @@ const albums = [
         "selectedTrackTitle": "It Just Might Be A One-Shot Deal",
         "selectedTrackYtId": "3expVNVi6Gw",
         "spotifyId": "6yfVhI2a2RM94OdpDTPZgH",
-        "deezerId": "",
+        "deezerId": "5171621",
         "designers": ["Cal Schenkel", "Marvin Mattelson"],
         "isAGem": false
     },
@@ -3960,7 +4007,7 @@ const albums = [
         "selectedTrackTitle": "Cletus Awreetus-Awrightus",
         "selectedTrackYtId": "cu_kJ4jEJ9A",
         "spotifyId": "67GJo4ajqUWHsuY0f4aQz2",
-        "deezerId": "",
+        "deezerId": "5242381",
         "designers": ["Cal Schenkel"],
         "isAGem": true,
         "description": "TODO"
@@ -3976,7 +4023,7 @@ const albums = [
         "selectedTrackTitle": "Zomby Woof",
         "selectedTrackYtId": "ksnwEsPKO5s",
         "spotifyId": "3QrEk9Va9qO4uobczNUtqe",
-        "deezerId": "",
+        "deezerId": "5242391",
         "designers": ["Cal Schenkel", "Ferenc Dobronyi", "David McMacken"],
         "isAGem": false
     },
@@ -3991,7 +4038,7 @@ const albums = [
         "selectedTrackTitle": "Father O'blivion",
         "selectedTrackYtId": "2XO7xSwYVZI",
         "spotifyId": "3EbtMJsHbspjhN6Xd4plIu",
-        "deezerId": "",
+        "deezerId": "5242401",
         "designers": ["Cal Schenkel", "Ferenc Dobronyi"],
         "isAGem": true,
         "description": "The first part of the album tells the story of a dream Frank Zappa had: as Nanook the eskimo, Zappa encounters eccentric happennings foretold by a foolish prophecy, eventually atending a crazy breakfast party. The whole album is soaked with a bluesy mood, spiced-up with psychedelic music and Jazz parts using a large asset of instruments, and topped with funny lyrics."
@@ -4007,7 +4054,7 @@ const albums = [
         "selectedTrackTitle": "Echidna's Arf (Of You)",
         "selectedTrackYtId": "NeCGm8VipUU",
         "spotifyId": "1y8ip0XxJYr4JHIvPtTett",
-        "deezerId": "",
+        "deezerId": "5819691",
         "designers": ["Cal Schenkel"],
         "isAGem": true,
         "description": "At their peak of their creativity, The Mothers Of Inventions performed several live concerts at the Roxy in the late 1973. The album captures the absolute best of Frank Zappa's genius and the band's musicality and musicianship. From funny bits to lively Jazz Rock arrangements, all with a stunning sound, these memorable performances create a fantastic, joyful moment where every bandmate can display their fabulous skill in an organic way."
@@ -4023,7 +4070,7 @@ const albums = [
         "selectedTrackTitle": "Andy",
         "selectedTrackYtId": "3hAUvgZmjlg",
         "spotifyId": "4mp2SC1Wq9jZJINGPAKv0V",
-        "deezerId": "",
+        "deezerId": "5242651",
         "designers": ["Cal Schenkel", "Ferenc Dobronyi"],
         "isAGem": false
     },
@@ -4038,7 +4085,7 @@ const albums = [
         "selectedTrackTitle": "Muffin Man",
         "selectedTrackYtId": "8CGO9I8rmkE",
         "spotifyId": "0u4GsfF3p8pt7BVSHIZq2N",
-        "deezerId": "",
+        "deezerId": "5242801",
         "designers": ["Cal Schenkel", "John Williams"],
         "isAGem": false
     },
@@ -4053,7 +4100,7 @@ const albums = [
         "selectedTrackTitle": "Zoot Allures",
         "selectedTrackYtId": "fdQmhhi5cLI",
         "spotifyId": "3rxfGp9OzH5jjEDX1nFqJc",
-        "deezerId": "",
+        "deezerId": "5242951",
         "designers": ["Cal Schenkel"],
         "isAGem": false
     },
@@ -4068,7 +4115,7 @@ const albums = [
         "selectedTrackTitle": "Honey, Don't You Want A Man Like Me?",
         "selectedTrackYtId": "QsrSIQM4ZTk",
         "spotifyId": "314RKua1JQwMfZOKD3pUXV",
-        "deezerId": "",
+        "deezerId": "5819991",
         "designers": ["Dweezil Zappa", "John Williams"],
         "isAGem": false
     },
@@ -4083,7 +4130,7 @@ const albums = [
         "selectedTrackTitle": "RDNZL",
         "selectedTrackYtId": "ZlwLNcBD68k",
         "spotifyId": "2Z39MzRC9Jh5eBt7dcJsdL",
-        "deezerId": "",
+        "deezerId": "5243151",
         "designers": ["Gary Panter"],
         "isAGem": false
     },
@@ -4098,7 +4145,7 @@ const albums = [
         "selectedTrackTitle": "The Ocean Is The Ultimate Solution",
         "selectedTrackYtId": "zCNRgfkeWXs",
         "spotifyId": "4mxbiUjBnnamJdxtF26VbX",
-        "deezerId": "",
+        "deezerId": "5243271",
         "designers": ["Gary Panter"],
         "isAGem": false
     },
@@ -4113,7 +4160,7 @@ const albums = [
         "selectedTrackTitle": "City Of Tiny Lites",
         "selectedTrackYtId": "cMe7ZFMBGdo",
         "spotifyId": "4hBKoHOpEvQ6g4CQFsEAdU",
-        "deezerId": "",
+        "deezerId": "5243411",
         "designers": ["Lynn Goldsmith", "John Williams"],
         "isAGem": false
     },
@@ -4128,10 +4175,25 @@ const albums = [
         "selectedTrackTitle": "A Token Of My Extreme",
         "selectedTrackYtId": "tnSF36PBxbk",
         "spotifyId": "6uJkCskko3O83SRYWQVsjS",
-        "deezerId": "",
+        "deezerId": "5243861",
         "designers": ["John Williams", "Norman Seeff"],
         "isAGem": true,
         "description": "Joe, a young guitarist, forms a band in his garage in a world repressed by the Central Scrutinizer, a clunky flying saucer whose role is to enforce the law. Frank Zappa presents Joe's story and struggles in this dystopian society, through music blending many genres, though very Pop Rock-driven (mocking the Rock fashion of the late 70's), and comical lyrics."
+    },
+    {
+        "id": "frank_zappa_frank_zappa_meets_the_mothers_of_prevention",
+        "title": "Frank Zappa Meets The Mothers Of Prevention",
+        "artist": "Frank Zappa",
+        "year": 1985,
+        "country": regions.USA,
+        "cover": pathToCovers + "/frank_zappa_frank_zappa_meets_the_mothers_of_prevention.jpg",
+        "criteria": [criteria.BLENDS, criteria.NEO_EIGHTIES, criteria.ODD_RHYTHM, criteria.FUNNY, criteria.SOUND_COLLAGES],
+        "selectedTrackTitle": "Little Beige Sambo",
+        "selectedTrackYtId": "",
+        "spotifyId": "1NVnPUNo6DOhvp11vYl7pr",
+        "deezerId": "81945452",
+        "designers": ["Chris Whorf", "Jeffery Fey", "John Dearstyne"],
+        "isAGem": false
     },
     {
         "id": "frank_zappa_broadway_the_hard_way",
@@ -4144,7 +4206,7 @@ const albums = [
         "selectedTrackTitle": "Why Don't You Like Me",
         "selectedTrackYtId": "emEOePwK0ok",
         "spotifyId": "2phI9hXkfvn8DeBiqbZu4I",
-        "deezerId": "",
+        "deezerId": "5064451",
         "designers": ["Lynn Goldsmith"],
         "isAGem": false
     },
@@ -4219,7 +4281,7 @@ const albums = [
         "selectedTrackTitle": "Country Boy",
         "selectedTrackYtId": "odP44_gNdNU",
         "spotifyId": "3GEM70tfeO6PD5MvaxXe4c",
-        "deezerId": "",
+        "deezerId": "13933630",
         "designers": ["Jonathan Coudrille"],
         "isAGem": false
     },
@@ -4466,6 +4528,21 @@ const albums = [
         "spotifyId": "0q8Qt2dk9NL0F35BmrImUA",
         "deezerId": "",
         "designers": ["Richard Evans"],
+        "isAGem": false
+    },
+    {
+        "id": "george_duke_faces_in_reflection",
+        "title": "Faces In Reflection",
+        "artist": "George Duke",
+        "year": 1974,
+        "country": regions.USA,
+        "cover": pathToCovers + "/george_duke_faces_in_reflection.jpg",
+        "criteria": [criteria.JAZZ, criteria.JAM, criteria.SOFT, criteria.JAZZY_GROOVY, criteria.C_ELECTRO, criteria.INSTRUMENTAL, criteria.ODD_RHYTHM, criteria.UNCOMMON_INSTRUMENTS],
+        "selectedTrackTitle": "Psychosomatic Dung",
+        "selectedTrackYtId": "j5eJUEayLWY",
+        "spotifyId": "27LrzDfCpvyhJw63OQz9cw",
+        "deezerId": "1672523",
+        "designers": ["Heinz Bähr"],
         "isAGem": false
     },
     {
@@ -6270,21 +6347,6 @@ const albums = [
     // **************************************** M **************************************** //
     // ********************************************************************************** //
     {
-        "id": "ml_bongers_project_pacific_prison",
-        "title": "Pacific Prison",
-        "artist": "M.L. Bongers Project",
-        "year": 1978,
-        "country": regions.GERMANY,
-        "cover": pathToCovers + "/ml_bongers_project_pacific_prison.jpg",
-        "criteria": [criteria.STORYLINE, criteria.TRANSITION, criteria.SOUND_COLLAGES, criteria.C_ELECTRO, criteria.SCI_FI, criteria.SOFT_SEVENTIES],
-        "selectedTrackTitle": "A Deadly Smile",
-        "selectedTrackYtId": "px1CIxbSN0o",
-        "spotifyId": "",
-        "deezerId": "",
-        "designers": ["Michel Verdbois"],
-        "isAGem": false
-    },
-    {
         "id": "magic_spell_is_there_anywhere_a_gas_station",
         "title": "Is There Anywhere A Gas Station?",
         "artist": "Magic Spell",
@@ -6367,9 +6429,9 @@ const albums = [
         "year": 1974,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/magma_kohntarkosz.jpg",
-        "criteria": [criteria.SYMPHONIC, criteria.C_PSYCHEDELIC, criteria.SPECTACULAR, criteria.ZEUHL, criteria.ROCK_OPERA, criteria.LENGTHY_TRACKS, criteria.FEMALE, criteria.ODD_RHYTHM],
-        "selectedTrackTitle": "Köhntarkösz (Part I)",
-        "selectedTrackYtId": "rfqzFfVg-iA",
+        "criteria": [criteria.EXPERIMENTAL, criteria.SYMPHONIC, criteria.C_JAZZ, criteria.C_PSYCHEDELIC, criteria.SPECTACULAR, criteria.ZEUHL, criteria.ROCK_OPERA, criteria.LENGTHY_TRACKS, criteria.FEMALE, criteria.ODD_RHYTHM],
+        "selectedTrackTitle": "Köhntarkösz (Part II)",
+        "selectedTrackYtId": "4h3yHBDRoek",
         "spotifyId": "7k6xCjMzSg4WFFxRNDq7pm",
         "deezerId": "44081",
         "designers": ["Fabio Nicoli"],
@@ -6397,9 +6459,9 @@ const albums = [
         "year": 1978,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/magma_attahk.jpg",
-        "criteria": [],
-        "selectedTrackTitle": "todo",
-        "selectedTrackYtId": "todo",
+        "criteria": [criteria.SYMPHONIC, criteria.JAZZ, criteria.JAZZY_GROOVY, criteria.ODD_RHYTHM, criteria.ZEUHL, criteria.ROCK_OPERA, criteria.UNCOMMON_INSTRUMENTS],
+        "selectedTrackTitle": "Rindë",
+        "selectedTrackYtId": "e26I9r4msLE",
         "spotifyId": "7CEoMKWc490SjtEMJ5va6D",
         "deezerId": "44078",
         "designers": ["H.R. Giger"],
@@ -6692,6 +6754,21 @@ const albums = [
         "isAGem": false
     },
     {
+        "id": "messengers_children_of_tomorrow",
+        "title": "Children Of Tomorrow",
+        "artist": "Messengers",
+        "year": 1977,
+        "country": regions.GERMANY,
+        "cover": pathToCovers + "/messengers_children_of_tomorrow.jpg",
+        "criteria": [criteria.FEMALE, criteria.C_JAZZ, criteria.JAZZY_GROOVY, criteria.ORCHESTRAL_PARTS, criteria.UNCOMMON_INSTRUMENTS],
+        "selectedTrackTitle": "Sacrewinsky",
+        "selectedTrackYtId": "SYVR1DcK8Eg",
+        "spotifyId": "",
+        "deezerId": "",
+        "designers": [],
+        "isAGem": false
+    },
+    {
         "id": "metropolis_metropolis",
         "title": "Metropolis",
         "artist": "Metropolis",
@@ -6701,6 +6778,21 @@ const albums = [
         "criteria": [criteria.C_PSYCHEDELIC, criteria.ODD_RHYTHM, criteria.SYMPHONIC, criteria.C_JAZZ, criteria.JAZZY_GROOVY],
         "selectedTrackTitle": "Dreamweaver",
         "selectedTrackYtId": "7ukt0a0y6T8",
+        "spotifyId": "",
+        "deezerId": "",
+        "designers": [],
+        "isAGem": false
+    },
+    {
+        "id": "mia_transparencias",
+        "title": "Transparencias",
+        "artist": "MIA",
+        "year": 1976,
+        "country": regions.ARGENTINA,
+        "cover": pathToCovers + "/mia_transparencias.jpg",
+        "criteria": [criteria.ODD_RHYTHM, criteria.SYMPHONIC, criteria.RENAISSANCE, criteria.LENGTHY_TRACKS, criteria.FEMALE],
+        "selectedTrackTitle": "Transparencias",
+        "selectedTrackYtId": "cWt-kTqPSrY",
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
@@ -6833,7 +6925,7 @@ const albums = [
         "year": 1973,
         "country": regions.ITALY,
         "cover": pathToCovers + "/museo_rosenbach_zarathustra.jpg",
-        "criteria": [criteria.CONCEPT, criteria.TRANSITION, criteria.SYMPHONIC, criteria.SPECTACULAR, criteria.ITALIAN_SUNG, criteria.TOUCHING_VOCALS],
+        "criteria": [criteria.CONCEPT, criteria.TRANSITION, criteria.SYMPHONIC, criteria.SPECTACULAR, criteria.ITALIAN_SUNG, criteria.TOUCHING_VOCALS, criteria.RENAISSANCE],
         "selectedTrackTitle": "Zarathustra I: L'ultimo Uomo",
         "selectedTrackYtId": "uC9hegZIC2g",
         "spotifyId": "",
@@ -6841,6 +6933,21 @@ const albums = [
         "designers": ["Wanda Spinello"],
         "isAGem": true,
         "description": "TODO"
+    },
+    {
+        "id": "ml_bongers_project_pacific_prison",
+        "title": "Pacific Prison",
+        "artist": "M.L. Bongers Project",
+        "year": 1978,
+        "country": regions.GERMANY,
+        "cover": pathToCovers + "/ml_bongers_project_pacific_prison.jpg",
+        "criteria": [criteria.STORYLINE, criteria.TRANSITION, criteria.SOUND_COLLAGES, criteria.C_ELECTRO, criteria.SCI_FI, criteria.SOFT_SEVENTIES],
+        "selectedTrackTitle": "A Deadly Smile",
+        "selectedTrackYtId": "px1CIxbSN0o",
+        "spotifyId": "",
+        "deezerId": "",
+        "designers": ["Michel Verdbois"],
+        "isAGem": false
     },
     // ************************************************************************************ //
     // **************************************** N **************************************** //
@@ -6934,6 +7041,21 @@ const albums = [
         "spotifyId": "2Hw7xx2dsRuQOWnyRrznkJ",
         "deezerId": "15484774",
         "designers": ["CCS"],
+        "isAGem": false
+    },
+    {
+        "id": "nazareth_rampant",
+        "title": "Rampant",
+        "artist": "Nazareth",
+        "year": 1974,
+        "country": regions.SCOTLAND,
+        "cover": pathToCovers + "/nazareth_rampant.jpg",
+        "criteria": [criteria.JAM, criteria.ROCK, criteria.HEAVY, criteria.GREASY_SEVENTIES],
+        "selectedTrackTitle": "Shapes Of Things / Space Safari",
+        "selectedTrackYtId": "t3_aDNVK_OE",
+        "spotifyId": "0QUDqPjTgUJ5rqyPGjhu8c",
+        "deezerId": "15485508",
+        "designers": ["Hipgnosis", "Joe Petagno"],
         "isAGem": false
     },
     {
@@ -9955,6 +10077,7 @@ function getAlbumById(id) {
     Premiata Forneria Marconi
     Procol Harum
     Ralph Lundsten
+    Santana
     Soft Machine
     Strawbs
     UFO
@@ -9978,16 +10101,15 @@ function getAlbumById(id) {
     Hugh Syme (rush)
     Tony Wright (traffic)
 */
+// TODO add subgenre : Groove, Jazz-Fusion avec Return to forvever(musicmagic) + messneger (children tomorrow) + foehn
 // TODO subgenres should be specified in the album db not manually
 // TODO new feature : album comparison: sur une scale de 1 à 10, how much soubd alike ? et du coup ça rapproche énormément les albums entre eux, agnostic des artisres
 // TODO linker discogs
 // TODO lister instruments
-// TODO fix search by designer case-sensitive
-// TODO fix album view arrow not clickable cause no width or height
 // TODO use VueX/Store for selected album and view
 // TODO parse tout le Prog introuvable et renseigner ici
 // TODO faire un from the same artist
-// TODO filter by year
+// TODO filter by year (range avec input min + max)
 // TODO update albums with new criteria (late 70's notamment)
 // TODO refact subgenres and absolute gems (db en props encore)
 // TODO create components for histograms and tables

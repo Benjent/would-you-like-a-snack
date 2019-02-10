@@ -61,10 +61,15 @@ Vue.component('searchbar', {
             this.matchingAlbums = [];
             if(search) {
                 const keyWords = search.split(' ');
+
+                // Force lowercase
+                for(let j = 0; j < keyWords.length; j++) {
+                    keyWords[j] = keyWords[j].toLowerCase();
+                }
                 
                 for(let i = 0; i < this.db.albums.length; i++) {
                     const album = JSON.parse(JSON.stringify(this.db.albums[i]));
-                    let allKeyWordsMatch = true;
+                    let keyWordsMatch = true;
                     
                     // Check for album presence in result
                     if(this.matchingAlbums.includes(album)) {
@@ -72,13 +77,13 @@ Vue.component('searchbar', {
                         break;
                     } else {
 
-                        // Check for album title, artists name or year
+                        // Check for album title, artists name, designer or year
                         for(let j = 0; j < keyWords.length; j++) {
 
                             const albumTitle = album.title.toLowerCase();
                             const artist = album.artist.toLowerCase();
                             const year = album.year.toString();
-                            const designers = album.designers.splice(0);
+                            const designers = album.designers.slice(0);
                             let isDesignerMatch = false;
 
                             for(let k = 0; k < designers.length; k++) {
@@ -96,13 +101,14 @@ Vue.component('searchbar', {
                                 || isDesignerMatch) {
 
                                 // At least one keyword matches
+                                // keyWordsMatch = true;
                             } else {
-                                allKeyWordsMatch = false;
+                                keyWordsMatch = false;
                                 break;
                             }
                         }
 
-                        if(allKeyWordsMatch) {
+                        if(keyWordsMatch) {
                             // Album is not present in result and all keywords match
                             this.matchingAlbums.push(album);
                         }

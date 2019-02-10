@@ -22,6 +22,10 @@
         // overflow-y: auto;
         // overflow-x: hidden;
 
+        #regionsYears {
+            display: flex;
+        }
+
         &__title {
             font-size: 22px;
             padding: 15px 20px;
