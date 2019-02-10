@@ -3390,7 +3390,7 @@ const albums = [
         "deezerId": "327392",
         "designers": ["Wojtek Siudmak"],
         "isAGem": true,
-        "description": "Divided in four long tracks, this symphonic album will lift the music with clear basslines by Klaus-Peter Matziol and deep use of Detlev Schmidtchen's synthesizers - Frank Bornemann's guitars being in the background. Jürgen Rosenthal, fascinated by the myth of Atlantide since always, decided to make it a concept album in which he sings how mankind lost paradise it was given, by its violent behavior."
+        "description": "A Space Rock symphonic album divided in four long tracks, lifted with clear basslines by Klaus-Peter Matziol and deep use of Detlev Schmidtchen's synthesizers that sometimes create an atmospheric doom atmosphere - Frank Bornemann's guitars being in the background. Jürgen Rosenthal, fascinated by the myth of Atlantide since always, decided to make it a concept album in which he sings how mankind lost paradise it was given, by its violent behavior."
     },
     {
         "id": "eloy_silent_cries_and_mighty_echoes",
