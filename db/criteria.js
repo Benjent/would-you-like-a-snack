@@ -49,6 +49,10 @@ const criteria = {
     FANFARE: "Fanfare",
     SPACY: "Spacy",
     GLITTER: "Glittering",
+    BAROQUE: "Baroque vibes",
+    RENAISSANCE: "Renaissance",
+    ORIENTAL: "Oriental",
+    AMBIENT: "Ambient",
 
     // Album structure
     LENGTHY_TRACKS: "Lengthy tracks",
@@ -71,15 +75,12 @@ const criteria = {
     // Temperature
     FUNNY: "Funny",
     TOUCHING_VOCALS: "Touching vocals",
-    ORIENTAL: "Oriental",
-    AMBIENT: "Ambient",
 
     // Miscellaneous
     UNCOMMON_INSTRUMENTS: "Uncommon instruments",
     FEMALE: "Female vocals",
     SOUND_COLLAGES: "Uses sound collages",
-    ORCHESTRAL_PARTS: "Orchestral parts",
-    BAROQUE: "Baroque vibes"
+    ORCHESTRAL_PARTS: "Orchestral parts"
 }
 
 // ALWAYS sync above model with below model to sort the VM criteria
@@ -136,6 +137,8 @@ const criteriaOrder = [
     criteria.GLITTER,
     criteria.ORIENTAL,
     criteria.AMBIENT,
+    criteria.BAROQUE,
+    criteria.RENAISSANCE,
 
     // Album structure
     criteria.LENGTHY_TRACKS,
@@ -164,5 +167,4 @@ const criteriaOrder = [
     criteria.FEMALE,
     criteria.SOUND_COLLAGES,
     criteria.ORCHESTRAL_PARTS,
-    criteria.BAROQUE,
 ]
