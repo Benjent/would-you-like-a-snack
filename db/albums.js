@@ -2858,7 +2858,7 @@ const albums = [
         "deezerId": "",
         "designers": ["Patrick Grillot"],
         "isAGem": true,
-        "description": "TODO"
+        "description": "An instrumental album with two long tracks entirely made with acoustic guitars, clean electric guitars, percussions and mellow synthesizers. Most of the album plays with light acoustic melodies, tender sounds and slow tempos, while some parts speed up the tempo with groovier - but still mellow - rhythms."
     },
     {
         "id": "dixie_dregs_the_great_spectacular",
@@ -10101,6 +10101,7 @@ function getAlbumById(id) {
     Hugh Syme (rush)
     Tony Wright (traffic)
 */
+// TODO iframes deezer/spotify should be displayed just like in-fb messenger conv, and should be toggleable
 // TODO if a gem, create a whole section displaying the criteria + description (in the discxographies view)
 // TODO add subgenre : Groove, Jazz-Fusion avec Return to forvever(musicmagic) + messneger (children tomorrow) + foehn
 // TODO subgenres should be specified in the album db not manually
