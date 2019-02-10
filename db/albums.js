@@ -3390,7 +3390,7 @@ const albums = [
         "deezerId": "327392",
         "designers": ["Wojtek Siudmak"],
         "isAGem": true,
-        "description": "TODO"
+        "description": "Divided in four long tracks, this symphonic album will lift the music with clear basslines by Klaus-Peter Matziol and deep use of Detlev Schmidtchen's synthesizers - Frank Bornemann's guitars being in the background. Jürgen Rosenthal, fascinated by the myth of Atlantide since always, decided to make it a concept album in which he sings how mankind lost paradise it was given, by its violent behavior."
     },
     {
         "id": "eloy_silent_cries_and_mighty_echoes",
@@ -10101,6 +10101,7 @@ function getAlbumById(id) {
     Hugh Syme (rush)
     Tony Wright (traffic)
 */
+// TODO if a gem, create a whole section displaying the criteria + description (in the discxographies view)
 // TODO add subgenre : Groove, Jazz-Fusion avec Return to forvever(musicmagic) + messneger (children tomorrow) + foehn
 // TODO subgenres should be specified in the album db not manually
 // TODO new feature : album comparison: sur une scale de 1 à 10, how much soubd alike ? et du coup ça rapproche énormément les albums entre eux, agnostic des artisres
