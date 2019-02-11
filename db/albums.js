@@ -2858,7 +2858,7 @@ const albums = [
         "deezerId": "",
         "designers": ["Patrick Grillot"],
         "isAGem": true,
-        "description": "An instrumental album with two long tracks entirely made with acoustic guitars, clean electric guitars, percussions and mellow synthesizers. Most of the album plays with light acoustic melodies, tender sounds and slow tempos, while some parts speed up the tempo with groovier - but still mellow - rhythms."
+        "description": "An instrumental album with two long tracks entirely made with acoustic guitars, clean electric guitars, percussions and mellow synthesizers. Didier Bonin alone plays with light acoustic melodies, tender sounds and slow tempos throughout most of the album, while some parts speed up the tempo with groovier - but still mellow - rhythms."
     },
     {
         "id": "dixie_dregs_the_great_spectacular",
@@ -9884,7 +9884,7 @@ const albums = [
         "deezerId": "",
         "designers": ["Ron Pieniak"],
         "isAGem": true,
-        "description": "TODO"
+        "description": "Originally recorded in 1976, this album did not draw enough attention to sign the band with a label. One can wonder why though, as the music is as complex as interesting: technical parts, original harmonies, rhythm breaks, a large assets of instruments ; anything that can be used to change the mood of the music is used efficiently. Sacred Baboon may be one of the earliest examples of self-produced Math Rock music blent with pure symphonic style of the early 70's."
     },
     // ************************************************************************************ //
     // **************************************** Z **************************************** //
