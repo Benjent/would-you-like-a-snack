@@ -9745,7 +9745,7 @@ const albums = [
         "selectedTrackTitle": "Beyond & Before",
         "selectedTrackYtId": "YFcxNnKZGNU",
         "spotifyId": "5ohKuf3H4R3JdhP2WmYDYG",
-        "deezerId": "",
+        "deezerId": "82952",
         "designers": ["Crosby/Fletcher/Forbes"],
         "isAGem": false
     },
@@ -9760,7 +9760,7 @@ const albums = [
         "selectedTrackTitle": "Astral Traveller",
         "selectedTrackYtId": "q0aXTN_AeKw",
         "spotifyId": "6k3pRlamC3srUePKSlUaxJ",
-        "deezerId": "",
+        "deezerId": "81492",
         "designers": ["Laurence Sackman"],
         "isAGem": false
     },
@@ -9775,7 +9775,7 @@ const albums = [
         "selectedTrackTitle": "Starship Trooper",
         "selectedTrackYtId": "DKftiJS30Cs",
         "spotifyId": "4nQe6IzubN7cE7EWzrIvu4",
-        "deezerId": "",
+        "deezerId": "81495",
         "designers": ["Phil Franks"],
         "isAGem": false
     },
@@ -9790,7 +9790,7 @@ const albums = [
         "selectedTrackTitle": "Roundabout",
         "selectedTrackYtId": "-Tdu4uKSZ3M",
         "spotifyId": "0dZF93WHyOhTWjz5EWM7yG",
-        "deezerId": "",
+        "deezerId": "82947",
         "designers": ["Roger Dean"],
         "isAGem": false
     },
@@ -9805,7 +9805,7 @@ const albums = [
         "selectedTrackTitle": "Siberian Khatru",
         "selectedTrackYtId": "r0HnIr6jYWU",
         "spotifyId": "6344rkGqCBDenGoS7eJlBN",
-        "deezerId": "",
+        "deezerId": "82944",
         "designers": ["Roger Dean"],
         "isAGem": true,
         "description": "TODO"
@@ -9821,7 +9821,7 @@ const albums = [
         "selectedTrackTitle": "The Ancient",
         "selectedTrackYtId": "fMoE_2lV-bk",
         "spotifyId": "4kn7nw5uHF6T9biAX5qcrW",
-        "deezerId": "",
+        "deezerId": "82939",
         "designers": ["Roger Dean"],
         "isAGem": false
     },
@@ -9836,7 +9836,7 @@ const albums = [
         "selectedTrackTitle": "The Gates Of Delirium",
         "selectedTrackYtId": "EdmUAsU2eXI",
         "spotifyId": "6MK9yp7hFeOLeR7F1hsBp6",
-        "deezerId": "",
+        "deezerId": "90163",
         "designers": ["Roger Dean"],
         "isAGem": false
     },
@@ -9851,7 +9851,7 @@ const albums = [
         "selectedTrackTitle": "Going For The One",
         "selectedTrackYtId": "f9GAkA7W5Qg",
         "spotifyId": "2U4JHXMiBxsKH4dnYEQg2g",
-        "deezerId": "",
+        "deezerId": "90150",
         "designers": ["Hipgnosis"],
         "isAGem": false
     },
