@@ -9542,7 +9542,7 @@ const albums = [
         "selectedTrackTitle": "Woman Of The Devil",
         "selectedTrackYtId": "zgWyveaejwI",
         "spotifyId": "64qvBsSA4aqWy5YyUSR68f",
-        "deezerId": "",
+        "deezerId": "1498512",
         "designers": ["Marcus Keef"],
         "isAGem": false
     },
@@ -9557,7 +9557,7 @@ const albums = [
         "selectedTrackTitle": "Herandu",
         "selectedTrackYtId": "_A4FqKg0c_A",
         "spotifyId": "2OJTGgC8JfbpohsInwv6u5",
-        "deezerId": "",
+        "deezerId": "2923691",
         "designers": ["David McMacken", "Maxine Zawinul"],
         "isAGem": true,
         "description": "A fully instrumental album that draws influences from African music. The chemistry between the musicians is perceptible as the tracks come one after another all equally groovy, masterly sketching a mellow mood, making the album a reference in the Jazz Fusion school."
@@ -9573,7 +9573,7 @@ const albums = [
         "selectedTrackTitle": "Booldemug",
         "selectedTrackYtId": "3UyB0hlR6nw",
         "spotifyId": "1r6Ka4P0lSPeklmyhRBMiY",
-        "deezerId": "",
+        "deezerId": "454495",
         "designers": ["Klaus Blasquiz"],
         "isAGem": false
     },
@@ -9618,7 +9618,7 @@ const albums = [
         "selectedTrackTitle": "Phases And Stages (Theme) / Walkin'",
         "selectedTrackYtId": "mET2R6XUBEo",
         "spotifyId": "2UUGvJBpRoOQFwDLtq8KCP",
-        "deezerId": "",
+        "deezerId": "364587",
         "designers": [],
         "isAGem": false,
     },
@@ -9649,7 +9649,7 @@ const albums = [
         "selectedTrackTitle": "Period Of Change",
         "selectedTrackYtId": "zDW3m-LaaRc",
         "spotifyId": "2t6dNr90wvqb1YvolnoAjg",
-        "deezerId": "",
+        "deezerId": "758564",
         "designers": [],
         "isAGem": false
     },
@@ -9664,7 +9664,7 @@ const albums = [
         "selectedTrackTitle": "Valediction",
         "selectedTrackYtId": "PILotugu-s4",
         "spotifyId": "5H0yhHRgZpQ7GLgmNc6gtx",
-        "deezerId": "",
+        "deezerId": "124447",
         "designers": ["Hipgnosis"],
         "isAGem": false
     },
@@ -9679,7 +9679,7 @@ const albums = [
         "selectedTrackTitle": "Sometime World",
         "selectedTrackYtId": "kvLVSPPLZZY",
         "spotifyId": "7xEluvnbmFtRB5g66CJ2ND",
-        "deezerId": "",
+        "deezerId": "107233",
         "designers": ["Hipgnosis"],
         "isAGem": false
     },
@@ -9694,7 +9694,7 @@ const albums = [
         "selectedTrackTitle": "Meet Me At The Jailhouse",
         "selectedTrackYtId": "sBzeB36zYvU",
         "spotifyId": "7FZgX7O5hHOw8n6WdEVle3",
-        "deezerId": "",
+        "deezerId": "300763",
         "designers": ["Roger Alexander"],
         "isAGem": false
     },
@@ -9709,7 +9709,7 @@ const albums = [
         "selectedTrackTitle": "Waitin' At This Door",
         "selectedTrackYtId": "I_Udqw806sA",
         "spotifyId": "3KtwEcy5Ob8OW1pSQbrZDZ",
-        "deezerId": "",
+        "deezerId": "13913394",
         "designers": ["Dave Field"],
         "isAGem": false
     },
