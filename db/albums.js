@@ -9881,7 +9881,7 @@ const albums = [
         "selectedTrackTitle": "To-Ta In The Moya",
         "selectedTrackYtId": "E4nOCeMnAjk",
         "spotifyId": "4HRPz0VvEfPEhuitH73oSs",
-        "deezerId": "",
+        "deezerId": "9027821",
         "designers": ["Ron Pieniak"],
         "isAGem": true,
         "description": "Originally recorded in 1976, this album did not draw enough attention to sign the band with a label. One can wonder why though, as the music is as complex as interesting: technical parts, original harmonies, rhythm breaks, a large assets of instruments ; anything that can be used to change the mood of the music is used efficiently. Sacred Baboon may be one of the earliest examples of self-produced Math Rock music blent with pure symphonic style of the early 70's."
@@ -9900,7 +9900,7 @@ const albums = [
         "selectedTrackTitle": "Silent Angel",
         "selectedTrackYtId": "2Mc8kReoSGk",
         "spotifyId": "0KN0lcNi5VlvApiP1tqQ5T",
-        "deezerId": "",
+        "deezerId": "431519",
         "designers": [],
         "isAGem": false
     },
@@ -9991,7 +9991,7 @@ const albums = [
         "selectedTrackTitle": "Businessman",
         "selectedTrackYtId": "jnE_gq9_R84",
         "spotifyId": "1Z5SH59MGZ2Snt9MhIhsTf",
-        "deezerId": "",
+        "deezerId": "3537251",
         "designers": ["Udo Kübler"],
         "isAGem": false
     },
