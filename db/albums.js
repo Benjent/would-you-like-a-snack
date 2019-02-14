@@ -2530,16 +2530,17 @@ const albums = [
         "id": "crucis_los_delirios_del_mariscal",
         "title": "Los Delirios Del Mariscal",
         "artist": "Crucis",
-        "year": 1977,
+        "year": 1976,
         "country": regions.ARGENTINA,
         "cover": pathToCovers + "/crucis_los_delirios_del_mariscal.jpg",
-        "criteria": [criteria.ODD_RHYTHM, criteria.GLITTER, criteria.C_ELECTRO, criteria.SPANISH_SUNG],
-        "selectedTrackTitle": "No Me Separen De Mí",
-        "selectedTrackYtId": "XvdxYyYbc84",
+        "criteria": [criteria.ODD_RHYTHM, criteria.GLITTER, criteria.SPANISH_SUNG, criteria.JAM, criteria.JAZZY_GROOVY, criteria.SYMPHONIC],
+        "selectedTrackTitle": "Abismo Terrenal",
+        "selectedTrackYtId": "8vUTEdynXIk",
         "spotifyId": "1IQKV1zaM2GihjCXjZTdeJ",
         "deezerId": "1338051",
         "designers": ["Juan Oreste Gatti"],
-        "isAGem": false
+        "isAGem": true,
+        "description": "TODO"
     },
     {
         "id": "cromagnon_orgasm",
