@@ -8883,7 +8883,7 @@ const albums = [
         "selectedTrackTitle": "Words Unspoken",
         "selectedTrackYtId": "",
         "spotifyId": "3ma2d5Gk3oc9ffDTT3fOeF",
-        "deezerId": "",
+        "deezerId": "245820",
         "designers": ["Bob Hook"],
         "isAGem": false
     },
@@ -8898,7 +8898,7 @@ const albums = [
         "selectedTrackTitle": "Travelled",
         "selectedTrackYtId": "OzihNqVYElA",
         "spotifyId": "1YTdN3xvwgVdkdKZq6jMH3",
-        "deezerId": "",
+        "deezerId": "122946",
         "designers": ["Keith Morris", "Bob Hook"],
         "isAGem": false
     },
@@ -8913,7 +8913,7 @@ const albums = [
         "selectedTrackTitle": "Rudy",
         "selectedTrackYtId": "gxW3s_Qk1dk",
         "spotifyId": "2wrHaulTgqqkVKx0k7Kq4r",
-        "deezerId": "",
+        "deezerId": "9205657",
         "designers": ["Paul Wakefield"],
         "isAGem": true,
         "description": "Rick Davies and Roger Hodgson composed heavy-hearted songs to create one of the most subtle, most magnificient, most moving albums we could imagine, with intense vocals and lyrics as desperate as the cover. The album is a theater of unregular song structures and piano-driven melodies, where the other instruments complete parts here and there so that almost every song is a climax itself."
@@ -8929,7 +8929,7 @@ const albums = [
         "selectedTrackTitle": "Another Man's Woman",
         "selectedTrackYtId": "MUPwN0MtY1Y",
         "spotifyId": "5Fliz4RQcDktb93l1uYDka",
-        "deezerId": "",
+        "deezerId": "224594",
         "designers": ["Richard Davies", "Dick Ward", "Fabio Nicoli", "Paul Wakefield"],
         "isAGem": false
     },
@@ -8944,8 +8944,53 @@ const albums = [
         "selectedTrackTitle": "Even In The Quietest Moments",
         "selectedTrackYtId": "7CXcMPdVXp4",
         "spotifyId": "4X87hQ57jTYQTcYTaJWK5w",
-        "deezerId": "",
+        "deezerId": "103251",
         "designers": ["Mike Doud"],
+        "isAGem": false
+    },
+    {
+        "id": "supertramp_breakfast_in_america",
+        "title": "Breakfast In America",
+        "artist": "Supertramp",
+        "year": 1979,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/supertramp_breakfast_in_america.jpg",
+        "criteria": [criteria.SOFT, criteria.TOUCHING_VOCALS, criteria.ART_POP, criteria.SOFT_SEVENTIES],
+        "selectedTrackTitle": "Child Of Vision",
+        "selectedTrackYtId": "HlqoYPR9G7w",
+        "spotifyId": "29B5sIbYPnSjJaD5CloPjf",
+        "deezerId": "653085",
+        "designers": ["Mike Doud", "Mick Haggerty"],
+        "isAGem": false
+    },
+    {
+        "id": "supertramp_famous_last_words",
+        "title": "...Famous Last Words...",
+        "artist": "Supertramp",
+        "year": 1982,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/supertramp_famous_last_words.jpg",
+        "criteria": [criteria.SOFT, criteria.TOUCHING_VOCALS, criteria.ART_POP, criteria.SOFT_SEVENTIES],
+        "selectedTrackTitle": "Waiting So Long",
+        "selectedTrackYtId": "",
+        "spotifyId": "47QAK66loFDceMKTD4RJv1",
+        "deezerId": "72168592",
+        "designers": ["Mike Doud", "Norman Moore"],
+        "isAGem": false
+    },
+    {
+        "id": "supertramp_brother_where_you_bound",
+        "title": "Brother Where You Bound",
+        "artist": "Supertramp",
+        "year": 1985,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/supertramp_brother_where_you_bound.jpg",
+        "criteria": [criteria.SOFT, criteria.TOUCHING_VOCALS, criteria.ART_POP, criteria.LENGTHY_TRACKS],
+        "selectedTrackTitle": "Brother Where You Bound",
+        "selectedTrackYtId": "tWnepoNsi2I",
+        "spotifyId": "1KPGi1vxymWs9fInmwmc3d",
+        "deezerId": "72171382",
+        "designers": ["Norman Moore"],
         "isAGem": false
     },
     {
@@ -10148,6 +10193,7 @@ function getAlbumById(id) {
     Hugh Syme (rush)
     Tony Wright (traffic)
 */
+// TODO add deezer id from N (included) to V (included)
 // TODO iframes deezer/spotify should be displayed just like in-fb messenger conv, and should be toggleable
 // TODO if a gem, create a whole section displaying the criteria + description (in the discxographies view)
 // TODO add subgenre : Groove, Jazz-Fusion avec Return to forvever(musicmagic) + messneger (children tomorrow) + foehn
