@@ -6159,7 +6159,7 @@ const albums = [
         "selectedTrackTitle": "Orée",
         "selectedTrackYtId": "Nzt0_aLyzvg",
         "spotifyId": "5t4R4xvdXFf9NykpZkN8NN",
-        "deezerId": "",
+        "deezerId": "428496",
         "designers": ["Douanier Rousseau"],
         "isAGem": true,
         "description": "TODO"
@@ -6175,7 +6175,7 @@ const albums = [
         "selectedTrackTitle": "Dazed And Confused",
         "selectedTrackYtId": "-rmtJ6-EY1E",
         "spotifyId": "3ycjBixZf7S3WpC5WZhhUK",
-        "deezerId": "",
+        "deezerId": "7820635",
         "designers": ["Sam Shere"],
         "isAGem": false
     },
@@ -6190,7 +6190,7 @@ const albums = [
         "selectedTrackTitle": "What Is And What Should Never Be",
         "selectedTrackYtId": "jrqMdja4eYs",
         "spotifyId": "70lQYZtypdCALtFVlQAcvx",
-        "deezerId": "",
+        "deezerId": "7824595",
         "designers": ["David Juniper"],
         "isAGem": false
     },
@@ -6205,7 +6205,7 @@ const albums = [
         "selectedTrackTitle": "Celebration Day",
         "selectedTrackYtId": "KMQdiHIZgSo",
         "spotifyId": "1u5BsuBK45mLwrbqdASN3g",
-        "deezerId": "",
+        "deezerId": "7821441",
         "designers": ["Zacron"],
         "isAGem": false
     },
@@ -6220,7 +6220,7 @@ const albums = [
         "selectedTrackTitle": "Four Sticks",
         "selectedTrackYtId": "T8GP2j7NdSo",
         "spotifyId": "5EyIDBAqhnlkAHqvPRwdbX",
-        "deezerId": "",
+        "deezerId": "11591214",
         "designers": ["Barrington Colby", "Keith Morris"],
         "isAGem": true,
         "description": "TODO"
@@ -6236,7 +6236,7 @@ const albums = [
         "selectedTrackTitle": "No Quarter",
         "selectedTrackYtId": "Pu94mWlgzMY",
         "spotifyId": "5phxHbK2GSr7hEu4orLywP",
-        "deezerId": "",
+        "deezerId": "90486",
         "designers": ["Hipgnosis", "Aubrey Powell"],
         "isAGem": false
     },
@@ -6251,7 +6251,7 @@ const albums = [
         "selectedTrackTitle": "Ten Years Gone",
         "selectedTrackYtId": "kWbO9a1_Z3U",
         "spotifyId": "0ovKDDAHiTwg4AEjKdgdWo",
-        "deezerId": "",
+        "deezerId": "90402",
         "designers": ["Peter Corristo", "Mike Doud"],
         "isAGem": false
     },
@@ -6266,7 +6266,7 @@ const albums = [
         "selectedTrackTitle": "Achilles Last Stand",
         "selectedTrackYtId": "Rf1I9htJk",
         "spotifyId": "3xiPkaTzfC48CcsXYgz5v0",
-        "deezerId": "",
+        "deezerId": "90396",
         "designers": ["Hipgnosis", "George Hardie"],
         "isAGem": false
     },
@@ -6296,7 +6296,7 @@ const albums = [
         "selectedTrackTitle": "Forse Le Lucciole Non Si Amano Più",
         "selectedTrackYtId": "QbaJfSEehns",
         "spotifyId": "0U4WyeZ1hw3lSGxJo9orRA",
-        "deezerId": "",
+        "deezerId": "103484",
         "designers": ["Anna Montecroci", "Biagio Carrone"],
         "isAGem": false
     },
@@ -6341,7 +6341,7 @@ const albums = [
         "selectedTrackTitle": "The Red Telephone",
         "selectedTrackYtId": "NXa8IXvaW0I",
         "spotifyId": "6myt0Ez6hGJIPQeZKgY8um",
-        "deezerId": "",
+        "deezerId": "85229172",
         "designers": ["William S. Harvey", "Bob Pepper"],
         "isAGem": false
     },
