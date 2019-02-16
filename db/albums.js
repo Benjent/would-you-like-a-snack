@@ -6389,7 +6389,7 @@ const albums = [
         "selectedTrackTitle": "Kobaïa",
         "selectedTrackYtId": "TAtaaxb2TVU",
         "spotifyId": "2Dxds4KnG03MiNlxB9AMev",
-        "deezerId": "",
+        "deezerId": "44079",
         "designers": ["M.J. Petit"],
         "isAGem": false
     },
@@ -6419,7 +6419,7 @@ const albums = [
         "selectedTrackTitle": "Da Zeuhl Ẁortz Mëkanïk",
         "selectedTrackYtId": "B5UZVtUC3V0",
         "spotifyId": "6MDeMi4c1Zo1KRKtCgZpsb",
-        "deezerId": "",
+        "deezerId": "44083",
         "designers": [],
         "isAGem": true,
         "description": "TODO"
@@ -6435,7 +6435,7 @@ const albums = [
         "selectedTrackTitle": "De Zeuhl Ündazïr",
         "selectedTrackYtId": "8rRdPY9fTdU",
         "spotifyId": "51oBKp7YV5ZEVc2PQpU7yx",
-        "deezerId": "",
+        "deezerId": "44080",
         "designers": [],
         "isAGem": false
     },
@@ -6495,7 +6495,7 @@ const albums = [
         "selectedTrackTitle": "A Lotus On Irish Streams",
         "selectedTrackYtId": "1m5V8zbyR2M",
         "spotifyId": "0chWLemqlI6G1GOEr1q1bz",
-        "deezerId": "",
+        "deezerId": "98995",
         "designers": [],
         "isAGem": true,
         "description": "TODO"
@@ -6511,7 +6511,7 @@ const albums = [
         "selectedTrackTitle": "Sanctuary",
         "selectedTrackYtId": "d08lMTHzYdY",
         "spotifyId": "6SLknspfGod3v3TyWawl8J",
-        "deezerId": "",
+        "deezerId": "97632",
         "designers": ["Ashok"],
         "isAGem": false
     },
@@ -6526,7 +6526,7 @@ const albums = [
         "selectedTrackTitle": "La Mère De La Mer",
         "selectedTrackYtId": "8YrPXjladAw",
         "spotifyId": "1SkdtzukyNIq2wTUiVeyuk",
-        "deezerId": "",
+        "deezerId": "116761",
         "designers": ["Ashok"],
         "isAGem": false
     },
@@ -6541,7 +6541,7 @@ const albums = [
         "selectedTrackTitle": "Hymn To Him",
         "selectedTrackYtId": "M9eegi9dd6g",
         "spotifyId": "2LYPJHnU2WC7RbHXvJxXZX",
-        "deezerId": "",
+        "deezerId": "115857",
         "designers": ["Ashok"],
         "isAGem": false
     },
@@ -6556,7 +6556,7 @@ const albums = [
         "selectedTrackTitle": "Lila's Dance",
         "selectedTrackYtId": "ZSh0nmretso",
         "spotifyId": "7J0OL2Ai73lJZu06coM0Oo",
-        "deezerId": "",
+        "deezerId": "115665",
         "designers": ["Ashok"],
         "isAGem": false
     },
@@ -6616,7 +6616,7 @@ const albums = [
         "selectedTrackTitle": "Would The Christians Wait Five Minutes? The Lions Are Having A Draw",
         "selectedTrackYtId": "9fCs_QsrcSU",
         "spotifyId": "78JGXwpxY2ZqO4ouyrG75k",
-        "deezerId": "",
+        "deezerId": "319364",
         "designers": [],
         "isAGem": false
     },
@@ -6631,7 +6631,7 @@ const albums = [
         "selectedTrackTitle": "All Good Clean Fun",
         "selectedTrackYtId": "PllGouNiXlo",
         "spotifyId": "5yGuU3tLCnsnPtexUBKL02",
-        "deezerId": "",
+        "deezerId": "319368",
         "designers": [],
         "isAGem": false
     },
@@ -6646,7 +6646,7 @@ const albums = [
         "selectedTrackTitle": "C'mon",
         "selectedTrackYtId": "pZIg-fJU7vI",
         "spotifyId": "6H63XRFZChnj9UIlHUdKI9",
-        "deezerId": "",
+        "deezerId": "319365",
         "designers": ["David Anstee"],
         "isAGem": false
     },
@@ -6661,7 +6661,7 @@ const albums = [
         "selectedTrackTitle": "Forgotten Sons",
         "selectedTrackYtId": "RtiUoEbwD7Q",
         "spotifyId": "5mbtDQJwsioLCEGIT1cbOJ",
-        "deezerId": "",
+        "deezerId": "302509",
         "designers": ["Mark Wilkinson"],
         "isAGem": false
     },
@@ -6676,7 +6676,7 @@ const albums = [
         "selectedTrackTitle": "Punch & Judy",
         "selectedTrackYtId": "OWrwYsSt6OE",
         "spotifyId": "3fyFddxAoeW4JIuczl8lXU",
-        "deezerId": "",
+        "deezerId": "302511",
         "designers": ["Mark Wilkinson"],
         "isAGem": false
     },
@@ -6691,7 +6691,7 @@ const albums = [
         "selectedTrackTitle": "Blind Curve",
         "selectedTrackYtId": "5aMaGblvd5o",
         "spotifyId": "3ExyKxlUkqD41I8tQumMDF",
-        "deezerId": "",
+        "deezerId": "51780972",
         "designers": ["Mark Wilkinson"],
         "isAGem": false
     },
@@ -6706,7 +6706,7 @@ const albums = [
         "selectedTrackTitle": "Just For The Record",
         "selectedTrackYtId": "Q79xkgIXhmU",
         "spotifyId": "7M6qdztBAZADkaYJ6bIEhF",
-        "deezerId": "",
+        "deezerId": "302510",
         "designers": ["Mark Wilkinson"],
         "isAGem": false
     },
@@ -6721,7 +6721,7 @@ const albums = [
         "selectedTrackTitle": "Part Of The Dance",
         "selectedTrackYtId": "7pvk1eIhFeM",
         "spotifyId": "24Z8SaFvPzP8IE6b1Dzj94",
-        "deezerId": "",
+        "deezerId": "1215173",
         "designers": ["Alan Cracknell"],
         "isAGem": false
     },
@@ -6736,7 +6736,7 @@ const albums = [
         "selectedTrackTitle": "Brandy As In Benj",
         "selectedTrackYtId": "3pRLir_Evds",
         "spotifyId": "0Qwo3GaODDq65v6xKWKqne",
-        "deezerId": "",
+        "deezerId": "683834",
         "designers": ["Bob Norrington"],
         "isAGem": false
     },
@@ -6751,7 +6751,7 @@ const albums = [
         "selectedTrackTitle": "Tomorrow May Come",
         "selectedTrackYtId": "-JKaFlLHcQ8",
         "spotifyId": "6TZiaRqylZpos2gCvCIsLu",
-        "deezerId": "",
+        "deezerId": "671893",
         "designers": ["Tony Benyon"],
         "isAGem": false
     },
@@ -6766,7 +6766,7 @@ const albums = [
         "selectedTrackTitle": "Snakes And Ladders",
         "selectedTrackYtId": "OKy6SGSGQbw",
         "spotifyId": "28ftlSGxhgcNAJSUrPQ8E3",
-        "deezerId": "",
+        "deezerId": "424690",
         "designers": ["Tony Benyon"],
         "isAGem": false
     },
@@ -6856,7 +6856,7 @@ const albums = [
         "selectedTrackTitle": "Tubular Bells (Part II)",
         "selectedTrackYtId": "4pfzuFvFIeI",
         "spotifyId": "0a3YQpBnRzJzNktOjb6Dum",
-        "deezerId": "",
+        "deezerId": "10232416",
         "designers": ["Trevor Key"],
         "isAGem": false
     },
@@ -6871,7 +6871,7 @@ const albums = [
         "selectedTrackTitle": "Hergest Ridge (Part I)",
         "selectedTrackYtId": "DPQPYwWgxTY",
         "spotifyId": "50PyBlT9PggDbi4Hauw9du",
-        "deezerId": "",
+        "deezerId": "620753",
         "designers": [],
         "isAGem": false
     },
@@ -6886,7 +6886,7 @@ const albums = [
         "selectedTrackTitle": "Ommadawn (Part I)",
         "selectedTrackYtId": "vShVl_Xd_Tc",
         "spotifyId": "200p7O3raeXT2jNhmzK4TE",
-        "deezerId": "",
+        "deezerId": "620607",
         "designers": ["David Bailey"],
         "isAGem": false
     },
@@ -6916,7 +6916,7 @@ const albums = [
         "selectedTrackTitle": "Evening: The Sunset / Twilight Time",
         "selectedTrackYtId": "C012iKu9s-8",
         "spotifyId": "3ZS8uTlViMWAMM1q6lgPRu",
-        "deezerId": "",
+        "deezerId": "224746",
         "designers": ["David Anstey"],
         "isAGem": false
     },
@@ -6931,7 +6931,7 @@ const albums = [
         "selectedTrackTitle": "The Actor",
         "selectedTrackYtId": "29ihZ_TbFqY",
         "spotifyId": "0Rdx3jfi6h97W5VjQsuMOp",
-        "deezerId": "",
+        "deezerId": "119073",
         "designers": ["Phil Travers"],
         "isAGem": false
     },
