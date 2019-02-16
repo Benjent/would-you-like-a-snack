@@ -352,6 +352,21 @@ const albums = [
         "isAGem": false
     },
     {
+        "id": "anderson_bruford_wakeman_howe_anderson_bruford_wakeman_howe",
+        "title": "Anderson Bruford Wakeman Howe",
+        "artist": "Anderson Bruford Wakeman Howe",
+        "year": 1989,
+        "country": regions.USA,
+        "cover": pathToCovers + "/anderson_bruford_wakeman_howe_anderson_bruford_wakeman_howe.jpg",
+        "criteria": [criteria.ELECTRO, criteria.NEO_EIGHTIES, criteria.ODD_RHYTHM, criteria.SYMPHONIC, criteria.SPECTACULAR],
+        "selectedTrackTitle": "Brother Of Mine",
+        "selectedTrackYtId": "w9MJzFtl5pk",
+        "spotifyId": "2DTCREtVpOKsen2yXiS4iw",
+        "deezerId": "683848",
+        "designers": ["Roger Dean"],
+        "isAGem": false
+    },
+    {
         "id": "andrew_lloyd_webber_and_tim_rice_jesus_christ_superstar",
         "title": "Jesus Christ Superstar",
         "artist": "Andrew Lloyd Webber & Tim Rice",
@@ -6980,7 +6995,7 @@ const albums = [
         "selectedTrackTitle": "Tenemos Roads",
         "selectedTrackYtId": "vj9ZUHju7JE",
         "spotifyId": "6NMlE5KSAEtg110RKNdh2J",
-        "deezerId": "",
+        "deezerId": "128426",
         "designers": ["Kevin Burke"],
         "isAGem": false
     },
@@ -6995,7 +7010,7 @@ const albums = [
         "selectedTrackTitle": "Squarer For Maud",
         "selectedTrackYtId": "BeHheJ3kqYI",
         "spotifyId": "7fSqgzucVPinisWaIhcklO",
-        "deezerId": "",
+        "deezerId": "128417",
         "designers": ["Jill Mumford"],
         "isAGem": true,
         "description": "TODO"
@@ -7086,7 +7101,7 @@ const albums = [
         "selectedTrackTitle": "Please Don't Judas Me",
         "selectedTrackYtId": "PdiIu1RwGhA",
         "spotifyId": "5naYBHiMro7E0MVPmhhYHP",
-        "deezerId": "",
+        "deezerId": "15485516",
         "designers": ["David Fairbrother Roe"],
         "isAGem": false
     },
@@ -7101,7 +7116,7 @@ const albums = [
         "selectedTrackTitle": "Telegram",
         "selectedTrackYtId": "xRgZlEVzAss",
         "spotifyId": "6P3mt9QSzK9pygefaZwfl8",
-        "deezerId": "",
+        "deezerId": "15484838",
         "designers": ["Hipgnosis"],
         "isAGem": false
     },
@@ -7116,7 +7131,7 @@ const albums = [
         "selectedTrackTitle": "There's A World",
         "selectedTrackYtId": "mVHQSvcSa6o",
         "spotifyId": "1pHo7X82cTObgZll65R1rW",
-        "deezerId": "",
+        "deezerId": "86605",
         "designers": ["Tom Wilkes"],
         "isAGem": true,
         "description": "TODO"
@@ -7132,7 +7147,7 @@ const albums = [
         "selectedTrackTitle": "On The Beach",
         "selectedTrackYtId": "CKgj1FNToWY",
         "spotifyId": "4uXg1lAzlcr1CJWLwekgaM",
-        "deezerId": "",
+        "deezerId": "14459694",
         "designers": ["Bob Seidemann"],
         "isAGem": false
     },
@@ -7147,7 +7162,7 @@ const albums = [
         "selectedTrackTitle": "It's All In The Mind",
         "selectedTrackYtId": "bwv2qOWvBNc",
         "spotifyId": "4rel9GvJIiVBx3m3680Kqz",
-        "deezerId": "",
+        "deezerId": "6305753",
         "designers": ["Ernst Steingässer"],
         "isAGem": false
     },
@@ -7162,7 +7177,7 @@ const albums = [
         "selectedTrackTitle": "Desolation Valley",
         "selectedTrackYtId": "9Tu65PeEqdE",
         "spotifyId": "7Iq2CLAPWXPK0W2dQhhqMY",
-        "deezerId": "",
+        "deezerId": "6305752",
         "designers": ["Helmut Wenske"],
         "isAGem": true,
         "description": "TODO"
@@ -7178,7 +7193,7 @@ const albums = [
         "selectedTrackTitle": "A Day In The Life Of A Preacher",
         "selectedTrackYtId": "S3F_t43v2oI",
         "spotifyId": "4zz8OO6V7gAdmoVOndIB25",
-        "deezerId": "",
+        "deezerId": "6385337",
         "designers": ["Helmut Wenske", "Keith Walters"],
         "isAGem": false
     },
@@ -7193,7 +7208,7 @@ const albums = [
         "selectedTrackTitle": "Remember The Future (Part I)",
         "selectedTrackYtId": "v27E8PjIqLM",
         "spotifyId": "1BQYS7PTIxgYFY4mv5P8M0",
-        "deezerId": "",
+        "deezerId": "6546914",
         "designers": ["Helmut Wenske"],
         "isAGem": false
     },
@@ -7208,7 +7223,7 @@ const albums = [
         "selectedTrackTitle": "That's Life",
         "selectedTrackYtId": "YSLxhG-V-Q8",
         "spotifyId": "4t9PsjX15Z5NYerBWMFv2x",
-        "deezerId": "",
+        "deezerId": "6569517",
         "designers": ["Pierre Tubbs", "Helmut Wenske"],
         "isAGem": false
     },
@@ -7223,7 +7238,7 @@ const albums = [
         "selectedTrackTitle": "Recycled (Part I)",
         "selectedTrackYtId": "9Ev1ueQv3u8",
         "spotifyId": "5oGax634VNpeGwiI30dIh6",
-        "deezerId": "",
+        "deezerId": "5942677",
         "designers": ["Helmut Wenske"],
         "isAGem": false
     },
@@ -7238,7 +7253,7 @@ const albums = [
         "selectedTrackTitle": "Midnight Light",
         "selectedTrackYtId": "JovQXQlIm_4",
         "spotifyId": "6yGTZHrVmun3tv7rT5wHj7",
-        "deezerId": "",
+        "deezerId": "6512473",
         "designers": ["Basil Pao"],
         "isAGem": false
     },
@@ -7253,7 +7268,7 @@ const albums = [
         "selectedTrackTitle": "The Cry Of Eugene",
         "selectedTrackYtId": "A6KARjX8NWc",
         "spotifyId": "3PTutcLYaYrk2G71tKIVCL",
-        "deezerId": "",
+        "deezerId": "128936",
         "designers": ["Derek Burton", "Gered Mankowitz"],
         "isAGem": false
     },
@@ -7268,7 +7283,7 @@ const albums = [
         "selectedTrackTitle": "Ars Longa Vita Brevis",
         "selectedTrackYtId": "TC9cJLHeO00",
         "spotifyId": "3ygsp68ybDKo4jrwBMLrLA",
-        "deezerId": "",
+        "deezerId": "128861",
         "designers": ["Gered Mankowitz"],
         "isAGem": false
     },
@@ -7313,7 +7328,7 @@ const albums = [
         "selectedTrackTitle": "My Back Pages",
         "selectedTrackYtId": "IQZnn8L0jUk",
         "spotifyId": "4i9mKG4nrsin6gntcVL0ap",
-        "deezerId": "359606",
+        "deezerId": "309130",
         "designers": ["Hipgnosis"],
         "isAGem": false
     },
@@ -7346,7 +7361,7 @@ const albums = [
         "selectedTrackTitle": "Non So Restare Solo",
         "selectedTrackYtId": "kkkA4cUKW5Y",
         "spotifyId": "3sUdiFdMAtDwRU7j7CcXJD",
-        "deezerId": "",
+        "deezerId": "138599",
         "designers": ["Giancarlo Boschin", "Luciano Tallarini"],
         "isAGem": false
     },
@@ -7361,7 +7376,7 @@ const albums = [
         "selectedTrackTitle": "Sguardo Verso Il Cielo",
         "selectedTrackYtId": "MT2hvotzoDA",
         "spotifyId": "6IQ7wLfNi5D9esSFJaDzHU",
-        "deezerId": "",
+        "deezerId": "223484",
         "designers": ["Mario Convertino"],
         "isAGem": false
     },
@@ -7376,7 +7391,7 @@ const albums = [
         "selectedTrackTitle": "Figure Di Cartone",
         "selectedTrackYtId": "ZFWb77PG5mA",
         "spotifyId": "6NiJ8vCXUZoeqUIyhUDNZX",
-        "deezerId": "",
+        "deezerId": "248539",
         "designers": ["Mario Convertino", "Walter Mac Mazzieri"],
         "isAGem": false
     },
@@ -7391,7 +7406,7 @@ const albums = [
         "selectedTrackTitle": "Attesa Inerte",
         "selectedTrackYtId": "6vwjxRxDic0",
         "spotifyId": "5B13S4DiDesawhG0eUTK9B",
-        "deezerId": "",
+        "deezerId": "9038083",
         "designers": ["Mario Convertino"],
         "isAGem": false
     },
@@ -7406,7 +7421,7 @@ const albums = [
         "selectedTrackTitle": "Maggio",
         "selectedTrackYtId": "545vO52c6L4",
         "spotifyId": "5z7CzpuMKLitcaImOHLlse",
-        "deezerId": "",
+        "deezerId": "223748",
         "designers": ["Paolo Patelli"],
         "isAGem": false
     },
@@ -7421,7 +7436,7 @@ const albums = [
         "selectedTrackTitle": "Los Angeles",
         "selectedTrackYtId": "qJbcammNuxk",
         "spotifyId": "7vDdyzWZYngIZY2vV3yZ3A",
-        "deezerId": "",
+        "deezerId": "245511",
         "designers": ["Paul Whitehead"],
         "isAGem": false
     },
@@ -7436,7 +7451,7 @@ const albums = [
         "selectedTrackTitle": "I Salmoni",
         "selectedTrackYtId": "tNJMjTrsJo4",
         "spotifyId": "7fy1FcHHNysfY7wRSp2vIi",
-        "deezerId": "",
+        "deezerId": "249206",
         "designers": ["Mario Convertino"],
         "isAGem": false
     },
@@ -7451,7 +7466,7 @@ const albums = [
         "selectedTrackTitle": "Il Musicista",
         "selectedTrackYtId": "RxRLGvy5100",
         "spotifyId": "07u1l1ZqhTJP4Lla3IWTsg",
-        "deezerId": "",
+        "deezerId": "246023",
         "designers": ["Mario Convertino", "Walter Mac Mazzieri"],
         "isAGem": false
     },
@@ -7466,7 +7481,7 @@ const albums = [
         "selectedTrackTitle": "El Gran Senser",
         "selectedTrackYtId": "CJnQhh9mDKk",
         "spotifyId": "6WcVcaQBtTXxZ1jhsTnLWy",
-        "deezerId": "",
+        "deezerId": "228009",
         "designers": ["Mario Convertino", "Mirella Brugnerotto"],
         "isAGem": false
     },
@@ -7511,7 +7526,7 @@ const albums = [
         "selectedTrackTitle": "Phalarn Dawn",
         "selectedTrackYtId": "UQCYvIbznkw",
         "spotifyId": "0HycOOGYBfZ7yimWbmYQPO",
-        "deezerId": "",
+        "deezerId": "14911379",
         "designers": ["Blim"],
         "isAGem": false
     },
@@ -7526,7 +7541,7 @@ const albums = [
         "selectedTrackTitle": "Crackerblocks",
         "selectedTrackYtId": "ZjtfdisDhuo",
         "spotifyId": "5YzktS5LIcW8YwDpZH06Gz",
-        "deezerId": "",
+        "deezerId": "375340",
         "designers": ["Blim"],
         "isAGem": false
     },
@@ -7541,7 +7556,7 @@ const albums = [
         "selectedTrackTitle": "Bizarre Bazaar",
         "selectedTrackYtId": "HSHEhHfq7Bc",
         "spotifyId": "0LP1qX7nM4lpH5KAXnosm0",
-        "deezerId": "",
+        "deezerId": "465409",
         "designers": ["Blim"],
         "isAGem": false
     },
@@ -7556,7 +7571,7 @@ const albums = [
         "selectedTrackTitle": "Stretchy",
         "selectedTrackYtId": "csM8IIaXFYM",
         "spotifyId": "1sBTE8pk2bYgcqI3C0xBnw",
-        "deezerId": "",
+        "deezerId": "171258",
         "designers": ["Blim"],
         "isAGem": false
     },
@@ -7571,7 +7586,7 @@ const albums = [
         "selectedTrackTitle": "Myriapod",
         "selectedTrackYtId": "KlsFulvhBpg",
         "spotifyId": "0eEIecJTw1JSbYp5XJZwPf",
-        "deezerId": "",
+        "deezerId": "375901",
         "designers": ["Blim"],
         "isAGem": false
     },
@@ -7634,7 +7649,7 @@ const albums = [
         "selectedTrackTitle": "Here Comes The Flood",
         "selectedTrackYtId": "vb7htoJAK7g",
         "spotifyId": "0kDFjyfGFtiIMXlxJ120Ok",
-        "deezerId": "",
+        "deezerId": "70550882",
         "designers": ["Storm Thorgerson"],
         "isAGem": false
     },
@@ -7695,7 +7710,7 @@ const albums = [
         "selectedTrackTitle": "Interstellar Overdrive",
         "selectedTrackYtId": "4o2sA0vpA-4",
         "spotifyId": "0Fke5eiQ6lszQHlwiFygqn",
-        "deezerId": "",
+        "deezerId": "12506866",
         "designers": ["Vic Singh"],
         "isAGem": false
     },
@@ -7710,7 +7725,7 @@ const albums = [
         "selectedTrackTitle": "Set The Controls For The Heart Of The Sun",
         "selectedTrackYtId": "bbWOmh_rRq0",
         "spotifyId": "5rwuexO7oiRJKqzZrd1upQ",
-        "deezerId": "",
+        "deezerId": "1262258",
         "designers": ["Hipgnosis"],
         "isAGem": false
     },
@@ -7725,7 +7740,7 @@ const albums = [
         "selectedTrackTitle": "The Narrow Way",
         "selectedTrackYtId": "85Iz-_xigS8",
         "spotifyId": "4uuyGVEZpYaGB1HtewAogW",
-        "deezerId": "",
+        "deezerId": "1262260",
         "designers": ["Hipgnosis"],
         "isAGem": false
     },
@@ -7740,7 +7755,7 @@ const albums = [
         "selectedTrackTitle": "Cymbaline",
         "selectedTrackYtId": "ZM5iopSs_rI",
         "spotifyId": "6xWRCFsaqoYj3ZwxMkCE85",
-        "deezerId": "",
+        "deezerId": "1262259",
         "designers": ["Hipgnosis"],
         "isAGem": false
     },
@@ -7755,7 +7770,7 @@ const albums = [
         "selectedTrackTitle": "Atom Heart Mother",
         "selectedTrackYtId": "yusGUGTVAyw",
         "spotifyId": "5c1ZTzT4oSkiiFS4wmEuOe",
-        "deezerId": "",
+        "deezerId": "1262261",
         "designers": ["Hipgnosis", "Storm Thorgerson"],
         "isAGem": false
     },
@@ -7770,7 +7785,7 @@ const albums = [
         "selectedTrackTitle": "A Pillow Of Winds",
         "selectedTrackYtId": "uThZ1uuLLWM",
         "spotifyId": "7yKRvvqspSxfLkr7C7RaAI",
-        "deezerId": "",
+        "deezerId": "1262262",
         "designers": ["Storm Thorgerson"],
         "isAGem": false
     },
@@ -7785,7 +7800,7 @@ const albums = [
         "selectedTrackTitle": "When You're In",
         "selectedTrackYtId": "6vr07uuBjg4",
         "spotifyId": "3HZKOTmpigZcWHxACjENyh",
-        "deezerId": "",
+        "deezerId": "1262263",
         "designers": ["Hipgnosis"],
         "isAGem": false
     },
@@ -7800,7 +7815,7 @@ const albums = [
         "selectedTrackTitle": "Time",
         "selectedTrackYtId": "rL3AgkwbYgo",
         "spotifyId": "2WT1pbYjLJciAR26yMebkH",
-        "deezerId": "",
+        "deezerId": "59853992",
         "designers": ["Hipgnosis", "George Hardie"],
         "isAGem": true,
         "description": "TODO"
@@ -7816,7 +7831,7 @@ const albums = [
         "selectedTrackTitle": "Welcome To The Machine",
         "selectedTrackYtId": "lt-udg9zQSE",
         "spotifyId": "6uvBKDGlJAYLH5Vy6RQVsc",
-        "deezerId": "",
+        "deezerId": "59853252",
         "designers": ["Hipgnosis", "George Hardie"],
         "isAGem": false
     },
@@ -7831,7 +7846,7 @@ const albums = [
         "selectedTrackTitle": "Sheep",
         "selectedTrackYtId": "UqlsVZ1zxMk",
         "spotifyId": "21jUB9RqplD6OqtsTjKBnO",
-        "deezerId": "",
+        "deezerId": "1262266",
         "designers": ["Aubrey Powell", "Storm Thorgerson", "Roger Waters"],
         "isAGem": true,
         "description": "TODO"
@@ -7847,7 +7862,7 @@ const albums = [
         "selectedTrackTitle": "The Trial",
         "selectedTrackYtId": "4fa7AtI1msk",
         "spotifyId": "6WaIQHxEHtZL0RZ62AuY0g",
-        "deezerId": "",
+        "deezerId": "59854962",
         "designers": ["Roger Waters", "Gerald Scarfe"],
         "isAGem": false
     },
@@ -7862,7 +7877,7 @@ const albums = [
         "selectedTrackTitle": "Your Possible Pasts",
         "selectedTrackYtId": "E-ve_sgdgZs",
         "spotifyId": "5ChHkKb5VhZe0pgQRsvpek",
-        "deezerId": "",
+        "deezerId": "1262269",
         "designers": ["Roger Waters", "Artful Dodgers"],
         "isAGem": false
     },
@@ -7892,7 +7907,7 @@ const albums = [
         "selectedTrackTitle": "Dove... Quando... (Parte I)",
         "selectedTrackYtId": "5qa0029LAbo",
         "spotifyId": "51pz4wvc0BPtjnGCWjxX91",
-        "deezerId": "",
+        "deezerId": "111977",
         "designers": ["Cesar Monti", "Marco Damiani", "Wanda Spinello"],
         "isAGem": false
     },
@@ -7907,7 +7922,7 @@ const albums = [
         "selectedTrackTitle": "Per Un Amico",
         "selectedTrackYtId": "gDWKIgopUSI",
         "spotifyId": "1NeJ0QqKv002iYDiOCaUOA",
-        "deezerId": "",
+        "deezerId": "117007",
         "designers": ["Cesar Monti", "Gianni Celano Giannici", "Wanda Spinello"],
         "isAGem": false
     },
@@ -7922,7 +7937,7 @@ const albums = [
         "selectedTrackTitle": "La Luna Nuova",
         "selectedTrackYtId": "JzjoIRPtuWo",
         "spotifyId": "7bXJzll4GUEOGqX1YshA8C",
-        "deezerId": "",
+        "deezerId": "117077",
         "designers": ["Fabio Nicoli Associates", "Terry Gough"],
         "isAGem": false
     },
@@ -7937,7 +7952,7 @@ const albums = [
         "selectedTrackTitle": "Harlequin",
         "selectedTrackYtId": "SAL0LInPlx8",
         "spotifyId": "3FTBY9sW29JfLjAZHndgyY",
-        "deezerId": "",
+        "deezerId": "5696441",
         "designers": [],
         "isAGem": false
     },
@@ -7952,7 +7967,7 @@ const albums = [
         "selectedTrackTitle": "Jet Lag",
         "selectedTrackYtId": "URDMIQLVqu8",
         "spotifyId": "1F8ppE674Bik93kRyqaEly",
-        "deezerId": "",
+        "deezerId": "111251",
         "designers": [],
         "isAGem": false
     },
@@ -7967,7 +7982,7 @@ const albums = [
         "selectedTrackTitle": "Viene Il Santo",
         "selectedTrackYtId": "syj_fJmucaE",
         "spotifyId": "2JNaih64nuuvmaDDkPKGFL",
-        "deezerId": "",
+        "deezerId": "117050",
         "designers": ["Rolando Cassinari", "Andrea Pazienza"],
         "isAGem": false
     },
@@ -8028,7 +8043,7 @@ const albums = [
         "selectedTrackTitle": "Journey To The Vast Unknown (Part II)",
         "selectedTrackYtId": "qLWSAGAjUqw",
         "spotifyId": "4rhvRh9TBivWZ6OLCv3Jzv",
-        "deezerId": "",
+        "deezerId": "72275242",
         "designers": ["Robert Paul Batwin"],
         "isAGem": false
     },
@@ -8046,7 +8061,7 @@ const albums = [
         "selectedTrackTitle": "Gemini",
         "selectedTrackYtId": "8tU5T4kGI2E",
         "spotifyId": "6uv56W9I7ahYTS5R7la9bT",
-        "deezerId": "",
+        "deezerId": "13933792",
         "designers": ["Hipgnosis"],
         "isAGem": false
     },
@@ -8061,7 +8076,7 @@ const albums = [
         "selectedTrackTitle": "The March Of The Black Queen",
         "selectedTrackYtId": "SoBMhx_ap_g",
         "spotifyId": "0NouBnbXRJKFWzm9LwCW0K",
-        "deezerId": "",
+        "deezerId": "915165",
         "designers": ["Mick Rock"],
         "isAGem": false
     },
@@ -8076,7 +8091,7 @@ const albums = [
         "selectedTrackTitle": "In The Lap Of The Gods... Revisited",
         "selectedTrackYtId": "ieXcPZC0MJk",
         "spotifyId": "5SBHID8qGG3x52zgoh2ilz",
-        "deezerId": "",
+        "deezerId": "915783",
         "designers": ["Mick Rock"],
         "isAGem": false
     },
@@ -8091,7 +8106,7 @@ const albums = [
         "selectedTrackTitle": "Bohemian Rhapsody",
         "selectedTrackYtId": "fJ9rUzIMcZQ",
         "spotifyId": "1GbtB4zTqAsyfZEsm1RZfx",
-        "deezerId": "",
+        "deezerId": "915785",
         "designers": ["David Costa"],
         "isAGem": false
     },
@@ -8106,7 +8121,7 @@ const albums = [
         "selectedTrackTitle": "Somebody To Love",
         "selectedTrackYtId": "kijpcUv-b8M",
         "spotifyId": "3hfcNo7WWy1Z1ie0nJ8PRy",
-        "deezerId": "",
+        "deezerId": "917232",
         "designers": ["David Costa"],
         "isAGem": false
     },
@@ -8121,7 +8136,7 @@ const albums = [
         "selectedTrackTitle": "When Do You Love",
         "selectedTrackYtId": "Rng54UMoxy8",
         "spotifyId": "7d9IZA5hVMlRqkRszYt66r",
-        "deezerId": "",
+        "deezerId": "301390",
         "designers": ["George Hunter"],
         "isAGem": false
     },
@@ -8139,7 +8154,7 @@ const albums = [
         "selectedTrackTitle": "Catch The Rainbow",
         "selectedTrackYtId": "p3VgV31vmUE",
         "spotifyId": "3LXOrVXLXwRiOguE446OZo",
-        "deezerId": "",
+        "deezerId": "162197",
         "designers": ["David Willardson"],
         "isAGem": false
     },
@@ -8154,7 +8169,7 @@ const albums = [
         "selectedTrackTitle": "Stargazer",
         "selectedTrackYtId": "rVXy1OhaERY",
         "spotifyId": "3uIT4I4Dy7Pq1j0aSjzPW9",
-        "deezerId": "",
+        "deezerId": "124376",
         "designers": ["Ken Kelly"],
         "isAGem": false
     },
@@ -8169,7 +8184,7 @@ const albums = [
         "selectedTrackTitle": "Gates Of Babylon",
         "selectedTrackYtId": "MHCdCbTxypU",
         "spotifyId": "56JX1fNOjTa7Bj7G18nxSq",
-        "deezerId": "",
+        "deezerId": "6058392",
         "designers": ["Debbie Hall", "Maxi Chan"],
         "isAGem": false
     },
@@ -8334,7 +8349,7 @@ const albums = [
         "selectedTrackTitle": "Crystal Silence",
         "selectedTrackYtId": "69rjdr7SR0Q",
         "spotifyId": "6M0IAJHwQ6dFNtTkFsXCJc",
-        "deezerId": "",
+        "deezerId": "124358",
         "designers": ["Michael Manoogian"],
         "isAGem": false
     },
@@ -8349,7 +8364,7 @@ const albums = [
         "selectedTrackTitle": "Spain",
         "selectedTrackYtId": "a_OEJ0wqt2g",
         "spotifyId": "2wkmxijYToqAr0ATgcNSsn",
-        "deezerId": "",
+        "deezerId": "239959",
         "designers": ["Hamish Grimes"],
         "isAGem": false
     },
@@ -8364,7 +8379,7 @@ const albums = [
         "selectedTrackTitle": "After The Cosmic Rain",
         "selectedTrackYtId": "MWPo6oqHvJ8",
         "spotifyId": "0ddNu3IWO5iEHoBe9qOr5L",
-        "deezerId": "",
+        "deezerId": "230734",
         "designers": ["Don Brautigan", "Neville Potter"],
         "isAGem": false
     },
@@ -8379,7 +8394,7 @@ const albums = [
         "selectedTrackTitle": "Song To The Pharoah Kings",
         "selectedTrackYtId": "q-XDtjCwS9Q",
         "spotifyId": "1LAARZVfnq12x7Ueei4jx7",
-        "deezerId": "",
+        "deezerId": "248142",
         "designers": ["Petra Kinkele", "Neville Potter", "Herb Deiwitz"],
         "isAGem": false
     },
@@ -8409,7 +8424,7 @@ const albums = [
         "selectedTrackTitle": "Duel Of The Jester And The Tyrant",
         "selectedTrackYtId": "sa21WPH4_U4",
         "spotifyId": "1R2UR5wAs50dpbHkhUtLH7",
-        "deezerId": "",
+        "deezerId": "6750057",
         "designers": ["Wilson McLean"],
         "isAGem": true,
         "description": "TODO"
@@ -8425,7 +8440,7 @@ const albums = [
         "selectedTrackTitle": "The Endless Night",
         "selectedTrackYtId": "STXJFzaAj0U",
         "spotifyId": "0dmDVVzPAjPHmAND1gq8LY",
-        "deezerId": "",
+        "deezerId": "114702",
         "designers": ["Catherine Loeb"],
         "isAGem": false
     },
@@ -8440,7 +8455,7 @@ const albums = [
         "selectedTrackTitle": "Le Procès De Louis XVI : Réquisitoire / Exécution",
         "selectedTrackYtId": "o97Xff6ReYw",
         "spotifyId": "6K6SzeA8aDcF4eib3uH1A9",
-        "deezerId": "",
+        "deezerId": "3890411",
         "designers": [],
         "isAGem": false
     },
@@ -8470,7 +8485,7 @@ const albums = [
         "selectedTrackTitle": "Love Is All",
         "selectedTrackYtId": "YK2Pltm8ZsQ",
         "spotifyId": "0qyBo8KTEcKMyXVgahZ1Ps",
-        "deezerId": "",
+        "deezerId": "13015474",
         "designers": ["Alan Aldridge", "Harry Wilcock"],
         "isAGem": true,
         "description": "Roger Glover gathered a lot of music performers to create a Rock Opera based on the eponym children's poem. This results in a colorful and enthusiastic piece with as much vocals as there are characters, and folkloric instruments to carry the cliché of old fantasy storybooks."
@@ -8486,7 +8501,7 @@ const albums = [
         "selectedTrackTitle": "The Womb Bit",
         "selectedTrackYtId": "vR-PDPS1-Pg",
         "spotifyId": "45ViLs3I1DxFkbbO2BxaoK",
-        "deezerId": "",
+        "deezerId": "715740",
         "designers": [],
         "isAGem": false
     },
@@ -8501,7 +8516,7 @@ const albums = [
         "selectedTrackTitle": "Miss Clarke And The Computer",
         "selectedTrackYtId": "BTxp7cqrQjA",
         "spotifyId": "3Q1T4z81ocgsJzWBNjSMMQ",
-        "deezerId": "",
+        "deezerId": "300464",
         "designers": ["Roy Wood"],
         "isAGem": false
     },
@@ -8564,7 +8579,7 @@ const albums = [
         "selectedTrackTitle": "Waves Within",
         "selectedTrackYtId": "VGbSw8dHR3w",
         "spotifyId": "0abfpuzzbTUNxasNmX04RU",
-        "deezerId": "",
+        "deezerId": "1401719",
         "designers": ["Joan Chase"],
         "isAGem": true,
         "description": "TODO"
@@ -8580,7 +8595,7 @@ const albums = [
         "selectedTrackTitle": "Canto De Los Flores",
         "selectedTrackYtId": "vlWO_F2D2tw",
         "spotifyId": "2SurTgYPtoCJSn7103Uuvk",
-        "deezerId": "",
+        "deezerId": "111730",
         "designers": ["Barry Imhoff", "Carlos Santana"],
         "isAGem": false
     },
@@ -8595,7 +8610,7 @@ const albums = [
         "selectedTrackTitle": "Pictures",
         "selectedTrackYtId": "xvnRkJdbm6w",
         "spotifyId": "1Moy8pZZekoPN0Kow0t7o0",
-        "deezerId": "",
+        "deezerId": "7648349",
         "designers": [],
         "isAGem": false
     },
@@ -8610,7 +8625,7 @@ const albums = [
         "selectedTrackTitle": "Troja",
         "selectedTrackYtId": "1AfQ2w-fY40",
         "spotifyId": "3oWKEuO0zzzfcZrKWI4Gqr",
-        "deezerId": "",
+        "deezerId": "7576867",
         "designers": [],
         "isAGem": false
     },
@@ -8656,7 +8671,7 @@ const albums = [
         "selectedTrackTitle": "Mind Ecology",
         "selectedTrackYtId": "d_DajSHROJA",
         "spotifyId": "05RPG1hN35ucYL4BqEBZdn",
-        "deezerId": "",
+        "deezerId": "241263",
         "designers": ["Paula Scher", "John Alcorn"],
         "isAGem": true,
         "description": "TODO"
@@ -8733,7 +8748,7 @@ const albums = [
         "selectedTrackTitle": "The Duke Of Beaufoot",
         "selectedTrackYtId": "D1jNLR9tjXE",
         "spotifyId": "5JhbxkXzy1o2RcX14CCwZP",
-        "deezerId": "",
+        "deezerId": "671887",
         "designers": ["Penny Graeme-Barber", "Pete Rhodes"],
         "isAGem": false
     },
@@ -8748,7 +8763,7 @@ const albums = [
         "selectedTrackTitle": "A Canterbury Tale",
         "selectedTrackYtId": "o7Z5SIYACAU",
         "spotifyId": "7dlDI9sU90DvAJKwaQYGRj",
-        "deezerId": "",
+        "deezerId": "67021732",
         "designers": ["Pete Rhodes"],
         "isAGem": false
     },
@@ -8778,7 +8793,7 @@ const albums = [
         "selectedTrackTitle": "Golden Fleece",
         "selectedTrackYtId": "BuP9_sMgu8I",
         "spotifyId": "1GX1Mo7djCEq2ZAM2pokGR",
-        "deezerId": "",
+        "deezerId": "77355512",
         "designers": ["Marcus Keef"],
         "isAGem": false
     },
@@ -8793,7 +8808,7 @@ const albums = [
         "selectedTrackTitle": "Elliptical Seasons",
         "selectedTrackYtId": "sSZepYc219Y",
         "spotifyId": "1fxW4E9zQ5RIIc4k1aPZRy",
-        "deezerId": "",
+        "deezerId": "115523",
         "designers": ["Alex Ebel"],
         "isAGem": false
     },
@@ -8808,7 +8823,7 @@ const albums = [
         "selectedTrackTitle": "Silver Winds",
         "selectedTrackYtId": "0tmM4X3HnDk",
         "spotifyId": "6ZtNHnRzacahYX1NeHxiU0",
-        "deezerId": "",
+        "deezerId": "4575171",
         "designers": ["Peter Lloyd"],
         "isAGem": false
     },
@@ -8823,7 +8838,7 @@ const albums = [
         "selectedTrackTitle": "Wings Of White",
         "selectedTrackYtId": "Z8qyuL_wpXQ",
         "spotifyId": "6r7XlOEXPFtVrJy4mTi0eP",
-        "deezerId": "",
+        "deezerId": "897881",
         "designers": ["Hildebrandt"],
         "isAGem": false
     },
@@ -9066,7 +9081,7 @@ const albums = [
         "selectedTrackTitle": "Song Of Romeo",
         "selectedTrackYtId": "_LXdlWNrItQ",
         "spotifyId": "76AQ8HRZ2ANKMbH2Wpr5bb",
-        "deezerId": "",
+        "deezerId": "82312",
         "designers": ["Annette Del Zoppo"],
         "isAGem": false
     },
@@ -9084,7 +9099,7 @@ const albums = [
         "selectedTrackTitle": "Fields Of Gold",
         "selectedTrackYtId": "",
         "spotifyId": "3Z8DubxAWENlQd3pxJOKZE",
-        "deezerId": "",
+        "deezerId": "8910221",
         "designers": ["Lang"],
         "isAGem": false
     },
@@ -9099,7 +9114,7 @@ const albums = [
         "selectedTrackTitle": "When It's The Season",
         "selectedTrackYtId": "aT1ngm-ADkY",
         "spotifyId": "3pN57NmhgB98rHwk8b0VJr",
-        "deezerId": "",
+        "deezerId": "8910217",
         "designers": ["Lang"],
         "isAGem": true,
         "description": "TODO"
@@ -9115,7 +9130,7 @@ const albums = [
         "selectedTrackTitle": "Last Flight",
         "selectedTrackYtId": "LoGhi9weBO8",
         "spotifyId": "5GsJLsUq8x3DklXymqiDub",
-        "deezerId": "",
+        "deezerId": "8910241",
         "designers": [],
         "isAGem": false
     },
@@ -9130,7 +9145,7 @@ const albums = [
         "selectedTrackTitle": "Sequent 'C'",
         "selectedTrackYtId": "Jb_hDcNr5KQ",
         "spotifyId": "7KRXWeJYBkyUmwOFTayiQk",
-        "deezerId": "",
+        "deezerId": "301955",
         "designers": ["Edgar Froese"],
         "isAGem": false
     },
@@ -9145,7 +9160,7 @@ const albums = [
         "selectedTrackTitle": "Rubycon (Part I)",
         "selectedTrackYtId": "4xl6zlD_hlE",
         "spotifyId": "61BhEQyumLEqrRVREfQabB",
-        "deezerId": "",
+        "deezerId": "301956",
         "designers": ["Monique Froese"],
         "isAGem": false
     },
@@ -9160,7 +9175,7 @@ const albums = [
         "selectedTrackTitle": "Ricochet (Part II)",
         "selectedTrackYtId": "XCsJOaPDJUE",
         "spotifyId": "6iPUDn0rAVYuojEyEU0VJP",
-        "deezerId": "",
+        "deezerId": "301957",
         "designers": ["Monique Froese"],
         "isAGem": false
     },
@@ -9175,7 +9190,7 @@ const albums = [
         "selectedTrackTitle": "Stratosfear",
         "selectedTrackYtId": "2w8VsvJ40sM",
         "spotifyId": "3gwpouV58Wxl0kd5OIT8m7",
-        "deezerId": "",
+        "deezerId": "301958",
         "designers": ["Brian Cooke", "Trevor Key"],
         "isAGem": false
     },
@@ -9235,7 +9250,7 @@ const albums = [
         "selectedTrackTitle": "It Wasn't For You",
         "selectedTrackYtId": "7QC1hQyn8-0",
         "spotifyId": "0mlj4Hjj145o9dJIc3dm1w",
-        "deezerId": "",
+        "deezerId": "8875809",
         "designers": ["Sue Baws"],
         "isAGem": false
     },
@@ -9250,7 +9265,7 @@ const albums = [
         "selectedTrackTitle": "Timewhys",
         "selectedTrackYtId": "NqSrswia1-E",
         "spotifyId": "1TIAU6CbjQCF6LJ7uTj7O6",
-        "deezerId": "",
+        "deezerId": "7530433",
         "designers": ["Carol Hertzer"],
         "isAGem": false
     },
@@ -9325,7 +9340,7 @@ const albums = [
         "selectedTrackTitle": "Across The Waters",
         "selectedTrackYtId": "msni0_j51IU",
         "spotifyId": "2gu5catUel9XVrQT7FQhU8",
-        "deezerId": "",
+        "deezerId": "305760",
         "designers": [],
         "isAGem": false
     },
@@ -9340,7 +9355,7 @@ const albums = [
         "selectedTrackTitle": "Mister Ten Percent",
         "selectedTrackYtId": "7VAA7M5nXx8",
         "spotifyId": "1KDrZ0BG6DN9odiHb9sE25",
-        "deezerId": "",
+        "deezerId": "305653",
         "designers": ["Kochlowski"],
         "isAGem": false
     },
@@ -9355,7 +9370,7 @@ const albums = [
         "selectedTrackTitle": "The March To The Eternal City",
         "selectedTrackYtId": "TmTZpQYMzN8",
         "spotifyId": "5CV4ZQy6NS9GcpMUAGZhYE",
-        "deezerId": "",
+        "deezerId": "305759",
         "designers": [],
         "isAGem": false
     },
@@ -9373,7 +9388,7 @@ const albums = [
         "selectedTrackTitle": "Ego Trip",
         "selectedTrackYtId": "uIy3WOK2-iY",
         "spotifyId": "3g1Dzj83jWRcQMCtmLHTka",
-        "deezerId": "",
+        "deezerId": "175894",
         "designers": ["Richard Sauter", "David Jenks"],
         "isAGem": false
     },
@@ -9385,6 +9400,21 @@ const albums = [
         "country": regions.USA,
         "cover": pathToCovers + "/ultimate_spinach_behold_and_see.jpg",
         "criteria": [criteria.JAM, criteria.C_PSYCHEDELIC, criteria.ROCK, criteria.CRISPY_SIXTIES, criteria.FEMALE],
+        "selectedTrackTitle": "Mind Flowers",
+        "selectedTrackYtId": "eoj6au1h6m0",
+        "spotifyId": "2eulQiPbWqjUOTYgJBJ61T",
+        "deezerId": "6621430",
+        "designers": ["David Jenks"],
+        "isAGem": false
+    },
+    {    
+        "id": "univers_zero_1313",
+        "title": "1313",
+        "artist": "Univers Zéro",
+        "year": 1977,
+        "country": regions.BELGIUM,
+        "cover": pathToCovers + "/univers_zero_1313.jpg",
+        "criteria": [criteria.ZEUHL, criteria.EXPERIMENTAL, criteria.INSTRUMENTAL, criteria.JAZZ, criteria.ODD_RHYTHM, criteria.LENGTHY_TRACKS, criteria.UNCOMMON_INSTRUMENTS],
         "selectedTrackTitle": "Mind Flowers",
         "selectedTrackYtId": "eoj6au1h6m0",
         "spotifyId": "2eulQiPbWqjUOTYgJBJ61T",
@@ -9403,7 +9433,7 @@ const albums = [
         "selectedTrackTitle": "Urban Sax (Part I)",
         "selectedTrackYtId": "q01oHWFqVqM",
         "spotifyId": "71YRJRyqklF7a8maAe8COJ",
-        "deezerId": "",
+        "deezerId": "8895469",
         "designers": ["Patrick Alexandre"],
         "isAGem": false
     },
@@ -9418,7 +9448,7 @@ const albums = [
         "selectedTrackTitle": "The Spell",
         "selectedTrackYtId": "w5L-AOGt7qw",
         "spotifyId": "0kOW78XBGL598LEvB2JjAz",
-        "deezerId": "",
+        "deezerId": "15679320",
         "designers": ["Roger Dean"],
         "isAGem": false
     },
@@ -9433,7 +9463,7 @@ const albums = [
         "selectedTrackTitle": "The Magician's Birthday",
         "selectedTrackYtId": "apWKh3D9oVw",
         "spotifyId": "7mfX6R2LiMxljsvL1jFndR",
-        "deezerId": "",
+        "deezerId": "13944752",
         "designers": ["Roger Dean"],
         "isAGem": false
     },
@@ -9466,7 +9496,7 @@ const albums = [
         "selectedTrackTitle": "After The Flood",
         "selectedTrackYtId": "oJUu9-s15PQ",
         "spotifyId": "5GuP6isw4DZpsTaucdWkC5",
-        "deezerId": "",
+        "deezerId": "306126",
         "designers": ["CCS", "Jim Flynn"],
         "isAGem": false
     },
@@ -9481,7 +9511,7 @@ const albums = [
         "selectedTrackTitle": "The Emperor In His War Room",
         "selectedTrackYtId": "4wtUFJPGE0I",
         "spotifyId": "4kpBJuFpZBIuw4PQVxrN4t",
-        "deezerId": "",
+        "deezerId": "306127",
         "designers": ["Paul Whitehead"],
         "isAGem": false
     },
@@ -9496,7 +9526,7 @@ const albums = [
         "selectedTrackTitle": "Lemmings",
         "selectedTrackYtId": "_Earfbot_uI",
         "spotifyId": "5Lrsef2F6ZHNC5yIUEJouw",
-        "deezerId": "",
+        "deezerId": "306125",
         "designers": ["Paul Whitehead"],
         "isAGem": false
     },
@@ -9511,7 +9541,7 @@ const albums = [
         "selectedTrackTitle": "Arrow",
         "selectedTrackYtId": "s_o5tMza1og",
         "spotifyId": "4irlewoGTUPndEinKcavLF",
-        "deezerId": "",
+        "deezerId": "301289",
         "designers": ["John Pasche"],
         "isAGem": false
     },
@@ -9526,7 +9556,7 @@ const albums = [
         "selectedTrackTitle": "Childlike Faith In Childhood's End",
         "selectedTrackYtId": "x16-qZJmpKA",
         "spotifyId": "3RpOWx6c96pAbtE28GMApV",
-        "deezerId": "",
+        "deezerId": "301431",
         "designers": ["Paul Brierley"],
         "isAGem": false
     },
@@ -9541,7 +9571,7 @@ const albums = [
         "selectedTrackTitle": "Meurglys III, The Songwriter's Guild",
         "selectedTrackYtId": "Xo4IWcGrbbQ",
         "spotifyId": "0kmpQ28yR2OJqnUxhjfRLU",
-        "deezerId": "",
+        "deezerId": "306163",
         "designers": ["A.D. Design"],
         "isAGem": false
     },
@@ -9556,7 +9586,7 @@ const albums = [
         "selectedTrackTitle": "The Sphinx In The Face",
         "selectedTrackYtId": "Xo4IWcGrbbQ",
         "spotifyId": "0LkqdSpczzwdC2VlGrMDRB",
-        "deezerId": "",
+        "deezerId": "306164",
         "designers": ["Frank Sansom", "John Pasche", "Jess Artem", "Robin Schwartz"],
         "isAGem": false
     },
@@ -9586,7 +9616,7 @@ const albums = [
         "selectedTrackTitle": "Spiral",
         "selectedTrackYtId": "iW_qGMRmJAw",
         "spotifyId": "6Tz3gRyPvHv8eDT5RZ2xXX",
-        "deezerId": "",
+        "deezerId": "1208489",
         "designers": ["Michael Hudson"],
         "isAGem": false
     },
