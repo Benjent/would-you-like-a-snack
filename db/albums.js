@@ -9051,7 +9051,7 @@ const albums = [
         "selectedTrackYtId": "s6L8ZCAt3DA",
         "spotifyId": "",
         "deezerId": "",
-        "designers": [],
+        "designers": ["Jan Fijnheer"],
         "isAGem": true,
         "description": "Two big smooth tracks in the middle Jazz and Rock music, heavily influenced by psychedelism and groove, with hummed vocals. Both tracks are split into sections with rhythm variations and modality changes, but still perfectly flows from start to finish. The music is warm, rousing, captivating - when not completely mezmerizing."
     },
@@ -9062,13 +9062,29 @@ const albums = [
         "year": 1973,
         "country": regions.USA,
         "cover": pathToCovers + "/sweet_smoke_darkness_to_light.jpg",
-        "criteria": [criteria.LENGTHY_TRACKS, criteria.ORIENTAL, criteria.SOUND_COLLAGES, criteria.C_PSYCHEDELIC, criteria.C_FOLK],
-        "selectedTrackTitle": "Baby Night",
-        "selectedTrackYtId": "s6L8ZCAt3DA",
+        "criteria": [criteria.LIVE, criteria.LENGTHY_TRACKS, criteria.ORIENTAL, criteria.SOUND_COLLAGES, criteria.C_PSYCHEDELIC, criteria.C_FOLK],
+        "selectedTrackTitle": "",
+        "selectedTrackYtId": "",
         "spotifyId": "",
         "deezerId": "",
-        "designers": [],
+        "designers": ["Habo"],
         "isAGem": false
+    },
+    {
+        "id": "sweet_smoke_live",
+        "title": "Live",
+        "artist": "Sweet Smoke",
+        "year": 1974,
+        "country": regions.USA,
+        "cover": pathToCovers + "/sweet_smoke_live.jpg",
+        "criteria": [criteria.LENGTHY_TRACKS, criteria.SOFT, criteria.UNCOMMON_INSTRUMENTS, criteria.JAZZY_GROOVY, criteria.JAM],
+        "selectedTrackTitle": "First Jam",
+        "selectedTrackYtId": "tgPocHF2eMw",
+        "spotifyId": "4JhIdnuJ8nwNma8gUmRIGZ",
+        "deezerId": "310780",
+        "designers": ["Kochlowski"],
+        "isAGem": true,
+        "description": "TODO"
     },
     {
         "id": "sweetwater_just_for_you",
@@ -9408,18 +9424,33 @@ const albums = [
         "isAGem": false
     },
     {    
-        "id": "univers_zero_1313",
-        "title": "1313",
+        "id": "univeria_zekt_the_unnamables",
+        "title": "Univeria Zekt",
+        "artist": "Univeria Zekt",
+        "year": 1972,
+        "country": regions.FRANCE,
+        "cover": pathToCovers + "/univeria_zekt_the_unnamables.jpg",
+        "criteria": [criteria.ZEUHL, criteria.C_JAZZ, criteria.ODD_RHYTHM, criteria.UNCOMMON_INSTRUMENTS],
+        "selectedTrackTitle": "Ourania",
+        "selectedTrackYtId": "CAGW466OA7g",
+        "spotifyId": "3xtcDZm5ZG4XhfAVikMBHO",
+        "deezerId": "394750",
+        "designers": ["Duncan"],
+        "isAGem": false
+    },
+    {    
+        "id": "univers_zero_univers_zero",
+        "title": "Univers Zéro",
         "artist": "Univers Zéro",
         "year": 1977,
         "country": regions.BELGIUM,
-        "cover": pathToCovers + "/univers_zero_1313.jpg",
+        "cover": pathToCovers + "/univers_zero_univers_zero.jpg",
         "criteria": [criteria.ZEUHL, criteria.EXPERIMENTAL, criteria.INSTRUMENTAL, criteria.JAZZ, criteria.ODD_RHYTHM, criteria.LENGTHY_TRACKS, criteria.UNCOMMON_INSTRUMENTS],
-        "selectedTrackTitle": "Mind Flowers",
-        "selectedTrackYtId": "eoj6au1h6m0",
-        "spotifyId": "2eulQiPbWqjUOTYgJBJ61T",
-        "deezerId": "",
-        "designers": ["David Jenks"],
+        "selectedTrackTitle": "Docteur Petiot",
+        "selectedTrackYtId": "1oXy5DycArs",
+        "spotifyId": "5RR8HGBBHCqFwElMrkrKrB",
+        "deezerId": "8661343",
+        "designers": [],
         "isAGem": false
     },
     {
@@ -9653,6 +9684,21 @@ const albums = [
     // ************************************************************************************ //
     // **************************************** W **************************************** //
     // ********************************************************************************** //
+    {
+        "id": "wara_el_inca",
+        "title": "El Inca",
+        "artist": "Wara",
+        "year": 1973,
+        "country": regions.BOLIVIA,
+        "cover": pathToCovers + "/wara_el_inca.jpg",
+        "criteria": [criteria.SPANISH_SUNG, criteria.JAM, criteria.HUMBLE, criteria.FEMALE, criteria.UNCOMMON_INSTRUMENTS],
+        "selectedTrackTitle": "Wara",
+        "selectedTrackYtId": "ioRLAHDIbmQ",
+        "spotifyId": "1RIRXDnZnPOQMOqTfYULOg",
+        "deezerId": "9286726",
+        "designers": [],
+        "isAGem": false
+    },
     {
         "id": "warhorse_warhorse",
         "title": "Warhorse",
