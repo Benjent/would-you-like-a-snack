@@ -381,6 +381,20 @@ Vue.component('attic', {
                     "checked": false,
                     "isRadio": false,
                 },
+                {
+                    "criterium": this.db.criteria.RENAISSANCE,
+                    "panel": "Style",
+                    "string": "Renaissance",
+                    "checked": false,
+                    "isRadio": false,
+                },
+                {
+                    "criterium": this.db.criteria.ARENA,
+                    "panel": "Style",
+                    "string": "Arena",
+                    "checked": false,
+                    "isRadio": false,
+                },
             ],
             // Album structuration
             [
