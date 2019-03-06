@@ -53,6 +53,7 @@ const criteria = {
     RENAISSANCE: "Renaissance",
     ORIENTAL: "Oriental",
     AMBIENT: "Ambient",
+    ARENA: "Arena",
 
     // Album structure
     LENGTHY_TRACKS: "Lengthy tracks",
@@ -139,6 +140,7 @@ const criteriaOrder = [
     criteria.AMBIENT,
     criteria.BAROQUE,
     criteria.RENAISSANCE,
+    criteria.ARENA,
 
     // Album structure
     criteria.LENGTHY_TRACKS,
