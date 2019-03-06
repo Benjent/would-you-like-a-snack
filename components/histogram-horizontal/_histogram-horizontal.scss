@@ -1,0 +1,46 @@
+.histogram-horizontal {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1200px;
+
+    &__caption {
+        padding-bottom: 50px;
+    }
+
+    &__datavis {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 150px;
+
+        .datavis {
+            display: flex;
+            align-items: baseline;
+            width: 100%;
+            &__label {
+                width: 30%;
+                text-align: right;
+                padding-right: 10px;
+                overflow: hidden;
+                word-break: break-all;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+            &__data {
+                padding: 5px;
+                width: 70%;
+                display: flex;
+                align-items: center;
+                .gauge {
+                    display: flex;
+                    align-items: center;
+                    padding: 6px;
+                    min-width: 30px;
+                    height: 25px;
+                    background: $primary;
+                    color: $black
+                }
+            }
+        }
+    }
+}

@@ -9,24 +9,11 @@ Vue.component('stats', {
                     <span>{{gemsNb}} must-hear albums</span>
                 </div>
                 <div class="charts">
-                    <caption>Number of albums per year</caption>
-                    <div class="histogram">
-                        <div class="albumsPerCategory" v-for="(item, year) in albumsPerYearWithRatio">
-                            <div class="albumsPerCategory-nbOfAlbums">
-                                <div class="gauge" :style="{height: item.ratioPercent}">{{item.nbOfAlbums}}</div>
-                            </div>
-                            <div class="albumsPerCategory-legend">{{year}}</div>
-                        </div>
-                    </div>
-                    <caption>Number of albums per region</caption>
-                    <div class="histogram">
-                        <div class="albumsPerCategory" v-for="item in albumsPerCountryWithRatio">
-                            <div class="albumsPerCategory-nbOfAlbums">
-                                <div class="gauge" :style="{height: item.ratioPercent}">{{item.nbOfAlbums}}</div>
-                            </div>
-                            <div class="albumsPerCategory-legend">{{item.country}}</div>
-                        </div>
-                    </div>
+
+                    <histogram-vertical caption="Number of albums per year" :datasource="albumsPerYearWithRatio"></histogram-vertical>
+                    <histogram-horizontal caption="Number of albums per region" :datasource="albumsPerCountryWithRatio"></histogram-horizontal>
+
+
                     <caption>30 greatest criteria occurences</caption>
                     <div class="histogram">
                         <div
@@ -86,9 +73,9 @@ Vue.component('stats', {
                 const ratio = (nbOfAlbums - min) / (max - min);
         
                 albumsPerYearWithRatio[year] = {
-                nbOfAlbums: nbOfAlbums, 
-                ratio: ratio,
-                ratioPercent: (ratio * 100).toString() + "%",
+                    data: nbOfAlbums, 
+                    ratio: ratio,
+                    ratioPercent: (ratio * 100).toString() + "%",
                 }
             };
         
@@ -109,8 +96,8 @@ Vue.component('stats', {
                 const ratio = (nbOfAlbums - min) / (max - min);
         
                 albumsPerCountryWithRatio.push({
-                    country: country,
-                    nbOfAlbums: nbOfAlbums, 
+                    label: country,
+                    data: nbOfAlbums, 
                     ratio: ratio,
                     ratioPercent: (ratio * 100).toString() + "%",
                 });
@@ -131,8 +118,8 @@ Vue.component('stats', {
             //   })
             // Sort in DESC
             albumsPerCountryWithRatio.sort(function(a, b){
-                const countryA = a.nbOfAlbums
-                const countryB = b.nbOfAlbums;
+                const countryA = a.data
+                const countryB = b.data;
         
                 if (countryA > countryB) {
                 return -1;
@@ -160,8 +147,8 @@ Vue.component('stats', {
                 const ratio = (nbOfOccurences - min) / (max - min);
         
                 criteriaOccurencesWithRatio.push({
-                    criterium: criterium,
-                    nbOfOccurences: nbOfOccurences, 
+                    label: criterium,
+                    data: nbOfOccurences, 
                     ratio: ratio,
                     ratioPercent: (ratio * 100).toString() + "%",
                 });
@@ -169,8 +156,8 @@ Vue.component('stats', {
 
             // Sort in DESC
             criteriaOccurencesWithRatio.sort(function(a, b){
-                const criteriumA = a.nbOfOccurences
-                const criteriumB = b.nbOfOccurences;
+                const criteriumA = a.data
+                const criteriumB = b.data;
         
                 if (criteriumA > criteriumB) {
                 return -1;

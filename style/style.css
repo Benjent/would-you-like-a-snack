@@ -532,6 +532,153 @@ button:hover {
   padding: 15px 0;
 }
 
+.histogram-horizontal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.histogram-horizontal__caption {
+  padding-bottom: 50px;
+}
+
+.histogram-horizontal__datavis {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 150px;
+}
+
+.histogram-horizontal__datavis .datavis {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  width: 100%;
+}
+
+.histogram-horizontal__datavis .datavis__label {
+  width: 30%;
+  text-align: right;
+  padding-right: 10px;
+  overflow: hidden;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.histogram-horizontal__datavis .datavis__data {
+  padding: 5px;
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.histogram-horizontal__datavis .datavis__data .gauge {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 6px;
+  min-width: 30px;
+  height: 25px;
+  background: #d6be94;
+  color: #030504;
+}
+
+.histogram-vertical {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.histogram-vertical__caption {
+  padding-bottom: 50px;
+}
+
+.histogram-vertical__datavis {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 300px;
+  margin-bottom: 150px;
+}
+
+.histogram-vertical__datavis .datavis {
+  height: 100%;
+}
+
+.histogram-vertical__datavis .datavis__data {
+  padding: 5px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.histogram-vertical__datavis .datavis__data .gauge {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0px 6px;
+  min-height: 30px;
+  width: 25px;
+  background: #d6be94;
+  color: #030504;
+}
+
+.histogram-vertical__datavis .datavis__label {
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+  -webkit-writing-mode: sideways-lr;
+      -ms-writing-mode: sideways-lr;
+          writing-mode: sideways-lr;
+  position: relative;
+  margin-top: 20px;
+}
+
 #albumVue {
   width: 100vw;
   display: -webkit-box;
@@ -1279,17 +1426,6 @@ button:hover {
           align-items: center;
 }
 
-#statsVue .charts .histogram {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  height: 300px;
-  margin-bottom: 150px;
-}
-
 #statsVue .charts .table .row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1300,50 +1436,6 @@ button:hover {
   margin-right: 30px;
   width: 50px;
   display: block;
-}
-
-#statsVue .charts .albumsPerCategory {
-  height: 100%;
-}
-
-#statsVue .charts .albumsPerCategory .albumsPerCategory-nbOfAlbums {
-  padding: 5px;
-  height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-}
-
-#statsVue .charts .albumsPerCategory .albumsPerCategory-nbOfAlbums .gauge {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 0px 6px;
-  min-height: 30px;
-  width: 25px;
-  background: #d6be94;
-  color: #030504;
-}
-
-#statsVue .charts .albumsPerCategory .albumsPerCategory-legend {
-  -webkit-transform: rotate(30deg);
-          transform: rotate(30deg);
-  -webkit-transform-origin: top right;
-          transform-origin: top right;
-  -webkit-writing-mode: sideways-lr;
-      -ms-writing-mode: sideways-lr;
-          writing-mode: sideways-lr;
-  position: relative;
-  margin-top: 20px;
 }
 
 #aboutVue {

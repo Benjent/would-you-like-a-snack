@@ -10390,7 +10390,6 @@ function getAlbumById(id) {
     Tony Wright (traffic)
 */
 // TODO iframes deezer/spotify should be displayed just like in-fb messenger conv, and should be toggleable
-// TODO if a gem, create a whole section displaying the criteria + description (in the discxographies view)
 // TODO add subgenre : Groove, Jazz-Fusion avec Return to forvever(musicmagic) + messneger (children tomorrow) + foehn
 // TODO subgenres should be specified in the album db not manually
 // TODO new feature : album comparison: sur une scale de 1 à 10, how much soubd alike ? et du coup ça rapproche énormément les albums entre eux, agnostic des artisres
@@ -10400,8 +10399,7 @@ function getAlbumById(id) {
 // TODO parse tout le Prog introuvable et renseigner ici
 // TODO filter by year (range avec input min + max)
 // TODO update albums with new criteria (late 70's notamment)
-// TODO refact subgenres and absolute gems (db en props encore)
-// TODO create components for histograms and tables
+// TODO create components for tables
 
 // Here is the prototype of close-sounding albums:
 /*
