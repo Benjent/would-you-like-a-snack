@@ -5864,7 +5864,7 @@ const albums = [
         "artist": "Kansas",
         "year": 1980,
         "country": regions.USA,
-        "cover": pathToCovers + "/kansas_monolith.jpg",
+        "cover": pathToCovers + "/kansas_audiovisions.jpg",
         "criteria": [criteria.ODD_RHYTHM, criteria.C_FOLK, criteria.C_ELECTRO, criteria.SYMPHONIC, criteria.GLITTER, criteria.ORCHESTRAL_PARTS, criteria.ARENA, criteria.UNCOMMON_INSTRUMENTS],
         "selectedTrackTitle": "No One Together",
         "selectedTrackYtId": "ZLG0CGQVhRI",
