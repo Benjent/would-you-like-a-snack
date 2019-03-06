@@ -88,11 +88,6 @@ Vue.component('discographies', {
                         
                         <div class="album-data__criteria">
                             <div
-                                class="album-data__criterium--gem"
-                                v-if="selectedAlbum.isAGem">
-                                This album is a must-hear
-                            </div>
-                            <div
                                 class="album-data__criterium"
                                 v-for="criterium in computedCriteria">
                                 {{criterium}}
@@ -102,7 +97,7 @@ Vue.component('discographies', {
 
                 </div>
 
-                <div class="album-presentation__players">
+                <div class="album-presentation__description">
 
                     <div class="players">
 
@@ -145,6 +140,13 @@ Vue.component('discographies', {
                             </iframe>
                         </div>
 
+                    </div>
+
+                    <div
+                        class="description"
+                        v-if="selectedAlbum.isAGem">
+                        <div class="description__gem">This album is a must-hear</div>
+                        <blockquote class="description__content">{{selectedAlbum.description}}</blockquote>
                     </div>
 
                 </div>

@@ -148,23 +148,21 @@
             &__criterium {
                 margin-right: 50px;
                 font-size: 16px;
-
-                &--gem {
-                    font-size: 20px;
-                }
             }
             
         }
     }
 
-    .album-presentation__players {
+    .album-presentation__description {
+
+        display: flex;
 
         .players {
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
 
-            width: 300px;
+            // width: 300px;
 
             margin-bottom: 8px;
 
@@ -173,6 +171,24 @@
                 height: 300px;
 
                 border: solid 3px $primary;
+            }
+        }
+
+        .description {
+            max-width: 760px;
+
+            &__gem {
+                padding-left: 40px;
+                font-size: 22px;
+            }
+
+            &__content {
+                border-left: solid 3px;
+
+                padding: 10px 20px 20px 20px;
+
+                font-style: italic;
+                font-size: 1.2rem;
             }
         }
 

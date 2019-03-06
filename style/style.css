@@ -947,11 +947,13 @@ button:hover {
   font-size: 16px;
 }
 
-#discographiesVue .album-presentation .album-data__criterium--gem {
-  font-size: 20px;
+#discographiesVue .album-presentation__description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-#discographiesVue .album-presentation__players .players {
+#discographiesVue .album-presentation__description .players {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -962,14 +964,29 @@ button:hover {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  width: 300px;
   margin-bottom: 8px;
 }
 
-#discographiesVue .album-presentation__players .players__item {
+#discographiesVue .album-presentation__description .players__item {
   width: 500px;
   height: 300px;
   border: solid 3px #d6be94;
+}
+
+#discographiesVue .album-presentation__description .description {
+  max-width: 760px;
+}
+
+#discographiesVue .album-presentation__description .description__gem {
+  padding-left: 40px;
+  font-size: 22px;
+}
+
+#discographiesVue .album-presentation__description .description__content {
+  border-left: solid 3px;
+  padding: 10px 20px 20px 20px;
+  font-style: italic;
+  font-size: 1.2rem;
 }
 
 #gemsVue {

@@ -47,7 +47,7 @@ const albums = [
         "deezerId": "8240238",
         "designers": [],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     {
         "id": "agharta_agharta",
@@ -545,7 +545,7 @@ const albums = [
         "deezerId": "",
         "designers": ["Ariel Borremans", "Louis Legrand"],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     {
         "id": "aquarelle_live_a_montreux",
@@ -682,7 +682,7 @@ const albums = [
         "deezerId": "7960580",
         "designers": [],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     {
         "id": "arti_mestieri_quinto_stato",
@@ -758,7 +758,7 @@ const albums = [
         "deezerId": "",
         "designers": ["Uffe Hedlund"],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     {
         "id": "atomic_rooster_death_walks_behind_you",
@@ -894,7 +894,7 @@ const albums = [
         "deezerId": "",
         "designers": [],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     {
         "id": "axis_axis",
@@ -1123,7 +1123,7 @@ const albums = [
         "deezerId": "1124880",
         "designers": ["Clara Duranti"],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     {
         "id": "banco_del_mutuo_soccorso_come_in_un_ultima_cena",
@@ -1274,7 +1274,7 @@ const albums = [
         "deezerId": "",
         "designers": ["Bruno Fedetto"],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     {
         "id": "be_bop_deluxe_axe_victim",
@@ -1486,7 +1486,7 @@ const albums = [
         "deezerId": "",
         "designers": ["Bloomsbury Group", "Peter Goodfellow"],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     {
         "id": "beggars_opera_get_your_dog_off_me",
@@ -1804,7 +1804,7 @@ const albums = [
         "deezerId": "271701",
         "designers": [],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     {
         "id": "budgie_budgie",
@@ -1944,7 +1944,7 @@ const albums = [
         "deezerId": "123830",
         "designers": ["Modula"],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     {
         "id": "camel_the_snow_goose",
@@ -1991,7 +1991,7 @@ const albums = [
         "deezerId": "124288",
         "designers": ["Bob Searles"],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     {
         "id": "camel_breathless",
@@ -2204,7 +2204,7 @@ const albums = [
         "deezerId": "",
         "designers": ["Anne Marie Anderson"],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     {
         "id": "caravan_waterloo_lily",
@@ -2295,7 +2295,7 @@ const albums = [
         "deezerId": "1214907",
         "designers": ["Michael Wood", "Retina Circus"],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     {
         "id": "carlos_santana_and_john_mclaughlin_love_devotion_surrender",
@@ -2386,7 +2386,7 @@ const albums = [
         "deezerId": "",
         "designers": ["Christian Hügin"],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     {
         "id": "claude_leveillee_black_sun",
@@ -2555,7 +2555,7 @@ const albums = [
         "deezerId": "1338052",
         "designers": ["Juan Oreste Gatti"],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     {
         "id": "crucis_los_delirios_del_mariscal",
@@ -2571,7 +2571,7 @@ const albums = [
         "deezerId": "1338051",
         "designers": ["Juan Oreste Gatti"],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     {
         "id": "cromagnon_orgasm",
@@ -3101,7 +3101,7 @@ const albums = [
         "deezerId": "",
         "designers": [],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     {
         "id": "dr_dopo_jam_fat_dogs_and_danishmen",
@@ -3147,7 +3147,7 @@ const albums = [
         "deezerId": "59636732",
         "designers": ["Images Inées"],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     // ************************************************************************************ //
     // **************************************** E **************************************** //
@@ -4042,7 +4042,7 @@ const albums = [
         "deezerId": "5242381",
         "designers": ["Cal Schenkel"],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     {
         "id": "frank_zappa_over_nite_sensation",
@@ -4410,7 +4410,7 @@ const albums = [
         "deezerId": "302654",
         "designers": ["Betty Swanwick"],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     {
         "id": "genesis_the_lamb_lies_down_on_broadway",
@@ -4681,7 +4681,7 @@ const albums = [
         "deezerId": "129262",
         "designers": ["Dingo Virgin", "Maggie Thomas", "Tom Fu"],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     {
         "id": "gong_angels_egg",
@@ -4742,7 +4742,7 @@ const albums = [
         "deezerId": "329490",
         "designers": ["Jacques Moitoret"],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     {
         "id": "gong_expresso_ii",
@@ -4896,7 +4896,7 @@ const albums = [
         "deezerId": "259495",
         "designers": ["Louis-Pierre Bougie"],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     {
         "id": "harmonium_lheptade",
@@ -5200,7 +5200,7 @@ const albums = [
         "deezerId": "",
         "designers": ["Marcus Keef"],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     {
         "id": "island_pictures",
@@ -5216,7 +5216,7 @@ const albums = [
         "deezerId": "",
         "designers": ["H.R. Giger"],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     // ************************************************************************************ //
     // **************************************** J **************************************** //
@@ -5325,7 +5325,7 @@ const albums = [
         "deezerId": "248760",
         "designers": ["Eckford / Stimpson"],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     {
         "id": "jade_warrior_horizen",
@@ -5371,7 +5371,7 @@ const albums = [
         "deezerId": "11101076",
         "designers": ["Michel Granger"],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     {
         "id": "jean_michel_jarre_equinoxe",
@@ -5507,7 +5507,7 @@ const albums = [
         "deezerId": "300263",
         "designers": ["Chrysalis' Roy Eldridge"],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     {
         "id": "jethro_tull_a_passion_play",
@@ -5691,7 +5691,7 @@ const albums = [
         "deezerId": "59172662",
         "designers": ["Pelle Metérus"],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     {
         "id": "kaipa_inget_nytt_under_solen",
@@ -6282,7 +6282,7 @@ const albums = [
         "deezerId": "428496",
         "designers": ["Douanier Rousseau"],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     {
         "id": "led_zeppelin_led_zeppelin",
@@ -6343,7 +6343,7 @@ const albums = [
         "deezerId": "11591214",
         "designers": ["Barrington Colby", "Keith Morris"],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     {
         "id": "led_zeppelin_houses_of_the_holy",
@@ -6542,7 +6542,7 @@ const albums = [
         "deezerId": "44083",
         "designers": [],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     {
         "id": "magma_wurdah_itah",
@@ -6618,7 +6618,7 @@ const albums = [
         "deezerId": "98995",
         "designers": [],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     {
         "id": "mahavishnu_orchestra_birds_of_fire",
@@ -7069,7 +7069,7 @@ const albums = [
         "deezerId": "",
         "designers": ["Wanda Spinello"],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     {
         "id": "ml_bongers_project_pacific_prison",
@@ -7118,7 +7118,7 @@ const albums = [
         "deezerId": "128417",
         "designers": ["Jill Mumford"],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     {
         "id": "national_health_ds_al_coda",
@@ -7239,7 +7239,7 @@ const albums = [
         "deezerId": "86605",
         "designers": ["Tom Wilkes"],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     {
         "id": "neil_young_on_the_beach",
@@ -7285,7 +7285,7 @@ const albums = [
         "deezerId": "6305752",
         "designers": ["Helmut Wenske"],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     {
         "id": "nektar_sounds_like_this",
@@ -7772,7 +7772,7 @@ const albums = [
         "deezerId": "",
         "designers": [],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     {
         "id": "picchio_dal_pozzo_abbiamo_tutti_i_suoi_problemi",
@@ -7923,7 +7923,7 @@ const albums = [
         "deezerId": "59853992",
         "designers": ["Hipgnosis", "George Hardie"],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     {
         "id": "pink_floyd_wish_you_were_here",
@@ -7954,7 +7954,7 @@ const albums = [
         "deezerId": "1262266",
         "designers": ["Aubrey Powell", "Storm Thorgerson", "Roger Waters"],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     {
         "id": "pink_floyd_the_wall",
@@ -8120,7 +8120,7 @@ const albums = [
         "deezerId": "",
         "designers": ["Alain Golay", "Victor Bosch"],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     {
         "id": "pulsar_halloween",
@@ -8532,7 +8532,7 @@ const albums = [
         "deezerId": "6750057",
         "designers": ["Wilson McLean"],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     {
         "id": "return_to_forever_musicmagic",
@@ -8687,7 +8687,7 @@ const albums = [
         "deezerId": "1401719",
         "designers": ["Joan Chase"],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     {
         "id": "santana_welcome",
@@ -8763,7 +8763,7 @@ const albums = [
         "deezerId": "",
         "designers": ["Gordon Faggetter"],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     {
         "id": "serge_ramses_secret",
@@ -8794,7 +8794,7 @@ const albums = [
         "deezerId": "241263",
         "designers": ["Paula Scher", "John Alcorn"],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     {
         "id": "sir_lord_baltimore_kingdom_come",
@@ -8840,7 +8840,7 @@ const albums = [
         "deezerId": "",
         "designers": ["Publiphoto"],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     {
         "id": "soft_machine_third",
@@ -9142,7 +9142,7 @@ const albums = [
         "deezerId": "",
         "designers": ["Phil Timper"],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     {
         "id": "sway_human_carnage",
@@ -9204,7 +9204,7 @@ const albums = [
         "deezerId": "310780",
         "designers": ["Kochlowski"],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     {
         "id": "sweetwater_just_for_you",
@@ -9253,7 +9253,7 @@ const albums = [
         "deezerId": "8910217",
         "designers": ["Lang"],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     {
         "id": "tai_phong_last_flight",
@@ -10096,7 +10096,7 @@ const albums = [
         "deezerId": "82944",
         "designers": ["Roger Dean"],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     {
         "id": "yes_tales_from_topographic_oceans",
@@ -10251,7 +10251,7 @@ const albums = [
         "deezerId": "",
         "designers": [],
         "isAGem": true,
-        "description": "TODO"
+        "description": "TODO description"
     },
     {
         "id": "zoo_zoo",
@@ -10369,11 +10369,11 @@ function getAlbumById(id) {
     UFO
     The Who
 */
+// TODO split criteria, add property album type which is an enum between STUDIO, LIVE, LIVE & STUDIO, COMPILATION
 // TODO consider adding criteria :
 /*
     bluesy
     cheesy
-    arena rock
     influencial
     history-related
     ahead-of-its-time
@@ -10389,7 +10389,6 @@ function getAlbumById(id) {
     Hugh Syme (rush)
     Tony Wright (traffic)
 */
-// TODO add deezer id from N (included) to V (included)
 // TODO iframes deezer/spotify should be displayed just like in-fb messenger conv, and should be toggleable
 // TODO if a gem, create a whole section displaying the criteria + description (in the discxographies view)
 // TODO add subgenre : Groove, Jazz-Fusion avec Return to forvever(musicmagic) + messneger (children tomorrow) + foehn
@@ -10399,7 +10398,6 @@ function getAlbumById(id) {
 // TODO lister instruments
 // TODO use VueX/Store for selected album and view
 // TODO parse tout le Prog introuvable et renseigner ici
-// TODO faire un from the same artist
 // TODO filter by year (range avec input min + max)
 // TODO update albums with new criteria (late 70's notamment)
 // TODO refact subgenres and absolute gems (db en props encore)
@@ -10408,4 +10406,5 @@ function getAlbumById(id) {
 // Here is the prototype of close-sounding albums:
 /*
     Kansas - Bloodrock
+    Fuzzy Duck - Titus Groan
 */
