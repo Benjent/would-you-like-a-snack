@@ -706,7 +706,7 @@ const albums = [
         "year": 1982,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/asia_asia.jpg",
-        "criteria": [criteria.JAM, criteria.C_ELECTRO, criteria.ROCK, criteria.NEO_EIGHTIES],
+        "criteria": [criteria.JAM, criteria.C_ELECTRO, criteria.ROCK, criteria.NEO_EIGHTIES, criteria.ARENA],
         "selectedTrackTitle": "Time Again",
         "selectedTrackYtId": "YCWNYKRtRFs",
         "spotifyId": "5TkfP3cqWgeBvCugPeiGNl",
@@ -721,7 +721,7 @@ const albums = [
         "year": 1983,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/asia_alpha.jpg",
-        "criteria": [criteria.JAM, criteria.C_ELECTRO, criteria.ROCK, criteria.NEO_EIGHTIES],
+        "criteria": [criteria.JAM, criteria.C_ELECTRO, criteria.ROCK, criteria.NEO_EIGHTIES, criteria.ARENA],
         "selectedTrackTitle": "The Heat Goes On",
         "selectedTrackYtId": "Hbw3HA3lMMU",
         "spotifyId": "0MdsnpmztQLrbUDzXZeT8v",
@@ -736,7 +736,7 @@ const albums = [
         "year": 1985,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/asia_astra.jpg",
-        "criteria": [criteria.JAM, criteria.C_ELECTRO, criteria.ROCK, criteria.NEO_EIGHTIES],
+        "criteria": [criteria.JAM, criteria.C_ELECTRO, criteria.ROCK, criteria.NEO_EIGHTIES, criteria.ARENA],
         "selectedTrackTitle": "Go",
         "selectedTrackYtId": "9TiGDuI9d6Y",
         "spotifyId": "4vWbvwBYgwtDUVMVx5DtNe",
@@ -2984,7 +2984,7 @@ const albums = [
     },
     {
         "id": "dixie_dregs_industry_standards",
-        "title": "Unsung Heroes",
+        "title": "Industry Standards",
         "artist": "Dixie Dregs",
         "year": 1982,
         "country": regions.USA,
@@ -3626,7 +3626,7 @@ const albums = [
         "year": 1986,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/emerson_lake_and_powell_emerson_lake_and_powell.jpg",
-        "criteria": [criteria.ELECTRO, criteria.GLITTER, criteria.NEO_EIGHTIES, criteria.SPECTACULAR, criteria.C_JAZZ, criteria.ODD_RHYTHM],
+        "criteria": [criteria.ELECTRO, criteria.GLITTER, criteria.NEO_EIGHTIES, criteria.SPECTACULAR, criteria.C_JAZZ, criteria.ODD_RHYTHM, criteria.ARENA],
         "selectedTrackTitle": "The Score",
         "selectedTrackYtId": "n0Oz9Eqouc4",
         "spotifyId": "2YKjFHhp52XE2ot0u2GZsh",
@@ -5760,12 +5760,117 @@ const albums = [
         "year": 1976,
         "country": regions.AUSTRALIA,
         "cover": pathToCovers + "/kanguru_dreaming.jpg",
-        "criteria": [criteria.INSTRUMENTAL, criteria.JAM, criteria.LENGTHY_TRACKS, criteria.SOFT, criteria.ORIENTAL, criteria.AMBIENT, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC],
+        "criteria": [criteria.INSTRUMENTAL, criteria.JAM, criteria.LENGTHY_TRACKS, criteria.SOFT, criteria.ORIENTAL, criteria.AMBIENT, criteria.UNCOMMON_INSTRUMENTS, criteria.C_PSYCHEDELIC, criteria.FEMALE],
         "selectedTrackTitle": "Ras Lila",
         "selectedTrackYtId": "eNTd_BY_zsI",
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "isAGem": false
+    },
+    {
+        "id": "kansas_kansas",
+        "title": "Kansas",
+        "artist": "Kansas",
+        "year": 1974,
+        "country": regions.USA,
+        "cover": pathToCovers + "/kansas_kansas.jpg",
+        "criteria": [criteria.ODD_RHYTHM, criteria.SYMPHONIC, criteria.HEAVY, criteria.C_FOLK, criteria.JAM],
+        "selectedTrackTitle": "Aperçu",
+        "selectedTrackYtId": "y9SWITyQjmQ",
+        "spotifyId": "5DwyFzATQVpvXqG4HXaJMj",
+        "deezerId": "75348",
+        "designers": ["John Steuart Curry"],
+        "isAGem": false
+    },
+    {
+        "id": "kansas_song_for_america",
+        "title": "Song For America",
+        "artist": "Kansas",
+        "year": 1975,
+        "country": regions.USA,
+        "cover": pathToCovers + "/kansas_song_for_america.jpg",
+        "criteria": [criteria.ODD_RHYTHM, criteria.SYMPHONIC, criteria.HEAVY, criteria.C_FOLK, criteria.C_ELECTRO, criteria.JAM],
+        "selectedTrackTitle": "Incomudro - Hymn To The Atman",
+        "selectedTrackYtId": "QmSdct1_Gfg",
+        "spotifyId": "0qxtKWBLB8jFFSqEZ56xqM",
+        "deezerId": "75256",
+        "designers": ["Peter Lloyd"],
+        "isAGem": false
+    },
+    {
+        "id": "kansas_masque",
+        "title": "Masque",
+        "artist": "Kansas",
+        "year": 1975,
+        "country": regions.USA,
+        "cover": pathToCovers + "/kansas_masque.jpg",
+        "criteria": [criteria.ODD_RHYTHM, criteria.SYMPHONIC, criteria.HEAVY, criteria.C_FOLK, criteria.C_ELECTRO],
+        "selectedTrackTitle": "Icarus - Borne On Wings Of Steel",
+        "selectedTrackYtId": "Kesio4k-dMU",
+        "spotifyId": "3ErpZfUzDkjSIjSU3CC4RU",
+        "deezerId": "78376",
+        "designers": ["Giuseppe Arcimboldo", "Flournoy Holmes"],
+        "isAGem": false
+    },
+    {
+        "id": "kansas_leftoverture",
+        "title": "Leftoverture",
+        "artist": "Kansas",
+        "year": 1976,
+        "country": regions.USA,
+        "cover": pathToCovers + "/kansas_leftoverture.jpg",
+        "criteria": [criteria.ODD_RHYTHM, criteria.SYMPHONIC, criteria.HEAVY, criteria.C_FOLK, criteria.C_ELECTRO],
+        "selectedTrackTitle": "Miracles Out Of Nowhere",
+        "selectedTrackYtId": "jseTa7HUIDU",
+        "spotifyId": "7MejfRSNnrpcLZIxkeZDqR",
+        "deezerId": "78167",
+        "designers": ["David McMacken"],
+        "isAGem": false
+    },
+    {
+        "id": "kansas_point_of_know_return",
+        "title": "Point Of Know Return",
+        "artist": "Kansas",
+        "year": 1977,
+        "country": regions.USA,
+        "cover": pathToCovers + "/kansas_point_of_know_return.jpg",
+        "criteria": [criteria.ODD_RHYTHM, criteria.SYMPHONIC, criteria.HEAVY, criteria.C_FOLK, criteria.C_ELECTRO, criteria.TRANSITION, criteria.UNCOMMON_INSTRUMENTS],
+        "selectedTrackTitle": "The Spider",
+        "selectedTrackYtId": "eVCNIWdJz_k",
+        "spotifyId": "6oU298pdPTCQnMx1PYwyUA",
+        "deezerId": "96016",
+        "designers": ["Peter Lloyd"],
+        "isAGem": false
+    },
+    {
+        "id": "kansas_monolith",
+        "title": "Monolith",
+        "artist": "Kansas",
+        "year": 1979,
+        "country": regions.USA,
+        "cover": pathToCovers + "/kansas_monolith.jpg",
+        "criteria": [criteria.ODD_RHYTHM, criteria.C_FOLK, criteria.C_ELECTRO, criteria.JAZZY_GROOVY, criteria.GLITTER, criteria.SOUND_COLLAGES],
+        "selectedTrackTitle": "A Glimpse Of Home",
+        "selectedTrackYtId": "6QW_xi-5Gho",
+        "spotifyId": "4qRDOvTdOTI1qX62pdQZak",
+        "deezerId": "3093221",
+        "designers": ["Bruce Wolfe"],
+        "isAGem": false
+    },
+    {
+        "id": "kansas_audiovisions",
+        "title": "Audio-Visions",
+        "artist": "Kansas",
+        "year": 1980,
+        "country": regions.USA,
+        "cover": pathToCovers + "/kansas_monolith.jpg",
+        "criteria": [criteria.ODD_RHYTHM, criteria.C_FOLK, criteria.C_ELECTRO, criteria.SYMPHONIC, criteria.GLITTER, criteria.ORCHESTRAL_PARTS, criteria.ARENA, criteria.UNCOMMON_INSTRUMENTS],
+        "selectedTrackTitle": "No One Together",
+        "selectedTrackYtId": "ZLG0CGQVhRI",
+        "spotifyId": "6mkFLh2kDYQwIMkCctbGqU",
+        "deezerId": "3093211",
+        "designers": ["Peter Lloyd"],
         "isAGem": false
     },
     {
@@ -7858,7 +7963,7 @@ const albums = [
         "year": 1979,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/pink_floyd_the_wall.jpg",
-        "criteria": [criteria.CONCEPT, criteria.TRANSITION, criteria.SOUND_COLLAGES, criteria.BLENDS, criteria.SPECTACULAR, criteria.ROCK_OPERA, criteria.TOUCHING_VOCALS, criteria.NEO_EIGHTIES],
+        "criteria": [criteria.CONCEPT, criteria.TRANSITION, criteria.SOUND_COLLAGES, criteria.BLENDS, criteria.SPECTACULAR, criteria.ROCK_OPERA, criteria.TOUCHING_VOCALS, criteria.NEO_EIGHTIES, criteria.ARENA],
         "selectedTrackTitle": "The Trial",
         "selectedTrackYtId": "4fa7AtI1msk",
         "spotifyId": "6WaIQHxEHtZL0RZ62AuY0g",
@@ -8165,7 +8270,7 @@ const albums = [
         "year": 1976,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/rainbow_rising.jpg",
-        "criteria": [criteria.JAM, criteria.ROCK, criteria.SPECTACULAR, criteria.HEAVY, criteria.FANTASY],
+        "criteria": [criteria.JAM, criteria.ROCK, criteria.SPECTACULAR, criteria.HEAVY, criteria.FANTASY, criteria.ARENA],
         "selectedTrackTitle": "Stargazer",
         "selectedTrackYtId": "rVXy1OhaERY",
         "spotifyId": "3uIT4I4Dy7Pq1j0aSjzPW9",
@@ -8180,7 +8285,7 @@ const albums = [
         "year": 1978,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/rainbow_long_live_rock_n_roll.jpg",
-        "criteria": [criteria.JAM, criteria.ROCK, criteria.SPECTACULAR, criteria.HEAVY, criteria.FANTASY],
+        "criteria": [criteria.JAM, criteria.ROCK, criteria.SPECTACULAR, criteria.HEAVY, criteria.FANTASY, criteria.ARENA],
         "selectedTrackTitle": "Gates Of Babylon",
         "selectedTrackYtId": "MHCdCbTxypU",
         "spotifyId": "56JX1fNOjTa7Bj7G18nxSq",
@@ -8583,6 +8688,21 @@ const albums = [
         "designers": ["Joan Chase"],
         "isAGem": true,
         "description": "TODO"
+    },
+    {
+        "id": "santana_welcome",
+        "title": "Welcome",
+        "artist": "Santana",
+        "year": 1973,
+        "country": regions.USA,
+        "cover": pathToCovers + "/santana_welcome.jpg",
+        "criteria": [criteria.C_JAZZ, criteria.JAZZY_GROOVY, criteria.FEMALE, criteria.JAM, criteria.UNCOMMON_INSTRUMENTS, criteria.ODD_RHYTHM],
+        "selectedTrackTitle": "Mother Africa",
+        "selectedTrackYtId": "1d-i_NacF9g",
+        "spotifyId": "0luB0sB15mLFitTOJqJJwT",
+        "deezerId": "7740338",
+        "designers": ["Randy Tuten"],
+        "isAGem": false
     },
     {
         "id": "santana_borboletta",
@@ -10188,7 +10308,7 @@ const albums = [
         "year": 1988,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/three_to_the_power_of_three.jpg",
-        "criteria": [criteria.ROCK, criteria.C_ELECTRO, criteria.GLITTER, criteria.NEO_EIGHTIES, criteria.SPECTACULAR],
+        "criteria": [criteria.ROCK, criteria.C_ELECTRO, criteria.GLITTER, criteria.NEO_EIGHTIES, criteria.SPECTACULAR, criteria.ARENA],
         "selectedTrackTitle": "Desde La Vida",
         "selectedTrackYtId": "gy6rJI9-fRk",
         "spotifyId": "2LEJ4JpSDbMK3M9RNGEYCC",
@@ -10233,7 +10353,6 @@ function getAlbumById(id) {
     ESKATON
     Faust
     Fruupp  
-    George Duke
     Gryphon
     Hawkwind
     Iron Claw
@@ -10245,7 +10364,6 @@ function getAlbumById(id) {
     Premiata Forneria Marconi
     Procol Harum
     Ralph Lundsten
-    Santana
     Soft Machine
     Strawbs
     UFO
@@ -10254,6 +10372,8 @@ function getAlbumById(id) {
 // TODO consider adding criteria :
 /*
     bluesy
+    cheesy
+    arena rock
     influencial
     history-related
     ahead-of-its-time
@@ -10284,3 +10404,8 @@ function getAlbumById(id) {
 // TODO update albums with new criteria (late 70's notamment)
 // TODO refact subgenres and absolute gems (db en props encore)
 // TODO create components for histograms and tables
+
+// Here is the prototype of close-sounding albums:
+/*
+    Kansas - Bloodrock
+*/
