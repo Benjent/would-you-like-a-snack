@@ -15,22 +15,6 @@ Vue.component('album', {
                     <div class="album-title">{{selectedAlbum.title}}</div>
                     <div class="album-year">{{selectedAlbum.year}}</div>
                     <div class="album-country">{{selectedAlbum.country}}</div>
-                    <div class="album-designer" v-if="selectedAlbum.designers.length > 0">
-                        Cover by 
-                        <template v-for="(designer, index) in selectedAlbum.designers">
-                            {{designer}}<span v-if="index < selectedAlbum.designers.length - 1">, </span>
-                        </template>
-                    </div>
-                    <div>Selected track: <span class="album-selected-track">{{selectedAlbum.selectedTrackTitle}}</span></div>
-                    <a
-                        v-if="selectedAlbum.selectedTrackYtId"
-                        :href=youtubePath
-                        target="_blank">
-                        <img
-                            class="youtube-logo"
-                            :src=youtubeLogoPath
-                            alt="">
-                    </a>
 
                 </div>
 
@@ -50,6 +34,23 @@ Vue.component('album', {
                         {{criterium}}
                     </div>
                 </div>
+            </div>
+
+            <div class="album-selected-track-wrapper">
+                Start with the song
+                <span class="album-selected-track">{{selectedAlbum.selectedTrackTitle}}</span>
+                <span v-if="selectedAlbum.selectedTrackYtId">
+                    on
+                    <a
+                        :href=youtubePath
+                        target="_blank">
+                        <img
+
+                            class="youtube-logo"
+                            :src=youtubeLogoPath
+                            alt="">
+                    </a>
+                </span>
             </div>
 
             <button

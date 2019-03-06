@@ -2,6 +2,7 @@
     width: 100vw;
     display: flex;
     flex-direction: column;
+    align-items: center;
     @include vue;
 
     button {
@@ -28,13 +29,6 @@
                 font-style: italic;
                 font-size: 38px;
             }
-            .album-selected-track {
-                font-style: italic;
-            }
-            .youtube-logo {
-                width: 100px;
-                margin-top: 10px;
-            }
             #player {
                 display: block;
                 border: solid 3px $primary;
@@ -45,6 +39,7 @@
         .album-cover-wrapper {
             display: flex;
             margin: 45px;
+            margin-bottom: 25px;
             @include albumCover;
             width: auto;
             img {
@@ -63,5 +58,20 @@
         .album-criteria {
             width: 45%;
         }
+
     }
+
+    .album-selected-track-wrapper {
+        margin-bottom: 45px;
+        .album-selected-track {
+            font-style: italic;
+            padding: 0 5px;
+        }
+        .youtube-logo {
+            width: 100px;
+            margin-top: 10px;
+        }
+    }
+
+
 }
