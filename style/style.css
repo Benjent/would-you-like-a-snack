@@ -85,11 +85,11 @@ select::-moz-focus-inner {
 }
 
 a {
-  color: #375456;
+  color: #d6be94;
 }
 
 a:hover, a:focus {
-  color: #375456;
+  color: #d6be94;
 }
 
 @-webkit-keyframes GradientWave {
@@ -541,6 +541,9 @@ button:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100%;
   height: 94vh;
   overflow-y: auto;
@@ -583,15 +586,6 @@ button:hover {
   font-size: 38px;
 }
 
-#albumVue .content .album-metadata .album-selected-track {
-  font-style: italic;
-}
-
-#albumVue .content .album-metadata .youtube-logo {
-  width: 100px;
-  margin-top: 10px;
-}
-
 #albumVue .content .album-metadata #player {
   display: block;
   border: solid 3px #d6be94;
@@ -603,6 +597,7 @@ button:hover {
   display: -ms-flexbox;
   display: flex;
   margin: 45px;
+  margin-bottom: 25px;
   height: 300px;
   border: solid 5px #d6be94;
   width: auto;
@@ -619,6 +614,20 @@ button:hover {
 
 #albumVue .content .album-criteria {
   width: 45%;
+}
+
+#albumVue .album-selected-track-wrapper {
+  margin-bottom: 45px;
+}
+
+#albumVue .album-selected-track-wrapper .album-selected-track {
+  font-style: italic;
+  padding: 0 5px;
+}
+
+#albumVue .album-selected-track-wrapper .youtube-logo {
+  width: 100px;
+  margin-top: 10px;
 }
 
 #timelineVue {
