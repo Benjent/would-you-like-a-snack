@@ -4,7 +4,7 @@ Vue.component('the-nav-bar', {
 
             <h1
                 class="header__headline"
-                v-on:click="$emit('set-current-vue', 'album')">
+                v-on:click="$store.commit('setCurrentView', views.ALBUM)">
                 Would you like a snack
             </h1>
 
@@ -13,68 +13,54 @@ Vue.component('the-nav-bar', {
                 <div class="menu">
                     <div
                         class="menu__button"
-                        :class="{'menu__button--active': currentVue == item.id}"
+                        :class="{'menu__button--active': $store.state.currentView == item.id}"
                         v-for="item in menuDefinition"
-                        v-on:click="$emit('set-current-vue', item.id)">
+                        v-on:click="$store.commit('setCurrentView', item.id)">
                         
                         <div class="text">{{item.text}}</div>
-                        <arrow v-if="currentVue == item.id"></arrow>
+                        <arrow v-if="$store.state.currentView == item.id"></arrow>
                         
                     </div>
                 </div>
 
             </div>
 
-            <searchbar
-                class="header__searchbar"
-                :db="db"
-                v-on:album-click="handleSearchbarAlbumClick">
-            </searchbar>
+            <searchbar class="header__searchbar"></searchbar>
         </header> 
     `,
-    props: ['currentVue', 'db'],
-    data: function () {
+    data() {
         return {
+            views: views,
             menuDefinition: {
                 attic: {
-                    id: "attic",
+                    id: views.ATTIC,
                     text: "What's in the attic"
                 },
                 discographies: {
-                    id: "discographies",
+                    id: views.DISCOGRAPHIES,
                     text: "Discographies"
                 },
                 gems: {
-                    id: "gems",
+                    id: views.GEMS,
                     text: "Gems"
                 },
                 subgenres: {
-                    id: "subgenres",
+                    id: views.SUBGENRES,
                     text: "Subgenres"
                 },
                 designers: {
-                    id: "designers",
+                    id: views.DESIGNERS,
                     text: "Designers"
                 },
                 stats: {
-                    id: "stats",
+                    id: views.STATS,
                     text: "Stats"
                 },
                 about: {
-                    id: "about",
+                    id: views.ABOUT,
                     text: "About the project"
                 }
             }
         }
     },
-    methods: {
-        handleSearchbarAlbumClick: function(album) {
-            this.$emit('album-click', album);
-        }
-    },
-    computed: {
-        vinylPath() {
-            return pathToImg + "/vinyle_gold.png"
-        },
-    }
 })

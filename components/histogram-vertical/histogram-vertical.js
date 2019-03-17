@@ -13,8 +13,7 @@ Vue.component('histogram-vertical', {
         </div>
     `,
     props: ['caption', 'datasource'],
-    data: function () {
-        return {
-        }
+    data() {
+        return {}
     }
 })

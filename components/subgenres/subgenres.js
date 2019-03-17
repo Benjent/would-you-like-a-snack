@@ -10,14 +10,14 @@ Vue.component('subgenres', {
                         class="album-cover"
                         v-for="album in subgenre.albums"
                         :album-id="album.id"
-                        v-on:click="$emit('album-click', album)"
+                        v-on:click="selectAlbumAndView(album)"
                         :src=album.cover alt="">
                 </div>
 
                 <img
                     class="album-cover most-representative"
                     :album-id="subgenre.mostRepresentativeAlbum.id"
-                    v-on:click="$emit('album-click', subgenre.mostRepresentativeAlbum)"
+                    v-on:click="selectAlbumAndView(subgenre.mostRepresentativeAlbum)"
                     :src=subgenre.mostRepresentativeAlbum.cover alt="">
 
                 <div class="subgenre-infos">
@@ -39,9 +39,16 @@ Vue.component('subgenres', {
             </div>
         </section>
     `,
-    props: ['db'],
-    data: function () {
+    data() {
         return {
+            db: store.state.db,
+            views: views
+        }
+    },
+    methods: {
+        selectAlbumAndView(album) {
+            store.commit('selectAlbum', album);
+            store.commit('setCurrentView', views.DISCOGRAPHIES);
         }
     }
 })

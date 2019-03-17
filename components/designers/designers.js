@@ -17,22 +17,30 @@ Vue.component('designers', {
                             class="album-wrapper"
                             v-for="album in designer[1].works"
                             :album-id="album.id"
-                            v-on:click="$emit('album-click', album)">
+                            v-on:click="selectAlbumAndView(album)">
 
                             <album-thumb
                                 :album="album"
-                                v-on:click="$emit('album-click', album)">
+                                v-on:click="selectAlbumAndView(album)">
             
                             </album-thumb>
                         </div>
                     </div>
                 </div>
+            </div>
 
         </section>
     `,
-    props: ['db'],
-    data: function () {
+    data() {
         return {
+            db: store.state.db,
+            views: views
+        }
+    },
+    methods: {
+        selectAlbumAndView(album) {
+            store.commit('selectAlbum', album);
+            store.commit('setCurrentView', views.DISCOGRAPHIES);
         }
     }
 })

@@ -71,7 +71,7 @@ Vue.component('attic', {
                     class="album-wrapper"
                     v-for="album in db.albums"
                     :album-id="album.id"
-                    v-on:click="$emit('album-click', album)">
+                    v-on:click="selectAlbumAndView(album)">
 
                     <album-thumb :album="album">
                     </album-thumb>
@@ -82,14 +82,14 @@ Vue.component('attic', {
 
         </section>
     `,
-    props: ['db'],
-    data: function () {
+    data() {
+        const db = store.state.db; // Needs to be declared first to be used UNLESS refact in ENUM outside of DB
 
         const filter = [
             // Type panel
             [
                 {
-                    "criterium": this.db.criteria.CONCEPT,
+                    "criterium": db.criteria.CONCEPT,
                     "panel": "Type",
                     "string": "Concept album",
                     "checked": false,
@@ -97,7 +97,7 @@ Vue.component('attic', {
                     "radioFamily": "type",
                 },
                 {
-                    "criterium": this.db.criteria.STORYLINE,
+                    "criterium": db.criteria.STORYLINE,
                     "panel": "Type",
                     "string": "Storyline",
                     "checked": false,
@@ -105,7 +105,7 @@ Vue.component('attic', {
                     "radioFamily": "type",
                 },
                 {
-                    "criterium": this.db.criteria.SOUNDTRACK,
+                    "criterium": db.criteria.SOUNDTRACK,
                     "panel": "Type",
                     "string": "Soundtrack album",
                     "checked": false,
@@ -113,7 +113,7 @@ Vue.component('attic', {
                     "radioFamily": "type",
                 },
                 {
-                    "criterium": this.db.criteria.LIVE,
+                    "criterium": db.criteria.LIVE,
                     "panel": "Type",
                     "string": "Live album",
                     "checked": false,
@@ -123,7 +123,7 @@ Vue.component('attic', {
             // Language panel
             [
                 {
-                    "criterium": this.db.criteria.FRENCH_SUNG,
+                    "criterium": db.criteria.FRENCH_SUNG,
                     "panel": "Language",
                     "string": "French",
                     "checked": false,
@@ -131,7 +131,7 @@ Vue.component('attic', {
                     "radioFamily": "language",
                 },
                 {
-                    "criterium": this.db.criteria.ITALIAN_SUNG,
+                    "criterium": db.criteria.ITALIAN_SUNG,
                     "panel": "Language",
                     "string": "Italian",
                     "checked": false,
@@ -139,7 +139,7 @@ Vue.component('attic', {
                     "radioFamily": "language",
                 },
                 {
-                    "criterium": this.db.criteria.SPANISH_SUNG,
+                    "criterium": db.criteria.SPANISH_SUNG,
                     "panel": "Language",
                     "string": "Spanish",
                     "checked": false,
@@ -147,7 +147,7 @@ Vue.component('attic', {
                     "radioFamily": "language",
                 },
                 {
-                    "criterium": this.db.criteria.SWEDISH_SUNG,
+                    "criterium": db.criteria.SWEDISH_SUNG,
                     "panel": "Language",
                     "string": "Swedish",
                     "checked": false,
@@ -155,7 +155,7 @@ Vue.component('attic', {
                     "radioFamily": "language",
                 },
                 {
-                    "criterium": this.db.criteria.ZEUHL,
+                    "criterium": db.criteria.ZEUHL,
                     "panel": "Language",
                     "string": "Zeuhl",
                     "checked": false,
@@ -166,7 +166,7 @@ Vue.component('attic', {
             // Theme panel
             [
                 {
-                    "criterium": this.db.criteria.SCI_FI,
+                    "criterium": db.criteria.SCI_FI,
                     "panel": "Theme",
                     "string": "Sci-fi",
                     "checked": false,
@@ -174,7 +174,7 @@ Vue.component('attic', {
                     "radioFamily": "theme",
                 },
                 {
-                    "criterium": this.db.criteria.FANTASY,
+                    "criterium": db.criteria.FANTASY,
                     "panel": "Theme",
                     "string": "Fantasy",
                     "checked": false,
@@ -182,7 +182,7 @@ Vue.component('attic', {
                     "radioFamily": "theme",
                 },
                 {
-                    "criterium": this.db.criteria.MEDIEVAL,
+                    "criterium": db.criteria.MEDIEVAL,
                     "panel": "Theme",
                     "string": "Medieval",
                     "checked": false,
@@ -190,7 +190,7 @@ Vue.component('attic', {
                     "radioFamily": "theme",
                 },
                 {
-                    "criterium": this.db.criteria.OCCULT,
+                    "criterium": db.criteria.OCCULT,
                     "panel": "Theme",
                     "string": "Occult",
                     "checked": false,
@@ -198,7 +198,7 @@ Vue.component('attic', {
                     "radioFamily": "theme",
                 },
                 {
-                    "criterium": this.db.criteria.SPIRITUAL,
+                    "criterium": db.criteria.SPIRITUAL,
                     "panel": "Theme",
                     "string": "Spiritual",
                     "checked": false,
@@ -209,7 +209,7 @@ Vue.component('attic', {
             // Main genre panel
             [
                 {
-                    "criterium": this.db.criteria.ROCK,
+                    "criterium": db.criteria.ROCK,
                     "panel": "Main genre",
                     "string": "Rock",
                     "checked": false,
@@ -217,7 +217,7 @@ Vue.component('attic', {
                     "radioFamily": "mainGenre",
                 },
                 {
-                    "criterium": this.db.criteria.JAZZ,
+                    "criterium": db.criteria.JAZZ,
                     "panel": "Main genre",
                     "string": "Jazz",
                     "checked": false,
@@ -225,7 +225,7 @@ Vue.component('attic', {
                     "radioFamily": "mainGenre",
                 },
                 {
-                    "criterium": this.db.criteria.FOLK,
+                    "criterium": db.criteria.FOLK,
                     "panel": "Main genre",
                     "string": "Folk",
                     "checked": false,
@@ -233,7 +233,7 @@ Vue.component('attic', {
                     "radioFamily": "mainGenre",
                 },
                 {
-                    "criterium": this.db.criteria.ELECTRO,
+                    "criterium": db.criteria.ELECTRO,
                     "panel": "Main genre",
                     "string": "Electro",
                     "checked": false,
@@ -241,7 +241,7 @@ Vue.component('attic', {
                     "radioFamily": "mainGenre",
                 },
                 {
-                    "criterium": this.db.criteria.ART_POP,
+                    "criterium": db.criteria.ART_POP,
                     "panel": "Main genre",
                     "string": "Art Pop",
                     "checked": false,
@@ -252,35 +252,35 @@ Vue.component('attic', {
             // Contains elements of panel
             [
                 {
-                    "criterium": this.db.criteria.C_JAZZ,
+                    "criterium": db.criteria.C_JAZZ,
                     "panel": "Contains elements of",
                     "string": "Jazz",
                     "checked": false,
                     "isRadio": false,
                 },
                 {
-                    "criterium": this.db.criteria.C_FOLK,
+                    "criterium": db.criteria.C_FOLK,
                     "panel": "Contains elements of",
                     "string": "Folk",
                     "checked": false,
                     "isRadio": false,
                 },
                 {
-                    "criterium": this.db.criteria.C_ELECTRO,
+                    "criterium": db.criteria.C_ELECTRO,
                     "panel": "Contains elements of",
                     "string": "Electro",
                     "checked": false,
                     "isRadio": false,
                 },
                 {
-                    "criterium": this.db.criteria.C_PSYCHEDELIC,
+                    "criterium": db.criteria.C_PSYCHEDELIC,
                     "panel": "Contains elements of",
                     "string": "Psychedelism",
                     "checked": false,
                     "isRadio": false,
                 },
                 {
-                    "criterium": this.db.criteria.BLENDS,
+                    "criterium": db.criteria.BLENDS,
                     "panel": "Contains elements of",
                     "string": "Many music genres",
                     "checked": false,
@@ -291,105 +291,105 @@ Vue.component('attic', {
             // Style panel
             [
                 {
-                    "criterium": this.db.criteria.ODD_RHYTHM,
+                    "criterium": db.criteria.ODD_RHYTHM,
                     "panel": "Style",
                     "string": "Odd rhythm signatures",
                     "checked": false,
                     "isRadio": false,
                 },
                 {
-                    "criterium": this.db.criteria.TECHNICAL,
+                    "criterium": db.criteria.TECHNICAL,
                     "panel": "Style",
                     "string": "Technical",
                     "checked": false,
                     "isRadio": false,
                 },
                 {
-                    "criterium": this.db.criteria.INSTRUMENTAL,
+                    "criterium": db.criteria.INSTRUMENTAL,
                     "panel": "Style",
                     "string": "Mainly instrumental",
                     "checked": false,
                     "isRadio": false,
                 },
                 {
-                    "criterium": this.db.criteria.EXPERIMENTAL,
+                    "criterium": db.criteria.EXPERIMENTAL,
                     "panel": "Style",
                     "string": "Experimental",
                     "checked": false,
                     "isRadio": false,
                 },
                 {
-                    "criterium": this.db.criteria.JAM,
+                    "criterium": db.criteria.JAM,
                     "panel": "Style",
                     "string": "Jam-oriented",
                     "checked": false,
                     "isRadio": false,
                 },
                 {
-                    "criterium": this.db.criteria.SOPHISTICATED,
+                    "criterium": db.criteria.SOPHISTICATED,
                     "panel": "Style",
                     "string": "Sophisticated",
                     "checked": false,
                     "isRadio": false,
                 },
                 {
-                    "criterium": this.db.criteria.JAZZY_GROOVY,
+                    "criterium": db.criteria.JAZZY_GROOVY,
                     "panel": "Style",
                     "string": "Jazzy groovy",
                     "checked": false,
                     "isRadio": false,
                 },
                 {
-                    "criterium": this.db.criteria.ROCK_OPERA,
+                    "criterium": db.criteria.ROCK_OPERA,
                     "panel": "Style",
                     "string": "Rock opera",
                     "checked": false,
                     "isRadio": false,
                 },
                 {
-                    "criterium": this.db.criteria.FANFARE,
+                    "criterium": db.criteria.FANFARE,
                     "panel": "Style",
                     "string": "Fanfare",
                     "checked": false,
                     "isRadio": false,
                 },
                 {
-                    "criterium": this.db.criteria.SPACY,
+                    "criterium": db.criteria.SPACY,
                     "panel": "Style",
                     "string": "Spacy",
                     "checked": false,
                     "isRadio": false,
                 },
                 {
-                    "criterium": this.db.criteria.GLITTER,
+                    "criterium": db.criteria.GLITTER,
                     "panel": "Style",
                     "string": "Star-symphonic",
                     "checked": false,
                     "isRadio": false,
                 },
                 {
-                    "criterium": this.db.criteria.AMBIENT,
+                    "criterium": db.criteria.AMBIENT,
                     "panel": "Style",
                     "string": "Ambient",
                     "checked": false,
                     "isRadio": false,
                 },
                 {
-                    "criterium": this.db.criteria.ORIENTAL,
+                    "criterium": db.criteria.ORIENTAL,
                     "panel": "Style",
                     "string": "Oriental",
                     "checked": false,
                     "isRadio": false,
                 },
                 {
-                    "criterium": this.db.criteria.RENAISSANCE,
+                    "criterium": db.criteria.RENAISSANCE,
                     "panel": "Style",
                     "string": "Renaissance",
                     "checked": false,
                     "isRadio": false,
                 },
                 {
-                    "criterium": this.db.criteria.ARENA,
+                    "criterium": db.criteria.ARENA,
                     "panel": "Style",
                     "string": "Arena",
                     "checked": false,
@@ -399,28 +399,28 @@ Vue.component('attic', {
             // Album structuration
             [
                 {
-                    "criterium": this.db.criteria.LENGTHY_TRACKS,
+                    "criterium": db.criteria.LENGTHY_TRACKS,
                     "panel": "Album structuration",
                     "string": "Lengthy tracks",
                     "checked": false,
                     "isRadio": false,
                 },
                 {
-                    "criterium": this.db.criteria.PATCHWORK,
+                    "criterium": db.criteria.PATCHWORK,
                     "panel": "Album structuration",
                     "string": "Patchwork of tracks",
                     "checked": false,
                     "isRadio": false,
                 },
                 {
-                    "criterium": this.db.criteria.TRANSITION,
+                    "criterium": db.criteria.TRANSITION,
                     "panel": "Album structuration",
                     "string": "Tracks have transitions",
                     "checked": false,
                     "isRadio": false,
                 },
                 {
-                    "criterium": this.db.criteria.SYMPHONIC,
+                    "criterium": db.criteria.SYMPHONIC,
                     "panel": "Album structuration",
                     "string": "Symphonic",
                     "checked": false,
@@ -430,7 +430,7 @@ Vue.component('attic', {
             // Era sound
             [
                 {
-                    "criterium": this.db.criteria.CRISPY_SIXTIES,
+                    "criterium": db.criteria.CRISPY_SIXTIES,
                     "panel": "Era sound",
                     "string": "Crispy 60s",
                     "checked": false,
@@ -438,7 +438,7 @@ Vue.component('attic', {
                     "radioFamily": "eraSound"
                 },
                 {
-                    "criterium": this.db.criteria.GREASY_SEVENTIES,
+                    "criterium": db.criteria.GREASY_SEVENTIES,
                     "panel": "Era sound",
                     "string": "Greasy early 70s",
                     "checked": false,
@@ -446,7 +446,7 @@ Vue.component('attic', {
                     "radioFamily": "eraSound"
                 },
                 {
-                    "criterium": this.db.criteria.SOFT_SEVENTIES,
+                    "criterium": db.criteria.SOFT_SEVENTIES,
                     "panel": "Era sound",
                     "string": "Soft late 70s",
                     "checked": false,
@@ -454,7 +454,7 @@ Vue.component('attic', {
                     "radioFamily": "eraSound"
                 },
                 {
-                    "criterium": this.db.criteria.NEO_EIGHTIES,
+                    "criterium": db.criteria.NEO_EIGHTIES,
                     "panel": "Era sound",
                     "string": "Neo 80s",
                     "checked": false,
@@ -465,7 +465,7 @@ Vue.component('attic', {
             // Loudness
             [
                 {
-                    "criterium": this.db.criteria.SOFT,
+                    "criterium": db.criteria.SOFT,
                     "panel": "Loudness",
                     "string": "Rather soft",
                     "checked": false,
@@ -473,7 +473,7 @@ Vue.component('attic', {
                     "radioFamily": "softHeavy"
                 },
                 {
-                    "criterium": this.db.criteria.HEAVY,
+                    "criterium": db.criteria.HEAVY,
                     "panel": "Loudness",
                     "string": "Rather heavy",
                     "checked": false,
@@ -481,7 +481,7 @@ Vue.component('attic', {
                     "radioFamily": "softHeavy"
                 },
                 {
-                    "criterium": this.db.criteria.HUMBLE,
+                    "criterium": db.criteria.HUMBLE,
                     "panel": "Loudness",
                     "string": "Humble",
                     "checked": false,
@@ -489,7 +489,7 @@ Vue.component('attic', {
                     "radioFamily": "humbleSpectacular"
                 },
                 {
-                    "criterium": this.db.criteria.SPECTACULAR,
+                    "criterium": db.criteria.SPECTACULAR,
                     "panel": "Loudness",
                     "string": "Spectacular",
                     "checked": false,
@@ -500,35 +500,35 @@ Vue.component('attic', {
             // Arrangement
             [
                 {
-                    "criterium": this.db.criteria.UNCOMMON_INSTRUMENTS,
+                    "criterium": db.criteria.UNCOMMON_INSTRUMENTS,
                     "panel": "Arrangement",
                     "string": "Uncommon instruments",
                     "checked": false,
                     "isRadio": false,
                 },
                 {
-                    "criterium": this.db.criteria.FEMALE,
+                    "criterium": db.criteria.FEMALE,
                     "panel": "Arrangement",
                     "string": "Female vocals",
                     "checked": false,
                     "isRadio": false,
                 },
                 {
-                    "criterium": this.db.criteria.SOUND_COLLAGES,
+                    "criterium": db.criteria.SOUND_COLLAGES,
                     "panel": "Arrangement",
                     "string": "Uses sound collages",
                     "checked": false,
                     "isRadio": false,
                 },
                 {
-                    "criterium": this.db.criteria.ORCHESTRAL_PARTS,
+                    "criterium": db.criteria.ORCHESTRAL_PARTS,
                     "panel": "Arrangement",
                     "string": "Orchestral parts",
                     "checked": false,
                     "isRadio": false,
                 },
                 {
-                    "criterium": this.db.criteria.BAROQUE,
+                    "criterium": db.criteria.BAROQUE,
                     "panel": "Arrangement",
                     "string": "Baroque vibes",
                     "checked": false,
@@ -538,14 +538,14 @@ Vue.component('attic', {
             // Temper
             [
                 {
-                    "criterium": this.db.criteria.FUNNY,
+                    "criterium": db.criteria.FUNNY,
                     "panel": "Temper",
                     "string": "Funny",
                     "checked": false,
                     "isRadio": false,
                 },
                 {
-                    "criterium": this.db.criteria.TOUCHING_VOCALS,
+                    "criterium": db.criteria.TOUCHING_VOCALS,
                     "panel": "Temper",
                     "string": "Touching vocals",
                     "checked": false,
@@ -555,6 +555,8 @@ Vue.component('attic', {
         ];
 
         return {
+            db: store.state.db,
+            views: views,
             years: Object.keys(albumsPerYear),
             selectedRegion: "All",
             selectedYear: "All",
@@ -573,14 +575,17 @@ Vue.component('attic', {
             return albumWrapperSize;
         }
     },
-    mounted: function () {
+    mounted() {
         this.albumListWidth = document.getElementById("albumList").clientWidth;
     },
     methods: {
+        selectAlbumAndView(album) {
+            store.commit('selectAlbum', album);
+            store.commit('setCurrentView', views.DISCOGRAPHIES);
+        },
         changed() {
             if(document.getElementById("albumList")) {
                 this.albumListWidth = document.getElementById("albumList").clientWidth;
-                // console.log(this.albumListWidth)
             }
         },
         selectRegion() {
@@ -646,7 +651,7 @@ Vue.component('attic', {
                 }
             }
         },
-        applyFilter: function() {
+        applyFilter() {
             // For each album
             for(let i = 0; i < this.db.albums.length; i++) {
                 const album = this.db.albums[i];
@@ -694,7 +699,7 @@ Vue.component('attic', {
                 }
             }
         },
-        resetFilter: function() {
+        resetFilter() {
             // Reset region
             this.selectedRegion = "All";
             this.selectedYear = "All";

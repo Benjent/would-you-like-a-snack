@@ -13,9 +13,7 @@ Vue.component('histogram-horizontal', {
         </div>
     `,
     props: ['caption', 'datasource'],
-    data: function () {
-        console.log(this.datasource);
-        return {
-        }
+    data() {
+        return {}
     }
 })

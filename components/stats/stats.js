@@ -46,7 +46,7 @@ Vue.component('stats', {
             </div>
         </section>
     `,
-    data: function () {
+    data() {
         return {
             albums: albums,
             albumsPerYear: albumsPerYear,

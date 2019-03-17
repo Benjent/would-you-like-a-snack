@@ -41,8 +41,7 @@ Vue.component('searchbar', {
             </div>
         </div>
     `,
-    props: ['db'],
-    data: function () {
+    data() {
         return {
             currentSearch: '',
             matchingAlbums: []
@@ -54,7 +53,7 @@ Vue.component('searchbar', {
         }
     },
     methods: {
-        search: function(search) {
+        search(search) {
 
             this.currentSearch = search;
 
@@ -116,12 +115,12 @@ Vue.component('searchbar', {
                 }
             }
         },
-        resetSearch: function() {
+        resetSearch() {
             this.currentSearch = '';
             this.matchingAlbums = [];
         },
-        selectSearchResult: function(album) {
-            this.$emit('album-click', album);
+        selectSearchResult(album) {
+            store.commit('selectAlbum', album)
             this.resetSearch();
         }
     }

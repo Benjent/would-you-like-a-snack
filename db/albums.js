@@ -751,13 +751,14 @@ const albums = [
         "year": 1976,
         "country": regions.FRANCE,
         "cover": pathToCovers + "/atlantide_atlantide.jpg",
-        "criteria": [criteria.FRENCH_SUNG, criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.UNCOMMON_INSTRUMENTS, criteria.SYMPHONIC, criteria.C_FOLK],
-        "selectedTrackTitle": "",
-        "selectedTrackYtId": "",
+        "criteria": [criteria.FRENCH_SUNG, criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.UNCOMMON_INSTRUMENTS, criteria.SYMPHONIC, criteria.C_FOLK, criteria.C_PSYCHEDELIC],
+        "selectedTrackTitle": "Soleil Noir",
+        "selectedTrackYtId": "zWakNiY3vgE",
         "spotifyId": "1uJUhSAu4Msg5dOYQ4wPcb",
         "deezerId": "",
         "designers": ["Jean-Claude Perrouin"],
-        "isAGem": false,
+        "isAGem": true,
+        "description": "TODO description"
     },
     {
         "id": "atlas_bla_vardag",

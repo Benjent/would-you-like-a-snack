@@ -55,37 +55,29 @@ Vue.component('album', {
 
             <button
                 id="moreButton"
-                v-on:click="$emit('album-click', selectedAlbum)">
+                v-on:click="$store.commit('setCurrentView', views.DISCOGRAPHIES)">
                 More infos
             </button>
 
-            <timeline
-                :selected-album="selectedAlbum"
-                :db="db"
-                v-on:album-click="handleTimelineAlbumClick">
-            </timeline>
+            <timeline></timeline>
 
         </section>
     `,
-    props: ['selectedAlbum', 'db'],
-    data: function () {
+    data() {
         return {
-            randomAlbums: defaultValues.randomAlbums
+            views: views
         }
     },
     computed: {
-        arrowPath() {
-            // return pathToImg + "/arrow.svg"
-            return pathToImg + "/arrow-borderless.svg"
+        selectedAlbum() {
+            return store.state.selectedAlbum; // Is computed instead of data as it needs to be refreshed in view
         },
         computedCriteria() {
-            let computedCriteria = []
+            const computedCriteria = []
             for (i = 0; i < this.selectedAlbum.criteria.length; i++) {
                 computedCriteria.push(this.selectedAlbum.criteria[i])
             }
-            // Sort criteria
             computedCriteria.sort((a, b) => criteriaOrder.indexOf(a) > criteriaOrder.indexOf(b));
-
             return computedCriteria;
         },
         youtubePath() {
@@ -98,43 +90,21 @@ Vue.component('album', {
             return "http://www.deezer.com/plugins/player?autoplay=false&playlist=true&width=700&height=240&cover=true&type=album&id=" + this.selectedAlbum.deezerId;
 
         },
-        previousAlbum() {
-            if(this.selectedAlbum.index > 0 && this.db.albums[this.selectedAlbum.index - 1].artist == this.selectedAlbum.artist) {
-                return this.db.albums[this.selectedAlbum.index - 1];
-            } else {
-                return null
-            }
-        },
-        nextAlbum() {
-            if(this.selectedAlbum.index < this.db.albums.length - 1 && this.db.albums[this.selectedAlbum.index + 1].artist == this.selectedAlbum.artist) {
-                return this.db.albums[this.selectedAlbum.index + 1];
-            } else {
-                return null
-            }
-        },
         youtubeLogoPath() {
-            return pathToImg + "/logos/yt_logo_gold.png"
+            return pathToImg + "/logos/yt_logo_gold.png";
         }
     },
     methods: {
-        randomizeAlbum: function() {
+        randomizeAlbum() {
             let albumId = this.selectedAlbum.id;
             while(albumId == this.selectedAlbum.id) {
-              albumId = Utils.randomize(this.db.albums.length); // Randomize id
+              albumId = Utils.randomize(store.state.db.albums.length); // Randomize id
             }
             const randomizedAlbum = albums[albumId];
-            this.$emit('album-click-surprise', randomizedAlbum);
+            store.commit('selectAlbum', randomizedAlbum);
         },
-        selectAlbumAndRandomize: function(album) {
-            // Select
-            this.$emit('album-click', album);
-            // player.loadVideoById(this.selectedAlbum.selectedTrackYtId);
-            // player.stopVideo()
-            // Randomize
-            this.randomAlbums = getRandomAlbumsByLength(numberOfAlbumsInRandomVue, album.id).slice(0);
+        selectAlbum(album) {
+            store.commit('selectAlbum', album);
         },
-        handleTimelineAlbumClick: function(album) {
-            this.$emit('album-click', album);
-        }
     }
 })

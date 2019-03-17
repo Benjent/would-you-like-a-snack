@@ -29,9 +29,8 @@ Vue.component('about', {
             </div>
         </section>
     `,
-    data: function () {
-        return {
-        }
+    data() {
+        return {}
     },
     computed: {
         arrowPath() {
