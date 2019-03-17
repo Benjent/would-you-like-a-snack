@@ -745,6 +745,21 @@ const albums = [
         "isAGem": false
     },
     {
+        "id": "atlantide_atlantide",
+        "title": "Atlantide",
+        "artist": "Atlantide",
+        "year": 1976,
+        "country": regions.FRANCE,
+        "cover": pathToCovers + "/atlantide_atlantide.jpg",
+        "criteria": [criteria.FRENCH_SUNG, criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.UNCOMMON_INSTRUMENTS, criteria.SYMPHONIC, criteria.C_FOLK],
+        "selectedTrackTitle": "",
+        "selectedTrackYtId": "",
+        "spotifyId": "1uJUhSAu4Msg5dOYQ4wPcb",
+        "deezerId": "",
+        "designers": ["Jean-Claude Perrouin"],
+        "isAGem": false,
+    },
+    {
         "id": "atlas_bla_vardag",
         "title": "Blå Vardag",
         "artist": "Atlas",
@@ -2874,6 +2889,52 @@ const albums = [
         "spotifyId": "1gqEFwNPsA63LgXVh5xRxI",
         "deezerId": "1359284",
         "designers": ["Jean-Claude Michel"],
+        "isAGem": false
+    },
+    {
+        "id": "delirium_dolce_acqua",
+        "title": "Dolce Acqua",
+        "artist": "Delirium",
+        "year": 1971,
+        "country": regions.ITALY,
+        "cover": pathToCovers + "/delirium_dolce_acqua.jpg",
+        "criteria": [criteria.ITALIAN_SUNG, criteria.TRANSITION, criteria.C_FOLK, criteria.C_JAZZ, criteria.HUMBLE, criteria.CONCEPT],
+        "selectedTrackTitle": "Sequenza I & II: Ipocrisia-Verità",
+        "selectedTrackYtId": "R-cDHhWRnLg",
+        "spotifyId": "2BqI2sjI4asmt5DZDBponl",
+        "deezerId": "84120",
+        "designers": ["Gigi"],
+        "isAGem": false
+    },
+    {
+        "id": "delirium_lo_scemo_e_il_villaggio",
+        "title": "Lo Scemo E Il Villaggio",
+        "artist": "Delirium",
+        "year": 1972,
+        "country": regions.ITALY,
+        "cover": pathToCovers + "/delirium_lo_scemo_e_il_villaggio.jpg",
+        "criteria": [criteria.ITALIAN_SUNG, criteria.TRANSITION, criteria.C_FOLK, criteria.C_JAZZ, criteria.HUMBLE, criteria.UNCOMMON_INSTRUMENTS, criteria.SOFT, criteria.JAZZY_GROOVY],
+        "selectedTrackTitle": "Gioia, Disordine, Risentimento",
+        "selectedTrackYtId": "TmgyMtYGT8E",
+        "spotifyId": "1SQuIS0FpXuFoNvtLaWSgL",
+        "deezerId": "84695",
+        "designers": ["Alberto Longoni"],
+        "isAGem": true,
+        "description": "TODO description"
+    },
+    {
+        "id": "delirium_viaggio_negli_arcipelaghi_del_tempo",
+        "title": "Viaggio Negli Arcipelaghi Del Tempo",
+        "artist": "Delirium",
+        "year": 1974,
+        "country": regions.ITALY,
+        "cover": pathToCovers + "/delirium_viaggio_negli_arcipelaghi_del_tempo.jpg",
+        "criteria": [criteria.ITALIAN_SUNG, criteria.ODD_RHYTHM, criteria.ORCHESTRAL_PARTS, criteria.ORCHESTRAL_PARTS, criteria.JAM, criteria.C_FOLK],
+        "selectedTrackTitle": "",
+        "selectedTrackYtId": "",
+        "spotifyId": "",
+        "deezerId": "",
+        "designers": [""],
         "isAGem": false
     },
     {
@@ -7239,7 +7300,7 @@ const albums = [
         "deezerId": "86605",
         "designers": ["Tom Wilkes"],
         "isAGem": true,
-        "description": "TODO description"
+        "description": "Although Neil Young never had anything much related to Progressive music, Harvest flirted with the genre with a few odd time signatures and the use of orchestral arrangements. The rest is pure melancholic Folk music with a fragile voice with only but memorable melodies that make the album monumental."
     },
     {
         "id": "neil_young_on_the_beach",
@@ -10348,7 +10409,6 @@ function getAlbumById(id) {
 /*  
     Can   
     Curved Air
-    Delirium    
     ELO  
     ESKATON
     Faust
@@ -10390,8 +10450,8 @@ function getAlbumById(id) {
     Tony Wright (traffic)
 */
 // TODO iframes deezer/spotify should be displayed just like in-fb messenger conv, and should be toggleable
-// TODO add subgenre : Groove, Jazz-Fusion avec Return to forvever(musicmagic) + messneger (children tomorrow) + foehn
 // TODO subgenres should be specified in the album db not manually
+// TODO stats view with the number of subgenres
 // TODO new feature : album comparison: sur une scale de 1 à 10, how much soubd alike ? et du coup ça rapproche énormément les albums entre eux, agnostic des artisres
 // TODO linker discogs
 // TODO lister instruments

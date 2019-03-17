@@ -106,6 +106,17 @@ const subgenres = [
         "criteria": [criteria.GLITTER, criteria.SYMPHONIC, criteria.SPECTACULAR, criteria.C_ELECTRO]
     },
     {
+        "name": "Groove / Jazz Fusion",
+        "description": "TODO description",
+        "mostRepresentativeAlbum": getAlbumById("foehn_faeria"),
+        "albums": [
+            getAlbumById("messengers_children_of_tomorrow"),
+            getAlbumById("return_to_forever_musicmagic"),
+            getAlbumById("george_duke_feel"),
+        ],
+        "criteria": [criteria.JAZZ, criteria.C_ELECTRO, criteria.ODD_RHYTHM, criteria.JAZZY_GROOVY, criteria.SOFT_SEVENTIES, criteria.FEMALE]
+    },
+    {
         "name": "Heavy",
         "description": "TODO description",
         "mostRepresentativeAlbum": getAlbumById("uriah_heep_demons_and_wizards"),
