@@ -28,7 +28,7 @@ Vue.component('discographies', {
                     v-for="album in db.albums"
                     v-if="album.artist == selectedArtist"
                     :src=album.cover
-                    v-on:click="$emit('album-click', album)"
+                    v-on:click="$store.commit('selectAlbum', album)"
                     alt="">
                 
             </section>
@@ -155,14 +155,17 @@ Vue.component('discographies', {
 
         </section>
     `,
-    props: ['selectedAlbum', 'db'],
-    data: function () {
+    data() {
         return {
-            selectedArtist: this.selectedAlbum.artist,
+            db: store.state.db,
+            selectedArtist: store.state.selectedAlbum.artist,
             selectedPlayer: "spotify"
         }
     },
     computed: {
+        selectedAlbum() {
+            return store.state.selectedAlbum; // Is computed instead of data as it needs to be refreshed in view
+        },
         computedCriteria() {
             let computedCriteria = []
             for (i = 0; i < this.selectedAlbum.criteria.length; i++) {
@@ -170,7 +173,6 @@ Vue.component('discographies', {
             }
             // Sort criteria
             computedCriteria.sort((a, b) => criteriaOrder.indexOf(a) > criteriaOrder.indexOf(b));
-
             return computedCriteria;
         },
         youtubePath() {
@@ -200,7 +202,7 @@ Vue.component('discographies', {
             // By default, select the debut album of the artist
             for(let i = 0; i < this.db.albums.length; i++) {
                 if(this.db.albums[i].artist == artist) {
-                    this.selectedAlbum = this.db.albums[i];
+                    store.commit('selectAlbum', this.db.albums[i]);
                     break;
                 }
             }

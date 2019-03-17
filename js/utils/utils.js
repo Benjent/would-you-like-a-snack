@@ -1,14 +1,14 @@
 const Utils = {
     // Random in-range number generator
 
-    randomize: function (max) {
+    randomize: function(max) {
         // let min = Math.ceil(0);
         // let max = Math.floor(maximum);
         const min = 0;
         return Math.floor(Math.random() * (max - min)) + min; // Randomize id
     },
   
-    selectDefaultAlbum: function (index, albums) {
+    selectDefaultAlbum: function(index, albums) {
         let defaultAlbum = albums[index];
         defaultAlbum.index = index;
         defaultAlbum.previousAlbum = null;
