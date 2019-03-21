@@ -66,8 +66,8 @@ Vue.component('searchbar', {
                     keyWords[j] = keyWords[j].toLowerCase();
                 }
                 
-                for(let i = 0; i < this.db.albums.length; i++) {
-                    const album = JSON.parse(JSON.stringify(this.db.albums[i]));
+                for(let i = 0; i < store.state.db.albums.length; i++) {
+                    const album = JSON.parse(JSON.stringify(store.state.db.albums[i]));
                     let keyWordsMatch = true;
                     
                     // Check for album presence in result
