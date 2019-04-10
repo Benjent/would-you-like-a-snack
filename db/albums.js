@@ -16,6 +16,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -31,6 +32,7 @@ const albums = [
         "spotifyId": "1RtXq36VbQGluE5E2YJuV3",
         "deezerId": "111183",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -46,6 +48,7 @@ const albums = [
         "spotifyId": "11hyZEEfhJE60wcWnBr5ng",
         "deezerId": "8240238",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -62,6 +65,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -77,6 +81,7 @@ const albums = [
         "spotifyId": "7rzdBtEzTXZgpZDZmZgvxM",
         "deezerId": "",
         "designers": ["Cesar Monti"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -92,6 +97,7 @@ const albums = [
         "spotifyId": "48ED6IQMBDTzefFdQ6rGBH",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -107,6 +113,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Rik Lina"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -122,6 +129,7 @@ const albums = [
         "spotifyId": "4QKtovzVkwFs4yRKBMOLrv",
         "deezerId": "72170232",
         "designers": ["Hipgnosis"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -137,6 +145,7 @@ const albums = [
         "spotifyId": "2vtMi0d0613jhp85klO9eb",
         "deezerId": "42207301",
         "designers": ["Hipgnosis"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "Alan Parsons and Eric Woolfson managed to blend pop ballads with sci-fi lyrics - inspired by Isaac Asimov's Robot Trilogy - with spectacular arrangements, drawing the best out of electronic music from the late 70's and what was about to be disco music."
     },
@@ -153,6 +162,7 @@ const albums = [
         "spotifyId": "33lGtVb2m0lY8ftdJQLi8f",
         "deezerId": "1420970",
         "designers": ["Hipgnosis"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -168,6 +178,7 @@ const albums = [
         "spotifyId": "5ZICh7iFpmgreWvpU9Og4G",
         "deezerId": "1420972",
         "designers": ["Hipgnosis"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -183,6 +194,7 @@ const albums = [
         "spotifyId": "6nRIzDO8r11ba93abrhlzZ",
         "deezerId": "116258",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -198,6 +210,7 @@ const albums = [
         "spotifyId": "4BGd9BmpePqeSfHLeYiCDr",
         "deezerId": "1207401",
         "designers": ["Hipgnosis"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -213,6 +226,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Dave Hammes"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -228,6 +242,7 @@ const albums = [
         "spotifyId": "0zKjnOsXxs63unPR6TWoHq",
         "deezerId": "86986",
         "designers": ["Craig Braun"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -243,6 +258,7 @@ const albums = [
         "spotifyId": "70vRcyvFfGc3rwaETxzjHC",
         "deezerId": "86966",
         "designers": ["Pacific Eye & Ear"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -258,6 +274,7 @@ const albums = [
         "spotifyId": "4NYhlYA28LAzzElE3HSSfp",
         "deezerId": "927096",
         "designers": ["Pacific Eye & Ear"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -273,6 +290,7 @@ const albums = [
         "spotifyId": "7FFpqmbQxj3u4Q7aLGNox0",
         "deezerId": "365508",
         "designers": ["Pacific Eye & Ear"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -288,6 +306,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Charles Éric"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "Led by guitarists Claude Alvarez-Pereyre and Michel Mareska, this album displays instrumental tracks with choral harmonies interludes to create a smooth - but deep and adventurous - space museum journey."
     },
@@ -304,6 +323,7 @@ const albums = [
         "spotifyId": "0Wh01o7ulww79Oq2eSZ6PX",
         "deezerId": "5515471",
         "designers": ["Adriano Marangoni"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -319,6 +339,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Gil Funccius"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -334,6 +355,7 @@ const albums = [
         "spotifyId": "4WLSlSsZR6RZSaZm2ZB1WI",
         "deezerId": "381675",
         "designers": ["Eddie Douglas"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -349,6 +371,7 @@ const albums = [
         "spotifyId": "6WgShBCsr36H9L2AObtjT7",
         "deezerId": "381676",
         "designers": ["Hogin McMurtrie"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -364,6 +387,7 @@ const albums = [
         "spotifyId": "2DTCREtVpOKsen2yXiS4iw",
         "deezerId": "683848",
         "designers": ["Roger Dean"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -379,6 +403,7 @@ const albums = [
         "spotifyId": "4nntZWXeeFVGgdcbAPcKg1",
         "deezerId": "",
         "designers": ["Ernie Cefalu"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -394,6 +419,7 @@ const albums = [
         "spotifyId": "4naH2uTFiUQ4L7D2zktDcx",
         "deezerId": "6495472",
         "designers": ["Claude Delorme"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -409,6 +435,7 @@ const albums = [
         "spotifyId": "5KnZloSevoATYhQeX7t0e0",
         "deezerId": "238682",
         "designers": ["Jacques Wyrss"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -424,6 +451,7 @@ const albums = [
         "spotifyId": "3X6ZYhmu0k29UmNw2zcCrL",
         "deezerId": "647133",
         "designers": ["Philippe Huart", "Phil Umbdenstock"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -439,6 +467,7 @@ const albums = [
         "spotifyId": "6C7B51NLYoIefaLAwsdFP7",
         "deezerId": "647132",
         "designers": ["Philippe Huart", "Phil Umbdenstock"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -454,6 +483,7 @@ const albums = [
         "spotifyId": "3EqySsFNjDWa6xORz8apbS",
         "deezerId": "433657",
         "designers": ["Philippe Huart", "Phil Umbdenstock"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -469,6 +499,7 @@ const albums = [
         "spotifyId": "28yxlTAC4piWK2l9hGsNZF",
         "deezerId": "6495473",
         "designers": ["Phil Umbdenstock"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -484,6 +515,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Tom Benson"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -499,6 +531,7 @@ const albums = [
         "spotifyId": "5Iobarqw2ercTb5otXGkiV",
         "deezerId": "10241040",
         "designers": ["Peter Cross"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -514,6 +547,7 @@ const albums = [
         "spotifyId": "2CkOxyCAwfey7JZLQfudpS",
         "deezerId": "12273426",
         "designers": ["Peter Cross"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -529,6 +563,7 @@ const albums = [
         "spotifyId": "4MB7X1urqItzKWFI73dyhb",
         "deezerId": "160253",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -544,6 +579,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Ariel Borremans", "Louis Legrand"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -560,6 +596,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -575,6 +612,7 @@ const albums = [
         "spotifyId": "2Cx64WunNXSSrvi21T9bb4",
         "deezerId": "46220",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -590,6 +628,7 @@ const albums = [
         "spotifyId": "4YLKvXEwd8vCNpZ7MN36YS",
         "deezerId": "7036485",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -605,6 +644,7 @@ const albums = [
         "spotifyId": "28tx6X6UX0IhqzTUiXUkld",
         "deezerId": "7036486",
         "designers": ["Edoardo Sivelli"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -620,6 +660,7 @@ const albums = [
         "spotifyId": "5eOTf1CZgRvs3X3OtIxlwK",
         "deezerId": "7041040",
         "designers": ["Edoardo Sivelli", "Gian Michele Monti"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -635,6 +676,7 @@ const albums = [
         "spotifyId": "4V42k78uHSPQk7Y6CR6e6H",
         "deezerId": "7043105",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -650,6 +692,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "75684032",
         "designers": ["Pierre Fonvieille"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -665,6 +708,7 @@ const albums = [
         "spotifyId": "0mWgW1Cyapnw02hgmzVmUo",
         "deezerId": "7960556",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "Gigi Venegoni gathers music virtuosi to create music where the bass guitar and the vibraphone share the room while the guitar and the violin plays frantic melodies over Furio Chirico's fast-paced drumming style. The band handles textures with a wide asset of instruments but very few vocal parts, and play around tempo variations to create the surprise, with just enough time to rest."
     },
@@ -681,6 +725,7 @@ const albums = [
         "spotifyId": "0MWPagPbiIwXn4cZ7epZXy",
         "deezerId": "7960580",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -697,6 +742,7 @@ const albums = [
         "spotifyId": "3a70VEfnYooKrBl7wunaqF",
         "deezerId": "7991810",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -712,6 +758,7 @@ const albums = [
         "spotifyId": "5TkfP3cqWgeBvCugPeiGNl",
         "deezerId": "69833112",
         "designers": ["Roger Dean"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -727,6 +774,7 @@ const albums = [
         "spotifyId": "0MdsnpmztQLrbUDzXZeT8v",
         "deezerId": "216407",
         "designers": ["Roger Dean"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -742,6 +790,7 @@ const albums = [
         "spotifyId": "4vWbvwBYgwtDUVMVx5DtNe",
         "deezerId": "121093",
         "designers": ["Roger Dean"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -757,6 +806,7 @@ const albums = [
         "spotifyId": "1uJUhSAu4Msg5dOYQ4wPcb",
         "deezerId": "",
         "designers": ["Jean-Claude Perrouin"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -773,6 +823,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Uffe Hedlund"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -789,6 +840,7 @@ const albums = [
         "spotifyId": "1uWBDKlPHk1ciEepU3I0R5",
         "deezerId": "437326",
         "designers": ["Hamish & Gustav"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -804,6 +856,7 @@ const albums = [
         "spotifyId": "2sNiQfJzbFl5DCw27YiI9f",
         "deezerId": "424777",
         "designers": ["Mike Gill", "Roger Dean"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -819,6 +872,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Yves Uro"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -834,6 +888,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Yves Uro"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -849,6 +904,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -864,6 +920,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Jacques Chabiron"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -879,6 +936,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "437587",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -894,6 +952,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Greg Putman"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -909,6 +968,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -925,6 +985,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Alain Leray"],
+        "similarAlbums": [],
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -943,6 +1004,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Otmar Hörl", "Achim Balon"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -958,6 +1020,7 @@ const albums = [
         "spotifyId": "3sW6cFk8bYvfMIt1DxhWor",
         "deezerId": "302665",
         "designers": ["Roger Dean"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -973,6 +1036,7 @@ const albums = [
         "spotifyId": "1AwDogdJKkofu0VbGAjg3c",
         "deezerId": "322228",
         "designers": ["Hipgnosis"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -988,6 +1052,7 @@ const albums = [
         "spotifyId": "1FdIqmZlYhUA96kbyfF33b",
         "deezerId": "322227",
         "designers": ["Paul May", "Janita Haan"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1003,6 +1068,7 @@ const albums = [
         "spotifyId": "6NUhrCcLOoRkQMLsKRlSmQ",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1018,6 +1084,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Brian Palmer"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1033,6 +1100,7 @@ const albums = [
         "spotifyId": "3AC9IACTZlwBvyJJKwiPl4",
         "deezerId": "",
         "designers": ["Roger Dean"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1048,6 +1116,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "5838081",
         "designers": ["Luciano Lanati"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1063,6 +1132,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Luciano Lanati"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1078,6 +1148,7 @@ const albums = [
         "spotifyId": "0AkxR3pCNTuWPvNYcWTCf6",
         "deezerId": "75863242",
         "designers": ["Mustard Creasy & Associates"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1093,6 +1164,7 @@ const albums = [
         "spotifyId": "1sDiypXdTQcZL4LgzJ8hOS",
         "deezerId": "",
         "designers": ["Eddie Russell"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1108,6 +1180,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "111975",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1123,6 +1196,7 @@ const albums = [
         "spotifyId": "0Ft1jEOyGY74ZgHb1FYO4U",
         "deezerId": "115334",
         "designers": ["Wanda Spinello"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1138,6 +1212,7 @@ const albums = [
         "spotifyId": "0V7yj1nGYDsBjlMrsI5w5C",
         "deezerId": "1124880",
         "designers": ["Clara Duranti"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -1154,6 +1229,7 @@ const albums = [
         "spotifyId": "1WeTsUeoyJBDYiqdoCtO8I",
         "deezerId": "4196221",
         "designers": ["Cesare Monti", "Mimmo Mellino", "Wanda Monti"],
+        "similarAlbums": [],
         "isAGem": false,
     },
     {
@@ -1169,6 +1245,7 @@ const albums = [
         "spotifyId": "7esLB589Mb1J7vEcjUoJZq",
         "deezerId": "69854892",
         "designers": ["Ian Latimer"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1184,6 +1261,7 @@ const albums = [
         "spotifyId": "6zRtvOW9uHAqVeUKVnSnGZ",
         "deezerId": "47344922",
         "designers": ["Latimer Reeves"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1199,6 +1277,7 @@ const albums = [
         "spotifyId": "1A5uQ6yL8HRpwWA82mESV1",
         "deezerId": "",
         "designers": ["Barry Honeyford"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1214,6 +1293,7 @@ const albums = [
         "spotifyId": "6fThz8JPOUsfQzyyPICrEj",
         "deezerId": "47344932",
         "designers": ["Julian Cottrell"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1229,6 +1309,7 @@ const albums = [
         "spotifyId": "6nrGKliLMmkrv5Q1UtYVyc",
         "deezerId": "227295",
         "designers": ["Alexander Agor"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1244,6 +1325,7 @@ const albums = [
         "spotifyId": "607QezTdZFPWrcEkLOzjHK",
         "deezerId": "247948",
         "designers": ["Bill Dare"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1259,6 +1341,7 @@ const albums = [
         "spotifyId": "0h1YrdEo2Y4D0tOqGpRFAn",
         "deezerId": "259214",
         "designers": ["Brunnings"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1274,6 +1357,7 @@ const albums = [
         "spotifyId": "5UQLoGvH3bxJC4jnNKUfgA",
         "deezerId": "228523",
         "designers": ["David Rohl", "Maldwyn Reece Tootill"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1289,6 +1373,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Bruno Fedetto"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -1305,6 +1390,7 @@ const albums = [
         "spotifyId": "6V8qf1HHUvjKu6BoCQFjoi",
         "deezerId": "42337881",
         "designers": ["John Holmes"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1320,6 +1406,7 @@ const albums = [
         "spotifyId": "1xaasYFKQ5dU30wRf9KAjB",
         "deezerId": "42337911",
         "designers": ["George Hardie"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1335,6 +1422,7 @@ const albums = [
         "spotifyId": "3L6xxXCu8KNB0jASkbWlSC",
         "deezerId": "42337931",
         "designers": ["Mike Doud", "Bill Nelson"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1350,6 +1438,7 @@ const albums = [
         "spotifyId": "4KJCnGCDY48ejKjE8ODsq9",
         "deezerId": "",
         "designers": ["ROC Advertising"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1365,6 +1454,7 @@ const albums = [
         "spotifyId": "3PRoXYsngSwjEQWR5PsHWR",
         "deezerId": "12047948",
         "designers": ["Klaus Voormann"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1380,6 +1470,7 @@ const albums = [
         "spotifyId": "6QaVfG1pHYl1z15ZxkvVDW",
         "deezerId": "12047960",
         "designers": ["Peter Blake", "Jann Haworth"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1395,6 +1486,7 @@ const albums = [
         "spotifyId": "2BtE7qm1qzM80p9vLSiXkj",
         "deezerId": "12047938",
         "designers": ["John Kelly", "Bob Gibson"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1410,6 +1502,7 @@ const albums = [
         "spotifyId": "1klALx0u4AavZNEvC4LrTL",
         "deezerId": "12047934",
         "designers": ["Richard Hamilton"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1425,6 +1518,7 @@ const albums = [
         "spotifyId": "1gKZ5A1ndFqbcrWtW85cCy",
         "deezerId": "12047964",
         "designers": ["Heinz Edelman"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1440,6 +1534,7 @@ const albums = [
         "spotifyId": "0ETFjACtuP2ADo6LFhL6HN",
         "deezerId": "12047952",
         "designers": ["John Kosh"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "An album with music as iconic as its cover, once again carried by a splendid Lennon-McCartney composition. Side one happily delivers bluesy and pop music drenched in psychedelic mood while side two is a piece composed of puzzle tracks with orchestral parts and colorful alterations."
     },
@@ -1456,6 +1551,7 @@ const albums = [
         "spotifyId": "764CrxabYPbhNkD0TRxHxP",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1471,6 +1567,7 @@ const albums = [
         "spotifyId": "4jEST0dVzQf0fktAQdv3Ap",
         "deezerId": "",
         "designers": ["Marcus Keef"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1486,6 +1583,7 @@ const albums = [
         "spotifyId": "4mTtzPqA6Atz6NzjJaEJvV",
         "deezerId": "977183",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1501,6 +1599,7 @@ const albums = [
         "spotifyId": "2mlUZg01eeMUqzOApUvc38",
         "deezerId": "",
         "designers": ["Bloomsbury Group", "Peter Goodfellow"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -1517,6 +1616,7 @@ const albums = [
         "spotifyId": "4yTh3ywWvevStqgk0W0ud6",
         "deezerId": "",
         "designers": ["Brian Adams", "Pete Brown"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1532,6 +1632,7 @@ const albums = [
         "spotifyId": "46UG4YCjgl6CrWMCrvYvTI",
         "deezerId": "7045740",
         "designers": ["Mouche"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1547,6 +1648,7 @@ const albums = [
         "spotifyId": "6e4SjRDk3F5h9AiwrjJkNO",
         "deezerId": "7063730",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1562,6 +1664,7 @@ const albums = [
         "spotifyId": "6lq5cjE0UcsofDrmJMqQIQ",
         "deezerId": "2262011",
         "designers": ["Dragan S. Stefanović"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1577,6 +1680,7 @@ const albums = [
         "spotifyId": "6WabuP2U4iMHDiGVsCTIko",
         "deezerId": "2262211",
         "designers": ["Dragan S. Stefanović"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1592,6 +1696,7 @@ const albums = [
         "spotifyId": "5EEQWKlpmwmmQWbZhBN2Fn",
         "deezerId": "2262001",
         "designers": ["Dragan S. Stefanović"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1607,6 +1712,7 @@ const albums = [
         "spotifyId": "5CPVMGdQlqB27LCDZl705K",
         "deezerId": "2261581",
         "designers": ["Ivan Ivezić"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1622,6 +1728,7 @@ const albums = [
         "spotifyId": "5UX1Zc4ZhLyTF6nCduj4Fq",
         "deezerId": "2261991",
         "designers": ["Mirko Ilić"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1637,6 +1744,7 @@ const albums = [
         "spotifyId": "2T6jeELx5BqH4GMLObBy10",
         "deezerId": "15490684",
         "designers": ["Marcus Keef"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1652,6 +1760,7 @@ const albums = [
         "spotifyId": "132qAo1cDiEJdA3fv4xyNK",
         "deezerId": "15485488",
         "designers": ["Marcus Keef"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "The album is the quintessence of what is traditional Doom music and defines on a larger note Heavy Metal. Toni Iommi and Geezer Butler borrow psychedelic elements and groove touch to compose the music, wrapped with Bill Ward's prompt drumming. While not being a Prog-core album, Paranoid smells occult music and its sound is definitely influenced by the genre."
     },
@@ -1668,6 +1777,7 @@ const albums = [
         "spotifyId": "3kBG6q0aXKxzn01wKTwZr5",
         "deezerId": "15485480",
         "designers": ["Bloomsbury Group"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1683,6 +1793,7 @@ const albums = [
         "spotifyId": "3iRW4cZOM90lX9Rtc2Qglh",
         "deezerId": "15485490",
         "designers": ["Bloomsbury Group"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1698,6 +1809,7 @@ const albums = [
         "spotifyId": "6vKZWeBFGy7phxXP727tOa",
         "deezerId": "15485492",
         "designers": ["Pacific Eye & Ear", "Drew Struzan"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1713,6 +1825,7 @@ const albums = [
         "spotifyId": "2hurj4babJXt1cIxmYFqqo",
         "deezerId": "15485380",
         "designers": ["Graham Wright"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1728,6 +1841,7 @@ const albums = [
         "spotifyId": "0LFVVWfGkUEPrpkWQ5dc0B",
         "deezerId": "7573062",
         "designers": ["Rick Breach"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1743,6 +1857,7 @@ const albums = [
         "spotifyId": "6G15HKMkzIZOvypHqKM0fS",
         "deezerId": "7573064",
         "designers": ["Rose Trengrove"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1758,6 +1873,7 @@ const albums = [
         "spotifyId": "2LXh6K6B9vu8zV4WQ8bhkR",
         "deezerId": "70068632",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1773,6 +1889,7 @@ const albums = [
         "spotifyId": "6H5dq3WP8RYvLSbiDn6SPP",
         "deezerId": "70068302",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1788,6 +1905,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1803,6 +1921,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "76701412",
         "designers": ["Carlos Felipe Fernández"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "Each track, composed with layers of instruments and unusual chord progressions, builds tension, especially with brass and strings, to release at several culminations. The Jazz and Folk parts enrich the music, although already complex by its symphonic dimension and subtle by the diverse use of instruments, and the mellow vocals alongside the flutes add a warm caress."
     },
@@ -1819,6 +1938,7 @@ const albums = [
         "spotifyId": "7fczxHO7GneRABGdbji84e",
         "deezerId": "271701",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -1835,6 +1955,7 @@ const albums = [
         "spotifyId": "0oUP2gjHQLjfAXWZVQh05n",
         "deezerId": "76869482",
         "designers": ["David Sparling"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1850,6 +1971,7 @@ const albums = [
         "spotifyId": "4kFw8HwYhBmCS7EIXJIDha",
         "deezerId": "76869642",
         "designers": ["Roger Dean"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1865,6 +1987,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Roger Dean"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1880,6 +2003,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Phil Jude"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1895,6 +2019,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Patrick Woodroffe"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1910,6 +2035,7 @@ const albums = [
         "spotifyId": "5borxN1Dd06KXxdNZNZraf",
         "deezerId": "",
         "designers": ["Gerd Hofmann"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1925,6 +2051,7 @@ const albums = [
         "spotifyId": "0kxLFbFmADBpz4PwLiglWG",
         "deezerId": "13024554",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "The band decides to go against the flow by composing their first album entirely acoustic, brightened up by soft keyboard parts. Song after song, a relieving sentiment is carried through gentle, almost delicate music, with nearly hummed vocal melodies."
     },
@@ -1944,6 +2071,7 @@ const albums = [
         "spotifyId": "527BDJf791AussJLm8aCwE",
         "deezerId": "",
         "designers": ["Modula"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1959,6 +2087,7 @@ const albums = [
         "spotifyId": "2DZEwt8Lhz6PuqxsJWF7Ap",
         "deezerId": "123830",
         "designers": ["Modula"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -1975,6 +2104,7 @@ const albums = [
         "spotifyId": "6nGVPoLgC8GjhWXSp6tV8r",
         "deezerId": "67759572",
         "designers": ["Modula"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -1990,6 +2120,7 @@ const albums = [
         "spotifyId": "6ex4lHnMDz5fHRTJNmuQHd",
         "deezerId": "123915",
         "designers": ["John Field"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "Camel decides to explore a more cold but tender music through Peter Bardens' snow-white keyboard playing and Andrew Latimer's soothing guitar licks, along with Doug Ferguson's and Andy Ward's groovy but soft sections. This results in a relaxing sound veiled with odd rhythm, enchanting parts, resembling a lucid dream, with tracks reflecting the musicians' personnalities."
     },
@@ -2006,6 +2137,7 @@ const albums = [
         "spotifyId": "5P5NLKRmXqMZ5m3RQqzD5y",
         "deezerId": "124288",
         "designers": ["Bob Searles"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -2022,6 +2154,7 @@ const albums = [
         "spotifyId": "4pFH2hiWMaT4X5pXZCygOq",
         "deezerId": "160200",
         "designers": ["Michael Munday", "Cream"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2037,6 +2170,7 @@ const albums = [
         "spotifyId": "71FpdWandYromBNIF3szGx",
         "deezerId": "230732",
         "designers": ["Shoot That Tiger!"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2052,6 +2186,7 @@ const albums = [
         "spotifyId": "04jXGK0QD3qlvyg9Q3xlh0",
         "deezerId": "240873",
         "designers": ["Bill Mayblin", "Bill Shaw", "Michael Munday"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2067,6 +2202,7 @@ const albums = [
         "spotifyId": "2GXaLHeT6znG6x0U4y1U8h",
         "deezerId": "6958702",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2082,6 +2218,7 @@ const albums = [
         "spotifyId": "058qBjhg9yzbRGZCqOBX42",
         "deezerId": "6958716",
         "designers": ["Ulrich Eichberger"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2097,6 +2234,7 @@ const albums = [
         "spotifyId": "6Seo9dju2EMVYkUVUDlkXw",
         "deezerId": "6958701",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2112,6 +2250,7 @@ const albums = [
         "spotifyId": "4a1QKRL1X9PlAX9wiiqmAm",
         "deezerId": "6958700",
         "designers": ["Igor Trauer", "Richard J. Rudow"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "The band keeps on drifting away from the intense psychedelic music to embrace a more peaceful music, sometimes mesmerizing, sometimes percolating, sprinkled with Damo Suzuki's faded vocals. The album materializes a perfect warm soundscape in which we gladly relax."
     },
@@ -2128,6 +2267,7 @@ const albums = [
         "spotifyId": "5Pk8S4ZT09S7ty8v8347xa",
         "deezerId": "6958708",
         "designers": ["Ulli Eichberger"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2143,6 +2283,7 @@ const albums = [
         "spotifyId": "7CYnGuXxlrFpitUatKH9dw",
         "deezerId": "66686782",
         "designers": ["Pad Graphics"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2158,6 +2299,7 @@ const albums = [
         "spotifyId": "03m1HZWGc1Dtlra2d2Ai5p",
         "deezerId": "",
         "designers": ["Pacific Eye & Ear", "Joe Garnett"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "A blend of Hard Rock, guitar-driven riffs interspersed with spacy moments, all with a flowing mise-en-abyme intensifying the music immersion. Larry Reinhardt's guitar playing alongside Rod Evan's vocals bring a stunning raw touch."
     },
@@ -2174,6 +2316,7 @@ const albums = [
         "spotifyId": "3p22uCWBkS0ybd57ipTRMVs",
         "deezerId": "",
         "designers": ["Pacific Eye & Ear", "Carl Ramsey", "Joe Petagno"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2189,6 +2332,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Pacific Eye & Ear", "Carl Ramsey"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2204,6 +2348,7 @@ const albums = [
         "spotifyId": "0Tnbc1TkUAvm4i05Ps3Doo",
         "deezerId": "",
         "designers": ["Richard Zeff", "David Jupe"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2219,6 +2364,7 @@ const albums = [
         "spotifyId": "6TWjon4uYsV2wu7QJTuKjd",
         "deezerId": "",
         "designers": ["Anne Marie Anderson"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -2235,6 +2381,7 @@ const albums = [
         "spotifyId": "1x9JWE9MyBdKPdNOH3FUK7",
         "deezerId": "",
         "designers": ["David Anstey", "ROC Advertising", "William Hogarth"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2250,6 +2397,7 @@ const albums = [
         "spotifyId": "24hZN3vZp65LbWSUxGo1AO",
         "deezerId": "",
         "designers": ["Mark Lawrence"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2265,6 +2413,7 @@ const albums = [
         "spotifyId": "5SokYXtecgIhwPvVv4h0Pe",
         "deezerId": "",
         "designers": ["Hipgnosis", "Richard Evans"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2280,6 +2429,7 @@ const albums = [
         "spotifyId": "4BtIIBfdDY4zqU5isUabhE",
         "deezerId": "1223356",
         "designers": ["Bob Venosa", "John Paul Jones"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2295,6 +2445,7 @@ const albums = [
         "spotifyId": "79RKfnrrbyVoxvKeX9wFKY",
         "deezerId": "1399985",
         "designers": ["Sri Chinmoy", "Tadanori Yokoo"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2310,6 +2461,7 @@ const albums = [
         "spotifyId": "2uikR6eZ1HzoGH4Ki6eneU",
         "deezerId": "1214907",
         "designers": ["Michael Wood", "Retina Circus"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -2326,6 +2478,7 @@ const albums = [
         "spotifyId": "3tWbGgFyhyPsRcAWhZDb7p",
         "deezerId": "116144",
         "designers": ["Ashok"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2341,6 +2494,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2356,6 +2510,7 @@ const albums = [
         "spotifyId": "3tHGLaibgszG59jDPHkw2Q",
         "deezerId": "228367",
         "designers": ["Roland Young"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2371,6 +2526,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2386,6 +2542,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2401,6 +2558,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Christian Hügin"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -2417,6 +2575,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Francine Massé"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2432,6 +2591,7 @@ const albums = [
         "spotifyId": "4FqEYeQKKIKwA6wJGVNd9Z",
         "deezerId": "59636832",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO tries to create riffs from rock influence"
     },
@@ -2448,6 +2608,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Lars Rasmussen"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO I'm the slime en album"
     },
@@ -2464,6 +2625,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Roger Wootton", "Glen Goring"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "A dark fantasy atmosphere is present throughout the album, varying from wonderful, melancholic, bewitching acoustic instrumentals and possessed vocals by Roger Wootton and Andy Hellaby, painting music landscapes perfect for fatalistic folk stories from old tell-tale books."
     },
@@ -2480,6 +2642,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Sheila MacLurkin"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2495,6 +2658,7 @@ const albums = [
         "spotifyId": "60qYJ7btMyDbavVJnUXSoI",
         "deezerId": "437171",
         "designers": ["Jerry Griffith"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2510,6 +2674,7 @@ const albums = [
         "spotifyId": "3oWrChJHNsVTwezq4U5S0C",
         "deezerId": "1123765",
         "designers": ["Mary Walsh", "Susan Senk"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2525,6 +2690,7 @@ const albums = [
         "spotifyId": "19iuvORQN4g7YrYWyzXzVy",
         "deezerId": "1123764",
         "designers": ["Guy Billout"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2540,6 +2706,7 @@ const albums = [
         "spotifyId": "6YyUimOKdv94um4jD71U1B",
         "deezerId": "1123766",
         "designers": ["Jay Maisel", "John Berg", "Nancy Greenberg"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2555,6 +2722,7 @@ const albums = [
         "spotifyId": "2gu9Q6wy3ftQtg4lplR7SP",
         "deezerId": "160234",
         "designers": ["David King"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2570,6 +2738,7 @@ const albums = [
         "spotifyId": "7q4FDjboZh9zLPRqIxdWng",
         "deezerId": "1338052",
         "designers": ["Juan Oreste Gatti"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -2586,6 +2755,7 @@ const albums = [
         "spotifyId": "1IQKV1zaM2GihjCXjZTdeJ",
         "deezerId": "1338051",
         "designers": ["Juan Oreste Gatti"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -2602,6 +2772,7 @@ const albums = [
         "spotifyId": "60StK3mTvlqeHhTGr9LS6Z",
         "deezerId": "",
         "designers": ["Howard Bernstein"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2617,6 +2788,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Jolly Crackers"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2632,6 +2804,7 @@ const albums = [
         "spotifyId": "7vnkaleSG6USdg0B8QYOEH",
         "deezerId": "53873132",
         "designers": ["Modula"],
+        "similarAlbums": [],
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -2650,6 +2823,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2665,6 +2839,7 @@ const albums = [
         "spotifyId": "1ay9Z4R5ZYI2TY7WiDhNYQ",
         "deezerId": "11204784",
         "designers": ["Vernon Dewhurst"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2680,6 +2855,7 @@ const albums = [
         "spotifyId": "4h9rWFWhgCSSrvIEQ0YhYG",
         "deezerId": "11205180",
         "designers": ["Marcus Keef"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2695,6 +2871,7 @@ const albums = [
         "spotifyId": "6fQElzBNTiEMGdIeY0hy5l",
         "deezerId": "11205658",
         "designers": ["George Underwood", "Terry Pastor"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2710,6 +2887,7 @@ const albums = [
         "spotifyId": "48D1hRORqJq52qsnUYZX56",
         "deezerId": "11205422",
         "designers": ["Terry Pastor"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2725,6 +2903,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2740,6 +2919,7 @@ const albums = [
         "spotifyId": "3VV3uHT9dEGPbgQJQRMAEy",
         "deezerId": "300221",
         "designers": ["Les Weisbrich"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2755,6 +2935,7 @@ const albums = [
         "spotifyId": "4pFFGEuoEmxtOTbp22tva9",
         "deezerId": "326086",
         "designers": ["John Vernon Lord"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2770,6 +2951,7 @@ const albums = [
         "spotifyId": "4vjBkjJeJByK2swq4DnuPc",
         "deezerId": "",
         "designers": ["Hieronymus Bosch"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2785,6 +2967,7 @@ const albums = [
         "spotifyId": "3llL1qaL2RvtyQAthAuRFS",
         "deezerId": "308821",
         "designers": ["Nesbit, Phipps & Froome", "Edwards Coletta Productions"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2800,6 +2983,7 @@ const albums = [
         "spotifyId": "3oitf8NRK5tSDhCRVcOewu",
         "deezerId": "302174",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2815,6 +2999,7 @@ const albums = [
         "spotifyId": "32NQ56VZDTXSH3SMv4XSGN",
         "deezerId": "302224",
         "designers": ["Roger Glover", "John Coletta"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2830,6 +3015,7 @@ const albums = [
         "spotifyId": "1RQWFGjiaPfoxuOt2YaVqA",
         "deezerId": "326085",
         "designers": ["Roger Glover", "John Coletta"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2845,6 +3031,7 @@ const albums = [
         "spotifyId": "3wR7UC2ij2dx0TbtiMP4J9",
         "deezerId": "300356",
         "designers": ["Nesbit, Phipps & Froome"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2860,6 +3047,7 @@ const albums = [
         "spotifyId": "5v7E58jgi8CGlLlVtuxwVg",
         "deezerId": "302642",
         "designers": ["Joe Garnett"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2875,6 +3063,7 @@ const albums = [
         "spotifyId": "6cShl77TjfWE5uC2Qv7ryb",
         "deezerId": "364613",
         "designers": ["Castle, Chappell & Partners Limited", "Peter Williams"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2890,6 +3079,7 @@ const albums = [
         "spotifyId": "1gqEFwNPsA63LgXVh5xRxI",
         "deezerId": "1359284",
         "designers": ["Jean-Claude Michel"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2905,6 +3095,7 @@ const albums = [
         "spotifyId": "2BqI2sjI4asmt5DZDBponl",
         "deezerId": "84120",
         "designers": ["Gigi"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2920,6 +3111,7 @@ const albums = [
         "spotifyId": "1SQuIS0FpXuFoNvtLaWSgL",
         "deezerId": "84695",
         "designers": ["Alberto Longoni"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -2936,6 +3128,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [""],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2951,6 +3144,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Patrick Grillot"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "An instrumental album with two long tracks entirely made with acoustic guitars, clean electric guitars, percussions and mellow synthesizers. Didier Bonin alone plays with light acoustic melodies, tender sounds and slow tempos throughout most of the album, while some parts speed up the tempo with groovier - but still mellow - rhythms."
     },
@@ -2967,6 +3161,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2982,6 +3177,7 @@ const albums = [
         "spotifyId": "6WtQ7NpP9nZV7cBybTiL4c",
         "deezerId": "",
         "designers": ["John Kehe"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -2997,6 +3193,7 @@ const albums = [
         "spotifyId": "0atxEFs8IDbVyULoh7ZSO5",
         "deezerId": "",
         "designers": ["Earl Klasky"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3012,6 +3209,7 @@ const albums = [
         "spotifyId": "0W7QN7tY0I4g1FqnqD85S5",
         "deezerId": "",
         "designers": ["John Kehe", "Janie Geiser"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3027,6 +3225,7 @@ const albums = [
         "spotifyId": "4hAbKjSBpLISpz4Ikt1cj2",
         "deezerId": "730021",
         "designers": ["Heather Harris", "Terry Taylor"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3042,6 +3241,7 @@ const albums = [
         "spotifyId": "6QpuasuxcyZRJyilH9NNts",
         "deezerId": "",
         "designers": ["James Flournoy Holmes", "Wonder Graphics"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3057,6 +3257,7 @@ const albums = [
         "spotifyId": "46tkcegUrEPfU1Nl0ElZDC",
         "deezerId": "",
         "designers": ["Daved Levitan"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3072,6 +3273,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "84676702",
         "designers": ["Jacques Wyrss"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3087,6 +3289,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3102,6 +3305,7 @@ const albums = [
         "spotifyId": "1jWmEhn3ggaL6isoyLfwBn",
         "deezerId": "340878",
         "designers": ["William S. Harvey", "Guy Webster"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3117,6 +3321,7 @@ const albums = [
         "spotifyId": "6v5IVMmY1IvWtbfnQoiFSf",
         "deezerId": "340880",
         "designers": ["William S. Harvey", "Joel Brodsky"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3132,6 +3337,7 @@ const albums = [
         "spotifyId": "0qZTwrunzX3LG45PvRghmh",
         "deezerId": "381016",
         "designers": ["William S. Harvey", "Paul Farrara"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3147,6 +3353,7 @@ const albums = [
         "spotifyId": "75bLu4Ung5QbMdJYxx7wTI",
         "deezerId": "340879",
         "designers": ["William S. Harvey"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3162,6 +3369,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -3178,6 +3386,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3193,6 +3402,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "466860",
         "designers": ["Georg Kozak"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3208,6 +3418,7 @@ const albums = [
         "spotifyId": "1hN5JK7ET6vw4gQR5fnmj7",
         "deezerId": "59636732",
         "designers": ["Images Inées"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -3227,6 +3438,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3242,6 +3454,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "63044732",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3257,6 +3470,7 @@ const albums = [
         "spotifyId": "5pMUtQr5NeAS8nVhHDoNJg",
         "deezerId": "7730016",
         "designers": ["Trevor Key"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3272,6 +3486,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "57226532",
         "designers": ["Terry Yetton"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3287,6 +3502,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "58280522",
         "designers": ["Peter Chapman"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3302,6 +3518,7 @@ const albums = [
         "spotifyId": "6xBz57CFwGO7ta0IGkF2QR",
         "deezerId": "8875695",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3317,6 +3534,7 @@ const albums = [
         "spotifyId": "4U3gNrULmJ7m12b6APsvm3",
         "deezerId": "11674556",
         "designers": ["John Kehe"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3332,6 +3550,7 @@ const albums = [
         "spotifyId": "7BU9d77tqAw7W26V6waEpt",
         "deezerId": "11674498",
         "designers": ["Art Attack", "John Kehe", "Mick Haggerty"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3347,6 +3566,7 @@ const albums = [
         "spotifyId": "7a35UzxXYuKQGMGImyB0Un",
         "deezerId": "11674580",
         "designers": ["John Kosh"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3362,6 +3582,7 @@ const albums = [
         "spotifyId": "3usnShwygMXVZB4IV5dwnU",
         "deezerId": "11674696",
         "designers": ["John Kosh", "Ria Lewerke", "Shusei Nagaoka"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3377,6 +3598,7 @@ const albums = [
         "spotifyId": "2SlLJQ2VAa1thmcRiVuXrb",
         "deezerId": "11674502",
         "designers": ["Norman Moore", "Paul Gross"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3392,6 +3614,7 @@ const albums = [
         "spotifyId": "4k1GJg2poyo6hwWLqJn9C2",
         "deezerId": "1413698",
         "designers": ["Guy Fery"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "Jeff Lynne takes us into a futuristic romantic story where a man enters the year 2095 and compares his new life with his old one with nostalgia, in the same place that has now drastically changed. Each track borrows a lot of different musical styles such as Disco, New Wave and Reggae, but the album remains heavily Synth-Pop oriented with strong Electro-Rock roots."
     },
@@ -3408,6 +3631,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3423,6 +3647,7 @@ const albums = [
         "spotifyId": "6mnhtrfvfW4kW6XrxCsD3T",
         "deezerId": "327442",
         "designers": ["Roberto Patelli"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3438,6 +3663,7 @@ const albums = [
         "spotifyId": "7zhuy8vqMtMJF73gQN0lvi",
         "deezerId": "327443",
         "designers": ["Roberto Patelli"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3453,6 +3679,7 @@ const albums = [
         "spotifyId": "0eiGbiuC1sd5HITiGIUuAh",
         "deezerId": "327444",
         "designers": ["Kochlowski"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3468,6 +3695,7 @@ const albums = [
         "spotifyId": "4RiTnI1jMR8q1g0ig7R03G",
         "deezerId": "",
         "designers": ["Kochlowski"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3483,6 +3711,7 @@ const albums = [
         "spotifyId": "2dn0CYoFrWYBgaXc3YGiCk",
         "deezerId": "327392",
         "designers": ["Wojtek Siudmak"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "A Space Rock symphonic album divided in four long tracks, lifted with clear basslines by Klaus-Peter Matziol and deep use of Detlev Schmidtchen's synthesizers that sometimes create an atmospheric doom atmosphere - Frank Bornemann's guitars being in the background. Jürgen Rosenthal, fascinated by the myth of Atlantide since always, decided to make it a concept album in which he sings how mankind lost paradise it was given, by its violent behavior."
     },
@@ -3499,6 +3728,7 @@ const albums = [
         "spotifyId": "6XAES0j2QM7gPjLsEEKPVn",
         "deezerId": "327393",
         "designers": ["Winfried Reinbacher"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3514,6 +3744,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Winfried Reinbacher"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3529,6 +3760,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Winfried Reinbacher"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3544,6 +3776,7 @@ const albums = [
         "spotifyId": "24xpef77qNidD1GoWXBHLf",
         "deezerId": "327389",
         "designers": ["Winfried Reinbacher"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3559,6 +3792,7 @@ const albums = [
         "spotifyId": "2AWW5zXJBwLeroqj9D5oWV",
         "deezerId": "122253",
         "designers": ["Dave Larkham"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3574,6 +3808,7 @@ const albums = [
         "spotifyId": "7dtLYwLOdYQa2S8Vjeuxci",
         "deezerId": "122252",
         "designers": ["Jim Goff"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3589,6 +3824,7 @@ const albums = [
         "spotifyId": "03zfU3IwWmymKoaWnwFNaY",
         "deezerId": "247855",
         "designers": ["David Larkham"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3604,6 +3840,7 @@ const albums = [
         "spotifyId": "2OZbaW9tgO62ndm375lFZr",
         "deezerId": "1969081",
         "designers": ["David Larkham"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3619,6 +3856,7 @@ const albums = [
         "spotifyId": "4Q8vDc5lmB9SW9cgMDeQAJ",
         "deezerId": "13680764",
         "designers": ["Nic Dartnell"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3634,6 +3872,7 @@ const albums = [
         "spotifyId": "6mqJylLfGnLCXhdyMPBCRo",
         "deezerId": "13681070",
         "designers": ["William Neal"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3649,6 +3888,7 @@ const albums = [
         "spotifyId": "4mxTngMVhtDdDsFd8SPwo3",
         "deezerId": "13680812",
         "designers": ["William Neal"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3664,6 +3904,7 @@ const albums = [
         "spotifyId": "4Swf9iftTTaoEPbPXyxxUQ",
         "deezerId": "14167544",
         "designers": ["Hipgnosis"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3679,6 +3920,7 @@ const albums = [
         "spotifyId": "1wTqdsmCCQQLCQjXZM3H59",
         "deezerId": "14167536",
         "designers": ["H.R. Giger"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3694,6 +3936,7 @@ const albums = [
         "spotifyId": "2YKjFHhp52XE2ot0u2GZsh",
         "deezerId": "",
         "designers": ["Debra Bishop"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3709,6 +3952,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Paul Sevehon"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3724,6 +3968,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Stephane Dumont"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3739,6 +3984,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "7355877",
         "designers": ["Stephane Dumont"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3754,6 +4000,7 @@ const albums = [
         "spotifyId": "61x86KuqdUWOIQrgD4bQ7m",
         "deezerId": "67970622",
         "designers": ["Jacques Pineau", "Jean Lars"],
+        "similarAlbums": [],
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -3772,6 +4019,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "8769669",
         "designers": ["Larry Learmonth"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3787,6 +4035,7 @@ const albums = [
         "spotifyId": "1ZFS7XZYHmyhTTs5QoZ1xA",
         "deezerId": "",
         "designers": ["Andy Hertel", "Uwe Nettelbeck"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3802,6 +4051,7 @@ const albums = [
         "spotifyId": "2oGSNsSEkxEar3UM2DQSER",
         "deezerId": "66522712",
         "designers": ["William Roberto Wilson"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3817,6 +4067,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Paul Redway"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3832,6 +4083,7 @@ const albums = [
         "spotifyId": "4x5Pm0srEYfYCZhrAmLytS",
         "deezerId": "6405224",
         "designers": ["Paul Till"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3847,6 +4099,7 @@ const albums = [
         "spotifyId": "5AteSiIZMyjzqApnZw2xCb",
         "deezerId": "5939947",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3862,6 +4115,7 @@ const albums = [
         "spotifyId": "3oUXNITVgUpdN2cUwH3hmS",
         "deezerId": "5939948",
         "designers": ["Terence Ibbott"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "Directed by Thijs Van Leer's alchimistic ideas and Jan Akkerman's grandiose guitar playing, Moving Waves starts with a scatterbrained hit track, followed by blue and instrumental-driven music. It ends on an eruption of a pure progressive Rock, 22-minute symphony, using the best of the musician's abilities to create a fulfilling and magical grande finale."
     },
@@ -3878,6 +4132,7 @@ const albums = [
         "spotifyId": "3N4wCf74U6Ye2c2MbLr9hv",
         "deezerId": "5939949",
         "designers": ["Hamish Grimes"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3893,6 +4148,7 @@ const albums = [
         "spotifyId": "4Oz0ciMpZcUiHzTRvhF0m0",
         "deezerId": "5939951",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3908,6 +4164,7 @@ const albums = [
         "spotifyId": "5l85gocvAwwBahXEM1xqHY",
         "deezerId": "59266712",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3923,6 +4180,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Nadia Reynal", "Véronique Le Flem"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3938,6 +4196,7 @@ const albums = [
         "spotifyId": "3PZXB9NBWf11eDS72JCGaY",
         "deezerId": "5821251",
         "designers": ["Jack Anesh"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3953,6 +4212,7 @@ const albums = [
         "spotifyId": "5quWwqogyMjzEXWgCVyvRP",
         "deezerId": "4241481",
         "designers": ["Ferenc Dobronyi", "Cal Schenkel", "Alice Ochs"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3968,6 +4228,7 @@ const albums = [
         "spotifyId": "5xF5RnNiPVOHQkNEXkFSLh",
         "deezerId": "5818091",
         "designers": ["Cal Schenkel"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3983,6 +4244,7 @@ const albums = [
         "spotifyId": "3u1f0ziKFCkqcHUQ0AldCU",
         "deezerId": "5818401",
         "designers": ["Cal Schenkel"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -3998,6 +4260,7 @@ const albums = [
         "spotifyId": "7lRcWdFIW2mrDOu0igcfR0",
         "deezerId": "5818981",
         "designers": ["Cal Schenkel"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4013,6 +4276,7 @@ const albums = [
         "spotifyId": "0WYYrC9My9rYWigac003hw",
         "deezerId": "5819501",
         "designers": ["Cal Schenkel"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4028,6 +4292,7 @@ const albums = [
         "spotifyId": "5sTtFC2SNK38bxG0XSfPLo",
         "deezerId": "4241531",
         "designers": ["Cal Schenkel"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4043,6 +4308,7 @@ const albums = [
         "spotifyId": "7zINPoNwb8ArQgUbq0wlUw",
         "deezerId": "4241541",
         "designers": ["Neon Park"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4058,6 +4324,7 @@ const albums = [
         "spotifyId": "5s6JIqQl2AjuKK7kGUu7xV",
         "deezerId": "4241551",
         "designers": ["Cal Schenkel", "Phil Franks"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4073,6 +4340,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Cal Schenkel", "David McMacken"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4088,6 +4356,7 @@ const albums = [
         "spotifyId": "6yfVhI2a2RM94OdpDTPZgH",
         "deezerId": "5171621",
         "designers": ["Cal Schenkel", "Marvin Mattelson"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4103,6 +4372,7 @@ const albums = [
         "spotifyId": "67GJo4ajqUWHsuY0f4aQz2",
         "deezerId": "5242381",
         "designers": ["Cal Schenkel"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -4119,6 +4389,7 @@ const albums = [
         "spotifyId": "3QrEk9Va9qO4uobczNUtqe",
         "deezerId": "5242391",
         "designers": ["Cal Schenkel", "Ferenc Dobronyi", "David McMacken"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4134,6 +4405,7 @@ const albums = [
         "spotifyId": "3EbtMJsHbspjhN6Xd4plIu",
         "deezerId": "5242401",
         "designers": ["Cal Schenkel", "Ferenc Dobronyi"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "The first part of the album tells the story of a dream Frank Zappa had: as Nanook the eskimo, Zappa encounters eccentric happennings foretold by a foolish prophecy, eventually atending a crazy breakfast party. The whole album is soaked with a bluesy mood, spiced-up with psychedelic music and Jazz parts using a large asset of instruments, and topped with funny lyrics."
     },
@@ -4150,6 +4422,7 @@ const albums = [
         "spotifyId": "1y8ip0XxJYr4JHIvPtTett",
         "deezerId": "5819691",
         "designers": ["Cal Schenkel"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "At their peak of their creativity, The Mothers Of Inventions performed several live concerts at the Roxy in the late 1973. The album captures the absolute best of Frank Zappa's genius and the band's musicality and musicianship. From funny bits to lively Jazz Rock arrangements, all with a stunning sound, these memorable performances create a fantastic, joyful moment where every bandmate can display their fabulous skill in an organic way."
     },
@@ -4166,6 +4439,7 @@ const albums = [
         "spotifyId": "4mp2SC1Wq9jZJINGPAKv0V",
         "deezerId": "5242651",
         "designers": ["Cal Schenkel", "Ferenc Dobronyi"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4181,6 +4455,7 @@ const albums = [
         "spotifyId": "0u4GsfF3p8pt7BVSHIZq2N",
         "deezerId": "5242801",
         "designers": ["Cal Schenkel", "John Williams"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4196,6 +4471,7 @@ const albums = [
         "spotifyId": "3rxfGp9OzH5jjEDX1nFqJc",
         "deezerId": "5242951",
         "designers": ["Cal Schenkel"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4211,6 +4487,7 @@ const albums = [
         "spotifyId": "314RKua1JQwMfZOKD3pUXV",
         "deezerId": "5819991",
         "designers": ["Dweezil Zappa", "John Williams"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4226,6 +4503,7 @@ const albums = [
         "spotifyId": "2Z39MzRC9Jh5eBt7dcJsdL",
         "deezerId": "5243151",
         "designers": ["Gary Panter"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4241,6 +4519,7 @@ const albums = [
         "spotifyId": "4mxbiUjBnnamJdxtF26VbX",
         "deezerId": "5243271",
         "designers": ["Gary Panter"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4256,6 +4535,7 @@ const albums = [
         "spotifyId": "4hBKoHOpEvQ6g4CQFsEAdU",
         "deezerId": "5243411",
         "designers": ["Lynn Goldsmith", "John Williams"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4271,8 +4551,25 @@ const albums = [
         "spotifyId": "6uJkCskko3O83SRYWQVsjS",
         "deezerId": "5243861",
         "designers": ["John Williams", "Norman Seeff"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "Joe, a young guitarist, forms a band in his garage in a world repressed by the Central Scrutinizer, a clunky flying saucer whose role is to enforce the law. Frank Zappa presents Joe's story and struggles in this dystopian society, through music blending many genres, though very Pop Rock-driven (mocking the Rock fashion of the late 70's), and comical lyrics."
+    },
+    {
+        "id": "frank_zappa_you_are_what_you_is",
+        "title": "You Are What You Is",
+        "artist": "Frank Zappa",
+        "year": 1981,
+        "country": regions.USA,
+        "cover": pathToCovers + "/frank_zappa_you_are_what_you_is.jpg",
+        "criteria": [criteria.BLENDS, criteria.FUNNY, criteria.ODD_RHYTHM, criteria.ART_POP, criteria.TRANSITION],
+        "selectedTrackTitle": "todo",
+        "selectedTrackYtId": "todo",
+        "spotifyId": "2pY7S6zvkALbtQU7qSwc2d",
+        "deezerId": "5244921",
+        "designers": ["John Livzey", "John Vince"],
+        "similarAlbums": [],
+        "isAGem": false
     },
     {
         "id": "frank_zappa_frank_zappa_meets_the_mothers_of_prevention",
@@ -4283,10 +4580,11 @@ const albums = [
         "cover": pathToCovers + "/frank_zappa_frank_zappa_meets_the_mothers_of_prevention.jpg",
         "criteria": [criteria.BLENDS, criteria.NEO_EIGHTIES, criteria.ODD_RHYTHM, criteria.FUNNY, criteria.SOUND_COLLAGES],
         "selectedTrackTitle": "Little Beige Sambo",
-        "selectedTrackYtId": "",
+        "selectedTrackYtId": "TPl3hRd3IYc",
         "spotifyId": "1NVnPUNo6DOhvp11vYl7pr",
         "deezerId": "81945452",
         "designers": ["Chris Whorf", "Jeffery Fey", "John Dearstyne"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4302,6 +4600,7 @@ const albums = [
         "spotifyId": "2phI9hXkfvn8DeBiqbZu4I",
         "deezerId": "5064451",
         "designers": ["Lynn Goldsmith"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4317,6 +4616,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4332,6 +4632,7 @@ const albums = [
         "spotifyId": "4CrrecfGaq43xBDvHt2wSf",
         "deezerId": "",
         "designers": ["Anne Marie Anderson"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4347,6 +4648,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Michael Behr"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4362,6 +4664,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4377,6 +4680,7 @@ const albums = [
         "spotifyId": "3GEM70tfeO6PD5MvaxXe4c",
         "deezerId": "13933630",
         "designers": ["Jonathan Coudrille"],
+        "similarAlbums": ["titus_groan_titus_groan"],
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -4395,6 +4699,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Patrick Von Spreckelsen"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4410,6 +4715,7 @@ const albums = [
         "spotifyId": "525nWIZPd0L525Jo7EljVB",
         "deezerId": "77067432",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4425,6 +4731,7 @@ const albums = [
         "spotifyId": "0mKr6PDMuhTEWatlw5a4hl",
         "deezerId": "302651",
         "designers": ["Paul Whitehead"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "A cold mood surrounds the music with a few happy fantasy moments. Peter Gabriel's theatrical vocals fit the sophisticated sections of Anthony Phillips's and Michael Rutherford's folk guitars as well as Anthony Banks's and John Mayhew's unleashed symphonic keyboards and drums. A lot of thoughts have been given to render the calm moments a little bit sweet but distant."
     },
@@ -4441,6 +4748,7 @@ const albums = [
         "spotifyId": "6hCrozhHxZ2kKQwc1qTPIB",
         "deezerId": "302652",
         "designers": ["Paul Whitehead"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4456,6 +4764,7 @@ const albums = [
         "spotifyId": "1P9AuGH530Oy9JEW5XVuxo",
         "deezerId": "302653",
         "designers": ["Paul Whitehead"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4471,6 +4780,7 @@ const albums = [
         "spotifyId": "2tSRe2rkdJvZWMOIZpu6lk",
         "deezerId": "302654",
         "designers": ["Betty Swanwick"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -4487,6 +4797,7 @@ const albums = [
         "spotifyId": "6kuKRIu6YGYxQLwasTL3Gx",
         "deezerId": "69990532",
         "designers": ["Hipgnosis", "George Hardie"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4502,6 +4813,7 @@ const albums = [
         "spotifyId": "6gzQHMfNleYdrw5PDkLxBv",
         "deezerId": "300488",
         "designers": ["Hipgnosis", "Colin Elgie"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4517,6 +4829,7 @@ const albums = [
         "spotifyId": "4CgleVVe43iVPsmWh7Mydo",
         "deezerId": "300490",
         "designers": ["Hipgnosis", "Colin Elgie"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4532,6 +4845,7 @@ const albums = [
         "spotifyId": "74Ocu3SLMQ1SD9uGAR8dVe",
         "deezerId": "122364",
         "designers": ["George Underwood"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4547,6 +4861,7 @@ const albums = [
         "spotifyId": "7sMpdqLgCDDGMx7NE3rf3o",
         "deezerId": "67414822",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4562,6 +4877,7 @@ const albums = [
         "spotifyId": "4wJZXbfVqi4q4NntTUEz9o",
         "deezerId": "977181",
         "designers": ["Rick Breach"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4571,12 +4887,13 @@ const albums = [
         "year": 1972,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/gentle_giant_octopus.jpg",
-        "criteria": [criteria.ODD_RHYTHM, criteria.C_JAZZ, criteria.C_FOLK, criteria.SOPHISTICATED],
+        "criteria": [criteria.ODD_RHYTHM, criteria.C_JAZZ, criteria.C_FOLK, criteria.SOPHISTICATED, criteria.UNCOMMON_INSTRUMENTS],
         "selectedTrackTitle": "The Boys In The Band",
         "selectedTrackYtId": "BTet3C_afKA",
         "spotifyId": "3zrWDaBwnrobMeSdMmUham",
         "deezerId": "288051",
         "designers": ["Roger Dean"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4592,6 +4909,7 @@ const albums = [
         "spotifyId": "3XIbbhpEsyqlxggk7qJNcH",
         "deezerId": "14932907",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4607,6 +4925,7 @@ const albums = [
         "spotifyId": "29OQeJSa3kVeo4E8HLb4Az",
         "deezerId": "14932909",
         "designers": ["Cream"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4622,6 +4941,7 @@ const albums = [
         "spotifyId": "0q8Qt2dk9NL0F35BmrImUA",
         "deezerId": "13797242",
         "designers": ["Richard Evans"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4637,6 +4957,7 @@ const albums = [
         "spotifyId": "27LrzDfCpvyhJw63OQz9cw",
         "deezerId": "1672523",
         "designers": ["Heinz Bähr"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4652,6 +4973,7 @@ const albums = [
         "spotifyId": "1QhnNI715XeCP0jdXcAatN",
         "deezerId": "1672135",
         "designers": ["Sätty"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4667,6 +4989,7 @@ const albums = [
         "spotifyId": "3eh1IRX651996u3aAJX9xU",
         "deezerId": "10298722",
         "designers": ["Sätty"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4682,6 +5005,7 @@ const albums = [
         "spotifyId": "5vgx9FXyHl6XzC4ao0gNaS",
         "deezerId": "3829681",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4697,6 +5021,7 @@ const albums = [
         "spotifyId": "4BE2lbxqHkUHTA5mlHWnGQ",
         "deezerId": "3829661",
         "designers": ["Peter Cowling", "Bruce Pennington"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4712,6 +5037,7 @@ const albums = [
         "spotifyId": "0f4XuQuCuuL570i4anZtrK",
         "deezerId": "1226415",
         "designers": ["Gian Franco Marignani"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4727,6 +5053,7 @@ const albums = [
         "spotifyId": "0QWmqw8ui1akXCQmfUplsf",
         "deezerId": "9844450",
         "designers": ["Dingo Virgin"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4742,6 +5069,7 @@ const albums = [
         "spotifyId": "47tuhYAVX2ELCONy10VOLX",
         "deezerId": "129262",
         "designers": ["Dingo Virgin", "Maggie Thomas", "Tom Fu"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -4758,6 +5086,7 @@ const albums = [
         "spotifyId": "2w9jcoFYXE4MQPHc0iiRIj",
         "deezerId": "329558",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4773,6 +5102,7 @@ const albums = [
         "spotifyId": "6hAIjAPceH3bu3kHEijTRZ",
         "deezerId": "302280",
         "designers": ["Barved Zumizion", "Brigitte Moonweed", "Tim Moonweed"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4788,6 +5118,7 @@ const albums = [
         "spotifyId": "6toBULpdqeeFe2bbmkvY8o",
         "deezerId": "329493",
         "designers": ["Clive Arrowsmith"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4803,6 +5134,7 @@ const albums = [
         "spotifyId": "2TYKRlxGfQWNcVSl5NSRw9",
         "deezerId": "329490",
         "designers": ["Jacques Moitoret"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -4819,6 +5151,7 @@ const albums = [
         "spotifyId": "4wHbNpvcRJlpB43r4zAKzA",
         "deezerId": "329570",
         "designers": ["Splash Studio"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4834,6 +5167,7 @@ const albums = [
         "spotifyId": "0jtBMVjCxL1CkyrkvtCATH",
         "deezerId": "7407478",
         "designers": ["Bill Walker"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4849,6 +5183,7 @@ const albums = [
         "spotifyId": "5BwjVdVJ4aOmbIYomznfCv",
         "deezerId": "7407466",
         "designers": ["Philip Garris"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4864,6 +5199,7 @@ const albums = [
         "spotifyId": "0WVDqz6ty88sjpbfvMqF98",
         "deezerId": "7407450",
         "designers": ["Alton Kelley", "Stanley Mouse"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4879,6 +5215,7 @@ const albums = [
         "spotifyId": "6M33CK8kyv7Fr5c9m2LpZH",
         "deezerId": "64643642",
         "designers": ["Dan Pearce"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4894,6 +5231,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["James Lienhart"],
+        "similarAlbums": [],
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -4912,6 +5250,7 @@ const albums = [
         "spotifyId": "0y4tO6nOsPafJvofvMLJ4h",
         "deezerId": "13890154",
         "designers": ["Mary Walsh", "Dennis Luzak"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4927,6 +5266,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Mario Grimaldi"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4942,6 +5282,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4957,6 +5298,7 @@ const albums = [
         "spotifyId": "1o2UqbYkULKaLzkD5VUPlm",
         "deezerId": "259495",
         "designers": ["Louis-Pierre Bougie"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -4973,6 +5315,7 @@ const albums = [
         "spotifyId": "1F82UuPUIGO9EovuErU18m",
         "deezerId": "66294302",
         "designers": ["Michel Normandeau", "Robert Lussier"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -4988,6 +5331,7 @@ const albums = [
         "spotifyId": "4BOWgeJvFkiCg9qa2LYHDk",
         "deezerId": "330066",
         "designers": ["Laurie Lewis"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5003,6 +5347,7 @@ const albums = [
         "spotifyId": "6NqP2oaumNCKtIoxIpgPKj",
         "deezerId": "301454",
         "designers": ["Laurie Lewis"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5018,6 +5363,7 @@ const albums = [
         "spotifyId": "1cgsYqtDTMTetu7FjEsIhI",
         "deezerId": "300059",
         "designers": ["Barney Bubbles"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5033,6 +5379,7 @@ const albums = [
         "spotifyId": "3L8loctj4t0QbqBH3NTcoU",
         "deezerId": "319939",
         "designers": ["Barney Bubbles"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5048,6 +5395,7 @@ const albums = [
         "spotifyId": "0CIh8QCK9o0mKyzzNWzjUZ",
         "deezerId": "330111",
         "designers": ["Barney Bubbles"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5063,6 +5411,7 @@ const albums = [
         "spotifyId": "2S5MzNaOk2kXrwmNhMngRV",
         "deezerId": "12160332",
         "designers": ["Comte Pierre D'Auvergne"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5078,6 +5427,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Ray Smith"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5093,6 +5443,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Ray Smith"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5108,6 +5459,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Ray Smith"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5123,6 +5475,7 @@ const albums = [
         "spotifyId": "00Uf5PRAinCJ0oiCX1Cv2k",
         "deezerId": "78186",
         "designers": ["Rob Springett"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5138,6 +5491,7 @@ const albums = [
         "spotifyId": "5ez9bb1h1hOLV8Wb5YCmkj",
         "deezerId": "115696",
         "designers": ["Dario Campanile"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5153,6 +5507,23 @@ const albums = [
         "spotifyId": "13rwtqLWF1jl1NEDhgbYsw",
         "deezerId": "7357907",
         "designers": [],
+        "similarAlbums": [],
+        "isAGem": false
+    },
+    {
+        "id": "human_egg_human_egg",
+        "title": "Human Egg",
+        "artist": "Human Egg",
+        "year": 1978,
+        "country": regions.FRANCE,
+        "cover": pathToCovers + "/human_egg_human_egg.jpg",
+        "criteria": [criteria.C_ELECTRO, criteria.SOUND_COLLAGES],
+        "selectedTrackTitle": "Delusion",
+        "selectedTrackYtId": "7DwzDXObP_8",
+        "spotifyId": "2TmQEAgqoecjpy3rBw2Hdm",
+        "deezerId": "67461902",
+        "designers": ["Martine Leprince"],
+        "similarAlbums": [],
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -5171,6 +5542,7 @@ const albums = [
         "spotifyId": "24WaOfzbGpPOlQoUaQWU76",
         "deezerId": "63044492",
         "designers": ["Paul Sachse"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5186,6 +5558,7 @@ const albums = [
         "spotifyId": "0jrTadRWLIYY2sRp2HA2KU",
         "deezerId": "687043",
         "designers": ["William S. Harvey"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5201,6 +5574,7 @@ const albums = [
         "spotifyId": "3htu0UsV5JuouSfugMHNgS",
         "deezerId": "687042",
         "designers": ["Simon & Marijke"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5216,6 +5590,7 @@ const albums = [
         "spotifyId": "168tPkaBJZKYxSrWDo4n1h",
         "deezerId": "687041",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5231,6 +5606,7 @@ const albums = [
         "spotifyId": "6MNdP3UdxQeqrfGkBS1BLc",
         "deezerId": "687040",
         "designers": ["Diogenic Attempts Ltd"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5246,6 +5622,7 @@ const albums = [
         "spotifyId": "3XIJsxs4sBkEK7aIdFSn00",
         "deezerId": "687039",
         "designers": ["Diogenic Attempts Ltd"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5261,8 +5638,25 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Marcus Keef"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
+    },
+    {
+        "id": "iris_litanies",
+        "title": "Litanies",
+        "artist": "Iris",
+        "year": 1972,
+        "country": regions.FRANCE,
+        "cover": pathToCovers + "/iris_litanies.jpg",
+        "criteria": [criteria.FRENCH_SUNG, criteria.HUMBLE, criteria.SOUND_COLLAGES, criteria.C_PSYCHEDELIC, criteria.SYMPHONIC, criteria.UNCOMMON_INSTRUMENTS, criteria.SOFT],
+        "selectedTrackTitle": "Donnez-Moi De L'eau",
+        "selectedTrackYtId": "eUh5jHcxQKc",
+        "spotifyId": "",
+        "deezerId": "",
+        "designers": ["G. Lochu"],
+        "similarAlbums": [],
+        "isAGem": false,
     },
     {
         "id": "island_pictures",
@@ -5277,6 +5671,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["H.R. Giger"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -5296,6 +5691,7 @@ const albums = [
         "spotifyId": "5rJ3MIbM4gBw3jI3oIPAVf",
         "deezerId": "671911",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5311,6 +5707,7 @@ const albums = [
         "spotifyId": "3HBlatCq9VNe4pqZa4cs3Q",
         "deezerId": "978184",
         "designers": ["Jon Field"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5326,6 +5723,7 @@ const albums = [
         "spotifyId": "2NQlOIbSk9fsCtKXTGPa9M",
         "deezerId": "671910",
         "designers": ["Kunio Hagio"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5341,6 +5739,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Eckford / Stimpson"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5356,6 +5755,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Eckford / Stimpson"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5371,6 +5771,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Eckford / Stimpson"],
+        "similarAlbums": [],
         "isAGem": false,
     },
     {
@@ -5386,6 +5787,7 @@ const albums = [
         "spotifyId": "38EaunYTn64p0RSCxb5Jbv",
         "deezerId": "248760",
         "designers": ["Eckford / Stimpson"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -5402,6 +5804,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5417,6 +5820,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5432,6 +5836,7 @@ const albums = [
         "spotifyId": "3e7TxckusgnC1AYnAqbl2z",
         "deezerId": "11101076",
         "designers": ["Michel Granger"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -5448,6 +5853,7 @@ const albums = [
         "spotifyId": "41Dl68Kik63nV6zvn07NgY",
         "deezerId": "11101078",
         "designers": ["Michel Granger"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5463,6 +5869,7 @@ const albums = [
         "spotifyId": "2m8DWhADf8ui1MDNAmjX8I",
         "deezerId": "77496",
         "designers": ["Marty Balin"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5478,6 +5885,7 @@ const albums = [
         "spotifyId": "4YYeywv0sLkLAGbJuKJIdi",
         "deezerId": "78698",
         "designers": ["Ron Cobb"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5493,6 +5901,7 @@ const albums = [
         "spotifyId": "2xVKQMP0eudZlSnJwVhhPu",
         "deezerId": "78701",
         "designers": ["Hiro", "John Van Hamersveld"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5508,6 +5917,7 @@ const albums = [
         "spotifyId": "5SxBU3zQaLOq5eapsG3jFQ",
         "deezerId": "76220",
         "designers": ["Gut"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5523,6 +5933,7 @@ const albums = [
         "spotifyId": "5c0NFeQON726s0zzipHA1d",
         "deezerId": "299907",
         "designers": ["Jimmy Grashow", "John Williams", "Terry Ellis"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5538,6 +5949,7 @@ const albums = [
         "spotifyId": "1meW8yyx76RPZebO32VwrB",
         "deezerId": "299908",
         "designers": ["Ruan O'Lochlainn"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5553,6 +5965,7 @@ const albums = [
         "spotifyId": "0NGM3Ftwjw0dLNpAowmz3x",
         "deezerId": "300262",
         "designers": ["CCS", "Burton Silverman"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5568,6 +5981,7 @@ const albums = [
         "spotifyId": "1ZxChDw03SUFGUz0RC8A8M",
         "deezerId": "300263",
         "designers": ["Chrysalis' Roy Eldridge"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -5584,6 +5998,7 @@ const albums = [
         "spotifyId": "1mY1n8xO6Na0pDvqyBhG07",
         "deezerId": "10632386",
         "designers": ["CCS"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5599,6 +6014,7 @@ const albums = [
         "spotifyId": "35eKQzddf5pcCQN6laEHEc",
         "deezerId": "299808",
         "designers": ["Joe Garnett", "Ron Kriss"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5614,6 +6030,7 @@ const albums = [
         "spotifyId": "3hqr2lQ7zQdnyguyuID177",
         "deezerId": "299409",
         "designers": ["Jay L. Lee"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5629,6 +6046,7 @@ const albums = [
         "spotifyId": "7rSZXXHHvIhF4yUFdaOCy9",
         "deezerId": "455130",
         "designers": ["Karl Ferris"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5644,6 +6062,7 @@ const albums = [
         "spotifyId": "3uFZf8rykoHo7XMIQVYW6r",
         "deezerId": "454044",
         "designers": ["David King", "Roger Law", "Karl Ferris"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5659,6 +6078,7 @@ const albums = [
         "spotifyId": "5z090LQztiqh13wYspQvKQ",
         "deezerId": "454043",
         "designers": ["Karl Ferris"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5674,6 +6094,7 @@ const albums = [
         "spotifyId": "28NkOYgAmfDMjecduDX7lL",
         "deezerId": "6862036",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5689,6 +6110,7 @@ const albums = [
         "spotifyId": "4cjthZg9EZT2Hik5XecWQl",
         "deezerId": "115697",
         "designers": ["Albert Louis Bramy", "Mansfield"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5704,6 +6126,7 @@ const albums = [
         "spotifyId": "35GpNAlZhihN2jUm7WL7uH",
         "deezerId": "111735",
         "designers": ["Bruce Steinberg"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5719,6 +6142,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Stephen Hill"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5734,6 +6158,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -5752,6 +6177,7 @@ const albums = [
         "spotifyId": "14kr4VwmaiVRlX2LBe4dhM",
         "deezerId": "59172662",
         "designers": ["Pelle Metérus"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -5768,6 +6194,7 @@ const albums = [
         "spotifyId": "5c2ynbV1R5rJo1PFXQoJVL",
         "deezerId": "59017362",
         "designers": ["Pelle Metérus"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5783,6 +6210,7 @@ const albums = [
         "spotifyId": "6XcFdQkodBjuft1XeQHVMu",
         "deezerId": "59174642",
         "designers": ["Lars Holm"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5798,6 +6226,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Ermalm's Egenart"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5813,6 +6242,7 @@ const albums = [
         "spotifyId": "17gyX2CBsza4InyWaKICjw",
         "deezerId": "59113702",
         "designers": ["Håkan Uppgren"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5828,6 +6258,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5843,6 +6274,7 @@ const albums = [
         "spotifyId": "5DwyFzATQVpvXqG4HXaJMj",
         "deezerId": "75348",
         "designers": ["John Steuart Curry"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5858,6 +6290,7 @@ const albums = [
         "spotifyId": "0qxtKWBLB8jFFSqEZ56xqM",
         "deezerId": "75256",
         "designers": ["Peter Lloyd"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5873,6 +6306,7 @@ const albums = [
         "spotifyId": "3ErpZfUzDkjSIjSU3CC4RU",
         "deezerId": "78376",
         "designers": ["Giuseppe Arcimboldo", "Flournoy Holmes"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5888,6 +6322,7 @@ const albums = [
         "spotifyId": "7MejfRSNnrpcLZIxkeZDqR",
         "deezerId": "78167",
         "designers": ["David McMacken"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5903,6 +6338,7 @@ const albums = [
         "spotifyId": "6oU298pdPTCQnMx1PYwyUA",
         "deezerId": "96016",
         "designers": ["Peter Lloyd"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5918,6 +6354,7 @@ const albums = [
         "spotifyId": "4qRDOvTdOTI1qX62pdQZak",
         "deezerId": "3093221",
         "designers": ["Bruce Wolfe"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5933,6 +6370,7 @@ const albums = [
         "spotifyId": "6mkFLh2kDYQwIMkCctbGqU",
         "deezerId": "3093211",
         "designers": ["Peter Lloyd"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5948,6 +6386,7 @@ const albums = [
         "spotifyId": "5NKTuBLCYhN0OwqFiGdXd1",
         "deezerId": "301656",
         "designers": ["Splash Studio"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5963,6 +6402,7 @@ const albums = [
         "spotifyId": "7qeRejAsyqrM1hw3LwVPYp",
         "deezerId": "301654",
         "designers": ["John Carder Bush", "Richard Gray"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5978,6 +6418,7 @@ const albums = [
         "spotifyId": "4MYtX4Kta7FL4NVUE0FYws",
         "deezerId": "301642",
         "designers": ["Nick Price"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -5993,6 +6434,7 @@ const albums = [
         "spotifyId": "1gRJsaJ7ExC9Q9YdB9ZMC5",
         "deezerId": "1063593",
         "designers": ["Nick Price", "Kindlight", "Bill Clark"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6008,6 +6450,7 @@ const albums = [
         "spotifyId": "5BWl0bB1q0TqyFmkBEupZy",
         "deezerId": "1063611",
         "designers": ["Bill Smith"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6023,6 +6466,7 @@ const albums = [
         "spotifyId": "0Bk6rV33JObdtOpjJg0vIy",
         "deezerId": "1063594",
         "designers": ["Bill Smith", "Kindlight"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6038,6 +6482,7 @@ const albums = [
         "spotifyId": "72MmcinutOLOAMic13Edb6",
         "deezerId": "1031288",
         "designers": ["Peacock Marketing & Design"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6053,6 +6498,7 @@ const albums = [
         "spotifyId": "0pKa943UCMOv0aE5eIKYUA",
         "deezerId": "15611242",
         "designers": ["Keef Hartley"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6068,6 +6514,7 @@ const albums = [
         "spotifyId": "1FRSUQURGB2DV4JnrsFEMO",
         "deezerId": "15610516",
         "designers": ["West Four", "Keef Hartley"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6083,6 +6530,7 @@ const albums = [
         "spotifyId": "75sMiBX4FEfaAdbKNBxPfK",
         "deezerId": "13817312",
         "designers": ["David Anstey"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6098,6 +6546,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Barry Godber"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "A lunatic album that starts with a strident sound but then inverts the mood with soft songs to ultimately display a memorable symphonic performance. The soft parts are held by Greg Lake's vocals and Ian McDonald's flute and clarinet, while Robert Fripp and Michael Giles implicitely put Jazz in the compositions. Just like the cover of the schizoid man, when focusing on specific parts, a veriety of emotions can be interpreted, but overall, an abandonned feeling leaves the biggest trace in the listening experience."
     },
@@ -6114,6 +6563,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Tammo De Jongh"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6129,6 +6579,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Gini Barris", "Koraz Wallpapers", "CCS"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6144,6 +6595,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Peter Sinfield"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6159,6 +6611,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Tantra Designs"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6174,6 +6627,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Tom Phillips"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6189,6 +6643,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["John Kosh"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "The band uses a crushing sound and dissonant riffs to install a nerve-racking mood throughout the album. Soft moments are rare, just enough to take our breath, so that it feels that the album drives us in its hypnotic dark race, where the end is a magnificent music representation of despair."
     },
@@ -6205,6 +6660,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Peter Saville", "John Kyrk"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6220,6 +6676,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Rob O'Connor"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6235,6 +6692,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Timothy Earnes", "Peter Willis"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6250,6 +6708,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Bill Smith"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6265,6 +6724,7 @@ const albums = [
         "spotifyId": "58UcN7f8fECrlCmmLgbDAT",
         "deezerId": "13727100",
         "designers": ["Ted Jones"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6280,6 +6740,7 @@ const albums = [
         "spotifyId": "6LEiIksxaQiQ6uHLKtOKQK",
         "deezerId": "13777006",
         "designers": ["Ted Jones"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6295,6 +6756,7 @@ const albums = [
         "spotifyId": "3ion6KUuAZ8j6Hi53fphDY",
         "deezerId": "13727148",
         "designers": ["Hugh Syme"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6310,6 +6772,7 @@ const albums = [
         "spotifyId": "0e8o4qrveZYeoFDQc9ygoL",
         "deezerId": "13726988",
         "designers": ["Ted Jones"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6325,6 +6788,7 @@ const albums = [
         "spotifyId": "67voFne6CSj4rpdeFbgmbu",
         "deezerId": "7555663",
         "designers": ["Ted Jones"],
+        "similarAlbums": [],
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -6343,6 +6807,7 @@ const albums = [
         "spotifyId": "5t4R4xvdXFf9NykpZkN8NN",
         "deezerId": "428496",
         "designers": ["Douanier Rousseau"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -6359,6 +6824,7 @@ const albums = [
         "spotifyId": "3ycjBixZf7S3WpC5WZhhUK",
         "deezerId": "7820635",
         "designers": ["Sam Shere"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6374,6 +6840,7 @@ const albums = [
         "spotifyId": "70lQYZtypdCALtFVlQAcvx",
         "deezerId": "7824595",
         "designers": ["David Juniper"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6389,6 +6856,7 @@ const albums = [
         "spotifyId": "1u5BsuBK45mLwrbqdASN3g",
         "deezerId": "7821441",
         "designers": ["Zacron"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6404,6 +6872,7 @@ const albums = [
         "spotifyId": "5EyIDBAqhnlkAHqvPRwdbX",
         "deezerId": "11591214",
         "designers": ["Barrington Colby", "Keith Morris"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -6420,6 +6889,7 @@ const albums = [
         "spotifyId": "5phxHbK2GSr7hEu4orLywP",
         "deezerId": "90486",
         "designers": ["Hipgnosis", "Aubrey Powell"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6435,6 +6905,7 @@ const albums = [
         "spotifyId": "0ovKDDAHiTwg4AEjKdgdWo",
         "deezerId": "90402",
         "designers": ["Peter Corristo", "Mike Doud"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6450,6 +6921,7 @@ const albums = [
         "spotifyId": "3xiPkaTzfC48CcsXYgz5v0",
         "deezerId": "90396",
         "designers": ["Hipgnosis", "George Hardie"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6465,6 +6937,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6480,6 +6953,7 @@ const albums = [
         "spotifyId": "0U4WyeZ1hw3lSGxJo9orRA",
         "deezerId": "103484",
         "designers": ["Anna Montecroci", "Biagio Carrone"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6495,6 +6969,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6510,6 +6985,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Paolo Paglia"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6525,6 +7001,7 @@ const albums = [
         "spotifyId": "6myt0Ez6hGJIPQeZKgY8um",
         "deezerId": "85229172",
         "designers": ["William S. Harvey", "Bob Pepper"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6540,6 +7017,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Susan Power"],
+        "similarAlbums": [],
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -6558,6 +7036,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Roman Spiess"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6573,6 +7052,7 @@ const albums = [
         "spotifyId": "2Dxds4KnG03MiNlxB9AMev",
         "deezerId": "44079",
         "designers": ["M.J. Petit"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6588,6 +7068,7 @@ const albums = [
         "spotifyId": "0TDe5JNrVMvYJhA6Wk3kYe",
         "deezerId": "",
         "designers": ["Christian Vander", "Gérald Nimal"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6603,6 +7084,7 @@ const albums = [
         "spotifyId": "6MDeMi4c1Zo1KRKtCgZpsb",
         "deezerId": "44083",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -6619,6 +7101,7 @@ const albums = [
         "spotifyId": "51oBKp7YV5ZEVc2PQpU7yx",
         "deezerId": "44080",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6634,6 +7117,7 @@ const albums = [
         "spotifyId": "7k6xCjMzSg4WFFxRNDq7pm",
         "deezerId": "44081",
         "designers": ["Fabio Nicoli"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6649,6 +7133,7 @@ const albums = [
         "spotifyId": "3TOrYzTzra3GW7iqQmKpLC",
         "deezerId": "21891",
         "designers": ["Klaus Blasquiz"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6664,6 +7149,7 @@ const albums = [
         "spotifyId": "7CEoMKWc490SjtEMJ5va6D",
         "deezerId": "44078",
         "designers": ["H.R. Giger"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6679,6 +7165,7 @@ const albums = [
         "spotifyId": "0chWLemqlI6G1GOEr1q1bz",
         "deezerId": "98995",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -6695,6 +7182,7 @@ const albums = [
         "spotifyId": "6SLknspfGod3v3TyWawl8J",
         "deezerId": "97632",
         "designers": ["Ashok"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6710,6 +7198,7 @@ const albums = [
         "spotifyId": "1SkdtzukyNIq2wTUiVeyuk",
         "deezerId": "116761",
         "designers": ["Ashok"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6725,6 +7214,7 @@ const albums = [
         "spotifyId": "2LYPJHnU2WC7RbHXvJxXZX",
         "deezerId": "115857",
         "designers": ["Ashok"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6740,6 +7230,7 @@ const albums = [
         "spotifyId": "7J0OL2Ai73lJZu06coM0Oo",
         "deezerId": "115665",
         "designers": ["Ashok"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6755,6 +7246,7 @@ const albums = [
         "spotifyId": "2dfmgmxi7UYxCFxHVx3Ie6",
         "deezerId": "",
         "designers": ["Hans Memling"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6770,6 +7262,7 @@ const albums = [
         "spotifyId": "2j2VetN4wKo311qTel05JU",
         "deezerId": "",
         "designers": ["Bob Lemm", "Ivan Schwartz"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6785,6 +7278,7 @@ const albums = [
         "spotifyId": "5PxuOEcNc9aQKjZZE5AMdx",
         "deezerId": "",
         "designers": ["Bob Lemm", "Ivan Schwartz"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6800,6 +7294,7 @@ const albums = [
         "spotifyId": "78JGXwpxY2ZqO4ouyrG75k",
         "deezerId": "319364",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6815,6 +7310,7 @@ const albums = [
         "spotifyId": "5yGuU3tLCnsnPtexUBKL02",
         "deezerId": "319368",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6830,6 +7326,7 @@ const albums = [
         "spotifyId": "6H63XRFZChnj9UIlHUdKI9",
         "deezerId": "319365",
         "designers": ["David Anstee"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6845,6 +7342,7 @@ const albums = [
         "spotifyId": "5mbtDQJwsioLCEGIT1cbOJ",
         "deezerId": "302509",
         "designers": ["Mark Wilkinson"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6860,6 +7358,7 @@ const albums = [
         "spotifyId": "3fyFddxAoeW4JIuczl8lXU",
         "deezerId": "302511",
         "designers": ["Mark Wilkinson"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6875,6 +7374,7 @@ const albums = [
         "spotifyId": "3ExyKxlUkqD41I8tQumMDF",
         "deezerId": "51780972",
         "designers": ["Mark Wilkinson"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6890,6 +7390,39 @@ const albums = [
         "spotifyId": "7M6qdztBAZADkaYJ6bIEhF",
         "deezerId": "302510",
         "designers": ["Mark Wilkinson"],
+        "similarAlbums": [],
+        "isAGem": false
+    },
+    {
+        "id": "marvin_welch_and_farrar_marvin_welch_and_farrar",
+        "title": "Marvin, Welch & Farrar",
+        "artist": "Marvin, Welch & Farrar",
+        "year": 1971,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/marvin_welch_and_farrar_marvin_welch_and_farrar.jpg",
+        "criteria": [criteria.ODD_RHYTHM, criteria.FOLK, criteria.SOFT, criteria.BAROQUE],
+        "selectedTrackTitle": "A Thousand Conversations",
+        "selectedTrackYtId": "Zoa92feWUC8",
+        "spotifyId": "",
+        "deezerId": "",
+        "designers": ["Hipgnosis"],
+        "similarAlbums": [],
+        "isAGem": false
+    },
+    {
+        "id": "marvin_welch_and_farrar_second_opinion",
+        "title": "Second Opinion",
+        "artist": "Marvin, Welch & Farrar",
+        "year": 1971,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/marvin_welch_and_farrar_second_opinion.jpg",
+        "criteria": [criteria.ART_POP, criteria.C_FOLK, criteria.SOFT, criteria.BAROQUE, criteria.UNCOMMON_INSTRUMENTS],
+        "selectedTrackTitle": "Tiny Robin",
+        "selectedTrackYtId": "aUv9VMfMhzs",
+        "spotifyId": "",
+        "deezerId": "",
+        "designers": ["Hipgnosis"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6905,6 +7438,7 @@ const albums = [
         "spotifyId": "24Z8SaFvPzP8IE6b1Dzj94",
         "deezerId": "1215173",
         "designers": ["Alan Cracknell"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6920,6 +7454,7 @@ const albums = [
         "spotifyId": "0Qwo3GaODDq65v6xKWKqne",
         "deezerId": "683834",
         "designers": ["Bob Norrington"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6935,6 +7470,7 @@ const albums = [
         "spotifyId": "6TZiaRqylZpos2gCvCIsLu",
         "deezerId": "671893",
         "designers": ["Tony Benyon"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6950,6 +7486,7 @@ const albums = [
         "spotifyId": "28ftlSGxhgcNAJSUrPQ8E3",
         "deezerId": "424690",
         "designers": ["Tony Benyon"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6965,6 +7502,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6980,6 +7518,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -6995,6 +7534,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7010,6 +7550,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Jacques Charbonneau"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7025,6 +7566,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Francine Larivée"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7040,6 +7582,7 @@ const albums = [
         "spotifyId": "0a3YQpBnRzJzNktOjb6Dum",
         "deezerId": "10232416",
         "designers": ["Trevor Key"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7055,6 +7598,7 @@ const albums = [
         "spotifyId": "50PyBlT9PggDbi4Hauw9du",
         "deezerId": "620753",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7070,6 +7614,7 @@ const albums = [
         "spotifyId": "200p7O3raeXT2jNhmzK4TE",
         "deezerId": "620607",
         "designers": ["David Bailey"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7085,6 +7630,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7100,6 +7646,7 @@ const albums = [
         "spotifyId": "3ZS8uTlViMWAMM1q6lgPRu",
         "deezerId": "224746",
         "designers": ["David Anstey"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7115,6 +7662,7 @@ const albums = [
         "spotifyId": "0Rdx3jfi6h97W5VjQsuMOp",
         "deezerId": "119073",
         "designers": ["Phil Travers"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7130,6 +7678,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Wanda Spinello"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -7146,6 +7695,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Michel Verdbois"],
+        "similarAlbums": [],
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -7164,6 +7714,7 @@ const albums = [
         "spotifyId": "6NMlE5KSAEtg110RKNdh2J",
         "deezerId": "128426",
         "designers": ["Kevin Burke"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7179,6 +7730,7 @@ const albums = [
         "spotifyId": "7fSqgzucVPinisWaIhcklO",
         "deezerId": "128417",
         "designers": ["Jill Mumford"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -7195,6 +7747,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7210,6 +7763,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7225,6 +7779,7 @@ const albums = [
         "spotifyId": "59sGauuSIiMD5gjoqSy9uQ",
         "deezerId": "15484780",
         "designers": ["CCS"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7240,6 +7795,7 @@ const albums = [
         "spotifyId": "2Hw7xx2dsRuQOWnyRrznkJ",
         "deezerId": "15484774",
         "designers": ["CCS"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7255,6 +7811,7 @@ const albums = [
         "spotifyId": "0QUDqPjTgUJ5rqyPGjhu8c",
         "deezerId": "15485508",
         "designers": ["Hipgnosis", "Joe Petagno"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7270,6 +7827,7 @@ const albums = [
         "spotifyId": "5naYBHiMro7E0MVPmhhYHP",
         "deezerId": "15485516",
         "designers": ["David Fairbrother Roe"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7285,6 +7843,7 @@ const albums = [
         "spotifyId": "6P3mt9QSzK9pygefaZwfl8",
         "deezerId": "15484838",
         "designers": ["Hipgnosis"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7300,6 +7859,7 @@ const albums = [
         "spotifyId": "1pHo7X82cTObgZll65R1rW",
         "deezerId": "86605",
         "designers": ["Tom Wilkes"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "Although Neil Young never had anything much related to Progressive music, Harvest flirted with the genre with a few odd time signatures and the use of orchestral arrangements. The rest is pure melancholic Folk music with a fragile voice with only but memorable melodies that make the album monumental."
     },
@@ -7316,6 +7876,7 @@ const albums = [
         "spotifyId": "4uXg1lAzlcr1CJWLwekgaM",
         "deezerId": "14459694",
         "designers": ["Bob Seidemann"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7331,6 +7892,7 @@ const albums = [
         "spotifyId": "4rel9GvJIiVBx3m3680Kqz",
         "deezerId": "6305753",
         "designers": ["Ernst Steingässer"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7346,6 +7908,7 @@ const albums = [
         "spotifyId": "7Iq2CLAPWXPK0W2dQhhqMY",
         "deezerId": "6305752",
         "designers": ["Helmut Wenske"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -7362,6 +7925,7 @@ const albums = [
         "spotifyId": "4zz8OO6V7gAdmoVOndIB25",
         "deezerId": "6385337",
         "designers": ["Helmut Wenske", "Keith Walters"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7377,6 +7941,7 @@ const albums = [
         "spotifyId": "1BQYS7PTIxgYFY4mv5P8M0",
         "deezerId": "6546914",
         "designers": ["Helmut Wenske"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7392,6 +7957,7 @@ const albums = [
         "spotifyId": "4t9PsjX15Z5NYerBWMFv2x",
         "deezerId": "6569517",
         "designers": ["Pierre Tubbs", "Helmut Wenske"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7407,6 +7973,7 @@ const albums = [
         "spotifyId": "5oGax634VNpeGwiI30dIh6",
         "deezerId": "5942677",
         "designers": ["Helmut Wenske"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7422,6 +7989,7 @@ const albums = [
         "spotifyId": "6yGTZHrVmun3tv7rT5wHj7",
         "deezerId": "6512473",
         "designers": ["Basil Pao"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7437,6 +8005,7 @@ const albums = [
         "spotifyId": "3PTutcLYaYrk2G71tKIVCL",
         "deezerId": "128936",
         "designers": ["Derek Burton", "Gered Mankowitz"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7452,6 +8021,7 @@ const albums = [
         "spotifyId": "3ygsp68ybDKo4jrwBMLrLA",
         "deezerId": "128861",
         "designers": ["Gered Mankowitz"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7467,6 +8037,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7482,6 +8053,7 @@ const albums = [
         "spotifyId": "33URnP2kyItDfs8xDhxKAH",
         "deezerId": "301447",
         "designers": ["Hipgnosis"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7497,6 +8069,7 @@ const albums = [
         "spotifyId": "4i9mKG4nrsin6gntcVL0ap",
         "deezerId": "309130",
         "designers": ["Hipgnosis"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7512,6 +8085,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -7530,6 +8104,7 @@ const albums = [
         "spotifyId": "3sUdiFdMAtDwRU7j7CcXJD",
         "deezerId": "138599",
         "designers": ["Giancarlo Boschin", "Luciano Tallarini"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7545,6 +8120,7 @@ const albums = [
         "spotifyId": "6IQ7wLfNi5D9esSFJaDzHU",
         "deezerId": "223484",
         "designers": ["Mario Convertino"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7560,6 +8136,7 @@ const albums = [
         "spotifyId": "6NiJ8vCXUZoeqUIyhUDNZX",
         "deezerId": "248539",
         "designers": ["Mario Convertino", "Walter Mac Mazzieri"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7575,6 +8152,7 @@ const albums = [
         "spotifyId": "5B13S4DiDesawhG0eUTK9B",
         "deezerId": "9038083",
         "designers": ["Mario Convertino"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7590,6 +8168,7 @@ const albums = [
         "spotifyId": "5z7CzpuMKLitcaImOHLlse",
         "deezerId": "223748",
         "designers": ["Paolo Patelli"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7605,6 +8184,7 @@ const albums = [
         "spotifyId": "7vDdyzWZYngIZY2vV3yZ3A",
         "deezerId": "245511",
         "designers": ["Paul Whitehead"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7620,6 +8200,7 @@ const albums = [
         "spotifyId": "7fy1FcHHNysfY7wRSp2vIi",
         "deezerId": "249206",
         "designers": ["Mario Convertino"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7635,6 +8216,7 @@ const albums = [
         "spotifyId": "07u1l1ZqhTJP4Lla3IWTsg",
         "deezerId": "246023",
         "designers": ["Mario Convertino", "Walter Mac Mazzieri"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7650,6 +8232,7 @@ const albums = [
         "spotifyId": "6WcVcaQBtTXxZ1jhsTnLWy",
         "deezerId": "228009",
         "designers": ["Mario Convertino", "Mirella Brugnerotto"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7665,6 +8248,7 @@ const albums = [
         "spotifyId": "0Ovf12VCmKdUDMeFZujUSN",
         "deezerId": "",
         "designers": ["Mario Convertino"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7680,6 +8264,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Hervé Picart", "Billi", "Anne Surgers"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7695,6 +8280,7 @@ const albums = [
         "spotifyId": "0HycOOGYBfZ7yimWbmYQPO",
         "deezerId": "14911379",
         "designers": ["Blim"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7710,6 +8296,7 @@ const albums = [
         "spotifyId": "5YzktS5LIcW8YwDpZH06Gz",
         "deezerId": "375340",
         "designers": ["Blim"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7725,6 +8312,7 @@ const albums = [
         "spotifyId": "0LP1qX7nM4lpH5KAXnosm0",
         "deezerId": "465409",
         "designers": ["Blim"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7740,6 +8328,7 @@ const albums = [
         "spotifyId": "1sBTE8pk2bYgcqI3C0xBnw",
         "deezerId": "171258",
         "designers": ["Blim"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7755,6 +8344,7 @@ const albums = [
         "spotifyId": "0eEIecJTw1JSbYp5XJZwPf",
         "deezerId": "375901",
         "designers": ["Blim"],
+        "similarAlbums": [],
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -7773,6 +8363,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "161772",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7788,6 +8379,7 @@ const albums = [
         "spotifyId": "56sMyp4iTiuSVsSzbjv2MX",
         "deezerId": "",
         "designers": ["Roger Dean"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7803,6 +8395,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7818,6 +8411,7 @@ const albums = [
         "spotifyId": "0kDFjyfGFtiIMXlxJ120Ok",
         "deezerId": "70550882",
         "designers": ["Storm Thorgerson"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7833,6 +8427,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -7849,6 +8444,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7864,6 +8460,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7879,6 +8476,7 @@ const albums = [
         "spotifyId": "0Fke5eiQ6lszQHlwiFygqn",
         "deezerId": "12506866",
         "designers": ["Vic Singh"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7894,6 +8492,7 @@ const albums = [
         "spotifyId": "5rwuexO7oiRJKqzZrd1upQ",
         "deezerId": "1262258",
         "designers": ["Hipgnosis"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7909,6 +8508,7 @@ const albums = [
         "spotifyId": "4uuyGVEZpYaGB1HtewAogW",
         "deezerId": "1262260",
         "designers": ["Hipgnosis"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7924,6 +8524,7 @@ const albums = [
         "spotifyId": "6xWRCFsaqoYj3ZwxMkCE85",
         "deezerId": "1262259",
         "designers": ["Hipgnosis"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7939,6 +8540,7 @@ const albums = [
         "spotifyId": "5c1ZTzT4oSkiiFS4wmEuOe",
         "deezerId": "1262261",
         "designers": ["Hipgnosis", "Storm Thorgerson"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7954,6 +8556,7 @@ const albums = [
         "spotifyId": "7yKRvvqspSxfLkr7C7RaAI",
         "deezerId": "1262262",
         "designers": ["Storm Thorgerson"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7969,6 +8572,7 @@ const albums = [
         "spotifyId": "3HZKOTmpigZcWHxACjENyh",
         "deezerId": "1262263",
         "designers": ["Hipgnosis"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -7984,6 +8588,7 @@ const albums = [
         "spotifyId": "2WT1pbYjLJciAR26yMebkH",
         "deezerId": "59853992",
         "designers": ["Hipgnosis", "George Hardie"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -8000,6 +8605,7 @@ const albums = [
         "spotifyId": "6uvBKDGlJAYLH5Vy6RQVsc",
         "deezerId": "59853252",
         "designers": ["Hipgnosis", "George Hardie"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8015,6 +8621,7 @@ const albums = [
         "spotifyId": "21jUB9RqplD6OqtsTjKBnO",
         "deezerId": "1262266",
         "designers": ["Aubrey Powell", "Storm Thorgerson", "Roger Waters"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -8031,6 +8638,7 @@ const albums = [
         "spotifyId": "6WaIQHxEHtZL0RZ62AuY0g",
         "deezerId": "59854962",
         "designers": ["Roger Waters", "Gerald Scarfe"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8046,6 +8654,39 @@ const albums = [
         "spotifyId": "5ChHkKb5VhZe0pgQRsvpek",
         "deezerId": "1262269",
         "designers": ["Roger Waters", "Artful Dodgers"],
+        "similarAlbums": [],
+        "isAGem": false
+    },
+    {
+        "id": "pink_floyd_a_momentary_lapse_of_reason",
+        "title": "A Momentary Lapse Of Reason",
+        "artist": "Pink Floyd",
+        "year": 1987,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/pink_floyd_a_momentary_lapse_of_reason.jpg",
+        "criteria": [criteria.SOUND_COLLAGES, criteria.NEO_EIGHTIES, criteria.ART_POP, criteria.TRANSITION, criteria.C_ELECTRO],
+        "selectedTrackTitle": "The Dogs Of War",
+        "selectedTrackYtId": "rdBtwsSPgW4",
+        "spotifyId": "1tWgv9v78StWukBRBVNyxA",
+        "deezerId": "12114252",
+        "designers": ["Storm Thorgerson", "Nexus", "Icon", "Andrew Ellis"],
+        "similarAlbums": [],
+        "isAGem": false
+    },
+    {
+        "id": "pink_floyd_the_division_bell",
+        "title": "The Division Bell",
+        "artist": "Pink Floyd",
+        "year": 1994,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/pink_floyd_the_division_bell.jpg",
+        "criteria": [criteria.SOUND_COLLAGES, criteria.NEO_EIGHTIES, criteria.ART_POP, criteria.TRANSITION],
+        "selectedTrackTitle": "High Hopes",
+        "selectedTrackYtId": "todo",
+        "spotifyId": "7wzStEU2keGohEu8jpVMZW",
+        "deezerId": "1262268",
+        "designers": ["Storm Thorgerson"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8061,6 +8702,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8076,6 +8718,7 @@ const albums = [
         "spotifyId": "51pz4wvc0BPtjnGCWjxX91",
         "deezerId": "111977",
         "designers": ["Cesar Monti", "Marco Damiani", "Wanda Spinello"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8091,6 +8734,7 @@ const albums = [
         "spotifyId": "1NeJ0QqKv002iYDiOCaUOA",
         "deezerId": "117007",
         "designers": ["Cesar Monti", "Gianni Celano Giannici", "Wanda Spinello"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8106,6 +8750,7 @@ const albums = [
         "spotifyId": "7bXJzll4GUEOGqX1YshA8C",
         "deezerId": "117077",
         "designers": ["Fabio Nicoli Associates", "Terry Gough"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8121,6 +8766,7 @@ const albums = [
         "spotifyId": "3FTBY9sW29JfLjAZHndgyY",
         "deezerId": "5696441",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8136,6 +8782,7 @@ const albums = [
         "spotifyId": "1F8ppE674Bik93kRyqaEly",
         "deezerId": "111251",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8151,6 +8798,7 @@ const albums = [
         "spotifyId": "2JNaih64nuuvmaDDkPKGFL",
         "deezerId": "117050",
         "designers": ["Rolando Cassinari", "Andrea Pazienza"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8166,6 +8814,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Logo"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8181,6 +8830,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Alain Golay", "Victor Bosch"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -8197,6 +8847,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Victor Bosch"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8212,6 +8863,7 @@ const albums = [
         "spotifyId": "4rhvRh9TBivWZ6OLCv3Jzv",
         "deezerId": "72275242",
         "designers": ["Robert Paul Batwin"],
+        "similarAlbums": [],
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -8230,6 +8882,7 @@ const albums = [
         "spotifyId": "6uv56W9I7ahYTS5R7la9bT",
         "deezerId": "13933792",
         "designers": ["Hipgnosis"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8245,6 +8898,7 @@ const albums = [
         "spotifyId": "0NouBnbXRJKFWzm9LwCW0K",
         "deezerId": "915165",
         "designers": ["Mick Rock"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8260,6 +8914,7 @@ const albums = [
         "spotifyId": "5SBHID8qGG3x52zgoh2ilz",
         "deezerId": "915783",
         "designers": ["Mick Rock"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8275,6 +8930,7 @@ const albums = [
         "spotifyId": "1GbtB4zTqAsyfZEsm1RZfx",
         "deezerId": "915785",
         "designers": ["David Costa"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8290,6 +8946,7 @@ const albums = [
         "spotifyId": "3hfcNo7WWy1Z1ie0nJ8PRy",
         "deezerId": "917232",
         "designers": ["David Costa"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8305,6 +8962,7 @@ const albums = [
         "spotifyId": "7d9IZA5hVMlRqkRszYt66r",
         "deezerId": "301390",
         "designers": ["George Hunter"],
+        "similarAlbums": [],
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -8323,6 +8981,7 @@ const albums = [
         "spotifyId": "3LXOrVXLXwRiOguE446OZo",
         "deezerId": "162197",
         "designers": ["David Willardson"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8338,6 +8997,7 @@ const albums = [
         "spotifyId": "3uIT4I4Dy7Pq1j0aSjzPW9",
         "deezerId": "124376",
         "designers": ["Ken Kelly"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8353,6 +9013,7 @@ const albums = [
         "spotifyId": "56JX1fNOjTa7Bj7G18nxSq",
         "deezerId": "6058392",
         "designers": ["Debbie Hall", "Maxi Chan"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8368,6 +9029,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Hans Arnold"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8383,6 +9045,7 @@ const albums = [
         "spotifyId": "3PEQcKyh9TvtBxdDLhs92R",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8398,6 +9061,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Birgitta Hartzell-Wittgenstein"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8413,6 +9077,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["William Feilding"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8428,6 +9093,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Gustave Doré"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8443,6 +9109,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Ulf Hinders"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8458,6 +9125,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Helga Bartkowiak"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8473,6 +9141,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Helga Bartkowiak"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8488,6 +9157,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Helga Bartkowiak", "Norbert Leidecker"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8503,6 +9173,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Josse Goffin"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8518,6 +9189,7 @@ const albums = [
         "spotifyId": "6M0IAJHwQ6dFNtTkFsXCJc",
         "deezerId": "124358",
         "designers": ["Michael Manoogian"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8533,6 +9205,7 @@ const albums = [
         "spotifyId": "2wkmxijYToqAr0ATgcNSsn",
         "deezerId": "239959",
         "designers": ["Hamish Grimes"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8548,6 +9221,7 @@ const albums = [
         "spotifyId": "0ddNu3IWO5iEHoBe9qOr5L",
         "deezerId": "230734",
         "designers": ["Don Brautigan", "Neville Potter"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8563,6 +9237,7 @@ const albums = [
         "spotifyId": "1LAARZVfnq12x7Ueei4jx7",
         "deezerId": "248142",
         "designers": ["Petra Kinkele", "Neville Potter", "Herb Deiwitz"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8578,6 +9253,7 @@ const albums = [
         "spotifyId": "0OjgANiCv3GFQWq1B8No1j",
         "deezerId": "",
         "designers": ["Petra Kinkele", "Bill Levy", "Neville Potter"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8593,6 +9269,7 @@ const albums = [
         "spotifyId": "1R2UR5wAs50dpbHkhUtLH7",
         "deezerId": "6750057",
         "designers": ["Wilson McLean"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -8609,6 +9286,7 @@ const albums = [
         "spotifyId": "0dmDVVzPAjPHmAND1gq8LY",
         "deezerId": "114702",
         "designers": ["Catherine Loeb"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8624,6 +9302,7 @@ const albums = [
         "spotifyId": "6K6SzeA8aDcF4eib3uH1A9",
         "deezerId": "3890411",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8639,6 +9318,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8654,6 +9334,7 @@ const albums = [
         "spotifyId": "0qyBo8KTEcKMyXVgahZ1Ps",
         "deezerId": "13015474",
         "designers": ["Alan Aldridge", "Harry Wilcock"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "Roger Glover gathered a lot of music performers to create a Rock Opera based on the eponym children's poem. This results in a colorful and enthusiastic piece with as much vocals as there are characters, and folkloric instruments to carry the cliché of old fantasy storybooks."
     },
@@ -8670,6 +9351,7 @@ const albums = [
         "spotifyId": "45ViLs3I1DxFkbbO2BxaoK",
         "deezerId": "715740",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8685,6 +9367,7 @@ const albums = [
         "spotifyId": "3Q1T4z81ocgsJzWBNjSMMQ",
         "deezerId": "300464",
         "designers": ["Roy Wood"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8700,6 +9383,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Roy Wood"],
+        "similarAlbums": [],
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -8718,6 +9402,7 @@ const albums = [
         "spotifyId": "1CHUXwuge9A7L2KiA3vnR6",
         "deezerId": "7740828",
         "designers": ["Mati Klarwein"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8733,6 +9418,7 @@ const albums = [
         "spotifyId": "3iE6Jik24CBE0uv1lyyplI",
         "deezerId": "1373307",
         "designers": ["Heavy Water Light Show", "Joan Chase", "Mary Ann Mayer"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8748,6 +9434,7 @@ const albums = [
         "spotifyId": "0abfpuzzbTUNxasNmX04RU",
         "deezerId": "1401719",
         "designers": ["Joan Chase"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -8764,6 +9451,7 @@ const albums = [
         "spotifyId": "0luB0sB15mLFitTOJqJJwT",
         "deezerId": "7740338",
         "designers": ["Randy Tuten"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8779,6 +9467,7 @@ const albums = [
         "spotifyId": "2SurTgYPtoCJSn7103Uuvk",
         "deezerId": "111730",
         "designers": ["Barry Imhoff", "Carlos Santana"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8794,6 +9483,7 @@ const albums = [
         "spotifyId": "1Moy8pZZekoPN0Kow0t7o0",
         "deezerId": "7648349",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8809,6 +9499,7 @@ const albums = [
         "spotifyId": "3oWKEuO0zzzfcZrKWI4Gqr",
         "deezerId": "7576867",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8824,6 +9515,7 @@ const albums = [
         "spotifyId": "0BWTfsFWL3TuBXZ2dBA7GV",
         "deezerId": "",
         "designers": ["Gordon Faggetter"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -8840,6 +9532,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Philippe Huart"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8855,6 +9548,7 @@ const albums = [
         "spotifyId": "05RPG1hN35ucYL4BqEBZdn",
         "deezerId": "241263",
         "designers": ["Paula Scher", "John Alcorn"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -8871,6 +9565,7 @@ const albums = [
         "spotifyId": "0VfnxBAij0kKr71OK47BBW",
         "deezerId": "",
         "designers": ["Doug Taylor"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8886,6 +9581,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Gaétan Desbiens"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8901,6 +9597,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Publiphoto"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -8917,6 +9614,7 @@ const albums = [
         "spotifyId": "111J9nxmdhyHSLNHeAL1jO",
         "deezerId": "",
         "designers": ["John Hays"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8932,6 +9630,7 @@ const albums = [
         "spotifyId": "5JhbxkXzy1o2RcX14CCwZP",
         "deezerId": "671887",
         "designers": ["Penny Graeme-Barber", "Pete Rhodes"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8947,6 +9646,7 @@ const albums = [
         "spotifyId": "7dlDI9sU90DvAJKwaQYGRj",
         "deezerId": "67021732",
         "designers": ["Pete Rhodes"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8962,6 +9662,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8977,6 +9678,7 @@ const albums = [
         "spotifyId": "1GX1Mo7djCEq2ZAM2pokGR",
         "deezerId": "77355512",
         "designers": ["Marcus Keef"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -8992,6 +9694,7 @@ const albums = [
         "spotifyId": "1fxW4E9zQ5RIIc4k1aPZRy",
         "deezerId": "115523",
         "designers": ["Alex Ebel"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9007,6 +9710,7 @@ const albums = [
         "spotifyId": "6ZtNHnRzacahYX1NeHxiU0",
         "deezerId": "4575171",
         "designers": ["Peter Lloyd"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9022,6 +9726,7 @@ const albums = [
         "spotifyId": "6r7XlOEXPFtVrJy4mTi0eP",
         "deezerId": "897881",
         "designers": ["Hildebrandt"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9037,6 +9742,7 @@ const albums = [
         "spotifyId": "6r7XlOEXPFtVrJy4mTi0eP",
         "deezerId": "",
         "designers": ["Anne Marie Anderson"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9052,6 +9758,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9067,6 +9774,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Anne-Catherine Gerbaud"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9082,6 +9790,7 @@ const albums = [
         "spotifyId": "3ma2d5Gk3oc9ffDTT3fOeF",
         "deezerId": "245820",
         "designers": ["Bob Hook"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9097,6 +9806,7 @@ const albums = [
         "spotifyId": "1YTdN3xvwgVdkdKZq6jMH3",
         "deezerId": "122946",
         "designers": ["Keith Morris", "Bob Hook"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9112,6 +9822,7 @@ const albums = [
         "spotifyId": "2wrHaulTgqqkVKx0k7Kq4r",
         "deezerId": "9205657",
         "designers": ["Paul Wakefield"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "Rick Davies and Roger Hodgson composed heavy-hearted songs to create one of the most subtle, most magnificient, most moving albums we could imagine, with intense vocals and lyrics as desperate as the cover. The album is a theater of unregular song structures and piano-driven melodies, where the other instruments complete parts here and there so that almost every song is a climax itself."
     },
@@ -9128,6 +9839,7 @@ const albums = [
         "spotifyId": "5Fliz4RQcDktb93l1uYDka",
         "deezerId": "224594",
         "designers": ["Richard Davies", "Dick Ward", "Fabio Nicoli", "Paul Wakefield"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9143,6 +9855,7 @@ const albums = [
         "spotifyId": "4X87hQ57jTYQTcYTaJWK5w",
         "deezerId": "103251",
         "designers": ["Mike Doud"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9158,6 +9871,7 @@ const albums = [
         "spotifyId": "29B5sIbYPnSjJaD5CloPjf",
         "deezerId": "653085",
         "designers": ["Mike Doud", "Mick Haggerty"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9173,6 +9887,7 @@ const albums = [
         "spotifyId": "47QAK66loFDceMKTD4RJv1",
         "deezerId": "72168592",
         "designers": ["Mike Doud", "Norman Moore"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9188,6 +9903,7 @@ const albums = [
         "spotifyId": "1KPGi1vxymWs9fInmwmc3d",
         "deezerId": "72171382",
         "designers": ["Norman Moore"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9203,6 +9919,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Phil Timper"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -9219,6 +9936,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9234,6 +9952,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Jan Fijnheer"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "Two big smooth tracks in the middle Jazz and Rock music, heavily influenced by psychedelism and groove, with hummed vocals. Both tracks are split into sections with rhythm variations and modality changes, but still perfectly flows from start to finish. The music is warm, rousing, captivating - when not completely mezmerizing."
     },
@@ -9250,6 +9969,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Habo"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9265,6 +9985,7 @@ const albums = [
         "spotifyId": "4JhIdnuJ8nwNma8gUmRIGZ",
         "deezerId": "310780",
         "designers": ["Kochlowski"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -9281,6 +10002,39 @@ const albums = [
         "spotifyId": "76AQ8HRZ2ANKMbH2Wpr5bb",
         "deezerId": "82312",
         "designers": ["Annette Del Zoppo"],
+        "similarAlbums": [],
+        "isAGem": false
+    },
+    {
+        "id": "syd_barret_the_madcap_laughs",
+        "title": "The Madcap Laughs",
+        "artist": "Syd Barrett",
+        "year": 1970,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/syd_barret_the_madcap_laughs.jpg",
+        "criteria": [criteria.C_PSYCHEDELIC, criteria.CRISPY_SIXTIES, criteria.C_FOLK],
+        "selectedTrackTitle": "Long Gone",
+        "selectedTrackYtId": "nwisdIr61e4",
+        "spotifyId": "69jyJl6Lyo80nQae0X312i",
+        "deezerId": "13082894",
+        "designers": ["Hipgnosis"],
+        "similarAlbums": [],
+        "isAGem": false
+    },
+    {
+        "id": "syd_barret_barrett",
+        "title": "Barrett",
+        "artist": "Syd Barrett",
+        "year": 1970,
+        "country": regions.ENGLAND,
+        "cover": pathToCovers + "/syd_barret_barrett.jpg",
+        "criteria": [criteria.C_PSYCHEDELIC],
+        "selectedTrackTitle": "Baby Lemonade",
+        "selectedTrackYtId": "_HK6-vE3jHk",
+        "spotifyId": "4NPymgNRX8nRAvHVW8yJra",
+        "deezerId": "7369648",
+        "designers": ["Syd Barrett"],
+        "similarAlbums": [],
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -9299,6 +10053,7 @@ const albums = [
         "spotifyId": "3Z8DubxAWENlQd3pxJOKZE",
         "deezerId": "8910221",
         "designers": ["Lang"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9314,6 +10069,7 @@ const albums = [
         "spotifyId": "3pN57NmhgB98rHwk8b0VJr",
         "deezerId": "8910217",
         "designers": ["Lang"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -9330,6 +10086,7 @@ const albums = [
         "spotifyId": "5GsJLsUq8x3DklXymqiDub",
         "deezerId": "8910241",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9345,6 +10102,7 @@ const albums = [
         "spotifyId": "7KRXWeJYBkyUmwOFTayiQk",
         "deezerId": "301955",
         "designers": ["Edgar Froese"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9360,6 +10118,7 @@ const albums = [
         "spotifyId": "61BhEQyumLEqrRVREfQabB",
         "deezerId": "301956",
         "designers": ["Monique Froese"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9375,6 +10134,7 @@ const albums = [
         "spotifyId": "6iPUDn0rAVYuojEyEU0VJP",
         "deezerId": "301957",
         "designers": ["Monique Froese"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9390,6 +10150,7 @@ const albums = [
         "spotifyId": "3gwpouV58Wxl0kd5OIT8m7",
         "deezerId": "301958",
         "designers": ["Brian Cooke", "Trevor Key"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9405,6 +10166,7 @@ const albums = [
         "spotifyId": "5QNTy5elpS2oC2mrVmfNo1",
         "deezerId": "",
         "designers": ["Peter Thaine"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9420,6 +10182,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9435,6 +10198,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9450,6 +10214,7 @@ const albums = [
         "spotifyId": "0mlj4Hjj145o9dJIc3dm1w",
         "deezerId": "8875809",
         "designers": ["Sue Baws"],
+        "similarAlbums": ["fuzzy_duck_fuzzy_duck"],
         "isAGem": false
     },
     {
@@ -9465,6 +10230,7 @@ const albums = [
         "spotifyId": "1TIAU6CbjQCF6LJ7uTj7O6",
         "deezerId": "7530433",
         "designers": ["Carol Hertzer"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9480,6 +10246,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Joan Nielsen"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9495,6 +10262,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9510,6 +10278,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9525,6 +10294,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9540,6 +10310,7 @@ const albums = [
         "spotifyId": "2gu5catUel9XVrQT7FQhU8",
         "deezerId": "305760",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9555,6 +10326,7 @@ const albums = [
         "spotifyId": "1KDrZ0BG6DN9odiHb9sE25",
         "deezerId": "305653",
         "designers": ["Kochlowski"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9570,6 +10342,7 @@ const albums = [
         "spotifyId": "5CV4ZQy6NS9GcpMUAGZhYE",
         "deezerId": "305759",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -9588,6 +10361,7 @@ const albums = [
         "spotifyId": "3g1Dzj83jWRcQMCtmLHTka",
         "deezerId": "175894",
         "designers": ["Richard Sauter", "David Jenks"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {    
@@ -9603,6 +10377,7 @@ const albums = [
         "spotifyId": "2eulQiPbWqjUOTYgJBJ61T",
         "deezerId": "6621430",
         "designers": ["David Jenks"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {    
@@ -9618,6 +10393,7 @@ const albums = [
         "spotifyId": "3xtcDZm5ZG4XhfAVikMBHO",
         "deezerId": "394750",
         "designers": ["Duncan"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {    
@@ -9633,6 +10409,7 @@ const albums = [
         "spotifyId": "5RR8HGBBHCqFwElMrkrKrB",
         "deezerId": "8661343",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9648,6 +10425,7 @@ const albums = [
         "spotifyId": "71YRJRyqklF7a8maAe8COJ",
         "deezerId": "8895469",
         "designers": ["Patrick Alexandre"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9663,6 +10441,7 @@ const albums = [
         "spotifyId": "0kOW78XBGL598LEvB2JjAz",
         "deezerId": "15679320",
         "designers": ["Roger Dean"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9678,6 +10457,7 @@ const albums = [
         "spotifyId": "7mfX6R2LiMxljsvL1jFndR",
         "deezerId": "13944752",
         "designers": ["Roger Dean"],
+        "similarAlbums": [],
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -9696,6 +10476,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9711,6 +10492,7 @@ const albums = [
         "spotifyId": "5GuP6isw4DZpsTaucdWkC5",
         "deezerId": "306126",
         "designers": ["CCS", "Jim Flynn"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9726,6 +10508,7 @@ const albums = [
         "spotifyId": "4kpBJuFpZBIuw4PQVxrN4t",
         "deezerId": "306127",
         "designers": ["Paul Whitehead"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9741,6 +10524,7 @@ const albums = [
         "spotifyId": "5Lrsef2F6ZHNC5yIUEJouw",
         "deezerId": "306125",
         "designers": ["Paul Whitehead"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9756,6 +10540,7 @@ const albums = [
         "spotifyId": "4irlewoGTUPndEinKcavLF",
         "deezerId": "301289",
         "designers": ["John Pasche"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9771,6 +10556,7 @@ const albums = [
         "spotifyId": "3RpOWx6c96pAbtE28GMApV",
         "deezerId": "301431",
         "designers": ["Paul Brierley"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9786,6 +10572,7 @@ const albums = [
         "spotifyId": "0kmpQ28yR2OJqnUxhjfRLU",
         "deezerId": "306163",
         "designers": ["A.D. Design"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9801,6 +10588,7 @@ const albums = [
         "spotifyId": "0LkqdSpczzwdC2VlGrMDRB",
         "deezerId": "306164",
         "designers": ["Frank Sansom", "John Pasche", "Jess Artem", "Robin Schwartz"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9816,6 +10604,7 @@ const albums = [
         "spotifyId": "7M2EhhKnJYcmluPNzmB35N",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9831,6 +10620,7 @@ const albums = [
         "spotifyId": "6Tz3gRyPvHv8eDT5RZ2xXX",
         "deezerId": "1208489",
         "designers": ["Michael Hudson"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9846,6 +10636,7 @@ const albums = [
         "spotifyId": "4wC0IlgUIbgVdUm0jH5mPU",
         "deezerId": "",
         "designers": ["Louis East", "Vangelis"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9861,6 +10652,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -9879,6 +10671,7 @@ const albums = [
         "spotifyId": "1RIRXDnZnPOQMOqTfYULOg",
         "deezerId": "9286726",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9894,6 +10687,7 @@ const albums = [
         "spotifyId": "64qvBsSA4aqWy5YyUSR68f",
         "deezerId": "1498512",
         "designers": ["Marcus Keef"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9909,6 +10703,7 @@ const albums = [
         "spotifyId": "2OJTGgC8JfbpohsInwv6u5",
         "deezerId": "2923691",
         "designers": ["David McMacken", "Maxine Zawinul"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "A fully instrumental album that draws influences from African music. The chemistry between the musicians is perceptible as the tracks come one after another all equally groovy, masterly sketching a mellow mood, making the album a reference in the Jazz Fusion school."
     },
@@ -9925,6 +10720,7 @@ const albums = [
         "spotifyId": "1r6Ka4P0lSPeklmyhRBMiY",
         "deezerId": "454495",
         "designers": ["Klaus Blasquiz"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9940,6 +10736,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Michael Bennett"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9955,6 +10752,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Cindy Berglund"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -9970,6 +10768,7 @@ const albums = [
         "spotifyId": "2UUGvJBpRoOQFwDLtq8KCP",
         "deezerId": "364587",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false,
     },
     {
@@ -9985,6 +10784,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Peter Ledger", "Cos Russo"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "Electronic elements are used to throw the music in a sci-fi symphonic world, with groovy basslines and orchestral arrangements. Mario Millo and Toivo Pilt composed the album so that listening to it feels like naively exploring new horizons, sometimes mysterious, with rhythm changes inducing speed changes."
     },
@@ -10001,6 +10801,7 @@ const albums = [
         "spotifyId": "2t6dNr90wvqb1YvolnoAjg",
         "deezerId": "758564",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -10016,6 +10817,7 @@ const albums = [
         "spotifyId": "5H0yhHRgZpQ7GLgmNc6gtx",
         "deezerId": "124447",
         "designers": ["Hipgnosis"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -10031,6 +10833,7 @@ const albums = [
         "spotifyId": "7xEluvnbmFtRB5g66CJ2ND",
         "deezerId": "107233",
         "designers": ["Hipgnosis"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -10046,6 +10849,7 @@ const albums = [
         "spotifyId": "7FZgX7O5hHOw8n6WdEVle3",
         "deezerId": "300763",
         "designers": ["Roger Alexander"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -10061,6 +10865,7 @@ const albums = [
         "spotifyId": "3KtwEcy5Ob8OW1pSQbrZDZ",
         "deezerId": "13913394",
         "designers": ["Dave Field"],
+        "similarAlbums": [],
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -10082,6 +10887,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -10097,6 +10903,7 @@ const albums = [
         "spotifyId": "5ohKuf3H4R3JdhP2WmYDYG",
         "deezerId": "82952",
         "designers": ["Crosby/Fletcher/Forbes"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -10112,6 +10919,7 @@ const albums = [
         "spotifyId": "6k3pRlamC3srUePKSlUaxJ",
         "deezerId": "81492",
         "designers": ["Laurence Sackman"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -10127,6 +10935,7 @@ const albums = [
         "spotifyId": "4nQe6IzubN7cE7EWzrIvu4",
         "deezerId": "81495",
         "designers": ["Phil Franks"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -10142,6 +10951,7 @@ const albums = [
         "spotifyId": "0dZF93WHyOhTWjz5EWM7yG",
         "deezerId": "82947",
         "designers": ["Roger Dean"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -10157,6 +10967,7 @@ const albums = [
         "spotifyId": "6344rkGqCBDenGoS7eJlBN",
         "deezerId": "82944",
         "designers": ["Roger Dean"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -10167,13 +10978,15 @@ const albums = [
         "year": 1973,
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/yes_tales_from_topographic_oceans.jpg",
-        "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.EXPERIMENTAL, criteria.LENGTHY_TRACKS, criteria.SYMPHONIC, criteria.ORIENTAL, criteria.C_PSYCHEDELIC, criteria.JAZZY_GROOVY, , criteria.SPIRITUAL],
+        "criteria": [criteria.CONCEPT, criteria.ODD_RHYTHM, criteria.EXPERIMENTAL, criteria.LENGTHY_TRACKS, criteria.SYMPHONIC, criteria.ORIENTAL, criteria.C_PSYCHEDELIC, criteria.JAZZY_GROOVY, criteria.C_FOLK, criteria.C_ELECTRO, criteria.SPIRITUAL],
         "selectedTrackTitle": "The Ancient",
         "selectedTrackYtId": "fMoE_2lV-bk",
         "spotifyId": "4kn7nw5uHF6T9biAX5qcrW",
         "deezerId": "82939",
         "designers": ["Roger Dean"],
-        "isAGem": false
+        "similarAlbums": [],
+        "isAGem": true,
+        "description": "TODO description"
     },
     {
         "id": "yes_relayer",
@@ -10188,6 +11001,7 @@ const albums = [
         "spotifyId": "6MK9yp7hFeOLeR7F1hsBp6",
         "deezerId": "90163",
         "designers": ["Roger Dean"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -10203,6 +11017,7 @@ const albums = [
         "spotifyId": "2U4JHXMiBxsKH4dnYEQg2g",
         "deezerId": "90150",
         "designers": ["Hipgnosis"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -10218,6 +11033,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["Don Tarr"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -10233,6 +11049,7 @@ const albums = [
         "spotifyId": "4HRPz0VvEfPEhuitH73oSs",
         "deezerId": "9027821",
         "designers": ["Ron Pieniak"],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "Originally recorded in 1976, this album did not draw enough attention to sign the band with a label. One can wonder why though, as the music is as complex as interesting: technical parts, original harmonies, rhythm breaks, a large assets of instruments ; anything that can be used to change the mood of the music is used efficiently. Sacred Baboon may be one of the earliest examples of self-produced Math Rock music blent with pure symphonic style of the early 70's."
     },
@@ -10252,6 +11069,7 @@ const albums = [
         "spotifyId": "0KN0lcNi5VlvApiP1tqQ5T",
         "deezerId": "431519",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -10267,6 +11085,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -10282,6 +11101,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -10297,6 +11117,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -10312,6 +11133,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": true,
         "description": "TODO description"
     },
@@ -10328,6 +11150,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": [],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -10343,6 +11166,7 @@ const albums = [
         "spotifyId": "1Z5SH59MGZ2Snt9MhIhsTf",
         "deezerId": "3537251",
         "designers": ["Udo Kübler"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -10358,6 +11182,7 @@ const albums = [
         "spotifyId": "",
         "deezerId": "",
         "designers": ["G. Pasteur"],
+        "similarAlbums": [],
         "isAGem": false
     },
     // ************************************************************************************ //
@@ -10376,6 +11201,7 @@ const albums = [
         "spotifyId": "2LEJ4JpSDbMK3M9RNGEYCC",
         "deezerId": "",
         "designers": ["Cream"],
+        "similarAlbums": [],
         "isAGem": false
     },
     {
@@ -10386,11 +11212,12 @@ const albums = [
         "country": regions.ENGLAND,
         "cover": pathToCovers + "/eight_o_one_eight_o_one_live.jpg",
         "criteria": [criteria.LIVE, criteria.JAZZY_GROOVY, criteria.C_ELECTRO, criteria.C_PSYCHEDELIC, criteria.SOFT_SEVENTIES, criteria.ODD_RHYTHM, criteria.JAM],
-        "selectedTrackTitle": "todo",
-        "selectedTrackYtId": "todo",
+        "selectedTrackTitle": "Diamond Head",
+        "selectedTrackYtId": "4svA6Rzhd_U",
         "spotifyId": "6jTcrXW3mOPSDlQrnekktc",
         "deezerId": "1252017",
         "designers": ["Richard Wallis"],
+        "similarAlbums": [],
         "isAGem": false
     }
 ];
@@ -10450,20 +11277,18 @@ function getAlbumById(id) {
     Hugh Syme (rush)
     Tony Wright (traffic)
 */
+// TODO make mobile version
 // TODO iframes deezer/spotify should be displayed just like in-fb messenger conv, and should be toggleable
 // TODO subgenres should be specified in the album db not manually
 // TODO stats view with the number of subgenres
 // TODO new feature : album comparison: sur une scale de 1 à 10, how much soubd alike ? et du coup ça rapproche énormément les albums entre eux, agnostic des artisres
 // TODO linker discogs
 // TODO lister instruments
-// TODO use VueX/Store for selected album and view
 // TODO parse tout le Prog introuvable et renseigner ici
 // TODO filter by year (range avec input min + max)
-// TODO update albums with new criteria (late 70's notamment)
 // TODO create components for tables
 
 // Here is the prototype of close-sounding albums:
 /*
     Kansas - Bloodrock
-    Fuzzy Duck - Titus Groan
 */
