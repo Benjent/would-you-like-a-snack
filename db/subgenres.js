@@ -41,6 +41,7 @@ const subgenres = [
         "mostRepresentativeAlbum": getAlbumById("beggars_opera_act_one"),
         "albums": [
             getAlbumById("the_nice_ars_longa_vita_brevis"),
+            getAlbumById("gracious_gracious"),
         ],
         "criteria": [criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.ODD_RHYTHM, criteria.ORCHESTRAL_PARTS, criteria.FANFARE, criteria.SYMPHONIC, criteria.BAROQUE, criteria.SPECTACULAR]
     },
