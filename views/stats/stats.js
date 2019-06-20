@@ -1,4 +1,4 @@
-Vue.component('stats', {
+const Stats = Vue.component('stats', {
     template: `
         <section id="statsVue" data-simplebar>
             <h2 style="text-align: center">Page in construction</h2>

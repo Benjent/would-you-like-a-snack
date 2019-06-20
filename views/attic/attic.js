@@ -1,5 +1,5 @@
 
-Vue.component('attic', {
+const Attic = Vue.component('attic', {
     template: `
         <section id="atticVue">
 
@@ -581,7 +581,7 @@ Vue.component('attic', {
     methods: {
         selectAlbumAndView(album) {
             store.commit('selectAlbum', album);
-            store.commit('setCurrentView', views.DISCOGRAPHIES);
+						router.push(views.DISCOGRAPHIES);
         },
         changed() {
             if(document.getElementById("albumList")) {

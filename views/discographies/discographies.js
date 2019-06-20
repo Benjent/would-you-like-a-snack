@@ -1,5 +1,5 @@
 
-Vue.component('discographies', {
+const Discographies = Vue.component('discographies', {
     template: `
         <section id="discographiesVue">
 

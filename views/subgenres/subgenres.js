@@ -1,4 +1,4 @@
-Vue.component('subgenres', {
+const Subgenres = Vue.component('subgenres', {
     template: `
         <section id="subgenresVue" data-simplebar>
             <div
@@ -48,7 +48,7 @@ Vue.component('subgenres', {
     methods: {
         selectAlbumAndView(album) {
             store.commit('selectAlbum', album);
-            store.commit('setCurrentView', views.DISCOGRAPHIES);
+            router.push(views.DISCOGRAPHIES);
         }
     }
 })

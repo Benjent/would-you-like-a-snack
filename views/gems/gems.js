@@ -1,4 +1,4 @@
-Vue.component('gems', {
+const Gems = Vue.component('gems', {
     template: `
         <section id="gemsVue" data-simplebar>
             <div
@@ -35,7 +35,7 @@ Vue.component('gems', {
     methods: {
         selectAlbumAndView(album) {
             store.commit('selectAlbum', album);
-            store.commit('setCurrentView', views.DISCOGRAPHIES);
+            router.push(views.DISCOGRAPHIES);
         }
     }
 })
