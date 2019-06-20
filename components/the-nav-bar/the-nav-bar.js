@@ -3,24 +3,21 @@ Vue.component('the-nav-bar', {
         <header class="header">
 
             <h1
-                class="header__headline"
-                v-on:click="$store.commit('setCurrentView', views.ALBUM)">
-                Would you like a snack
+                class="header__headline">
+                <router-link to="/">Would you like a snack</router-link>
             </h1>
 
             <div class="header__menu">
 
                 <div class="menu">
-                    <div
-                        class="menu__button"
-                        :class="{'menu__button--active': $store.state.currentView == item.id}"
-                        v-for="item in menuDefinition"
-                        v-on:click="$store.commit('setCurrentView', item.id)">
-                        
-                        <div class="text">{{item.text}}</div>
-                        <arrow v-if="$store.state.currentView == item.id"></arrow>
-                        
-                    </div>
+									<router-link
+										v-for="item in menuDefinition"
+										:to="item.id"
+										class="menu__button">
+										<span class="text">{{ item.text }}</span>
+										<arrow v-if="$route.path === item.id"></arrow>
+									</router-link>
+                   
                 </div>
 
             </div>

@@ -13,6 +13,7 @@
         <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js"></script>
         <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
         <script src="https://unpkg.com/vuex@2.0.0"></script>
+        <script src="https://unpkg.com/vue-router@2.0.0/dist/vue-router.js"></script>
         <script src="js/lib/pace.js"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.css">
         <script src="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.js"></script>
@@ -32,20 +33,22 @@
         <script src="components/the-nav-bar/the-nav-bar.js"></script>
         <script src="components/histogram-horizontal/histogram-horizontal.js"></script>
         <script src="components/histogram-vertical/histogram-vertical.js"></script>
-        <script src="components/album/album.js"></script>
         <script src="components/timeline/timeline.js"></script>
-        <script src="components/attic/attic.js"></script>
-        <script src="components/discographies/discographies.js"></script>
-        <script src="components/gems/gems.js"></script>
-        <script src="components/subgenres/subgenres.js"></script>
-        <script src="components/designers/designers.js"></script>
-        <script src="components/stats/stats.js"></script>
-        <script src="components/about/about.js"></script>
+
+        <!-- Views -->
+        <script src="views/about/about.js"></script>
+        <script src="views/album/album.js"></script>
+        <script src="views/attic/attic.js"></script>
+        <script src="views/discographies/discographies.js"></script>
+        <script src="views/designers/designers.js"></script>
+        <script src="views/gems/gems.js"></script>
+        <script src="views/stats/stats.js"></script>
+        <script src="views/subgenres/subgenres.js"></script>
     </head>
     <body>
-        <div id="indexView">
-            <the-nav-bar :current-view="$store.state.currentView"></the-nav-bar>
-            <component :is="$store.state.currentView"></component>
+        <div id="app">
+            <the-nav-bar></the-nav-bar>
+						<router-view></router-view>
         </div>
 
         <!-- Pseudo DB -->

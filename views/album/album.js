@@ -1,4 +1,4 @@
-Vue.component('album', {
+const Album = Vue.component('album', {
     template: `
         <section id="albumVue">
 
@@ -53,11 +53,11 @@ Vue.component('album', {
                 </span>
             </div>
 
-            <button
+            <router-link
                 id="moreButton"
-                v-on:click="$store.commit('setCurrentView', views.DISCOGRAPHIES)">
-                More infos
-            </button>
+                to="discographies">
+                <button>More infos</button>
+            </router-link>
 
             <timeline></timeline>
 

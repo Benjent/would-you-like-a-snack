@@ -40,7 +40,7 @@
         &:hover {
             cursor: pointer;
         }
-        &--active {
+        &.router-link-active {
             pointer-events: none;
             .arrow {
                 transform: rotate(180deg);

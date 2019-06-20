@@ -1,4 +1,4 @@
-Vue.component('about', {
+const About = Vue.component('about', {
     template: `
         <section id="aboutVue">
 

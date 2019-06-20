@@ -31,6 +31,10 @@ select::-moz-focus-inner {
   border: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .pace {
   -webkit-pointer-events: none;
   pointer-events: none;
@@ -519,11 +523,11 @@ button:hover {
   cursor: pointer;
 }
 
-.menu__button--active {
+.menu__button.router-link-active {
   pointer-events: none;
 }
 
-.menu__button--active .arrow {
+.menu__button.router-link-active .arrow {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
 }
@@ -679,6 +683,106 @@ button:hover {
   margin-top: 20px;
 }
 
+#timelineVue {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+#timelineVue .album {
+  display: contents;
+}
+
+#timelineVue .album__cover {
+  display: block;
+  width: 160px;
+  height: 160px;
+  background: #d6be94;
+  margin-top: 20px;
+  border-top: solid 6px #d6be94;
+}
+
+#timelineVue .album__cover:hover {
+  cursor: pointer;
+}
+
+#timelineVue .album__year {
+  display: table;
+  width: 75px;
+  z-index: 1;
+  background: #375456;
+  color: #d6be94;
+  margin-right: -75px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: solid 2px #d6be94;
+  border-radius: 30px;
+  border-bottom-left-radius: 0;
+  padding: 2px 15px;
+  font-size: 16px;
+  text-align: center;
+}
+
+#aboutVue {
+  width: 100%;
+  height: 94vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  text-align: justify;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#aboutVue .content {
+  width: 60%;
+  padding-top: 50px;
+}
+
+#aboutVue .me {
+  float: right;
+  margin-left: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#aboutVue .me__photo {
+  width: 200px;
+  border: solid 4px #d6be94;
+  border-radius: 30px;
+}
+
+#aboutVue .me__description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  font-style: italic;
+}
+
 #albumVue {
   width: 100vw;
   display: -webkit-box;
@@ -777,54 +881,6 @@ button:hover {
   margin-top: 10px;
 }
 
-#timelineVue {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  width: 100vw;
-  position: fixed;
-  bottom: 0;
-  overflow-x: scroll;
-  overflow-y: hidden;
-}
-
-#timelineVue .album {
-  display: contents;
-}
-
-#timelineVue .album__cover {
-  display: block;
-  width: 160px;
-  height: 160px;
-  background: #d6be94;
-  margin-top: 20px;
-  border-top: solid 6px #d6be94;
-}
-
-#timelineVue .album__cover:hover {
-  cursor: pointer;
-}
-
-#timelineVue .album__year {
-  display: table;
-  width: 75px;
-  z-index: 1;
-  background: #375456;
-  color: #d6be94;
-  margin-right: -75px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border: solid 2px #d6be94;
-  border-radius: 30px;
-  border-bottom-left-radius: 0;
-  padding: 2px 15px;
-  font-size: 16px;
-  text-align: center;
-}
-
 #atticVue {
   width: 100%;
   height: 94vh;
@@ -910,6 +966,80 @@ button:hover {
   width: 12.5%;
   font-size: 17px;
   margin-bottom: -5px;
+}
+
+#designersVue {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 94vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#designersVue .designer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  padding: 40px;
+  margin: 0 auto;
+}
+
+#designersVue .designer__name {
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+#designersVue .designer .border-wrapper {
+  border-top: solid 2px;
+  padding: 0 50px;
+}
+
+#designersVue .designer .border-wrapper .arrow {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  margin: 0 auto;
+  margin-bottom: -20px;
+  z-index: 1;
+}
+
+#designersVue .designer__albums {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#designersVue .designer__albums .album-thumb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  height: auto;
+  font-size: 17px;
+  width: 150px;
+  height: 150px;
 }
 
 #discographiesVue {
@@ -1201,6 +1331,62 @@ button:hover {
   margin: auto 50px;
 }
 
+#statsVue {
+  width: 100%;
+  height: 94vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  text-align: justify;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#statsVue .content {
+  padding-top: 20px;
+}
+
+#statsVue .numbers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 20px 0 50px 0;
+}
+
+#statsVue .charts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#statsVue .charts .table .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#statsVue .charts .table .row .legend {
+  margin-right: 30px;
+  width: 50px;
+  display: block;
+}
+
 #subgenresVue {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -1305,188 +1491,6 @@ button:hover {
 }
 
 #subgenresVue .subgenre-wrapper .subgenre-infos .subgenre-criteria .criterium {
-  font-style: italic;
-}
-
-#designersVue {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 100%;
-  height: 94vh;
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
-#designersVue .designer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 80%;
-  padding: 40px;
-  margin: 0 auto;
-}
-
-#designersVue .designer__name {
-  font-size: 30px;
-  padding-bottom: 10px;
-}
-
-#designersVue .designer .border-wrapper {
-  border-top: solid 2px;
-  padding: 0 50px;
-}
-
-#designersVue .designer .border-wrapper .arrow {
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
-  margin: 0 auto;
-  margin-bottom: -20px;
-  z-index: 1;
-}
-
-#designersVue .designer__albums {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-#designersVue .designer__albums .album-thumb {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  position: relative;
-  height: auto;
-  font-size: 17px;
-  width: 150px;
-  height: 150px;
-}
-
-#statsVue {
-  width: 100%;
-  height: 94vh;
-  overflow-y: auto;
-  overflow-x: hidden;
-  text-align: justify;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-#statsVue .content {
-  padding-top: 20px;
-}
-
-#statsVue .numbers {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  margin: 20px 0 50px 0;
-}
-
-#statsVue .charts {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-#statsVue .charts .table .row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-#statsVue .charts .table .row .legend {
-  margin-right: 30px;
-  width: 50px;
-  display: block;
-}
-
-#aboutVue {
-  width: 100%;
-  height: 94vh;
-  overflow-y: auto;
-  overflow-x: hidden;
-  text-align: justify;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-#aboutVue .content {
-  width: 60%;
-  padding-top: 50px;
-}
-
-#aboutVue .me {
-  float: right;
-  margin-left: 45px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-#aboutVue .me__photo {
-  width: 200px;
-  border: solid 4px #d6be94;
-  border-radius: 30px;
-}
-
-#aboutVue .me__description {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
   font-style: italic;
 }
 

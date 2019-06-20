@@ -1,4 +1,4 @@
-Vue.component('designers', {
+const Designers = Vue.component('designers', {
     template: `
         <section id="designersVue" data-simplebar>
         
@@ -40,7 +40,7 @@ Vue.component('designers', {
     methods: {
         selectAlbumAndView(album) {
             store.commit('selectAlbum', album);
-            store.commit('setCurrentView', views.DISCOGRAPHIES);
+            router.push(views.DISCOGRAPHIES);
         }
     }
 })
