@@ -9,6 +9,7 @@ const criteria = {
     CROATIAN_SUNG: "Croatian sung",
     FRENCH_SUNG: "French sung",
     GERMAN_SUNG: "German sung",
+    IGBO_SUNG: "Igbo sung",
     ITALIAN_SUNG: "Italian sung",
     SPANISH_SUNG: "Spanish sung",
     SWEDISH_SUNG: "Swedish sung",
@@ -20,6 +21,7 @@ const criteria = {
     MEDIEVAL: "Medieval-influenced",
     OCCULT: "Occult",
     SPIRITUAL: "Spiritual",
+    SOCIOPOLITICAL: "Sociopolitical",
 
     // Genre-based
     ROCK: "Rock-based with a Prog touch",
@@ -54,6 +56,7 @@ const criteria = {
     ORIENTAL: "Oriental",
     AMBIENT: "Ambient",
     ARENA: "Arena",
+    LATINO: "Latino",
 
     // Album structure
     LENGTHY_TRACKS: "Lengthy tracks",
@@ -97,6 +100,7 @@ const criteriaOrder = [
     criteria.FRENCH_SUNG,
     criteria.GERMAN_SUNG,
     criteria.ITALIAN_SUNG,
+    criteria.IGBO_SUNG,
     criteria.SPANISH_SUNG,
     criteria.SWEDISH_SUNG,
     criteria.ZEUHL,
@@ -107,6 +111,7 @@ const criteriaOrder = [
     criteria.MEDIEVAL,
     criteria.OCCULT,
     criteria.SPIRITUAL,
+    criteria.SOCIOPOLITICAL,
 
     // Genre-based
     criteria.ROCK,
@@ -137,6 +142,7 @@ const criteriaOrder = [
     criteria.SPACY,
     criteria.GLITTER,
     criteria.ORIENTAL,
+    criteria.LATINO,
     criteria.AMBIENT,
     criteria.BAROQUE,
     criteria.RENAISSANCE,

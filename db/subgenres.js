@@ -41,6 +41,7 @@ const subgenres = [
         "mostRepresentativeAlbum": getAlbumById("beggars_opera_act_one"),
         "albums": [
             getAlbumById("the_nice_ars_longa_vita_brevis"),
+            getAlbumById("gracious_gracious"),
         ],
         "criteria": [criteria.TECHNICAL, criteria.INSTRUMENTAL, criteria.ODD_RHYTHM, criteria.ORCHESTRAL_PARTS, criteria.FANFARE, criteria.SYMPHONIC, criteria.BAROQUE, criteria.SPECTACULAR]
     },
@@ -104,6 +105,17 @@ const subgenres = [
             getAlbumById("ramses_light_fantastic")
         ],
         "criteria": [criteria.GLITTER, criteria.SYMPHONIC, criteria.SPECTACULAR, criteria.C_ELECTRO]
+    },
+    {
+        "name": "Groove / Jazz Fusion",
+        "description": "TODO description",
+        "mostRepresentativeAlbum": getAlbumById("foehn_faeria"),
+        "albums": [
+            getAlbumById("messengers_children_of_tomorrow"),
+            getAlbumById("return_to_forever_musicmagic"),
+            getAlbumById("george_duke_feel"),
+        ],
+        "criteria": [criteria.JAZZ, criteria.C_ELECTRO, criteria.ODD_RHYTHM, criteria.JAZZY_GROOVY, criteria.SOFT_SEVENTIES, criteria.FEMALE]
     },
     {
         "name": "Heavy",

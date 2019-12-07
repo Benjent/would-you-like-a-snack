@@ -10,7 +10,7 @@ Vue.component('checkbox', {
         </div>
     `,
     props: ['filterItem'],
-    data: function () {
+    data() {
         return {}
     }
 })

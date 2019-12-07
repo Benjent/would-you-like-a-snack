@@ -1,0 +1,39 @@
+#statsVue {
+    @include vue;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+
+    .content {
+        // width: 60%;
+        padding-top: 20px;
+    }
+
+    .numbers {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 20px 0 50px 0;
+    }
+
+    .charts {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+        .table {
+            .row {
+                display: flex;
+                .legend {
+                    margin-right: 30px;
+                    width: 50px;
+                    display: block;
+                }
+                .data {
+
+                }
+            }
+        }
+        
+    }
+}

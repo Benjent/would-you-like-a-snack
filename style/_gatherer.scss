@@ -18,14 +18,16 @@
 @import '../components/album-thumb/album-thumb';
 @import '../components/searchbar/searchbar';
 @import '../components/the-nav-bar/the-nav-bar';
-
-// Vues
-@import '../components/album/album';
+@import '../components/histogram-horizontal/histogram-horizontal';
+@import '../components/histogram-vertical/histogram-vertical';
 @import '../components/timeline/timeline';
-@import '../components/attic/attic';
-@import '../components/discographies/discographies';
-@import '../components/gems/gems';
-@import '../components/subgenres/subgenres';
-@import '../components/designers/designers';
-@import '../components/stats/stats';
-@import '../components/about/about';
+
+// Views
+@import '../views/about/about';
+@import '../views/album/album';
+@import '../views/attic/attic';
+@import '../views/designers/designers';
+@import '../views/discographies/discographies';
+@import '../views/gems/gems';
+@import '../views/stats/stats';
+@import '../views/subgenres/subgenres';

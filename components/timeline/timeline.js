@@ -1,6 +1,6 @@
 Vue.component('timeline', {
     template: `
-        <section id="timelineVue" class="dragscroll">
+        <section id="timelineVue">
 
             <div
                 class="album"
@@ -16,16 +16,15 @@ Vue.component('timeline', {
                     class="album__cover"
                     :album-id="album.id"
                     :src=album.cover
-                    v-on:click="$emit('album-click', album)"
+                    v-on:click="$store.commit('selectAlbum', album)"
                     alt="">
-
             </div>
 
         </section>
     `,
-    props: ['selectedAlbum', 'db'],
-    data: function () {
+    data() {
         return {
+            db: store.state.db
         }
     },
 })

@@ -41,8 +41,7 @@ Vue.component('searchbar', {
             </div>
         </div>
     `,
-    props: ['db'],
-    data: function () {
+    data() {
         return {
             currentSearch: '',
             matchingAlbums: []
@@ -54,7 +53,7 @@ Vue.component('searchbar', {
         }
     },
     methods: {
-        search: function(search) {
+        search(search) {
 
             this.currentSearch = search;
 
@@ -67,8 +66,8 @@ Vue.component('searchbar', {
                     keyWords[j] = keyWords[j].toLowerCase();
                 }
                 
-                for(let i = 0; i < this.db.albums.length; i++) {
-                    const album = JSON.parse(JSON.stringify(this.db.albums[i]));
+                for(let i = 0; i < store.state.db.albums.length; i++) {
+                    const album = JSON.parse(JSON.stringify(store.state.db.albums[i]));
                     let keyWordsMatch = true;
                     
                     // Check for album presence in result
@@ -116,12 +115,12 @@ Vue.component('searchbar', {
                 }
             }
         },
-        resetSearch: function() {
+        resetSearch() {
             this.currentSearch = '';
             this.matchingAlbums = [];
         },
-        selectSearchResult: function(album) {
-            this.$emit('album-click', album);
+        selectSearchResult(album) {
+            store.commit('selectAlbum', album)
             this.resetSearch();
         }
     }
