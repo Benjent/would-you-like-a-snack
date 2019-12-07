@@ -38,5 +38,5 @@ const App = new Vue({
   store,
   data() {
     return {}
-  },
+  }
 })
