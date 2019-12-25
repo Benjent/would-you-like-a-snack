@@ -4,7 +4,7 @@ const Album = Vue.component('album', {
 
             <button
                 id="randomButton"
-                v-on:click="randomizeAlbum">
+                @click="randomizeAlbum">
                 Surprise me
             </button>
 
@@ -31,7 +31,7 @@ const Album = Vue.component('album', {
                     <div
                         class="album-criterium"
                         v-for="criterium in computedCriteria">
-                        {{criterium}}
+                        {{criterium | criterium}}
                     </div>
                 </div>
             </div>
@@ -81,17 +81,17 @@ const Album = Vue.component('album', {
             return computedCriteria;
         },
         youtubePath() {
-            return "https://www.youtube.com/watch?v=" + this.selectedAlbum.selectedTrackYtId;
+            return 'https://www.youtube.com/watch?v=' + this.selectedAlbum.selectedTrackYtId;
         },
         spotifyPath() {
-            return "https://open.spotify.com/embed/album/" + this.selectedAlbum.spotifyId;
+            return 'https://open.spotify.com/embed/album/' + this.selectedAlbum.spotifyId;
         },
         deezerPath() {
-            return "http://www.deezer.com/plugins/player?autoplay=false&playlist=true&width=700&height=240&cover=true&type=album&id=" + this.selectedAlbum.deezerId;
+            return 'http://www.deezer.com/plugins/player?autoplay=false&playlist=true&width=700&height=240&cover=true&type=album&id=' + this.selectedAlbum.deezerId;
 
         },
         youtubeLogoPath() {
-            return pathToImg + "/logos/yt_logo_gold.png";
+            return pathToImg + '/logos/yt_logo_gold.png';
         }
     },
     methods: {
