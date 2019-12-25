@@ -31,31 +31,31 @@ Vue.component('the-nav-bar', {
             menuDefinition: {
                 attic: {
                     id: views.ATTIC,
-                    text: "What's in the attic"
+                    text: `What's in the attic`
                 },
                 discographies: {
                     id: views.DISCOGRAPHIES,
-                    text: "Discographies"
+                    text: `Discographies`
                 },
                 gems: {
                     id: views.GEMS,
-                    text: "Gems"
+                    text: `Gems`
                 },
                 subgenres: {
                     id: views.SUBGENRES,
-                    text: "Subgenres"
+                    text: `Subgenres`
                 },
                 designers: {
                     id: views.DESIGNERS,
-                    text: "Designers"
+                    text: `Designers`
                 },
                 stats: {
                     id: views.STATS,
-                    text: "Stats"
+                    text: `Stats`
                 },
                 about: {
                     id: views.ABOUT,
-                    text: "About the project"
+                    text: `About the project`
                 }
             }
         }
