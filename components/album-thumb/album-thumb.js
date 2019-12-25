@@ -33,7 +33,4 @@ Vue.component('album-thumb', {
         </div>
     `,
     props: ['album'],
-    data() {
-        return {}
-    }
 })

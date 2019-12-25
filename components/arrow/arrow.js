@@ -7,7 +7,4 @@ Vue.component('arrow', {
         </div>
     `,
     props: ['size'],
-    data() {
-        return {}
-    }
 })

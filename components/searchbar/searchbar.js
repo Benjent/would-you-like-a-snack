@@ -7,11 +7,11 @@ Vue.component('searchbar', {
                 :class="{ 'search-bar__input--empty': currentSearch }"
                 placeholder="Search by album, artist, designer or year..."
                 v-model="currentSearch"
-                v-on:input="search($event.target.value)">
+                @input="search($event.target.value)">
 
             <div
                 class="search-bar__reset"
-                v-on:click="resetSearch"
+                @click="resetSearch"
                 v-if="currentSearch"
                 :src="crossPath">
             </div>
