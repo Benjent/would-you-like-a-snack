@@ -28,7 +28,7 @@ const Subgenres = Vue.component('subgenres', {
                         <span
                             class="criterium"
                             v-for="(criterium, index) in subgenre.criteria">
-                            {{criterium}}
+                            {{criterium | criterium}}
                             <span v-if="index < subgenre.criteria.length - 1">-</span>
                         </span>
                     </p>
