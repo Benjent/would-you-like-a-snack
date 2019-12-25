@@ -8,7 +8,7 @@ const Discographies = Vue.component('discographies', {
                     class="artists__item"
                     :class="{'artists__item--selected': artist == selectedArtist}"
                     v-for="artist in db.artists"
-                    v-on:click="setSelectedArtist(artist)">
+                    @click="setSelectedArtist(artist)">
 
                     <arrow
                         class="artists__arrow"
@@ -28,7 +28,7 @@ const Discographies = Vue.component('discographies', {
                     v-for="album in db.albums"
                     v-if="album.artist == selectedArtist"
                     :src=album.cover
-                    v-on:click="$store.commit('selectAlbum', album)"
+                    @click="$store.commit('selectAlbum', album)"
                     alt="">
                 
             </section>
@@ -90,7 +90,7 @@ const Discographies = Vue.component('discographies', {
                             <div
                                 class="album-data__criterium"
                                 v-for="criterium in computedCriteria">
-                                {{criterium}}
+                                {{criterium | criterium}}
                             </div>
                         </div>
                     </div>
@@ -106,13 +106,13 @@ const Discographies = Vue.component('discographies', {
                                 class="logo"
                                 v-if="selectedAlbum.spotifyId"
                                 :src=spotifyLogoPath
-                                v-on:click="setSelectedPlayer('spotify')"
+                                @click="setSelectedPlayer('spotify')"
                                 alt="">
                             <img
                                 class="logo"
                                 v-if="selectedAlbum.deezerId"
                                 :src=deezerLogoPath
-                                v-on:click="setSelectedPlayer('deezer')"
+                                @click="setSelectedPlayer('deezer')"
                                 alt="">
                         </div>
 
