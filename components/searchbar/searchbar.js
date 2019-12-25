@@ -26,7 +26,7 @@ Vue.component('searchbar', {
                     <div
                         class="search-result__item"
                         v-for="album in matchingAlbums"
-                        v-on:click="selectSearchResult(album)">
+                        @click="selectSearchResult(album)">
 
                         <div class="album-line">
                             <img
@@ -43,13 +43,13 @@ Vue.component('searchbar', {
     `,
     data() {
         return {
-            currentSearch: '',
+            currentSearch: null,
             matchingAlbums: []
         }
     },
     computed: {
         crossPath() {
-            return pathToImg + "/cross.svg"
+            return pathToImg + '/cross.svg'
         }
     },
     methods: {
@@ -116,11 +116,12 @@ Vue.component('searchbar', {
             }
         },
         resetSearch() {
-            this.currentSearch = '';
+            this.currentSearch = null;
             this.matchingAlbums = [];
         },
         selectSearchResult(album) {
             store.commit('selectAlbum', album)
+						router.push(views.DISCOGRAPHIES);
             this.resetSearch();
         }
     }
