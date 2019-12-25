@@ -4,7 +4,7 @@
 const selectedAlbumId = Utils.randomize(albums.length);
 
 // ********** FILTER ********** //
-Vue.filter('criterium', function (value) {
+Vue.filter('criterium', (value) => {
 	let filteredValue
 	switch (value) {
 		case criteria.AMBIENT:
@@ -197,7 +197,6 @@ Vue.filter('criterium', function (value) {
 			filteredValue = 'Zeuhl'
 			break;
 		default:
-			console.error('Unable to find criterium with value: ', value)
 			filteredValue = ''
 	}
   return filteredValue
