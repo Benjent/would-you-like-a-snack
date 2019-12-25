@@ -17,11 +17,11 @@ const Designers = Vue.component('designers', {
                             class="album-wrapper"
                             v-for="album in designer[1].works"
                             :album-id="album.id"
-                            v-on:click="selectAlbumAndView(album)">
+                            @click="selectAlbumAndView(album)">
 
                             <album-thumb
                                 :album="album"
-                                v-on:click="selectAlbumAndView(album)">
+                                @click="selectAlbumAndView(album)">
             
                             </album-thumb>
                         </div>
