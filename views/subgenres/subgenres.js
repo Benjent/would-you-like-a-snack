@@ -10,14 +10,14 @@ const Subgenres = Vue.component('subgenres', {
                         class="album-cover"
                         v-for="album in subgenre.albums"
                         :album-id="album.id"
-                        v-on:click="selectAlbumAndView(album)"
+                        @click="selectAlbumAndView(album)"
                         :src=album.cover alt="">
                 </div>
 
                 <img
                     class="album-cover most-representative"
                     :album-id="subgenre.mostRepresentativeAlbum.id"
-                    v-on:click="selectAlbumAndView(subgenre.mostRepresentativeAlbum)"
+                    @click="selectAlbumAndView(subgenre.mostRepresentativeAlbum)"
                     :src=subgenre.mostRepresentativeAlbum.cover alt="">
 
                 <div class="subgenre-infos">
