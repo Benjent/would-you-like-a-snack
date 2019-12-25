@@ -1,7 +1,6 @@
 const Stats = Vue.component('stats', {
     template: `
         <section id="statsVue" data-simplebar>
-            <h2 style="text-align: center">Page in construction</h2>
             <div class="content">
                 <div class="numbers">
                     <span>{{artists.length}} artists</span>
@@ -12,20 +11,9 @@ const Stats = Vue.component('stats', {
 
                     <histogram-vertical caption="Number of albums per year" :datasource="albumsPerYearWithRatio"></histogram-vertical>
                     <histogram-horizontal caption="Number of albums per region" :datasource="albumsPerCountryWithRatio"></histogram-horizontal>
+                    <histogram-horizontal caption="Greatest criteria occurences" :datasource="criteriaOccurencesWithRatio"></histogram-horizontal>
 
-
-                    <caption>30 greatest criteria occurences</caption>
-                    <div class="histogram">
-                        <div
-                            class="albumsPerCategory"
-                            v-for="(item, index) in criteriaOccurencesWithRatio"
-                            v-if="index < 30">
-                            <div class="albumsPerCategory-nbOfAlbums">
-                                <div class="gauge" :style="{height: item.ratioPercent}">{{item.nbOfOccurences}}</div>
-                            </div>
-                            <div class="albumsPerCategory-legend">{{item.criterium}}</div>
-                        </div>
-                    </div>
+                    <caption>Most common criteria per year</caption>
                     <div class="table">
                         <div
                             class="row"
@@ -37,7 +25,7 @@ const Stats = Vue.component('stats', {
                                 class="data"
                                 v-for="(item, occurenceIndex) in obj"
                                 v-if="occurenceIndex < 3">
-                                {{item.criterium}}
+                                {{item.criterium | criterium}}
                                 <span v-if="occurenceIndex < 2">-</span>
                             </div>
                         </div>
@@ -75,7 +63,7 @@ const Stats = Vue.component('stats', {
                 albumsPerYearWithRatio[year] = {
                     data: nbOfAlbums, 
                     ratio: ratio,
-                    ratioPercent: (ratio * 100).toString() + "%",
+                    ratioPercent: (ratio * 100).toString() + '%',
                 }
             };
         
@@ -99,7 +87,7 @@ const Stats = Vue.component('stats', {
                     label: country,
                     data: nbOfAlbums, 
                     ratio: ratio,
-                    ratioPercent: (ratio * 100).toString() + "%",
+                    ratioPercent: (ratio * 100).toString() + '%',
                 });
             };
     
@@ -140,17 +128,17 @@ const Stats = Vue.component('stats', {
             const min = 0;
         
             const criteriaOccurencesWithRatio = [];
-        
+
             for(criterium in this.criteriaOccurences) {
 
                 const nbOfOccurences = this.criteriaOccurences[criterium];
                 const ratio = (nbOfOccurences - min) / (max - min);
         
                 criteriaOccurencesWithRatio.push({
-                    label: criterium,
+                    label: this.$options.filters.criterium(criterium),
                     data: nbOfOccurences, 
                     ratio: ratio,
-                    ratioPercent: (ratio * 100).toString() + "%",
+                    ratioPercent: (ratio * 100).toString() + '%',
                 });
             };
 

@@ -1,3 +1,38 @@
+// // Below code for firestore
+// const dbRegions = [];
+// database.collection("regions").get().then((querySnapshot) => {
+// 	querySnapshot.forEach((doc) => {
+// 			dbRegions.push(doc.data().name);
+// 	});
+// });
+
+// const dbArtists = [];
+// database.collection("artists").get().then((querySnapshot) => {
+// 	querySnapshot.forEach((doc) => {
+// 			dbArtists.push(doc.data().name);
+// 	});
+// });
+
+// const dbAlbums = [];
+// database.collection("albums").get().then((querySnapshot) => {
+// 	querySnapshot.forEach((doc) => {
+// 			dbAlbums.push(doc.data());
+// 	});
+// });
+
+// const dbGems = [];
+// database.collection("albums").where("is_gem", "==", "true").get().then((querySnapshot) => {
+// 	querySnapshot.forEach((doc) => {
+// 			dbGems.push(doc.data());
+// 	});
+// });
+// console.log(dbGems);
+// const stCovers = storage.ref("covers/abedul_nosotros.jpg").getDownloadURL().then(url => {
+// 		// url; // TODO pas besoin d epromesse, garder le fonctionneent actuel et au mpoment de faire v-src, juste maj le pathToCovers
+// });
+
+// BELOW TODO old code to remove
+
 // Artists
 const artists = [];
 const designers = {};
@@ -44,10 +79,13 @@ for (let i = 0; i < albums.length; i++) {
     // Most used criteria
     for (let j = 0; j < albums[i].criteria.length; j++) {
         const criterium = albums[i].criteria[j];
-        if(criteriaOccurences.hasOwnProperty(criterium)) {
+				if(criteriaOccurences.hasOwnProperty(criterium)) {
             criteriaOccurences[criterium]++;
         } else {
-            criteriaOccurences[criterium] = 0;
+						if (criterium === undefined) {
+							console.error('Wrong criterium used in album with id: ', albums[i].id)
+						}
+            criteriaOccurences[criterium] = 1;
         }
 
         // Per year

@@ -16,7 +16,7 @@ Vue.component('timeline', {
                     class="album__cover"
                     :album-id="album.id"
                     :src=album.cover
-                    v-on:click="$store.commit('selectAlbum', album)"
+                    @click="$store.commit('selectAlbum', album)"
                     alt="">
             </div>
 

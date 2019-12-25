@@ -34,10 +34,10 @@ const About = Vue.component('about', {
     },
     computed: {
         arrowPath() {
-            return pathToImg + "/arrow-clueless.svg"
+            return pathToImg + '/arrow-clueless.svg'
         },
         mePath() {
-            return pathToImg + "/me.jpg"
+            return pathToImg + '/me.jpg'
         }
     }
 })

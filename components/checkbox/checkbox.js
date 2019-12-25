@@ -3,14 +3,11 @@ Vue.component('checkbox', {
         <div
             class="checkbox-wrapper"
             :class="{ 'isRadio': filterItem.isRadio, 'checked': filterItem.checked }"
-            v-on:click="$emit('checkbox-clicked', filterItem)">
+            @click="$emit('checkbox-clicked', filterItem)">
 
             <span class="checkbox-slot"></span>
             <label>{{filterItem.string}}</label>
         </div>
     `,
     props: ['filterItem'],
-    data() {
-        return {}
-    }
 })

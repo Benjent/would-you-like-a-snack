@@ -8,7 +8,7 @@ const Attic = Vue.component('attic', {
                 <div class="filter-section__panel">
                     <button
                         id="resetFilterButton"
-                        v-on:click="resetFilter()">
+                        @click="resetFilter()">
                         Reset filter
                     </button>
                 </div>
@@ -21,7 +21,7 @@ const Attic = Vue.component('attic', {
                     <div class="select-wrapper">
                         <select
                             v-model="selectedRegion"
-                            v-on:change="selectRegion()">
+                            @change="selectRegion()">
                             <option value="All" selected>All</option>
                             <option
                                 v-for="region in db.regions"
@@ -31,7 +31,7 @@ const Attic = Vue.component('attic', {
                     <div class="select-wrapper">
                         <select
                             v-model="selectedYear"
-                            v-on:change="selectYear()">
+                            @change="selectYear()">
                             <option value="All" selected>All</option>
                             <option
                                 v-for="year in years"
@@ -54,7 +54,7 @@ const Attic = Vue.component('attic', {
     
                             <checkbox
                                 :filter-item="filterItem"
-                                v-on:checkbox-clicked="toggleFilterItem(filterItem)">
+                                @checkbox-clicked="toggleFilterItem(filterItem)">
                             </checkbox>
                         </template>
                         
@@ -71,7 +71,7 @@ const Attic = Vue.component('attic', {
                     class="album-wrapper"
                     v-for="album in db.albums"
                     :album-id="album.id"
-                    v-on:click="selectAlbumAndView(album)">
+                    @click="selectAlbumAndView(album)">
 
                     <album-thumb :album="album">
                     </album-thumb>
@@ -89,467 +89,467 @@ const Attic = Vue.component('attic', {
             // Type panel
             [
                 {
-                    "criterium": db.criteria.CONCEPT,
-                    "panel": "Type",
-                    "string": "Concept album",
-                    "checked": false,
-                    "isRadio": true,
-                    "radioFamily": "type",
+                    criterium: db.criteria.CONCEPT,
+                    panel: 'Type',
+                    string: this.$options.filters.criterium(db.criteria.CONCEPT),
+                    checked: false,
+                    isRadio: true,
+                    radioFamily: 'type',
                 },
                 {
-                    "criterium": db.criteria.STORYLINE,
-                    "panel": "Type",
-                    "string": "Storyline",
-                    "checked": false,
-                    "isRadio": true,
-                    "radioFamily": "type",
+                    criterium: db.criteria.STORYLINE,
+                    panel: 'Type',
+                    string: this.$options.filters.criterium(db.criteria.STORYLINE),
+                    checked: false,
+                    isRadio: true,
+                    radioFamily: 'type',
                 },
                 {
-                    "criterium": db.criteria.SOUNDTRACK,
-                    "panel": "Type",
-                    "string": "Soundtrack album",
-                    "checked": false,
-                    "isRadio": true,
-                    "radioFamily": "type",
+                    criterium: db.criteria.SOUNDTRACK,
+                    panel: 'Type',
+                    string: this.$options.filters.criterium(db.criteria.SOUNDTRACK),
+                    checked: false,
+                    isRadio: true,
+                    radioFamily: 'type',
                 },
                 {
-                    "criterium": db.criteria.LIVE,
-                    "panel": "Type",
-                    "string": "Live album",
-                    "checked": false,
-                    "isRadio": false,
+                    criterium: db.criteria.LIVE,
+                    panel: 'Type',
+                    string: this.$options.filters.criterium(db.criteria.LIVE),
+                    checked: false,
+                    isRadio: false,
                 },
             ],
             // Language panel
             [
                 {
-                    "criterium": db.criteria.FRENCH_SUNG,
-                    "panel": "Language",
-                    "string": "French",
-                    "checked": false,
-                    "isRadio": true,
-                    "radioFamily": "language",
+                    criterium: db.criteria.FRENCH_SUNG,
+                    panel: 'Language',
+                    string: this.$options.filters.criterium(db.criteria.FRENCH_SUNG),
+                    checked: false,
+                    isRadio: true,
+                    radioFamily: 'language',
                 },
                 {
-                    "criterium": db.criteria.ITALIAN_SUNG,
-                    "panel": "Language",
-                    "string": "Italian",
-                    "checked": false,
-                    "isRadio": true,
-                    "radioFamily": "language",
+                    criterium: db.criteria.ITALIAN_SUNG,
+                    panel: 'Language',
+                    string: this.$options.filters.criterium(db.criteria.ITALIAN_SUNG),
+                    checked: false,
+                    isRadio: true,
+                    radioFamily: 'language',
                 },
                 {
-                    "criterium": db.criteria.SPANISH_SUNG,
-                    "panel": "Language",
-                    "string": "Spanish",
-                    "checked": false,
-                    "isRadio": true,
-                    "radioFamily": "language",
+                    criterium: db.criteria.SPANISH_SUNG,
+                    panel: 'Language',
+                    string: this.$options.filters.criterium(db.criteria.SPANISH_SUNG),
+                    checked: false,
+                    isRadio: true,
+                    radioFamily: 'language',
                 },
                 {
-                    "criterium": db.criteria.SWEDISH_SUNG,
-                    "panel": "Language",
-                    "string": "Swedish",
-                    "checked": false,
-                    "isRadio": true,
-                    "radioFamily": "language",
+                    criterium: db.criteria.SWEDISH_SUNG,
+                    panel: 'Language',
+                    string: this.$options.filters.criterium(db.criteria.SWEDISH_SUNG),
+                    checked: false,
+                    isRadio: true,
+                    radioFamily: 'language',
                 },
                 {
-                    "criterium": db.criteria.ZEUHL,
-                    "panel": "Language",
-                    "string": "Zeuhl",
-                    "checked": false,
-                    "isRadio": true,
-                    "radioFamily": "language",
+                    criterium: db.criteria.ZEUHL,
+                    panel: 'Language',
+                    string: this.$options.filters.criterium(db.criteria.ZEUHL),
+                    checked: false,
+                    isRadio: true,
+                    radioFamily: 'language',
                 },
             ],
             // Theme panel
             [
                 {
-                    "criterium": db.criteria.SCI_FI,
-                    "panel": "Theme",
-                    "string": "Sci-fi",
-                    "checked": false,
-                    "isRadio": true,
-                    "radioFamily": "theme",
+                    criterium: db.criteria.SCI_FI,
+                    panel: 'Theme',
+                    string: this.$options.filters.criterium(db.criteria.SCI_FI),
+                    checked: false,
+                    isRadio: true,
+                    radioFamily: 'theme',
                 },
                 {
-                    "criterium": db.criteria.FANTASY,
-                    "panel": "Theme",
-                    "string": "Fantasy",
-                    "checked": false,
-                    "isRadio": true,
-                    "radioFamily": "theme",
+                    criterium: db.criteria.FANTASY,
+                    panel: 'Theme',
+                    string: this.$options.filters.criterium(db.criteria.FANTASY),
+                    checked: false,
+                    isRadio: true,
+                    radioFamily: 'theme',
                 },
                 {
-                    "criterium": db.criteria.MEDIEVAL,
-                    "panel": "Theme",
-                    "string": "Medieval",
-                    "checked": false,
-                    "isRadio": true,
-                    "radioFamily": "theme",
+                    criterium: db.criteria.MEDIEVAL,
+                    panel: 'Theme',
+                    string: this.$options.filters.criterium(db.criteria.MEDIEVAL),
+                    checked: false,
+                    isRadio: true,
+                    radioFamily: 'theme',
                 },
                 {
-                    "criterium": db.criteria.OCCULT,
-                    "panel": "Theme",
-                    "string": "Occult",
-                    "checked": false,
-                    "isRadio": true,
-                    "radioFamily": "theme",
+                    criterium: db.criteria.OCCULT,
+                    panel: 'Theme',
+                    string: this.$options.filters.criterium(db.criteria.OCCULT),
+                    checked: false,
+                    isRadio: true,
+                    radioFamily: 'theme',
                 },
                 {
-                    "criterium": db.criteria.SPIRITUAL,
-                    "panel": "Theme",
-                    "string": "Spiritual",
-                    "checked": false,
-                    "isRadio": true,
-                    "radioFamily": "theme",
+                    criterium: db.criteria.SPIRITUAL,
+                    panel: 'Theme',
+                    string: this.$options.filters.criterium(db.criteria.SPIRITUAL),
+                    checked: false,
+                    isRadio: true,
+                    radioFamily: 'theme',
                 },
             ],
             // Main genre panel
             [
                 {
-                    "criterium": db.criteria.ROCK,
-                    "panel": "Main genre",
-                    "string": "Rock",
-                    "checked": false,
-                    "isRadio": true,
-                    "radioFamily": "mainGenre",
+                    criterium: db.criteria.ROCK,
+                    panel: 'Main genre',
+                    string: this.$options.filters.criterium(db.criteria.ROCK),
+                    checked: false,
+                    isRadio: true,
+                    radioFamily: 'mainGenre',
                 },
                 {
-                    "criterium": db.criteria.JAZZ,
-                    "panel": "Main genre",
-                    "string": "Jazz",
-                    "checked": false,
-                    "isRadio": true,
-                    "radioFamily": "mainGenre",
+                    criterium: db.criteria.JAZZ,
+                    panel: 'Main genre',
+                    string: this.$options.filters.criterium(db.criteria.JAZZ),
+                    checked: false,
+                    isRadio: true,
+                    radioFamily: 'mainGenre',
                 },
                 {
-                    "criterium": db.criteria.FOLK,
-                    "panel": "Main genre",
-                    "string": "Folk",
-                    "checked": false,
-                    "isRadio": true,
-                    "radioFamily": "mainGenre",
+                    criterium: db.criteria.FOLK,
+                    panel: 'Main genre',
+                    string: this.$options.filters.criterium(db.criteria.FOLK),
+                    checked: false,
+                    isRadio: true,
+                    radioFamily: 'mainGenre',
                 },
                 {
-                    "criterium": db.criteria.ELECTRO,
-                    "panel": "Main genre",
-                    "string": "Electro",
-                    "checked": false,
-                    "isRadio": true,
-                    "radioFamily": "mainGenre",
+                    criterium: db.criteria.ELECTRO,
+                    panel: 'Main genre',
+                    string: this.$options.filters.criterium(db.criteria.ELECTRO),
+                    checked: false,
+                    isRadio: true,
+                    radioFamily: 'mainGenre',
                 },
                 {
-                    "criterium": db.criteria.ART_POP,
-                    "panel": "Main genre",
-                    "string": "Art Pop",
-                    "checked": false,
-                    "isRadio": true,
-                    "radioFamily": "mainGenre",
+                    criterium: db.criteria.ART_POP,
+                    panel: 'Main genre',
+                    string: this.$options.filters.criterium(db.criteria.ART_POP),
+                    checked: false,
+                    isRadio: true,
+                    radioFamily: 'mainGenre',
                 },
             ],
             // Contains elements of panel
             [
                 {
-                    "criterium": db.criteria.C_JAZZ,
-                    "panel": "Contains elements of",
-                    "string": "Jazz",
-                    "checked": false,
-                    "isRadio": false,
+                    criterium: db.criteria.C_JAZZ,
+                    panel: 'Contains elements of',
+                    string: this.$options.filters.criterium(db.criteria.C_JAZZ),
+                    checked: false,
+                    isRadio: false,
                 },
                 {
-                    "criterium": db.criteria.C_FOLK,
-                    "panel": "Contains elements of",
-                    "string": "Folk",
-                    "checked": false,
-                    "isRadio": false,
+                    criterium: db.criteria.C_FOLK,
+                    panel: 'Contains elements of',
+                    string: this.$options.filters.criterium(db.criteria.C_FOLK),
+                    checked: false,
+                    isRadio: false,
                 },
                 {
-                    "criterium": db.criteria.C_ELECTRO,
-                    "panel": "Contains elements of",
-                    "string": "Electro",
-                    "checked": false,
-                    "isRadio": false,
+                    criterium: db.criteria.C_ELECTRO,
+                    panel: 'Contains elements of',
+                    string: this.$options.filters.criterium(db.criteria.C_ELECTRO),
+                    checked: false,
+                    isRadio: false,
                 },
                 {
-                    "criterium": db.criteria.C_PSYCHEDELIC,
-                    "panel": "Contains elements of",
-                    "string": "Psychedelism",
-                    "checked": false,
-                    "isRadio": false,
+                    criterium: db.criteria.C_PSYCHEDELIC,
+                    panel: 'Contains elements of',
+                    string: this.$options.filters.criterium(db.criteria.C_PSYCHEDELIC),
+                    checked: false,
+                    isRadio: false,
                 },
                 {
-                    "criterium": db.criteria.BLENDS,
-                    "panel": "Contains elements of",
-                    "string": "Many music genres",
-                    "checked": false,
-                    "isRadio": true,
-                    "radioFamily": "blends"
+                    criterium: db.criteria.BLENDS,
+                    panel: 'Contains elements of',
+                    string: this.$options.filters.criterium(db.criteria.BLENDS),
+                    checked: false,
+                    isRadio: true,
+                    radioFamily: 'blends'
                 },
             ],
             // Style panel
             [
                 {
-                    "criterium": db.criteria.ODD_RHYTHM,
-                    "panel": "Style",
-                    "string": "Odd rhythm signatures",
-                    "checked": false,
-                    "isRadio": false,
+                    criterium: db.criteria.ODD_RHYTHM,
+                    panel: 'Style',
+                    string: this.$options.filters.criterium(db.criteria.ODD_RHYTHM),
+                    checked: false,
+                    isRadio: false,
                 },
                 {
-                    "criterium": db.criteria.TECHNICAL,
-                    "panel": "Style",
-                    "string": "Technical",
-                    "checked": false,
-                    "isRadio": false,
+                    criterium: db.criteria.TECHNICAL,
+                    panel: 'Style',
+                    string: this.$options.filters.criterium(db.criteria.TECHNICAL),
+                    checked: false,
+                    isRadio: false,
                 },
                 {
-                    "criterium": db.criteria.INSTRUMENTAL,
-                    "panel": "Style",
-                    "string": "Mainly instrumental",
-                    "checked": false,
-                    "isRadio": false,
+                    criterium: db.criteria.INSTRUMENTAL,
+                    panel: 'Style',
+                    string: this.$options.filters.criterium(db.criteria.INSTRUMENTAL),
+                    checked: false,
+                    isRadio: false,
                 },
                 {
-                    "criterium": db.criteria.EXPERIMENTAL,
-                    "panel": "Style",
-                    "string": "Experimental",
-                    "checked": false,
-                    "isRadio": false,
+                    criterium: db.criteria.EXPERIMENTAL,
+                    panel: 'Style',
+                    string: this.$options.filters.criterium(db.criteria.EXPERIMENTAL),
+                    checked: false,
+                    isRadio: false,
                 },
                 {
-                    "criterium": db.criteria.JAM,
-                    "panel": "Style",
-                    "string": "Jam-oriented",
-                    "checked": false,
-                    "isRadio": false,
+                    criterium: db.criteria.JAM,
+                    panel: 'Style',
+                    string: this.$options.filters.criterium(db.criteria.JAM),
+                    checked: false,
+                    isRadio: false,
                 },
                 {
-                    "criterium": db.criteria.SOPHISTICATED,
-                    "panel": "Style",
-                    "string": "Sophisticated",
-                    "checked": false,
-                    "isRadio": false,
+                    criterium: db.criteria.SOPHISTICATED,
+                    panel: 'Style',
+                    string: this.$options.filters.criterium(db.criteria.SOPHISTICATED),
+                    checked: false,
+                    isRadio: false,
                 },
                 {
-                    "criterium": db.criteria.JAZZY_GROOVY,
-                    "panel": "Style",
-                    "string": "Jazzy groovy",
-                    "checked": false,
-                    "isRadio": false,
+                    criterium: db.criteria.JAZZY_GROOVY,
+                    panel: 'Style',
+                    string: this.$options.filters.criterium(db.criteria.JAZZY_GROOVY),
+                    checked: false,
+                    isRadio: false,
                 },
                 {
-                    "criterium": db.criteria.ROCK_OPERA,
-                    "panel": "Style",
-                    "string": "Rock opera",
-                    "checked": false,
-                    "isRadio": false,
+                    criterium: db.criteria.ROCK_OPERA,
+                    panel: 'Style',
+                    string: this.$options.filters.criterium(db.criteria.ROCK_OPERA),
+                    checked: false,
+                    isRadio: false,
                 },
                 {
-                    "criterium": db.criteria.FANFARE,
-                    "panel": "Style",
-                    "string": "Fanfare",
-                    "checked": false,
-                    "isRadio": false,
+                    criterium: db.criteria.FANFARE,
+                    panel: 'Style',
+                    string: this.$options.filters.criterium(db.criteria.FANFARE),
+                    checked: false,
+                    isRadio: false,
                 },
                 {
-                    "criterium": db.criteria.SPACY,
-                    "panel": "Style",
-                    "string": "Spacy",
-                    "checked": false,
-                    "isRadio": false,
+                    criterium: db.criteria.SPACY,
+                    panel: 'Style',
+                    string: this.$options.filters.criterium(db.criteria.SPACY),
+                    checked: false,
+                    isRadio: false,
                 },
                 {
-                    "criterium": db.criteria.GLITTER,
-                    "panel": "Style",
-                    "string": "Star-symphonic",
-                    "checked": false,
-                    "isRadio": false,
+                    criterium: db.criteria.GLITTER,
+                    panel: 'Style',
+                    string: this.$options.filters.criterium(db.criteria.GLITTER),
+                    checked: false,
+                    isRadio: false,
                 },
                 {
-                    "criterium": db.criteria.AMBIENT,
-                    "panel": "Style",
-                    "string": "Ambient",
-                    "checked": false,
-                    "isRadio": false,
+                    criterium: db.criteria.AMBIENT,
+                    panel: 'Style',
+                    string: this.$options.filters.criterium(db.criteria.AMBIENT),
+                    checked: false,
+                    isRadio: false,
                 },
                 {
-                    "criterium": db.criteria.ORIENTAL,
-                    "panel": "Style",
-                    "string": "Oriental",
-                    "checked": false,
-                    "isRadio": false,
+                    criterium: db.criteria.ORIENTAL,
+                    panel: 'Style',
+                    string: this.$options.filters.criterium(db.criteria.ORIENTAL),
+                    checked: false,
+                    isRadio: false,
                 },
                 {
-                    "criterium": db.criteria.RENAISSANCE,
-                    "panel": "Style",
-                    "string": "Renaissance",
-                    "checked": false,
-                    "isRadio": false,
+                    criterium: db.criteria.RENAISSANCE,
+                    panel: 'Style',
+                    string: this.$options.filters.criterium(db.criteria.RENAISSANCE),
+                    checked: false,
+                    isRadio: false,
                 },
                 {
-                    "criterium": db.criteria.ARENA,
-                    "panel": "Style",
-                    "string": "Arena",
-                    "checked": false,
-                    "isRadio": false,
+                    criterium: db.criteria.ARENA,
+                    panel: 'Style',
+                    string: this.$options.filters.criterium(db.criteria.ARENA),
+                    checked: false,
+                    isRadio: false,
                 },
             ],
             // Album structuration
             [
                 {
-                    "criterium": db.criteria.LENGTHY_TRACKS,
-                    "panel": "Album structuration",
-                    "string": "Lengthy tracks",
-                    "checked": false,
-                    "isRadio": false,
+                    criterium: db.criteria.LENGTHY_TRACKS,
+                    panel: 'Album structuration',
+                    string: this.$options.filters.criterium(db.criteria.LENGTHY_TRACKS),
+                    checked: false,
+                    isRadio: false,
                 },
                 {
-                    "criterium": db.criteria.PATCHWORK,
-                    "panel": "Album structuration",
-                    "string": "Patchwork of tracks",
-                    "checked": false,
-                    "isRadio": false,
+                    criterium: db.criteria.PATCHWORK,
+                    panel: 'Album structuration',
+                    string: this.$options.filters.criterium(db.criteria.PATCHWORK),
+                    checked: false,
+                    isRadio: false,
                 },
                 {
-                    "criterium": db.criteria.TRANSITION,
-                    "panel": "Album structuration",
-                    "string": "Tracks have transitions",
-                    "checked": false,
-                    "isRadio": false,
+                    criterium: db.criteria.TRANSITION,
+                    panel: 'Album structuration',
+                    string: this.$options.filters.criterium(db.criteria.TRANSITION),
+                    checked: false,
+                    isRadio: false,
                 },
                 {
-                    "criterium": db.criteria.SYMPHONIC,
-                    "panel": "Album structuration",
-                    "string": "Symphonic",
-                    "checked": false,
-                    "isRadio": false,
+                    criterium: db.criteria.SYMPHONIC,
+                    panel: 'Album structuration',
+                    string: this.$options.filters.criterium(db.criteria.SYMPHONIC),
+                    checked: false,
+                    isRadio: false,
                 },
             ],
             // Era sound
             [
                 {
-                    "criterium": db.criteria.CRISPY_SIXTIES,
-                    "panel": "Era sound",
-                    "string": "Crispy 60s",
-                    "checked": false,
-                    "isRadio": true,
-                    "radioFamily": "eraSound"
+                    criterium: db.criteria.CRISPY_SIXTIES,
+                    panel: 'Era sound',
+                    string: this.$options.filters.criterium(db.criteria.CRISPY_SIXTIES),
+                    checked: false,
+                    isRadio: true,
+                    radioFamily: 'eraSound'
                 },
                 {
-                    "criterium": db.criteria.GREASY_SEVENTIES,
-                    "panel": "Era sound",
-                    "string": "Greasy early 70s",
-                    "checked": false,
-                    "isRadio": true,
-                    "radioFamily": "eraSound"
+                    criterium: db.criteria.GREASY_SEVENTIES,
+                    panel: 'Era sound',
+                    string: this.$options.filters.criterium(db.criteria.GREASY_SEVENTIES),
+                    checked: false,
+                    isRadio: true,
+                    radioFamily: 'eraSound'
                 },
                 {
-                    "criterium": db.criteria.SOFT_SEVENTIES,
-                    "panel": "Era sound",
-                    "string": "Soft late 70s",
-                    "checked": false,
-                    "isRadio": true,
-                    "radioFamily": "eraSound"
+                    criterium: db.criteria.SOFT_SEVENTIES,
+                    panel: 'Era sound',
+                    string: this.$options.filters.criterium(db.criteria.SOFT_SEVENTIES),
+                    checked: false,
+                    isRadio: true,
+                    radioFamily: 'eraSound'
                 },
                 {
-                    "criterium": db.criteria.NEO_EIGHTIES,
-                    "panel": "Era sound",
-                    "string": "Neo 80s",
-                    "checked": false,
-                    "isRadio": true,
-                    "radioFamily": "eraSound"
+                    criterium: db.criteria.NEO_EIGHTIES,
+                    panel: 'Era sound',
+                    string: this.$options.filters.criterium(db.criteria.NEO_EIGHTIES),
+                    checked: false,
+                    isRadio: true,
+                    radioFamily: 'eraSound'
                 },
             ],
             // Loudness
             [
                 {
-                    "criterium": db.criteria.SOFT,
-                    "panel": "Loudness",
-                    "string": "Rather soft",
-                    "checked": false,
-                    "isRadio": true,
-                    "radioFamily": "softHeavy"
+                    criterium: db.criteria.SOFT,
+                    panel: 'Loudness',
+                    string: this.$options.filters.criterium(db.criteria.SOFT),
+                    checked: false,
+                    isRadio: true,
+                    radioFamily: 'softHeavy'
                 },
                 {
-                    "criterium": db.criteria.HEAVY,
-                    "panel": "Loudness",
-                    "string": "Rather heavy",
-                    "checked": false,
-                    "isRadio": true,
-                    "radioFamily": "softHeavy"
+                    criterium: db.criteria.HEAVY,
+                    panel: 'Loudness',
+                    string: this.$options.filters.criterium(db.criteria.HEAVY),
+                    checked: false,
+                    isRadio: true,
+                    radioFamily: 'softHeavy'
                 },
                 {
-                    "criterium": db.criteria.HUMBLE,
-                    "panel": "Loudness",
-                    "string": "Humble",
-                    "checked": false,
-                    "isRadio": true,
-                    "radioFamily": "humbleSpectacular"
+                    criterium: db.criteria.HUMBLE,
+                    panel: 'Loudness',
+                    string: this.$options.filters.criterium(db.criteria.HUMBLE),
+                    checked: false,
+                    isRadio: true,
+                    radioFamily: 'humbleSpectacular'
                 },
                 {
-                    "criterium": db.criteria.SPECTACULAR,
-                    "panel": "Loudness",
-                    "string": "Spectacular",
-                    "checked": false,
-                    "isRadio": true,
-                    "radioFamily": "humbleSpectacular"
+                    criterium: db.criteria.SPECTACULAR,
+                    panel: 'Loudness',
+                    string: this.$options.filters.criterium(db.criteria.SPECTACULAR),
+                    checked: false,
+                    isRadio: true,
+                    radioFamily: 'humbleSpectacular'
                 },
             ],
             // Arrangement
             [
                 {
-                    "criterium": db.criteria.UNCOMMON_INSTRUMENTS,
-                    "panel": "Arrangement",
-                    "string": "Uncommon instruments",
-                    "checked": false,
-                    "isRadio": false,
+                    criterium: db.criteria.UNCOMMON_INSTRUMENTS,
+                    panel: 'Arrangement',
+                    string: this.$options.filters.criterium(db.criteria.UNCOMMON_INSTRUMENTS),
+                    checked: false,
+                    isRadio: false,
                 },
                 {
-                    "criterium": db.criteria.FEMALE,
-                    "panel": "Arrangement",
-                    "string": "Female vocals",
-                    "checked": false,
-                    "isRadio": false,
+                    criterium: db.criteria.FEMALE,
+                    panel: 'Arrangement',
+                    string: this.$options.filters.criterium(db.criteria.FEMALE),
+                    checked: false,
+                    isRadio: false,
                 },
                 {
-                    "criterium": db.criteria.SOUND_COLLAGES,
-                    "panel": "Arrangement",
-                    "string": "Uses sound collages",
-                    "checked": false,
-                    "isRadio": false,
+                    criterium: db.criteria.SOUND_COLLAGES,
+                    panel: 'Arrangement',
+                    string: this.$options.filters.criterium(db.criteria.SOUND_COLLAGES),
+                    checked: false,
+                    isRadio: false,
                 },
                 {
-                    "criterium": db.criteria.ORCHESTRAL_PARTS,
-                    "panel": "Arrangement",
-                    "string": "Orchestral parts",
-                    "checked": false,
-                    "isRadio": false,
+                    criterium: db.criteria.ORCHESTRAL_PARTS,
+                    panel: 'Arrangement',
+                    string: this.$options.filters.criterium(db.criteria.ORCHESTRAL_PARTS),
+                    checked: false,
+                    isRadio: false,
                 },
                 {
-                    "criterium": db.criteria.BAROQUE,
-                    "panel": "Arrangement",
-                    "string": "Baroque vibes",
-                    "checked": false,
-                    "isRadio": false,
+                    criterium: db.criteria.BAROQUE,
+                    panel: 'Arrangement',
+                    string: this.$options.filters.criterium(db.criteria.BAROQUE),
+                    checked: false,
+                    isRadio: false,
                 }
             ],
             // Temper
             [
                 {
-                    "criterium": db.criteria.FUNNY,
-                    "panel": "Temper",
-                    "string": "Funny",
-                    "checked": false,
-                    "isRadio": false,
+                    criterium: db.criteria.FUNNY,
+                    panel: 'Temper',
+                    string: this.$options.filters.criterium(db.criteria.FUNNY),
+                    checked: false,
+                    isRadio: false,
                 },
                 {
-                    "criterium": db.criteria.TOUCHING_VOCALS,
-                    "panel": "Temper",
-                    "string": "Touching vocals",
-                    "checked": false,
-                    "isRadio": false,
+                    criterium: db.criteria.TOUCHING_VOCALS,
+                    panel: 'Temper',
+                    string: this.$options.filters.criterium(db.criteria.TOUCHING_VOCALS),
+                    checked: false,
+                    isRadio: false,
                 }
             ]
         ];
@@ -558,15 +558,15 @@ const Attic = Vue.component('attic', {
             db: store.state.db,
             views: views,
             years: Object.keys(albumsPerYear),
-            selectedRegion: "All",
-            selectedYear: "All",
+            selectedRegion: 'All',
+            selectedYear: 'All',
             filterModel: filter,
             albumListWidth: 0
         }
     },
     computed: {
         navItems() {
-            return ["Type", "Language", "Theme", "Main genre", "Contains elements of", "Style", "Album structuration", "Era sound", "Loudness", "Arrangement", "Temper"]
+            return ['Type', 'Language', 'Theme', 'Main genre', "Contains elements of", 'Style', 'Album structuration', 'Era sound', 'Loudness', 'Arrangement', 'Temper']
         },
         albumWrapperSize() {
             const nbOfAlbumsPerRow = 8;
@@ -576,7 +576,7 @@ const Attic = Vue.component('attic', {
         }
     },
     mounted() {
-        this.albumListWidth = document.getElementById("albumList").clientWidth;
+        this.albumListWidth = document.getElementById('albumList').clientWidth;
     },
     methods: {
         selectAlbumAndView(album) {
@@ -584,8 +584,8 @@ const Attic = Vue.component('attic', {
 						router.push(views.DISCOGRAPHIES);
         },
         changed() {
-            if(document.getElementById("albumList")) {
-                this.albumListWidth = document.getElementById("albumList").clientWidth;
+            if(document.getElementById('albumList')) {
+                this.albumListWidth = document.getElementById('albumList').clientWidth;
             }
         },
         selectRegion() {
@@ -615,7 +615,7 @@ const Attic = Vue.component('attic', {
 
             // 'Blends many music genres' case
             if(filterItem.criterium == this.db.criteria.BLENDS) {
-                // const specialRadioCase = ["Contains Jazz elements", "Contains Folk elements", "Contains electronic elements", "Contains psychedelic elements"];
+                // const specialRadioCase = ['Contains Jazz elements', 'Contains Folk elements', 'Contains electronic elements', 'Contains psychedelic elements'];
 
                 for(let i = 0; i < panelCheckboxes.length; i++) {
                     if(panelCheckboxes[i].criterium == this.db.criteria.BLENDS) {
@@ -672,28 +672,28 @@ const Attic = Vue.component('attic', {
                 }
 
                 // Query selector all to get also the overlay which holds the album-id
-                const elementsToHandleDisplay = document.querySelectorAll("[album-id=" + album.id + "]");
+                const elementsToHandleDisplay = document.querySelectorAll('[album-id=' + album.id + ']');
                 for(let j = 0; j < elementsToHandleDisplay.length; j++) {
                     if(nbOfMatchingCriteria == nbOfCheckedCriteria) {
                         // Quite dirty, but it seems that all criteria match
-                        if(elementsToHandleDisplay[j].classList.contains("hidden")) {
-                            elementsToHandleDisplay[j].classList.remove("hidden");
+                        if(elementsToHandleDisplay[j].classList.contains('hidden')) {
+                            elementsToHandleDisplay[j].classList.remove('hidden');
                         }
                     } else {
                         // Hide
-                        if(!elementsToHandleDisplay[j].classList.contains("hidden")) {
-                            elementsToHandleDisplay[j].classList.add("hidden");
+                        if(!elementsToHandleDisplay[j].classList.contains('hidden')) {
+                            elementsToHandleDisplay[j].classList.add('hidden');
                         }
                     }
 
                     // Criteria are checked, now check for the region
-                    if(!elementsToHandleDisplay[j].classList.contains("hidden")) {
+                    if(!elementsToHandleDisplay[j].classList.contains('hidden')) {
                         // Element is displayed...
-                        const noRegionsMatch = this.selectedRegion != "All" && album.country != this.selectedRegion;
-                        const noYearsMatch = this.selectedYear != "All" && album.year != parseInt(this.selectedYear, 10); 
+                        const noRegionsMatch = this.selectedRegion != 'All' && album.country != this.selectedRegion;
+                        const noYearsMatch = this.selectedYear != 'All' && album.year != parseInt(this.selectedYear, 10); 
                         if(noRegionsMatch || noYearsMatch) {
                             // ...But its region or year does not match, so hide it
-                            elementsToHandleDisplay[j].classList.add("hidden");
+                            elementsToHandleDisplay[j].classList.add('hidden');
                         }
                     }
                 }
@@ -701,8 +701,8 @@ const Attic = Vue.component('attic', {
         },
         resetFilter() {
             // Reset region
-            this.selectedRegion = "All";
-            this.selectedYear = "All";
+            this.selectedRegion = 'All';
+            this.selectedYear = 'All';
             // Reset criteria
             for(let i = 0; i < this.filterModel.length; i++) {
                 for(let j = 0; j < this.filterModel[i].length; j++) {
@@ -711,10 +711,10 @@ const Attic = Vue.component('attic', {
                 }
             }
             // Query selector all to get also the overlay which holds the album-id
-            const elementsToDisplay = document.querySelectorAll("[album-id]");
+            const elementsToDisplay = document.querySelectorAll('[album-id]');
             for(let i = 0; i < elementsToDisplay.length; i++) {
-                if(elementsToDisplay[i].classList.contains("hidden")) {
-                    elementsToDisplay[i].classList.remove("hidden");
+                if(elementsToDisplay[i].classList.contains('hidden')) {
+                    elementsToDisplay[i].classList.remove('hidden');
                 }
             }
         }
