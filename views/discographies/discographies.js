@@ -176,24 +176,24 @@ const Discographies = Vue.component('discographies', {
             return computedCriteria;
         },
         youtubePath() {
-            return "https://www.youtube.com/watch?v=" + this.selectedAlbum.selectedTrackYtId;
+            return 'https://www.youtube.com/watch?v=' + this.selectedAlbum.selectedTrackYtId;
         },
         spotifyPath() {
-            return "https://open.spotify.com/embed/album/" + this.selectedAlbum.spotifyId;
+            return 'https://open.spotify.com/embed/album/' + this.selectedAlbum.spotifyId;
         },
         deezerPath() {
-            return "http://www.deezer.com/plugins/player?autoplay=false&playlist=true&width=700&height=240&cover=true&type=album&id=" + this.selectedAlbum.deezerId;
+            return 'http://www.deezer.com/plugins/player?autoplay=false&playlist=true&width=700&height=240&cover=true&type=album&id=' + this.selectedAlbum.deezerId;
         },
         youtubeLogoPath() {
-            return pathToImg + "/logos/yt_logo_gold.png"
+            return pathToImg + '/logos/yt_logo_gold.png'
         },
         spotifyLogoPath() {
-            const color = this.selectedPlayer == "spotify" ? "white" : "gold";
-            return pathToImg + "/logos/spotify_logo_" + color + ".png"
+            const color = this.selectedPlayer == 'spotify' ? 'white' : 'gold';
+            return pathToImg + '/logos/spotify_logo_' + color + '.png'
         },
         deezerLogoPath() {
-            const color = this.selectedPlayer == "deezer" ? "white" : "gold";
-            return pathToImg + "/logos/deezer_logo_" + color + ".png"
+            const color = this.selectedPlayer == 'deezer' ? 'white' : 'gold';
+            return pathToImg + '/logos/deezer_logo_' + color + '.png'
         }
     },
     methods: {
@@ -209,9 +209,9 @@ const Discographies = Vue.component('discographies', {
 
             // Handle iframe
             if (!this.selectedAlbum.spotifyId && this.selectedAlbum.deezerId) {
-                this.setSelectedPlayer("deezer");
+                this.setSelectedPlayer('deezer');
             } else if (!this.selectedAlbum.deezerId && this.selectedAlbum.spotifyId) {
-                this.setSelectedPlayer("spotify");
+                this.setSelectedPlayer('spotify');
             }
         },
         setSelectedPlayer(player) {
