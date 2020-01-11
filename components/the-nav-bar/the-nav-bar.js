@@ -2,21 +2,20 @@ Vue.component('the-nav-bar', {
     template: `
         <header class="header">
 
-            <h1
-                class="header__headline">
+            <h1 class="header__headline">
                 <router-link to="/">Would you like a snack</router-link>
             </h1>
 
             <div class="header__menu">
 
                 <div class="menu">
-									<router-link
-										v-for="item in menuDefinition"
-										:to="item.id"
-										class="menu__button">
-										<span class="text">{{ item.text }}</span>
-										<arrow v-if="$route.path === item.id"></arrow>
-									</router-link>
+                    <router-link
+                        v-for="item in menuDefinition"
+                        :to="item.id"
+                        class="menu__button">
+                        <span class="text">{{ item.text }}</span>
+                        <arrow v-if="$route.path === item.id" :color="'dark'"></arrow>
+                    </router-link>
                    
                 </div>
 

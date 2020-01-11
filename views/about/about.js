@@ -5,15 +5,6 @@ const About = Vue.component('about', {
             <div class="content">
                 <h2>Hi!</h2>
             
-                <div class="me">
-                    <img
-                        class="me__photo"
-                        :src="mePath">
-                    <div class="me__description">
-                        The face of a sane man
-                    </div>
-                </div>
-                
                 <p>
                     Would You Like A Snack is a tiny web project with big music ambitions: dusting old prog albums, known as prog gems, to make them shine beside classic albums.
                 </p>

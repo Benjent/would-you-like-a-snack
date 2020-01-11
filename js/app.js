@@ -130,6 +130,9 @@ Vue.filter('criterium', (value) => {
 		case criteria.PATCHWORK:
 			filteredValue = 'Patchwork of tracks'
 			break;
+		case criteria.PIANO:
+			filteredValue = 'Piano driven'
+			break;
 		case criteria.RENAISSANCE:
 			filteredValue = 'Renaissance'
 			break;

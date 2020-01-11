@@ -11,6 +11,7 @@ const Stats = Vue.component('stats', {
 
                     <histogram-vertical caption="Number of albums per year" :datasource="albumsPerYearWithRatio"></histogram-vertical>
                     <histogram-horizontal caption="Number of albums per region" :datasource="albumsPerCountryWithRatio"></histogram-horizontal>
+                    <histogram-horizontal caption="Artists with most gems" :datasource="artistsWithGemsWithRatio"></histogram-horizontal>
                     <histogram-horizontal caption="Greatest criteria occurences" :datasource="criteriaOccurencesWithRatio"></histogram-horizontal>
 
                     <caption>Most common criteria per year</caption>
@@ -42,6 +43,7 @@ const Stats = Vue.component('stats', {
             criteriaOccurences: criteriaOccurences,
             mostUsedCriteriaPerYear: mostUsedCriteriaPerYear,
             gemsNb: gemsNb,
+            artistsWithMostGems: artistsWithMostGems,
             artists: artists
         }
     },
@@ -91,19 +93,6 @@ const Stats = Vue.component('stats', {
                 });
             };
     
-            // Sort in alphabetical order
-            //   albumsPerCountryWithRatio.sort(function(a, b){
-            //     const countryA = a.country.toLowerCase()
-            //     const countryB = b.country.toLowerCase();
-        
-            //     if (countryA < countryB) {// Sort string ascending
-            //       return -1;
-            //     }
-            //     if (countryA > countryB) {
-            //       return 1;
-            //     }
-            //     return 0 // Default return value (no sorting)
-            //   })
             // Sort in DESC
             albumsPerCountryWithRatio.sort(function(a, b){
                 const countryA = a.data
@@ -157,6 +146,28 @@ const Stats = Vue.component('stats', {
             })
     
           return criteriaOccurencesWithRatio;
-        }
+        },
+		artistsWithGemsWithRatio() {
+			const min = 2
+			const artistsWithSeveralGems = Object.entries(artistsWithMostGems).filter(item => item[1] >= min)
+			artistsWithSeveralGems.sort((a, b) => b[1] - a[1])
+			const max = artistsWithSeveralGems[0][1] // Since it is sorted DESC
+			
+
+			const artistsWithGemsWithRatio = []
+			artistsWithSeveralGems.forEach(artist => {
+				const nbOfGems = artist[1];
+                const ratio = (nbOfGems - min) / (max - min);
+
+                artistsWithGemsWithRatio.push({
+                    label: artist[0],
+                    data: nbOfGems, 
+                    ratio: ratio,
+                    ratioPercent: (ratio * 100).toString() + '%',
+                })
+			})
+
+			return artistsWithGemsWithRatio
+		}
     }
 })

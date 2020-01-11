@@ -13,6 +13,7 @@ const Discographies = Vue.component('discographies', {
                     <arrow
                         class="artists__arrow"
                         :size="'small'"
+                        :color="'dark'"
                         v-if="artist == selectedArtist">
                     </arrow>
 

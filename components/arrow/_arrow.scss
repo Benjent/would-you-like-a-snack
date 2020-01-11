@@ -15,17 +15,26 @@
         position: relative;
         right: 18px;
         top: 4px;
+
+        &--dark {
+            border-bottom: 18px solid $secondary-dark;
+        }
     }
     
     &.small {
         border-left: 14px solid transparent;
         border-right: 14px solid transparent;
         border-bottom: 14px solid $primary;
+
         .arrow__inside {
             border-left: 12px solid transparent;
             border-right: 12px solid transparent;
             border-bottom: 12px solid $secondary;
             right: 12px;
+
+            &--dark {
+                border-bottom: 12px solid $secondary-dark;
+            }
         }
     }
 }

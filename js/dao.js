@@ -41,55 +41,61 @@ const albumsPerCountry = {};
 const criteriaOccurences = {};
 const mostUsedCriteriaPerYear = {};
 let gemsNb = 0;
+const artistsWithMostGems = {}
 
 for (let i = 0; i < albums.length; i++) {
 
     // Albums
     albums[i].index = i;
+		const album = albums[i]
 
     // Artists
-    if (!artists.includes(albums[i].artist)) {
-        artists.push(albums[i].artist);
+    if (!artists.includes(album.artist)) {
+        artists.push(album.artist);
     }
 
     // Designers
-    for (let j = 0; j < albums[i].designers.length; j++) {
-        const designer = albums[i].designers[j];
+    for (let j = 0; j < album.designers.length; j++) {
+        const designer = album.designers[j];
         if (!designers[designer]) {
             designers[designer] = {};
             designers[designer].name = designer;
             designers[designer].works = [];
         }
-        designers[designer].works.push(albums[i]);
+        designers[designer].works.push(album);
     }
 
     // Gems
-    if(albums[i].isAGem) {
+    if(album.isAGem) {
         gemsNb++;
+
+				// Gems per artists
+				const artist = album.artist
+				artistsWithMostGems[artist] ? artistsWithMostGems[artist]++ : artistsWithMostGems[artist] = 1
     }
 
     // Albums per year
-    const year = albums[i].year;
+    const year = album.year;
     albumsPerYear[year] ? albumsPerYear[year]++ : albumsPerYear[year] = 1;
     
     // Albums per country
-    const country = albums[i].country;
+    const country = album.country;
     albumsPerCountry[country] ? albumsPerCountry[country]++ : albumsPerCountry[country] = 1;
 
     // Most used criteria
-    for (let j = 0; j < albums[i].criteria.length; j++) {
-        const criterium = albums[i].criteria[j];
+    for (let j = 0; j < album.criteria.length; j++) {
+        const criterium = album.criteria[j];
 				if(criteriaOccurences.hasOwnProperty(criterium)) {
             criteriaOccurences[criterium]++;
         } else {
 						if (criterium === undefined) {
-							console.error('Wrong criterium used in album with id: ', albums[i].id)
+							console.error('Wrong criterium used in album with id: ', album.id)
 						}
             criteriaOccurences[criterium] = 1;
         }
 
         // Per year
-        const year = albums[i].year;
+        const year = album.year;
         if(!mostUsedCriteriaPerYear.hasOwnProperty(year)) {
             mostUsedCriteriaPerYear[year] = [];
             mostUsedCriteriaPerYear[year].push({
@@ -141,6 +147,7 @@ const Db = {
     criteriaOccurences: criteriaOccurences,
     mostUsedCriteriaPerYear: mostUsedCriteriaPerYear,
     gemsNb: gemsNb,
+	artistsWithMostGems: artistsWithMostGems,
     albumsSortedByYear: albumsSortedByYear,
     subgenres: subgenres,
     regions: regions,
