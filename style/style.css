@@ -229,6 +229,10 @@ button:hover {
   top: 4px;
 }
 
+.arrow .arrow__inside--dark {
+  border-bottom: 18px solid #1c3e40;
+}
+
 .arrow.small {
   border-left: 14px solid transparent;
   border-right: 14px solid transparent;
@@ -240,6 +244,10 @@ button:hover {
   border-right: 12px solid transparent;
   border-bottom: 12px solid #375456;
   right: 12px;
+}
+
+.arrow.small .arrow__inside--dark {
+  border-bottom: 12px solid #1c3e40;
 }
 
 .checkbox-wrapper {
@@ -474,7 +482,7 @@ button:hover {
   z-index: 1;
   height: 60px;
   width: 100vw;
-  background: #375456;
+  background: #1c3e40;
   border-bottom: solid 2px #d6be94;
   padding: 0 20px;
   -webkit-box-sizing: border-box;
@@ -605,7 +613,7 @@ button:hover {
   min-width: 30px;
   height: 25px;
   background: #d6be94;
-  color: #030504;
+  color: #1c3e40;
 }
 
 .histogram-vertical {
@@ -668,7 +676,7 @@ button:hover {
   min-height: 30px;
   width: 25px;
   background: #d6be94;
-  color: #030504;
+  color: #1c3e40;
 }
 
 .histogram-vertical__datavis .datavis__label {
@@ -906,6 +914,7 @@ button:hover {
   width: 360px;
   border-right: solid 2px #d6be94;
   box-sizing: border-box;
+  background: #1c3e40;
 }
 
 #atticVue .filter-section #regionsYears {
@@ -1078,6 +1087,7 @@ button:hover {
           box-sizing: border-box;
   border-right: solid 2px #d6be94;
   padding: 15px;
+  background: #1c3e40;
   font-size: 18px;
 }
 
