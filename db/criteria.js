@@ -47,6 +47,7 @@ const criteria = {
 
     // Style
     JAZZY_GROOVY: 'JAZZY_GROOVY',
+    PIANO: 'PIANO',
     ROCK_OPERA: 'ROCK_OPERA',
     FANFARE: 'FANFARE',
     SPACY: 'SPACY',
@@ -137,6 +138,7 @@ const criteriaOrder = [
 
     // Style
     criteria.JAZZY_GROOVY,
+    criteria.PIANO,
     criteria.ROCK_OPERA,
     criteria.FANFARE,
     criteria.SPACY,
