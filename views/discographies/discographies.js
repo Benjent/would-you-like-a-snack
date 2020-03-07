@@ -26,8 +26,7 @@ const Discographies = Vue.component('discographies', {
 
                 <img
                     class="discography__item"
-                    v-for="album in db.albums"
-                    v-if="album.artist == selectedArtist"
+                    v-for="album in discography"
                     :src=album.cover
                     @click="$store.commit('selectAlbum', album)"
                     alt="">
@@ -164,6 +163,9 @@ const Discographies = Vue.component('discographies', {
         }
     },
     computed: {
+        discography() {
+            return this.db.albums.filter((album) => album.artist === this.selectedAlbum.artist)
+        },
         selectedAlbum() {
             return store.state.selectedAlbum; // Is computed instead of data as it needs to be refreshed in view
         },

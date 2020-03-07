@@ -20,7 +20,7 @@ const Gems = Vue.component('gems', {
                         @click="selectAlbumAndView(album)">
                         {{album.artist}} - {{album.title}} ({{album.year}})
                     </span>
-                    <blockquote class="album-description">{{album.description}}</blockquote>
+                    <blockquote v-if="album.description && album.description !== 'TODO description'" class="album-description">{{album.description}}</blockquote>
                     
                 </div>
             </div>
