@@ -149,6 +149,19 @@ const Discographies = Vue.component('discographies', {
                         <blockquote class="description__content">{{selectedAlbum.description}}</blockquote>
                     </div>
 
+                    <div
+                        class="similarAlbums"
+                        v-if="similarAlbums.length > 0">
+                        <div class="similarAlbums__title">Similar albums from other artists</div>
+                        <div class="similarAlbums__list">
+                            <album-thumb
+                                v-for="album in similarAlbums"
+                                :album="album"
+                                @click.native="$store.commit('selectAlbum', album)">
+                            </album-thumb>
+                        </div>
+                    </div>
+
                 </div>
 
             </section>
@@ -197,7 +210,15 @@ const Discographies = Vue.component('discographies', {
         deezerLogoPath() {
             const color = this.selectedPlayer == 'deezer' ? 'white' : 'gold';
             return pathToImg + '/logos/deezer_logo_' + color + '.png'
-        }
+        },
+        similarAlbums() {
+            const albums = []
+            this.selectedAlbum.similarAlbums.forEach((id) => {
+                const album = getAlbumById(id)
+                albums.push(album)
+            });
+            return albums
+        },
     },
     methods: {
         setSelectedArtist(artist) {

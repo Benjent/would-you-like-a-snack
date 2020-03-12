@@ -581,7 +581,7 @@ const Attic = Vue.component('attic', {
     methods: {
         selectAlbumAndView(album) {
             store.commit('selectAlbum', album);
-						router.push(views.DISCOGRAPHIES);
+            router.push(views.DISCOGRAPHIES);
         },
         changed() {
             if(document.getElementById('albumList')) {
