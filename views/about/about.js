@@ -15,6 +15,9 @@ const About = Vue.component('about', {
                     This project is designed as a tool to discover albums, the way we would pick up vinyls in music stores, as well as centralizer of what can be found scrapping the web.
                 </p>
                 <p>
+                    Each week, I try to grow the collection with more albums if I manage to find information and the time to listen to them.
+                </p>
+                <p>
                     If you spot any wrong information or any typo, think of improvements, or would like to leave a sweet comment, please feel free to contact me at benjent@hotmail.fr.
                 </p>
             </div>
