@@ -4522,6 +4522,22 @@ const albums = [
         isAGem: false,
     },
     {
+        id: 'france_gall_dancing_disco',
+        title: 'Dancing Disco ',
+        artist: 'France Gall',
+        year: 1977,
+        country: regions.FRANCE,
+        cover: pathToCovers + '/france_gall_dancing_disco.jpg',
+        criteria: [criteria.CONCEPT, criteria.FRENCH_SUNG, criteria.ART_POP, criteria.PIANO, criteria.SOFT, criteria.SOFT_SEVENTIES, criteria.FEMALE],
+        selectedTrackTitle: 'Si, Maman, Si',
+        selectedTrackYtId: 'EYF8n5aRzwM',
+        spotifyId: '2OV5w1EvwvFUcn0PEoFAxB',
+        deezerId: '4584421',
+        designers: ['Jean-Marie Assenat'],
+        similarAlbums: ['elton_john_honky_chateau'],
+        isAGem: false,
+    },
+    {
         id: 'frank_zappa_freak_out',
         title: 'Freak Out!',
         artist: 'Frank Zappa',
@@ -5783,6 +5799,38 @@ const albums = [
         isAGem: false,
     },
     {
+        id: 'gryphon_gryphon',
+        title: 'Gryphon',
+        artist: 'Gryphon',
+        year: 1973,
+        country: regions.ENGLAND,
+        cover: pathToCovers + '/gryphon_gryphon.jpg',
+        criteria: [criteria.ODD_RHYTHM, criteria.INSTRUMENTAL, criteria.UNCOMMON_INSTRUMENTS, criteria.C_FOLK, criteria.MEDIEVAL],
+        selectedTrackTitle: 'The Unquiet Grave',
+        selectedTrackYtId: '69wZpcPtMIo',
+        spotifyId: '60ExHcZkZDEgTWJWf0cRnE',
+        deezerId: '64644082',
+        designers: ['Dan Pearce'],
+        similarAlbums: [],
+        isAGem: false,
+    },
+    {
+        id: 'gryphon_midnight_mushrumps',
+        title: 'Midnight Mushrumps',
+        artist: 'Gryphon',
+        year: 1974,
+        country: regions.ENGLAND,
+        cover: pathToCovers + '/gryphon_midnight_mushrumps.jpg',
+        criteria: [criteria.LENGTHY_TRACKS, criteria.UNCOMMON_INSTRUMENTS, criteria.C_FOLK, criteria.MEDIEVAL, criteria.BAROQUE],
+        selectedTrackTitle: 'Midnight Mushrumps',
+        selectedTrackYtId: 'WsSsTTovsAs',
+        spotifyId: '4GRKqxMatxVZqgMTne0UKD',
+        deezerId: '64644142',
+        designers: ['Ann Sullivan', 'Clive Boursnell'],
+        similarAlbums: [],
+        isAGem: false,
+    },
+    {
         id: 'gryphon_red_queen_to_gryphon_three',
         title: 'Red Queen To Gryphon Three',
         artist: 'Gryphon',
@@ -5795,6 +5843,22 @@ const albums = [
         spotifyId: '6M33CK8kyv7Fr5c9m2LpZH',
         deezerId: '64643642',
         designers: ['Dan Pearce'],
+        similarAlbums: [],
+        isAGem: false,
+    },
+    {
+        id: 'gryphon_raindance',
+        title: 'Raindance',
+        artist: 'Gryphon',
+        year: 1975,
+        country: regions.ENGLAND,
+        cover: pathToCovers + '/gryphon_raindance.jpg',
+        criteria: [criteria.ODD_RHYTHM, criteria.C_ELECTRO, criteria.SOUND_COLLAGES, criteria.C_FOLK, criteria.MEDIEVAL], // transition 1 track
+        selectedTrackTitle: 'todo', // Fontinental Version
+        selectedTrackYtId: 'todo',
+        spotifyId: '7LBbQhDXxruCKSnLLJlyEn',
+        deezerId: '64643772',
+        designers: ['Tony Wright'],
         similarAlbums: [],
         isAGem: false,
     },
@@ -6469,6 +6533,88 @@ const albums = [
         isAGem: false,
     },
     {
+        id: 'jane_jane_iii',
+        title: 'Jane III',
+        artist: 'Jane',
+        year: 1974,
+        country: regions.GERMANY,
+        cover: pathToCovers + '/jane_jane_iii.jpg',
+        criteria: [criteria.JAM, criteria.C_PSYCHEDELIC, criteria.SPACY, criteria.HEAVY],
+        selectedTrackTitle: 'todo',
+        selectedTrackYtId: 'todo',
+        spotifyId: null,
+        deezerId: null,
+        designers: ['Dierk Pape'],
+        similarAlbums: [],
+        isAGem: false,
+    },
+    {
+        id: 'jane_lady',
+        title: 'Lady',
+        artist: 'Jane',
+        year: 1975,
+        country: regions.GERMANY,
+        cover: pathToCovers + '/jane_lady.jpg',
+        criteria: [criteria.JAM, criteria.C_PSYCHEDELIC, criteria.SPACY, criteria.HEAVY, criteria.ROCK],
+        selectedTrackTitle: 'Way To Paradise',
+        selectedTrackYtId: 'yP8gKcI3rtg',
+        spotifyId: null,
+        deezerId: null,
+        designers: [],
+        similarAlbums: [],
+        isAGem: false,
+    },
+    {
+        id: 'jane_fire_water_earth_and_air',
+        title: 'Fire, Water, Earth & Air',
+        artist: 'Jane',
+        year: 1976,
+        country: regions.GERMANY,
+        cover: pathToCovers + '/jane_fire_water_earth_and_air.jpg',
+        criteria: [criteria.JAM, criteria.SPACY, criteria.HEAVY, criteria.SYMPHONIC, criteria.LENGTHY_TRACKS, criteria.SOUND_COLLAGES, criteria.CONCEPT],
+        selectedTrackTitle: 'Earth',
+        selectedTrackYtId: 'PE3VkZ5BpeU',
+        spotifyId: null,
+        deezerId: null,
+        designers: ['Dierk Pape'],
+        similarAlbums: [],
+        isAGem: false,
+    },
+    {
+        id: 'jane_between_heaven_and_hell',
+        title: 'Between Heaven And Hell',
+        artist: 'Jane',
+        year: 1977,
+        country: regions.GERMANY,
+        cover: pathToCovers + '/jane_between_heaven_and_hell.jpg',
+        criteria: [criteria.LENGTHY_TRACKS, criteria.C_PSYCHEDELIC, criteria.SYMPHONIC, criteria.JAM],
+        selectedTrackTitle: 'Between Heaven And Hell',
+        selectedTrackYtId: 'lj02vB0YyHI',
+        spotifyId: null,
+        deezerId: null,
+        designers: ['Peter Peter Team'],
+        similarAlbums: [],
+        isAGem: false,
+    },
+    {
+        id: 'jane_age_of_madness',
+        title: 'Age Of Madness',
+        artist: 'Jane',
+        year: 1978,
+        country: regions.GERMANY,
+        cover: pathToCovers + '/jane_age_of_madness.jpg',
+        criteria: [criteria.C_ELECTRO],
+        selectedTrackTitle: 'todo', // Memory Symphony
+        selectedTrackYtId: 'todo',
+        spotifyId: null,
+        deezerId: null,
+        designers: ['Peter Peter Team'],
+        similarAlbums: [],
+        isAGem: false,
+    },
+    // TODO sign no 9 : rock based, selected teack un des 3 premiers, 
+    // similar barclay james harvest fin de carrière ?
+    {
         id: 'jean_michel_jarre_equinoxe',
         title: 'Équinoxe',
         artist: 'Jean Michel Jarre',
@@ -6805,7 +6951,24 @@ const albums = [
         designers: ['John Pasche', 'Bryce Attwell'],
         similarAlbums: [],
         isAGem: false,
-    },// TODO sad wings of destiny + sin after sin ?
+    },
+    {
+        id: 'judas_priest_sad_wings_of_destiny',
+        title: 'Sad Wings Of Destiny',
+        artist: 'Judas Priest',
+        year: 1976,
+        country: regions.ENGLAND,
+        cover: pathToCovers + '/judas_priest_sad_wings_of_destiny.jpg',
+        criteria: [criteria.ODD_RHYTHM, criteria.HEAVY, criteria.TRANSITION],
+        selectedTrackTitle: 'todo',
+        selectedTrackYtId: 'todo',
+        spotifyId: '5k3WFIHmmuHrUWSj5McaAe',
+        deezerId: '8230928',
+        designers: ['John Pasche', 'Patrick Woodroffe', 'Neil French'],
+        similarAlbums: [],
+        isAGem: false,
+    },
+    // TODO sin after sin ?
     {
         id: 'july_july',
         title: 'July',
@@ -8359,6 +8522,22 @@ const albums = [
         isAGem: false,
     },
     {
+        id: 'michel_berger_and_luc_plamodon_starmania',
+        title: 'Starmania',
+        artist: 'Michel Berger & Luc Plamodon',
+        year: 1978,
+        country: regions.FRANCE,
+        cover: pathToCovers + '/michel_berger_and_luc_plamodon_starmania.jpg',
+        criteria: [criteria.ROCK_OPERA, criteria.FEMALE, criteria.SOFT_SEVENTIES, criteria.TRANSITION, criteria.STORYLINE],
+        selectedTrackTitle: '',
+        selectedTrackYtId: '',
+        spotifyId: null,
+        deezerId: null,
+        designers: [],
+        similarAlbums: ['andrew_lloyd_webber_and_tim_rice_jesus_christ_superstar', 'johnny_hallyday_hamlet'],
+        isAGem: false,
+    },
+    {
         id: 'michel_madore_le_komuso_a_cordes',
         title: 'Le Komuso À Cordes',
         artist: 'Michel Madore',
@@ -8498,6 +8677,38 @@ const albums = [
         selectedTrackYtId: 'oCsKshg2BsY',
         spotifyId: '5QOVCdPUb8A6DhfpoAr7ta',
         deezerId: '160275',
+        designers: ['Phil Travers'],
+        similarAlbums: [],
+        isAGem: false,
+    },
+    {
+        id: 'the_moody_blues_to_our_childrens_childrens_children',
+        title: `To Our Children's Children's Children`,
+        artist: 'The Moody Blues',
+        year: 1969,
+        country: regions.ENGLAND,
+        cover: pathToCovers + '/the_moody_blues_to_our_childrens_childrens_children.png',
+        criteria: [criteria.CONCEPT, criteria.C_PSYCHEDELIC, criteria.FOLK, criteria.C_ELECTRO, criteria.SOUND_COLLAGES, criteria.TRANSITION, criteria.UNCOMMON_INSTRUMENTS],
+        selectedTrackTitle: 'todo',
+        selectedTrackYtId: 'todo',
+        spotifyId: '58MFBLIicSgR672qGeZc2q',
+        deezerId: 'todo',
+        designers: ['Phil Travers'],
+        similarAlbums: [],
+        isAGem: false,
+    },
+    {
+        id: 'the_moody_blues_a_question_of_balance',
+        title: `A Question Of Balance`,
+        artist: 'The Moody Blues',
+        year: 1970,
+        country: regions.ENGLAND,
+        cover: pathToCovers + '/the_moody_blues_a_question_of_balance.png',
+        criteria: [criteria.FOLK, criteria.ORCHESTRAL_PARTS, criteria.TRANSITION],
+        selectedTrackTitle: 'todo',
+        selectedTrackYtId: 'todo',
+        spotifyId: '1TOvW3icPZmigoT9CrRav5',
+        deezerId: 'todo',
         designers: ['Phil Travers'],
         similarAlbums: [],
         isAGem: false,
@@ -8680,6 +8891,22 @@ const albums = [
         spotifyId: '6P3mt9QSzK9pygefaZwfl8',
         deezerId: '15484838',
         designers: ['Hipgnosis'],
+        similarAlbums: [],
+        isAGem: false,
+    },
+    {
+        id: 'nef_mais_alors_cest_a_lenvers',
+        title: `Mais Alors !!?... C'est À L'envers`,
+        artist: 'Nef',
+        year: 1983,
+        country: regions.FRANCE,
+        cover: pathToCovers + '/nef_mais_alors_cest_a_lenvers.jpg',
+        criteria: [criteria.UNCOMMON_INSTRUMENTS, criteria.SOPHISTICATED, criteria.C_ELECTRO, criteria.SOFT_SEVENTIES, criteria.C_PSYCHEDELIC, criteria.FRENCH_SUNG, criteria.INSTRUMENTAL],
+        selectedTrackTitle: 'Le Miroir Sur Le Dos II: À Chaque Bout',
+        selectedTrackYtId: 'todo',
+        spotifyId: '4zVLNZKDkjuw889686XlYN',
+        deezerId: '110982812',
+        designers: ['Myrtille', 'Richard Lorenzi', 'Vincent Tronc'],
         similarAlbums: [],
         isAGem: false,
     },
@@ -9471,7 +9698,39 @@ const albums = [
         selectedTrackYtId: 'vb7htoJAK7g',
         spotifyId: '0kDFjyfGFtiIMXlxJ120Ok',
         deezerId: '70550882',
-        designers: ['Storm Thorgerson'],
+        designers: ['Storm Thorgerson', 'Hipgnosis'],
+        similarAlbums: [],
+        isAGem: false,
+    },
+    {
+        id: 'peter_gabriel_scratch',
+        title: 'Scratch',
+        artist: 'Peter Gabriel',
+        year: 1978,
+        country: regions.ENGLAND,
+        cover: pathToCovers + '/peter_gabriel_scratch.jpg',
+        criteria: [criteria.ART_POP, criteria.C_ELECTRO, criteria.ODD_RHYTHM],
+        selectedTrackTitle: 'White Shadow',
+        selectedTrackYtId: 'CJrtA-shb7Y',
+        spotifyId: '3Ob7H8Z9DXN2XWMUbGtqmZ',
+        deezerId: '70550532',
+        designers: ['Hipgnosis'],
+        similarAlbums: [],
+        isAGem: false,
+    },
+    {
+        id: 'peter_gabriel_melt',
+        title: 'Melt',
+        artist: 'Peter Gabriel',
+        year: 1980,
+        country: regions.ENGLAND,
+        cover: pathToCovers + '/peter_gabriel_melt.jpg',
+        criteria: [criteria.ART_POP, criteria.C_ELECTRO, criteria.SOFT_SEVENTIES],
+        selectedTrackTitle: 'Family Snapshot',
+        selectedTrackYtId: 'Uh9wIVZBhT0',
+        spotifyId: '0KLyPao7XpXHSAMmbkxCoz',
+        deezerId: '70550782',
+        designers: ['Hipgnosis'],
         similarAlbums: [],
         isAGem: false,
     },
@@ -10612,6 +10871,22 @@ const albums = [
         isAGem: false,
     },
     {
+        id: 'scorpions_fly_to_the_rainbow',
+        title: 'Fly To The Rainbow',
+        artist: 'Scorpions',
+        year: 1974,
+        country: regions.GERMANY,
+        cover: pathToCovers + '/scorpions_fly_to_the_rainbow.jpg',
+        criteria: [criteria.HEAVY, criteria.ROCK, criteria.JAM],
+        selectedTrackTitle: 'Fly To The Rainbow',
+        selectedTrackYtId: 'dGDefpjTqFY',
+        spotifyId: '4Iu5d1damGtHlq9kQmXpQQ',
+        deezerId: '121494',
+        designers: [`Wandrey's`],
+        similarAlbums: ['wishbone_ash_argus'],
+        isAGem: false,
+    },
+    {
         id: 'semiramis_dedicato_a_frazz',
         title: 'Dedicato A Frazz',
         artist: 'Semiramis',
@@ -11359,6 +11634,22 @@ const albums = [
         isAGem: false,
     },
     {
+        id: 'terpandre_terpandre',
+        title: 'Terpandre',
+        artist: 'Terpandre',
+        year: 1981,
+        country: regions.FRANCE,
+        cover: pathToCovers + '/terpandre_terpandre.jpg',
+        criteria: [criteria.INSTRUMENTAL, criteria.UNCOMMON_INSTRUMENTS, criteria.C_JAZZ, criteria.ODD_RHYTHM, criteria.SOFT_SEVENTIES, criteria.SOFT],
+        selectedTrackTitle: 'Carrousel',
+        selectedTrackYtId: 'BHGGHyd1amY',
+        spotifyId: '2iy60Te5aOKNYi1DESFaHR',
+        deezerId: '46213',
+        designers: ['Bernard Monerri'],
+        similarAlbums: [], // TODO aurora
+        isAGem: false,
+    },
+    {
         id: 'thalassa_suffer_and_misery',
         title: 'Suffer And Misery',
         artist: 'Thalassa',
@@ -12010,6 +12301,22 @@ const albums = [
         isAGem: false,
     },
     {
+        id: 'wishbone_ash_wishbone_ash',
+        title: 'Wishbone Ash',
+        artist: 'Wishbone Ash',
+        year: 1970,
+        country: regions.ENGLAND,
+        cover: pathToCovers + '/wishbone_ash_wishbone_ash.jpg',
+        criteria: [criteria.JAM, criteria.ROCK, criteria.GREASY_SEVENTIES, criteria.HEAVY, criteria.JAM],
+        selectedTrackTitle: 'Phoenix',
+        selectedTrackYtId: '7WIwkijLCAo',
+        spotifyId: '02Y1xOnYuOQAsqr4TqQGio',
+        deezerId: '126287',
+        designers: ['John C. LePrevost'],
+        similarAlbums: [],
+        isAGem: false,
+    },
+    {
         id: 'wishbone_ash_pilgrimage',
         title: 'Pilgrimage',
         artist: 'Wishbone Ash',
@@ -12039,6 +12346,38 @@ const albums = [
         deezerId: '107233',
         designers: ['Hipgnosis'],
         similarAlbums: ['beggars_opera_pathfinder'],
+        isAGem: false,
+    },
+    {
+        id: 'wishbone_ash_wishbone_four',
+        title: 'Wishbone Four',
+        artist: 'Wishbone Ash',
+        year: 1973,
+        country: regions.ENGLAND,
+        cover: pathToCovers + '/wishbone_ash_wishbone_four.jpg',
+        criteria: [criteria.JAM, criteria.ROCK],
+        selectedTrackTitle: 'Ballad Of The Beacon',
+        selectedTrackYtId: 'QXoYpY8Px3g',
+        spotifyId: '3xRxJdz42lvZFJ8ShQzz9H',
+        deezerId: '213025',
+        designers: ['Hipgnosis'],
+        similarAlbums: [],
+        isAGem: false,
+    },
+    {
+        id: 'wishbone_ash_theres_the_rub',
+        title: `There's The Rub`,
+        artist: 'Wishbone Ash',
+        year: 1974,
+        country: regions.ENGLAND,
+        cover: pathToCovers + '/wishbone_ash_theres_the_rub.jpg',
+        criteria: [criteria.JAM, criteria.ROCK],
+        selectedTrackTitle: 'Persephone',
+        selectedTrackYtId: 'VXQQjXwnbNA',
+        spotifyId: '0jhrnGAzi75RYTsfACZMGW',
+        deezerId: '40799591',
+        designers: ['Hipgnosis'],
+        similarAlbums: [],
         isAGem: false,
     },
     {
@@ -12696,14 +13035,17 @@ function getAlbumById(id) {
 // Below is the list of prog artists that I listened and should be part of this project
 // TODO fill some discographies of artists that are already here
 /*  
-    Can   
+    Cardiacs -> ART POP bien proggy car rythmiquement fucked up + fanfare
+    Can
+    Cat Stevens a pas mal de prog vibes dans son jeu folk
     Curved Air
     ELO  
     ESKATON
     Faust
-    Gryphon
+    Gabor Szabo folk psyché
     Hawkwind
     Iron Claw
+    Isotope
     Kraftwerk  
     Man
     Mike Oldfield
@@ -12711,7 +13053,6 @@ function getAlbumById(id) {
     Neu!
     Premiata Forneria Marconi
     Procol Harum
-    Queen
     Ralph Lundsten
     Soft Machine
     Triumvirat
@@ -12719,6 +13060,7 @@ function getAlbumById(id) {
     The Who
     // TODO loggins et messina pas mal de jam en mode prog + uncommon instrum
     // TODO some jefferson starship ?
+    // TODO paice, ahsotn lord semble rock based
 */
 // TODO split criteria, add property album type which is an enum between STUDIO, LIVE, LIVE & STUDIO, COMPILATION
 // TODO consider adding criteria :
@@ -12734,11 +13076,8 @@ function getAlbumById(id) {
 */
 // TODO consider adding designers :
 /*
-    Stanley Mouse Miller
-    John Pasche(the who, isotope)
     Kim Poor (steve hacket)
     Hugh Syme (rush)
-    Tony Wright (traffic)
 */
 // TODO make mobile version
 // TODO deezer/spotify/discogs should be API + search with title + artist instead of manual ids

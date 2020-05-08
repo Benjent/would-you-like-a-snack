@@ -121,7 +121,7 @@ Vue.component('searchbar', {
         },
         selectSearchResult(album) {
             store.commit('selectAlbum', album)
-						router.push(views.DISCOGRAPHIES);
+            router.push(views.DISCOGRAPHIES);
             this.resetSearch();
         }
     }
