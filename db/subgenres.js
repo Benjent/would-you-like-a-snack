@@ -1,5 +1,14 @@
 const subgenres = [
     {
+        name: 'Afrobeat',
+        description: `The subgenre is closely related to artists from around the world that moved to London. It mixes African music with groove and soul, wrapped in long instrumental jams. The music is either chill - almost trippy - or upbeat.`,
+        mostRepresentativeAlbum: getAlbumById('osibisa_osibisa'),
+        albums: [
+            getAlbumById('cymande_promised_heights'),
+        ],
+        criteria: [criteria.UNCOMMON_INSTRUMENTS, criteria.JAZZY_GROOVY, criteria.JAM, criteria.C_FOLK, criteria.ODD_RHYTHM, criteria.LATINO]
+    },
+    {
         name: 'Art Pop / Crossover Prog',
         description: `This subgenre will adapt to the music trends when they change. It is lyrics-oriented, vocals are often theatrical; a lot of attention is given to the arrangement to create complex layers of instruments. Albums are almost always well produced, with a distinctive use of the piano. As it follows what is popular, the genre is present throughout all the Prog years, with a Rock influence during all the 70's and a heavy reliance on any kind of electronic music during the 80's and the 90's, resulting in a softer sound.`,
         mostRepresentativeAlbum: getAlbumById('supertramp_crime_of_the_century'),
