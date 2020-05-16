@@ -6,6 +6,7 @@ const Stats = Vue.component('stats', {
                     <span>{{artists.length}} artists</span>
                     <span>{{albums.length}} albums</span>
                     <span>{{gemsNb}} must-hear albums</span>
+                    <span>{{subgenres.length}} subgenres</span>
                 </div>
                 <div class="charts">
 
@@ -44,7 +45,8 @@ const Stats = Vue.component('stats', {
             mostUsedCriteriaPerYear: mostUsedCriteriaPerYear,
             gemsNb: gemsNb,
             artistsWithMostGems: artistsWithMostGems,
-            artists: artists
+            artists: artists,
+            subgenres: subgenres,
         }
     },
     computed: {
