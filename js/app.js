@@ -56,7 +56,7 @@ Vue.filter('criterium', (value) => {
 			filteredValue = 'Fantasy-influenced'
 			break;
 		case criteria.FEMALE:
-			filteredValue = 'Female vocals'
+			filteredValue = 'Female vocals or backing vocals'
 			break;
 		case criteria.FOLK:
 			filteredValue = 'Folk-based with a Prog touch'
